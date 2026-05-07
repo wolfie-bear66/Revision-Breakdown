@@ -55,20 +55,19 @@ export async function GET(
     );
   }
 
-  // 3. Access gate — call the Postgres function
-  const { data: canAccess, error: rpcError } = await supabase.rpc('can_access_topic', {
-    user_id: user.id,
-    topic_id: topic.id,
-  });
+  // 3. Access gate — check subscription status directly
+  const { data: profile } = await supabase
+    .from('users')
+    .select('subscription_status, subscription_expires_at')
+    .eq('id', user.id)
+    .single();
 
-  if (rpcError) {
-    return NextResponse.json(
-      { error: 'server_error', message: 'Access check failed' },
-      { status: 500 },
-    );
-  }
+  const isActive =
+    profile?.subscription_status === 'active' &&
+    (profile.subscription_expires_at === null ||
+      new Date(profile.subscription_expires_at) > new Date());
 
-  if (!canAccess) {
+  if (!isActive) {
     return NextResponse.json(
       { error: 'locked', message: 'Upgrade to access this content' },
       { status: 403 },
