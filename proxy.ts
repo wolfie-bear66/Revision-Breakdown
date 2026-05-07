@@ -4,7 +4,7 @@ import { NextResponse, type NextRequest } from 'next/server';
 const PUBLIC_ROUTES = new Set(['/', '/login', '/signup', '/upgrade', '/upgrade/success', '/api/stripe/webhook']);
 
 function isPublic(pathname: string): boolean {
-  if (isPublic(pathname)) return true;
+  if (PUBLIC_ROUTES.has(pathname)) return true;
   for (const route of PUBLIC_ROUTES) {
     if (route !== '/' && pathname.startsWith(route + '/')) return true;
   }
