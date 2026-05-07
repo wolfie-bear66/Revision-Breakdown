@@ -13,7 +13,7 @@ interface Card {
 
 interface FlashcardDeckProps {
   blockId: string;
-  sessionId: string;
+  sessionId: string | null;
   cards: Card[];
   subjectId: string | null;
 }
@@ -80,13 +80,30 @@ export function FlashcardDeck({ blockId, sessionId, cards, subjectId }: Flashcar
               Retry
             </button>
           )}
-          {subjectId && (
-            <Link
-              href={`/subject/${subjectId}`}
-              className="w-full rounded-xl border-2 border-border bg-card py-4 text-base font-semibold text-card-foreground text-center transition-colors hover:bg-muted focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-            >
-              Back to topic
-            </Link>
+          {!sessionId ? (
+            <>
+              <Link
+                href="/free"
+                className="w-full rounded-xl border-2 border-border bg-card py-4 text-base font-semibold text-card-foreground text-center transition-colors hover:bg-muted focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              >
+                Try another free topic
+              </Link>
+              <Link
+                href="/upgrade"
+                className="w-full rounded-xl border-2 border-primary bg-primary py-4 text-base font-semibold text-primary-foreground text-center transition-opacity hover:opacity-90 active:opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              >
+                Unlock everything — £5
+              </Link>
+            </>
+          ) : (
+            subjectId && (
+              <Link
+                href={`/subject/${subjectId}`}
+                className="w-full rounded-xl border-2 border-border bg-card py-4 text-base font-semibold text-card-foreground text-center transition-colors hover:bg-muted focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              >
+                Back to topic
+              </Link>
+            )
           )}
         </div>
       </div>
@@ -102,27 +119,31 @@ export function FlashcardDeck({ blockId, sessionId, cards, subjectId }: Flashcar
 
     const supabase = createClient();
 
-    await supabase.from('card_attempts').insert({
-      session_id: sessionId,
-      card_id: card.id,
-      correct,
-      score: correct ? 1 : 0,
-      answered_at: new Date().toISOString(),
-    });
+    if (sessionId) {
+      await supabase.from('card_attempts').insert({
+        session_id: sessionId,
+        card_id: card.id,
+        correct,
+        score: correct ? 1 : 0,
+        answered_at: new Date().toISOString(),
+      });
+    }
 
     const newCorrect = correctCount + (correct ? 1 : 0);
     const newWrong = correct ? wrongCards : [...wrongCards, card];
     const nextIndex = index + 1;
 
     if (nextIndex >= total) {
-      await supabase
-        .from('sessions')
-        .update({
-          completed_at: new Date().toISOString(),
-          score: newCorrect,
-          total,
-        })
-        .eq('id', sessionId);
+      if (sessionId) {
+        await supabase
+          .from('sessions')
+          .update({
+            completed_at: new Date().toISOString(),
+            score: newCorrect,
+            total,
+          })
+          .eq('id', sessionId);
+      }
 
       setWrongCards(newWrong);
       setFinalScore({ correct: newCorrect, total });
