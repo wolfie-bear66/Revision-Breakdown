@@ -718,7 +718,7 @@ export default async function HomePage() {
   const {
     data: { user },
   } = await supabase.auth.getUser();
-  const reviseHref = user ? '/dashboard' : '/login';
+  const reviseHref = user ? '/dashboard' : '/free';
 
   return (
     <>
