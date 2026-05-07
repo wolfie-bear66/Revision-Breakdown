@@ -1,0 +1,1459 @@
+{
+  "subject": {
+    "name": "Geography",
+    "slug": "geography",
+    "colour": "#065f46",
+    "exam_board": "AQA",
+    "emoji": "🌍"
+  },
+  "topics": [
+    {
+      "name": "Natural Hazards",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Tectonic Hazards",
+          "cards": [
+            {
+              "keyword": "tectonic plate",
+              "definition": "a large section of the Earth's crust and upper mantle that moves slowly on the mantle",
+              "display_order": 1
+            },
+            {
+              "keyword": "plate boundary",
+              "definition": "a zone where two tectonic plates meet — constructive, destructive, or conservative",
+              "display_order": 2
+            },
+            {
+              "keyword": "constructive plate boundary",
+              "definition": "where two plates move apart — magma rises to fill the gap, creating new crust and volcanoes",
+              "display_order": 3
+            },
+            {
+              "keyword": "destructive plate boundary",
+              "definition": "where two plates collide — oceanic crust is subducted under continental crust, causing volcanoes and earthquakes",
+              "display_order": 4
+            },
+            {
+              "keyword": "conservative plate boundary",
+              "definition": "where two plates slide past each other — no crust created or destroyed, but major earthquakes occur",
+              "display_order": 5
+            },
+            {
+              "keyword": "earthquake",
+              "definition": "a sudden violent shaking of the ground caused by the movement of tectonic plates",
+              "display_order": 6
+            },
+            {
+              "keyword": "focus",
+              "definition": "the point underground where an earthquake begins",
+              "display_order": 7
+            },
+            {
+              "keyword": "epicentre",
+              "definition": "the point on the Earth's surface directly above the focus of an earthquake",
+              "display_order": 8
+            },
+            {
+              "keyword": "Richter scale",
+              "definition": "a logarithmic scale measuring the magnitude of an earthquake — each point = 10× more powerful",
+              "display_order": 9
+            },
+            {
+              "keyword": "tsunami",
+              "definition": "a series of large ocean waves caused by undersea earthquakes or volcanic eruptions",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a tectonic plate?",
+              "options": [
+                "A) A layer of rock in the ocean",
+                "B) A large section of Earth's crust that moves on the mantle",
+                "C) A type of earthquake fault",
+                "D) The surface of the Earth's core"
+              ],
+              "correct_answer": "B",
+              "explanation": "Tectonic plates are huge slabs of rock that make up the Earth's crust and upper mantle. They move very slowly — a few centimetres per year.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens at a constructive plate boundary?",
+              "options": [
+                "A) Plates collide and one is subducted",
+                "B) Plates slide past each other",
+                "C) Plates move apart — magma rises to form new crust and volcanoes",
+                "D) Plates merge into one"
+              ],
+              "correct_answer": "C",
+              "explanation": "At constructive (divergent) boundaries, plates pull apart — magma rises to fill the gap, forming new oceanic crust, mid-ocean ridges, and volcanoes.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens at a destructive plate boundary?",
+              "options": [
+                "A) Two plates slide past each other",
+                "B) Oceanic crust is subducted under continental crust — causing volcanoes and earthquakes",
+                "C) Plates move apart — new crust forms",
+                "D) No earthquakes occur"
+              ],
+              "correct_answer": "B",
+              "explanation": "At destructive (convergent) boundaries, denser oceanic crust is forced under lighter continental crust (subduction) — causing deep-focus earthquakes and explosive volcanoes.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the epicentre of an earthquake?",
+              "options": [
+                "A) The point underground where the earthquake begins",
+                "B) The point on the surface directly above the focus",
+                "C) The most damaged area",
+                "D) The edge of a tectonic plate"
+              ],
+              "correct_answer": "B",
+              "explanation": "The epicentre is the point on the Earth's surface directly above the focus. Damage is usually greatest here.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What causes a tsunami?",
+              "options": [
+                "A) A hurricane moving over the sea",
+                "B) Undersea earthquakes or volcanic eruptions displacing large volumes of water",
+                "C) Very strong coastal winds",
+                "D) Rapid sea level rise"
+              ],
+              "correct_answer": "B",
+              "explanation": "Tsunamis are caused by sudden displacement of the ocean floor — usually by undersea earthquakes. The displaced water travels as waves across the ocean.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the Richter scale measure?",
+              "options": [
+                "A) The depth of an earthquake focus",
+                "B) The damage caused by an earthquake",
+                "C) The magnitude (energy released) of an earthquake",
+                "D) The duration of shaking"
+              ],
+              "correct_answer": "C",
+              "explanation": "The Richter scale measures seismic wave amplitude. It is logarithmic — a magnitude 7 earthquake is 10 times more powerful than a magnitude 6.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What type of plate boundary causes earthquakes but NOT volcanoes?",
+              "options": [
+                "A) Constructive",
+                "B) Destructive",
+                "C) Conservative",
+                "D) Subduction"
+              ],
+              "correct_answer": "C",
+              "explanation": "At conservative (transform) boundaries, plates slide past each other. No crust is created or destroyed — so no volcanoes, but extreme earthquakes occur (e.g. San Andreas Fault).",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the focus of an earthquake?",
+              "options": [
+                "A) The surface point where damage is greatest",
+                "B) The underground point where the earthquake originates",
+                "C) The scale used to measure earthquakes",
+                "D) The type of rock at a plate boundary"
+              ],
+              "correct_answer": "B",
+              "explanation": "The focus is the point underground where rocks fracture and release energy. Shallow-focus earthquakes cause more surface damage than deep ones.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What forms at constructive plate boundaries?",
+              "options": [
+                "A) Deep ocean trenches",
+                "B) Mountain ranges",
+                "C) Mid-ocean ridges and new oceanic crust",
+                "D) Fold mountains"
+              ],
+              "correct_answer": "C",
+              "explanation": "At constructive boundaries, magma rises and solidifies to form new oceanic crust — creating mid-ocean ridges like the Mid-Atlantic Ridge.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is subduction?",
+              "options": [
+                "A) Plates moving apart",
+                "B) Plates sliding past each other",
+                "C) Denser oceanic crust being forced under lighter continental crust",
+                "D) Magma rising to form new crust"
+              ],
+              "correct_answer": "C",
+              "explanation": "Subduction occurs at destructive boundaries — denser oceanic plate is forced beneath the less dense continental plate, melting in the mantle and causing volcanic eruptions.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Tectonic plates move several metres per year.",
+              "correct_answer": "False",
+              "explanation": "Tectonic plates move only a few centimetres per year — about the same rate as fingernails grow.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Constructive plate boundaries produce new oceanic crust.",
+              "correct_answer": "True",
+              "explanation": "At constructive boundaries, plates move apart and magma rises to fill the gap — forming new crust.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Conservative plate boundaries are the most likely to produce volcanoes.",
+              "correct_answer": "False",
+              "explanation": "Conservative boundaries produce earthquakes but NOT volcanoes — no crust is created or destroyed.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The epicentre is the underground point where an earthquake starts.",
+              "correct_answer": "False",
+              "explanation": "The focus is underground. The epicentre is the point on the SURFACE directly above the focus.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Tsunamis are caused by undersea earthquakes or eruptions.",
+              "correct_answer": "True",
+              "explanation": "Any event that suddenly displaces a large volume of water can cause a tsunami — most commonly undersea earthquakes.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The Richter scale is a linear scale.",
+              "correct_answer": "False",
+              "explanation": "The Richter scale is logarithmic — each step represents a 10-fold increase in earthquake magnitude.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "At destructive boundaries, oceanic crust is subducted under continental crust.",
+              "correct_answer": "True",
+              "explanation": "Oceanic crust is denser — at destructive boundaries it is forced under lighter continental crust.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Volcanoes at destructive boundaries tend to be more explosive than those at constructive boundaries.",
+              "correct_answer": "True",
+              "explanation": "Subducted oceanic crust melts and produces silica-rich magma which is viscous and explosive. Constructive boundary volcanoes have runnier lava and are less explosive.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Deep-focus earthquakes cause more surface damage than shallow-focus ones.",
+              "correct_answer": "False",
+              "explanation": "Shallow-focus earthquakes cause MORE surface damage — the energy has less rock to travel through before reaching the surface.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Mid-ocean ridges form at constructive plate boundaries.",
+              "correct_answer": "True",
+              "explanation": "Mid-ocean ridges like the Mid-Atlantic Ridge form where plates pull apart and new oceanic crust is created.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Tectonic ________ are large sections of Earth's crust that move slowly on the mantle.",
+              "correct_answer": "plates",
+              "explanation": "There are about 12 major tectonic plates and several smaller ones.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "At a ________ plate boundary, plates move apart — magma rises and new crust forms.",
+              "correct_answer": "constructive",
+              "explanation": "Constructive boundaries produce mid-ocean ridges, gently sloping volcanoes, and shallow earthquakes.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "At a ________ plate boundary, oceanic crust is subducted under continental crust.",
+              "correct_answer": "destructive",
+              "explanation": "Destructive boundaries produce explosive volcanoes, deep-focus earthquakes, and ocean trenches.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "At a ________ plate boundary, plates slide past each other — earthquakes but no volcanoes.",
+              "correct_answer": "conservative",
+              "explanation": "The San Andreas Fault in California is a famous conservative plate boundary.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the underground point where an earthquake begins.",
+              "correct_answer": "focus",
+              "explanation": "The deeper the focus, the less surface damage is caused.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the point on the surface directly above the earthquake focus.",
+              "correct_answer": "epicentre",
+              "explanation": "Damage is usually greatest at the epicentre.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ scale measures earthquake magnitude — a logarithmic scale.",
+              "correct_answer": "Richter",
+              "explanation": "Each step on the Richter scale represents a 10-fold increase in energy.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a series of large waves caused by undersea earthquakes or volcanic eruptions.",
+              "correct_answer": "tsunami",
+              "explanation": "Tsunamis travel at up to 800 km/h across the ocean.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ occurs when denser oceanic crust is forced under lighter continental crust.",
+              "correct_answer": "Subduction",
+              "explanation": "Subducted crust melts in the mantle — producing explosive volcanic eruptions.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Mid-ocean ________ form at constructive boundaries where plates move apart.",
+              "correct_answer": "ridges",
+              "explanation": "The Mid-Atlantic Ridge runs the length of the Atlantic Ocean.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "constructive boundary",
+                  "match": "plates move apart — new crust forms, gentle volcanoes"
+                },
+                {
+                  "term": "destructive boundary",
+                  "match": "oceanic crust subducted — explosive volcanoes, deep earthquakes"
+                },
+                {
+                  "term": "conservative boundary",
+                  "match": "plates slide past — earthquakes but no volcanoes"
+                },
+                {
+                  "term": "focus",
+                  "match": "underground point where earthquake begins"
+                },
+                {
+                  "term": "tsunami",
+                  "match": "large waves caused by undersea earthquake or eruption"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Living World — Ecosystems",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Tropical Rainforests",
+          "cards": [
+            {
+              "keyword": "tropical rainforest",
+              "definition": "a dense forest found near the equator — hot and wet all year, high biodiversity, multiple canopy layers",
+              "display_order": 1
+            },
+            {
+              "keyword": "biodiversity",
+              "definition": "the variety of plant and animal species in an area — tropical rainforests have the highest biodiversity on Earth",
+              "display_order": 2
+            },
+            {
+              "keyword": "nutrient cycle",
+              "definition": "the process by which nutrients are recycled through the ecosystem — in rainforests, nutrients are in the biomass not the soil",
+              "display_order": 3
+            },
+            {
+              "keyword": "emergent layer",
+              "definition": "the top layer of the rainforest — very tall trees (50m+) above the main canopy, exposed to full sunlight",
+              "display_order": 4
+            },
+            {
+              "keyword": "canopy",
+              "definition": "the main layer of the rainforest (30–40m) — dense leaves absorbing most sunlight, home to most wildlife",
+              "display_order": 5
+            },
+            {
+              "keyword": "understorey",
+              "definition": "the layer below the canopy — adapted to low light; plants have large, dark leaves",
+              "display_order": 6
+            },
+            {
+              "keyword": "deforestation",
+              "definition": "the clearing of forest — for agriculture, mining, logging, and settlement — causing habitat loss and climate change",
+              "display_order": 7
+            },
+            {
+              "keyword": "carbon store",
+              "definition": "tropical rainforests absorb CO₂ and store carbon in their biomass — deforestation releases this as greenhouse gas",
+              "display_order": 8
+            },
+            {
+              "keyword": "sustainability",
+              "definition": "meeting present needs without compromising future generations' ability to meet theirs — sustainable forestry, ecotourism",
+              "display_order": 9
+            },
+            {
+              "keyword": "interdependence",
+              "definition": "all parts of an ecosystem are linked — changing one component affects others",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Where are tropical rainforests found?",
+              "options": [
+                "A) Near the poles",
+                "B) Near the equator — between the Tropics of Cancer and Capricorn",
+                "C) In temperate regions",
+                "D) Only in South America"
+              ],
+              "correct_answer": "B",
+              "explanation": "Tropical rainforests are found near the equator — where temperatures are consistently high (26–28°C) and rainfall is heavy (2000mm+/year).",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why do tropical rainforests have poor soil?",
+              "options": [
+                "A) Too much rain washing nutrients down",
+                "B) Nutrients are in the biomass, not the soil — rapid decay and uptake",
+                "C) Volcanic ash makes soil infertile",
+                "D) High temperatures destroy soil nutrients"
+              ],
+              "correct_answer": "B",
+              "explanation": "In rainforests, nutrients are recycled so quickly that the soil itself is nutrient-poor. Most nutrients are stored in the living biomass — when vegetation is removed, fertility collapses.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is biodiversity?",
+              "options": [
+                "A) The number of trees in an area",
+                "B) The variety of plant and animal species",
+                "C) The number of ecosystem layers",
+                "D) The amount of rainfall an ecosystem receives"
+              ],
+              "correct_answer": "B",
+              "explanation": "Biodiversity refers to the variety of species. Tropical rainforests have the highest biodiversity on Earth — housing over 50% of all species on just 6% of land area.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the emergent layer?",
+              "options": [
+                "A) The forest floor",
+                "B) The middle canopy",
+                "C) The very tallest trees above the main canopy",
+                "D) The understorey"
+              ],
+              "correct_answer": "C",
+              "explanation": "Emergent trees grow 50m+ and poke above the main canopy. They are exposed to maximum sunlight and wind.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is deforestation a problem?",
+              "options": [
+                "A) It increases biodiversity",
+                "B) It makes soil more fertile",
+                "C) It causes habitat loss, releases carbon, and disrupts the water cycle",
+                "D) It reduces flooding"
+              ],
+              "correct_answer": "C",
+              "explanation": "Deforestation causes: species extinction, carbon release (climate change), soil erosion (nutrients lost), reduced transpiration (disrupting rainfall), and indigenous community displacement.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is interdependence in an ecosystem?",
+              "options": [
+                "A) Species competing for the same food",
+                "B) All parts of an ecosystem being linked — change one, it affects others",
+                "C) Animals depending on humans for food",
+                "D) Plants depending only on sunlight"
+              ],
+              "correct_answer": "B",
+              "explanation": "Interdependence means the species and physical environment are all connected — remove one element and it can cascade through the whole ecosystem.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why do rainforest soils become infertile quickly after deforestation?",
+              "options": [
+                "A) The trees take nutrients with them",
+                "B) The soil was always infertile — only biomass held nutrients",
+                "C) Rain immediately erodes the topsoil",
+                "D) Sunlight destroys soil bacteria"
+              ],
+              "correct_answer": "B",
+              "explanation": "Nutrients in rainforests are stored in the biomass — when trees are cleared, nutrient recycling stops. Tropical rain quickly washes away the thin topsoil.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is sustainable management of rainforests?",
+              "options": [
+                "A) Cutting all trees at once to maximise profit",
+                "B) Burning forests for agriculture",
+                "C) Selective logging, ecotourism, and education to protect forests for the future",
+                "D) Converting rainforests to farmland permanently"
+              ],
+              "correct_answer": "C",
+              "explanation": "Sustainable management includes selective logging (not clear-cutting), ecotourism, conservation agreements, and supporting indigenous communities.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do tropical rainforests affect climate?",
+              "options": [
+                "A) They increase CO₂ by releasing it constantly",
+                "B) They store carbon and produce oxygen — helping regulate global climate",
+                "C) They have no effect on global climate",
+                "D) They increase temperature globally"
+              ],
+              "correct_answer": "B",
+              "explanation": "Rainforests are carbon sinks — they absorb CO₂ through photosynthesis. They also contribute to global rainfall through transpiration.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which layer of the rainforest receives the least sunlight?",
+              "options": [
+                "A) Emergent layer",
+                "B) Canopy",
+                "C) Understorey",
+                "D) Forest floor"
+              ],
+              "correct_answer": "D",
+              "explanation": "The forest floor receives less than 2% of sunlight — it is dark and humid. Plants here have adaptations like large leaves to capture the little light that filters through.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Tropical rainforests are found near the poles.",
+              "correct_answer": "False",
+              "explanation": "Tropical rainforests are found near the equator — between the Tropics of Cancer and Capricorn.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Rainforest soils are very fertile.",
+              "correct_answer": "False",
+              "explanation": "Rainforest soils are actually nutrient-poor — most nutrients are stored in the living biomass, not the soil.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Tropical rainforests have the highest biodiversity on Earth.",
+              "correct_answer": "True",
+              "explanation": "Rainforests cover about 6% of land but house over 50% of all species.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The emergent layer is at the bottom of the rainforest.",
+              "correct_answer": "False",
+              "explanation": "The emergent layer is the HIGHEST — the tallest trees that poke above the main canopy.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Deforestation releases stored carbon as a greenhouse gas.",
+              "correct_answer": "True",
+              "explanation": "Trees store carbon in their biomass. When burned or decomposed after deforestation, this carbon is released as CO₂.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "All layers of the rainforest receive equal amounts of sunlight.",
+              "correct_answer": "False",
+              "explanation": "Light decreases significantly with depth — the forest floor receives less than 2% of available sunlight.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Interdependence means changing one part of an ecosystem affects others.",
+              "correct_answer": "True",
+              "explanation": "Ecosystems are complex webs — removing one species or changing one physical factor can cascade through the whole system.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Sustainable management includes ecotourism and selective logging.",
+              "correct_answer": "True",
+              "explanation": "Sustainable management aims to use resources without permanently destroying them — allowing future use.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Nutrient cycling in rainforests stores nutrients in the soil.",
+              "correct_answer": "False",
+              "explanation": "In rainforests, nutrients are rapidly recycled through the biomass — NOT stored in the soil.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Deforestation increases biodiversity by opening up the canopy.",
+              "correct_answer": "False",
+              "explanation": "Deforestation destroys habitat — causing species extinction and dramatically reducing biodiversity.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Tropical rainforests are found near the ________ — between the two Tropics.",
+              "correct_answer": "equator",
+              "explanation": "The equatorial climate provides consistent heat and rainfall year-round.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the variety of plant and animal species — highest in tropical rainforests.",
+              "correct_answer": "Biodiversity",
+              "explanation": "Tropical rainforests house over 50% of all species on just 6% of land.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ layer contains the tallest trees — over 50m — above the main canopy.",
+              "correct_answer": "emergent",
+              "explanation": "Emergent trees are exposed to maximum sunlight and wind.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the main layer — dense leaves absorbing most sunlight.",
+              "correct_answer": "canopy",
+              "explanation": "The canopy is home to most of the rainforest's wildlife.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is clearing forest for farming, logging, or development.",
+              "correct_answer": "Deforestation",
+              "explanation": "Deforestation causes habitat loss, carbon release, and soil erosion.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Rainforests are poor in ________ because nutrients are stored in the biomass, not the soil.",
+              "correct_answer": "nutrients",
+              "explanation": "When trees are removed, the thin, infertile soil is quickly washed away.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Rainforests are ________ stores — they absorb CO₂ through photosynthesis.",
+              "correct_answer": "carbon",
+              "explanation": "Deforestation releases stored carbon as CO₂ — contributing to climate change.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ management includes selective logging and ecotourism.",
+              "correct_answer": "Sustainable",
+              "explanation": "Sustainable management aims to meet present needs without destroying resources for the future.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ means all parts of an ecosystem are connected — changing one affects others.",
+              "correct_answer": "Interdependence",
+              "explanation": "Interdependence is a key geographical concept — ecosystems are complex, interconnected systems.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ floor receives less than 2% of sunlight — plants here have large, dark leaves.",
+              "correct_answer": "forest",
+              "explanation": "Large, dark leaves are an adaptation to capture maximum light in the very dark forest floor.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "tropical rainforest",
+                  "match": "found near equator — hot, wet, high biodiversity"
+                },
+                {
+                  "term": "biodiversity",
+                  "match": "variety of species — highest in tropical rainforests"
+                },
+                {
+                  "term": "deforestation",
+                  "match": "clearing forest — habitat loss, carbon release, soil erosion"
+                },
+                {
+                  "term": "nutrient cycle",
+                  "match": "nutrients in biomass — not in soil"
+                },
+                {
+                  "term": "sustainability",
+                  "match": "meeting needs without compromising future generations"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Urban Issues & Challenges",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Urbanisation & Cities",
+          "cards": [
+            {
+              "keyword": "urbanisation",
+              "definition": "the increasing proportion of people living in urban areas — a global trend driven by rural-urban migration",
+              "display_order": 1
+            },
+            {
+              "keyword": "rural-urban migration",
+              "definition": "movement of people from rural areas to cities — driven by push factors (poverty, lack of services) and pull factors (jobs, services)",
+              "display_order": 2
+            },
+            {
+              "keyword": "megacity",
+              "definition": "a city with a population of over 10 million — most megacities are now in LEDCs",
+              "display_order": 3
+            },
+            {
+              "keyword": "squatter settlement (informal settlement)",
+              "definition": "an area of poor housing — built illegally on land the residents don't own — often on city outskirts in LEDCs",
+              "display_order": 4
+            },
+            {
+              "keyword": "push factor",
+              "definition": "a reason that drives people away from rural areas — e.g. poverty, drought, lack of education",
+              "display_order": 5
+            },
+            {
+              "keyword": "pull factor",
+              "definition": "a reason that attracts people to cities — e.g. jobs, better housing, healthcare, education",
+              "display_order": 6
+            },
+            {
+              "keyword": "social deprivation",
+              "definition": "a lack of access to services and resources — linked to poverty and inequality in cities",
+              "display_order": 7
+            },
+            {
+              "keyword": "urban sprawl",
+              "definition": "the uncontrolled outward growth of cities into surrounding areas",
+              "display_order": 8
+            },
+            {
+              "keyword": "brownfield site",
+              "definition": "previously developed urban land that is available for redevelopment — preferred over greenfield",
+              "display_order": 9
+            },
+            {
+              "keyword": "greenfield site",
+              "definition": "land that has not been previously developed — often on the urban fringe; more controversial to build on",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is urbanisation?",
+              "options": [
+                "A) Movement of people from cities to rural areas",
+                "B) The increasing proportion of people living in urban areas",
+                "C) Building new cities in rural locations",
+                "D) The growth of agricultural land"
+              ],
+              "correct_answer": "B",
+              "explanation": "Urbanisation is the process by which an increasing proportion of a country's population lives in urban areas. It is driven by natural increase and rural-urban migration.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a megacity?",
+              "options": [
+                "A) A city with the world's largest buildings",
+                "B) A city with a population over 10 million",
+                "C) Any city in an LEDC",
+                "D) A city that has grown rapidly in the last decade"
+              ],
+              "correct_answer": "B",
+              "explanation": "Megacities are defined by population — over 10 million people. Most are now in LEDCs in Asia, Africa, and Latin America.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a pull factor for rural-urban migration?",
+              "options": [
+                "A) Drought and crop failure",
+                "B) Lack of schools in rural areas",
+                "C) Better job opportunities and services in cities",
+                "D) Poor quality housing in rural areas"
+              ],
+              "correct_answer": "C",
+              "explanation": "Pull factors draw people to cities — employment, higher wages, better healthcare, education, and entertainment.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a squatter settlement?",
+              "options": [
+                "A) Social housing built by governments",
+                "B) Illegal housing built on land residents don't own — usually city outskirts in LEDCs",
+                "C) Planned housing developments",
+                "D) High-rise accommodation in city centres"
+              ],
+              "correct_answer": "B",
+              "explanation": "Squatter settlements (like favelas in Brazil) form as migrants can't afford proper housing — they build on unused land, often with no legal rights.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a brownfield site?",
+              "options": [
+                "A) Land on the urban fringe",
+                "B) Agricultural land converted to housing",
+                "C) Previously developed land available for redevelopment",
+                "D) Greenspace in city centres"
+              ],
+              "correct_answer": "C",
+              "explanation": "Brownfield sites are previously built-on urban land — redeveloping them is preferred as it doesn't use green space.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are push factors for rural-urban migration?",
+              "options": [
+                "A) High wages and good services in cities",
+                "B) Attractive natural environment in cities",
+                "C) Poverty, drought, lack of services, and unemployment in rural areas",
+                "D) Low cost of living in cities"
+              ],
+              "correct_answer": "C",
+              "explanation": "Push factors drive people away from rural areas — crop failure, natural disasters, poverty, lack of education or healthcare.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is urban sprawl?",
+              "options": [
+                "A) Tall buildings in city centres",
+                "B) Uncontrolled outward growth of cities into surrounding areas",
+                "C) High density housing in urban areas",
+                "D) The migration of people to cities"
+              ],
+              "correct_answer": "B",
+              "explanation": "Urban sprawl is the spread of low-density development outward from city centres into surrounding countryside — often consuming greenfield land.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why are megacities mostly in LEDCs?",
+              "options": [
+                "A) LEDCs have better city planning",
+                "B) Rapid urbanisation in LEDCs as people migrate for economic opportunities",
+                "C) MEDCs are declining in population",
+                "D) Megacities are defined differently in MEDCs"
+              ],
+              "correct_answer": "B",
+              "explanation": "As LEDCs industrialise, millions move to cities — rapid urbanisation creates megacities. MEDCs urbanised earlier and more gradually.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is social deprivation?",
+              "options": [
+                "A) Having too many social opportunities",
+                "B) A lack of access to services, resources, and opportunities — linked to poverty",
+                "C) Living in a rural area",
+                "D) High crime rates in urban areas"
+              ],
+              "correct_answer": "B",
+              "explanation": "Social deprivation includes lack of access to education, healthcare, good housing, and employment — concentrated in the poorest urban areas.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why are greenfield sites controversial to build on?",
+              "options": [
+                "A) They are expensive to develop",
+                "B) They lack transport links",
+                "C) They involve building on undeveloped countryside — destroying habitats and farmland",
+                "D) They are usually contaminated"
+              ],
+              "correct_answer": "C",
+              "explanation": "Greenfield sites are on the urban fringe or in the countryside — building on them destroys natural habitats and agricultural land. Brownfield development is preferred.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Urbanisation is the movement of people from cities to rural areas.",
+              "correct_answer": "False",
+              "explanation": "Urbanisation is the INCREASING proportion of people living in urban areas — the opposite of rural-to-urban migration.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Most megacities are now located in LEDCs.",
+              "correct_answer": "True",
+              "explanation": "Rapid industrialisation and rural-urban migration in LEDCs have created megacities — especially in Asia.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "A brownfield site is undeveloped land on the urban fringe.",
+              "correct_answer": "False",
+              "explanation": "A brownfield site is previously developed urban land. A greenfield site is undeveloped land.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Pull factors attract people to cities.",
+              "correct_answer": "True",
+              "explanation": "Pull factors include better jobs, higher wages, education, healthcare, and entertainment — all drawing people to urban areas.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Squatter settlements are usually found in the city centre.",
+              "correct_answer": "False",
+              "explanation": "Squatter settlements are typically on the outskirts of cities in LEDCs — on land that is unused but legally owned by others.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Social deprivation is linked to poverty and inequality.",
+              "correct_answer": "True",
+              "explanation": "Social deprivation — lack of access to services and opportunities — is concentrated in the poorest urban areas.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Urban sprawl increases the density of city centres.",
+              "correct_answer": "False",
+              "explanation": "Urban sprawl is LOW-density outward growth — it expands city boundaries into surrounding areas.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Redeveloping brownfield sites is preferred to building on greenfield sites.",
+              "correct_answer": "True",
+              "explanation": "Brownfield redevelopment uses previously built-on urban land — it doesn't destroy green space or countryside.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Rural-urban migration is driven by both push and pull factors.",
+              "correct_answer": "True",
+              "explanation": "People are pushed from rural areas (poverty, lack of services) and pulled to cities (jobs, better services).",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Megacities are defined as cities with more than 1 million people.",
+              "correct_answer": "False",
+              "explanation": "Megacities are defined as having more than 10 million people.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the increasing proportion of people living in urban areas.",
+              "correct_answer": "Urbanisation",
+              "explanation": "Urbanisation is a global trend — driven by natural increase and rural-urban migration.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a city with a population over 10 million.",
+              "correct_answer": "megacity",
+              "explanation": "Most megacities are now in LEDCs — especially in Asia and Africa.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ factors push people away from rural areas — e.g. poverty and drought.",
+              "correct_answer": "Push",
+              "explanation": "Push factors include crop failure, lack of services, unemployment, and natural disasters.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ factors attract people to cities — e.g. better jobs and services.",
+              "correct_answer": "Pull",
+              "explanation": "Pull factors include higher wages, better education, healthcare, and entertainment.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ settlement is built illegally on land residents don't own.",
+              "correct_answer": "squatter",
+              "explanation": "Squatter settlements (favelas, shanty towns) grow rapidly as migrants cannot afford legal housing.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ site is previously developed urban land — preferred for redevelopment.",
+              "correct_answer": "brownfield",
+              "explanation": "Brownfield development avoids using green space or destroying habitats.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ site is undeveloped land — more controversial to build on.",
+              "correct_answer": "greenfield",
+              "explanation": "Greenfield development destroys habitats and farmland — it is less sustainable.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ sprawl is the uncontrolled outward growth of cities into surrounding areas.",
+              "correct_answer": "Urban",
+              "explanation": "Urban sprawl consumes greenfield land and increases car dependency.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Social ________ is a lack of access to services, resources, and opportunities.",
+              "correct_answer": "deprivation",
+              "explanation": "Social deprivation is concentrated in the poorest areas of cities.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ migration is the movement from rural areas to cities.",
+              "correct_answer": "Rural-urban",
+              "explanation": "Rural-urban migration is driven by push factors (rural) and pull factors (urban).",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "urbanisation",
+                  "match": "increasing proportion of people in urban areas"
+                },
+                {
+                  "term": "megacity",
+                  "match": "city with 10 million+ population"
+                },
+                {
+                  "term": "rural-urban migration",
+                  "match": "movement from countryside to cities — push and pull factors"
+                },
+                {
+                  "term": "squatter settlement",
+                  "match": "illegal housing on city outskirts in LEDCs"
+                },
+                {
+                  "term": "brownfield site",
+                  "match": "previously developed land — preferred for redevelopment"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Resources — Water & Food",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Global Resource Management",
+          "cards": [
+            {
+              "keyword": "resource",
+              "definition": "anything from the environment that meets human needs — water, food, energy",
+              "display_order": 1
+            },
+            {
+              "keyword": "water stress",
+              "definition": "when demand for water exceeds available supply — a growing global problem",
+              "display_order": 2
+            },
+            {
+              "keyword": "food insecurity",
+              "definition": "when people do not have reliable access to sufficient, safe, and nutritious food",
+              "display_order": 3
+            },
+            {
+              "keyword": "calorie consumption",
+              "definition": "the amount of food energy consumed — varies hugely between HICs and LICs",
+              "display_order": 4
+            },
+            {
+              "keyword": "water surplus",
+              "definition": "when water supply exceeds demand — typically in wet, less-populated regions",
+              "display_order": 5
+            },
+            {
+              "keyword": "water deficit",
+              "definition": "when water demand exceeds supply — typically in hot, dry, or densely populated regions",
+              "display_order": 6
+            },
+            {
+              "keyword": "virtual water",
+              "definition": "the hidden water used to produce goods — e.g. 1 kg of beef requires ~15,000 litres of water",
+              "display_order": 7
+            },
+            {
+              "keyword": "sustainable food production",
+              "definition": "methods of food production that meet current needs without depleting resources for the future",
+              "display_order": 8
+            },
+            {
+              "keyword": "food miles",
+              "definition": "the distance food travels from production to consumer — long food miles increase carbon emissions",
+              "display_order": 9
+            },
+            {
+              "keyword": "agribusiness",
+              "definition": "large-scale commercial farming — uses technology and machinery to maximise yield — can be unsustainable",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is water stress?",
+              "options": [
+                "A) The weight of water on the landscape",
+                "B) When demand for water exceeds supply",
+                "C) When water quality decreases",
+                "D) When rivers flood regularly"
+              ],
+              "correct_answer": "B",
+              "explanation": "Water stress occurs when demand exceeds available supply. It is a growing problem — climate change, population growth, and economic development are increasing water demand.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is food insecurity?",
+              "options": [
+                "A) Food being expensive",
+                "B) Unreliable access to sufficient, safe, and nutritious food",
+                "C) A lack of variety in diet",
+                "D) Food being unsafe to eat"
+              ],
+              "correct_answer": "B",
+              "explanation": "Food insecurity means people cannot rely on getting enough safe, nutritious food. Causes include poverty, conflict, drought, political instability, and climate change.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is calorie consumption unequal globally?",
+              "options": [
+                "A) Some countries have more farmland",
+                "B) HICs overconsume while many LICs suffer food insecurity — linked to wealth inequality",
+                "C) Certain climates cannot grow enough food",
+                "D) Population density determines food access"
+              ],
+              "correct_answer": "B",
+              "explanation": "There is massive global inequality in calorie consumption — people in HICs often consume excess calories while millions in LICs face starvation.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is virtual water?",
+              "options": [
+                "A) Water used in computer data centres",
+                "B) The hidden water used to produce a good — e.g. 15,000 litres per kg of beef",
+                "C) Water that evaporates before it can be used",
+                "D) Underground water sources"
+              ],
+              "correct_answer": "B",
+              "explanation": "Virtual water is the water embedded in products — when countries import food they are indirectly importing water. It is a useful concept for understanding global water use.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a water deficit?",
+              "options": [
+                "A) Countries with more water than they need",
+                "B) When water supply exceeds demand",
+                "C) When demand for water exceeds available supply",
+                "D) Underground water storage"
+              ],
+              "correct_answer": "C",
+              "explanation": "Water deficit regions include the Middle East and parts of Africa — where hot, dry climates and growing populations create a severe mismatch between supply and demand.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is sustainable food production?",
+              "options": [
+                "A) Maximising crop yields using fertilisers and pesticides",
+                "B) Food production that meets present needs without depleting future resources",
+                "C) Only growing food locally",
+                "D) Organic farming on small plots"
+              ],
+              "correct_answer": "B",
+              "explanation": "Sustainable food production aims to feed the world's growing population without destroying the natural systems that make food production possible.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are food miles?",
+              "options": [
+                "A) The distance a farmer walks while harvesting",
+                "B) The distance food travels from production to consumer",
+                "C) The amount of food wasted per household",
+                "D) The cost of transporting food per kilometre"
+              ],
+              "correct_answer": "B",
+              "explanation": "Long food miles mean more carbon emissions from transport. Locally grown food has lower food miles and a smaller carbon footprint.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is agribusiness?",
+              "options": [
+                "A) A type of sustainable farming",
+                "B) Small-scale subsistence farming",
+                "C) Large-scale commercial farming using technology to maximise yield",
+                "D) Farming controlled by governments"
+              ],
+              "correct_answer": "C",
+              "explanation": "Agribusiness uses technology, machinery, and economies of scale to maximise yield — but can deplete soil, cause water pollution, and reduce biodiversity.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which region typically has water surplus?",
+              "options": [
+                "A) Middle East",
+                "B) North Africa",
+                "C) Northern Europe and Canada",
+                "D) Sub-Saharan Africa"
+              ],
+              "correct_answer": "C",
+              "explanation": "Regions with high rainfall and lower population density — like northern Europe and Canada — typically have water surplus.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does climate change affect food security?",
+              "options": [
+                "A) It has no effect on food production",
+                "B) It increases crop yields globally",
+                "C) It causes more frequent droughts, floods, and extreme weather — threatening crop yields",
+                "D) It makes farming easier in cold regions"
+              ],
+              "correct_answer": "C",
+              "explanation": "Climate change threatens food security — changing rainfall patterns, more extreme weather events, and rising temperatures affect crop yields, especially in LICs.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Water stress occurs when supply exceeds demand.",
+              "correct_answer": "False",
+              "explanation": "Water stress occurs when DEMAND exceeds supply — the opposite.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Food insecurity means people cannot reliably access enough safe, nutritious food.",
+              "correct_answer": "True",
+              "explanation": "Food insecurity is a major global challenge — affecting hundreds of millions of people.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Virtual water refers to water used directly in drinking.",
+              "correct_answer": "False",
+              "explanation": "Virtual water is the hidden water used to produce goods — e.g. 1 kg of beef requires ~15,000 litres.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Calorie consumption is roughly equal across all countries.",
+              "correct_answer": "False",
+              "explanation": "There is massive global inequality — HICs often overconsume while many LIC populations face starvation.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Sustainable food production meets current needs without depleting future resources.",
+              "correct_answer": "True",
+              "explanation": "Sustainability means meeting present needs without compromising future generations' ability to meet theirs.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Long food miles reduce carbon emissions.",
+              "correct_answer": "False",
+              "explanation": "Long food miles INCREASE carbon emissions — more fuel is used in transporting food long distances.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Agribusiness uses technology to maximise crop yields.",
+              "correct_answer": "True",
+              "explanation": "Agribusiness is large-scale commercial farming using machinery, pesticides, and fertilisers to maximise output.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Water deficit regions include the Middle East and North Africa.",
+              "correct_answer": "True",
+              "explanation": "These regions have high temperatures, low rainfall, and growing populations — creating severe water deficits.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Climate change increases food security by making cold regions more productive.",
+              "correct_answer": "False",
+              "explanation": "While some cold regions may benefit, overall climate change THREATENS food security through more droughts, floods, and extreme weather.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Food miles are the distance food travels from farm to consumer.",
+              "correct_answer": "True",
+              "explanation": "Reducing food miles by buying locally grown produce reduces the carbon footprint of our diet.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ stress occurs when demand for water exceeds available supply.",
+              "correct_answer": "Water",
+              "explanation": "Water stress is increasing globally due to population growth, climate change, and economic development.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Food ________ means unreliable access to sufficient, safe, and nutritious food.",
+              "correct_answer": "insecurity",
+              "explanation": "Food insecurity affects hundreds of millions of people — caused by poverty, conflict, and climate change.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ water is the hidden water embedded in products.",
+              "correct_answer": "Virtual",
+              "explanation": "1 kg of beef requires approximately 15,000 litres of virtual water.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ food production meets current needs without depleting resources for the future.",
+              "correct_answer": "Sustainable",
+              "explanation": "Sustainable methods include organic farming, crop rotation, and reducing food waste.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ miles are the distance food travels from production to consumer.",
+              "correct_answer": "Food",
+              "explanation": "Longer food miles mean more transport, more carbon emissions, and greater climate impact.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Water ________ regions have more water than they need.",
+              "correct_answer": "surplus",
+              "explanation": "Northern Europe and Canada typically have water surplus due to high rainfall and lower population density.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Water ________ regions have more demand than supply — e.g. Middle East, North Africa.",
+              "correct_answer": "deficit",
+              "explanation": "Water deficit is increasing — driven by population growth, climate change, and irrigation.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is large-scale commercial farming using technology to maximise yield.",
+              "correct_answer": "Agribusiness",
+              "explanation": "Agribusiness can be unsustainable — it may deplete soil and reduce biodiversity.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ change threatens food security through droughts, floods, and extreme weather.",
+              "correct_answer": "Climate",
+              "explanation": "Climate change is making food production more unpredictable — especially in LICs.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Global ________ consumption is unequal — HICs consume excess while LICs face hunger.",
+              "correct_answer": "calorie",
+              "explanation": "Inequality in calorie consumption reflects wider economic inequality between HICs and LICs.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "water stress",
+                  "match": "demand exceeds supply"
+                },
+                {
+                  "term": "food insecurity",
+                  "match": "unreliable access to safe, nutritious food"
+                },
+                {
+                  "term": "virtual water",
+                  "match": "hidden water embedded in products"
+                },
+                {
+                  "term": "sustainable food production",
+                  "match": "meets present needs without depleting future resources"
+                },
+                {
+                  "term": "food miles",
+                  "match": "distance food travels — long = more carbon emissions"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

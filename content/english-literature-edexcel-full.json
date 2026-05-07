@@ -1,0 +1,1459 @@
+{
+  "subject": {
+    "name": "English Literature",
+    "slug": "english-literature",
+    "colour": "#4c1d95",
+    "exam_board": "Edexcel",
+    "emoji": "📚"
+  },
+  "topics": [
+    {
+      "name": "Romeo & Juliet",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Romeo & Juliet — Key Themes & Characters",
+          "cards": [
+            {
+              "keyword": "prologue",
+              "definition": "the opening sonnet — establishes the tragic outcome ('star-crossed lovers') and the feud between the families",
+              "display_order": 1
+            },
+            {
+              "keyword": "star-crossed lovers",
+              "definition": "Romeo and Juliet are destined to tragedy by fate — their love is doomed from the start",
+              "display_order": 2
+            },
+            {
+              "keyword": "the feud",
+              "definition": "the ancient conflict between the Montagues and Capulets — the root cause of the tragedy",
+              "display_order": 3
+            },
+            {
+              "keyword": "Romeo",
+              "definition": "a young Montague — impulsive and passionate, his love for Juliet drives the plot. Kills Tybalt in a rage",
+              "display_order": 4
+            },
+            {
+              "keyword": "Juliet",
+              "definition": "a young Capulet — 13 years old, pragmatic and determined. More thoughtful than Romeo",
+              "display_order": 5
+            },
+            {
+              "keyword": "Tybalt",
+              "definition": "Juliet's hot-headed cousin — represents the feud. His death is the turning point",
+              "display_order": 6
+            },
+            {
+              "keyword": "fate vs free will",
+              "definition": "a central theme — Shakespeare presents characters as controlled by fate, yet their choices also drive events",
+              "display_order": 7
+            },
+            {
+              "keyword": "love",
+              "definition": "presented in many forms — romantic (Romeo and Juliet), parental (Capulet and Juliet), sexual (the Nurse)",
+              "display_order": 8
+            },
+            {
+              "keyword": "death",
+              "definition": "ends every major relationship — Shakespeare uses death to show the destructive power of the feud",
+              "display_order": 9
+            },
+            {
+              "keyword": "haste",
+              "definition": "a key theme — decisions made too quickly lead to tragedy. Romeo and Juliet's relationship moves at breakneck speed",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does 'star-crossed lovers' mean?",
+              "options": [
+                "A) Lovers guided by stars to happiness",
+                "B) Lovers whose fate is controlled by the stars — destined for tragedy",
+                "C) Lovers who navigate by stars",
+                "D) Lovers who meet at a star-gazing event"
+              ],
+              "correct_answer": "B",
+              "explanation": "The prologue establishes Romeo and Juliet as 'star-crossed' — their fate is sealed from the outset, raising the question of fate versus free will.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the role of the feud in the play?",
+              "options": [
+                "A) It is a minor subplot",
+                "B) It is the root cause of all the tragedy — separating the lovers and leading to their deaths",
+                "C) It is resolved peacefully early in the play",
+                "D) It only affects minor characters"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Montague-Capulet feud is the engine of the tragedy — it prevents Romeo and Juliet's marriage from being open, drives Tybalt's aggression, and leads to the final deaths.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How is Juliet characterised?",
+              "options": [
+                "A) As weak and passive",
+                "B) As impulsive and hot-headed",
+                "C) As pragmatic, determined, and more thoughtful than Romeo",
+                "D) As a comic character"
+              ],
+              "correct_answer": "C",
+              "explanation": "Juliet is only 13 but shows remarkable maturity — she questions Romeo's vows, thinks practically about their marriage, and ultimately chooses death over living without Romeo.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the turning point of the play?",
+              "options": [
+                "A) The balcony scene",
+                "B) The prologue",
+                "C) The death of Tybalt and Romeo's banishment",
+                "D) The marriage of Romeo and Juliet"
+              ],
+              "correct_answer": "C",
+              "explanation": "Tybalt's death (Act 3 Scene 1) is the turning point — Romeo kills Tybalt in a rage, is banished, and the path to tragedy becomes inevitable.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does Shakespeare present the theme of haste?",
+              "options": [
+                "A) Characters always think carefully before acting",
+                "B) Haste is shown positively — quick decisions lead to happiness",
+                "C) Quick, impulsive decisions drive the tragedy — Romeo and Juliet marry within a day of meeting",
+                "D) Only minor characters act hastily"
+              ],
+              "correct_answer": "C",
+              "explanation": "Haste is a key theme — Romeo falls in love instantly, they marry within 24 hours, Romeo buys poison without waiting for Friar Lawrence's letter. Speed leads to disaster.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the prologue tell the audience?",
+              "options": [
+                "A) The play will have a happy ending",
+                "B) The feud will be resolved without death",
+                "C) The lovers will die and only their deaths will end the feud",
+                "D) Romeo and Juliet will escape to Mantua"
+              ],
+              "correct_answer": "C",
+              "explanation": "The prologue tells us everything — 'a pair of star-crossed lovers take their life'. This dramatic irony means the audience watches knowing tragedy is coming.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How is Tybalt presented?",
+              "options": [
+                "A) As a peaceful character",
+                "B) As Romeo's close friend",
+                "C) As the embodiment of the feud — aggressive, honour-obsessed, represents the destructive conflict",
+                "D) As a comic relief character"
+              ],
+              "correct_answer": "C",
+              "explanation": "Tybalt only appears in conflict scenes — he is defined by aggression and the feud. His death is pivotal: it transforms Romeo from a lover to a killer.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What forms of love does Shakespeare explore?",
+              "options": [
+                "A) Only romantic love",
+                "B) Romantic love only between young people",
+                "C) Romantic, parental, sexual, and courtly love — shown through different characters",
+                "D) Only unrequited love"
+              ],
+              "correct_answer": "C",
+              "explanation": "Love is presented through many lenses: Romeo and Juliet (romantic), the Nurse (bawdy/maternal), Paris (formal/courtly), Capulet (possessive/parental).",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How is fate presented in the play?",
+              "options": [
+                "A) Characters are entirely in control of their destinies",
+                "B) Fate is never mentioned",
+                "C) Characters appear controlled by fate — the prologue establishes a predetermined tragic outcome",
+                "D) Fate only affects Romeo"
+              ],
+              "correct_answer": "C",
+              "explanation": "Shakespeare uses the prologue to establish fate — but the characters' choices also matter. This tension between fate and free will is central to the play.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the significance of Romeo and Juliet's deaths?",
+              "options": [
+                "A) They die having failed to end the feud",
+                "B) Their deaths are pointless",
+                "C) Their deaths end the feud — the Prince blames the families: 'All are punished'",
+                "D) Their deaths only affect their families"
+              ],
+              "correct_answer": "C",
+              "explanation": "The lovers' deaths achieve what their lives could not — the families are reconciled. Shakespeare suggests that the older generation's hatred destroys the young.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The prologue tells the audience Romeo and Juliet will die.",
+              "correct_answer": "True",
+              "explanation": "The prologue reveals everything — the audience watches with dramatic irony knowing the ending.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Juliet is 16 years old in the play.",
+              "correct_answer": "False",
+              "explanation": "Juliet is 13 years old — her youth makes her situation more tragic.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Tybalt represents peace and reconciliation.",
+              "correct_answer": "False",
+              "explanation": "Tybalt represents the feud — he is aggressive, honour-obsessed, and drives conflict.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The deaths of Romeo and Juliet end the feud.",
+              "correct_answer": "True",
+              "explanation": "The Prince says 'All are punished' — the families are reconciled at the cost of their children.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Romeo and Juliet marry within 24 hours of meeting.",
+              "correct_answer": "True",
+              "explanation": "Their haste — meeting, falling in love, and marrying within a day — is a key driver of the tragedy.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Shakespeare only presents romantic love in the play.",
+              "correct_answer": "False",
+              "explanation": "Many forms of love are explored — romantic, parental (possessive), maternal (the Nurse), and courtly (Paris).",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The feud is a minor detail in the play.",
+              "correct_answer": "False",
+              "explanation": "The feud is the ROOT CAUSE of the tragedy — it makes every aspect of Romeo and Juliet's relationship impossible.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Star-crossed means the lovers are guided by fate to happiness.",
+              "correct_answer": "False",
+              "explanation": "Star-crossed means destined for tragedy — their love is doomed by fate from the start.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Romeo is characterised as thoughtful and patient.",
+              "correct_answer": "False",
+              "explanation": "Romeo is IMPULSIVE — he falls in love instantly, fights Tybalt in rage, and buys poison without waiting.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Haste is shown as a positive quality in the play.",
+              "correct_answer": "False",
+              "explanation": "Haste drives the tragedy — every quick decision (marrying immediately, taking poison, stabbing herself) leads to disaster.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ establishes the tragic outcome — 'star-crossed lovers' destined to die.",
+              "correct_answer": "prologue",
+              "explanation": "Dramatic irony: the audience knows the ending before the play begins.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ represents the feud — hot-headed and aggressive.",
+              "correct_answer": "Tybalt",
+              "explanation": "His death in Act 3 is the turning point of the play.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Romeo is ________ — his impulsive decisions drive the tragedy.",
+              "correct_answer": "impulsive",
+              "explanation": "He falls in love immediately, kills Tybalt in rage, and takes poison without waiting.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Juliet is ________ — more measured and practical than Romeo.",
+              "correct_answer": "pragmatic",
+              "explanation": "She questions Romeo's vows, organises the marriage plans, and thinks about consequences.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The theme of ________ shows how quick decisions lead to tragedy.",
+              "correct_answer": "haste",
+              "explanation": "They marry within 24 hours of meeting — speed is fatal.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The deaths of Romeo and Juliet finally end the ________ between the families.",
+              "correct_answer": "feud",
+              "explanation": "The Prince: 'All are punished' — the feud destroys the next generation.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "'________ lovers' — their fate is sealed by the stars from the prologue.",
+              "correct_answer": "star-crossed",
+              "explanation": "The prologue removes all suspense — we know they will die.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ vs free will — are the lovers controlled by fate or their own choices?",
+              "correct_answer": "Fate",
+              "explanation": "Shakespeare presents both — the prologue suggests fate, but choices also matter.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Juliet is ________ years old — her youth makes the tragedy more powerful.",
+              "correct_answer": "13",
+              "explanation": "Her age underlines the injustice — the older generation's feud destroys her.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ drives all the tragedy — it is the root cause of the deaths.",
+              "correct_answer": "feud",
+              "explanation": "Without the Montague-Capulet feud, Romeo and Juliet could have married openly.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "prologue",
+                  "match": "establishes fate — star-crossed lovers destined to die"
+                },
+                {
+                  "term": "feud",
+                  "match": "root cause of tragedy — Montagues vs Capulets"
+                },
+                {
+                  "term": "haste",
+                  "match": "quick decisions lead to disaster"
+                },
+                {
+                  "term": "Tybalt",
+                  "match": "embodies the feud — hot-headed, aggressive"
+                },
+                {
+                  "term": "fate vs free will",
+                  "match": "are characters controlled by fate or their own choices?"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A Christmas Carol",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "A Christmas Carol — Key Themes & Characters",
+          "cards": [
+            {
+              "keyword": "Ebenezer Scrooge",
+              "definition": "the protagonist — a cold, miserly businessman who is transformed by three ghostly visits",
+              "display_order": 1
+            },
+            {
+              "keyword": "transformation",
+              "definition": "Scrooge changes from selfish miser to generous benefactor — the central narrative arc",
+              "display_order": 2
+            },
+            {
+              "keyword": "Bob Cratchit",
+              "definition": "Scrooge's underpaid clerk — represents the poor. Patient and warm despite his poverty",
+              "display_order": 3
+            },
+            {
+              "keyword": "Tiny Tim",
+              "definition": "Cratchit's disabled son — a symbol of innocence and the consequence of poverty and neglect",
+              "display_order": 4
+            },
+            {
+              "keyword": "Ghost of Christmas Past",
+              "definition": "shows Scrooge his lonely childhood and happier youth — explains how he became cold",
+              "display_order": 5
+            },
+            {
+              "keyword": "Ghost of Christmas Present",
+              "definition": "shows Scrooge the joy of Christmas among the poor and Cratchit's family",
+              "display_order": 6
+            },
+            {
+              "keyword": "Ghost of Christmas Yet to Come",
+              "definition": "shows Scrooge the future if he doesn't change — his death unmourned and Tiny Tim dead",
+              "display_order": 7
+            },
+            {
+              "keyword": "social criticism",
+              "definition": "Dickens attacks Victorian society — poverty, child labour, inequality. The novella is a warning",
+              "display_order": 8
+            },
+            {
+              "keyword": "redemption",
+              "definition": "Dickens's central message — people can change and that moral regeneration is possible",
+              "display_order": 9
+            },
+            {
+              "keyword": "ignorance and want",
+              "definition": "two children shown by the Ghost of Present — symbols of society's neglect of the poor",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "How does Dickens present Scrooge at the start?",
+              "options": [
+                "A) As a generous, kind man",
+                "B) As cold, miserly, and contemptuous of Christmas and the poor",
+                "C) As a sad but caring employer",
+                "D) As a man who has simply forgotten to be kind"
+              ],
+              "correct_answer": "B",
+              "explanation": "Scrooge is introduced through a barrage of similes: 'Hard and sharp as flint', 'cold as charity'. He dismisses Christmas as 'humbug' and refuses charity for the poor.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Tiny Tim symbolise?",
+              "options": [
+                "A) The greed of the wealthy",
+                "B) The spirit of Christmas",
+                "C) The innocence of children and the consequences of poverty — his survival depends on Scrooge's transformation",
+                "D) The failure of Victorian medicine"
+              ],
+              "correct_answer": "C",
+              "explanation": "Tiny Tim is a symbol of the vulnerable poor — his life depends on whether Scrooge changes. His death in the future vision shocks Scrooge into action.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Dickens's social message?",
+              "options": [
+                "A) The poor deserve their poverty",
+                "B) Society should ignore inequality",
+                "C) The wealthy have a responsibility to help the poor — inequality is a moral failure",
+                "D) Christmas is only for the wealthy"
+              ],
+              "correct_answer": "C",
+              "explanation": "Dickens wrote the novella in 1843 — at a time of extreme poverty. He attacks the complacency of the wealthy and argues for social responsibility.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the role of the Ghost of Christmas Yet to Come?",
+              "options": [
+                "A) To show Scrooge his happy memories",
+                "B) To show the joy of the present",
+                "C) To show Scrooge the bleak future if he doesn't change — his death unmourned",
+                "D) To reunite Scrooge with Marley"
+              ],
+              "correct_answer": "C",
+              "explanation": "The third ghost is the most frightening — showing Scrooge his own unmourned death and the consequences of his neglect of the Cratchit family.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do Ignorance and Want represent?",
+              "options": [
+                "A) Two virtues",
+                "B) Scrooge's vices",
+                "C) Two children symbolising society's neglect of the poor — a warning about the consequences",
+                "D) Two wealthy characters"
+              ],
+              "correct_answer": "C",
+              "explanation": "Dickens presents Ignorance and Want as 'wretched, abject, frightful' children hidden under the Ghost of Present's robes — representing the social evils of Victorian England.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does the Ghost of Christmas Past affect Scrooge?",
+              "options": [
+                "A) It makes him angrier",
+                "B) It shows him his future death",
+                "C) It shows his lonely, neglected childhood — explaining how he became cold and helping him reconnect with emotion",
+                "D) It shows the Cratchit family"
+              ],
+              "correct_answer": "C",
+              "explanation": "Past shows Scrooge's lonely schoolboy years and his time with Fezziwig — explaining his coldness and showing him he was not always this way.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Bob Cratchit represent?",
+              "options": [
+                "A) The middle class",
+                "B) The idle poor",
+                "C) The deserving poor — hardworking, warm, and exploited by the wealthy",
+                "D) Victorian optimism"
+              ],
+              "correct_answer": "C",
+              "explanation": "Bob is hardworking, underpaid, and devoted to his family — he represents the suffering of the working poor and the human cost of Scrooge's miserliness.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the significance of Scrooge's transformation?",
+              "options": [
+                "A) It shows that money can buy happiness",
+                "B) It shows that people cannot change",
+                "C) It shows that redemption is possible — individuals and society can change for the better",
+                "D) It shows that Christmas is the key to happiness"
+              ],
+              "correct_answer": "C",
+              "explanation": "Scrooge's transformation is Dickens's central argument — redemption is possible. It also implies a political message: wealthy individuals must choose to help the poor.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "When was A Christmas Carol written and why is the context important?",
+              "options": [
+                "A) 1943 — after World War Two",
+                "B) 1843 — during a period of extreme poverty and social inequality in Victorian England",
+                "C) 1743 — during the Industrial Revolution",
+                "D) 1783 — before industrialisation"
+              ],
+              "correct_answer": "B",
+              "explanation": "Dickens wrote the novella in 1843 — the same year he visited a Ragged School in London. The Industrial Revolution had created extreme poverty and inequality.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What technique does Dickens use to open the novella?",
+              "options": [
+                "A) In medias res",
+                "B) A direct address to the reader establishing that Marley is dead",
+                "C) A description of the weather",
+                "D) A flashback to Scrooge's childhood"
+              ],
+              "correct_answer": "B",
+              "explanation": "The famous opening — 'Marley was dead: to begin with' — immediately establishes death as a theme and creates a darkly comic, direct narrative tone.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Scrooge is generous and kind at the start of the novella.",
+              "correct_answer": "False",
+              "explanation": "Scrooge is introduced as cold and miserly — dismissing Christmas as 'humbug' and refusing charity.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Tiny Tim symbolises the vulnerable poor — his survival depends on Scrooge's change.",
+              "correct_answer": "True",
+              "explanation": "The Ghost of Christmas Yet to Come shows Tiny Tim dead if Scrooge doesn't change.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Dickens wrote A Christmas Carol in 1843 to attack social inequality.",
+              "correct_answer": "True",
+              "explanation": "The novella was written during a period of extreme Victorian poverty — it is both a Christmas story and a social critique.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Ignorance and Want are two wealthy characters.",
+              "correct_answer": "False",
+              "explanation": "Ignorance and Want are two wretched children symbolising society's neglect — they are hidden under the Ghost of Present's robes.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The Ghost of Christmas Yet to Come shows Scrooge his future if he doesn't change.",
+              "correct_answer": "True",
+              "explanation": "It shows Scrooge's death unmourned and the consequences for the Cratchit family.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Bob Cratchit represents the idle poor.",
+              "correct_answer": "False",
+              "explanation": "Bob represents the DESERVING poor — he works hard for very little and is exploited by Scrooge.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The Ghost of Christmas Past shows Scrooge the Cratchit family.",
+              "correct_answer": "False",
+              "explanation": "The Ghost of Christmas Past shows Scrooge's OWN childhood and youth — explaining how he became cold.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Scrooge's transformation suggests that redemption is impossible.",
+              "correct_answer": "False",
+              "explanation": "The opposite — Scrooge's transformation is Dickens's central message: redemption and change are possible.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "A Christmas Carol is set in Victorian England.",
+              "correct_answer": "True",
+              "explanation": "The novella reflects the social inequality of 1843 Victorian England.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Dickens uses direct address to the reader in the opening.",
+              "correct_answer": "True",
+              "explanation": "'Marley was dead: to begin with' — Dickens speaks directly to the reader, creating an intimate, storytelling tone.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ begins as a cold miser and is transformed through three ghostly visits.",
+              "correct_answer": "Scrooge",
+              "explanation": "His transformation from selfishness to generosity is the central narrative arc.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ Tim is a symbol of the vulnerable poor — his survival depends on Scrooge's change.",
+              "correct_answer": "Tiny",
+              "explanation": "His potential death in the future vision shocks Scrooge into action.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Ghost of Christmas ________ shows Scrooge his neglected childhood.",
+              "correct_answer": "Past",
+              "explanation": "Understanding his past explains how Scrooge became cold — and suggests he can change.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Ghost of Christmas ________ shows Scrooge the Cratchit family and the joy of the poor.",
+              "correct_answer": "Present",
+              "explanation": "The contrast between Scrooge's wealth and the Cratchits' joy is deliberately stark.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Ghost of Christmas Yet to ________ shows Scrooge his unmourned death.",
+              "correct_answer": "Come",
+              "explanation": "The bleakest ghost — showing the future if Scrooge doesn't change.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ and Want are children symbolising society's neglect of the poor.",
+              "correct_answer": "Ignorance",
+              "explanation": "They represent the social evils Dickens attacks throughout the novella.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Dickens wrote the novella in ________ — a period of extreme Victorian poverty.",
+              "correct_answer": "1843",
+              "explanation": "The same year he visited a Ragged School and was appalled by child poverty.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Bob ________ represents the deserving poor — exploited but warm and hardworking.",
+              "correct_answer": "Cratchit",
+              "explanation": "He is underpaid but devoted to his family — humanising poverty for Dickens's audience.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Dickens's central message is that ________ is possible — people can change.",
+              "correct_answer": "redemption",
+              "explanation": "Scrooge's transformation implies a challenge to his wealthy readers.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "'________ was dead: to begin with' — the direct opening addresses the reader.",
+              "correct_answer": "Marley",
+              "explanation": "This establishes death as a theme and creates a darkly comic narrative tone.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Scrooge",
+                  "match": "cold miser transformed through three ghostly visits"
+                },
+                {
+                  "term": "Tiny Tim",
+                  "match": "symbol of vulnerable poor — survival depends on Scrooge"
+                },
+                {
+                  "term": "Ghost of Christmas Past",
+                  "match": "shows Scrooge's childhood — explains his coldness"
+                },
+                {
+                  "term": "Ghost of Christmas Yet to Come",
+                  "match": "shows bleak future — Scrooge's death unmourned"
+                },
+                {
+                  "term": "redemption",
+                  "match": "central message — people and society can change"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jekyll & Hyde",
+      "paper": "Paper 1",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Jekyll & Hyde — Key Themes & Characters",
+          "cards": [
+            {
+              "keyword": "Dr Jekyll",
+              "definition": "a respectable Victorian scientist who creates a potion to separate his good and evil sides",
+              "display_order": 1
+            },
+            {
+              "keyword": "Mr Hyde",
+              "definition": "Jekyll's dark alter ego — represents repressed desires and the evil side of human nature",
+              "display_order": 2
+            },
+            {
+              "keyword": "duality",
+              "definition": "the central theme — the idea that all humans contain both good and evil. Jekyll and Hyde are two sides of one man",
+              "display_order": 3
+            },
+            {
+              "keyword": "repression",
+              "definition": "Victorian society suppressed desires and emotions — Jekyll's experiment is a release of what he has hidden",
+              "display_order": 4
+            },
+            {
+              "keyword": "evolution/degeneration",
+              "definition": "late-Victorian fear that humans could regress — Hyde is described as ape-like, suggesting degeneration",
+              "display_order": 5
+            },
+            {
+              "keyword": "Mr Utterson",
+              "definition": "the narrative's main perspective — a cautious, respectable lawyer who investigates the mystery",
+              "display_order": 6
+            },
+            {
+              "keyword": "secrecy",
+              "definition": "characters keep secrets — the novel explores the danger of secrets in Victorian society",
+              "display_order": 7
+            },
+            {
+              "keyword": "science vs religion",
+              "definition": "the novella reflects Victorian anxieties about whether science was crossing moral boundaries",
+              "display_order": 8
+            },
+            {
+              "keyword": "respectability",
+              "definition": "the obsessive Victorian concern with public reputation — Jekyll's motive for creating Hyde",
+              "display_order": 9
+            },
+            {
+              "keyword": "narrative structure",
+              "definition": "told through multiple perspectives (letters, testimony) — creates mystery and unreliable narration",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does the duality of Jekyll and Hyde represent?",
+              "options": [
+                "A) The split between rich and poor",
+                "B) The idea that all humans contain both good and evil — the two sides of human nature",
+                "C) The conflict between science and religion",
+                "D) The division between Victorian classes"
+              ],
+              "correct_answer": "B",
+              "explanation": "Jekyll and Hyde are literally the same person — Stevenson uses them to argue that every person contains both good and evil impulses, though society forces us to hide the darker side.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does Jekyll create Hyde?",
+              "options": [
+                "A) For scientific curiosity only",
+                "B) To become immortal",
+                "C) To release repressed desires while maintaining his respectable reputation",
+                "D) To help others"
+              ],
+              "correct_answer": "C",
+              "explanation": "Jekyll creates Hyde to free himself from Victorian moral constraints — Hyde can do what Jekyll desires but cannot admit to. Respectability is Jekyll's key motive.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How is Hyde described physically?",
+              "options": [
+                "A) As tall and handsome",
+                "B) As ordinary-looking",
+                "C) As physically deformed, ape-like, and conveying a sense of evil — suggesting degeneration",
+                "D) As a mirror image of Jekyll"
+              ],
+              "correct_answer": "C",
+              "explanation": "Hyde is described as having a 'troglodytic' quality — ape-like and degenerate. This reflects Victorian fears about evolutionary regression.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does repression mean in the context of the novel?",
+              "options": [
+                "A) Scrooge's transformation",
+                "B) The suppression of desires and emotions demanded by Victorian society",
+                "C) Jekyll's scientific research",
+                "D) The secrets kept by Hyde"
+              ],
+              "correct_answer": "C",
+              "explanation": "Victorian society demanded rigid respectability — desires, emotions, and 'lower' impulses were suppressed. Jekyll's experiment releases what he has repressed.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Utterson represent?",
+              "options": [
+                "A) The criminal underworld",
+                "B) Scientific radicalism",
+                "C) Respectable, cautious Victorian society — he tries to solve the mystery while avoiding scandal",
+                "D) The religious establishment"
+              ],
+              "correct_answer": "C",
+              "explanation": "Utterson is the reader's guide through the mystery — his caution and discretion reflect the values of respectable Victorian society.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the significance of the narrative structure?",
+              "options": [
+                "A) It has a simple, linear narrative",
+                "B) Multiple perspectives (letters, testimony) create mystery and unreliable narration",
+                "C) The story is told entirely by Hyde",
+                "D) The structure is irrelevant to the themes"
+              ],
+              "correct_answer": "B",
+              "explanation": "The epistolary/multiple-perspective structure means the truth is only revealed at the end — Stevenson withholds information, creating suspense and reflecting the theme of secrecy.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What Victorian anxieties does the novella reflect?",
+              "options": [
+                "A) Fear of poverty",
+                "B) Fear of democracy",
+                "C) Fear of degeneration, loss of respectability, and science crossing moral boundaries",
+                "D) Fear of foreign invasion"
+              ],
+              "correct_answer": "C",
+              "explanation": "The novella reflects late-Victorian anxieties: Darwin's evolution theory (degeneration fears), the conflict between scientific progress and religious morality, and concern about what lay beneath respectability.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the theme of respectability?",
+              "options": [
+                "A) A minor detail in the plot",
+                "B) The obsessive Victorian concern with public reputation — Jekyll's primary motive",
+                "C) A positive quality Stevenson celebrates",
+                "D) Only relevant to Hyde"
+              ],
+              "correct_answer": "B",
+              "explanation": "Respectability was central to Victorian identity — Jekyll creates Hyde specifically to protect his reputation while indulging desires he cannot publicly admit to.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does Hyde change over the course of the novel?",
+              "options": [
+                "A) He becomes kinder",
+                "B) He becomes physically larger and more powerful — Jekyll loses control",
+                "C) He eventually becomes separate from Jekyll",
+                "D) He becomes more respectable"
+              ],
+              "correct_answer": "B",
+              "explanation": "As Jekyll loses control, Hyde grows stronger — eventually Jekyll can no longer choose to become Hyde; the transformation happens involuntarily.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the setting of London convey?",
+              "options": [
+                "A) Peace and harmony",
+                "B) The contrast between respectable and disreputable areas — fog and darkness reflecting hidden evil",
+                "C) Victorian prosperity",
+                "D) Scientific progress"
+              ],
+              "correct_answer": "B",
+              "explanation": "London's geography reflects the theme — Jekyll's respectable Cavendish Square contrasts with Hyde's door in Soho. Fog and darkness symbolise concealment and moral ambiguity.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Jekyll and Hyde are two different people.",
+              "correct_answer": "False",
+              "explanation": "Jekyll and Hyde are the SAME person — they represent the two sides of one man's nature.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Jekyll creates Hyde to maintain his respectable reputation while releasing repressed desires.",
+              "correct_answer": "True",
+              "explanation": "Respectability is Jekyll's key motive — he wants to indulge desires he cannot admit to publicly.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Stevenson celebrates Victorian respectability in the novella.",
+              "correct_answer": "False",
+              "explanation": "Stevenson CRITIQUES Victorian respectability — showing it as a mask concealing darker impulses.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Hyde is described as ape-like — reflecting fears of degeneration.",
+              "correct_answer": "True",
+              "explanation": "Hyde's physical description uses evolutionary language — suggesting regression, not progress.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Utterson is a reckless, impulsive character.",
+              "correct_answer": "False",
+              "explanation": "Utterson is cautious and discreet — representing respectable Victorian society.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The narrative structure uses multiple perspectives and letters.",
+              "correct_answer": "True",
+              "explanation": "The story is told through Utterson's perspective, Lanyon's letter, and Jekyll's full statement — creating unreliable narration.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The novella reflects Victorian anxieties about science crossing moral boundaries.",
+              "correct_answer": "True",
+              "explanation": "Jekyll's experiment crosses the moral line — interfering with human nature in ways society feared.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Hyde grows weaker as the novel progresses.",
+              "correct_answer": "False",
+              "explanation": "Hyde grows STRONGER — Jekyll loses control until the transformation happens involuntarily.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Duality is the idea that humans are entirely good or entirely evil.",
+              "correct_answer": "False",
+              "explanation": "Duality is the idea that humans contain BOTH good and evil — they cannot be separated without catastrophic consequences.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "London's fog and darkness are used symbolically in the novella.",
+              "correct_answer": "True",
+              "explanation": "The setting reflects the theme of concealment — respectable surfaces hiding darker realities.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ creates a potion to separate his good and evil sides.",
+              "correct_answer": "Jekyll",
+              "explanation": "He is a respected scientist whose experiment destroys him.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is Jekyll's dark alter ego — representing repressed desires.",
+              "correct_answer": "Hyde",
+              "explanation": "He is described as degenerate and ape-like — Victorian fears made physical.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the central theme — humans contain both good and evil.",
+              "correct_answer": "Duality",
+              "explanation": "Jekyll and Hyde are two sides of the same person.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the Victorian suppression of desires — Jekyll's experiment releases what is hidden.",
+              "correct_answer": "Repression",
+              "explanation": "Victorian society demanded rigid respectability — feelings and desires had to be hidden.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ reflects Victorian fear that humans could regress — Hyde is described as ape-like.",
+              "correct_answer": "Degeneration",
+              "explanation": "Darwin's theory of evolution raised fears about reverse evolution.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the respectable lawyer who investigates the mystery.",
+              "correct_answer": "Utterson",
+              "explanation": "He represents cautious, discreet Victorian society.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Jekyll's primary motive is maintaining his ________ while releasing repressed desires.",
+              "correct_answer": "respectability",
+              "explanation": "He wants to indulge in secret what he cannot admit to publicly.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ structure uses letters and testimony — creating mystery and unreliable narration.",
+              "correct_answer": "narrative",
+              "explanation": "The truth is revealed only at the end — Stevenson withholds information deliberately.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "As Jekyll loses control, Hyde grows ________ — transformation eventually happens involuntarily.",
+              "correct_answer": "stronger",
+              "explanation": "Hyde's growth represents the danger of suppressing darker impulses.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "London's ________ and darkness symbolise concealment and moral ambiguity.",
+              "correct_answer": "fog",
+              "explanation": "Setting reflects theme — respectable surfaces conceal darker realities.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "duality",
+                  "match": "humans contain both good and evil — Jekyll/Hyde are one person"
+                },
+                {
+                  "term": "repression",
+                  "match": "Victorian suppression of desires — Jekyll's experiment releases them"
+                },
+                {
+                  "term": "degeneration",
+                  "match": "fear humans could regress — Hyde described as ape-like"
+                },
+                {
+                  "term": "respectability",
+                  "match": "Victorian obsession with public reputation — Jekyll's motive"
+                },
+                {
+                  "term": "narrative structure",
+                  "match": "multiple perspectives — creates mystery and unreliable narration"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power & Conflict Poetry",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Power & Conflict Poetry — Key Poems",
+          "cards": [
+            {
+              "keyword": "Ozymandias (Shelley)",
+              "definition": "a sonnet about the ruins of a tyrant's statue — power is temporary, nature and time outlast human ambition",
+              "display_order": 1
+            },
+            {
+              "keyword": "London (Blake)",
+              "definition": "a walk through London exposing social suffering — poverty, prostitution, child labour. Bitter social critique",
+              "display_order": 2
+            },
+            {
+              "keyword": "The Prelude (Wordsworth)",
+              "definition": "a boat-stealing episode — nature's power and its ability to inspire guilt and awe",
+              "display_order": 3
+            },
+            {
+              "keyword": "My Last Duchess (Browning)",
+              "definition": "a dramatic monologue by a duke who had his wife killed — explores power, jealousy, and male control",
+              "display_order": 4
+            },
+            {
+              "keyword": "Charge of the Light Brigade (Tennyson)",
+              "definition": "celebrates the courage of soldiers in a disastrous cavalry charge — tension between heroism and futility",
+              "display_order": 5
+            },
+            {
+              "keyword": "Exposure (Owen)",
+              "definition": "World War One soldiers dying of cold — the real enemy is the weather, not the German forces",
+              "display_order": 6
+            },
+            {
+              "keyword": "Storm on the Island (Heaney)",
+              "definition": "a community on an exposed island — the power of nature to overwhelm and terrorise",
+              "display_order": 7
+            },
+            {
+              "keyword": "Bayonet Charge (Hughes)",
+              "definition": "a soldier's terrifying run through gunfire — the chaos and dehumanisation of battle",
+              "display_order": 8
+            },
+            {
+              "keyword": "Remains (Armitage)",
+              "definition": "a soldier haunted by killing a man in Iraq — explores psychological trauma and guilt",
+              "display_order": 9
+            },
+            {
+              "keyword": "Kamikaze (Garland)",
+              "definition": "a Japanese pilot who turns back from his mission — explores conflict between duty and survival",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the central message of Ozymandias?",
+              "options": [
+                "A) Power lasts forever",
+                "B) The power of empires is permanent",
+                "C) Human power is temporary — nature and time outlast all ambition",
+                "D) War destroys civilisations"
+              ],
+              "correct_answer": "C",
+              "explanation": "Shelley uses the ruined statue — 'colossal wreck' in a 'boundless and bare' desert — to argue that tyrannical power is inevitably destroyed by time.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does Blake present London?",
+              "options": [
+                "A) As a beautiful, thriving city",
+                "B) As a city of freedom and opportunity",
+                "C) As a city of suffering — poverty, prostitution, child labour. A bitter social critique",
+                "D) As a peaceful rural retreat"
+              ],
+              "correct_answer": "C",
+              "explanation": "Blake's London is a city of 'marks of weakness, marks of woe' — every person bears the marks of suffering. The poem attacks the church, monarchy, and social inequality.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Exposure about?",
+              "options": [
+                "A) A soldier's heroic charge",
+                "B) WW1 soldiers dying of cold — the real enemy is the weather and futility of war",
+                "C) A powerful storm",
+                "D) A soldier haunted by guilt"
+              ],
+              "correct_answer": "B",
+              "explanation": "Owen's soldiers are 'kept from sleep' by 'merciless iced east winds' — they die not in battle but from exposure. The title works literally and metaphorically.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Remains explore?",
+              "options": [
+                "A) The chaos of a cavalry charge",
+                "B) The power of nature",
+                "C) A soldier's psychological trauma and guilt after killing — the haunting effects of war",
+                "D) A Japanese pilot's decision"
+              ],
+              "correct_answer": "C",
+              "explanation": "Armitage's soldier is haunted by an Iraqi man he killed — the body 'blood-shadow' follows him everywhere. The poem explores PTSD and the lasting damage of conflict.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the central conflict in My Last Duchess?",
+              "options": [
+                "A) A military battle",
+                "B) A conflict with nature",
+                "C) A jealous duke's control over his wife — who he had killed for her perceived disobedience",
+                "D) A conflict between soldiers"
+              ],
+              "correct_answer": "C",
+              "explanation": "Browning's dramatic monologue reveals a chilling power imbalance — the duke controlled his wife in life and art, and had her killed when she failed to meet his standards.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Ozymandias suggest about tyrants?",
+              "options": [
+                "A) Tyrants are remembered forever",
+                "B) Tyranny leads to happiness",
+                "C) Tyranny is ultimately futile — the inscription 'Look on my Works, ye Mighty, and despair!' is ironic as the works have gone",
+                "D) Tyrants build lasting legacies"
+              ],
+              "correct_answer": "C",
+              "explanation": "The irony is devastating — Ozymandias commanded others to despair at his power, but now only ruins remain in an empty desert. Shelley attacks tyranny.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How is Bayonet Charge presented?",
+              "options": [
+                "A) As a heroic, glorious charge",
+                "B) As the terrifying, dehumanising chaos of battle — the soldier runs in fear and confusion",
+                "C) As a soldier's peaceful reflection",
+                "D) As a celebration of military courage"
+              ],
+              "correct_answer": "B",
+              "explanation": "Hughes presents the soldier mid-action — stumbling through gunfire, dropping his rifle, losing all patriotic idealism. The 'yellow hare' is a haunting symbol of innocence destroyed.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the significance of Kamikaze?",
+              "options": [
+                "A) It celebrates the pilot's sacrifice",
+                "B) It condemns the pilot as a coward",
+                "C) It explores the conflict between duty and survival — the pilot turns back and faces social rejection",
+                "D) It is about British soldiers"
+              ],
+              "correct_answer": "C",
+              "explanation": "Garland's pilot turns back from his suicide mission — but his family treats him as if he were dead. The poem questions whether social duty should override survival instinct.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does The Prelude present nature?",
+              "options": [
+                "A) As entirely beautiful and calming",
+                "B) As a powerful moral force — inspiring guilt and a sense of being watched after the boat-stealing episode",
+                "C) As indifferent to human actions",
+                "D) As a subject of scientific study"
+              ],
+              "correct_answer": "B",
+              "explanation": "The boat-stealing episode: after taking the boat, a mountain appears to rise like a 'living thing' — Wordsworth presents nature as having a moral authority that shapes the human mind.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Charge of the Light Brigade explore?",
+              "options": [
+                "A) The futility of all war",
+                "B) A cowardly retreat",
+                "C) The courage of soldiers in a disastrous charge — tension between heroism and military incompetence",
+                "D) The suffering of civilian populations"
+              ],
+              "correct_answer": "C",
+              "explanation": "Tennyson celebrates the soldiers' courage — 'Theirs not to reason why, Theirs but to do and die' — but the disaster (due to a military blunder) creates tension between heroism and futility.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Ozymandias argues that human power is permanent.",
+              "correct_answer": "False",
+              "explanation": "Ozymandias argues the OPPOSITE — power is temporary and inevitably destroyed by time.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Blake presents London as a joyful, thriving city.",
+              "correct_answer": "False",
+              "explanation": "Blake presents London as a city of suffering — poverty, child labour, and prostitution.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Owen's soldiers in Exposure die heroically in battle.",
+              "correct_answer": "False",
+              "explanation": "The soldiers die of COLD — the bitter irony is that the real enemy is the weather, not the opposing forces.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Remains explores a soldier's psychological trauma after killing.",
+              "correct_answer": "True",
+              "explanation": "Armitage's soldier is haunted by the 'blood-shadow' — exploring PTSD and the lasting effects of conflict.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "My Last Duchess is a dramatic monologue by a jealous duke.",
+              "correct_answer": "True",
+              "explanation": "The duke reveals his power and jealousy through the way he describes his late wife.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Bayonet Charge presents battle as heroic and glorious.",
+              "correct_answer": "False",
+              "explanation": "Bayonet Charge presents battle as terrifying and dehumanising — the soldier abandons all idealism.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Kamikaze celebrates the pilot's decision to carry out his mission.",
+              "correct_answer": "False",
+              "explanation": "The pilot TURNS BACK — and faces social rejection as a result. The poem questions the value of duty over survival.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The Prelude presents nature as a comforting, safe force.",
+              "correct_answer": "False",
+              "explanation": "Nature in The Prelude is powerful and morally authoritative — it inspires awe and guilt.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Charge of the Light Brigade celebrates both courage and military strategy.",
+              "correct_answer": "False",
+              "explanation": "Tennyson celebrates the soldiers' COURAGE — not the military strategy, which was a disastrous blunder.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "In Ozymandias, the inscription 'Look on my Works' is used ironically.",
+              "correct_answer": "True",
+              "explanation": "The works have crumbled — the inscription is devastatingly ironic, as nothing of the 'colossal wreck' survives.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ (Shelley): power is temporary — the ruined statue in the desert.",
+              "correct_answer": "Ozymandias",
+              "explanation": "'Look on my Works, ye Mighty, and despair!' — ironic as nothing remains.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ (Blake): a bitter walk through London exposing social suffering.",
+              "correct_answer": "London",
+              "explanation": "'Marks of weakness, marks of woe' — the city bears the scars of poverty and injustice.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ (Owen): WW1 soldiers dying of cold — the weather is the real enemy.",
+              "correct_answer": "Exposure",
+              "explanation": "'Our brains ache' — the soldiers suffer and die not in battle but from the elements.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ (Armitage): a soldier haunted by killing — explores PTSD and guilt.",
+              "correct_answer": "Remains",
+              "explanation": "The 'blood-shadow' follows the soldier even after returning home.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "My Last ________ (Browning): a jealous duke who had his wife killed.",
+              "correct_answer": "Duchess",
+              "explanation": "A dramatic monologue revealing power, control, and chilling jealousy.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ Charge (Hughes): the terrifying chaos and dehumanisation of battle.",
+              "correct_answer": "Bayonet",
+              "explanation": "The soldier drops patriotic idealism and runs in fear.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ (Garland): a Japanese pilot turns back — conflict between duty and survival.",
+              "correct_answer": "Kamikaze",
+              "explanation": "He faces social rejection from his own family for choosing to live.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ (Wordsworth): nature's moral power — the boat-stealing episode.",
+              "correct_answer": "Prelude",
+              "explanation": "The mountain 'rose up' — nature appears to judge and punish Wordsworth's theft.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Charge of the ________ Brigade (Tennyson): courage in a disastrous military blunder.",
+              "correct_answer": "Light",
+              "explanation": "'Theirs not to reason why' — soldiers obey despite the fatal mistake of their commanders.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ on the Island (Heaney): a community overwhelmed by the power of nature.",
+              "correct_answer": "Storm",
+              "explanation": "The island community is exposed and vulnerable — nature is terrifyingly powerful.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Ozymandias",
+                  "match": "power is temporary — ruined statue, time destroys all"
+                },
+                {
+                  "term": "London",
+                  "match": "social suffering — poverty, inequality, bitter critique"
+                },
+                {
+                  "term": "Exposure",
+                  "match": "WW1 — soldiers die of cold — weather is the enemy"
+                },
+                {
+                  "term": "Remains",
+                  "match": "PTSD — soldier haunted by killing — psychological trauma"
+                },
+                {
+                  "term": "My Last Duchess",
+                  "match": "jealous duke — power, control, wife killed"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

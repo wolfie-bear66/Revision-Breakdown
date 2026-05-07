@@ -1,0 +1,191 @@
+{
+  "subject": {
+    "name": "Food Preparation & Nutrition",
+    "slug": "food-preparation-nutrition",
+    "colour": "#d97706"
+  },
+  "topics": [
+    {
+      "name": "Nutrition & Food Science",
+      "paper": "Written Exam",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Macronutrients",
+          "cards": [
+            {
+              "keyword": "macronutrients",
+              "definition": "nutrients needed in large amounts — carbohydrates, proteins, and fats (lipids)",
+              "display_order": 1
+            },
+            {
+              "keyword": "carbohydrates",
+              "definition": "the main source of energy — simple (sugars) or complex (starch). Found in bread, rice, pasta, fruit, and sugar",
+              "display_order": 2
+            },
+            {
+              "keyword": "protein",
+              "definition": "needed for growth, repair, and maintenance of the body — made of amino acids. Found in meat, fish, eggs, and pulses",
+              "display_order": 3
+            },
+            {
+              "keyword": "essential amino acids",
+              "definition": "amino acids the body cannot make — must be obtained from food. Found in complete proteins like meat and eggs",
+              "display_order": 4
+            },
+            {
+              "keyword": "HBV protein (High Biological Value)",
+              "definition": "protein containing all essential amino acids — found in animal sources: meat, fish, eggs, dairy",
+              "display_order": 5
+            },
+            {
+              "keyword": "LBV protein (Low Biological Value)",
+              "definition": "protein lacking one or more essential amino acids — found in plant sources: beans, lentils, cereals",
+              "display_order": 6
+            },
+            {
+              "keyword": "protein complementation",
+              "definition": "combining LBV proteins to provide all essential amino acids — e.g. beans on toast, rice and lentils",
+              "display_order": 7
+            },
+            {
+              "keyword": "saturated fat",
+              "definition": "fat found mainly in animal products — associated with raised cholesterol and increased risk of heart disease",
+              "display_order": 8
+            },
+            {
+              "keyword": "unsaturated fat",
+              "definition": "fat found mainly in plant oils and oily fish — associated with lower cholesterol. Includes monounsaturated and polyunsaturated",
+              "display_order": 9
+            },
+            {
+              "keyword": "dietary fibre (NSP)",
+              "definition": "non-starch polysaccharide found in plant foods — aids digestion, prevents constipation and reduces risk of bowel cancer",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Micronutrients & Dietary Needs",
+          "cards": [
+            {
+              "keyword": "micronutrients",
+              "definition": "nutrients needed in small amounts — vitamins and minerals",
+              "display_order": 1
+            },
+            {
+              "keyword": "vitamin C (ascorbic acid)",
+              "definition": "a water-soluble vitamin needed for healthy skin, immune function, and iron absorption — found in citrus fruit, peppers, and broccoli",
+              "display_order": 2
+            },
+            {
+              "keyword": "vitamin D",
+              "definition": "a fat-soluble vitamin needed for calcium absorption and healthy bones — made by the skin in sunlight; found in oily fish and eggs",
+              "display_order": 3
+            },
+            {
+              "keyword": "iron",
+              "definition": "a mineral needed to make haemoglobin in red blood cells — deficiency causes anaemia. Found in red meat, spinach, and fortified cereals",
+              "display_order": 4
+            },
+            {
+              "keyword": "calcium",
+              "definition": "a mineral needed for strong bones and teeth and muscle function — found in dairy products, leafy greens, and fortified plant milks",
+              "display_order": 5
+            },
+            {
+              "keyword": "water-soluble vitamins",
+              "definition": "vitamins B and C — dissolve in water and cannot be stored in the body. Must be eaten regularly; easily lost in cooking",
+              "display_order": 6
+            },
+            {
+              "keyword": "fat-soluble vitamins",
+              "definition": "vitamins A, D, E, and K — stored in the liver. Can accumulate to toxic levels if consumed in excess",
+              "display_order": 7
+            },
+            {
+              "keyword": "Eatwell Guide",
+              "definition": "a UK government guide showing the proportions of different food groups needed for a healthy, balanced diet",
+              "display_order": 8
+            },
+            {
+              "keyword": "dietary reference values (DRVs)",
+              "definition": "UK government guidelines for the amounts of energy and nutrients needed by different groups of people",
+              "display_order": 9
+            },
+            {
+              "keyword": "nutritional analysis",
+              "definition": "calculating the nutrient content of a dish or diet — used to evaluate whether it meets recommended intakes",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Food Science & Cooking",
+      "paper": "Written Exam",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Food Science & Safety",
+          "cards": [
+            {
+              "keyword": "denaturation",
+              "definition": "the irreversible change to the structure of a protein when heated — e.g. egg white solidifying when cooked",
+              "display_order": 1
+            },
+            {
+              "keyword": "coagulation",
+              "definition": "the setting of protein when heated — e.g. eggs setting, meat firming up when cooked",
+              "display_order": 2
+            },
+            {
+              "keyword": "gelatinisation",
+              "definition": "starch grains absorb water and swell when heated, thickening the mixture — e.g. in sauces and custards",
+              "display_order": 3
+            },
+            {
+              "keyword": "emulsification",
+              "definition": "the combining of two liquids that normally separate — an emulsifier holds oil and water together (e.g. lecithin in egg yolk for mayonnaise)",
+              "display_order": 4
+            },
+            {
+              "keyword": "caramelisation",
+              "definition": "the browning of sugar when heated to high temperatures — creates complex flavours",
+              "display_order": 5
+            },
+            {
+              "keyword": "Maillard reaction",
+              "definition": "a browning reaction between amino acids and sugars when heated — creates flavour and colour in bread crusts, roast meat, and toast",
+              "display_order": 6
+            },
+            {
+              "keyword": "food poisoning",
+              "definition": "illness caused by eating food contaminated with harmful bacteria — e.g. Salmonella, E. coli, Campylobacter",
+              "display_order": 7
+            },
+            {
+              "keyword": "danger zone",
+              "definition": "the temperature range 8°C–63°C in which bacteria multiply most rapidly — food should not be kept in this range",
+              "display_order": 8
+            },
+            {
+              "keyword": "cross-contamination",
+              "definition": "the transfer of bacteria from one food to another — e.g. using the same chopping board for raw meat and salad",
+              "display_order": 9
+            },
+            {
+              "keyword": "HACCP (Hazard Analysis Critical Control Points)",
+              "definition": "a food safety management system identifying and controlling risks at critical points in food production",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

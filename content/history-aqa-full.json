@@ -1,0 +1,1814 @@
+{
+  "subject": {
+    "name": "History",
+    "slug": "history",
+    "colour": "#92400e",
+    "exam_board": "AQA",
+    "emoji": "🏛️"
+  },
+  "topics": [
+    {
+      "name": "Medicine Through Time",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Medieval Medicine (c.1250–c.1500)",
+          "cards": [
+            {
+              "keyword": "Galen",
+              "definition": "a Greek doctor whose ideas dominated medicine for over 1000 years — taught that the body had four humours and that doctors should use observation",
+              "display_order": 1
+            },
+            {
+              "keyword": "four humours",
+              "definition": "the medieval theory that the body contained four fluids — blood, phlegm, yellow bile, black bile — illness occurred when these were imbalanced",
+              "display_order": 2
+            },
+            {
+              "keyword": "miasma theory",
+              "definition": "the belief that disease was caused by bad air — widely accepted in the medieval and early modern period",
+              "display_order": 3
+            },
+            {
+              "keyword": "bloodletting",
+              "definition": "a common medical treatment to rebalance the humours — doctors removed blood by cutting veins or using leeches",
+              "display_order": 4
+            },
+            {
+              "keyword": "the Church",
+              "definition": "the dominant institution in medieval society — controlled medical training, supported Galen's ideas, and provided hospital care",
+              "display_order": 5
+            },
+            {
+              "keyword": "apothecary",
+              "definition": "a medieval medical practitioner who prepared and sold herbal remedies — similar to a pharmacist",
+              "display_order": 6
+            },
+            {
+              "keyword": "barber surgeon",
+              "definition": "a medieval practitioner who performed minor surgery and pulled teeth — lower status than physicians",
+              "display_order": 7
+            },
+            {
+              "keyword": "Black Death (1348)",
+              "definition": "a devastating plague killing around 1/3 of England's population — miasma theory could not explain it and treatments failed",
+              "display_order": 8
+            },
+            {
+              "keyword": "physician",
+              "definition": "a university-trained doctor who studied classical texts — the highest-status medieval medical practitioner",
+              "display_order": 9
+            },
+            {
+              "keyword": "superstition",
+              "definition": "belief in supernatural explanations for illness — prayers, charms, and pilgrimages were used as cures",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What were the four humours?",
+              "options": [
+                "A) Fire, water, earth, air",
+                "B) Blood, phlegm, yellow bile, black bile",
+                "C) Heart, brain, lungs, liver",
+                "D) Hot, cold, wet, dry"
+              ],
+              "correct_answer": "B",
+              "explanation": "The four humours theory: blood (hot/wet), phlegm (cold/wet), yellow bile (hot/dry), black bile (cold/dry). Illness = imbalance.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was miasma theory?",
+              "options": [
+                "A) The belief that illness spread through touch",
+                "B) The belief that disease was caused by bad air",
+                "C) The idea that the stars caused illness",
+                "D) The theory that insects spread disease"
+              ],
+              "correct_answer": "B",
+              "explanation": "Miasma theory held that disease came from foul-smelling air — it discouraged investigation of the real causes of disease.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why did the Church support Galen's ideas?",
+              "options": [
+                "A) Galen was a Christian",
+                "B) Galen's ideas were scientifically proven",
+                "C) Galen's ideas fitted with Church teachings about God creating the human body",
+                "D) The Church banned all other medical theories"
+              ],
+              "correct_answer": "C",
+              "explanation": "Galen believed the body was perfectly designed — this fitted with Christian beliefs about God's creation, so the Church endorsed his ideas.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was bloodletting used for?",
+              "options": [
+                "A) To fight infection",
+                "B) To remove toxins",
+                "C) To rebalance the humours by removing excess blood",
+                "D) To reduce fever by cooling the body"
+              ],
+              "correct_answer": "C",
+              "explanation": "Bloodletting was based on the humour theory — if blood was in excess, removing it would restore balance. It was often harmful.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the role of the apothecary?",
+              "options": [
+                "A) Performed surgery",
+                "B) Trained physicians at universities",
+                "C) Prepared and sold herbal remedies",
+                "D) Provided hospital nursing care"
+              ],
+              "correct_answer": "C",
+              "explanation": "Apothecaries were herbal remedy makers and sellers — they were lower status than physicians but provided accessible treatments.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How did the Black Death challenge medieval medicine?",
+              "options": [
+                "A) It proved Galen's theories were correct",
+                "B) It showed the Church had no role in medicine",
+                "C) Treatments based on humours and miasma theory completely failed",
+                "D) It led to immediate advances in understanding disease"
+              ],
+              "correct_answer": "C",
+              "explanation": "The Black Death (1348) killed ~1/3 of England — miasma-based treatments, prayers, and bloodletting all failed. Medicine could not explain or stop it.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did physicians mainly study?",
+              "options": [
+                "A) Human dissection",
+                "B) Ancient texts — especially Galen and Hippocrates",
+                "C) Practical surgery",
+                "D) Herbal remedies"
+              ],
+              "correct_answer": "B",
+              "explanation": "Medieval physicians trained at university by reading ancient Greek and Islamic texts — observation and practical dissection were rare.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why was the Church important to medieval medicine?",
+              "options": [
+                "A) The Church funded medical research",
+                "B) The Church ran universities, hospitals, and supported Galen — controlling what was taught",
+                "C) The Church encouraged scientific experiment",
+                "D) The Church trained all barber-surgeons"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Church controlled universities and hospitals, endorsed Galen, and taught that illness could be God's punishment — suppressing new ideas.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was a barber surgeon?",
+              "options": [
+                "A) A university-trained physician",
+                "B) A practitioner who performed minor surgery, bloodletting, and pulled teeth",
+                "C) A nurse in a monastery hospital",
+                "D) An Islamic medical scholar"
+              ],
+              "correct_answer": "B",
+              "explanation": "Barber surgeons were low-status practitioners — they performed practical procedures like bloodletting, tooth extraction, and wound treatment.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What supernatural treatments were used in medieval medicine?",
+              "options": [
+                "A) Dissection and anatomy",
+                "B) Chemical remedies",
+                "C) Prayer, pilgrimage, charms, and amulets",
+                "D) Vaccination and inoculation"
+              ],
+              "correct_answer": "C",
+              "explanation": "Medieval medicine blended natural and supernatural explanations — prayer, pilgrimages to saints, and wearing amulets were as common as herbal remedies.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The four humours theory was developed by Galen.",
+              "correct_answer": "False",
+              "explanation": "The four humours theory was developed by Hippocrates and further developed by Galen.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Miasma theory blamed bad air for causing disease.",
+              "correct_answer": "True",
+              "explanation": "Miasma was the dominant explanation for disease from ancient times through to the mid-19th century.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The Church encouraged dissection and new medical ideas.",
+              "correct_answer": "False",
+              "explanation": "The Church discouraged challenging Galen and initially opposed human dissection — it controlled medical thought.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Bloodletting was designed to restore the balance of the humours.",
+              "correct_answer": "True",
+              "explanation": "Removing blood treated supposed excess of the blood humour — it was based on humour theory and was often harmful.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Barber surgeons had higher status than physicians.",
+              "correct_answer": "False",
+              "explanation": "Physicians (university-trained) had the highest status. Barber surgeons were low-status practical practitioners.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The Black Death killed approximately one third of England's population.",
+              "correct_answer": "True",
+              "explanation": "The Black Death (1348) was catastrophic — it killed around a third of England's population and existing treatments were useless.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Apothecaries prepared and sold herbal remedies.",
+              "correct_answer": "True",
+              "explanation": "Apothecaries were the medieval equivalent of pharmacists — they made and sold plant-based medicines.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Medieval medicine relied entirely on observation and experiment.",
+              "correct_answer": "False",
+              "explanation": "Medieval medicine relied on ancient texts and authority — observation and experiment were not valued in the way they are today.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Galen's ideas were used in medicine for over 1000 years.",
+              "correct_answer": "True",
+              "explanation": "Galen's theories (c.130–210 AD) dominated Western medicine until the Renaissance — supported by the Church's authority.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Superstition played no role in medieval medicine.",
+              "correct_answer": "False",
+              "explanation": "Superstition was central — illness could be God's punishment, treated by prayer, pilgrimage, and charms alongside physical remedies.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ humours were blood, phlegm, yellow bile, and black bile.",
+              "correct_answer": "four",
+              "explanation": "Imbalance of the humours was believed to cause illness — restoring balance was the aim of treatment.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ theory blamed disease on foul-smelling bad air.",
+              "correct_answer": "Miasma",
+              "explanation": "Miasma discouraged investigation of real causes — it persisted until germ theory in the 1860s.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ supported Galen's ideas because they fitted with Christian belief.",
+              "correct_answer": "Church",
+              "explanation": "The Church's endorsement of Galen suppressed new medical ideas for centuries.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ was a treatment to rebalance the humours by removing blood.",
+              "correct_answer": "Bloodletting",
+              "explanation": "Doctors used knives or leeches — it was often harmful and rarely effective.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ was a university-trained doctor who studied ancient texts.",
+              "correct_answer": "physician",
+              "explanation": "Physicians were the highest-status medical practitioners in medieval society.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Death of 1348 killed around a third of England's population.",
+              "correct_answer": "Black",
+              "explanation": "The Black Death showed the complete failure of medieval medicine to understand or treat epidemic disease.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ performed minor surgery and tooth extractions.",
+              "correct_answer": "barber surgeon",
+              "explanation": "Barber surgeons were low-status practical practitioners.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ prepared and sold herbal remedies — similar to a pharmacist.",
+              "correct_answer": "apothecary",
+              "explanation": "Apothecaries were accessible to ordinary people who could not afford physicians.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Medieval patients used prayer, ________, and charms alongside physical treatments.",
+              "correct_answer": "pilgrimage",
+              "explanation": "Supernatural treatments were taken just as seriously as physical ones.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ ideas dominated Western medicine for over 1000 years.",
+              "correct_answer": "Galen's",
+              "explanation": "Galen wrote extensively on anatomy, physiology, and treatment — his errors were not challenged for centuries.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "four humours",
+                  "match": "blood, phlegm, yellow bile, black bile — imbalance causes illness"
+                },
+                {
+                  "term": "miasma theory",
+                  "match": "disease caused by bad air"
+                },
+                {
+                  "term": "bloodletting",
+                  "match": "removing blood to rebalance humours"
+                },
+                {
+                  "term": "the Church",
+                  "match": "controlled medical training — supported Galen"
+                },
+                {
+                  "term": "Black Death (1348)",
+                  "match": "killed ~1/3 of England — humour-based treatments failed"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Renaissance Medicine & Industrial Era",
+          "cards": [
+            {
+              "keyword": "Vesalius",
+              "definition": "a 16th-century Flemish anatomist who proved Galen wrong through human dissection — published 'The Fabric of the Human Body' (1543)",
+              "display_order": 1
+            },
+            {
+              "keyword": "William Harvey",
+              "definition": "proved that blood circulates around the body — published 'On the Motion of the Heart' (1628) — challenged Galen's ideas on blood",
+              "display_order": 2
+            },
+            {
+              "keyword": "Paré",
+              "definition": "a French surgeon who improved wound treatment — used turpentine ointment instead of boiling oil and developed artificial limbs",
+              "display_order": 3
+            },
+            {
+              "keyword": "the printing press",
+              "definition": "Gutenberg's invention (c.1440) — allowed new medical ideas to spread quickly across Europe",
+              "display_order": 4
+            },
+            {
+              "keyword": "Edward Jenner",
+              "definition": "developed vaccination against smallpox in 1796 — observed that milkmaids who caught cowpox were protected from smallpox",
+              "display_order": 5
+            },
+            {
+              "keyword": "germ theory",
+              "definition": "Pasteur's discovery (1861) that microorganisms cause disease — overturned miasma theory and transformed medicine",
+              "display_order": 6
+            },
+            {
+              "keyword": "Robert Koch",
+              "definition": "built on Pasteur's germ theory — identified specific bacteria causing diseases including TB (1882) and cholera (1883)",
+              "display_order": 7
+            },
+            {
+              "keyword": "John Snow",
+              "definition": "traced a cholera outbreak to a water pump in Soho (1854) — evidence-based epidemiology before germ theory was proven",
+              "display_order": 8
+            },
+            {
+              "keyword": "anaesthetics",
+              "definition": "chemicals that remove the feeling of pain during surgery — ether (1842) and chloroform (1847) enabled longer, more complex operations",
+              "display_order": 9
+            },
+            {
+              "keyword": "antiseptics",
+              "definition": "chemicals that kill bacteria and prevent infection — Joseph Lister developed carbolic spray (1867) based on germ theory",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What did Vesalius prove?",
+              "options": [
+                "A) That blood circulates",
+                "B) That Galen was wrong about human anatomy through dissection",
+                "C) That germs cause disease",
+                "D) That the printing press spread disease"
+              ],
+              "correct_answer": "B",
+              "explanation": "Vesalius dissected human bodies and found errors in Galen — e.g. the human jaw is one bone, not two. His work challenged 1400 years of accepted anatomy.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did William Harvey prove?",
+              "options": [
+                "A) The four humours were correct",
+                "B) That vaccination worked",
+                "C) That blood circulates continuously around the body",
+                "D) That germs cause infection"
+              ],
+              "correct_answer": "C",
+              "explanation": "Harvey proved blood circulates — pumped by the heart, moving in one direction. This contradicted Galen's idea that blood was consumed by the body.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How did the printing press help medicine?",
+              "options": [
+                "A) It prevented the spread of disease",
+                "B) It allowed new medical ideas to spread rapidly across Europe",
+                "C) It replaced handwritten medical texts",
+                "D) It made medicine affordable for the poor"
+              ],
+              "correct_answer": "B",
+              "explanation": "Before printing, books were hand-copied — few existed. The printing press allowed Vesalius and Harvey's ideas to spread widely and quickly.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was Edward Jenner's contribution?",
+              "options": [
+                "A) He discovered germ theory",
+                "B) He developed anaesthetics",
+                "C) He developed vaccination against smallpox using cowpox",
+                "D) He proved blood circulates"
+              ],
+              "correct_answer": "C",
+              "explanation": "Jenner observed that milkmaids with cowpox didn't get smallpox — he tested vaccination in 1796 and it worked, though he didn't know why (germ theory came later).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did Louis Pasteur discover?",
+              "options": [
+                "A) That blood circulates",
+                "B) That germs (microorganisms) cause disease",
+                "C) That vaccination prevents smallpox",
+                "D) That antiseptics prevent infection"
+              ],
+              "correct_answer": "B",
+              "explanation": "Pasteur's germ theory (1861) showed that microorganisms cause fermentation and disease — overturning miasma theory and transforming medicine.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the significance of anaesthetics?",
+              "options": [
+                "A) They prevented wound infection",
+                "B) They proved germ theory",
+                "C) They removed pain, allowing longer and more complex operations",
+                "D) They were used to treat cholera"
+              ],
+              "correct_answer": "C",
+              "explanation": "Before anaesthetics, surgery was extremely painful and fast — patients were held down. Ether and chloroform allowed painless, longer operations.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did Joseph Lister do?",
+              "options": [
+                "A) Developed vaccination",
+                "B) Identified specific bacteria causing diseases",
+                "C) Applied germ theory to surgery using carbolic acid antiseptic spray",
+                "D) Proved blood circulates"
+              ],
+              "correct_answer": "C",
+              "explanation": "Lister applied Pasteur's germ theory to surgery — his carbolic acid spray killed bacteria during operations, dramatically reducing death from infection.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How did John Snow contribute to understanding disease?",
+              "options": [
+                "A) He developed germ theory",
+                "B) He traced a cholera outbreak to a contaminated water pump — evidence-based epidemiology",
+                "C) He proved that miasma caused cholera",
+                "D) He developed antiseptic surgery"
+              ],
+              "correct_answer": "B",
+              "explanation": "Snow mapped cholera cases in Soho and found they clustered around one water pump — removing the handle stopped the outbreak. This was evidence-based medicine before germ theory.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did Robert Koch contribute?",
+              "options": [
+                "A) He developed the smallpox vaccine",
+                "B) He identified specific bacteria causing TB and cholera",
+                "C) He invented antiseptic surgery",
+                "D) He proved blood circulates"
+              ],
+              "correct_answer": "B",
+              "explanation": "Koch developed techniques to isolate and identify specific bacteria — proving that individual bacteria caused specific diseases. This enabled targeted treatments.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the problem with early anaesthetics?",
+              "options": [
+                "A) They didn't work",
+                "B) They were too expensive",
+                "C) They removed pain but not infection — surgery death rates initially rose",
+                "D) They were illegal"
+              ],
+              "correct_answer": "C",
+              "explanation": "Anaesthetics solved the pain problem but increased blood loss and operating time — without antiseptics to tackle infection, death rates from surgery initially increased.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Vesalius proved Galen correct through human dissection.",
+              "correct_answer": "False",
+              "explanation": "Vesalius proved Galen WRONG — he found errors in Galen's anatomy through systematic human dissection.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "William Harvey proved blood circulates around the body.",
+              "correct_answer": "True",
+              "explanation": "Harvey showed blood is pumped by the heart in one direction around the body — contradicting Galen's theory.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The printing press slowed the spread of new medical ideas.",
+              "correct_answer": "False",
+              "explanation": "The printing press accelerated the spread of ideas — Vesalius and Harvey's discoveries spread rapidly across Europe.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Jenner understood the scientific basis for why vaccination worked.",
+              "correct_answer": "False",
+              "explanation": "Jenner observed that vaccination worked but did not know why — germ theory and viruses were discovered much later.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Germ theory overturned miasma theory.",
+              "correct_answer": "True",
+              "explanation": "Pasteur's germ theory (1861) proved that microorganisms cause disease — ending the dominance of miasma theory.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Anaesthetics immediately solved all problems with surgery.",
+              "correct_answer": "False",
+              "explanation": "Anaesthetics removed pain but without antiseptics, infection remained fatal. Surgery death rates initially rose.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Lister used carbolic acid to prevent infection during surgery.",
+              "correct_answer": "True",
+              "explanation": "Lister's carbolic spray killed bacteria during operations — applying germ theory to surgical practice.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "John Snow proved germ theory before Pasteur.",
+              "correct_answer": "False",
+              "explanation": "Snow identified contaminated water as the source of cholera in 1854 — but without knowing about germs. Pasteur published germ theory in 1861.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Koch identified specific bacteria causing TB and cholera.",
+              "correct_answer": "True",
+              "explanation": "Koch developed techniques to isolate bacteria — his identification of the TB bacillus (1882) was a landmark.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Paré introduced boiling oil as a standard wound treatment.",
+              "correct_answer": "False",
+              "explanation": "Paré REPLACED boiling oil with a gentler turpentine ointment after running out of oil — his patients did better.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ proved Galen wrong about anatomy through systematic human dissection.",
+              "correct_answer": "Vesalius",
+              "explanation": "His 1543 work 'The Fabric of the Human Body' contained accurate anatomical drawings.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "William ________ proved that blood circulates continuously, pumped by the heart.",
+              "correct_answer": "Harvey",
+              "explanation": "Harvey used dissection and experiment — his 1628 publication challenged Galenic ideas.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ press allowed new medical ideas to spread rapidly across Europe.",
+              "correct_answer": "printing",
+              "explanation": "Without printing, Vesalius and Harvey's discoveries would have spread much more slowly.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Edward ________ developed vaccination against smallpox using cowpox in 1796.",
+              "correct_answer": "Jenner",
+              "explanation": "Jenner's empirical observation — milkmaids with cowpox didn't get smallpox — led to the first vaccine.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Pasteur's ________ theory proved that microorganisms cause disease.",
+              "correct_answer": "germ",
+              "explanation": "Germ theory (1861) transformed medicine — explaining infection, enabling vaccines, and guiding surgery.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ developed carbolic acid antiseptic spray to prevent surgical infection.",
+              "correct_answer": "Lister",
+              "explanation": "Lister applied germ theory to surgery — dramatically reducing post-operative death from infection.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Robert ________ identified specific bacteria causing TB and cholera.",
+              "correct_answer": "Koch",
+              "explanation": "Koch's techniques allowed scientists to link specific bacteria to specific diseases.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ traced cholera to a contaminated water pump in Soho (1854).",
+              "correct_answer": "John Snow",
+              "explanation": "Snow's epidemiological mapping was evidence-based medicine before germ theory was proven.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ allowed painless surgery — ether and chloroform were key early examples.",
+              "correct_answer": "Anaesthetics",
+              "explanation": "Before anaesthetics, operations had to be extremely fast — patients were conscious and in agony.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are chemicals that kill bacteria — Lister's carbolic acid was a key example.",
+              "correct_answer": "Antiseptics",
+              "explanation": "Antiseptics solved the infection problem in surgery — transforming survival rates.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Vesalius",
+                  "match": "proved Galen wrong through human dissection (1543)"
+                },
+                {
+                  "term": "Harvey",
+                  "match": "proved blood circulates (1628)"
+                },
+                {
+                  "term": "germ theory",
+                  "match": "Pasteur — microorganisms cause disease (1861)"
+                },
+                {
+                  "term": "Jenner",
+                  "match": "vaccination against smallpox (1796)"
+                },
+                {
+                  "term": "Lister",
+                  "match": "carbolic antiseptic spray — prevents surgical infection (1867)"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Germany 1890–1945",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Weimar Republic & Rise of Hitler",
+          "cards": [
+            {
+              "keyword": "Weimar Republic",
+              "definition": "Germany's democratic government (1919–1933) — established after WWI defeat; seen by many as weak and illegitimate",
+              "display_order": 1
+            },
+            {
+              "keyword": "Treaty of Versailles (1919)",
+              "definition": "the peace treaty ending WWI — Germany was blamed for the war, lost territory, paid reparations, and had its army restricted",
+              "display_order": 2
+            },
+            {
+              "keyword": "stab in the back myth",
+              "definition": "the false belief that Germany lost WWI because of betrayal by Jews and socialists — used by Hitler to undermine the Republic",
+              "display_order": 3
+            },
+            {
+              "keyword": "hyperinflation (1923)",
+              "definition": "catastrophic inflation in Germany — the Mark became worthless; savings wiped out; caused by printing money to pay reparations",
+              "display_order": 4
+            },
+            {
+              "keyword": "the Great Depression (1929)",
+              "definition": "a global economic crisis — caused mass unemployment in Germany, increasing support for extreme parties including the Nazis",
+              "display_order": 5
+            },
+            {
+              "keyword": "proportional representation",
+              "definition": "the Weimar voting system — gave extremist parties seats in parliament; made coalition governments unstable",
+              "display_order": 6
+            },
+            {
+              "keyword": "Munich Putsch (1923)",
+              "definition": "Hitler's failed attempt to seize power in Munich — he was arrested, tried, and used the trial to gain national attention",
+              "display_order": 7
+            },
+            {
+              "keyword": "Mein Kampf",
+              "definition": "'My Struggle' — Hitler's autobiographical manifesto, written in prison — outlined his ideology including anti-Semitism and lebensraum",
+              "display_order": 8
+            },
+            {
+              "keyword": "SA (Stormtroopers)",
+              "definition": "the Nazi paramilitary force — used violence and intimidation against political opponents",
+              "display_order": 9
+            },
+            {
+              "keyword": "propaganda",
+              "definition": "information used to promote a particular viewpoint — Goebbels masterminded Nazi propaganda through posters, rallies, and radio",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What was the stab in the back myth?",
+              "options": [
+                "A) A true account of Germany's military defeat",
+                "B) The false belief that Jews and socialists betrayed Germany in WWI",
+                "C) Hitler's account of the Munich Putsch",
+                "D) Germany's border with France"
+              ],
+              "correct_answer": "B",
+              "explanation": "The stab-in-the-back myth (Dolchstoßlegende) was a false narrative — Germany's military leaders spread it to avoid blame for defeat. Hitler used it to attack the Weimar Republic.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What were the main terms of the Treaty of Versailles?",
+              "options": [
+                "A) Germany gained territory and rebuilt its army",
+                "B) Germany paid reparations, lost territory, restricted its army, and accepted war guilt",
+                "C) Germany was split into two countries",
+                "D) Germany was forgiven all war debts"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Treaty's key terms: war guilt clause (Article 231), £6.6 billion reparations, loss of 13% of territory, army limited to 100,000 men — it was deeply resented in Germany.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What caused hyperinflation in 1923?",
+              "options": [
+                "A) The Wall Street Crash",
+                "B) Germany printing money to pay reparations, causing the Mark to collapse",
+                "C) Food shortages causing price rises",
+                "D) Unemployment reducing tax revenues"
+              ],
+              "correct_answer": "B",
+              "explanation": "Germany printed money to pay reparations after France occupied the Ruhr — the Mark became virtually worthless. By November 1923 it took billions of Marks to buy bread.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How did the Great Depression help Hitler?",
+              "options": [
+                "A) It made Germans support the Weimar Republic",
+                "B) It caused mass unemployment, increasing support for extreme parties including the Nazis",
+                "C) It destroyed the SA",
+                "D) It allowed Germany to renegotiate reparations"
+              ],
+              "correct_answer": "B",
+              "explanation": "By 1932 there were 6 million unemployed in Germany. Desperate voters turned to extreme parties — Nazi support surged from 12 seats (1928) to 230 seats (July 1932).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the Munich Putsch?",
+              "options": [
+                "A) Hitler's election victory in 1933",
+                "B) Hitler's failed attempt to seize power in Munich in 1923",
+                "C) The Nazis' violent attack on Jewish businesses",
+                "D) The burning of the Reichstag"
+              ],
+              "correct_answer": "B",
+              "explanation": "Hitler tried to march on Berlin from Munich in 1923, inspired by Mussolini. It failed — he was arrested. But his trial gave him national publicity and he used prison to write Mein Kampf.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was proportional representation?",
+              "options": [
+                "A) A system giving large parties extra seats",
+                "B) A voting system giving parties seats based on their share of the vote",
+                "C) The method of electing the President",
+                "D) A system used to elect local councils only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Proportional representation meant small extreme parties like the Nazis could win seats. It also made stable majorities difficult — coalition governments collapsed repeatedly.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the SA?",
+              "options": [
+                "A) The Nazi secret police",
+                "B) Hitler's personal bodyguard",
+                "C) The Nazi paramilitary force used to intimidate opponents",
+                "D) The German regular army"
+              ],
+              "correct_answer": "C",
+              "explanation": "The SA (Sturmabteilung) were the Nazi stormtroopers — they attacked political opponents, disrupted rival meetings, and spread fear. Essential in the early rise of Nazism.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the role of propaganda in Nazi success?",
+              "options": [
+                "A) It played no significant role",
+                "B) Goebbels used posters, rallies, and radio to spread Nazi ideology and create a cult of Hitler",
+                "C) It was only used after Hitler came to power",
+                "D) It was primarily aimed at foreign countries"
+              ],
+              "correct_answer": "B",
+              "explanation": "Goebbels was the master of Nazi propaganda — using every medium available to promote Hitler as Germany's saviour and associate Jews and communists with Germany's problems.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did Hitler write in Mein Kampf?",
+              "options": [
+                "A) Germany's new constitution",
+                "B) His autobiography and ideology — anti-Semitism, nationalism, and lebensraum",
+                "C) The Weimar Republic's laws",
+                "D) Economic plans for ending unemployment"
+              ],
+              "correct_answer": "B",
+              "explanation": "Mein Kampf (1925) outlined Hitler's worldview: racial hierarchy with Aryans at the top, Jews as the enemy, the need for lebensraum (living space) in the East, and extreme nationalism.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What made the Weimar Republic politically unstable?",
+              "options": [
+                "A) Its strong military",
+                "B) Too many powerful political parties",
+                "C) Proportional representation, economic crises, and lack of public confidence",
+                "D) Interference from France"
+              ],
+              "correct_answer": "C",
+              "explanation": "The Weimar Republic faced: opposition from left and right, economic crises (1923, 1929), a voting system producing unstable coalitions, and the stab-in-the-back myth undermining its legitimacy.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The Weimar Republic was Germany's democratic government after WWI.",
+              "correct_answer": "True",
+              "explanation": "The Weimar Republic (1919–1933) replaced the Kaiser's autocratic rule — but it was seen as weak and imposed by the Allies.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The stab in the back myth was based on truth.",
+              "correct_answer": "False",
+              "explanation": "The stab-in-the-back myth was false — Germany was militarily defeated. The myth was invented to avoid blame and undermine the democratic government.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Hyperinflation in 1923 made the Mark more valuable.",
+              "correct_answer": "False",
+              "explanation": "Hyperinflation made the Mark almost worthless — prices rose billions of times. Savings were wiped out.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The Great Depression increased support for extreme political parties.",
+              "correct_answer": "True",
+              "explanation": "Mass unemployment and desperation made voters turn to extreme parties — Nazi support surged after 1929.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The Munich Putsch was Hitler's successful seizure of power.",
+              "correct_answer": "False",
+              "explanation": "The Munich Putsch FAILED — Hitler was arrested and imprisoned. But his trial gave him national publicity.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Proportional representation helped create political instability.",
+              "correct_answer": "True",
+              "explanation": "PR gave small parties seats and made stable majorities difficult — coalition governments collapsed repeatedly.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Goebbels was responsible for Nazi propaganda.",
+              "correct_answer": "True",
+              "explanation": "Joseph Goebbels was Hitler's Minister of Propaganda — he used radio, posters, rallies, and film to spread Nazi ideology.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Mein Kampf was written after Hitler came to power.",
+              "correct_answer": "False",
+              "explanation": "Mein Kampf was written while Hitler was in prison after the Munich Putsch (1923–1924).",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The Treaty of Versailles was popular in Germany.",
+              "correct_answer": "False",
+              "explanation": "The Treaty was deeply resented — Germans called it a Diktat (dictated peace). The war guilt clause and reparations caused widespread anger.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The SA was used to intimidate political opponents.",
+              "correct_answer": "True",
+              "explanation": "The SA's violence and street battles against communists and socialists were central to the Nazi rise to power.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Republic was Germany's democratic government from 1919 to 1933.",
+              "correct_answer": "Weimar",
+              "explanation": "The Weimar Republic was named after the city where its constitution was written.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of Versailles blamed Germany for WWI and imposed heavy reparations.",
+              "correct_answer": "Treaty",
+              "explanation": "The Treaty's terms caused widespread resentment — helping extremist parties gain support.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The stab in the ________ myth falsely blamed Jews and socialists for Germany's defeat.",
+              "correct_answer": "back",
+              "explanation": "This myth undermined the Weimar Republic and was exploited by Hitler.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ in 1923 made the German Mark worthless — savings were destroyed.",
+              "correct_answer": "Hyperinflation",
+              "explanation": "Germany printed money to pay reparations — causing catastrophic inflation.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Putsch (1923) was Hitler's failed attempt to seize power.",
+              "correct_answer": "Munich",
+              "explanation": "The failed coup gave Hitler national publicity and time in prison to write Mein Kampf.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ ________ was the voting system that gave extreme parties parliamentary seats.",
+              "correct_answer": "Proportional representation",
+              "explanation": "PR made stable governments difficult — contributing to political instability.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Hitler wrote ________ ________ in prison — it outlined his anti-Semitic ideology.",
+              "correct_answer": "Mein Kampf",
+              "explanation": "'My Struggle' set out Hitler's worldview — racial hierarchy, anti-Semitism, and lebensraum.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was the Nazi paramilitary force that intimidated political opponents.",
+              "correct_answer": "SA",
+              "explanation": "SA stormtroopers used violence to disrupt rivals and enforce Nazi dominance on the streets.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Goebbels used posters, rallies, and ________ to spread Nazi propaganda.",
+              "correct_answer": "radio",
+              "explanation": "The radio was particularly powerful — Hitler's speeches could reach millions of German homes.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Great ________ of 1929 caused mass unemployment and boosted Nazi support.",
+              "correct_answer": "Depression",
+              "explanation": "By 1932, 6 million Germans were unemployed — desperation drove voters to extreme parties.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Weimar Republic",
+                  "match": "Germany's democratic government 1919–1933 — unstable and resented"
+                },
+                {
+                  "term": "Treaty of Versailles",
+                  "match": "blamed Germany — reparations, territory loss, army restrictions"
+                },
+                {
+                  "term": "hyperinflation (1923)",
+                  "match": "Mark became worthless — savings destroyed"
+                },
+                {
+                  "term": "Munich Putsch (1923)",
+                  "match": "Hitler's failed coup — gained him national attention"
+                },
+                {
+                  "term": "Great Depression (1929)",
+                  "match": "mass unemployment — boosted Nazi support"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cold War 1945–1991",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Origins of the Cold War",
+          "cards": [
+            {
+              "keyword": "Cold War",
+              "definition": "the state of tension and rivalry between the USA and USSR from 1945–1991 — never direct military conflict between the two superpowers",
+              "display_order": 1
+            },
+            {
+              "keyword": "capitalism",
+              "definition": "the US economic system — private ownership, free market, democracy",
+              "display_order": 2
+            },
+            {
+              "keyword": "communism",
+              "definition": "the Soviet economic system — state ownership, planned economy, one-party rule",
+              "display_order": 3
+            },
+            {
+              "keyword": "Yalta Conference (1945)",
+              "definition": "meeting between Stalin, Roosevelt, and Churchill — agreed post-war Europe, free elections in Eastern Europe, and the United Nations",
+              "display_order": 4
+            },
+            {
+              "keyword": "Potsdam Conference (1945)",
+              "definition": "follow-up conference — Truman replaced Roosevelt; disagreements over Germany and reparations increased tension",
+              "display_order": 5
+            },
+            {
+              "keyword": "Iron Curtain",
+              "definition": "Churchill's term (1946) for the divide between Soviet-controlled Eastern Europe and free Western Europe",
+              "display_order": 6
+            },
+            {
+              "keyword": "Truman Doctrine (1947)",
+              "definition": "US policy to contain communism — promised aid to countries threatened by communist takeover",
+              "display_order": 7
+            },
+            {
+              "keyword": "Marshall Plan (1947)",
+              "definition": "US economic aid to rebuild Western Europe — $13 billion; strengthened capitalism and countered Soviet influence",
+              "display_order": 8
+            },
+            {
+              "keyword": "Berlin Blockade (1948–49)",
+              "definition": "Stalin blockaded West Berlin — the West responded with the Berlin Airlift; first major Cold War confrontation",
+              "display_order": 9
+            },
+            {
+              "keyword": "NATO (1949)",
+              "definition": "the North Atlantic Treaty Organisation — Western military alliance; a direct response to Soviet aggression",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What was the Cold War?",
+              "options": [
+                "A) A series of direct wars between the USA and USSR",
+                "B) A state of tension and rivalry — never direct military conflict between superpowers",
+                "C) A nuclear war in the 1960s",
+                "D) Economic cooperation between the USA and USSR"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Cold War was a period of rivalry, proxy wars, and arms race — but the USA and USSR never directly fought each other, fearing nuclear war.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was agreed at the Yalta Conference?",
+              "options": [
+                "A) The dropping of the atomic bomb",
+                "B) Post-war Germany divided into zones, free elections in Eastern Europe, and the UN",
+                "C) The invasion of Japan",
+                "D) Germany to be completely destroyed"
+              ],
+              "correct_answer": "B",
+              "explanation": "At Yalta (Feb 1945) — Germany divided into zones, Stalin promised free elections in Eastern Europe (not kept), and the UN was agreed.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the Truman Doctrine?",
+              "options": [
+                "A) A plan to rebuild Western Europe",
+                "B) A US commitment to containing communism by supporting threatened nations",
+                "C) An agreement to limit nuclear weapons",
+                "D) A plan to unite Germany"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Truman Doctrine (1947) committed the USA to supporting any country threatened by communist takeover — beginning with Greece and Turkey.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the Marshall Plan?",
+              "options": [
+                "A) A US military alliance against the USSR",
+                "B) A Soviet economic plan for Eastern Europe",
+                "C) US economic aid of $13 billion to rebuild Western Europe",
+                "D) A plan to divide Germany"
+              ],
+              "correct_answer": "C",
+              "explanation": "The Marshall Plan offered $13 billion to rebuild European economies — strengthening democracy and capitalism, and reducing the appeal of communism.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the Iron Curtain?",
+              "options": [
+                "A) A literal wall dividing Europe",
+                "B) Churchill's term for the divide between Soviet-controlled East and free West",
+                "C) A Soviet military defence line",
+                "D) A US economic barrier to Soviet goods"
+              ],
+              "correct_answer": "B",
+              "explanation": "Churchill's 1946 speech coined the term 'Iron Curtain' to describe the boundary between Soviet-dominated Eastern Europe and the democratic West.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What caused the Berlin Blockade?",
+              "options": [
+                "A) The USSR wanted to take over West Berlin by force",
+                "B) Stalin blockaded West Berlin to try to force the West to abandon it",
+                "C) The West blockaded East Berlin",
+                "D) Germany requested the blockade"
+              ],
+              "correct_answer": "B",
+              "explanation": "Stalin blockaded road and rail links to West Berlin (June 1948) to force the West to abandon the city — the West responded with the Berlin Airlift, supplying the city by air.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was NATO?",
+              "options": [
+                "A) A Soviet military alliance",
+                "B) A Western military alliance created in response to Soviet aggression",
+                "C) A United Nations peacekeeping force",
+                "D) An economic organisation for Western Europe"
+              ],
+              "correct_answer": "B",
+              "explanation": "NATO (1949) was a Western defensive alliance — an attack on one member was an attack on all. It was a direct response to Soviet expansion.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why did the USA implement the Marshall Plan?",
+              "options": [
+                "A) To repay war debts",
+                "B) To rebuild European economies and reduce the appeal of communism",
+                "C) To create a military alliance",
+                "D) To punish Germany for WWII"
+              ],
+              "correct_answer": "B",
+              "explanation": "A prosperous, stable Western Europe was less likely to turn communist — the Marshall Plan combined genuine humanitarian aid with US strategic interests.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the significance of the Potsdam Conference?",
+              "options": [
+                "A) It established the Iron Curtain",
+                "B) It created NATO",
+                "C) Disagreements over Germany between Truman and Stalin increased Cold War tension",
+                "D) It agreed the Marshall Plan"
+              ],
+              "correct_answer": "C",
+              "explanation": "Potsdam (July 1945) was more tense than Yalta — Truman was less cooperative than Roosevelt, the USA had the atomic bomb, and disagreements over Germany widened the rift.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What were the ideological differences between the USA and USSR?",
+              "options": [
+                "A) Both were capitalist but with different political systems",
+                "B) The USA was communist; the USSR was capitalist",
+                "C) USA = capitalism/democracy; USSR = communism/one-party state",
+                "D) They shared the same economic system"
+              ],
+              "correct_answer": "C",
+              "explanation": "The USA and USSR had fundamentally opposed ideologies — capitalism vs communism, democracy vs one-party state. This made cooperation after WWII very difficult.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The Cold War involved direct military conflict between the USA and USSR.",
+              "correct_answer": "False",
+              "explanation": "The Cold War never became a 'hot war' between the superpowers — both sides feared nuclear war. Conflict was indirect through proxy wars.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The Yalta Conference agreed on free elections in Eastern Europe.",
+              "correct_answer": "True",
+              "explanation": "Stalin promised free elections at Yalta — he did not keep this promise, installing communist governments across Eastern Europe.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The Marshall Plan was a Soviet initiative to rebuild Eastern Europe.",
+              "correct_answer": "False",
+              "explanation": "The Marshall Plan was a US plan to rebuild WESTERN Europe with $13 billion — it was rejected by Stalin and countries under Soviet influence.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The Iron Curtain was a literal physical barrier.",
+              "correct_answer": "False",
+              "explanation": "The Iron Curtain was Churchill's metaphor for the ideological divide — later partly made physical by the Berlin Wall (1961).",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The Truman Doctrine committed the USA to containing communism.",
+              "correct_answer": "True",
+              "explanation": "The Truman Doctrine (1947) pledged US support to any country threatened by communist takeover.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Stalin's Berlin Blockade was an attempt to force the West out of Berlin.",
+              "correct_answer": "True",
+              "explanation": "Stalin blockaded road and rail access to West Berlin hoping the West would abandon the city rather than face conflict.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "NATO was created as a defensive military alliance against Soviet aggression.",
+              "correct_answer": "True",
+              "explanation": "NATO (1949) committed Western nations to collective defence — if one was attacked, all would respond.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The Potsdam Conference was more cooperative than Yalta.",
+              "correct_answer": "False",
+              "explanation": "Potsdam was MORE tense — Truman was less conciliatory, the USA had the atomic bomb, and disagreements over Germany worsened.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Communism and capitalism are compatible economic systems.",
+              "correct_answer": "False",
+              "explanation": "Communism (state ownership, planned economy) and capitalism (private ownership, free market) are fundamentally opposed ideologies.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The Berlin Airlift successfully supplied West Berlin during the blockade.",
+              "correct_answer": "True",
+              "explanation": "The West airlifted supplies to West Berlin for almost a year — Stalin lifted the blockade in May 1949 having failed to drive the West out.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ War was a period of tension between the USA and USSR — never direct military conflict.",
+              "correct_answer": "Cold",
+              "explanation": "The Cold War lasted from 1945 to 1991 — it shaped global politics for nearly 50 years.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "At ________, Stalin, Roosevelt, and Churchill agreed Germany would be divided into zones.",
+              "correct_answer": "Yalta",
+              "explanation": "Yalta (February 1945) also agreed free elections in Eastern Europe and the creation of the UN.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Doctrine committed the USA to supporting countries threatened by communism.",
+              "correct_answer": "Truman",
+              "explanation": "The Truman Doctrine (1947) began with support for Greece and Turkey.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Plan gave $13 billion of US aid to rebuild Western Europe.",
+              "correct_answer": "Marshall",
+              "explanation": "The Marshall Plan strengthened capitalism and reduced communist appeal in Western Europe.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The '________ Curtain' was Churchill's term for the divide between East and West Europe.",
+              "correct_answer": "Iron",
+              "explanation": "Churchill's 1946 speech used the Iron Curtain metaphor to describe Soviet control of Eastern Europe.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Stalin's ________ Blockade tried to force the West out of West Berlin.",
+              "correct_answer": "Berlin",
+              "explanation": "The Berlin Airlift defeated the blockade — Stalin backed down in May 1949.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ was a Western defensive military alliance created in 1949.",
+              "correct_answer": "NATO",
+              "explanation": "NATO committed members to collective defence — an attack on one was an attack on all.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Conference (1945) was more tense than Yalta — increasing Cold War tension.",
+              "correct_answer": "Potsdam",
+              "explanation": "Truman's tougher stance and the atomic bomb increased Soviet suspicion at Potsdam.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The USA favoured ________ — private ownership, free market, and democracy.",
+              "correct_answer": "capitalism",
+              "explanation": "Capitalist democracy was seen by the USA as the best system — spreading it globally was a key goal.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The USSR favoured ________ — state ownership, planned economy, and one-party rule.",
+              "correct_answer": "communism",
+              "explanation": "Soviet communism was fundamentally opposed to capitalism — this ideological clash drove the Cold War.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Cold War",
+                  "match": "USA vs USSR rivalry 1945–1991 — no direct military conflict"
+                },
+                {
+                  "term": "Yalta Conference (1945)",
+                  "match": "agreed post-war Europe — Stalin promised free elections"
+                },
+                {
+                  "term": "Truman Doctrine (1947)",
+                  "match": "USA to contain communism globally"
+                },
+                {
+                  "term": "Marshall Plan (1947)",
+                  "match": "$13 billion US aid to rebuild Western Europe"
+                },
+                {
+                  "term": "Berlin Blockade (1948–49)",
+                  "match": "Stalin tried to force West out — defeated by airlift"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "British Historic Environment",
+      "paper": "Paper 1",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Norman Conquest & Medieval England",
+          "cards": [
+            {
+              "keyword": "Battle of Hastings (1066)",
+              "definition": "William of Normandy defeated Harold II — changing England's language, culture, and ruling class",
+              "display_order": 1
+            },
+            {
+              "keyword": "feudal system",
+              "definition": "the Norman system of land ownership — King at top, then barons, knights, peasants — based on loyalty and military service",
+              "display_order": 2
+            },
+            {
+              "keyword": "Domesday Book (1086)",
+              "definition": "William I's survey of England — recorded land ownership, resources, and value — used for taxation",
+              "display_order": 3
+            },
+            {
+              "keyword": "castle",
+              "definition": "a Norman military and administrative base — motte and bailey initially, then stone keeps — symbols of Norman power",
+              "display_order": 4
+            },
+            {
+              "keyword": "William the Conqueror",
+              "definition": "Duke of Normandy who won the Battle of Hastings — became William I of England, imposing Norman rule",
+              "display_order": 5
+            },
+            {
+              "keyword": "Harold II",
+              "definition": "the last Anglo-Saxon king of England — killed at Hastings, possibly by an arrow to the eye",
+              "display_order": 6
+            },
+            {
+              "keyword": "Magna Carta (1215)",
+              "definition": "the Great Charter — King John forced to limit his own power by the barons — an early step towards democracy",
+              "display_order": 7
+            },
+            {
+              "keyword": "Black Prince",
+              "definition": "Edward of Woodstock — a famous English military leader in the Hundred Years' War; son of Edward III",
+              "display_order": 8
+            },
+            {
+              "keyword": "the peasantry",
+              "definition": "the lowest class under the feudal system — bound to the land (serfs); owed labour to their lord",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Church in Norman England",
+              "definition": "a powerful institution controlling education, legal courts, and spiritual life — supported Norman rule",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What was the significance of the Battle of Hastings?",
+              "options": [
+                "A) It established the feudal system in Europe",
+                "B) William of Normandy defeated Harold II and became King of England — transforming English society",
+                "C) It ended Viking rule in England",
+                "D) It established Magna Carta"
+              ],
+              "correct_answer": "B",
+              "explanation": "Hastings (1066) was a turning point — the Norman Conquest brought a new ruling class, language (French/Latin), and cultural influences.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the feudal system?",
+              "options": [
+                "A) A democratic voting system",
+                "B) A system of land ownership based on loyalty and military service — King→barons→knights→peasants",
+                "C) A church-based legal system",
+                "D) A trading system between England and France"
+              ],
+              "correct_answer": "B",
+              "explanation": "The feudal system was a hierarchy of land tenure — land was granted in exchange for loyalty and military service.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the Domesday Book?",
+              "options": [
+                "A) A record of William's battles",
+                "B) A Norman legal code",
+                "C) William I's survey of England — recording land, resources, and value for taxation",
+                "D) A record of the feudal system's rules"
+              ],
+              "correct_answer": "C",
+              "explanation": "The Domesday Book (1086) was William's great survey — a record of who owned what land and how much it was worth, primarily for tax assessment.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the purpose of Norman castles?",
+              "options": [
+                "A) To house the local population",
+                "B) To serve as centres of worship",
+                "C) To control the population and demonstrate Norman military power",
+                "D) To store crops and taxes"
+              ],
+              "correct_answer": "C",
+              "explanation": "Norman castles were symbols of power and military control — they allowed small numbers of Normans to dominate a much larger English population.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was Magna Carta?",
+              "options": [
+                "A) William I's conquest agreement",
+                "B) A legal code imposed by William",
+                "C) The Great Charter (1215) limiting the king's power — signed by King John",
+                "D) A treaty with France"
+              ],
+              "correct_answer": "C",
+              "explanation": "Magna Carta (1215) was forced on King John by his barons — it limited royal power and established that even the king was subject to the law.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did the feudal system require of knights?",
+              "options": [
+                "A) Only financial payments",
+                "B) Labour services for the lord",
+                "C) Military service in exchange for land",
+                "D) Service in the Church"
+              ],
+              "correct_answer": "C",
+              "explanation": "Knights held land from barons in exchange for military service — they were obligated to fight for their lord when called.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How did William control Anglo-Saxon England?",
+              "options": [
+                "A) By adopting Anglo-Saxon culture entirely",
+                "B) By building castles, redistributing land to Normans, and imposing a new ruling class",
+                "C) By allowing Anglo-Saxons to keep their land",
+                "D) By marrying into Anglo-Saxon nobility"
+              ],
+              "correct_answer": "B",
+              "explanation": "William used a combination of military force, castle-building, and wholesale redistribution of land to Norman barons to control England.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What were the two types of early Norman castle?",
+              "options": [
+                "A) Stone keeps and fortresses",
+                "B) Motte and bailey, then stone castles",
+                "C) Tower houses and ring forts",
+                "D) Hill forts and palisades"
+              ],
+              "correct_answer": "B",
+              "explanation": "Initially Normans built quick motte-and-bailey castles (earth mound + wooden keep). Later, permanent stone castles replaced them.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why was the Church important in Norman England?",
+              "options": [
+                "A) It funded military campaigns",
+                "B) It controlled education, legal courts, and spiritual life — supporting Norman authority",
+                "C) It had no political role",
+                "D) It was directly controlled by the barons"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Church was a powerful partner in Norman rule — it legitimised William's conquest (the Pope had blessed it) and controlled education and moral life.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happened to Harold II at Hastings?",
+              "options": [
+                "A) He fled to France",
+                "B) He was captured and imprisoned",
+                "C) He was killed — possibly by an arrow",
+                "D) He surrendered and was exiled"
+              ],
+              "correct_answer": "C",
+              "explanation": "Harold II was killed during the Battle of Hastings — tradition says by an arrow to the eye, though this is debated. His death ended Anglo-Saxon rule.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The Battle of Hastings took place in 1066.",
+              "correct_answer": "True",
+              "explanation": "William of Normandy defeated Harold II at Hastings on 14 October 1066.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The feudal system placed the Church at the top.",
+              "correct_answer": "False",
+              "explanation": "The feudal hierarchy was: King → barons/lords → knights → peasants. The Church existed alongside but not above the king.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The Domesday Book was used for taxation purposes.",
+              "correct_answer": "True",
+              "explanation": "William commissioned the Domesday Book (1086) to assess land ownership and value for tax collection.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Magna Carta was signed voluntarily by King John.",
+              "correct_answer": "False",
+              "explanation": "King John was FORCED to sign Magna Carta by rebellious barons in 1215 — he signed it reluctantly.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Norman castles were symbols of military power and control.",
+              "correct_answer": "True",
+              "explanation": "Castles allowed the Normans to dominate a much larger Anglo-Saxon population — they were centres of power.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Under the feudal system, peasants owned their land.",
+              "correct_answer": "False",
+              "explanation": "Peasants (serfs) were bound to the land and owned nothing — they owed labour services to their lord in exchange for their plots.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The Battle of Hastings ended Viking rule in England.",
+              "correct_answer": "False",
+              "explanation": "Hastings ended Anglo-Saxon rule — it was the Norman Conquest. Viking influence had been declining since Canute's death in 1035.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "William the Conqueror redistributed English land to Norman barons.",
+              "correct_answer": "True",
+              "explanation": "William gave Anglo-Saxon land to his Norman followers — creating a new Norman ruling class and breaking Anglo-Saxon resistance.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Motte and bailey castles were made of stone.",
+              "correct_answer": "False",
+              "explanation": "Motte and bailey castles were initially built from earth and wood — stone castles came later.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Magna Carta established that the king was above the law.",
+              "correct_answer": "False",
+              "explanation": "Magna Carta established the OPPOSITE — that even the king must follow the law.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Battle of ________ (1066) ended Anglo-Saxon rule of England.",
+              "correct_answer": "Hastings",
+              "explanation": "William of Normandy defeated Harold II — transforming England's language, culture, and ruling class.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ system organised society from King to barons to knights to peasants.",
+              "correct_answer": "feudal",
+              "explanation": "The feudal system was based on land ownership, loyalty, and military service.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Book (1086) was William's survey of England — recording land and value for taxation.",
+              "correct_answer": "Domesday",
+              "explanation": "The Domesday Book was a comprehensive record of English land ownership.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ Carta (1215) limited the king's power — signed by King John under pressure from barons.",
+              "correct_answer": "Magna",
+              "explanation": "Magna Carta was a landmark in the development of constitutional government.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Norman ________ were centres of military power and symbols of conquest.",
+              "correct_answer": "castles",
+              "explanation": "Castles allowed small numbers of Normans to control a much larger Anglo-Saxon population.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ II was the last Anglo-Saxon king — killed at Hastings.",
+              "correct_answer": "Harold",
+              "explanation": "Harold's death at Hastings ended the Anglo-Saxon dynasty.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ the Conqueror became William I of England after Hastings.",
+              "correct_answer": "William",
+              "explanation": "William immediately began imposing Norman rule — building castles and redistributing land.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Peasants (______) were bound to the land and owed labour to their lord.",
+              "correct_answer": "serfs",
+              "explanation": "Serfs were at the bottom of the feudal hierarchy — they had few rights.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Motte and ________ castles were the first Norman fortifications — quick to build from earth and wood.",
+              "correct_answer": "bailey",
+              "explanation": "Once control was established, stone castles replaced the temporary motte and bailey structures.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ legitimised William's conquest and controlled education and spiritual life.",
+              "correct_answer": "Church",
+              "explanation": "The Pope had blessed William's invasion — the Church was a powerful ally in Norman rule.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Battle of Hastings (1066)",
+                  "match": "William defeats Harold II — Norman Conquest begins"
+                },
+                {
+                  "term": "feudal system",
+                  "match": "King → barons → knights → peasants — land for loyalty"
+                },
+                {
+                  "term": "Domesday Book (1086)",
+                  "match": "survey of England for taxation"
+                },
+                {
+                  "term": "Magna Carta (1215)",
+                  "match": "King John forced to limit royal power"
+                },
+                {
+                  "term": "Norman castles",
+                  "match": "centres of military power and control"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

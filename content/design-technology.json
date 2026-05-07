@@ -1,0 +1,254 @@
+{
+  "subject": {
+    "name": "Design & Technology",
+    "slug": "design-technology",
+    "colour": "#b45309"
+  },
+  "topics": [
+    {
+      "name": "Core Technical Principles — Materials",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Materials & Their Properties",
+          "cards": [
+            {
+              "keyword": "ferrous metals",
+              "definition": "metals that contain iron and are magnetic — e.g. steel, cast iron. They rust when exposed to water and oxygen",
+              "display_order": 1
+            },
+            {
+              "keyword": "non-ferrous metals",
+              "definition": "metals that do not contain iron — e.g. aluminium, copper, gold. They do not rust but may corrode",
+              "display_order": 2
+            },
+            {
+              "keyword": "alloy",
+              "definition": "a mixture of two or more metals — e.g. brass (copper + zinc), steel (iron + carbon)",
+              "display_order": 3
+            },
+            {
+              "keyword": "thermoplastic",
+              "definition": "a plastic that can be repeatedly softened by heating and reshaped — e.g. acrylic, PET, nylon",
+              "display_order": 4
+            },
+            {
+              "keyword": "thermosetting plastic",
+              "definition": "a plastic that sets permanently when heated and cannot be reshaped — e.g. epoxy resin, melamine",
+              "display_order": 5
+            },
+            {
+              "keyword": "hardwood",
+              "definition": "wood from deciduous (broad-leaved) trees — e.g. oak, mahogany. Generally harder and more expensive than softwood",
+              "display_order": 6
+            },
+            {
+              "keyword": "softwood",
+              "definition": "wood from coniferous (evergreen) trees — e.g. pine, spruce. Generally cheaper and grows faster than hardwood",
+              "display_order": 7
+            },
+            {
+              "keyword": "manufactured board",
+              "definition": "sheet materials made from wood fibres or veneers — e.g. MDF, plywood, chipboard",
+              "display_order": 8
+            },
+            {
+              "keyword": "composite material",
+              "definition": "a material made from two or more different materials combined — e.g. carbon fibre reinforced polymer (CFRP), fibreglass",
+              "display_order": 9
+            },
+            {
+              "keyword": "smart material",
+              "definition": "a material that changes its properties in response to external stimuli — e.g. shape memory alloy, thermochromic ink",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Material Properties & Processes",
+          "cards": [
+            {
+              "keyword": "tensile strength",
+              "definition": "the ability of a material to withstand being pulled apart (tension) without breaking",
+              "display_order": 1
+            },
+            {
+              "keyword": "compressive strength",
+              "definition": "the ability of a material to withstand being squashed (compression) without breaking",
+              "display_order": 2
+            },
+            {
+              "keyword": "hardness",
+              "definition": "the ability of a material to resist scratching, indentation, and wear",
+              "display_order": 3
+            },
+            {
+              "keyword": "toughness",
+              "definition": "the ability of a material to absorb impact without fracturing",
+              "display_order": 4
+            },
+            {
+              "keyword": "elasticity",
+              "definition": "the ability of a material to return to its original shape after being deformed",
+              "display_order": 5
+            },
+            {
+              "keyword": "plasticity",
+              "definition": "the ability of a material to be permanently deformed without breaking",
+              "display_order": 6
+            },
+            {
+              "keyword": "conductivity",
+              "definition": "the ability of a material to conduct heat or electricity — metals are good conductors; plastics and wood are insulators",
+              "display_order": 7
+            },
+            {
+              "keyword": "corrosion resistance",
+              "definition": "the ability of a material to resist damage from chemical reactions with the environment — e.g. stainless steel resists rust",
+              "display_order": 8
+            },
+            {
+              "keyword": "wasting",
+              "definition": "a manufacturing process that removes material to create a shape — e.g. cutting, drilling, turning on a lathe",
+              "display_order": 9
+            },
+            {
+              "keyword": "forming",
+              "definition": "a manufacturing process that shapes material without removing any — e.g. casting, forging, bending",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "New & Emerging Technologies",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Technology & Society",
+          "cards": [
+            {
+              "keyword": "Industry 4.0",
+              "definition": "the fourth industrial revolution — automation, AI, and digital technology transforming manufacturing",
+              "display_order": 1
+            },
+            {
+              "keyword": "CAD (Computer-Aided Design)",
+              "definition": "using computer software to create and test 2D or 3D designs before manufacturing",
+              "display_order": 2
+            },
+            {
+              "keyword": "CAM (Computer-Aided Manufacture)",
+              "definition": "using computer-controlled machines to manufacture products from digital design files",
+              "display_order": 3
+            },
+            {
+              "keyword": "additive manufacturing / 3D printing",
+              "definition": "building up a product layer by layer from a digital design — no material is wasted",
+              "display_order": 4
+            },
+            {
+              "keyword": "virtual reality (VR)",
+              "definition": "a simulated digital environment — used in product design to test how a product looks and feels before it is made",
+              "display_order": 5
+            },
+            {
+              "keyword": "automation / robotics",
+              "definition": "using machines and robots to perform repetitive manufacturing tasks — increases speed and consistency",
+              "display_order": 6
+            },
+            {
+              "keyword": "sustainable design",
+              "definition": "designing products to minimise environmental impact — considering materials, energy, lifespan, and disposal",
+              "display_order": 7
+            },
+            {
+              "keyword": "circular economy",
+              "definition": "an approach to production where materials are reused, repaired, or recycled rather than discarded",
+              "display_order": 8
+            },
+            {
+              "keyword": "planned obsolescence",
+              "definition": "deliberately designing products with a limited lifespan so consumers replace them — criticised for environmental waste",
+              "display_order": 9
+            },
+            {
+              "keyword": "fair trade",
+              "definition": "a system ensuring producers in developing countries receive fair wages and safe working conditions",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Designing & Making Principles",
+      "paper": "Paper 1",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Design Processes & Communication",
+          "cards": [
+            {
+              "keyword": "design brief",
+              "definition": "a short statement outlining what a product needs to do and the context it will be used in",
+              "display_order": 1
+            },
+            {
+              "keyword": "design specification",
+              "definition": "a detailed list of criteria a product must meet — e.g. size, cost, materials, safety requirements",
+              "display_order": 2
+            },
+            {
+              "keyword": "iterative design",
+              "definition": "a design process involving repeated cycles of designing, testing, and improving a prototype",
+              "display_order": 3
+            },
+            {
+              "keyword": "prototype",
+              "definition": "a working model of a product used to test ideas and identify improvements before full production",
+              "display_order": 4
+            },
+            {
+              "keyword": "ergonomics",
+              "definition": "designing products to fit the human body and how people use them — maximising comfort, safety, and efficiency",
+              "display_order": 5
+            },
+            {
+              "keyword": "anthropometrics",
+              "definition": "the study of human body measurements — used to ensure products fit a range of users",
+              "display_order": 6
+            },
+            {
+              "keyword": "tolerance",
+              "definition": "the acceptable range of variation in a product's dimensions — essential in engineering and manufacturing",
+              "display_order": 7
+            },
+            {
+              "keyword": "quality control (QC)",
+              "definition": "checking products against a specification at various stages of production to identify and reject faulty items",
+              "display_order": 8
+            },
+            {
+              "keyword": "batch production",
+              "definition": "making a set quantity of a product at one time — flexible but requires retooling between batches",
+              "display_order": 9
+            },
+            {
+              "keyword": "mass production",
+              "definition": "continuously manufacturing large quantities of identical products — efficient but inflexible",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

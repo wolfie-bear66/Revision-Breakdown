@@ -1,0 +1,1010 @@
+{
+  "subject": {
+    "name": "Spanish",
+    "slug": "spanish",
+    "colour": "#dc2626"
+  },
+  "topics": [
+    {
+      "name": "Identity & Culture — Me, My Family & Friends",
+      "paper": "Paper 1 & 2",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Family & Relationships Vocabulary",
+          "cards": [
+            {
+              "keyword": "la familia",
+              "definition": "the family",
+              "display_order": 1
+            },
+            {
+              "keyword": "los padres",
+              "definition": "the parents",
+              "display_order": 2
+            },
+            {
+              "keyword": "el hermano",
+              "definition": "the brother",
+              "display_order": 3
+            },
+            {
+              "keyword": "la hermana",
+              "definition": "the sister",
+              "display_order": 4
+            },
+            {
+              "keyword": "el hijo",
+              "definition": "the son",
+              "display_order": 5
+            },
+            {
+              "keyword": "la hija",
+              "definition": "the daughter",
+              "display_order": 6
+            },
+            {
+              "keyword": "el marido",
+              "definition": "the husband",
+              "display_order": 7
+            },
+            {
+              "keyword": "la mujer",
+              "definition": "the wife / the woman",
+              "display_order": 8
+            },
+            {
+              "keyword": "el novio / la novia",
+              "definition": "the boyfriend / girlfriend",
+              "display_order": 9
+            },
+            {
+              "keyword": "casarse",
+              "definition": "to get married",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Personality & Character",
+          "cards": [
+            {
+              "keyword": "simpático/a",
+              "definition": "nice / friendly",
+              "display_order": 1
+            },
+            {
+              "keyword": "amable",
+              "definition": "kind / friendly",
+              "display_order": 2
+            },
+            {
+              "keyword": "gracioso/a",
+              "definition": "funny / amusing",
+              "display_order": 3
+            },
+            {
+              "keyword": "hablador/a",
+              "definition": "chatty / talkative",
+              "display_order": 4
+            },
+            {
+              "keyword": "tímido/a",
+              "definition": "shy / timid",
+              "display_order": 5
+            },
+            {
+              "keyword": "perezoso/a",
+              "definition": "lazy",
+              "display_order": 6
+            },
+            {
+              "keyword": "trabajador/a",
+              "definition": "hardworking",
+              "display_order": 7
+            },
+            {
+              "keyword": "egoísta",
+              "definition": "selfish",
+              "display_order": 8
+            },
+            {
+              "keyword": "honesto/a",
+              "definition": "honest",
+              "display_order": 9
+            },
+            {
+              "keyword": "pelearse",
+              "definition": "to argue / fight",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Relationships & Social Media",
+          "cards": [
+            {
+              "keyword": "la amistad",
+              "definition": "friendship",
+              "display_order": 1
+            },
+            {
+              "keyword": "la confianza",
+              "definition": "trust / confidence",
+              "display_order": 2
+            },
+            {
+              "keyword": "compartir",
+              "definition": "to share",
+              "display_order": 3
+            },
+            {
+              "keyword": "apoyar",
+              "definition": "to support",
+              "display_order": 4
+            },
+            {
+              "keyword": "una red social",
+              "definition": "a social network",
+              "display_order": 5
+            },
+            {
+              "keyword": "un móvil",
+              "definition": "a mobile phone",
+              "display_order": 6
+            },
+            {
+              "keyword": "descargar",
+              "definition": "to download",
+              "display_order": 7
+            },
+            {
+              "keyword": "en línea",
+              "definition": "online",
+              "display_order": 8
+            },
+            {
+              "keyword": "el acoso",
+              "definition": "bullying / harassment",
+              "display_order": 9
+            },
+            {
+              "keyword": "el ciberacoso",
+              "definition": "cyberbullying",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Identity & Culture — Technology",
+      "paper": "Paper 1 & 2",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Technology & Internet Vocabulary",
+          "cards": [
+            {
+              "keyword": "un ordenador",
+              "definition": "a computer",
+              "display_order": 1
+            },
+            {
+              "keyword": "una tableta",
+              "definition": "a tablet",
+              "display_order": 2
+            },
+            {
+              "keyword": "navegar por Internet",
+              "definition": "to surf the internet",
+              "display_order": 3
+            },
+            {
+              "keyword": "enviar un mensaje",
+              "definition": "to send a message",
+              "display_order": 4
+            },
+            {
+              "keyword": "un videojuego",
+              "definition": "a video game",
+              "display_order": 5
+            },
+            {
+              "keyword": "las redes sociales",
+              "definition": "social media / social networks",
+              "display_order": 6
+            },
+            {
+              "keyword": "una aplicación",
+              "definition": "an app / application",
+              "display_order": 7
+            },
+            {
+              "keyword": "una contraseña",
+              "definition": "a password",
+              "display_order": 8
+            },
+            {
+              "keyword": "la privacidad",
+              "definition": "privacy",
+              "display_order": 9
+            },
+            {
+              "keyword": "digital",
+              "definition": "digital",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Identity & Culture — Free Time",
+      "paper": "Paper 1 & 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Hobbies & Free Time Vocabulary",
+          "cards": [
+            {
+              "keyword": "el tiempo libre",
+              "definition": "free time",
+              "display_order": 1
+            },
+            {
+              "keyword": "jugar al fútbol",
+              "definition": "to play football",
+              "display_order": 2
+            },
+            {
+              "keyword": "nadar",
+              "definition": "to swim",
+              "display_order": 3
+            },
+            {
+              "keyword": "leer",
+              "definition": "to read",
+              "display_order": 4
+            },
+            {
+              "keyword": "escuchar música",
+              "definition": "to listen to music",
+              "display_order": 5
+            },
+            {
+              "keyword": "ver la tele",
+              "definition": "to watch TV",
+              "display_order": 6
+            },
+            {
+              "keyword": "ir de compras",
+              "definition": "to go shopping",
+              "display_order": 7
+            },
+            {
+              "keyword": "descansar",
+              "definition": "to rest / relax",
+              "display_order": 8
+            },
+            {
+              "keyword": "un partido",
+              "definition": "a match / game",
+              "display_order": 9
+            },
+            {
+              "keyword": "un equipo",
+              "definition": "a team",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Music, Film & Culture",
+          "cards": [
+            {
+              "keyword": "un cantante / una cantante",
+              "definition": "a singer (male / female)",
+              "display_order": 1
+            },
+            {
+              "keyword": "un grupo",
+              "definition": "a band / group",
+              "display_order": 2
+            },
+            {
+              "keyword": "una película de acción",
+              "definition": "an action film",
+              "display_order": 3
+            },
+            {
+              "keyword": "una comedia",
+              "definition": "a comedy",
+              "display_order": 4
+            },
+            {
+              "keyword": "una película de dibujos animados",
+              "definition": "a cartoon / animated film",
+              "display_order": 5
+            },
+            {
+              "keyword": "la estrella",
+              "definition": "the (film/pop) star",
+              "display_order": 6
+            },
+            {
+              "keyword": "emocionante",
+              "definition": "exciting / thrilling",
+              "display_order": 7
+            },
+            {
+              "keyword": "aburrido/a",
+              "definition": "boring",
+              "display_order": 8
+            },
+            {
+              "keyword": "entretenido/a",
+              "definition": "entertaining",
+              "display_order": 9
+            },
+            {
+              "keyword": "un programa",
+              "definition": "a TV programme",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Local Area, Holiday & Travel",
+      "paper": "Paper 1 & 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Town & Local Area",
+          "cards": [
+            {
+              "keyword": "en la ciudad",
+              "definition": "in the city / town",
+              "display_order": 1
+            },
+            {
+              "keyword": "las afueras",
+              "definition": "the outskirts / suburbs",
+              "display_order": 2
+            },
+            {
+              "keyword": "en el campo",
+              "definition": "in the countryside",
+              "display_order": 3
+            },
+            {
+              "keyword": "en la costa",
+              "definition": "at the coast / seaside",
+              "display_order": 4
+            },
+            {
+              "keyword": "el ayuntamiento",
+              "definition": "the town hall",
+              "display_order": 5
+            },
+            {
+              "keyword": "la oficina de turismo",
+              "definition": "the tourist information office",
+              "display_order": 6
+            },
+            {
+              "keyword": "animado/a",
+              "definition": "lively / busy",
+              "display_order": 7
+            },
+            {
+              "keyword": "tranquilo/a",
+              "definition": "calm / quiet",
+              "display_order": 8
+            },
+            {
+              "keyword": "contaminado/a",
+              "definition": "polluted",
+              "display_order": 9
+            },
+            {
+              "keyword": "limpio/a",
+              "definition": "clean",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Travel & Transport",
+          "cards": [
+            {
+              "keyword": "un avión",
+              "definition": "a plane",
+              "display_order": 1
+            },
+            {
+              "keyword": "un tren",
+              "definition": "a train",
+              "display_order": 2
+            },
+            {
+              "keyword": "un autobús",
+              "definition": "a bus / coach",
+              "display_order": 3
+            },
+            {
+              "keyword": "un coche",
+              "definition": "a car",
+              "display_order": 4
+            },
+            {
+              "keyword": "a pie",
+              "definition": "on foot",
+              "display_order": 5
+            },
+            {
+              "keyword": "una estación de tren",
+              "definition": "a train station",
+              "display_order": 6
+            },
+            {
+              "keyword": "un aeropuerto",
+              "definition": "an airport",
+              "display_order": 7
+            },
+            {
+              "keyword": "un billete de ida y vuelta",
+              "definition": "a return ticket",
+              "display_order": 8
+            },
+            {
+              "keyword": "alquilar",
+              "definition": "to hire / rent",
+              "display_order": 9
+            },
+            {
+              "keyword": "el transporte público",
+              "definition": "public transport",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Holiday & Accommodation",
+          "cards": [
+            {
+              "keyword": "las vacaciones",
+              "definition": "the holidays",
+              "display_order": 1
+            },
+            {
+              "keyword": "un hotel",
+              "definition": "a hotel",
+              "display_order": 2
+            },
+            {
+              "keyword": "un albergue juvenil",
+              "definition": "a youth hostel",
+              "display_order": 3
+            },
+            {
+              "keyword": "un camping",
+              "definition": "a campsite",
+              "display_order": 4
+            },
+            {
+              "keyword": "reservar",
+              "definition": "to book / reserve",
+              "display_order": 5
+            },
+            {
+              "keyword": "una habitación doble",
+              "definition": "a double room",
+              "display_order": 6
+            },
+            {
+              "keyword": "media pensión",
+              "definition": "half board (breakfast + one meal)",
+              "display_order": 7
+            },
+            {
+              "keyword": "tomar el sol",
+              "definition": "to sunbathe",
+              "display_order": 8
+            },
+            {
+              "keyword": "visitar",
+              "definition": "to visit (a place)",
+              "display_order": 9
+            },
+            {
+              "keyword": "inolvidable",
+              "definition": "unforgettable",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "School & Future Plans",
+      "paper": "Paper 1 & 2",
+      "display_order": 5,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "School Subjects & Opinions",
+          "cards": [
+            {
+              "keyword": "las matemáticas",
+              "definition": "mathematics / maths",
+              "display_order": 1
+            },
+            {
+              "keyword": "las ciencias",
+              "definition": "science",
+              "display_order": 2
+            },
+            {
+              "keyword": "la historia",
+              "definition": "history",
+              "display_order": 3
+            },
+            {
+              "keyword": "la geografía",
+              "definition": "geography",
+              "display_order": 4
+            },
+            {
+              "keyword": "la informática",
+              "definition": "computing / ICT",
+              "display_order": 5
+            },
+            {
+              "keyword": "útil",
+              "definition": "useful",
+              "display_order": 6
+            },
+            {
+              "keyword": "inútil",
+              "definition": "useless",
+              "display_order": 7
+            },
+            {
+              "keyword": "difícil",
+              "definition": "difficult / hard",
+              "display_order": 8
+            },
+            {
+              "keyword": "fácil",
+              "definition": "easy",
+              "display_order": 9
+            },
+            {
+              "keyword": "mejorar",
+              "definition": "to improve",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "School Life & Rules",
+          "cards": [
+            {
+              "keyword": "las normas",
+              "definition": "the rules / regulations",
+              "display_order": 1
+            },
+            {
+              "keyword": "el uniforme escolar",
+              "definition": "the school uniform",
+              "display_order": 2
+            },
+            {
+              "keyword": "el recreo",
+              "definition": "break time",
+              "display_order": 3
+            },
+            {
+              "keyword": "una clase",
+              "definition": "a lesson / class",
+              "display_order": 4
+            },
+            {
+              "keyword": "un examen",
+              "definition": "an exam",
+              "display_order": 5
+            },
+            {
+              "keyword": "aprobar",
+              "definition": "to pass (an exam)",
+              "display_order": 6
+            },
+            {
+              "keyword": "suspender",
+              "definition": "to fail (an exam)",
+              "display_order": 7
+            },
+            {
+              "keyword": "repetir curso",
+              "definition": "to repeat a year",
+              "display_order": 8
+            },
+            {
+              "keyword": "prohibido/a",
+              "definition": "forbidden / not allowed",
+              "display_order": 9
+            },
+            {
+              "keyword": "obligatorio/a",
+              "definition": "compulsory / obligatory",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Jobs & Future Plans",
+          "cards": [
+            {
+              "keyword": "un trabajo",
+              "definition": "a job / work",
+              "display_order": 1
+            },
+            {
+              "keyword": "un empleo",
+              "definition": "employment / a job",
+              "display_order": 2
+            },
+            {
+              "keyword": "trabajar",
+              "definition": "to work",
+              "display_order": 3
+            },
+            {
+              "keyword": "ganar",
+              "definition": "to earn / to win",
+              "display_order": 4
+            },
+            {
+              "keyword": "un sueldo",
+              "definition": "a salary / wage",
+              "display_order": 5
+            },
+            {
+              "keyword": "una empresa",
+              "definition": "a company / business",
+              "display_order": 6
+            },
+            {
+              "keyword": "buscar trabajo",
+              "definition": "to look for work",
+              "display_order": 7
+            },
+            {
+              "keyword": "en el futuro",
+              "definition": "in the future",
+              "display_order": 8
+            },
+            {
+              "keyword": "me gustaría",
+              "definition": "I would like",
+              "display_order": 9
+            },
+            {
+              "keyword": "una formación",
+              "definition": "training / vocational course",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Global Issues & Environment",
+      "paper": "Paper 1 & 2",
+      "display_order": 6,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Environment Vocabulary",
+          "cards": [
+            {
+              "keyword": "el medio ambiente",
+              "definition": "the environment",
+              "display_order": 1
+            },
+            {
+              "keyword": "el calentamiento global",
+              "definition": "global warming / climate change",
+              "display_order": 2
+            },
+            {
+              "keyword": "la contaminación",
+              "definition": "pollution",
+              "display_order": 3
+            },
+            {
+              "keyword": "los residuos",
+              "definition": "waste / rubbish",
+              "display_order": 4
+            },
+            {
+              "keyword": "reciclar",
+              "definition": "to recycle",
+              "display_order": 5
+            },
+            {
+              "keyword": "ahorrar",
+              "definition": "to save / conserve (energy, water etc.)",
+              "display_order": 6
+            },
+            {
+              "keyword": "proteger",
+              "definition": "to protect",
+              "display_order": 7
+            },
+            {
+              "keyword": "las energías renovables",
+              "definition": "renewable energies",
+              "display_order": 8
+            },
+            {
+              "keyword": "la deforestación",
+              "definition": "deforestation",
+              "display_order": 9
+            },
+            {
+              "keyword": "una especie en peligro",
+              "definition": "an endangered species",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Global & Social Issues",
+          "cards": [
+            {
+              "keyword": "la pobreza",
+              "definition": "poverty",
+              "display_order": 1
+            },
+            {
+              "keyword": "el desempleo",
+              "definition": "unemployment",
+              "display_order": 2
+            },
+            {
+              "keyword": "sin hogar",
+              "definition": "homeless",
+              "display_order": 3
+            },
+            {
+              "keyword": "la guerra",
+              "definition": "war",
+              "display_order": 4
+            },
+            {
+              "keyword": "la paz",
+              "definition": "peace",
+              "display_order": 5
+            },
+            {
+              "keyword": "los derechos humanos",
+              "definition": "human rights",
+              "display_order": 6
+            },
+            {
+              "keyword": "la igualdad",
+              "definition": "equality",
+              "display_order": 7
+            },
+            {
+              "keyword": "el racismo",
+              "definition": "racism",
+              "display_order": 8
+            },
+            {
+              "keyword": "voluntario/a",
+              "definition": "voluntary / volunteer",
+              "display_order": 9
+            },
+            {
+              "keyword": "hacer voluntariado",
+              "definition": "to do voluntary work",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Key Grammar — Verbs & Tenses",
+      "paper": "Paper 1 & 2",
+      "display_order": 7,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Essential Verbs",
+          "cards": [
+            {
+              "keyword": "ser",
+              "definition": "to be (permanent / characteristic)",
+              "display_order": 1
+            },
+            {
+              "keyword": "estar",
+              "definition": "to be (temporary / location / state)",
+              "display_order": 2
+            },
+            {
+              "keyword": "tener",
+              "definition": "to have",
+              "display_order": 3
+            },
+            {
+              "keyword": "ir",
+              "definition": "to go",
+              "display_order": 4
+            },
+            {
+              "keyword": "hacer",
+              "definition": "to do / to make",
+              "display_order": 5
+            },
+            {
+              "keyword": "querer",
+              "definition": "to want",
+              "display_order": 6
+            },
+            {
+              "keyword": "poder",
+              "definition": "to be able to / can",
+              "display_order": 7
+            },
+            {
+              "keyword": "deber",
+              "definition": "to have to / must",
+              "display_order": 8
+            },
+            {
+              "keyword": "saber",
+              "definition": "to know (a fact / how to do something)",
+              "display_order": 9
+            },
+            {
+              "keyword": "venir",
+              "definition": "to come",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Tense Markers & Time Phrases",
+          "cards": [
+            {
+              "keyword": "ahora",
+              "definition": "now",
+              "display_order": 1
+            },
+            {
+              "keyword": "hoy",
+              "definition": "today",
+              "display_order": 2
+            },
+            {
+              "keyword": "ayer",
+              "definition": "yesterday",
+              "display_order": 3
+            },
+            {
+              "keyword": "mañana",
+              "definition": "tomorrow",
+              "display_order": 4
+            },
+            {
+              "keyword": "la semana pasada",
+              "definition": "last week",
+              "display_order": 5
+            },
+            {
+              "keyword": "el año que viene",
+              "definition": "next year",
+              "display_order": 6
+            },
+            {
+              "keyword": "normalmente",
+              "definition": "normally / usually",
+              "display_order": 7
+            },
+            {
+              "keyword": "recientemente",
+              "definition": "recently",
+              "display_order": 8
+            },
+            {
+              "keyword": "antes",
+              "definition": "before / in the past",
+              "display_order": 9
+            },
+            {
+              "keyword": "en el futuro",
+              "definition": "in the future",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Opinion & Connective Phrases",
+          "cards": [
+            {
+              "keyword": "creo que",
+              "definition": "I think / believe that",
+              "display_order": 1
+            },
+            {
+              "keyword": "pienso que",
+              "definition": "I think that",
+              "display_order": 2
+            },
+            {
+              "keyword": "en mi opinión",
+              "definition": "in my opinion",
+              "display_order": 3
+            },
+            {
+              "keyword": "según yo",
+              "definition": "according to me / in my view",
+              "display_order": 4
+            },
+            {
+              "keyword": "sin embargo",
+              "definition": "however / nevertheless",
+              "display_order": 5
+            },
+            {
+              "keyword": "aunque",
+              "definition": "although / even though",
+              "display_order": 6
+            },
+            {
+              "keyword": "por otro lado",
+              "definition": "on the other hand",
+              "display_order": 7
+            },
+            {
+              "keyword": "por ejemplo",
+              "definition": "for example",
+              "display_order": 8
+            },
+            {
+              "keyword": "por tanto",
+              "definition": "therefore / so",
+              "display_order": 9
+            },
+            {
+              "keyword": "a pesar de",
+              "definition": "despite / in spite of",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "subject": {
+    "name": "Maths",
+    "slug": "maths",
+    "colour": "#1d4ed8",
+    "exam_board": "Edexcel",
+    "emoji": "📐"
+  },
+  "topics": [
+    {
+      "name": "Number & Algebra",
+      "paper": "Paper 1, 2 & 3",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Number & Calculator Skills",
+          "cards": [
+            {
+              "keyword": "surds",
+              "definition": "irrational numbers expressed as roots — e.g. √3, √5. Cannot be expressed as exact decimals",
+              "display_order": 1
+            },
+            {
+              "keyword": "rationalising the denominator",
+              "definition": "rewriting a fraction with no surds in the denominator — multiply by the conjugate or surd",
+              "display_order": 2
+            },
+            {
+              "keyword": "error interval",
+              "definition": "the range of values a rounded number could have been — e.g. 5.4 rounded to 1dp: 5.35 ≤ x < 5.45",
+              "display_order": 3
+            },
+            {
+              "keyword": "upper bound",
+              "definition": "the largest possible value before rounding — exclusive of this value",
+              "display_order": 4
+            },
+            {
+              "keyword": "lower bound",
+              "definition": "the smallest possible value before rounding — inclusive of this value",
+              "display_order": 5
+            },
+            {
+              "keyword": "recurring decimal",
+              "definition": "a decimal with a repeating pattern — e.g. 0.333... = ⅓. Converted to fractions algebraically",
+              "display_order": 6
+            },
+            {
+              "keyword": "index laws",
+              "definition": "rules for working with powers: aᵐ × aⁿ = aᵐ⁺ⁿ, aᵐ ÷ aⁿ = aᵐ⁻ⁿ, (aᵐ)ⁿ = aᵐⁿ",
+              "display_order": 7
+            },
+            {
+              "keyword": "negative index",
+              "definition": "a negative power means reciprocal — a⁻ⁿ = 1/aⁿ. E.g. 2⁻³ = 1/8",
+              "display_order": 8
+            },
+            {
+              "keyword": "fractional index",
+              "definition": "a fractional power means root — a^(1/n) = ⁿ√a. E.g. 8^(1/3) = ∛8 = 2",
+              "display_order": 9
+            },
+            {
+              "keyword": "Venn diagram (probability)",
+              "definition": "overlapping circles showing sets — used to calculate P(A∩B), P(A∪B), P(A')",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a surd?",
+              "options": [
+                "A) A rational number",
+                "B) An irrational number expressed as a root — e.g. √3",
+                "C) A recurring decimal",
+                "D) A negative power"
+              ],
+              "correct_answer": "B",
+              "explanation": "A surd is an irrational root that cannot be simplified to a rational number — e.g. √2, √5. √4 = 2 is NOT a surd.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an error interval?",
+              "options": [
+                "A) The answer to a calculation",
+                "B) The range of values a rounded number could have been",
+                "C) The upper bound only",
+                "D) A type of inequality"
+              ],
+              "correct_answer": "B",
+              "explanation": "Error interval: if x = 5.4 (1dp), then 5.35 ≤ x < 5.45. Lower bound is inclusive; upper bound is exclusive.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does a⁻² mean?",
+              "options": [
+                "A) a × (-2)",
+                "B) 1/a²",
+                "C) -a²",
+                "D) a²"
+              ],
+              "correct_answer": "B",
+              "explanation": "Negative index: a⁻ⁿ = 1/aⁿ. So 3⁻² = 1/3² = 1/9.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 8^(1/3) equal?",
+              "options": [
+                "A) 8/3",
+                "B) 8³",
+                "C) ∛8 = 2",
+                "D) 24"
+              ],
+              "correct_answer": "C",
+              "explanation": "Fractional index: a^(1/n) = ⁿ√a. 8^(1/3) = ∛8 = 2.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a recurring decimal?",
+              "options": [
+                "A) A decimal that terminates",
+                "B) A decimal with a repeating pattern — e.g. 0.333...",
+                "C) A surd expressed as a decimal",
+                "D) A decimal with random digits"
+              ],
+              "correct_answer": "B",
+              "explanation": "Recurring decimals have a pattern that repeats forever — e.g. 1/3 = 0.333..., 1/7 = 0.142857142857...",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does aᵐ × aⁿ equal?",
+              "options": [
+                "A) a^(mn)",
+                "B) aᵐ⁺ⁿ",
+                "C) aᵐ⁻ⁿ",
+                "D) (a²)^(m+n)"
+              ],
+              "correct_answer": "B",
+              "explanation": "Index law: when multiplying same bases, ADD the powers — aᵐ × aⁿ = aᵐ⁺ⁿ.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does aᵐ ÷ aⁿ equal?",
+              "options": [
+                "A) aᵐ⁺ⁿ",
+                "B) a^(mn)",
+                "C) aᵐ⁻ⁿ",
+                "D) aᵐ/ⁿ"
+              ],
+              "correct_answer": "C",
+              "explanation": "Index law: when dividing same bases, SUBTRACT the powers — aᵐ ÷ aⁿ = aᵐ⁻ⁿ.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the upper bound of 3.7 (1dp)?",
+              "options": [
+                "A) 3.74",
+                "B) 3.749...",
+                "C) 3.75",
+                "D) 3.8"
+              ],
+              "correct_answer": "C",
+              "explanation": "Upper bound = 3.75 (exclusive). Lower bound = 3.65 (inclusive). Error interval: 3.65 ≤ x < 3.75.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the lower bound of 12 (rounded to nearest whole number)?",
+              "options": [
+                "A) 11.4",
+                "B) 11.5",
+                "C) 12.5",
+                "D) 12"
+              ],
+              "correct_answer": "B",
+              "explanation": "Lower bound = 11.5 (inclusive). Upper bound = 12.5 (exclusive). Error interval: 11.5 ≤ x < 12.5.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do you rationalise the denominator of 1/√3?",
+              "options": [
+                "A) Multiply by 3",
+                "B) Multiply numerator and denominator by √3",
+                "C) Divide by √3",
+                "D) Square the fraction"
+              ],
+              "correct_answer": "B",
+              "explanation": "Multiply top and bottom by √3: 1/√3 × √3/√3 = √3/3.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "A surd can be expressed as an exact decimal.",
+              "correct_answer": "False",
+              "explanation": "Surds are IRRATIONAL — they cannot be expressed as terminating or recurring decimals.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "a⁻³ = 1/a³.",
+              "correct_answer": "True",
+              "explanation": "Negative index means reciprocal: a⁻ⁿ = 1/aⁿ.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The upper bound is inclusive in an error interval.",
+              "correct_answer": "False",
+              "explanation": "The upper bound is EXCLUSIVE (strict inequality <) in an error interval. The lower bound is inclusive (≤).",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "8^(1/3) = 2.",
+              "correct_answer": "True",
+              "explanation": "Fractional power 1/3 means cube root: ∛8 = 2.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "aᵐ × aⁿ = aᵐⁿ.",
+              "correct_answer": "False",
+              "explanation": "When multiplying same bases: aᵐ × aⁿ = aᵐ⁺ⁿ (ADD powers). aᵐⁿ would be (aᵐ)ⁿ.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Recurring decimals can be converted to fractions.",
+              "correct_answer": "True",
+              "explanation": "Algebraic method: let x = 0.333..., 10x = 3.333..., subtract: 9x = 3, x = 1/3.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "√4 is a surd.",
+              "correct_answer": "False",
+              "explanation": "√4 = 2 is rational — it IS NOT a surd. Surds are irrational roots that cannot be simplified to whole numbers.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "aᵐ ÷ aⁿ = aᵐ⁻ⁿ.",
+              "correct_answer": "True",
+              "explanation": "When dividing same bases: subtract powers.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The error interval for x = 6.0 (1dp) is 5.95 ≤ x < 6.05.",
+              "correct_answer": "True",
+              "explanation": "Lower bound = 5.95 (inclusive); upper bound = 6.05 (exclusive).",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "A fractional power a^(1/2) means the square root of a.",
+              "correct_answer": "True",
+              "explanation": "a^(1/n) = ⁿ√a. So a^(1/2) = √a.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is an irrational number expressed as a root — e.g. √5.",
+              "correct_answer": "surd",
+              "explanation": "Surds cannot be expressed as exact decimals.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ interval shows the range of values a rounded number could be.",
+              "correct_answer": "error",
+              "explanation": "Error interval: lower bound ≤ x < upper bound.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ index means reciprocal — a⁻ⁿ = 1/aⁿ.",
+              "correct_answer": "negative",
+              "explanation": "E.g. 4⁻² = 1/16.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ index means root — a^(1/n) = ⁿ√a.",
+              "correct_answer": "fractional",
+              "explanation": "E.g. 27^(1/3) = ∛27 = 3.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "aᵐ × aⁿ = a to the power ________.",
+              "correct_answer": "m+n",
+              "explanation": "When multiplying same bases, add the powers.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "aᵐ ÷ aⁿ = a to the power ________.",
+              "correct_answer": "m-n",
+              "explanation": "When dividing same bases, subtract the powers.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ decimal has a repeating pattern — e.g. 0.142857...",
+              "correct_answer": "recurring",
+              "explanation": "Recurring decimals can be converted to fractions algebraically.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The upper bound of a rounded number is ________ (not included).",
+              "correct_answer": "exclusive",
+              "explanation": "The upper bound uses strict inequality (<) in the error interval.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "To ________ the denominator of 1/√5, multiply by √5/√5.",
+              "correct_answer": "rationalise",
+              "explanation": "Result: √5/5.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "(aᵐ)ⁿ = a to the power ________.",
+              "correct_answer": "mn",
+              "explanation": "When raising a power to a power, multiply the indices.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "surd",
+                  "match": "irrational root — cannot be exact decimal"
+                },
+                {
+                  "term": "error interval",
+                  "match": "range of values a rounded number could be"
+                },
+                {
+                  "term": "negative index",
+                  "match": "a⁻ⁿ = 1/aⁿ — reciprocal"
+                },
+                {
+                  "term": "fractional index",
+                  "match": "a^(1/n) = nth root of a"
+                },
+                {
+                  "term": "index laws",
+                  "match": "multiply: add; divide: subtract; power of power: multiply"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

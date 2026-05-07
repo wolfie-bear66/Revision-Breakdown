@@ -1,0 +1,373 @@
+{
+  "subject": {
+    "name": "English Literature (Edexcel)",
+    "slug": "english-literature-edexcel",
+    "colour": "#7e22ce"
+  },
+  "topics": [
+    {
+      "name": "Romeo & Juliet — Shakespeare",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Romeo & Juliet — Characters",
+          "cards": [
+            {
+              "keyword": "Romeo",
+              "definition": "the male protagonist — impulsive, passionate, and idealistic. His hasty decisions (killing Tybalt, suicide) drive the tragedy",
+              "display_order": 1
+            },
+            {
+              "keyword": "Juliet",
+              "definition": "the female protagonist — initially obedient but grows independent. More practical than Romeo; she questions the speed of their love",
+              "display_order": 2
+            },
+            {
+              "keyword": "Friar Lawrence",
+              "definition": "a well-meaning friar who secretly marries Romeo and Juliet and devises the sleeping potion plan — his good intentions lead to tragedy",
+              "display_order": 3
+            },
+            {
+              "keyword": "the Nurse",
+              "definition": "Juliet's loyal confidante and go-between — comic and warm, but she abandons Juliet when she advises her to marry Paris",
+              "display_order": 4
+            },
+            {
+              "keyword": "Tybalt",
+              "definition": "Juliet's hot-headed cousin who despises the Montagues — his killing of Mercutio and death at Romeo's hands is the play's turning point",
+              "display_order": 5
+            },
+            {
+              "keyword": "Mercutio",
+              "definition": "Romeo's witty, irreverent friend — his death transforms the play from comedy to tragedy. His 'plague on both your houses' is key",
+              "display_order": 6
+            },
+            {
+              "keyword": "Lord Capulet",
+              "definition": "Juliet's father — initially seems caring but becomes controlling and threatens to disown her when she refuses to marry Paris",
+              "display_order": 7
+            },
+            {
+              "keyword": "Paris",
+              "definition": "a nobleman who wishes to marry Juliet — represents the socially acceptable match Juliet is expected to make",
+              "display_order": 8
+            },
+            {
+              "keyword": "Prince Escalus",
+              "definition": "the ruler of Verona who tries to end the feud — his authority represents social order that the families' hatred threatens",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Montagues and Capulets",
+              "definition": "the two feuding families — the ancient rivalry between them is the root cause of all the tragedy in the play",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Romeo & Juliet — Themes & Context",
+          "cards": [
+            {
+              "keyword": "love and desire",
+              "definition": "the play explores different types of love — Romeo's romantic idealism, the Nurse's bawdy humour, Paris's formal courtship, and the deep bond between Romeo and Juliet",
+              "display_order": 1
+            },
+            {
+              "keyword": "fate and free will",
+              "definition": "the play raises questions about whether the lovers are 'star-crossed' (fated to die) or whether their own choices seal their doom",
+              "display_order": 2
+            },
+            {
+              "keyword": "conflict and violence",
+              "definition": "the feud creates a culture of violence in Verona — public brawls, duels, and ultimately suicide",
+              "display_order": 3
+            },
+            {
+              "keyword": "family and duty",
+              "definition": "both Romeo and Juliet feel the tension between their love and their duties to their families",
+              "display_order": 4
+            },
+            {
+              "keyword": "gender and patriarchy",
+              "definition": "Elizabethan society expected women to be obedient — Juliet's defiance of her father reflects the play's questioning of patriarchal control",
+              "display_order": 5
+            },
+            {
+              "keyword": "light and dark imagery",
+              "definition": "Shakespeare uses light (day, stars, fire) to represent love and hope, and darkness to represent death and danger — a key motif throughout",
+              "display_order": 6
+            },
+            {
+              "keyword": "haste and impulsiveness",
+              "definition": "many of the play's tragedies result from characters acting too quickly — Romeo and Juliet's relationship moves from meeting to marriage in 24 hours",
+              "display_order": 7
+            },
+            {
+              "keyword": "Elizabethan context",
+              "definition": "in Shakespeare's era, women had little say in marriage, family honour was paramount, and young people were expected to obey their parents",
+              "display_order": 8
+            },
+            {
+              "keyword": "dramatic irony",
+              "definition": "when the audience knows something a character does not — used extensively in Act 5 as the audience knows Juliet is not really dead",
+              "display_order": 9
+            },
+            {
+              "keyword": "the prologue",
+              "definition": "a 14-line sonnet that opens the play and reveals the outcome — the 'star-crossed lovers' will die, making the whole play a tragedy from the start",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Strange Case of Dr Jekyll & Mr Hyde",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Jekyll & Hyde — Characters & Plot",
+          "cards": [
+            {
+              "keyword": "Dr Henry Jekyll",
+              "definition": "a respected scientist who creates a potion to separate his good and evil natures — his experiment spirals out of control",
+              "display_order": 1
+            },
+            {
+              "keyword": "Mr Edward Hyde",
+              "definition": "Jekyll's evil alter ego — small, deformed, and violent. He represents the repressed dark side of human nature",
+              "display_order": 2
+            },
+            {
+              "keyword": "Mr Utterson",
+              "definition": "a lawyer and close friend of Jekyll who narrates much of the story — represents Victorian rationalism and loyalty",
+              "display_order": 3
+            },
+            {
+              "keyword": "Dr Lanyon",
+              "definition": "a scientist and friend of Jekyll who dies of shock after witnessing Hyde's transformation — represents the danger of going against nature",
+              "display_order": 4
+            },
+            {
+              "keyword": "Mr Enfield",
+              "definition": "Utterson's cousin who first tells him about Hyde trampling a child — provides an early impression of Hyde's evil",
+              "display_order": 5
+            },
+            {
+              "keyword": "the transformation",
+              "definition": "Jekyll's potion allows him to physically transform into Hyde — over time Hyde begins to appear without the potion, suggesting evil is taking over",
+              "display_order": 6
+            },
+            {
+              "keyword": "duality",
+              "definition": "the idea that humans have both good and evil within them — the central theme of the novel",
+              "display_order": 7
+            },
+            {
+              "keyword": "reputation",
+              "definition": "Victorian society was obsessed with respectability — Jekyll creates Hyde partly to indulge desires he cannot pursue as a respected gentleman",
+              "display_order": 8
+            },
+            {
+              "keyword": "the door / cabinet",
+              "definition": "key symbols in the novel — Hyde's door represents secrecy and the hidden side of respectable society; the cabinet is where Jekyll's experiments take place",
+              "display_order": 9
+            },
+            {
+              "keyword": "Stevenson's context",
+              "definition": "written in 1886 during the Victorian era — reflects anxieties about evolution, degeneration, and the hidden 'savage' side of humanity",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Jekyll & Hyde — Themes",
+          "cards": [
+            {
+              "keyword": "duality of human nature",
+              "definition": "Stevenson's central argument that all humans contain both good and evil — society forces us to suppress the evil, but it cannot be eliminated",
+              "display_order": 1
+            },
+            {
+              "keyword": "science vs religion",
+              "definition": "the novel reflects Victorian anxieties about scientific progress overstepping moral boundaries — Jekyll plays God and suffers for it",
+              "display_order": 2
+            },
+            {
+              "keyword": "repression",
+              "definition": "Victorian society demanded strict moral behaviour — Jekyll's creation of Hyde represents the dangerous consequences of suppressing desires",
+              "display_order": 3
+            },
+            {
+              "keyword": "secrecy and deception",
+              "definition": "the characters in the novel conceal truths — Utterson avoids looking at uncomfortable facts; Jekyll hides his experiments from society",
+              "display_order": 4
+            },
+            {
+              "keyword": "hypocrisy",
+              "definition": "Jekyll publicly upholds Victorian respectability while secretly conducting dangerous experiments and committing immoral acts through Hyde",
+              "display_order": 5
+            },
+            {
+              "keyword": "evolution and degeneration",
+              "definition": "Hyde is described as ape-like and degenerate — reflecting Victorian fears that humans could evolve backwards into a more primitive, savage state",
+              "display_order": 6
+            },
+            {
+              "keyword": "the Gothic genre",
+              "definition": "a literary tradition using dark settings, supernatural events, and psychological horror — Jekyll & Hyde uses Gothic conventions to explore the dark side of human nature",
+              "display_order": 7
+            },
+            {
+              "keyword": "urban London as a setting",
+              "definition": "the foggy, dark streets of Victorian London create an atmosphere of mystery and danger — the city has both respectable and seedy areas, like Jekyll/Hyde",
+              "display_order": 8
+            },
+            {
+              "keyword": "the unreliable narrator",
+              "definition": "different perspectives are given through multiple narrators — Utterson, Lanyon's letter, Jekyll's statement — each withholding information",
+              "display_order": 9
+            },
+            {
+              "keyword": "loss of control",
+              "definition": "Jekyll loses control of his Hyde persona — eventually unable to stay as Jekyll without the potion. Represents the danger of unleashing suppressed desires",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A Christmas Carol — Dickens",
+      "paper": "Paper 1",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "A Christmas Carol — Characters",
+          "cards": [
+            {
+              "keyword": "Ebenezer Scrooge",
+              "definition": "the miserly protagonist who undergoes a moral transformation after being visited by three spirits — represents greed and its redemption",
+              "display_order": 1
+            },
+            {
+              "keyword": "Jacob Marley",
+              "definition": "Scrooge's dead business partner whose ghost appears in chains — a warning of the fate awaiting those who prioritise money over humanity",
+              "display_order": 2
+            },
+            {
+              "keyword": "the Ghost of Christmas Past",
+              "definition": "the first spirit who shows Scrooge scenes from his past — reveals how he became cold and helps explain his character",
+              "display_order": 3
+            },
+            {
+              "keyword": "the Ghost of Christmas Present",
+              "definition": "the second spirit who shows Scrooge how others celebrate Christmas — including the Cratchit family and Fred's party",
+              "display_order": 4
+            },
+            {
+              "keyword": "the Ghost of Christmas Yet to Come",
+              "definition": "a dark, silent spirit showing Scrooge his own death and its indifferent reception — the most frightening spirit",
+              "display_order": 5
+            },
+            {
+              "keyword": "Bob Cratchit",
+              "definition": "Scrooge's poorly paid but cheerful clerk — represents the working poor. His loyalty and good nature contrast with Scrooge's meanness",
+              "display_order": 6
+            },
+            {
+              "keyword": "Tiny Tim",
+              "definition": "Bob Cratchit's disabled son — used by Dickens to evoke sympathy and highlight the suffering of the poor. 'God bless us, every one!'",
+              "display_order": 7
+            },
+            {
+              "keyword": "Fred",
+              "definition": "Scrooge's cheerful nephew who invites him to Christmas dinner — represents warmth, generosity, and the true spirit of Christmas",
+              "display_order": 8
+            },
+            {
+              "keyword": "Fezziwig",
+              "definition": "Scrooge's kind former employer shown in the Christmas Past scenes — represents how employers should treat workers",
+              "display_order": 9
+            },
+            {
+              "keyword": "Belle",
+              "definition": "Scrooge's former fiancée who breaks off their engagement because his love of money has replaced his love for her",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unseen Poetry & Poetry Anthology",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Poetry Analysis Terminology",
+          "cards": [
+            {
+              "keyword": "imagery",
+              "definition": "language that creates a picture or sensory experience in the reader's mind — includes simile, metaphor, and personification",
+              "display_order": 1
+            },
+            {
+              "keyword": "simile",
+              "definition": "a comparison using 'like' or 'as' — e.g. 'He fought like a lion'",
+              "display_order": 2
+            },
+            {
+              "keyword": "metaphor",
+              "definition": "a direct comparison saying one thing IS another — e.g. 'Life is a journey'",
+              "display_order": 3
+            },
+            {
+              "keyword": "personification",
+              "definition": "giving human qualities to non-human things — e.g. 'The wind whispered through the trees'",
+              "display_order": 4
+            },
+            {
+              "keyword": "alliteration",
+              "definition": "repetition of the same consonant sound at the start of words close together — creates rhythm and emphasis",
+              "display_order": 5
+            },
+            {
+              "keyword": "sibilance",
+              "definition": "repetition of 's' sounds — can create a hissing, whispering, or sinister effect",
+              "display_order": 6
+            },
+            {
+              "keyword": "enjambment",
+              "definition": "when a sentence or phrase runs over a line break without a pause — creates a sense of flow, urgency, or breathlessness",
+              "display_order": 7
+            },
+            {
+              "keyword": "caesura",
+              "definition": "a pause in the middle of a line of poetry — created by punctuation. Can suggest hesitation, shock, or a change in thought",
+              "display_order": 8
+            },
+            {
+              "keyword": "volta",
+              "definition": "a turning point in a poem where the argument, tone, or perspective shifts — common in sonnets",
+              "display_order": 9
+            },
+            {
+              "keyword": "tone",
+              "definition": "the emotional quality or attitude expressed in a poem — e.g. melancholic, celebratory, angry, reflective",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

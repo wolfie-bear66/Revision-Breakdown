@@ -1,0 +1,1459 @@
+{
+  "subject": {
+    "name": "Physics",
+    "slug": "physics",
+    "colour": "#1e3a5f",
+    "exam_board": "OCR",
+    "emoji": "⚡"
+  },
+  "topics": [
+    {
+      "name": "Matter, Forces & Energy",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Energy & Work",
+          "cards": [
+            {
+              "keyword": "energy",
+              "definition": "ability to do work — measured in joules (J) — cannot be created or destroyed",
+              "display_order": 1
+            },
+            {
+              "keyword": "conservation of energy",
+              "definition": "energy cannot be created or destroyed — only transferred between stores",
+              "display_order": 2
+            },
+            {
+              "keyword": "work done",
+              "definition": "W = Fd — force × distance — measured in joules",
+              "display_order": 3
+            },
+            {
+              "keyword": "power",
+              "definition": "rate of energy transfer — P = E/t — measured in watts (W)",
+              "display_order": 4
+            },
+            {
+              "keyword": "efficiency",
+              "definition": "useful energy output ÷ total energy input × 100%",
+              "display_order": 5
+            },
+            {
+              "keyword": "kinetic energy",
+              "definition": "KE = ½mv²",
+              "display_order": 6
+            },
+            {
+              "keyword": "gravitational potential energy",
+              "definition": "GPE = mgh",
+              "display_order": 7
+            },
+            {
+              "keyword": "elastic potential energy",
+              "definition": "energy stored in a stretched or compressed object",
+              "display_order": 8
+            },
+            {
+              "keyword": "specific heat capacity",
+              "definition": "energy to raise 1 kg by 1°C — Q = mcΔT",
+              "display_order": 9
+            },
+            {
+              "keyword": "specific latent heat",
+              "definition": "energy to change state of 1 kg without temperature change",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is conservation of energy?",
+              "options": [
+                "A) Energy created in nuclear reactions",
+                "B) Energy destroyed in friction",
+                "C) Energy cannot be created or destroyed — only transferred",
+                "D) Energy only stored in fuel"
+              ],
+              "correct_answer": "C",
+              "explanation": "Total energy in a closed system is always constant.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is work done?",
+              "options": [
+                "A) W = ma",
+                "B) W = Pt",
+                "C) W = Fd",
+                "D) W = ½mv²"
+              ],
+              "correct_answer": "C",
+              "explanation": "Work done = force × distance in direction of force. Joules.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is power?",
+              "options": [
+                "A) Force × distance",
+                "B) Mass × acceleration",
+                "C) Rate of energy transfer — P = E/t",
+                "D) Energy × time"
+              ],
+              "correct_answer": "C",
+              "explanation": "P = E/t. 1 watt = 1 joule per second.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is kinetic energy?",
+              "options": [
+                "A) Energy of position",
+                "B) Energy in springs",
+                "C) Energy of movement — KE = ½mv²",
+                "D) Energy from heating"
+              ],
+              "correct_answer": "C",
+              "explanation": "KE = ½mv². Doubling speed quadruples KE (v is squared).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is GPE?",
+              "options": [
+                "A) Energy of moving objects",
+                "B) Energy in springs",
+                "C) Energy due to height — GPE = mgh",
+                "D) Released in combustion"
+              ],
+              "correct_answer": "C",
+              "explanation": "GPE = mgh. Increasing height increases GPE.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is efficiency?",
+              "options": [
+                "A) Total output ÷ input",
+                "B) Useful output ÷ total input × 100%",
+                "C) Wasted ÷ total",
+                "D) Power × time"
+              ],
+              "correct_answer": "B",
+              "explanation": "Efficiency < 100% for all real machines.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is specific heat capacity?",
+              "options": [
+                "A) Energy to change state",
+                "B) Energy to raise 1 kg by 1°C — Q = mcΔT",
+                "C) Energy in elastic objects",
+                "D) Energy per second"
+              ],
+              "correct_answer": "B",
+              "explanation": "Water SHC = 4200 J/kg°C — high, meaning it stores lots of thermal energy.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is specific latent heat?",
+              "options": [
+                "A) Energy to raise temperature",
+                "B) Energy to raise 1 kg by 1°C",
+                "C) Energy to change state of 1 kg without temperature change",
+                "D) Energy stored in bonds"
+              ],
+              "correct_answer": "C",
+              "explanation": "Temperature constant during state changes — energy goes into breaking/forming bonds.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is elastic potential energy?",
+              "options": [
+                "A) Energy of movement",
+                "B) Energy due to height",
+                "C) Energy stored in stretched or compressed objects",
+                "D) Released in combustion"
+              ],
+              "correct_answer": "C",
+              "explanation": "E.g. springs, elastic bands, compressed gas.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How are work done and energy related?",
+              "options": [
+                "A) Unrelated",
+                "B) Work transfers energy — same unit (joules)",
+                "C) Energy = power × work",
+                "D) Work creates energy"
+              ],
+              "correct_answer": "B",
+              "explanation": "Work done = energy transferred. 1 J = 1 N moving through 1 m.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Energy cannot be created or destroyed.",
+              "correct_answer": "True",
+              "explanation": "Conservation of energy is fundamental.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Work done = force × time.",
+              "correct_answer": "False",
+              "explanation": "Work done = force × DISTANCE (W = Fd).",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Doubling speed doubles KE.",
+              "correct_answer": "False",
+              "explanation": "KE = ½mv² — speed squared → doubling speed QUADRUPLES KE.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "No machine can be 100% efficient.",
+              "correct_answer": "True",
+              "explanation": "Energy always dissipated as heat — efficiency < 100%.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Specific latent heat involves temperature change.",
+              "correct_answer": "False",
+              "explanation": "No temperature change during state changes — energy goes into bonding changes.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "GPE = mgh.",
+              "correct_answer": "True",
+              "explanation": "Mass × g × height.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "SHC is energy to raise 1 kg by 1°C.",
+              "correct_answer": "True",
+              "explanation": "Q = mcΔT.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Efficiency can exceed 100%.",
+              "correct_answer": "False",
+              "explanation": "Would violate conservation of energy.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Elastic potential energy is stored in deformed elastic objects.",
+              "correct_answer": "True",
+              "explanation": "Released when object returns to original shape.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "P = E/t.",
+              "correct_answer": "True",
+              "explanation": "Power = energy transferred per second. Watts.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ of energy: cannot be created or destroyed — only transferred.",
+              "correct_answer": "Conservation",
+              "explanation": "Total energy in a closed system is constant.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Work done = ________ × distance.",
+              "correct_answer": "force",
+              "explanation": "W = Fd. Joules.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "P = E/________ — rate of energy transfer — watts.",
+              "correct_answer": "t",
+              "explanation": "1 watt = 1 joule per second.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "KE = ½m________² — energy of motion.",
+              "correct_answer": "v",
+              "explanation": "Doubling speed quadruples KE.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "GPE = m × g × ________.",
+              "correct_answer": "h",
+              "explanation": "On Earth g ≈ 10 N/kg.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = useful output ÷ total input × 100%.",
+              "correct_answer": "Efficiency",
+              "explanation": "All real machines < 100% efficient.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Specific ________ capacity: energy to raise 1 kg by 1°C.",
+              "correct_answer": "heat",
+              "explanation": "Q = mcΔT. Water = 4200 J/kg°C.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Specific ________ heat: energy to change state — no temperature change.",
+              "correct_answer": "latent",
+              "explanation": "Latent heat of fusion (melting) and vaporisation (boiling).",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ potential energy stored in stretched or compressed objects.",
+              "correct_answer": "Elastic",
+              "explanation": "Springs, elastic bands, compressed air.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Work done and energy both measured in ________.",
+              "correct_answer": "joules",
+              "explanation": "1 J = 1 N moving through 1 m.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "conservation of energy",
+                  "match": "cannot be created/destroyed — only transferred"
+                },
+                {
+                  "term": "work done",
+                  "match": "force × distance — joules"
+                },
+                {
+                  "term": "power",
+                  "match": "P = E/t — rate of energy transfer — watts"
+                },
+                {
+                  "term": "kinetic energy",
+                  "match": "KE = ½mv²"
+                },
+                {
+                  "term": "efficiency",
+                  "match": "useful output ÷ total input × 100%"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Forces & Motion",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Forces, Motion & Newton's Laws",
+          "cards": [
+            {
+              "keyword": "resultant force",
+              "definition": "the single force that has the same effect as all individual forces combined",
+              "display_order": 1
+            },
+            {
+              "keyword": "Newton's First Law",
+              "definition": "no resultant force → constant velocity or rest",
+              "display_order": 2
+            },
+            {
+              "keyword": "Newton's Second Law",
+              "definition": "F = ma — resultant force = mass × acceleration",
+              "display_order": 3
+            },
+            {
+              "keyword": "Newton's Third Law",
+              "definition": "equal and opposite force pairs — act on different objects",
+              "display_order": 4
+            },
+            {
+              "keyword": "weight",
+              "definition": "the gravitational force on an object — W = mg",
+              "display_order": 5
+            },
+            {
+              "keyword": "friction",
+              "definition": "a contact force opposing relative motion — produces heat",
+              "display_order": 6
+            },
+            {
+              "keyword": "terminal velocity",
+              "definition": "when drag = driving force — no resultant force — constant velocity",
+              "display_order": 7
+            },
+            {
+              "keyword": "momentum",
+              "definition": "p = mv — mass × velocity — vector quantity",
+              "display_order": 8
+            },
+            {
+              "keyword": "conservation of momentum",
+              "definition": "in a closed system, total momentum before = total momentum after a collision",
+              "display_order": 9
+            },
+            {
+              "keyword": "stopping distance",
+              "definition": "thinking distance + braking distance — affected by speed, road conditions, reaction time",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a resultant force?",
+              "options": [
+                "A) The largest force acting",
+                "B) The single force equivalent to all forces combined",
+                "C) The force of friction only",
+                "D) The driving force"
+              ],
+              "correct_answer": "B",
+              "explanation": "The resultant (net) force determines the acceleration — if zero, object stays at rest or constant velocity.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is terminal velocity?",
+              "options": [
+                "A) Maximum possible speed in a vacuum",
+                "B) When drag = driving force — no resultant force — constant velocity",
+                "C) The speed just before crashing",
+                "D) Speed when friction is zero"
+              ],
+              "correct_answer": "B",
+              "explanation": "Falling object: initially accelerates, drag increases, eventually drag = weight → no resultant force → terminal velocity.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is momentum?",
+              "options": [
+                "A) Mass × acceleration",
+                "B) Force × time",
+                "C) Mass × velocity — p = mv",
+                "D) Mass × distance"
+              ],
+              "correct_answer": "C",
+              "explanation": "Momentum (p) = mass × velocity. Vector quantity — has direction as well as magnitude.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is conservation of momentum?",
+              "options": [
+                "A) Momentum always increases in collisions",
+                "B) Total momentum before = total momentum after in a closed system",
+                "C) Only applies to elastic collisions",
+                "D) Momentum is lost in every collision"
+              ],
+              "correct_answer": "B",
+              "explanation": "In a closed system (no external forces), total momentum is conserved — before equals after.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is weight?",
+              "options": [
+                "A) The mass of an object",
+                "B) The amount of matter in an object",
+                "C) Gravitational force on an object — W = mg",
+                "D) Resistance to acceleration"
+              ],
+              "correct_answer": "C",
+              "explanation": "Weight = mass × gravitational field strength. W = mg. On Earth, g ≈ 10 N/kg.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Newton's Second Law?",
+              "options": [
+                "A) No force → constant velocity",
+                "B) Equal and opposite reactions",
+                "C) F = ma — resultant force = mass × acceleration",
+                "D) Momentum conserved"
+              ],
+              "correct_answer": "C",
+              "explanation": "F = ma. A greater force produces greater acceleration for the same mass.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What affects stopping distance?",
+              "options": [
+                "A) Speed only",
+                "B) Speed, road conditions (friction), tyre condition, reaction time",
+                "C) Only the brakes",
+                "D) Only driver reaction time"
+              ],
+              "correct_answer": "B",
+              "explanation": "Stopping distance = thinking distance (reaction time) + braking distance (kinetic energy, friction).",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Newton's Third Law?",
+              "options": [
+                "A) F = ma",
+                "B) No resultant force → constant velocity",
+                "C) Equal and opposite force pairs on different objects",
+                "D) Momentum conservation"
+              ],
+              "correct_answer": "C",
+              "explanation": "Newton's Third Law pairs: equal magnitude, opposite direction, same type, on DIFFERENT objects.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is friction?",
+              "options": [
+                "A) A force in the direction of motion",
+                "B) Contact force opposing relative motion — produces heat",
+                "C) A non-contact force",
+                "D) The same as drag"
+              ],
+              "correct_answer": "B",
+              "explanation": "Friction acts between surfaces in contact — it opposes motion and converts kinetic energy to heat.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Newton's First Law?",
+              "options": [
+                "A) F = ma",
+                "B) Equal and opposite reactions",
+                "C) No resultant force → object stays at rest or moves at constant velocity",
+                "D) Momentum conservation"
+              ],
+              "correct_answer": "C",
+              "explanation": "A force is needed to CHANGE motion — not to maintain it.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Resultant force determines acceleration.",
+              "correct_answer": "True",
+              "explanation": "F = ma — the net force produces acceleration.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Terminal velocity is when the object is moving fastest possible.",
+              "correct_answer": "False",
+              "explanation": "Terminal velocity is when drag = driving force — no resultant force — constant velocity.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Momentum = mass × velocity.",
+              "correct_answer": "True",
+              "explanation": "p = mv. Vector quantity.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Momentum is always lost in collisions.",
+              "correct_answer": "False",
+              "explanation": "Total momentum is CONSERVED in a closed system.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Weight and mass are the same quantity.",
+              "correct_answer": "False",
+              "explanation": "Mass is amount of matter (kg). Weight is gravitational force (N). W = mg.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Newton's Third Law pairs act on the same object.",
+              "correct_answer": "False",
+              "explanation": "Newton's Third Law pairs act on DIFFERENT objects.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Stopping distance only depends on speed.",
+              "correct_answer": "False",
+              "explanation": "Stopping distance also depends on reaction time, road conditions, tyre and brake condition.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "F = ma.",
+              "correct_answer": "True",
+              "explanation": "Newton's Second Law.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Friction always acts in the direction of motion.",
+              "correct_answer": "False",
+              "explanation": "Friction acts AGAINST motion.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "No resultant force means the object must be stationary.",
+              "correct_answer": "False",
+              "explanation": "No resultant force means constant velocity OR rest — could be moving.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ force is the single force equivalent to all forces combined.",
+              "correct_answer": "Resultant",
+              "explanation": "Determines acceleration via F = ma.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Newton's ________ Law: F = ma.",
+              "correct_answer": "Second",
+              "explanation": "Greater force → greater acceleration.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Newton's ________ Law: no resultant force → constant velocity or rest.",
+              "correct_answer": "First",
+              "explanation": "Force needed to CHANGE motion, not maintain it.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Newton's ________ Law: equal and opposite pairs — on different objects.",
+              "correct_answer": "Third",
+              "explanation": "Equal magnitude, opposite direction, same type.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = mg — gravitational force on an object.",
+              "correct_answer": "Weight",
+              "explanation": "On Earth g ≈ 10 N/kg.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ velocity: drag = driving force — constant speed.",
+              "correct_answer": "Terminal",
+              "explanation": "No resultant force → no acceleration.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = mv — mass × velocity — conserved in closed systems.",
+              "correct_answer": "Momentum",
+              "explanation": "Vector quantity — has direction.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Conservation of ________: total before = total after in closed system.",
+              "correct_answer": "momentum",
+              "explanation": "No external forces in a closed system.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a contact force opposing motion — produces heat.",
+              "correct_answer": "Friction",
+              "explanation": "Acts between surfaces in contact.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ distance = thinking distance + braking distance.",
+              "correct_answer": "Stopping",
+              "explanation": "Affected by speed, reaction time, road and tyre condition.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Newton's First Law",
+                  "match": "no resultant force → constant velocity or rest"
+                },
+                {
+                  "term": "Newton's Second Law",
+                  "match": "F = ma"
+                },
+                {
+                  "term": "Newton's Third Law",
+                  "match": "equal and opposite pairs — different objects"
+                },
+                {
+                  "term": "momentum",
+                  "match": "p = mv — conserved in closed systems"
+                },
+                {
+                  "term": "terminal velocity",
+                  "match": "drag = driving force — constant velocity"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electricity & Waves",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Electricity & Electromagnetic Waves",
+          "cards": [
+            {
+              "keyword": "current",
+              "definition": "flow of charge — I = Q/t — measured in amperes (A)",
+              "display_order": 1
+            },
+            {
+              "keyword": "potential difference",
+              "definition": "work done per unit charge — V = W/Q — measured in volts (V)",
+              "display_order": 2
+            },
+            {
+              "keyword": "resistance",
+              "definition": "opposition to current — R = V/I — measured in ohms (Ω)",
+              "display_order": 3
+            },
+            {
+              "keyword": "Ohm's Law",
+              "definition": "V = IR — for ohmic conductors at constant temperature",
+              "display_order": 4
+            },
+            {
+              "keyword": "series circuit",
+              "definition": "same current, voltages add up",
+              "display_order": 5
+            },
+            {
+              "keyword": "parallel circuit",
+              "definition": "same voltage across branches, currents add up",
+              "display_order": 6
+            },
+            {
+              "keyword": "electromagnetic spectrum",
+              "definition": "EM waves ordered by frequency — radio → microwave → infrared → visible → UV → X-ray → gamma",
+              "display_order": 7
+            },
+            {
+              "keyword": "wave speed",
+              "definition": "v = fλ — frequency × wavelength",
+              "display_order": 8
+            },
+            {
+              "keyword": "transverse wave",
+              "definition": "vibrations perpendicular to direction of travel — all EM waves",
+              "display_order": 9
+            },
+            {
+              "keyword": "longitudinal wave",
+              "definition": "vibrations parallel to direction of travel — sound",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is Ohm's Law?",
+              "options": [
+                "A) P = IV",
+                "B) V = IR",
+                "C) I = Q/t",
+                "D) R = P/I²"
+              ],
+              "correct_answer": "B",
+              "explanation": "Ohmic conductor: V proportional to I at constant temperature.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is potential difference?",
+              "options": [
+                "A) Current per charge",
+                "B) Work done per unit charge — volts",
+                "C) Charge per second",
+                "D) Power per resistance"
+              ],
+              "correct_answer": "B",
+              "explanation": "V = W/Q. Drives current around the circuit.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Series circuit — what is the same throughout?",
+              "options": [
+                "A) Voltage",
+                "B) Resistance",
+                "C) Current",
+                "D) Power"
+              ],
+              "correct_answer": "C",
+              "explanation": "Series: same current everywhere. Voltages add up.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Parallel circuit — what is the same across each branch?",
+              "options": [
+                "A) Current",
+                "B) Resistance",
+                "C) Power",
+                "D) Voltage"
+              ],
+              "correct_answer": "D",
+              "explanation": "Parallel: same voltage across each branch. Currents add up.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the wave speed equation?",
+              "options": [
+                "A) v = f + λ",
+                "B) v = f/λ",
+                "C) v = fλ",
+                "D) v = λ/f"
+              ],
+              "correct_answer": "C",
+              "explanation": "v = fλ. Speed in m/s, frequency in Hz, wavelength in m.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a transverse wave?",
+              "options": [
+                "A) Vibrations parallel to travel",
+                "B) Vibrations perpendicular to travel — e.g. light",
+                "C) Only sound",
+                "D) Waves that transfer matter"
+              ],
+              "correct_answer": "B",
+              "explanation": "Transverse: perpendicular vibrations. All EM waves are transverse.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a longitudinal wave?",
+              "options": [
+                "A) Vibrations perpendicular to travel",
+                "B) Vibrations parallel to travel — compressions and rarefactions — e.g. sound",
+                "C) Only EM waves",
+                "D) Cannot travel through solids"
+              ],
+              "correct_answer": "B",
+              "explanation": "Sound is longitudinal — compressions and rarefactions travel in the same direction as the wave.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is resistance?",
+              "options": [
+                "A) Flow of charge",
+                "B) Work done per charge",
+                "C) Opposition to current flow — R = V/I — ohms",
+                "D) Rate of energy transfer"
+              ],
+              "correct_answer": "C",
+              "explanation": "Higher resistance → less current for same voltage.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the EM spectrum ordered by?",
+              "options": [
+                "A) Mass",
+                "B) Speed only",
+                "C) Frequency (and wavelength) — radio lowest, gamma highest frequency",
+                "D) Energy only"
+              ],
+              "correct_answer": "C",
+              "explanation": "Radio: lowest frequency, longest wavelength. Gamma: highest frequency, shortest wavelength.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is current?",
+              "options": [
+                "A) Potential difference",
+                "B) Flow of charge — I = Q/t — amperes",
+                "C) Resistance",
+                "D) Power"
+              ],
+              "correct_answer": "B",
+              "explanation": "Current = charge flow per second. I = Q/t.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "V = IR.",
+              "correct_answer": "True",
+              "explanation": "Ohm's Law — for ohmic conductors at constant temperature.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "In a series circuit, current varies between components.",
+              "correct_answer": "False",
+              "explanation": "Series: SAME current throughout.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "In a parallel circuit, voltage differs between branches.",
+              "correct_answer": "False",
+              "explanation": "Parallel: SAME voltage across each branch.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "All EM waves travel at the same speed in a vacuum.",
+              "correct_answer": "True",
+              "explanation": "3 × 10⁸ m/s in a vacuum.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "v = fλ.",
+              "correct_answer": "True",
+              "explanation": "Wave speed = frequency × wavelength.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Sound is a transverse wave.",
+              "correct_answer": "False",
+              "explanation": "Sound is LONGITUDINAL — vibrations parallel to direction of travel.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Resistance is measured in volts.",
+              "correct_answer": "False",
+              "explanation": "Resistance in OHMS (Ω). Voltage in volts (V).",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Gamma rays have the lowest frequency in the EM spectrum.",
+              "correct_answer": "False",
+              "explanation": "Gamma has the HIGHEST frequency.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "P = IV.",
+              "correct_answer": "True",
+              "explanation": "Power = current × voltage. Also P = I²R.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Current = charge ÷ time.",
+              "correct_answer": "True",
+              "explanation": "I = Q/t. Measured in amperes.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = V/I — opposition to current — ohms.",
+              "correct_answer": "Resistance",
+              "explanation": "Higher resistance → less current.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Ohm's Law: V = ________.",
+              "correct_answer": "IR",
+              "explanation": "For ohmic conductors at constant temperature.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Series: same ________ — voltages add up.",
+              "correct_answer": "current",
+              "explanation": "Total voltage = sum of component voltages.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Parallel: same ________ across branches — currents add up.",
+              "correct_answer": "voltage",
+              "explanation": "Total current = sum of branch currents.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "v = f × ________.",
+              "correct_answer": "λ (wavelength)",
+              "explanation": "Wave speed = frequency × wavelength.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ waves: perpendicular vibrations — all EM waves.",
+              "correct_answer": "Transverse",
+              "explanation": "Water waves, light, all EM radiation.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ waves: parallel vibrations — e.g. sound.",
+              "correct_answer": "Longitudinal",
+              "explanation": "Compressions and rarefactions.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "EM spectrum: radio → microwave → IR → visible → UV → ________ → gamma.",
+              "correct_answer": "X-ray",
+              "explanation": "Increasing frequency and energy.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Current = ________ ÷ time.",
+              "correct_answer": "charge",
+              "explanation": "I = Q/t. Measured in amperes.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "P = I × ________.",
+              "correct_answer": "V",
+              "explanation": "Power = current × voltage.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Ohm's Law",
+                  "match": "V = IR — for ohmic conductors"
+                },
+                {
+                  "term": "series circuit",
+                  "match": "same current — voltages add up"
+                },
+                {
+                  "term": "parallel circuit",
+                  "match": "same voltage — currents add up"
+                },
+                {
+                  "term": "v = fλ",
+                  "match": "wave speed = frequency × wavelength"
+                },
+                {
+                  "term": "EM spectrum",
+                  "match": "radio → micro → IR → visible → UV → X-ray → gamma"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Separate Science Extra — Physics OCR",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Separate Science: Moments, Space & Particle Physics",
+          "cards": [
+            {
+              "keyword": "moment",
+              "definition": "turning effect of a force — moment = force × perpendicular distance from pivot",
+              "display_order": 1
+            },
+            {
+              "keyword": "principle of moments",
+              "definition": "for balance: clockwise moments = anticlockwise moments",
+              "display_order": 2
+            },
+            {
+              "keyword": "pressure",
+              "definition": "P = F/A — force per unit area — measured in pascals (Pa)",
+              "display_order": 3
+            },
+            {
+              "keyword": "pressure in liquids",
+              "definition": "P = ρgh — increases with depth",
+              "display_order": 4
+            },
+            {
+              "keyword": "upthrust",
+              "definition": "upward force on submerged object = weight of fluid displaced",
+              "display_order": 5
+            },
+            {
+              "keyword": "nuclear fission",
+              "definition": "splitting of a heavy nucleus — releases large amounts of energy — used in nuclear power",
+              "display_order": 6
+            },
+            {
+              "keyword": "nuclear fusion",
+              "definition": "joining of light nuclei — releases even more energy — occurs in stars",
+              "display_order": 7
+            },
+            {
+              "keyword": "half-life",
+              "definition": "time for half the radioactive nuclei to decay — constant for each isotope",
+              "display_order": 8
+            },
+            {
+              "keyword": "red-shift",
+              "definition": "light from distant galaxies shifted to longer wavelengths — evidence Universe is expanding",
+              "display_order": 9
+            },
+            {
+              "keyword": "Big Bang theory",
+              "definition": "Universe began as an extremely dense, hot point — has been expanding ever since",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a moment?",
+              "options": [
+                "A) A unit of time",
+                "B) Turning effect of a force — force × perpendicular distance from pivot",
+                "C) A type of force",
+                "D) Centre of mass"
+              ],
+              "correct_answer": "B",
+              "explanation": "Moment (N⋅m) = force (N) × perpendicular distance from pivot (m).",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the principle of moments?",
+              "options": [
+                "A) All forces equal",
+                "B) Clockwise moments = anticlockwise moments for balance",
+                "C) Centre of mass at pivot",
+                "D) Forces through centre of mass"
+              ],
+              "correct_answer": "B",
+              "explanation": "Rotational equilibrium: Σ clockwise moments = Σ anticlockwise moments.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is nuclear fission?",
+              "options": [
+                "A) Joining light nuclei",
+                "B) Radioactive decay",
+                "C) Splitting a heavy nucleus — releases large amounts of energy",
+                "D) Nuclear fusion in stars"
+              ],
+              "correct_answer": "C",
+              "explanation": "Fission: heavy nucleus (U-235) splits → smaller nuclei + neutrons + energy. Used in nuclear reactors.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is nuclear fusion?",
+              "options": [
+                "A) Splitting heavy nuclei",
+                "B) Radioactive decay",
+                "C) Joining light nuclei — releases very large amounts of energy — occurs in stars",
+                "D) Chain reactions in reactors"
+              ],
+              "correct_answer": "C",
+              "explanation": "Fusion: light nuclei (hydrogen isotopes) join → helium + energy. Powers stars. Requires extreme temperature and pressure.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is half-life?",
+              "options": [
+                "A) Time for all radioactive atoms to decay",
+                "B) Time for half the radioactive nuclei to decay — constant for each isotope",
+                "C) The rate of nuclear fission",
+                "D) Energy released in one decay"
+              ],
+              "correct_answer": "B",
+              "explanation": "Half-life is constant and unique to each isotope — used for carbon dating and nuclear medicine.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does red-shift tell us?",
+              "options": [
+                "A) Stars are very hot",
+                "B) Light from distant galaxies shifted to longer wavelengths — evidence Universe is expanding",
+                "C) Stars are cooling",
+                "D) Galaxies are approaching"
+              ],
+              "correct_answer": "B",
+              "explanation": "The further the galaxy, the greater the red-shift — all galaxies moving away supports the Big Bang.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is pressure?",
+              "options": [
+                "A) Force × area",
+                "B) Force per unit area — P = F/A — pascals",
+                "C) Weight of an object",
+                "D) Density × height"
+              ],
+              "correct_answer": "B",
+              "explanation": "P = F/A. 1 pascal = 1 N/m². Pressure increases with force, decreases with area.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is upthrust?",
+              "options": [
+                "A) Downward force on submerged object",
+                "B) Upward force = weight of fluid displaced",
+                "C) Pressure at surface",
+                "D) Atmospheric pressure"
+              ],
+              "correct_answer": "B",
+              "explanation": "Archimedes' principle: upthrust = weight of fluid displaced. If upthrust > weight, object floats.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is liquid pressure?",
+              "options": [
+                "A) P = ρg only",
+                "B) P = F/A only",
+                "C) P = ρgh — increases with depth and density",
+                "D) P = mgh"
+              ],
+              "correct_answer": "C",
+              "explanation": "Liquid pressure: ρ = density, g = gravitational field strength, h = depth.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Big Bang theory?",
+              "options": [
+                "A) Stars exploding",
+                "B) Universe began as hot dense point — has been expanding ever since",
+                "C) Matter created in stars",
+                "D) Nuclear fusion theory"
+              ],
+              "correct_answer": "B",
+              "explanation": "Supported by red-shift and cosmic microwave background radiation (CMBR).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Moment = force × perpendicular distance from pivot.",
+              "correct_answer": "True",
+              "explanation": "Units: N⋅m.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "For balance, clockwise moments exceed anticlockwise.",
+              "correct_answer": "False",
+              "explanation": "For BALANCE: clockwise = anticlockwise moments.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Nuclear fission releases energy by joining nuclei.",
+              "correct_answer": "False",
+              "explanation": "FISSION splits nuclei. FUSION joins nuclei.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Nuclear fusion powers stars.",
+              "correct_answer": "True",
+              "explanation": "Stars fuse hydrogen to helium — releasing enormous energy.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Half-life varies with temperature and pressure.",
+              "correct_answer": "False",
+              "explanation": "Half-life is constant — unaffected by temperature or pressure.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Red-shift provides evidence the Universe is expanding.",
+              "correct_answer": "True",
+              "explanation": "Galaxies moving away → light waves stretched → longer wavelength.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Liquid pressure decreases with depth.",
+              "correct_answer": "False",
+              "explanation": "Liquid pressure INCREASES with depth (P = ρgh).",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Upthrust is a downward force.",
+              "correct_answer": "False",
+              "explanation": "Upthrust is UPWARD — equal to weight of fluid displaced.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "P = F/A.",
+              "correct_answer": "True",
+              "explanation": "Pressure = force ÷ area. Pascals.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Big Bang theory is supported by CMBR and red-shift.",
+              "correct_answer": "True",
+              "explanation": "Both provide independent evidence for the Big Bang.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = force × perpendicular distance from pivot — turning effect.",
+              "correct_answer": "Moment",
+              "explanation": "Units: N⋅m.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Principle of moments: ________ moments = anticlockwise for balance.",
+              "correct_answer": "clockwise",
+              "explanation": "Σ clockwise = Σ anticlockwise.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "P = F/________ — force per unit area — pascals.",
+              "correct_answer": "A",
+              "explanation": "Pressure increases with force, decreases with area.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Liquid pressure P = ρg________ — increases with depth.",
+              "correct_answer": "h",
+              "explanation": "ρ = density, g = gravitational field strength.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is upward force on submerged object = weight of fluid displaced.",
+              "correct_answer": "Upthrust",
+              "explanation": "Archimedes' principle.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Nuclear ________ splits heavy nuclei — used in power stations.",
+              "correct_answer": "fission",
+              "explanation": "U-235 splits → smaller nuclei + neutrons + energy.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Nuclear ________ joins light nuclei — powers stars.",
+              "correct_answer": "fusion",
+              "explanation": "Requires extreme temperature and pressure.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the time for half the radioactive nuclei to decay.",
+              "correct_answer": "Half-life",
+              "explanation": "Constant for each isotope — used in carbon dating.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ shows galaxies moving away — evidence for Universe expanding.",
+              "correct_answer": "Red-shift",
+              "explanation": "Greater distance = greater red-shift.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ Bang: Universe from hot dense point — expanding ever since.",
+              "correct_answer": "Big",
+              "explanation": "Evidence: red-shift and cosmic microwave background.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "moment",
+                  "match": "force × perpendicular distance from pivot"
+                },
+                {
+                  "term": "principle of moments",
+                  "match": "clockwise moments = anticlockwise for balance"
+                },
+                {
+                  "term": "nuclear fission",
+                  "match": "splits heavy nucleus — energy released — power stations"
+                },
+                {
+                  "term": "nuclear fusion",
+                  "match": "joins light nuclei — enormous energy — powers stars"
+                },
+                {
+                  "term": "red-shift",
+                  "match": "evidence Universe is expanding"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

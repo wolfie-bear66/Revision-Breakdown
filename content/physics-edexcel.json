@@ -1,0 +1,261 @@
+{
+  "subject": {
+    "name": "Physics (Edexcel)",
+    "slug": "physics-edexcel",
+    "colour": "#1e3a5f"
+  },
+  "topics": [
+    {
+      "name": "Topic 1 — Motion & Forces",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Motion, Speed & Forces",
+          "cards": [
+            {
+              "keyword": "scalar quantity",
+              "definition": "a quantity with magnitude (size) only — e.g. speed, distance, mass, temperature",
+              "display_order": 1
+            },
+            {
+              "keyword": "vector quantity",
+              "definition": "a quantity with both magnitude and direction — e.g. velocity, displacement, force, acceleration",
+              "display_order": 2
+            },
+            {
+              "keyword": "speed",
+              "definition": "the distance travelled per unit of time — a scalar quantity (Speed = Distance ÷ Time)",
+              "display_order": 3
+            },
+            {
+              "keyword": "velocity",
+              "definition": "the speed of an object in a given direction — a vector quantity",
+              "display_order": 4
+            },
+            {
+              "keyword": "acceleration",
+              "definition": "the rate of change of velocity — a vector quantity (Acceleration = Change in velocity ÷ Time)",
+              "display_order": 5
+            },
+            {
+              "keyword": "Newton's First Law",
+              "definition": "an object remains at rest or moves at constant velocity unless acted on by a resultant force",
+              "display_order": 6
+            },
+            {
+              "keyword": "Newton's Second Law",
+              "definition": "the resultant force on an object equals its mass multiplied by its acceleration (F = ma)",
+              "display_order": 7
+            },
+            {
+              "keyword": "Newton's Third Law",
+              "definition": "every action has an equal and opposite reaction — forces always act in pairs on different objects",
+              "display_order": 8
+            },
+            {
+              "keyword": "stopping distance",
+              "definition": "the total distance a vehicle travels before stopping (Stopping Distance = Thinking Distance + Braking Distance)",
+              "display_order": 9
+            },
+            {
+              "keyword": "momentum",
+              "definition": "the product of an object's mass and velocity (p = mv) — a vector quantity; total momentum is conserved in a closed system",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Topic 2 — Energy",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Energy Stores & Transfers",
+          "cards": [
+            {
+              "keyword": "energy stores",
+              "definition": "ways energy is held by objects — kinetic, gravitational potential, elastic potential, thermal, chemical, nuclear, electromagnetic",
+              "display_order": 1
+            },
+            {
+              "keyword": "kinetic energy",
+              "definition": "the energy an object has due to its motion (KE = ½mv²) — depends on mass and speed",
+              "display_order": 2
+            },
+            {
+              "keyword": "gravitational potential energy (GPE)",
+              "definition": "the energy stored in an object due to its height above the ground (GPE = mgh)",
+              "display_order": 3
+            },
+            {
+              "keyword": "conservation of energy",
+              "definition": "energy cannot be created or destroyed — it can only be transferred from one store to another",
+              "display_order": 4
+            },
+            {
+              "keyword": "efficiency",
+              "definition": "the proportion of input energy transferred to a useful output (Efficiency = Useful output energy ÷ Total input energy × 100%)",
+              "display_order": 5
+            },
+            {
+              "keyword": "dissipation",
+              "definition": "energy being transferred to the surroundings in a less useful form — e.g. heat and sound from a car engine",
+              "display_order": 6
+            },
+            {
+              "keyword": "power",
+              "definition": "the rate at which energy is transferred (Power = Energy transferred ÷ Time, measured in watts)",
+              "display_order": 7
+            },
+            {
+              "keyword": "specific heat capacity",
+              "definition": "the energy required to raise 1 kg of a substance by 1°C — water has a high specific heat capacity",
+              "display_order": 8
+            },
+            {
+              "keyword": "renewable energy",
+              "definition": "energy from sources that will not run out — e.g. solar, wind, tidal, geothermal",
+              "display_order": 9
+            },
+            {
+              "keyword": "non-renewable energy",
+              "definition": "energy from sources that will eventually run out — e.g. coal, oil, natural gas, nuclear fuel",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Topic 4 — Waves",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Waves & the Electromagnetic Spectrum",
+          "cards": [
+            {
+              "keyword": "transverse wave",
+              "definition": "a wave where the oscillation is perpendicular (at right angles) to the direction of energy transfer — e.g. light, water waves",
+              "display_order": 1
+            },
+            {
+              "keyword": "longitudinal wave",
+              "definition": "a wave where the oscillation is parallel to the direction of energy transfer — e.g. sound waves",
+              "display_order": 2
+            },
+            {
+              "keyword": "wavelength",
+              "definition": "the distance from one wave crest to the next — measured in metres",
+              "display_order": 3
+            },
+            {
+              "keyword": "frequency",
+              "definition": "the number of complete waves passing a point per second — measured in hertz (Hz)",
+              "display_order": 4
+            },
+            {
+              "keyword": "amplitude",
+              "definition": "the maximum displacement of a wave from its rest position — related to the energy of the wave",
+              "display_order": 5
+            },
+            {
+              "keyword": "wave speed",
+              "definition": "the speed at which a wave travels (Wave speed = Frequency × Wavelength)",
+              "display_order": 6
+            },
+            {
+              "keyword": "the electromagnetic spectrum",
+              "definition": "the family of transverse waves travelling at the same speed in a vacuum — from radio waves (longest wavelength) to gamma rays (shortest)",
+              "display_order": 7
+            },
+            {
+              "keyword": "refraction",
+              "definition": "the change in direction of a wave as it passes from one medium to another due to a change in speed",
+              "display_order": 8
+            },
+            {
+              "keyword": "total internal reflection",
+              "definition": "when a wave hits a boundary at an angle greater than the critical angle and is reflected back — the basis of fibre optics",
+              "display_order": 9
+            },
+            {
+              "keyword": "ionising radiation",
+              "definition": "radiation with enough energy to remove electrons from atoms — gamma rays, X-rays, and UV are ionising. Can damage DNA and cause cancer",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Topic 6 — Radioactivity & Space",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Radioactivity & Space Physics",
+          "cards": [
+            {
+              "keyword": "alpha (α) radiation",
+              "definition": "a particle made of 2 protons and 2 neutrons — strongly ionising, stopped by paper or a few cm of air",
+              "display_order": 1
+            },
+            {
+              "keyword": "beta (β) radiation",
+              "definition": "a fast-moving electron emitted from the nucleus — moderately ionising, stopped by a few mm of aluminium",
+              "display_order": 2
+            },
+            {
+              "keyword": "gamma (γ) radiation",
+              "definition": "electromagnetic radiation from the nucleus — weakly ionising, only stopped by thick lead or concrete",
+              "display_order": 3
+            },
+            {
+              "keyword": "half-life",
+              "definition": "the time taken for the count rate of a radioactive source to halve — or for half the atoms to decay",
+              "display_order": 4
+            },
+            {
+              "keyword": "nuclear fission",
+              "definition": "splitting a heavy nucleus (e.g. uranium) into two smaller nuclei — releases a large amount of energy and two or three neutrons",
+              "display_order": 5
+            },
+            {
+              "keyword": "nuclear fusion",
+              "definition": "joining two light nuclei together to form a heavier nucleus — releases more energy than fission; the energy source of stars",
+              "display_order": 6
+            },
+            {
+              "keyword": "the life cycle of a star",
+              "definition": "stars form from nebulae → main sequence → red giant/supergiant → white dwarf/neutron star/black hole (depending on mass)",
+              "display_order": 7
+            },
+            {
+              "keyword": "the Big Bang",
+              "definition": "the scientific theory that the universe began from an extremely hot, dense point about 13.8 billion years ago and has been expanding since",
+              "display_order": 8
+            },
+            {
+              "keyword": "red-shift",
+              "definition": "the increase in wavelength of light from distant galaxies — shows the universe is expanding (galaxies are moving away from us)",
+              "display_order": 9
+            },
+            {
+              "keyword": "cosmic microwave background radiation (CMBR)",
+              "definition": "low-level radiation found throughout the universe — key evidence for the Big Bang theory",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

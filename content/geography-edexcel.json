@@ -1,0 +1,317 @@
+{
+  "subject": {
+    "name": "Geography (Edexcel B)",
+    "slug": "geography-edexcel",
+    "colour": "#065f46"
+  },
+  "topics": [
+    {
+      "name": "Hazardous Earth",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Tectonic Hazards",
+          "cards": [
+            {
+              "keyword": "tectonic plates",
+              "definition": "large sections of the Earth's crust and upper mantle that move slowly on the mantle — their movement causes earthquakes and volcanoes",
+              "display_order": 1
+            },
+            {
+              "keyword": "constructive plate boundary",
+              "definition": "where two plates move apart — magma rises to fill the gap, creating new crust. E.g. Mid-Atlantic Ridge",
+              "display_order": 2
+            },
+            {
+              "keyword": "destructive plate boundary",
+              "definition": "where two plates move towards each other — the denser plate is forced under the other (subduction). Causes earthquakes and volcanoes",
+              "display_order": 3
+            },
+            {
+              "keyword": "conservative plate boundary",
+              "definition": "where two plates slide past each other horizontally — causes earthquakes but no volcanoes. E.g. San Andreas Fault",
+              "display_order": 4
+            },
+            {
+              "keyword": "subduction zone",
+              "definition": "the area where a denser oceanic plate is forced under a less dense continental plate — causes deep earthquakes and volcanic activity",
+              "display_order": 5
+            },
+            {
+              "keyword": "the Richter scale",
+              "definition": "a scale measuring the magnitude (energy) of an earthquake — each whole number increase represents 10 times more ground shaking",
+              "display_order": 6
+            },
+            {
+              "keyword": "primary effects (earthquake)",
+              "definition": "immediate direct impacts of an earthquake — e.g. buildings collapsing, infrastructure damaged, people killed or injured",
+              "display_order": 7
+            },
+            {
+              "keyword": "secondary effects (earthquake)",
+              "definition": "indirect impacts following an earthquake — e.g. fires from broken gas pipes, disease from contaminated water, economic disruption",
+              "display_order": 8
+            },
+            {
+              "keyword": "immediate responses",
+              "definition": "actions taken straight after a disaster — e.g. search and rescue, emergency medical care, providing food and shelter",
+              "display_order": 9
+            },
+            {
+              "keyword": "long-term responses",
+              "definition": "actions taken weeks, months, or years after a disaster — e.g. rebuilding infrastructure, improving building regulations",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Tropical Storms & Climate",
+          "cards": [
+            {
+              "keyword": "tropical storm / hurricane / typhoon / cyclone",
+              "definition": "an intense low-pressure weather system that forms over warm tropical oceans — called hurricanes in the Atlantic, typhoons in the Pacific",
+              "display_order": 1
+            },
+            {
+              "keyword": "conditions for tropical storm formation",
+              "definition": "warm ocean water (above 27°C), warm moist air rising rapidly, low wind shear — the Coriolis effect gives them their spin",
+              "display_order": 2
+            },
+            {
+              "keyword": "the eye",
+              "definition": "the calm centre of a tropical storm — characterised by clear skies and low wind speeds",
+              "display_order": 3
+            },
+            {
+              "keyword": "storm surge",
+              "definition": "a rise in sea level caused by strong winds from a tropical storm — can cause severe coastal flooding",
+              "display_order": 4
+            },
+            {
+              "keyword": "climate change and tropical storms",
+              "definition": "warmer oceans due to climate change may increase the intensity of tropical storms — though the total number may not increase",
+              "display_order": 5
+            },
+            {
+              "keyword": "global atmospheric circulation",
+              "definition": "the large-scale movement of air around the Earth driven by the unequal heating of the Earth's surface — creates trade winds and jet streams",
+              "display_order": 6
+            },
+            {
+              "keyword": "the Coriolis effect",
+              "definition": "the deflection of moving air and water by the Earth's rotation — causes tropical storms to spin",
+              "display_order": 7
+            },
+            {
+              "keyword": "mitigation (climate change)",
+              "definition": "actions to reduce greenhouse gas emissions and slow climate change — e.g. renewable energy, energy efficiency",
+              "display_order": 8
+            },
+            {
+              "keyword": "adaptation (climate change)",
+              "definition": "adjusting to the effects of climate change — e.g. building sea defences, developing drought-resistant crops",
+              "display_order": 9
+            },
+            {
+              "keyword": "the enhanced greenhouse effect",
+              "definition": "the increase in global temperatures caused by rising levels of greenhouse gases from human activities",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Development Dynamics",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Development & Inequality",
+          "cards": [
+            {
+              "keyword": "development",
+              "definition": "the process by which a country improves the economic and social wellbeing of its people",
+              "display_order": 1
+            },
+            {
+              "keyword": "GDP per capita",
+              "definition": "the total value of goods and services produced by a country divided by its population — a common measure of economic development",
+              "display_order": 2
+            },
+            {
+              "keyword": "HDI (Human Development Index)",
+              "definition": "a composite measure of development using life expectancy, education, and income per capita",
+              "display_order": 3
+            },
+            {
+              "keyword": "LIC (Low Income Country)",
+              "definition": "a country with a low GDP per capita — characterised by low life expectancy, poor healthcare, and limited education",
+              "display_order": 4
+            },
+            {
+              "keyword": "NEE (Newly Emerging Economy)",
+              "definition": "a country that has recently experienced rapid economic growth — e.g. India, Brazil, China",
+              "display_order": 5
+            },
+            {
+              "keyword": "the development gap",
+              "definition": "the difference in levels of development between rich and poor countries — remains large despite globalisation",
+              "display_order": 6
+            },
+            {
+              "keyword": "Rostow's model of development",
+              "definition": "a five-stage model suggesting all countries progress through the same stages from traditional society to high mass consumption",
+              "display_order": 7
+            },
+            {
+              "keyword": "aid",
+              "definition": "money, goods, or services given by one country to another — can be short-term emergency aid or long-term development aid",
+              "display_order": 8
+            },
+            {
+              "keyword": "trade vs aid debate",
+              "definition": "the argument over whether countries develop better through free trade or through receiving aid — most economists favour trade",
+              "display_order": 9
+            },
+            {
+              "keyword": "TNCs (Transnational Corporations)",
+              "definition": "large companies that operate in multiple countries — can bring investment and jobs to developing countries but may exploit cheap labour",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UK in the 21st Century",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "UK Landscapes & Change",
+          "cards": [
+            {
+              "keyword": "deindustrialisation",
+              "definition": "the decline of manufacturing industries in the UK — particularly in the North of England, Wales, and Scotland from the 1970s onwards",
+              "display_order": 1
+            },
+            {
+              "keyword": "post-industrial economy",
+              "definition": "an economy dominated by service industries rather than manufacturing — the UK shifted to this from the late 20th century",
+              "display_order": 2
+            },
+            {
+              "keyword": "the North-South divide",
+              "definition": "the economic and social inequality between the generally wealthier South of England and the less prosperous North",
+              "display_order": 3
+            },
+            {
+              "keyword": "rural-urban migration",
+              "definition": "movement of people from the countryside to towns and cities — driven by better job prospects and services in urban areas",
+              "display_order": 4
+            },
+            {
+              "keyword": "counterurbanisation",
+              "definition": "movement of people from cities to rural areas — driven by improved transport links, remote working, and desire for better quality of life",
+              "display_order": 5
+            },
+            {
+              "keyword": "regeneration",
+              "definition": "investment to improve run-down urban areas — e.g. the regeneration of London's Docklands, Manchester city centre",
+              "display_order": 6
+            },
+            {
+              "keyword": "immigration and the UK",
+              "definition": "the UK has experienced significant immigration, particularly from Eastern Europe after 2004 — has increased diversity and filled labour shortages",
+              "display_order": 7
+            },
+            {
+              "keyword": "an ageing population",
+              "definition": "a population with a growing proportion of elderly people — a challenge for the UK's healthcare, pension, and social care systems",
+              "display_order": 8
+            },
+            {
+              "keyword": "cultural diversity",
+              "definition": "the presence of multiple ethnic, religious, and cultural groups within a society — a characteristic of many UK cities",
+              "display_order": 9
+            },
+            {
+              "keyword": "London as a global city",
+              "definition": "London is a world centre for finance, culture, and transport — attracts global investment and skilled workers but faces inequality and housing problems",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "People & the Biosphere",
+      "paper": "Paper 1",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Biomes & Ecosystems",
+          "cards": [
+            {
+              "keyword": "biosphere",
+              "definition": "all the living organisms on Earth and the environments they live in",
+              "display_order": 1
+            },
+            {
+              "keyword": "biome",
+              "definition": "a large-scale ecosystem defined by its climate, vegetation, and wildlife — e.g. tropical rainforest, tundra, hot desert",
+              "display_order": 2
+            },
+            {
+              "keyword": "tropical rainforest biome",
+              "definition": "a biome near the equator with high rainfall and temperatures — characterised by high biodiversity and dense multi-layered vegetation",
+              "display_order": 3
+            },
+            {
+              "keyword": "hot desert biome",
+              "definition": "a biome with very low rainfall (under 250mm/year) and extreme temperatures — plants and animals have adapted to survive water scarcity",
+              "display_order": 4
+            },
+            {
+              "keyword": "tundra biome",
+              "definition": "a cold, treeless biome found in Arctic regions — characterised by permafrost, low biodiversity, and plants adapted to cold and drought",
+              "display_order": 5
+            },
+            {
+              "keyword": "ecosystem services",
+              "definition": "the benefits that ecosystems provide to humans — including clean water, oxygen, food, medicine, and climate regulation",
+              "display_order": 6
+            },
+            {
+              "keyword": "deforestation",
+              "definition": "the clearing of forests for agriculture, logging, or development — destroys habitats, reduces biodiversity, and releases carbon dioxide",
+              "display_order": 7
+            },
+            {
+              "keyword": "biodiversity",
+              "definition": "the variety of living organisms in an ecosystem — tropical rainforests have the highest biodiversity of any biome",
+              "display_order": 8
+            },
+            {
+              "keyword": "nutrient cycle",
+              "definition": "the continuous movement of nutrients through an ecosystem — e.g. carbon cycle, nitrogen cycle",
+              "display_order": 9
+            },
+            {
+              "keyword": "sustainable management",
+              "definition": "using natural resources in a way that meets current needs without preventing future generations from meeting their needs",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

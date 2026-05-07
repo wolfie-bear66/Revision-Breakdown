@@ -1,0 +1,3972 @@
+{
+  "subject": {
+    "name": "Biology",
+    "slug": "biology",
+    "colour": "#166534",
+    "exam_board": "AQA",
+    "emoji": "\ud83e\uddec"
+  },
+  "topics": [
+    {
+      "name": "Cell Biology",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Cell Structure",
+          "cards": [
+            {
+              "keyword": "nucleus",
+              "definition": "the control centre of the cell \u2014 contains DNA and controls all the cell's activities",
+              "display_order": 1
+            },
+            {
+              "keyword": "cell membrane",
+              "definition": "a thin, flexible layer surrounding all cells \u2014 controls what enters and leaves",
+              "display_order": 2
+            },
+            {
+              "keyword": "cytoplasm",
+              "definition": "a jelly-like fluid filling the cell \u2014 where most chemical reactions take place",
+              "display_order": 3
+            },
+            {
+              "keyword": "mitochondria",
+              "definition": "organelles where aerobic respiration takes place \u2014 produce energy (ATP) for the cell",
+              "display_order": 4
+            },
+            {
+              "keyword": "ribosome",
+              "definition": "tiny organelles where proteins are made (synthesised)",
+              "display_order": 5
+            },
+            {
+              "keyword": "cell wall",
+              "definition": "a rigid layer outside the cell membrane in plant cells \u2014 made of cellulose, provides support",
+              "display_order": 6
+            },
+            {
+              "keyword": "chloroplast",
+              "definition": "organelle found in plant cells \u2014 contains chlorophyll and is the site of photosynthesis",
+              "display_order": 7
+            },
+            {
+              "keyword": "vacuole",
+              "definition": "a large, fluid-filled sac in plant cells \u2014 stores cell sap and helps maintain the cell's shape",
+              "display_order": 8
+            },
+            {
+              "keyword": "plasmid",
+              "definition": "a small, circular loop of DNA found in bacterial cells \u2014 separate from the main chromosome",
+              "display_order": 9
+            },
+            {
+              "keyword": "flagellum",
+              "definition": "a tail-like structure on some bacterial cells \u2014 used for movement",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of the nucleus?",
+              "options": [
+                "A) Site of aerobic respiration",
+                "B) Controls the cell and contains DNA",
+                "C) Site of photosynthesis",
+                "D) Controls what enters the cell"
+              ],
+              "correct_answer": "B",
+              "explanation": "The nucleus is the control centre \u2014 it contains DNA which directs all cell activities.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which organelle is the site of aerobic respiration?",
+              "options": [
+                "A) Nucleus",
+                "B) Ribosome",
+                "C) Mitochondria",
+                "D) Chloroplast"
+              ],
+              "correct_answer": "C",
+              "explanation": "Mitochondria carry out aerobic respiration, releasing energy (ATP) the cell can use.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of ribosomes?",
+              "options": [
+                "A) Store cell sap",
+                "B) Carry out photosynthesis",
+                "C) Synthesise proteins",
+                "D) Produce energy"
+              ],
+              "correct_answer": "C",
+              "explanation": "Ribosomes are the site of protein synthesis \u2014 they build proteins from amino acids using instructions from DNA.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which structure is found in plant cells but NOT animal cells?",
+              "options": [
+                "A) Nucleus",
+                "B) Cell membrane",
+                "C) Mitochondria",
+                "D) Cell wall"
+              ],
+              "correct_answer": "D",
+              "explanation": "Plant cells have a cell wall made of cellulose. Animal cells do not have a cell wall.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the cell membrane do?",
+              "options": [
+                "A) Produces energy",
+                "B) Controls what enters and leaves the cell",
+                "C) Contains the cell's DNA",
+                "D) Makes proteins"
+              ],
+              "correct_answer": "B",
+              "explanation": "The cell membrane is a selectively permeable barrier controlling which substances move in and out of the cell.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Where does photosynthesis take place in a plant cell?",
+              "options": [
+                "A) Mitochondria",
+                "B) Vacuole",
+                "C) Nucleus",
+                "D) Chloroplast"
+              ],
+              "correct_answer": "D",
+              "explanation": "Chloroplasts contain chlorophyll and are the site of photosynthesis in plant cells.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is cytoplasm?",
+              "options": [
+                "A) A rigid outer layer",
+                "B) A jelly-like fluid where reactions occur",
+                "C) A structure that makes energy",
+                "D) A circular loop of DNA"
+              ],
+              "correct_answer": "B",
+              "explanation": "Cytoplasm is the jelly-like fluid that fills the cell. Most chemical reactions in the cell occur in the cytoplasm.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of the vacuole in plant cells?",
+              "options": [
+                "A) Site of protein synthesis",
+                "B) Controls cell activities",
+                "C) Stores cell sap and maintains shape",
+                "D) Site of respiration"
+              ],
+              "correct_answer": "C",
+              "explanation": "The large vacuole in plant cells is filled with cell sap. It helps maintain the shape and firmness of the cell.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a plasmid?",
+              "options": [
+                "A) A large organelle in plant cells",
+                "B) A small circular loop of DNA in bacteria",
+                "C) The control centre of an animal cell",
+                "D) A protein-making structure"
+              ],
+              "correct_answer": "B",
+              "explanation": "Plasmids are small, circular loops of DNA found in bacterial cells, separate from the main chromosome.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of a flagellum?",
+              "options": [
+                "A) Protein synthesis",
+                "B) Energy production",
+                "C) Movement",
+                "D) DNA storage"
+              ],
+              "correct_answer": "C",
+              "explanation": "A flagellum is a tail-like structure used by some bacterial cells to move through their environment.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The nucleus is the control centre of the cell.",
+              "correct_answer": "True",
+              "explanation": "The nucleus contains DNA which controls all cell activities, making it the cell's control centre.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Mitochondria are found in plant cells but not animal cells.",
+              "correct_answer": "False",
+              "explanation": "Mitochondria are found in both plant and animal cells. They are the site of aerobic respiration in all eukaryotic cells.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Ribosomes are where proteins are synthesised.",
+              "correct_answer": "True",
+              "explanation": "Ribosomes read the instructions in mRNA and assemble amino acids into proteins.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The cell wall in plants is made of cellulose.",
+              "correct_answer": "True",
+              "explanation": "Plant cell walls are made of cellulose, a strong carbohydrate that provides structural support.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The cell membrane is found only in animal cells.",
+              "correct_answer": "False",
+              "explanation": "The cell membrane surrounds all cells \u2014 both plant and animal. Plant cells have a cell wall outside the membrane.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Chloroplasts are the site of photosynthesis.",
+              "correct_answer": "True",
+              "explanation": "Chloroplasts contain chlorophyll which absorbs light energy to drive photosynthesis.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The vacuole in plant cells is small and found near the nucleus.",
+              "correct_answer": "False",
+              "explanation": "Plant cells have a large, permanent central vacuole filled with cell sap that helps maintain the cell's shape.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Bacterial cells contain a nucleus.",
+              "correct_answer": "False",
+              "explanation": "Bacteria are prokaryotes \u2014 they have no true nucleus. Their DNA floats freely in the cytoplasm.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Plasmids are circular loops of DNA found in bacteria.",
+              "correct_answer": "True",
+              "explanation": "Plasmids are small, circular DNA molecules in bacteria, separate from the main chromosome.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "A flagellum helps a bacterial cell to move.",
+              "correct_answer": "True",
+              "explanation": "The flagellum is a rotating tail-like structure that propels the bacterium through its environment.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the control centre of the cell and contains DNA.",
+              "correct_answer": "nucleus",
+              "explanation": "The nucleus contains chromosomes (DNA) and controls all cell activities.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is where aerobic respiration takes place in a cell.",
+              "correct_answer": "mitochondria",
+              "explanation": "Mitochondria carry out aerobic respiration, producing ATP energy for the cell.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are the organelles where proteins are synthesised.",
+              "correct_answer": "Ribosomes",
+              "explanation": "Ribosomes translate mRNA into proteins using amino acids.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Plant cells have a ________ made of cellulose outside the cell membrane.",
+              "correct_answer": "cell wall",
+              "explanation": "The cell wall provides support and structure to plant cells.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The cell ________ controls what enters and leaves the cell.",
+              "correct_answer": "membrane",
+              "explanation": "The cell membrane is a selectively permeable barrier regulating the movement of substances.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ contain chlorophyll and are the site of photosynthesis.",
+              "correct_answer": "Chloroplasts",
+              "explanation": "Chloroplasts are found in plant cells and are where photosynthesis occurs.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The large ________ in plant cells stores cell sap and helps maintain cell shape.",
+              "correct_answer": "vacuole",
+              "explanation": "The central vacuole is a key feature of mature plant cells.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Bacterial DNA floats freely in the ________ as there is no nucleus.",
+              "correct_answer": "cytoplasm",
+              "explanation": "Bacteria are prokaryotes \u2014 they have no membrane-bound nucleus, so DNA is in the cytoplasm.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a small circular loop of DNA found in bacterial cells.",
+              "correct_answer": "plasmid",
+              "explanation": "Plasmids are separate from the main bacterial chromosome and often carry useful genes.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a tail-like structure that helps bacteria move.",
+              "correct_answer": "flagellum",
+              "explanation": "The flagellum rotates to propel the bacterium through liquid environments.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "nucleus",
+                  "match": "control centre \u2014 contains DNA"
+                },
+                {
+                  "term": "mitochondria",
+                  "match": "site of aerobic respiration"
+                },
+                {
+                  "term": "ribosome",
+                  "match": "site of protein synthesis"
+                },
+                {
+                  "term": "chloroplast",
+                  "match": "site of photosynthesis \u2014 contains chlorophyll"
+                },
+                {
+                  "term": "cell wall",
+                  "match": "rigid cellulose layer \u2014 supports plant cells"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Cell Division & Specialisation",
+          "cards": [
+            {
+              "keyword": "mitosis",
+              "definition": "cell division that produces two genetically identical daughter cells \u2014 used for growth and repair",
+              "display_order": 1
+            },
+            {
+              "keyword": "meiosis",
+              "definition": "cell division that produces four genetically unique cells with half the chromosome number \u2014 makes gametes",
+              "display_order": 2
+            },
+            {
+              "keyword": "chromosome",
+              "definition": "a thread-like structure of DNA carrying genetic information \u2014 humans have 46 in 23 pairs",
+              "display_order": 3
+            },
+            {
+              "keyword": "differentiation",
+              "definition": "the process by which a cell becomes specialised for a particular function",
+              "display_order": 4
+            },
+            {
+              "keyword": "stem cell",
+              "definition": "an undifferentiated cell that can divide and develop into different specialised cell types",
+              "display_order": 5
+            },
+            {
+              "keyword": "embryonic stem cell",
+              "definition": "a stem cell from an early embryo \u2014 can differentiate into any cell type in the body",
+              "display_order": 6
+            },
+            {
+              "keyword": "adult stem cell",
+              "definition": "a stem cell found in specific tissues \u2014 can only differentiate into a limited range of cell types",
+              "display_order": 7
+            },
+            {
+              "keyword": "cancer",
+              "definition": "uncontrolled cell division caused by mutations in genes that control the cell cycle",
+              "display_order": 8
+            },
+            {
+              "keyword": "gamete",
+              "definition": "a sex cell \u2014 sperm (male) or egg (female) \u2014 contains half the normal chromosome number",
+              "display_order": 9
+            },
+            {
+              "keyword": "fertilisation",
+              "definition": "the fusion of a male gamete (sperm) and female gamete (egg) to form a zygote",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What type of cell division produces two genetically identical cells?",
+              "options": [
+                "A) Meiosis",
+                "B) Fertilisation",
+                "C) Mitosis",
+                "D) Differentiation"
+              ],
+              "correct_answer": "C",
+              "explanation": "Mitosis produces two daughter cells that are genetically identical to the parent cell \u2014 used for growth and repair.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How many cells does meiosis produce?",
+              "options": [
+                "A) 2",
+                "B) 3",
+                "C) 4",
+                "D) 8"
+              ],
+              "correct_answer": "C",
+              "explanation": "Meiosis produces four genetically unique daughter cells, each with half the normal chromosome number.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How many chromosomes do human body cells normally contain?",
+              "options": [
+                "A) 23",
+                "B) 46",
+                "C) 92",
+                "D) 48"
+              ],
+              "correct_answer": "B",
+              "explanation": "Human body cells contain 46 chromosomes arranged in 23 pairs. Gametes contain only 23 (one from each pair).",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is differentiation?",
+              "options": [
+                "A) Cell division producing identical cells",
+                "B) A cell becoming specialised for a specific function",
+                "C) The fusion of two gametes",
+                "D) Uncontrolled cell division"
+              ],
+              "correct_answer": "B",
+              "explanation": "Differentiation is the process by which an unspecialised cell develops into a specialised cell with a specific structure and function.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which type of stem cell can differentiate into ANY cell type in the body?",
+              "options": [
+                "A) Adult stem cell",
+                "B) Muscle stem cell",
+                "C) Embryonic stem cell",
+                "D) Blood stem cell"
+              ],
+              "correct_answer": "C",
+              "explanation": "Embryonic stem cells are pluripotent \u2014 they can differentiate into any type of cell in the body.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is cancer?",
+              "options": [
+                "A) Controlled cell division",
+                "B) Cells becoming specialised",
+                "C) Uncontrolled cell division",
+                "D) The production of gametes"
+              ],
+              "correct_answer": "C",
+              "explanation": "Cancer occurs when mutations in genes that control cell division cause cells to divide uncontrollably.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a gamete?",
+              "options": [
+                "A) A body cell with 46 chromosomes",
+                "B) A sex cell with half the normal chromosome number",
+                "C) A stem cell that can become any cell type",
+                "D) A cell produced by mitosis"
+              ],
+              "correct_answer": "B",
+              "explanation": "Gametes (sperm and egg cells) are sex cells produced by meiosis. They contain 23 chromosomes \u2014 half the normal number.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens during fertilisation?",
+              "options": [
+                "A) A cell differentiates",
+                "B) DNA is copied",
+                "C) A sperm and egg cell fuse",
+                "D) Chromosomes are doubled"
+              ],
+              "correct_answer": "C",
+              "explanation": "Fertilisation is the fusion of a sperm cell and an egg cell to form a zygote with the full 46 chromosomes.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Where are adult stem cells found?",
+              "options": [
+                "A) Only in embryos",
+                "B) In specific tissues of the body",
+                "C) Only in bone marrow",
+                "D) They do not exist in adults"
+              ],
+              "correct_answer": "B",
+              "explanation": "Adult stem cells are found in specific tissues such as bone marrow and can differentiate into a limited range of cell types.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main purpose of mitosis in a multicellular organism?",
+              "options": [
+                "A) Producing gametes",
+                "B) Creating genetic variation",
+                "C) Growth and repair of tissues",
+                "D) Reducing chromosome number"
+              ],
+              "correct_answer": "C",
+              "explanation": "Mitosis is used for growth (increasing cell number) and repair (replacing damaged or dead cells), producing identical copies.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Mitosis produces two genetically identical daughter cells.",
+              "correct_answer": "True",
+              "explanation": "Mitosis produces two cells with the same genetic information as the parent cell \u2014 used for growth and repair.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Meiosis is used for growth and repair of body tissues.",
+              "correct_answer": "False",
+              "explanation": "Meiosis is used to produce gametes (sex cells). Mitosis is used for growth and repair.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Human body cells contain 46 chromosomes.",
+              "correct_answer": "True",
+              "explanation": "Human body cells are diploid \u2014 they contain 46 chromosomes in 23 pairs.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "All cells in the body remain unspecialised throughout life.",
+              "correct_answer": "False",
+              "explanation": "During development, most cells undergo differentiation to become specialised for specific functions.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Embryonic stem cells can become any type of cell in the body.",
+              "correct_answer": "True",
+              "explanation": "Embryonic stem cells are pluripotent \u2014 they can differentiate into any cell type.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Cancer is caused by controlled cell division.",
+              "correct_answer": "False",
+              "explanation": "Cancer is caused by uncontrolled cell division \u2014 mutations in genes that regulate the cell cycle lead to tumour formation.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Gametes contain the full 46 chromosomes.",
+              "correct_answer": "False",
+              "explanation": "Gametes are haploid \u2014 they contain only 23 chromosomes (half the normal number) so that fertilisation restores 46.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Fertilisation produces a cell called a zygote.",
+              "correct_answer": "True",
+              "explanation": "When a sperm fertilises an egg, the resulting cell is called a zygote \u2014 it has the full 46 chromosomes.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Adult stem cells can differentiate into any type of cell.",
+              "correct_answer": "False",
+              "explanation": "Adult stem cells are more limited than embryonic stem cells \u2014 they can only differentiate into a restricted range of cell types.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Meiosis produces cells that are genetically different from each other.",
+              "correct_answer": "True",
+              "explanation": "Meiosis introduces genetic variation through crossing over and independent assortment, producing four unique cells.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ produces two genetically identical daughter cells and is used for growth and repair.",
+              "correct_answer": "Mitosis",
+              "explanation": "Mitosis is the type of cell division that produces identical copies for growth and tissue repair.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ produces four genetically unique cells with half the chromosome number.",
+              "correct_answer": "Meiosis",
+              "explanation": "Meiosis is the type of cell division that produces gametes \u2014 it halves the chromosome number.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Human body cells contain ________ chromosomes arranged in 23 pairs.",
+              "correct_answer": "46",
+              "explanation": "Body cells are diploid (2n = 46). Gametes are haploid (n = 23).",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The process by which a cell becomes specialised is called ________.",
+              "correct_answer": "differentiation",
+              "explanation": "During differentiation, cells develop specific structures and functions.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ cell is undifferentiated and can divide to produce specialised cells.",
+              "correct_answer": "stem",
+              "explanation": "Stem cells are unspecialised cells with the ability to self-renew and differentiate.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ stem cells from early embryos can differentiate into any cell type.",
+              "correct_answer": "Embryonic",
+              "explanation": "Embryonic stem cells are pluripotent \u2014 they can become any of the ~200 cell types in the human body.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Uncontrolled cell division caused by gene mutations is called ________.",
+              "correct_answer": "cancer",
+              "explanation": "Cancer occurs when the normal regulation of the cell cycle breaks down, causing cells to divide without limit.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Sex cells such as sperm and eggs are called ________.",
+              "correct_answer": "gametes",
+              "explanation": "Gametes are produced by meiosis and contain half the normal chromosome number.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The fusion of a sperm and egg cell during ________ restores the full chromosome number.",
+              "correct_answer": "fertilisation",
+              "explanation": "Fertilisation combines the 23 chromosomes from each gamete to produce a zygote with 46 chromosomes.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ stem cells found in tissues can only differentiate into a limited range of cell types.",
+              "correct_answer": "Adult",
+              "explanation": "Adult stem cells are multipotent \u2014 more restricted than embryonic stem cells.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "mitosis",
+                  "match": "produces two genetically identical daughter cells"
+                },
+                {
+                  "term": "meiosis",
+                  "match": "produces four unique cells with half the chromosome number"
+                },
+                {
+                  "term": "differentiation",
+                  "match": "process of a cell becoming specialised"
+                },
+                {
+                  "term": "stem cell",
+                  "match": "undifferentiated cell that can become specialised"
+                },
+                {
+                  "term": "gamete",
+                  "match": "sex cell containing half the normal chromosome number"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Organisation",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Digestive System",
+          "cards": [
+            {
+              "keyword": "digestive system",
+              "definition": "the organ system that breaks down food into small molecules that can be absorbed into the blood",
+              "display_order": 1
+            },
+            {
+              "keyword": "enzyme",
+              "definition": "a biological catalyst that speeds up chemical reactions in living organisms without being used up",
+              "display_order": 2
+            },
+            {
+              "keyword": "amylase",
+              "definition": "an enzyme that breaks down starch into maltose \u2014 produced in the salivary glands and pancreas",
+              "display_order": 3
+            },
+            {
+              "keyword": "protease",
+              "definition": "an enzyme that breaks down proteins into amino acids \u2014 produced in the stomach and pancreas",
+              "display_order": 4
+            },
+            {
+              "keyword": "lipase",
+              "definition": "an enzyme that breaks down lipids (fats) into fatty acids and glycerol \u2014 produced in the pancreas",
+              "display_order": 5
+            },
+            {
+              "keyword": "bile",
+              "definition": "a substance produced by the liver and stored in the gall bladder \u2014 neutralises stomach acid and emulsifies fats",
+              "display_order": 6
+            },
+            {
+              "keyword": "villi",
+              "definition": "finger-like projections lining the small intestine \u2014 increase surface area for absorption of nutrients",
+              "display_order": 7
+            },
+            {
+              "keyword": "peristalsis",
+              "definition": "the wave-like muscular contractions that push food along the digestive tract",
+              "display_order": 8
+            },
+            {
+              "keyword": "large intestine",
+              "definition": "the organ that absorbs water from undigested food \u2014 remaining material forms faeces",
+              "display_order": 9
+            },
+            {
+              "keyword": "stomach",
+              "definition": "a muscular organ producing hydrochloric acid and protease \u2014 breaks down food by physical and chemical digestion",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of the digestive system?",
+              "options": [
+                "A) To pump blood around the body",
+                "B) To break down food for absorption into the blood",
+                "C) To exchange gases",
+                "D) To filter waste from the blood"
+              ],
+              "correct_answer": "B",
+              "explanation": "The digestive system breaks food down into small soluble molecules that can be absorbed into the bloodstream.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What type of molecule is an enzyme?",
+              "options": [
+                "A) Carbohydrate",
+                "B) Lipid",
+                "C) Protein",
+                "D) Nucleic acid"
+              ],
+              "correct_answer": "C",
+              "explanation": "Enzymes are proteins with a specific shape. Their active site fits one type of substrate \u2014 like a lock and key.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which enzyme breaks down starch?",
+              "options": [
+                "A) Lipase",
+                "B) Protease",
+                "C) Amylase",
+                "D) Bile"
+              ],
+              "correct_answer": "C",
+              "explanation": "Amylase breaks starch down into maltose. It is produced in the salivary glands and the pancreas.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does protease break down?",
+              "options": [
+                "A) Starch",
+                "B) Lipids",
+                "C) DNA",
+                "D) Proteins"
+              ],
+              "correct_answer": "D",
+              "explanation": "Protease enzymes break proteins down into amino acids. They are produced in the stomach and pancreas.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the product of lipase digestion?",
+              "options": [
+                "A) Glucose and fructose",
+                "B) Fatty acids and glycerol",
+                "C) Amino acids",
+                "D) Maltose"
+              ],
+              "correct_answer": "B",
+              "explanation": "Lipase breaks down lipids (fats and oils) into fatty acids and glycerol.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the role of bile in digestion?",
+              "options": [
+                "A) It breaks down starch",
+                "B) It digests proteins",
+                "C) It neutralises acid and emulsifies fats",
+                "D) It absorbs water"
+              ],
+              "correct_answer": "C",
+              "explanation": "Bile is made in the liver and stored in the gall bladder. It neutralises stomach acid and emulsifies fats into droplets, increasing surface area for lipase.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of villi in the small intestine?",
+              "options": [
+                "A) To produce digestive enzymes",
+                "B) To increase surface area for absorption",
+                "C) To churn food",
+                "D) To absorb water"
+              ],
+              "correct_answer": "B",
+              "explanation": "Villi are finger-like projections that massively increase the surface area of the small intestine for efficient nutrient absorption.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is peristalsis?",
+              "options": [
+                "A) The breakdown of food by enzymes",
+                "B) The absorption of nutrients into the blood",
+                "C) Wave-like muscle contractions moving food along the gut",
+                "D) The production of stomach acid"
+              ],
+              "correct_answer": "C",
+              "explanation": "Peristalsis is the coordinated muscular contractions of the gut wall that push food along the digestive tract.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Where is water mainly absorbed in the digestive system?",
+              "options": [
+                "A) Stomach",
+                "B) Small intestine",
+                "C) Large intestine",
+                "D) Oesophagus"
+              ],
+              "correct_answer": "C",
+              "explanation": "The large intestine absorbs water from undigested food material. What remains becomes faeces.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which acid does the stomach produce?",
+              "options": [
+                "A) Sulfuric acid",
+                "B) Citric acid",
+                "C) Hydrochloric acid",
+                "D) Carbonic acid"
+              ],
+              "correct_answer": "C",
+              "explanation": "The stomach produces hydrochloric acid (HCl) to kill bacteria in food and provide the acidic pH needed for stomach protease to work.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Enzymes are biological catalysts made of protein.",
+              "correct_answer": "True",
+              "explanation": "Enzymes are proteins with a specific 3D shape. They speed up chemical reactions without being used up themselves.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Amylase breaks down proteins into amino acids.",
+              "correct_answer": "False",
+              "explanation": "Amylase breaks down starch into maltose. Protease is the enzyme that breaks down proteins.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Lipase is produced in the pancreas.",
+              "correct_answer": "True",
+              "explanation": "Lipase is one of several enzymes produced by the pancreas. It breaks down lipids into fatty acids and glycerol.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Bile is produced in the gall bladder.",
+              "correct_answer": "False",
+              "explanation": "Bile is produced in the liver and stored in the gall bladder before being released into the small intestine.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Villi increase the surface area of the small intestine.",
+              "correct_answer": "True",
+              "explanation": "The finger-like villi greatly increase the surface area of the small intestine, allowing efficient absorption of digested nutrients.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Peristalsis is a chemical process that breaks down food.",
+              "correct_answer": "False",
+              "explanation": "Peristalsis is a physical process \u2014 wave-like muscle contractions in the gut wall that push food along the digestive tract.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The large intestine is where most nutrient absorption occurs.",
+              "correct_answer": "False",
+              "explanation": "Most nutrient absorption occurs in the small intestine. The large intestine mainly absorbs water.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The stomach produces hydrochloric acid.",
+              "correct_answer": "True",
+              "explanation": "The stomach produces HCl to kill microbes in food and to provide the acidic conditions needed for protease enzymes to work.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Protease breaks down lipids into fatty acids and glycerol.",
+              "correct_answer": "False",
+              "explanation": "Protease breaks down proteins into amino acids. Lipase breaks down lipids into fatty acids and glycerol.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Digestive enzymes are not used up during reactions.",
+              "correct_answer": "True",
+              "explanation": "As biological catalysts, enzymes speed up reactions but are not consumed. They can be reused many times.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ is a biological catalyst that speeds up chemical reactions without being used up.",
+              "correct_answer": "enzyme",
+              "explanation": "Enzymes are protein catalysts that lower the activation energy of reactions in living organisms.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is an enzyme that breaks down starch into maltose.",
+              "correct_answer": "Amylase",
+              "explanation": "Amylase is produced in the salivary glands and pancreas and digests starch.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ breaks down proteins into amino acids.",
+              "correct_answer": "Protease",
+              "explanation": "Protease enzymes are produced in the stomach and pancreas to digest dietary protein.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ breaks down lipids into fatty acids and glycerol.",
+              "correct_answer": "Lipase",
+              "explanation": "Lipase is produced in the pancreas and acts in the small intestine to digest fats.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is produced by the liver, stored in the gall bladder, and emulsifies fats.",
+              "correct_answer": "Bile",
+              "explanation": "Bile neutralises stomach acid and breaks fats into smaller droplets (emulsification) to increase surface area for lipase.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are finger-like projections in the small intestine that increase surface area for absorption.",
+              "correct_answer": "Villi",
+              "explanation": "Each villus has microvilli (brush border) and a good blood supply to maximise nutrient absorption.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are wave-like muscle contractions that push food through the digestive tract.",
+              "correct_answer": "Peristalsis",
+              "explanation": "Peristalsis involves circular and longitudinal muscles in the gut wall working alternately.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Water is mainly absorbed in the ________ intestine.",
+              "correct_answer": "large",
+              "explanation": "The large intestine absorbs water from indigestible food material before it is excreted as faeces.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ produces hydrochloric acid and protease to begin protein digestion.",
+              "correct_answer": "stomach",
+              "explanation": "The stomach's acidic environment (pH 2) kills bacteria and activates pepsinogen to form the protease pepsin.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The digestive system breaks food into small molecules that are absorbed into the ________.",
+              "correct_answer": "blood",
+              "explanation": "Digested nutrients pass through the wall of the small intestine into the bloodstream for transport around the body.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "amylase",
+                  "match": "breaks down starch into maltose"
+                },
+                {
+                  "term": "protease",
+                  "match": "breaks down proteins into amino acids"
+                },
+                {
+                  "term": "lipase",
+                  "match": "breaks down lipids into fatty acids and glycerol"
+                },
+                {
+                  "term": "bile",
+                  "match": "emulsifies fats and neutralises stomach acid"
+                },
+                {
+                  "term": "villi",
+                  "match": "increase surface area for absorption in the small intestine"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Infection & Response",
+      "paper": "Paper 1",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Pathogens & Immunity",
+          "cards": [
+            {
+              "keyword": "pathogen",
+              "definition": "a microorganism that causes disease \u2014 includes bacteria, viruses, fungi, and protists",
+              "display_order": 1
+            },
+            {
+              "keyword": "bacteria",
+              "definition": "single-celled prokaryotic microorganisms \u2014 some cause disease by releasing toxins",
+              "display_order": 2
+            },
+            {
+              "keyword": "virus",
+              "definition": "a non-living particle that reproduces inside host cells \u2014 can cause disease by damaging cells",
+              "display_order": 3
+            },
+            {
+              "keyword": "antigen",
+              "definition": "a protein on the surface of a pathogen that triggers an immune response",
+              "display_order": 4
+            },
+            {
+              "keyword": "antibody",
+              "definition": "a protein produced by lymphocytes (white blood cells) that binds to and destroys a specific antigen",
+              "display_order": 5
+            },
+            {
+              "keyword": "phagocytosis",
+              "definition": "the process by which white blood cells (phagocytes) engulf and digest pathogens",
+              "display_order": 6
+            },
+            {
+              "keyword": "lymphocyte",
+              "definition": "a type of white blood cell that produces antibodies to fight specific pathogens",
+              "display_order": 7
+            },
+            {
+              "keyword": "vaccination",
+              "definition": "introducing a harmless form of a pathogen into the body to stimulate antibody production without causing disease",
+              "display_order": 8
+            },
+            {
+              "keyword": "herd immunity",
+              "definition": "when enough of the population is immune to a disease that it cannot easily spread \u2014 protecting those who cannot be vaccinated",
+              "display_order": 9
+            },
+            {
+              "keyword": "antibiotic",
+              "definition": "a medicine that kills or stops the growth of bacteria \u2014 does not work against viruses",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a pathogen?",
+              "options": [
+                "A) A type of white blood cell",
+                "B) A microorganism that causes disease",
+                "C) A protein that fights infection",
+                "D) A medicine that kills bacteria"
+              ],
+              "correct_answer": "B",
+              "explanation": "Pathogens are disease-causing microorganisms including bacteria, viruses, fungi, and protists.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do bacteria cause disease?",
+              "options": [
+                "A) By invading and destroying cell nuclei",
+                "B) By reproducing inside host cells only",
+                "C) By releasing toxins",
+                "D) By blocking blood vessels"
+              ],
+              "correct_answer": "C",
+              "explanation": "Bacteria can cause illness by releasing toxins (poisons) that damage the body's cells and tissues.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do viruses cause disease?",
+              "options": [
+                "A) By releasing toxins",
+                "B) By reproducing inside and damaging host cells",
+                "C) By blocking antibody production",
+                "D) By infecting only dead cells"
+              ],
+              "correct_answer": "B",
+              "explanation": "Viruses reproduce by hijacking host cells. This damages or destroys the cells, causing symptoms of disease.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What triggers an immune response?",
+              "options": [
+                "A) Antibodies",
+                "B) Phagocytes",
+                "C) Antigens on pathogens",
+                "D) Lymphocytes"
+              ],
+              "correct_answer": "C",
+              "explanation": "Antigens are proteins on the surface of pathogens. The immune system recognises them as foreign and mounts a response.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do lymphocytes produce to fight infection?",
+              "options": [
+                "A) Antigens",
+                "B) Antibodies",
+                "C) Toxins",
+                "D) Enzymes"
+              ],
+              "correct_answer": "B",
+              "explanation": "Lymphocytes produce antibodies \u2014 proteins that are complementary to specific antigens and destroy pathogens.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is phagocytosis?",
+              "options": [
+                "A) Producing antibodies",
+                "B) White blood cells engulfing and digesting pathogens",
+                "C) Vaccinating against disease",
+                "D) A virus reproducing inside a cell"
+              ],
+              "correct_answer": "B",
+              "explanation": "Phagocytosis is the process by which phagocytes (a type of white blood cell) ingest and destroy pathogens.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does vaccination protect against disease?",
+              "options": [
+                "A) It kills all bacteria in the body",
+                "B) It introduces a live pathogen to cause disease",
+                "C) It stimulates antibody production without causing disease",
+                "D) It replaces white blood cells"
+              ],
+              "correct_answer": "C",
+              "explanation": "Vaccines contain a harmless or dead form of a pathogen. They stimulate the immune system to produce antibodies so the body is ready if exposed to the real pathogen.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is herd immunity?",
+              "options": [
+                "A) All animals being vaccinated",
+                "B) When enough people are immune that disease cannot spread easily",
+                "C) A type of antibiotic treatment",
+                "D) The body's first line of defence"
+              ],
+              "correct_answer": "B",
+              "explanation": "Herd immunity is achieved when a high enough proportion of the population is immune, making it hard for disease to spread and protecting those who cannot be vaccinated.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Against which type of pathogen do antibiotics work?",
+              "options": [
+                "A) Viruses only",
+                "B) Fungi only",
+                "C) Bacteria only",
+                "D) All pathogens"
+              ],
+              "correct_answer": "C",
+              "explanation": "Antibiotics kill bacteria or prevent them from reproducing. They have no effect on viruses \u2014 antibiotics should not be prescribed for viral infections.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What type of white blood cell engulfs pathogens?",
+              "options": [
+                "A) Lymphocyte",
+                "B) Platelet",
+                "C) Red blood cell",
+                "D) Phagocyte"
+              ],
+              "correct_answer": "D",
+              "explanation": "Phagocytes are white blood cells that engulf and destroy pathogens through phagocytosis.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "A pathogen is any microorganism that causes disease.",
+              "correct_answer": "True",
+              "explanation": "Pathogens include bacteria, viruses, fungi, and protists \u2014 all microorganisms capable of causing disease.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Bacteria cause disease by reproducing inside host cells.",
+              "correct_answer": "False",
+              "explanation": "Bacteria cause disease mainly by releasing toxins. It is viruses that reproduce inside host cells.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Antigens are proteins found on the surface of pathogens.",
+              "correct_answer": "True",
+              "explanation": "Antigens are surface proteins on pathogens that the immune system recognises as foreign.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Antibodies are produced by phagocytes.",
+              "correct_answer": "False",
+              "explanation": "Antibodies are produced by lymphocytes (a different type of white blood cell). Phagocytes engulf pathogens.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Each antibody is specific to one type of antigen.",
+              "correct_answer": "True",
+              "explanation": "Antibodies have a complementary shape to one specific antigen \u2014 this is the basis of specific immunity.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Vaccination introduces a live, active pathogen into the body.",
+              "correct_answer": "False",
+              "explanation": "Vaccines contain dead, weakened, or harmless forms of pathogens \u2014 they stimulate immunity without causing disease.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Antibiotics can be used to treat viral infections like the flu.",
+              "correct_answer": "False",
+              "explanation": "Antibiotics only work against bacteria. They have no effect on viruses \u2014 using them for viral infections is ineffective and promotes antibiotic resistance.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Phagocytes engulf and digest pathogens.",
+              "correct_answer": "True",
+              "explanation": "Phagocytosis involves phagocytes surrounding a pathogen, engulfing it, and using enzymes to break it down.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Herd immunity can protect people who are unable to be vaccinated.",
+              "correct_answer": "True",
+              "explanation": "When enough people are immune, disease cannot spread easily, protecting vulnerable individuals who cannot receive vaccines.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Memory cells allow a faster immune response on re-exposure to a pathogen.",
+              "correct_answer": "True",
+              "explanation": "After an infection or vaccination, memory cells remain in the blood. On re-exposure, they rapidly produce large quantities of antibodies.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a microorganism that causes disease.",
+              "correct_answer": "pathogen",
+              "explanation": "Pathogens include bacteria, viruses, fungi, and protists.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Bacteria cause disease mainly by releasing ________.",
+              "correct_answer": "toxins",
+              "explanation": "Bacterial toxins poison body cells and cause the symptoms of disease.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Viruses cause disease by reproducing inside ________ cells.",
+              "correct_answer": "host",
+              "explanation": "Viruses hijack host cell machinery to replicate, damaging or destroying the host cells in the process.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are proteins on the surface of pathogens that trigger the immune response.",
+              "correct_answer": "Antigens",
+              "explanation": "Antigens are recognised as foreign by the immune system, triggering production of specific antibodies.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ produced by lymphocytes bind to specific antigens and destroy pathogens.",
+              "correct_answer": "Antibodies",
+              "explanation": "Antibodies have a complementary shape to one antigen \u2014 they are highly specific.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the process by which white blood cells engulf and digest pathogens.",
+              "correct_answer": "Phagocytosis",
+              "explanation": "Phagocytes ingest pathogens and use enzymes to break them down.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ introduces a harmless form of a pathogen to stimulate the immune system.",
+              "correct_answer": "Vaccination",
+              "explanation": "Vaccines cause the immune system to produce antibodies and memory cells without causing the disease.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ immunity occurs when enough of a population is immune to prevent disease spreading.",
+              "correct_answer": "Herd",
+              "explanation": "Herd immunity protects vulnerable people who cannot be vaccinated.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ kill bacteria but do not work against viruses.",
+              "correct_answer": "Antibiotics",
+              "explanation": "Antibiotics target bacterial cell structures. Since viruses use host cells, antibiotics have no effect on them.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "White blood cells called ________ engulf and digest pathogens.",
+              "correct_answer": "phagocytes",
+              "explanation": "Phagocytes are the first responders of the immune system, ingesting pathogens non-specifically.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "pathogen",
+                  "match": "microorganism that causes disease"
+                },
+                {
+                  "term": "antigen",
+                  "match": "protein on pathogen surface that triggers immune response"
+                },
+                {
+                  "term": "antibody",
+                  "match": "protein produced by lymphocytes that destroys a specific pathogen"
+                },
+                {
+                  "term": "phagocytosis",
+                  "match": "white blood cells engulfing and digesting pathogens"
+                },
+                {
+                  "term": "vaccination",
+                  "match": "stimulating immunity without causing disease"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bioenergetics",
+      "paper": "Paper 1",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Photosynthesis",
+          "cards": [
+            {
+              "keyword": "photosynthesis",
+              "definition": "the process by which plants use light energy to convert carbon dioxide and water into glucose and oxygen",
+              "display_order": 1
+            },
+            {
+              "keyword": "chlorophyll",
+              "definition": "the green pigment in chloroplasts that absorbs light energy for photosynthesis",
+              "display_order": 2
+            },
+            {
+              "keyword": "limiting factor",
+              "definition": "a factor that is in short supply and prevents photosynthesis from occurring faster",
+              "display_order": 3
+            },
+            {
+              "keyword": "light intensity",
+              "definition": "the brightness of light \u2014 a key limiting factor for photosynthesis",
+              "display_order": 4
+            },
+            {
+              "keyword": "carbon dioxide concentration",
+              "definition": "the amount of CO\u2082 in the air \u2014 a limiting factor for photosynthesis at low concentrations",
+              "display_order": 5
+            },
+            {
+              "keyword": "temperature",
+              "definition": "affects the rate of enzyme-controlled reactions in photosynthesis \u2014 too high denatures enzymes",
+              "display_order": 6
+            },
+            {
+              "keyword": "glucose",
+              "definition": "the sugar produced by photosynthesis \u2014 used for respiration, stored as starch, or used to make cellulose and proteins",
+              "display_order": 7
+            },
+            {
+              "keyword": "starch",
+              "definition": "the insoluble storage form of glucose in plants \u2014 converted back to glucose when needed",
+              "display_order": 8
+            },
+            {
+              "keyword": "inverse square law",
+              "definition": "light intensity is inversely proportional to the square of the distance from the light source",
+              "display_order": 9
+            },
+            {
+              "keyword": "compensation point",
+              "definition": "the light intensity at which the rate of photosynthesis equals the rate of respiration \u2014 no net gas exchange",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What are the products of photosynthesis?",
+              "options": [
+                "A) Carbon dioxide and water",
+                "B) Glucose and oxygen",
+                "C) Starch and carbon dioxide",
+                "D) Oxygen and water"
+              ],
+              "correct_answer": "B",
+              "explanation": "Photosynthesis converts CO\u2082 and water into glucose (for energy/growth) and oxygen (released as a by-product).",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does chlorophyll do?",
+              "options": [
+                "A) Stores glucose as starch",
+                "B) Absorbs light energy for photosynthesis",
+                "C) Produces carbon dioxide",
+                "D) Absorbs water from the soil"
+              ],
+              "correct_answer": "B",
+              "explanation": "Chlorophyll is the green pigment in chloroplasts that absorbs light energy (mainly red and blue wavelengths) to drive photosynthesis.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is a limiting factor for photosynthesis?",
+              "options": [
+                "A) Glucose concentration",
+                "B) Oxygen concentration",
+                "C) Light intensity",
+                "D) Chlorophyll concentration"
+              ],
+              "correct_answer": "C",
+              "explanation": "Light intensity is one of three main limiting factors for photosynthesis \u2014 along with CO\u2082 concentration and temperature.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to glucose produced in photosynthesis?",
+              "options": [
+                "A) It is all immediately released into the air",
+                "B) It is only used for respiration",
+                "C) It can be used for respiration, stored as starch, or used to make cellulose and proteins",
+                "D) It is converted to carbon dioxide"
+              ],
+              "correct_answer": "C",
+              "explanation": "Plants use glucose for respiration (energy), store it as starch, or use it to build cellulose (cell walls) and amino acids (proteins).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does increasing temperature beyond the optimum reduce photosynthesis?",
+              "options": [
+                "A) Less CO\u2082 is available",
+                "B) Chlorophyll breaks down",
+                "C) Enzymes are denatured",
+                "D) Light cannot penetrate leaves"
+              ],
+              "correct_answer": "C",
+              "explanation": "Photosynthesis involves enzyme-controlled reactions. Temperatures above the optimum change the shape of enzyme active sites (denaturation), reducing the rate.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a limiting factor?",
+              "options": [
+                "A) A factor that speeds up photosynthesis",
+                "B) A factor in short supply that prevents a faster rate",
+                "C) A product of photosynthesis",
+                "D) An enzyme used in photosynthesis"
+              ],
+              "correct_answer": "B",
+              "explanation": "A limiting factor is the factor that is in shortest supply at any given time \u2014 it prevents photosynthesis from going faster even if other conditions are improved.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In which form do plants store glucose?",
+              "options": [
+                "A) Cellulose",
+                "B) Sucrose",
+                "C) Starch",
+                "D) Glycogen"
+              ],
+              "correct_answer": "C",
+              "explanation": "Plants convert glucose to starch for storage because starch is insoluble and does not affect osmosis. It can be converted back to glucose when needed.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the word equation for photosynthesis?",
+              "options": [
+                "A) Glucose + Oxygen \u2192 Carbon dioxide + Water",
+                "B) Carbon dioxide + Water \u2192 Glucose + Oxygen",
+                "C) Glucose + Water \u2192 Starch + Oxygen",
+                "D) Carbon dioxide + Oxygen \u2192 Glucose + Water"
+              ],
+              "correct_answer": "B",
+              "explanation": "Photosynthesis: Carbon dioxide + Water \u2192 Glucose + Oxygen. Light energy is needed and the process occurs in chloroplasts.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens at the compensation point?",
+              "options": [
+                "A) Photosynthesis stops completely",
+                "B) Respiration stops",
+                "C) Rate of photosynthesis equals rate of respiration",
+                "D) All glucose is converted to starch"
+              ],
+              "correct_answer": "C",
+              "explanation": "At the compensation point, the rate of photosynthesis exactly matches the rate of respiration \u2014 there is no net uptake or release of CO\u2082 or O\u2082.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does increasing CO\u2082 concentration affect photosynthesis?",
+              "options": [
+                "A) It decreases the rate",
+                "B) It has no effect",
+                "C) It increases the rate until another factor becomes limiting",
+                "D) It denatures chlorophyll"
+              ],
+              "correct_answer": "C",
+              "explanation": "Increasing CO\u2082 concentration increases the rate of photosynthesis until another factor (e.g. light intensity) becomes the limiting factor.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Photosynthesis produces glucose and oxygen.",
+              "correct_answer": "True",
+              "explanation": "The products of photosynthesis are glucose (for energy and growth) and oxygen (released as a by-product).",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Chlorophyll is found in the mitochondria of plant cells.",
+              "correct_answer": "False",
+              "explanation": "Chlorophyll is found in the chloroplasts, not the mitochondria. Chloroplasts are the organelles where photosynthesis occurs.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Light intensity is a limiting factor for photosynthesis.",
+              "correct_answer": "True",
+              "explanation": "If light intensity is low, it limits the rate of photosynthesis even if CO\u2082 and temperature are at optimum levels.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Plants store glucose as glycogen.",
+              "correct_answer": "False",
+              "explanation": "Plants store glucose as starch. Glycogen is the storage form of glucose in animals and fungi.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Increasing temperature always increases the rate of photosynthesis.",
+              "correct_answer": "False",
+              "explanation": "Increasing temperature increases the rate up to the optimum. Above the optimum, enzymes are denatured and the rate falls.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Carbon dioxide is a raw material (reactant) in photosynthesis.",
+              "correct_answer": "True",
+              "explanation": "Photosynthesis requires CO\u2082 and water as reactants, using light energy in the chloroplasts.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The compensation point is where photosynthesis equals respiration.",
+              "correct_answer": "True",
+              "explanation": "At the compensation point, all the oxygen produced by photosynthesis is used in respiration and vice versa \u2014 no net gas exchange.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Photosynthesis takes place in the chloroplasts.",
+              "correct_answer": "True",
+              "explanation": "Chloroplasts contain chlorophyll and all the enzymes needed for photosynthesis.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Glucose produced by photosynthesis can be used to make cellulose.",
+              "correct_answer": "True",
+              "explanation": "Plants use glucose to synthesise cellulose (for cell walls), amino acids (for proteins), and starch (for storage).",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Oxygen is a limiting factor for photosynthesis.",
+              "correct_answer": "False",
+              "explanation": "Oxygen is a product, not a reactant. The three main limiting factors are light intensity, CO\u2082 concentration, and temperature.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Photosynthesis uses light energy to convert CO\u2082 and water into ________ and oxygen.",
+              "correct_answer": "glucose",
+              "explanation": "Glucose is the main product of photosynthesis \u2014 it stores chemical energy for the plant.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the green pigment in chloroplasts that absorbs light energy.",
+              "correct_answer": "Chlorophyll",
+              "explanation": "Chlorophyll mainly absorbs red and blue light. It reflects green light, which is why leaves appear green.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a factor that is in short supply and prevents a faster rate of photosynthesis.",
+              "correct_answer": "limiting factor",
+              "explanation": "The three main limiting factors are light intensity, CO\u2082 concentration, and temperature.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Plants store glucose as ________, an insoluble form that does not affect osmosis.",
+              "correct_answer": "starch",
+              "explanation": "Starch granules are stored in chloroplasts and other plant tissues for use when glucose is needed.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Above the optimum temperature, photosynthesis slows because enzymes are ________.",
+              "correct_answer": "denatured",
+              "explanation": "High temperatures permanently change the shape of enzyme active sites, stopping them from functioning.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Increasing ________ concentration increases photosynthesis until another factor becomes limiting.",
+              "correct_answer": "carbon dioxide",
+              "explanation": "CO\u2082 is a raw material for photosynthesis \u2014 more CO\u2082 means more reactions can occur per unit time.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ point is where the rate of photosynthesis equals the rate of respiration.",
+              "correct_answer": "compensation",
+              "explanation": "At the compensation point, net gas exchange is zero \u2014 all O\u2082 produced is used in respiration.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The word equation for photosynthesis is: carbon dioxide + water \u2192 ________ + oxygen.",
+              "correct_answer": "glucose",
+              "explanation": "This is the overall equation: 6CO\u2082 + 6H\u2082O \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082 (using light energy in chloroplasts).",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Light ________ follows the inverse square law \u2014 doubling distance quarters the intensity.",
+              "correct_answer": "intensity",
+              "explanation": "Light intensity \u221d 1/d\u00b2. This means small changes in distance have a large effect on photosynthesis rate.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Photosynthesis takes place in the ________.",
+              "correct_answer": "chloroplasts",
+              "explanation": "Chloroplasts contain chlorophyll and all the machinery needed to carry out photosynthesis.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "photosynthesis",
+                  "match": "converts CO\u2082 and water into glucose and oxygen using light energy"
+                },
+                {
+                  "term": "chlorophyll",
+                  "match": "green pigment that absorbs light energy in chloroplasts"
+                },
+                {
+                  "term": "limiting factor",
+                  "match": "factor in short supply that prevents a faster rate of photosynthesis"
+                },
+                {
+                  "term": "starch",
+                  "match": "insoluble storage form of glucose in plants"
+                },
+                {
+                  "term": "compensation point",
+                  "match": "light intensity where photosynthesis rate equals respiration rate"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Respiration",
+          "cards": [
+            {
+              "keyword": "aerobic respiration",
+              "definition": "the release of energy from glucose using oxygen \u2014 produces CO\u2082 and water as waste products",
+              "display_order": 1
+            },
+            {
+              "keyword": "anaerobic respiration",
+              "definition": "the release of energy from glucose without oxygen \u2014 produces lactic acid in animals or ethanol and CO\u2082 in yeast",
+              "display_order": 2
+            },
+            {
+              "keyword": "ATP",
+              "definition": "adenosine triphosphate \u2014 the energy currency of cells, released when glucose is broken down in respiration",
+              "display_order": 3
+            },
+            {
+              "keyword": "lactic acid",
+              "definition": "the waste product of anaerobic respiration in animal cells \u2014 causes muscle fatigue during intense exercise",
+              "display_order": 4
+            },
+            {
+              "keyword": "oxygen debt",
+              "definition": "the extra oxygen needed after exercise to remove lactic acid and restore normal conditions",
+              "display_order": 5
+            },
+            {
+              "keyword": "fermentation",
+              "definition": "anaerobic respiration in microorganisms \u2014 yeast converts glucose into ethanol and carbon dioxide",
+              "display_order": 6
+            },
+            {
+              "keyword": "mitochondria",
+              "definition": "the organelle where aerobic respiration takes place \u2014 has a folded inner membrane to increase surface area",
+              "display_order": 7
+            },
+            {
+              "keyword": "glucose",
+              "definition": "the main substrate (fuel) for cellular respiration \u2014 broken down to release energy",
+              "display_order": 8
+            },
+            {
+              "keyword": "glycolysis",
+              "definition": "the first stage of respiration occurring in the cytoplasm \u2014 glucose is broken down to pyruvate",
+              "display_order": 9
+            },
+            {
+              "keyword": "metabolic rate",
+              "definition": "the rate at which chemical reactions occur in the body \u2014 increases during exercise",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What are the products of aerobic respiration?",
+              "options": [
+                "A) Glucose and oxygen",
+                "B) Carbon dioxide and water",
+                "C) Lactic acid and ATP",
+                "D) Ethanol and carbon dioxide"
+              ],
+              "correct_answer": "B",
+              "explanation": "Aerobic respiration: glucose + oxygen \u2192 carbon dioxide + water (+ energy). CO\u2082 and water are the waste products.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is produced by anaerobic respiration in animal muscle cells?",
+              "options": [
+                "A) Ethanol",
+                "B) Carbon dioxide",
+                "C) Lactic acid",
+                "D) Oxygen"
+              ],
+              "correct_answer": "C",
+              "explanation": "In animal cells, anaerobic respiration produces lactic acid. This builds up in muscles and causes fatigue and pain.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is ATP?",
+              "options": [
+                "A) A type of enzyme",
+                "B) The energy currency of cells",
+                "C) A waste product of respiration",
+                "D) A type of carbohydrate"
+              ],
+              "correct_answer": "B",
+              "explanation": "ATP (adenosine triphosphate) is the molecule that transfers energy within cells. It is produced during respiration.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is oxygen debt?",
+              "options": [
+                "A) The oxygen stored in muscles",
+                "B) Extra oxygen needed after exercise to remove lactic acid",
+                "C) Oxygen used during anaerobic respiration",
+                "D) The maximum oxygen uptake during exercise"
+              ],
+              "correct_answer": "B",
+              "explanation": "Oxygen debt is the extra oxygen needed after intense exercise to oxidise lactic acid, restore glycogen stores, and return the body to its resting state.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does yeast produce during anaerobic respiration?",
+              "options": [
+                "A) Lactic acid and water",
+                "B) Glucose and oxygen",
+                "C) Ethanol and carbon dioxide",
+                "D) Lactic acid and CO\u2082"
+              ],
+              "correct_answer": "C",
+              "explanation": "Yeast undergoes fermentation \u2014 anaerobic respiration that produces ethanol and carbon dioxide from glucose.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Where does aerobic respiration mainly take place?",
+              "options": [
+                "A) Nucleus",
+                "B) Ribosome",
+                "C) Chloroplast",
+                "D) Mitochondria"
+              ],
+              "correct_answer": "D",
+              "explanation": "Aerobic respiration occurs mainly in the mitochondria. The inner mitochondrial membrane is folded to increase surface area for the reactions.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which molecule is the main fuel for respiration?",
+              "options": [
+                "A) Fatty acids",
+                "B) Amino acids",
+                "C) Glucose",
+                "D) Starch"
+              ],
+              "correct_answer": "C",
+              "explanation": "Glucose is the primary substrate for cellular respiration. It is broken down to release energy (ATP).",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the word equation for aerobic respiration?",
+              "options": [
+                "A) Glucose + oxygen \u2192 carbon dioxide + water",
+                "B) Carbon dioxide + water \u2192 glucose + oxygen",
+                "C) Glucose \u2192 lactic acid",
+                "D) Glucose \u2192 ethanol + carbon dioxide"
+              ],
+              "correct_answer": "A",
+              "explanation": "Aerobic respiration: glucose + oxygen \u2192 carbon dioxide + water. Energy is released and transferred to ATP.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Where does glycolysis occur?",
+              "options": [
+                "A) Mitochondria",
+                "B) Nucleus",
+                "C) Ribosome",
+                "D) Cytoplasm"
+              ],
+              "correct_answer": "D",
+              "explanation": "Glycolysis is the first stage of respiration. It occurs in the cytoplasm and splits glucose into pyruvate, producing a small amount of ATP.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to metabolic rate during exercise?",
+              "options": [
+                "A) It stays the same",
+                "B) It decreases",
+                "C) It increases",
+                "D) It stops"
+              ],
+              "correct_answer": "C",
+              "explanation": "During exercise, cells need more energy. Metabolic rate increases \u2014 more glucose and oxygen are used and more CO\u2082 is produced.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Aerobic respiration requires oxygen.",
+              "correct_answer": "True",
+              "explanation": "Aerobic respiration uses oxygen to fully break down glucose, releasing maximum energy as ATP.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Anaerobic respiration in animal cells produces ethanol.",
+              "correct_answer": "False",
+              "explanation": "Animal cells produce lactic acid during anaerobic respiration. Ethanol is produced by yeast (fermentation).",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "ATP is the energy currency of cells.",
+              "correct_answer": "True",
+              "explanation": "ATP stores and transfers energy within cells. It is produced during respiration and used to power all cellular processes.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Lactic acid is produced during aerobic respiration.",
+              "correct_answer": "False",
+              "explanation": "Lactic acid is produced during anaerobic respiration in animal cells when oxygen is in short supply.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Fermentation is carried out by yeast cells.",
+              "correct_answer": "True",
+              "explanation": "Fermentation is anaerobic respiration in yeast \u2014 glucose is converted to ethanol and CO\u2082.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Aerobic respiration produces more ATP than anaerobic respiration.",
+              "correct_answer": "True",
+              "explanation": "Aerobic respiration fully breaks down glucose, releasing far more energy (ATP) than anaerobic respiration.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Glycolysis occurs in the mitochondria.",
+              "correct_answer": "False",
+              "explanation": "Glycolysis occurs in the cytoplasm \u2014 it is the first stage of respiration and does not require mitochondria.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Oxygen debt must be repaid after intense exercise.",
+              "correct_answer": "True",
+              "explanation": "After intense exercise, extra oxygen is needed to remove lactic acid by oxidising it in the liver.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Glucose is the main substrate for cellular respiration.",
+              "correct_answer": "True",
+              "explanation": "Glucose is the primary fuel for respiration, broken down to release energy stored as ATP.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Aerobic respiration takes place in the chloroplasts.",
+              "correct_answer": "False",
+              "explanation": "Aerobic respiration takes place in the mitochondria. Chloroplasts are the site of photosynthesis.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Aerobic respiration uses ________ to break down glucose and release energy.",
+              "correct_answer": "oxygen",
+              "explanation": "Aerobic respiration: glucose + oxygen \u2192 carbon dioxide + water + energy (ATP).",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Anaerobic respiration in animals produces ________, which causes muscle fatigue.",
+              "correct_answer": "lactic acid",
+              "explanation": "Lactic acid builds up in muscles during intense exercise when oxygen cannot be supplied fast enough.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the energy currency of cells produced during respiration.",
+              "correct_answer": "ATP",
+              "explanation": "ATP is produced when glucose is broken down. It is used to power all cellular processes.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is anaerobic respiration in yeast, producing ethanol and CO\u2082.",
+              "correct_answer": "Fermentation",
+              "explanation": "Fermentation is used in brewing and bread-making as yeast converts glucose to ethanol and CO\u2082.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "After intense exercise, ________ debt is repaid by breathing deeply to supply extra oxygen.",
+              "correct_answer": "oxygen",
+              "explanation": "Oxygen debt is the extra oxygen needed to oxidise lactic acid and restore resting conditions.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Aerobic respiration mainly occurs in the ________.",
+              "correct_answer": "mitochondria",
+              "explanation": "Mitochondria have a folded inner membrane (cristae) to maximise the surface area for aerobic respiration.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the first stage of respiration, occurring in the cytoplasm, splitting glucose into pyruvate.",
+              "correct_answer": "Glycolysis",
+              "explanation": "Glycolysis produces a small amount of ATP and does not require oxygen.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The word equation for aerobic respiration is: glucose + oxygen \u2192 ________ + water.",
+              "correct_answer": "carbon dioxide",
+              "explanation": "Carbon dioxide and water are the waste products of aerobic respiration, released via the lungs and skin.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the main fuel (substrate) broken down in cellular respiration.",
+              "correct_answer": "Glucose",
+              "explanation": "Glucose is transported in the blood and enters cells for use in respiration.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "During exercise, ________ rate increases as cells require more energy.",
+              "correct_answer": "metabolic",
+              "explanation": "Increased metabolic rate means more respiration, more oxygen consumed, and more CO\u2082 produced.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "aerobic respiration",
+                  "match": "releases energy from glucose using oxygen"
+                },
+                {
+                  "term": "anaerobic respiration",
+                  "match": "releases energy from glucose without oxygen"
+                },
+                {
+                  "term": "lactic acid",
+                  "match": "waste product of anaerobic respiration in animal cells"
+                },
+                {
+                  "term": "fermentation",
+                  "match": "anaerobic respiration in yeast producing ethanol and CO\u2082"
+                },
+                {
+                  "term": "oxygen debt",
+                  "match": "extra oxygen needed after exercise to remove lactic acid"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Homeostasis & Response",
+      "paper": "Paper 2",
+      "display_order": 5,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "The Nervous System",
+          "cards": [
+            {
+              "keyword": "homeostasis",
+              "definition": "the maintenance of a stable internal environment despite changes in external conditions",
+              "display_order": 1
+            },
+            {
+              "keyword": "nervous system",
+              "definition": "the body's rapid communication system \u2014 the brain, spinal cord, and nerves coordinate responses to stimuli",
+              "display_order": 2
+            },
+            {
+              "keyword": "neurone",
+              "definition": "a specialised cell that transmits electrical impulses \u2014 sensory, relay, or motor",
+              "display_order": 3
+            },
+            {
+              "keyword": "synapse",
+              "definition": "the tiny gap between two neurones \u2014 electrical impulses cannot cross directly, so neurotransmitters carry the signal",
+              "display_order": 4
+            },
+            {
+              "keyword": "reflex",
+              "definition": "an automatic, rapid response to a stimulus that does not require conscious thought",
+              "display_order": 5
+            },
+            {
+              "keyword": "reflex arc",
+              "definition": "the pathway of a reflex: receptor \u2192 sensory neurone \u2192 relay neurone \u2192 motor neurone \u2192 effector",
+              "display_order": 6
+            },
+            {
+              "keyword": "receptor",
+              "definition": "a cell or organ that detects a stimulus \u2014 e.g. light receptors in the eye, touch receptors in the skin",
+              "display_order": 7
+            },
+            {
+              "keyword": "effector",
+              "definition": "a muscle or gland that carries out a response \u2014 muscles contract; glands secrete hormones",
+              "display_order": 8
+            },
+            {
+              "keyword": "sensory neurone",
+              "definition": "a neurone that carries electrical impulses from receptors to the CNS",
+              "display_order": 9
+            },
+            {
+              "keyword": "motor neurone",
+              "definition": "a neurone that carries electrical impulses from the CNS to effectors (muscles and glands)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is homeostasis?",
+              "options": [
+                "A) Rapid nerve impulse transmission",
+                "B) Maintenance of a stable internal environment",
+                "C) The process of releasing hormones",
+                "D) Automatic responses to stimuli"
+              ],
+              "correct_answer": "B",
+              "explanation": "Homeostasis is the regulation of the body's internal environment \u2014 keeping conditions such as temperature, pH, and glucose levels constant.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a synapse?",
+              "options": [
+                "A) A type of receptor cell",
+                "B) A gap between two neurones",
+                "C) A nerve impulse",
+                "D) The brain's control centre"
+              ],
+              "correct_answer": "B",
+              "explanation": "A synapse is the tiny gap between two neurones. Neurotransmitter chemicals diffuse across the gap to carry the impulse to the next neurone.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a reflex action?",
+              "options": [
+                "A) A slow, conscious response",
+                "B) A rapid, automatic response to a stimulus",
+                "C) A hormone-controlled response",
+                "D) A learned behaviour"
+              ],
+              "correct_answer": "B",
+              "explanation": "Reflexes are rapid, automatic responses that protect the body. They do not involve conscious thought \u2014 the response happens before the brain is aware.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the correct order of a reflex arc?",
+              "options": [
+                "A) Effector \u2192 motor neurone \u2192 CNS \u2192 sensory neurone \u2192 receptor",
+                "B) Receptor \u2192 motor neurone \u2192 CNS \u2192 sensory neurone \u2192 effector",
+                "C) Receptor \u2192 sensory neurone \u2192 CNS \u2192 motor neurone \u2192 effector",
+                "D) CNS \u2192 sensory neurone \u2192 receptor \u2192 motor neurone \u2192 effector"
+              ],
+              "correct_answer": "C",
+              "explanation": "The reflex arc: receptor detects stimulus \u2192 sensory neurone \u2192 CNS (relay neurone) \u2192 motor neurone \u2192 effector responds.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What type of neurone carries impulses from the CNS to muscles?",
+              "options": [
+                "A) Sensory neurone",
+                "B) Relay neurone",
+                "C) Motor neurone",
+                "D) Receptor neurone"
+              ],
+              "correct_answer": "C",
+              "explanation": "Motor neurones carry nerve impulses from the central nervous system (brain and spinal cord) to effectors (muscles and glands).",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an effector?",
+              "options": [
+                "A) A cell that detects stimuli",
+                "B) A cell that carries impulses to the brain",
+                "C) A muscle or gland that responds to nerve impulses",
+                "D) A gap between neurones"
+              ],
+              "correct_answer": "C",
+              "explanation": "Effectors are the muscles and glands that carry out responses. Muscles contract; glands secrete chemicals such as hormones or enzymes.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do nerve impulses cross a synapse?",
+              "options": [
+                "A) By electrical conduction",
+                "B) By neurotransmitter chemicals diffusing across the gap",
+                "C) By direct cell contact",
+                "D) By osmosis"
+              ],
+              "correct_answer": "B",
+              "explanation": "At a synapse, neurotransmitters are released from one neurone, diffuse across the gap, and bind to receptors on the next neurone.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does a sensory neurone do?",
+              "options": [
+                "A) Carries impulses from the CNS to muscles",
+                "B) Connects two neurones in the CNS",
+                "C) Carries impulses from receptors to the CNS",
+                "D) Detects stimuli directly"
+              ],
+              "correct_answer": "C",
+              "explanation": "Sensory neurones carry electrical impulses from receptor cells to the central nervous system for processing.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which part of the body is the CNS?",
+              "options": [
+                "A) Peripheral nerves only",
+                "B) Brain and spinal cord",
+                "C) Brain only",
+                "D) All nerves in the body"
+              ],
+              "correct_answer": "B",
+              "explanation": "The central nervous system (CNS) consists of the brain and spinal cord. It processes information and coordinates responses.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why are reflexes important?",
+              "options": [
+                "A) They allow complex decision-making",
+                "B) They enable learning",
+                "C) They provide rapid protection without waiting for brain processing",
+                "D) They are more accurate than conscious actions"
+              ],
+              "correct_answer": "C",
+              "explanation": "Reflexes protect the body by producing very fast responses \u2014 the signal bypasses conscious processing in the brain.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Homeostasis maintains a stable internal environment.",
+              "correct_answer": "True",
+              "explanation": "Homeostasis keeps conditions such as temperature, blood glucose, and water balance within narrow limits.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Nerve impulses can jump directly across a synapse without chemicals.",
+              "correct_answer": "False",
+              "explanation": "Nerve impulses cannot cross the synaptic gap electrically \u2014 neurotransmitter chemicals diffuse across to carry the signal.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "A reflex action involves conscious thought.",
+              "correct_answer": "False",
+              "explanation": "Reflexes are automatic and do not require conscious thought \u2014 the response occurs before the brain is aware of the stimulus.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Motor neurones carry impulses from the CNS to effectors.",
+              "correct_answer": "True",
+              "explanation": "Motor neurones transmit electrical impulses from the central nervous system to muscles and glands (effectors).",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Sensory neurones carry impulses from the CNS to receptors.",
+              "correct_answer": "False",
+              "explanation": "Sensory neurones carry impulses FROM receptors TO the CNS. Motor neurones carry impulses from the CNS to effectors.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The CNS consists of the brain and spinal cord.",
+              "correct_answer": "True",
+              "explanation": "The central nervous system (CNS) processes all incoming information and coordinates appropriate responses.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "An effector is a cell that detects stimuli.",
+              "correct_answer": "False",
+              "explanation": "An effector is a muscle or gland that carries out a response. Receptors are the cells that detect stimuli.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Reflexes protect the body from harm.",
+              "correct_answer": "True",
+              "explanation": "Reflexes such as pulling your hand away from heat or blinking happen automatically to protect the body.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Neurotransmitters are released at synapses.",
+              "correct_answer": "True",
+              "explanation": "Neurotransmitters are chemical messengers released from one neurone that diffuse across the synapse to stimulate the next.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The reflex arc pathway is: receptor \u2192 sensory neurone \u2192 relay neurone \u2192 motor neurone \u2192 effector.",
+              "correct_answer": "True",
+              "explanation": "This is the correct pathway for a simple reflex arc, coordinated by the spinal cord.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the maintenance of a stable internal environment.",
+              "correct_answer": "Homeostasis",
+              "explanation": "Homeostasis regulates temperature, blood glucose, water balance, and other internal conditions.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is the tiny gap between two neurones where neurotransmitters carry the signal.",
+              "correct_answer": "synapse",
+              "explanation": "Neurotransmitters diffuse across the synaptic gap and bind to receptors on the next neurone.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ action is a rapid, automatic response that does not require conscious thought.",
+              "correct_answer": "reflex",
+              "explanation": "Reflexes protect the body \u2014 they occur faster than conscious reactions because they bypass the brain.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ neurones carry impulses from the CNS to muscles and glands.",
+              "correct_answer": "Motor",
+              "explanation": "Motor neurones transmit the 'instruction' from the brain or spinal cord to effectors.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ neurones carry impulses from receptors to the CNS.",
+              "correct_answer": "Sensory",
+              "explanation": "Sensory neurones carry information about stimuli from receptor cells to the central nervous system.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The correct order of the reflex arc is: receptor \u2192 sensory neurone \u2192 ________ neurone \u2192 motor neurone \u2192 effector.",
+              "correct_answer": "relay",
+              "explanation": "Relay neurones in the spinal cord connect sensory and motor neurones in a reflex arc.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Muscles and glands that carry out responses are called ________.",
+              "correct_answer": "effectors",
+              "explanation": "Effectors respond to motor nerve impulses \u2014 muscles contract and glands secrete chemicals.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ consists of the brain and spinal cord.",
+              "correct_answer": "CNS",
+              "explanation": "The central nervous system (CNS) processes sensory information and coordinates responses.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Nerve impulses cross synapses via ________ chemicals.",
+              "correct_answer": "neurotransmitter",
+              "explanation": "Neurotransmitters are released from one neurone and bind to receptor proteins on the next.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Cells that detect stimuli such as light, heat, or pressure are called ________.",
+              "correct_answer": "receptors",
+              "explanation": "Receptor cells are specialised to detect specific stimuli and generate nerve impulses.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "homeostasis",
+                  "match": "maintaining a stable internal environment"
+                },
+                {
+                  "term": "synapse",
+                  "match": "gap between neurones where neurotransmitters carry the signal"
+                },
+                {
+                  "term": "sensory neurone",
+                  "match": "carries impulses from receptors to the CNS"
+                },
+                {
+                  "term": "motor neurone",
+                  "match": "carries impulses from the CNS to effectors"
+                },
+                {
+                  "term": "reflex arc",
+                  "match": "receptor \u2192 sensory \u2192 relay \u2192 motor \u2192 effector"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inheritance & Evolution",
+      "paper": "Paper 2",
+      "display_order": 6,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "DNA, Genes & Inheritance",
+          "cards": [
+            {
+              "keyword": "DNA",
+              "definition": "deoxyribonucleic acid \u2014 the molecule that carries genetic information in the form of a code",
+              "display_order": 1
+            },
+            {
+              "keyword": "gene",
+              "definition": "a section of DNA that codes for the production of a specific protein \u2014 determines characteristics",
+              "display_order": 2
+            },
+            {
+              "keyword": "allele",
+              "definition": "a version of a gene \u2014 most genes have two or more alleles (e.g. dominant and recessive)",
+              "display_order": 3
+            },
+            {
+              "keyword": "dominant allele",
+              "definition": "an allele whose characteristic is always expressed, even if only one copy is present",
+              "display_order": 4
+            },
+            {
+              "keyword": "recessive allele",
+              "definition": "an allele whose characteristic is only expressed when two copies are present",
+              "display_order": 5
+            },
+            {
+              "keyword": "homozygous",
+              "definition": "having two identical alleles for a gene \u2014 either homozygous dominant (BB) or recessive (bb)",
+              "display_order": 6
+            },
+            {
+              "keyword": "heterozygous",
+              "definition": "having two different alleles for a gene \u2014 e.g. Bb",
+              "display_order": 7
+            },
+            {
+              "keyword": "genotype",
+              "definition": "the genetic make-up of an organism \u2014 the alleles it carries for a particular gene",
+              "display_order": 8
+            },
+            {
+              "keyword": "phenotype",
+              "definition": "the observable characteristics of an organism \u2014 produced by genotype and environment",
+              "display_order": 9
+            },
+            {
+              "keyword": "Punnett square",
+              "definition": "a grid used to predict the probability of offspring inheriting particular genotypes",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does DNA stand for?",
+              "options": [
+                "A) Deoxyribonucleic acid",
+                "B) Deoxyribonitric acid",
+                "C) Deoxyribose nuclear acid",
+                "D) Dinucleotide acid"
+              ],
+              "correct_answer": "A",
+              "explanation": "DNA stands for deoxyribonucleic acid \u2014 the molecule that stores genetic information in the form of a chemical code.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a gene?",
+              "options": [
+                "A) A type of protein",
+                "B) A section of DNA coding for a specific protein",
+                "C) The entire DNA of an organism",
+                "D) A chromosome"
+              ],
+              "correct_answer": "B",
+              "explanation": "A gene is a specific section of DNA that codes for a particular protein. Different proteins give different characteristics.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an allele?",
+              "options": [
+                "A) A complete chromosome",
+                "B) A version of a gene",
+                "C) A type of cell division",
+                "D) The full set of an organism's DNA"
+              ],
+              "correct_answer": "B",
+              "explanation": "An allele is a specific version of a gene. For most genes, there are two or more possible alleles.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A dominant allele is expressed when...",
+              "options": [
+                "A) Two copies are present only",
+                "B) One or two copies are present",
+                "C) No copies are present",
+                "D) The organism is heterozygous only"
+              ],
+              "correct_answer": "B",
+              "explanation": "A dominant allele is expressed whenever it is present \u2014 whether the organism is homozygous dominant (BB) or heterozygous (Bb).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does homozygous mean?",
+              "options": [
+                "A) Having two different alleles for a gene",
+                "B) Having one dominant and one recessive allele",
+                "C) Having two identical alleles for a gene",
+                "D) Having no alleles for a gene"
+              ],
+              "correct_answer": "C",
+              "explanation": "A homozygous organism has two identical alleles for a gene \u2014 either both dominant (BB) or both recessive (bb).",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the genotype of an organism?",
+              "options": [
+                "A) Its physical characteristics",
+                "B) The alleles it carries for a particular gene",
+                "C) The number of chromosomes it has",
+                "D) Its observable traits"
+              ],
+              "correct_answer": "B",
+              "explanation": "Genotype refers to the specific alleles an organism carries \u2014 its genetic make-up. This determines but does not always equal phenotype.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is phenotype?",
+              "options": [
+                "A) The alleles an organism carries",
+                "B) The number of genes an organism has",
+                "C) The observable characteristics of an organism",
+                "D) The type of cell division used"
+              ],
+              "correct_answer": "C",
+              "explanation": "Phenotype is what you can observe \u2014 height, eye colour, blood type. It is determined by genotype and can also be influenced by environment.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a Punnett square used for?",
+              "options": [
+                "A) To sequence DNA",
+                "B) To predict the probability of offspring genotypes",
+                "C) To identify mutations",
+                "D) To count chromosomes"
+              ],
+              "correct_answer": "B",
+              "explanation": "A Punnett square is a grid that shows all possible combinations of parental alleles in offspring, allowing prediction of genotype and phenotype ratios.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "If both parents are Bb, what is the probability of a bb offspring?",
+              "options": [
+                "A) 0%",
+                "B) 25%",
+                "C) 50%",
+                "D) 75%"
+              ],
+              "correct_answer": "B",
+              "explanation": "A Punnett square cross of Bb \u00d7 Bb gives: BB, Bb, Bb, bb \u2014 a 1:2:1 ratio. bb offspring have a 25% (1 in 4) probability.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A recessive characteristic is only expressed when...",
+              "options": [
+                "A) One recessive allele is present",
+                "B) Two recessive alleles are present",
+                "C) One dominant allele is absent",
+                "D) Two dominant alleles are present"
+              ],
+              "correct_answer": "B",
+              "explanation": "A recessive allele is only expressed in the phenotype when two copies are present (homozygous recessive, bb).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "DNA stands for deoxyribonucleic acid.",
+              "correct_answer": "True",
+              "explanation": "DNA is the molecule that carries genetic information. It is found in the nucleus of eukaryotic cells.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "A gene is a section of DNA that codes for a specific protein.",
+              "correct_answer": "True",
+              "explanation": "Genes carry the instructions for making proteins, which determine the characteristics of an organism.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "All genes have exactly two alleles.",
+              "correct_answer": "False",
+              "explanation": "Most genes have two or more alleles. Some genes have many different alleles in a population.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "A dominant allele is only expressed when two copies are present.",
+              "correct_answer": "False",
+              "explanation": "A dominant allele is expressed whenever it is present \u2014 in both homozygous dominant (BB) and heterozygous (Bb) organisms.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Phenotype refers to the alleles an organism carries.",
+              "correct_answer": "False",
+              "explanation": "Phenotype refers to the observable characteristics of an organism. Genotype refers to the alleles it carries.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "A heterozygous organism has two different alleles for a gene.",
+              "correct_answer": "True",
+              "explanation": "A heterozygous organism (e.g. Bb) has one dominant and one recessive allele for a particular gene.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Punnett squares can predict the probability of offspring phenotypes.",
+              "correct_answer": "True",
+              "explanation": "Punnett squares show all possible allele combinations in offspring, allowing prediction of genotype and phenotype ratios.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Homozygous dominant and homozygous recessive have the same phenotype.",
+              "correct_answer": "False",
+              "explanation": "Homozygous dominant (BB) and heterozygous (Bb) may show the same phenotype (dominant), but homozygous recessive (bb) shows the recessive phenotype.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Environment can influence phenotype.",
+              "correct_answer": "True",
+              "explanation": "While genotype determines potential, environmental factors such as diet, temperature, and sunlight can affect the expressed phenotype.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "A recessive allele is expressed in a heterozygous organism.",
+              "correct_answer": "False",
+              "explanation": "In a heterozygous organism (Bb), the dominant allele masks the recessive allele. The recessive phenotype is only expressed when the organism is bb.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the molecule in cells that carries genetic information.",
+              "correct_answer": "DNA",
+              "explanation": "DNA (deoxyribonucleic acid) is found in chromosomes in the nucleus and carries the code for all proteins.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a section of DNA that codes for a specific protein.",
+              "correct_answer": "gene",
+              "explanation": "Genes determine characteristics by coding for specific proteins.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ is a version of a gene \u2014 different alleles produce different characteristics.",
+              "correct_answer": "allele",
+              "explanation": "Alleles are alternative forms of a gene found at the same position on homologous chromosomes.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ allele is expressed even when only one copy is present.",
+              "correct_answer": "dominant",
+              "explanation": "Dominant alleles mask the effect of recessive alleles in heterozygous organisms.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ allele is only expressed when two copies are present.",
+              "correct_answer": "recessive",
+              "explanation": "Recessive alleles are masked by dominant alleles \u2014 they only show in the phenotype when homozygous recessive.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Having two identical alleles for a gene is called ________.",
+              "correct_answer": "homozygous",
+              "explanation": "Homozygous organisms are either BB (homozygous dominant) or bb (homozygous recessive).",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Having two different alleles for a gene is called ________.",
+              "correct_answer": "heterozygous",
+              "explanation": "Heterozygous organisms (Bb) carry one dominant and one recessive allele.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The alleles an organism carries for a gene is its ________.",
+              "correct_answer": "genotype",
+              "explanation": "Genotype is the genetic make-up \u2014 the actual alleles present (e.g. BB, Bb, or bb).",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The observable characteristics of an organism are its ________.",
+              "correct_answer": "phenotype",
+              "explanation": "Phenotype is what you can see or measure \u2014 determined by genotype and the environment.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ square is used to predict the probability of offspring inheriting certain alleles.",
+              "correct_answer": "Punnett",
+              "explanation": "A Punnett square grid shows all possible combinations from a genetic cross.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "DNA",
+                  "match": "molecule carrying genetic information"
+                },
+                {
+                  "term": "gene",
+                  "match": "section of DNA coding for a specific protein"
+                },
+                {
+                  "term": "dominant allele",
+                  "match": "expressed even when only one copy is present"
+                },
+                {
+                  "term": "recessive allele",
+                  "match": "only expressed when two copies are present"
+                },
+                {
+                  "term": "Punnett square",
+                  "match": "grid used to predict offspring genotype probabilities"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Evolution & Natural Selection",
+          "cards": [
+            {
+              "keyword": "evolution",
+              "definition": "the gradual change in inherited characteristics of a population over many generations",
+              "display_order": 1
+            },
+            {
+              "keyword": "natural selection",
+              "definition": "the process by which organisms with advantageous traits are more likely to survive and reproduce",
+              "display_order": 2
+            },
+            {
+              "keyword": "Charles Darwin",
+              "definition": "the scientist who proposed the theory of evolution by natural selection in 1859",
+              "display_order": 3
+            },
+            {
+              "keyword": "variation",
+              "definition": "differences in characteristics between individuals of the same species \u2014 caused by genes and the environment",
+              "display_order": 4
+            },
+            {
+              "keyword": "mutation",
+              "definition": "a random change in the DNA sequence \u2014 the source of new alleles and genetic variation",
+              "display_order": 5
+            },
+            {
+              "keyword": "selective pressure",
+              "definition": "an environmental factor that affects survival \u2014 organisms better adapted to it are more likely to survive",
+              "display_order": 6
+            },
+            {
+              "keyword": "antibiotic resistance",
+              "definition": "bacteria that survive antibiotic treatment reproduce, passing on resistant genes \u2014 an example of natural selection",
+              "display_order": 7
+            },
+            {
+              "keyword": "speciation",
+              "definition": "the formation of new species when populations become reproductively isolated and evolve separately",
+              "display_order": 8
+            },
+            {
+              "keyword": "extinction",
+              "definition": "the permanent disappearance of a species \u2014 caused by habitat loss, competition, disease, or climate change",
+              "display_order": 9
+            },
+            {
+              "keyword": "fossil record",
+              "definition": "evidence of organisms from the past preserved in rock \u2014 supports the theory of evolution",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is evolution?",
+              "options": [
+                "A) Change in an individual organism over its lifetime",
+                "B) Gradual change in inherited characteristics of a population over generations",
+                "C) Adaptation by a single organism to its environment",
+                "D) The development of new organs in response to need"
+              ],
+              "correct_answer": "B",
+              "explanation": "Evolution is the gradual change in the inherited characteristics of a population over many generations, driven by natural selection.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is natural selection?",
+              "options": [
+                "A) Humans choosing which organisms breed",
+                "B) Random survival of organisms",
+                "C) Organisms with advantageous traits surviving and reproducing more",
+                "D) All organisms in a population becoming identical"
+              ],
+              "correct_answer": "C",
+              "explanation": "Natural selection: variation exists \u2192 some variants better suited to the environment \u2192 they survive and reproduce \u2192 advantageous traits passed to offspring.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who proposed the theory of evolution by natural selection?",
+              "options": [
+                "A) Gregor Mendel",
+                "B) Louis Pasteur",
+                "C) Alfred Russel Wallace",
+                "D) Charles Darwin"
+              ],
+              "correct_answer": "D",
+              "explanation": "Charles Darwin published 'On the Origin of Species' in 1859, proposing that species evolve through natural selection.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What causes genetic variation in a population?",
+              "options": [
+                "A) Natural selection only",
+                "B) Mutations and sexual reproduction",
+                "C) Adaptation only",
+                "D) Extinction events"
+              ],
+              "correct_answer": "B",
+              "explanation": "Genetic variation arises from mutations (new alleles) and sexual reproduction (mixing of alleles through meiosis and fertilisation).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does antibiotic resistance in bacteria develop?",
+              "options": [
+                "A) Bacteria choose to become resistant",
+                "B) Antibiotics cause bacteria to mutate",
+                "C) Resistant bacteria survive and reproduce, passing on resistant genes",
+                "D) All bacteria become resistant at the same time"
+              ],
+              "correct_answer": "C",
+              "explanation": "Antibiotic resistance is natural selection in action \u2014 resistant bacteria survive treatment and reproduce, increasing the frequency of resistance genes.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a mutation?",
+              "options": [
+                "A) A type of cell division",
+                "B) A random change in the DNA sequence",
+                "C) The removal of a chromosome",
+                "D) Inheritance of a recessive allele"
+              ],
+              "correct_answer": "B",
+              "explanation": "Mutations are random changes to the base sequence of DNA. They create new alleles and are the ultimate source of all genetic variation.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is speciation?",
+              "options": [
+                "A) The extinction of a species",
+                "B) One species outcompeting another",
+                "C) Formation of new species from isolated populations",
+                "D) Rapid evolution of all individuals"
+              ],
+              "correct_answer": "C",
+              "explanation": "Speciation occurs when populations become geographically or reproductively isolated and evolve independently until they can no longer interbreed.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What type of evidence supports evolution?",
+              "options": [
+                "A) Fossil records, DNA comparison, and anatomical similarities",
+                "B) Religious texts",
+                "C) Observation of individual organisms changing",
+                "D) Antibiotic manufacture"
+              ],
+              "correct_answer": "A",
+              "explanation": "Multiple lines of evidence support evolution: fossil records, DNA similarities between related species, comparative anatomy, and observed examples of natural selection.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What causes extinction?",
+              "options": [
+                "A) Natural selection alone",
+                "B) Beneficial mutations",
+                "C) Factors such as habitat loss, disease, competition, or climate change",
+                "D) Speciation"
+              ],
+              "correct_answer": "C",
+              "explanation": "Extinction occurs when all members of a species die \u2014 caused by factors such as habitat destruction, introduced predators, climate change, or disease.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a selective pressure?",
+              "options": [
+                "A) A type of genetic mutation",
+                "B) An environmental factor that affects which organisms survive",
+                "C) A medical treatment for bacteria",
+                "D) The force of natural selection on a single individual"
+              ],
+              "correct_answer": "B",
+              "explanation": "A selective pressure is any environmental factor (e.g. predators, disease, climate) that makes some individuals more likely to survive and reproduce than others.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Evolution is the change in inherited characteristics of a population over many generations.",
+              "correct_answer": "True",
+              "explanation": "Evolution is the process by which populations change over time through natural selection and other mechanisms.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Natural selection acts on individuals, not populations.",
+              "correct_answer": "False",
+              "explanation": "Natural selection acts on populations \u2014 individuals cannot evolve, but populations change as better-adapted individuals contribute more offspring.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Mutations are always harmful.",
+              "correct_answer": "False",
+              "explanation": "Mutations can be harmful, neutral, or beneficial. Only beneficial mutations are likely to be passed on through natural selection.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Antibiotic resistance in bacteria is an example of natural selection.",
+              "correct_answer": "True",
+              "explanation": "Resistant bacteria survive antibiotic treatment and reproduce \u2014 passing on the resistance gene. This is natural selection in action.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Darwin's theory was immediately accepted by the scientific community.",
+              "correct_answer": "False",
+              "explanation": "Darwin's theory was controversial \u2014 it conflicted with religious beliefs and lacked an explanation for how traits were inherited (genetics was not yet understood).",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Speciation requires populations to become reproductively isolated.",
+              "correct_answer": "True",
+              "explanation": "Speciation occurs when populations cannot interbreed. Isolation allows them to evolve independently until they become different species.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The fossil record provides evidence for evolution.",
+              "correct_answer": "True",
+              "explanation": "Fossils show how organisms have changed over time and record the existence of species that are now extinct.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "All members of a species can become resistant to an antibiotic.",
+              "correct_answer": "False",
+              "explanation": "Only bacteria with the resistance mutation survive. There will always be some bacteria that are susceptible \u2014 but overuse of antibiotics increases the proportion that are resistant.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Extinction is always caused by human activity.",
+              "correct_answer": "False",
+              "explanation": "Extinction can result from natural processes such as climate change, disease, or competition, as well as human activities like habitat destruction.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Variation within a species is necessary for natural selection to occur.",
+              "correct_answer": "True",
+              "explanation": "Natural selection requires variation \u2014 if all individuals were identical, there would be nothing to select. Variation is the raw material of evolution.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the gradual change in inherited characteristics of a population over many generations.",
+              "correct_answer": "Evolution",
+              "explanation": "Evolution is driven mainly by natural selection \u2014 organisms better suited to their environment survive and reproduce.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ selection is the process where better-adapted organisms survive and pass on advantageous traits.",
+              "correct_answer": "Natural",
+              "explanation": "Natural selection requires variation, inheritance, and differential survival and reproduction.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are random changes to the DNA sequence \u2014 the source of new alleles.",
+              "correct_answer": "Mutations",
+              "explanation": "Mutations create new genetic variants. Most are neutral, some harmful, and a few beneficial.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Antibiotic ________ in bacteria is a real-world example of natural selection in action.",
+              "correct_answer": "resistance",
+              "explanation": "Bacteria with resistance genes survive antibiotic treatment and pass their genes to offspring.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The formation of new species from isolated populations is called ________.",
+              "correct_answer": "speciation",
+              "explanation": "Speciation occurs when populations are isolated long enough to evolve differently and can no longer interbreed.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The permanent disappearance of a species is called ________.",
+              "correct_answer": "extinction",
+              "explanation": "Extinction occurs when all individuals of a species die \u2014 it is irreversible.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Charles ________ proposed the theory of evolution by natural selection in 1859.",
+              "correct_answer": "Darwin",
+              "explanation": "Darwin's theory was published in 'On the Origin of Species' and revolutionised biology.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ record provides evidence of past organisms preserved in rock.",
+              "correct_answer": "fossil",
+              "explanation": "Fossils show how life has changed over millions of years, supporting evolutionary theory.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "An environmental factor that affects survival is called a ________ pressure.",
+              "correct_answer": "selective",
+              "explanation": "Selective pressures such as predators, disease, and climate drive natural selection.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Differences in characteristics between individuals of the same species is called ________.",
+              "correct_answer": "variation",
+              "explanation": "Variation is caused by mutations and sexual reproduction \u2014 it is essential for natural selection to occur.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "evolution",
+                  "match": "gradual change in inherited characteristics of a population over generations"
+                },
+                {
+                  "term": "natural selection",
+                  "match": "better-adapted organisms survive and pass on advantageous traits"
+                },
+                {
+                  "term": "mutation",
+                  "match": "random change in DNA \u2014 source of new alleles"
+                },
+                {
+                  "term": "speciation",
+                  "match": "formation of new species from isolated populations"
+                },
+                {
+                  "term": "antibiotic resistance",
+                  "match": "bacteria with resistance genes survive and reproduce \u2014 natural selection"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ecology",
+      "paper": "Paper 2",
+      "display_order": 7,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Ecosystems & Food Chains",
+          "cards": [
+            {
+              "keyword": "ecosystem",
+              "definition": "all the living organisms in an area and their non-living environment, interacting together",
+              "display_order": 1
+            },
+            {
+              "keyword": "producer",
+              "definition": "an organism that makes its own food by photosynthesis \u2014 e.g. plants and algae. The start of food chains",
+              "display_order": 2
+            },
+            {
+              "keyword": "consumer",
+              "definition": "an organism that gets energy by eating other organisms \u2014 primary consumers eat producers",
+              "display_order": 3
+            },
+            {
+              "keyword": "food chain",
+              "definition": "a sequence showing how energy and matter are transferred from one organism to the next through feeding",
+              "display_order": 4
+            },
+            {
+              "keyword": "food web",
+              "definition": "a network of interconnected food chains showing the feeding relationships in an ecosystem",
+              "display_order": 5
+            },
+            {
+              "keyword": "biomass",
+              "definition": "the total mass of living material at a trophic level \u2014 biomass decreases at each level due to respiration, waste, and heat",
+              "display_order": 6
+            },
+            {
+              "keyword": "trophic level",
+              "definition": "the position of an organism in a food chain \u2014 producers are level 1, primary consumers level 2",
+              "display_order": 7
+            },
+            {
+              "keyword": "decomposer",
+              "definition": "organisms (bacteria and fungi) that break down dead organic matter, returning nutrients to the soil",
+              "display_order": 8
+            },
+            {
+              "keyword": "predator",
+              "definition": "an animal that hunts and kills other animals (prey) for food",
+              "display_order": 9
+            },
+            {
+              "keyword": "competition",
+              "definition": "organisms competing for the same limited resource \u2014 e.g. food, water, space, mates, light",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is an ecosystem?",
+              "options": [
+                "A) All living organisms on Earth",
+                "B) Living organisms in an area and their non-living environment",
+                "C) A food web showing all feeding relationships",
+                "D) The soil and climate of a region"
+              ],
+              "correct_answer": "B",
+              "explanation": "An ecosystem includes all the living organisms (biotic) and non-living factors (abiotic \u2014 light, temperature, water) in an area, interacting together.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a producer?",
+              "options": [
+                "A) An organism that eats plants",
+                "B) An organism that makes its own food by photosynthesis",
+                "C) A decomposer that breaks down dead matter",
+                "D) A top predator"
+              ],
+              "correct_answer": "B",
+              "explanation": "Producers (plants, algae) make their own food through photosynthesis. They form the base of all food chains and webs.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does biomass decrease along a food chain?",
+              "options": [
+                "A) Organisms at higher trophic levels are smaller",
+                "B) Energy is lost as heat, waste, and through respiration at each level",
+                "C) Producers store more energy than consumers",
+                "D) Decomposers remove biomass from the chain"
+              ],
+              "correct_answer": "B",
+              "explanation": "At each trophic level, energy is lost through respiration (heat), waste products, and movement \u2014 only about 10% is passed to the next level.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a food web?",
+              "options": [
+                "A) A single feeding sequence from producer to top predator",
+                "B) A network of interconnected food chains",
+                "C) A diagram showing biomass at each trophic level",
+                "D) A classification system for organisms"
+              ],
+              "correct_answer": "B",
+              "explanation": "A food web shows multiple, interconnected feeding relationships in an ecosystem \u2014 more realistic than a single food chain.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do decomposers do?",
+              "options": [
+                "A) Produce food by photosynthesis",
+                "B) Eat primary consumers",
+                "C) Break down dead organic matter and return nutrients to the soil",
+                "D) Compete with producers for light"
+              ],
+              "correct_answer": "C",
+              "explanation": "Decomposers (bacteria and fungi) break down dead organisms and waste, releasing nutrients back into the soil for plants to use.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is competition in ecology?",
+              "options": [
+                "A) Predators hunting prey",
+                "B) Organisms of different species helping each other",
+                "C) Organisms competing for the same limited resource",
+                "D) The movement of organisms between ecosystems"
+              ],
+              "correct_answer": "C",
+              "explanation": "Competition occurs when organisms need the same limited resource \u2014 interspecific (between species) or intraspecific (within a species).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the correct term for the feeding position of an organism in a food chain?",
+              "options": [
+                "A) Habitat",
+                "B) Niche",
+                "C) Trophic level",
+                "D) Biomass"
+              ],
+              "correct_answer": "C",
+              "explanation": "Trophic level describes the position of an organism in a food chain. Producers = level 1; primary consumers = level 2, etc.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a predator-prey relationship?",
+              "options": [
+                "A) Two species competing for the same food",
+                "B) A relationship where one organism kills and eats another",
+                "C) Organisms cooperating for mutual benefit",
+                "D) Decomposers breaking down dead animals"
+              ],
+              "correct_answer": "B",
+              "explanation": "In a predator-prey relationship, the predator hunts and eats the prey. Their populations are linked \u2014 as prey increases, predator numbers rise; when prey decreases, so do predators.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is biomass?",
+              "options": [
+                "A) The number of organisms at a trophic level",
+                "B) The total mass of living material at a trophic level",
+                "C) The energy stored in sunlight",
+                "D) The amount of carbon dioxide produced"
+              ],
+              "correct_answer": "B",
+              "explanation": "Biomass is the total dry mass of living material. It decreases at each trophic level because energy is lost between levels.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which organisms are at the base of every food chain?",
+              "options": [
+                "A) Top predators",
+                "B) Decomposers",
+                "C) Producers",
+                "D) Primary consumers"
+              ],
+              "correct_answer": "C",
+              "explanation": "All food chains start with producers (plants or algae) that capture energy from sunlight through photosynthesis.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "An ecosystem includes both living organisms and non-living factors.",
+              "correct_answer": "True",
+              "explanation": "An ecosystem is made up of biotic (living) and abiotic (non-living) components interacting together.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Producers get their energy by eating other organisms.",
+              "correct_answer": "False",
+              "explanation": "Producers make their own food through photosynthesis \u2014 they do not eat other organisms. Consumers eat other organisms.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Biomass increases at each trophic level along a food chain.",
+              "correct_answer": "False",
+              "explanation": "Biomass decreases along a food chain as energy is lost at each level through respiration, heat, and waste.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "A food web shows only one feeding pathway in an ecosystem.",
+              "correct_answer": "False",
+              "explanation": "A food web shows multiple interconnected food chains, representing the complex feeding relationships in an ecosystem.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Decomposers break down dead organic matter and return nutrients to the soil.",
+              "correct_answer": "True",
+              "explanation": "Decomposers (bacteria and fungi) recycle nutrients by breaking down dead organisms and waste products.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Competition only occurs between different species.",
+              "correct_answer": "False",
+              "explanation": "Competition can be intraspecific (within the same species) or interspecific (between different species).",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Energy is lost between trophic levels mainly due to respiration.",
+              "correct_answer": "True",
+              "explanation": "Most energy is lost at each trophic level through respiration (released as heat), meaning less is available for the next level.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "All food chains begin with a producer.",
+              "correct_answer": "True",
+              "explanation": "Producers capture energy from sunlight and form the base of all food chains and webs.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Predator and prey populations are independent of each other.",
+              "correct_answer": "False",
+              "explanation": "Predator and prey populations are interdependent \u2014 changes in one cause changes in the other (cyclical fluctuations).",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Decomposers are at the top of food chains.",
+              "correct_answer": "False",
+              "explanation": "Decomposers are not usually shown in food chains \u2014 they act on organisms at all levels by breaking down dead material.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ includes all living organisms and their non-living environment in an area.",
+              "correct_answer": "ecosystem",
+              "explanation": "Ecosystems are made up of biotic (living) and abiotic (non-living) components.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ make their own food by photosynthesis and form the base of all food chains.",
+              "correct_answer": "Producers",
+              "explanation": "Producers (plants, algae) are the entry point for energy into ecosystems.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ decreases at each trophic level because energy is lost as heat and waste.",
+              "correct_answer": "Biomass",
+              "explanation": "Only about 10% of biomass is transferred from one trophic level to the next.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ web shows the network of feeding relationships in an ecosystem.",
+              "correct_answer": "food",
+              "explanation": "Food webs are more realistic than food chains as they show multiple interconnected relationships.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ break down dead organic matter and return nutrients to the soil.",
+              "correct_answer": "Decomposers",
+              "explanation": "Decomposers (bacteria and fungi) are essential for nutrient cycling in ecosystems.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The position of an organism in a food chain is called its ________ level.",
+              "correct_answer": "trophic",
+              "explanation": "Trophic levels range from producers (level 1) through primary, secondary, and tertiary consumers.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ occurs when organisms compete for the same limited resource.",
+              "correct_answer": "Competition",
+              "explanation": "Competition for food, water, space, or mates can limit population sizes.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ hunts and kills other animals (its prey) for food.",
+              "correct_answer": "predator",
+              "explanation": "Predator-prey relationships cause cyclical fluctuations in both populations.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A food ________ shows energy transfer from producer to top predator in a sequence.",
+              "correct_answer": "chain",
+              "explanation": "Food chains always start with a producer and end with a top predator.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "An organism that eats producers is called a ________ consumer.",
+              "correct_answer": "primary",
+              "explanation": "Primary consumers (herbivores) eat producers and are eaten by secondary consumers.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "ecosystem",
+                  "match": "all living organisms and their non-living environment interacting together"
+                },
+                {
+                  "term": "producer",
+                  "match": "organism that makes its own food by photosynthesis"
+                },
+                {
+                  "term": "biomass",
+                  "match": "total mass of living material at a trophic level"
+                },
+                {
+                  "term": "decomposer",
+                  "match": "organism that breaks down dead matter and recycles nutrients"
+                },
+                {
+                  "term": "food web",
+                  "match": "network of interconnected food chains"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Separate Science Extra \u2014 Biology AQA",
+      "paper": "Paper 2",
+      "display_order": 11,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Separate Science: Monoclonal Antibodies & Plant Hormones",
+          "cards": [
+            {
+              "keyword": "monoclonal antibodies",
+              "definition": "identical antibodies from a single clone \u2014 highly specific to one antigen",
+              "display_order": 1
+            },
+            {
+              "keyword": "hybridoma cell",
+              "definition": "B lymphocyte fused with tumour cell \u2014 produces monoclonal antibodies continuously",
+              "display_order": 2
+            },
+            {
+              "keyword": "ELISA test",
+              "definition": "diagnostic test using monoclonal antibodies to detect specific proteins",
+              "display_order": 3
+            },
+            {
+              "keyword": "targeted drug delivery",
+              "definition": "monoclonal antibodies carry drugs directly to cancer cells \u2014 reducing side effects",
+              "display_order": 4
+            },
+            {
+              "keyword": "auxin",
+              "definition": "a plant hormone \u2014 stimulates cell elongation \u2014 controls phototropism and gravitropism",
+              "display_order": 5
+            },
+            {
+              "keyword": "phototropism",
+              "definition": "growth of plants towards light \u2014 controlled by uneven distribution of auxin",
+              "display_order": 6
+            },
+            {
+              "keyword": "gravitropism",
+              "definition": "growth response to gravity \u2014 roots grow towards gravity, shoots away",
+              "display_order": 7
+            },
+            {
+              "keyword": "ethylene",
+              "definition": "a plant hormone that stimulates fruit ripening \u2014 used commercially to ripen bananas",
+              "display_order": 8
+            },
+            {
+              "keyword": "gibberellin",
+              "definition": "a plant hormone stimulating seed germination, stem elongation, and fruit development",
+              "display_order": 9
+            },
+            {
+              "keyword": "plant hormone applications",
+              "definition": "auxin in rooting powder; ethylene for ripening fruit; gibberellins in brewing",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What are monoclonal antibodies?",
+              "options": [
+                "A) Antibodies from T cells",
+                "B) Identical antibodies from one clone \u2014 specific to one antigen",
+                "C) Antibodies attacking all pathogens",
+                "D) White blood cells"
+              ],
+              "correct_answer": "B",
+              "explanation": "Hybridoma cells produce large quantities of identical monoclonal antibodies \u2014 highly specific to one target antigen.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a hybridoma cell?",
+              "options": [
+                "A) A type of cancer cell",
+                "B) A bacterial cell",
+                "C) B lymphocyte fused with tumour cell \u2014 produces monoclonal antibodies",
+                "D) A stem cell"
+              ],
+              "correct_answer": "C",
+              "explanation": "Combining antibody-making ability of B lymphocyte with rapid division of tumour cell.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How are monoclonal antibodies used in cancer treatment?",
+              "options": [
+                "A) Destroy all dividing cells",
+                "B) Linked to drugs \u2014 target cancer cells specifically",
+                "C) Stimulate general immunity",
+                "D) Block all growth factors"
+              ],
+              "correct_answer": "B",
+              "explanation": "Targeted drug delivery: antibodies carry drugs/toxins directly to cancer cells \u2014 sparing healthy cells.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is auxin?",
+              "options": [
+                "A) A plant food",
+                "B) A plant hormone stimulating cell elongation \u2014 controls tropisms",
+                "C) A mineral for growth",
+                "D) A type of enzyme"
+              ],
+              "correct_answer": "B",
+              "explanation": "Auxin is produced at shoot tips \u2014 moves to shaded sides, causing more elongation there \u2192 bending towards light.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is phototropism?",
+              "options": [
+                "A) Plants making food from light",
+                "B) Plant growth towards light \u2014 controlled by uneven auxin distribution",
+                "C) Response to gravity",
+                "D) Root growth in soil"
+              ],
+              "correct_answer": "B",
+              "explanation": "More auxin accumulates on the shaded side of the shoot \u2192 greater cell elongation \u2192 shoot bends towards light.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is ethylene used for commercially?",
+              "options": [
+                "A) Making rooting powder",
+                "B) Stimulating germination",
+                "C) Ripening fruit during transport",
+                "D) Elongating plant stems"
+              ],
+              "correct_answer": "C",
+              "explanation": "Fruit is picked unripe then exposed to ethylene gas to ripen \u2014 allowing distant transport of fruit.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is gibberellin?",
+              "options": [
+                "A) A plant hormone stimulating seed germination and stem elongation",
+                "B) A root-promoting hormone",
+                "C) A ripening hormone",
+                "D) An auxin inhibitor"
+              ],
+              "correct_answer": "A",
+              "explanation": "Gibberellins promote seed germination, stem elongation, and fruit development \u2014 used commercially in brewing (stimulating barley germination) and producing seedless fruit.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is gravitropism?",
+              "options": [
+                "A) Growth towards light",
+                "B) Growth response to gravity \u2014 roots towards gravity, shoots away",
+                "C) Response to water",
+                "D) Growth away from light"
+              ],
+              "correct_answer": "B",
+              "explanation": "Auxin redistributes in response to gravity \u2014 concentrates on lower side. Roots: inhibited (grow away); shoots: stimulated (grow away from gravity... wait, correct: shoots grow away from gravity = negative gravitropism).",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the ELISA test?",
+              "options": [
+                "A) Growing bacteria in culture",
+                "B) Detecting antibiotic resistance",
+                "C) Detecting specific proteins using monoclonal antibodies \u2014 e.g. pregnancy tests",
+                "D) Producing hybridoma cells"
+              ],
+              "correct_answer": "C",
+              "explanation": "ELISA: monoclonal antibodies bind to target antigen \u2192 colour change indicates presence.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How is auxin used commercially?",
+              "options": [
+                "A) Ripening fruit",
+                "B) Stimulating germination",
+                "C) As rooting powder \u2014 promotes root growth in cuttings",
+                "D) Brewing beer"
+              ],
+              "correct_answer": "C",
+              "explanation": "Auxin-based rooting powder promotes adventitious root growth in plant cuttings \u2014 important for horticulture.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Monoclonal antibodies are specific to one antigen.",
+              "correct_answer": "True",
+              "explanation": "Each monoclonal antibody binds only to one particular antigen.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Hybridoma cells are made by fusing two B lymphocytes.",
+              "correct_answer": "False",
+              "explanation": "B lymphocyte + TUMOUR cell \u2014 combining antibody production with rapid division.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Auxin causes cell elongation.",
+              "correct_answer": "True",
+              "explanation": "Auxin stimulates cell elongation \u2014 more elongation where more auxin concentrates.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Phototropism means plants grow away from light.",
+              "correct_answer": "False",
+              "explanation": "Phototropism: shoots grow TOWARDS light \u2014 positive phototropism.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Ethylene inhibits fruit ripening.",
+              "correct_answer": "False",
+              "explanation": "Ethylene STIMULATES fruit ripening \u2014 used commercially to ripen picked fruit.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Gibberellins promote seed germination.",
+              "correct_answer": "True",
+              "explanation": "Used in brewing to promote barley germination (malting).",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Roots show positive gravitropism.",
+              "correct_answer": "True",
+              "explanation": "Roots grow towards gravity \u2014 positive gravitropism.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Targeted drug delivery using monoclonal antibodies reduces side effects.",
+              "correct_answer": "True",
+              "explanation": "Drugs delivered directly to cancer cells \u2014 healthy cells spared.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "ELISA tests detect specific proteins.",
+              "correct_answer": "True",
+              "explanation": "Highly sensitive diagnostic \u2014 pregnancy tests, disease diagnosis.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Auxin is produced at the root tip only.",
+              "correct_answer": "False",
+              "explanation": "Auxin is produced at SHOOT tips (and root tips) \u2014 redistributes to control growth direction.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ antibodies are identical \u2014 specific to one antigen \u2014 from hybridoma cells.",
+              "correct_answer": "Monoclonal",
+              "explanation": "Used in diagnosis, cancer treatment, and research.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a plant hormone stimulating cell elongation \u2014 controls phototropism.",
+              "correct_answer": "Auxin",
+              "explanation": "More auxin on shaded side \u2192 more elongation \u2192 bending towards light.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is plant growth towards light \u2014 uneven auxin distribution.",
+              "correct_answer": "Phototropism",
+              "explanation": "Positive in shoots (towards light).",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is plant growth response to gravity \u2014 roots towards, shoots away.",
+              "correct_answer": "Gravitropism",
+              "explanation": "Auxin redistributes under gravity.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ stimulates fruit ripening \u2014 used commercially to ripen bananas.",
+              "correct_answer": "Ethylene",
+              "explanation": "Fruit picked unripe then ripened with ethylene gas.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ promote seed germination and stem elongation.",
+              "correct_answer": "Gibberellins",
+              "explanation": "Used in brewing and to produce seedless fruit.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ cell is B lymphocyte + tumour cell \u2014 produces monoclonal antibodies.",
+              "correct_answer": "hybridoma",
+              "explanation": "Combines antibody production with immortality.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ test detects specific proteins using monoclonal antibodies.",
+              "correct_answer": "ELISA",
+              "explanation": "E.g. pregnancy tests detect hCG hormone.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ drug delivery uses antibodies to target cancer cells specifically.",
+              "correct_answer": "Targeted",
+              "explanation": "Minimises damage to healthy cells.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Auxin is used as ________ powder to promote root growth in cuttings.",
+              "correct_answer": "rooting",
+              "explanation": "Commercial horticulture application.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "monoclonal antibodies",
+                  "match": "identical \u2014 specific to one antigen"
+                },
+                {
+                  "term": "auxin",
+                  "match": "cell elongation \u2014 controls phototropism and gravitropism"
+                },
+                {
+                  "term": "phototropism",
+                  "match": "growth towards light \u2014 uneven auxin"
+                },
+                {
+                  "term": "ethylene",
+                  "match": "stimulates fruit ripening"
+                },
+                {
+                  "term": "gibberellins",
+                  "match": "seed germination and stem elongation"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

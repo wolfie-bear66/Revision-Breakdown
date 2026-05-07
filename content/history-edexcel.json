@@ -1,0 +1,485 @@
+{
+  "subject": {
+    "name": "History (Edexcel)",
+    "slug": "history-edexcel",
+    "colour": "#92400e"
+  },
+  "topics": [
+    {
+      "name": "Medicine Through Time, c1250–present",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Medieval Medicine c1250–c1500",
+          "cards": [
+            {
+              "keyword": "miasma theory",
+              "definition": "the belief that disease was caused by bad air or smells from rotting matter — the dominant medical theory in medieval times",
+              "display_order": 1
+            },
+            {
+              "keyword": "four humours",
+              "definition": "the ancient Greek theory that the body contained four fluids (blood, phlegm, yellow bile, black bile) — illness occurred when they were unbalanced",
+              "display_order": 2
+            },
+            {
+              "keyword": "Galen",
+              "definition": "a Roman physician whose ideas dominated medicine for over 1000 years — he supported the four humours and made anatomical discoveries",
+              "display_order": 3
+            },
+            {
+              "keyword": "the Church and medicine",
+              "definition": "the Church controlled medical education in the Middle Ages — it supported Galen's ideas and believed illness was God's punishment for sin",
+              "display_order": 4
+            },
+            {
+              "keyword": "bloodletting",
+              "definition": "a common medieval treatment to restore the balance of humours — blood was removed by cutting a vein or applying leeches",
+              "display_order": 5
+            },
+            {
+              "keyword": "the Black Death (1348)",
+              "definition": "a devastating plague that killed about a third of England's population — medieval doctors had no effective treatments",
+              "display_order": 6
+            },
+            {
+              "keyword": "flagellants",
+              "definition": "people who whipped themselves publicly to show repentance to God — a response to the Black Death based on religious belief",
+              "display_order": 7
+            },
+            {
+              "keyword": "apothecary",
+              "definition": "a person who prepared and sold herbal medicines and remedies in medieval times — a precursor to the pharmacist",
+              "display_order": 8
+            },
+            {
+              "keyword": "physician",
+              "definition": "a trained doctor in medieval times — educated at university in the ideas of Galen and Hippocrates",
+              "display_order": 9
+            },
+            {
+              "keyword": "supernatural explanations",
+              "definition": "beliefs that illness was caused by God, evil spirits, or sin — led to treatments such as prayer, pilgrimage, and exorcism",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Renaissance Medicine c1500–c1700",
+          "cards": [
+            {
+              "keyword": "Andreas Vesalius",
+              "definition": "a 16th-century Flemish anatomist who challenged Galen by dissecting human bodies — published 'The Fabric of the Human Body' (1543)",
+              "display_order": 1
+            },
+            {
+              "keyword": "William Harvey",
+              "definition": "an English physician who proved that blood circulates around the body pumped by the heart — published in 1628",
+              "display_order": 2
+            },
+            {
+              "keyword": "the printing press",
+              "definition": "invented c1450 — allowed new medical ideas to spread rapidly across Europe, challenging old ideas like Galen's",
+              "display_order": 3
+            },
+            {
+              "keyword": "dissection",
+              "definition": "cutting open a dead body to study its anatomy — became more accepted during the Renaissance, helping to correct Galen's errors",
+              "display_order": 4
+            },
+            {
+              "keyword": "ambroise Paré",
+              "definition": "a French surgeon who developed new treatments for wounds — replaced boiling oil with a soothing ointment and invented artificial limbs",
+              "display_order": 5
+            },
+            {
+              "keyword": "Thomas Sydenham",
+              "definition": "a 17th-century English physician who emphasised observation and clinical experience over ancient theories",
+              "display_order": 6
+            },
+            {
+              "keyword": "the Great Plague 1665",
+              "definition": "the last major outbreak of bubonic plague in England — responses still relied on old methods as germ theory had not yet been developed",
+              "display_order": 7
+            },
+            {
+              "keyword": "plague doctor",
+              "definition": "a physician hired during plague outbreaks — wore a beak-shaped mask filled with herbs believed to protect against miasma",
+              "display_order": 8
+            },
+            {
+              "keyword": "the Royal Society (1660)",
+              "definition": "a scientific organisation founded in London to promote scientific investigation — encouraged new ideas and challenged old ones",
+              "display_order": 9
+            },
+            {
+              "keyword": "continuity in medicine",
+              "definition": "despite new discoveries, many people still relied on traditional remedies and the Church's influence remained strong into the 17th century",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Industrial & Modern Medicine c1700–present",
+          "cards": [
+            {
+              "keyword": "Edward Jenner",
+              "definition": "an English physician who developed the smallpox vaccination in 1796 — noticed that milkmaids who caught cowpox did not get smallpox",
+              "display_order": 1
+            },
+            {
+              "keyword": "Louis Pasteur",
+              "definition": "a French scientist who developed germ theory in the 1860s — proved that microorganisms cause disease, not miasma",
+              "display_order": 2
+            },
+            {
+              "keyword": "Robert Koch",
+              "definition": "a German scientist who identified specific bacteria that caused diseases — linked specific germs to specific illnesses including tuberculosis (1882)",
+              "display_order": 3
+            },
+            {
+              "keyword": "germ theory",
+              "definition": "the theory that microorganisms (germs) cause disease — developed by Pasteur and proved by Koch, revolutionising medicine",
+              "display_order": 4
+            },
+            {
+              "keyword": "Joseph Lister",
+              "definition": "a British surgeon who introduced antiseptic surgery in 1867 — used carbolic acid spray to kill germs during operations",
+              "display_order": 5
+            },
+            {
+              "keyword": "Florence Nightingale",
+              "definition": "a British nurse who improved hospital conditions during the Crimean War — her reforms dramatically reduced death rates",
+              "display_order": 6
+            },
+            {
+              "keyword": "Alexander Fleming",
+              "definition": "Scottish scientist who discovered penicillin in 1928 — noticed mould killing bacteria on a petri dish",
+              "display_order": 7
+            },
+            {
+              "keyword": "penicillin",
+              "definition": "the first antibiotic, discovered by Fleming — developed into a usable drug by Florey and Chain in the 1940s",
+              "display_order": 8
+            },
+            {
+              "keyword": "the NHS (1948)",
+              "definition": "the National Health Service — established in Britain to provide free healthcare for all at the point of need",
+              "display_order": 9
+            },
+            {
+              "keyword": "genetic medicine",
+              "definition": "modern medicine using knowledge of DNA and genes to understand, diagnose, and treat disease — e.g. gene therapy, personalised medicine",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The American West, c1835–c1895",
+      "paper": "Paper 2",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "The Plains Indians",
+          "cards": [
+            {
+              "keyword": "the Plains Indians",
+              "definition": "Native American peoples who lived on the Great Plains — including the Sioux, Cheyenne, and Comanche",
+              "display_order": 1
+            },
+            {
+              "keyword": "the buffalo",
+              "definition": "central to Plains Indian life — provided food, clothing, shelter, tools, and had spiritual significance",
+              "display_order": 2
+            },
+            {
+              "keyword": "tipi",
+              "definition": "a cone-shaped portable home used by Plains Indians — designed to be quickly assembled and moved as tribes followed the buffalo",
+              "display_order": 3
+            },
+            {
+              "keyword": "nomadic lifestyle",
+              "definition": "moving from place to place following the buffalo herds — central to the Plains Indian way of life",
+              "display_order": 4
+            },
+            {
+              "keyword": "the Great Spirit",
+              "definition": "the supreme spiritual being in many Plains Indian belief systems — the land was seen as sacred and not owned by individuals",
+              "display_order": 5
+            },
+            {
+              "keyword": "the warrior",
+              "definition": "a high-status role in Plains Indian society — warriors gained respect through acts of bravery called 'counting coup'",
+              "display_order": 6
+            },
+            {
+              "keyword": "counting coup",
+              "definition": "touching an enemy in battle rather than killing them — the bravest act a Plains Indian warrior could perform",
+              "display_order": 7
+            },
+            {
+              "keyword": "the Indian Removal Act 1830",
+              "definition": "a US law forcing Native Americans east of the Mississippi to relocate west to 'Indian Territory'",
+              "display_order": 8
+            },
+            {
+              "keyword": "the Fort Laramie Treaty 1851",
+              "definition": "a treaty between the US government and Plains tribes defining tribal territories and promising annuities in exchange for safe passage",
+              "display_order": 9
+            },
+            {
+              "keyword": "reservation",
+              "definition": "land set aside by the US government for Native Americans to live on — conditions were often poor and traditional ways of life were restricted",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Conflict & Settlement of the West",
+          "cards": [
+            {
+              "keyword": "Manifest Destiny",
+              "definition": "the 19th-century American belief that the US was destined to expand westward across the continent",
+              "display_order": 1
+            },
+            {
+              "keyword": "the Homestead Act 1862",
+              "definition": "a US law granting settlers 160 acres of land if they farmed it for five years — encouraged mass migration westward",
+              "display_order": 2
+            },
+            {
+              "keyword": "homesteader",
+              "definition": "a settler who claimed land under the Homestead Act — faced many challenges including drought, isolation, and conflict with cattle ranchers",
+              "display_order": 3
+            },
+            {
+              "keyword": "the transcontinental railroad",
+              "definition": "a railway line connecting the east and west coasts of the USA — completed in 1869, accelerating westward settlement",
+              "display_order": 4
+            },
+            {
+              "keyword": "the cattle industry",
+              "definition": "ranching and cattle drives were central to the economy of the West — cowboys drove herds from Texas to railheads in Kansas",
+              "display_order": 5
+            },
+            {
+              "keyword": "the Long Drive",
+              "definition": "the practice of driving cattle herds hundreds of miles north to railheads — e.g. the Chisholm Trail from Texas to Kansas",
+              "display_order": 6
+            },
+            {
+              "keyword": "the Battle of Little Bighorn 1876",
+              "definition": "a major Native American victory where Sioux and Cheyenne warriors defeated US forces led by General Custer",
+              "display_order": 7
+            },
+            {
+              "keyword": "the Dawes Act 1887",
+              "definition": "a US law that divided reservation land into individual plots for Native Americans — aimed to destroy tribal culture and encourage assimilation",
+              "display_order": 8
+            },
+            {
+              "keyword": "the Wounded Knee Massacre 1890",
+              "definition": "the killing of around 250 Sioux by US troops — effectively the end of Native American resistance on the Plains",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Ghost Dance",
+              "definition": "a spiritual movement among Plains Indians in the late 1880s — US authorities feared it would lead to uprising, contributing to Wounded Knee",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weimar & Nazi Germany, 1918–1939",
+      "paper": "Paper 3",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "The Weimar Republic",
+          "cards": [
+            {
+              "keyword": "the Weimar Republic",
+              "definition": "the democratic government of Germany established in 1919 after World War One — plagued by political and economic instability",
+              "display_order": 1
+            },
+            {
+              "keyword": "the Treaty of Versailles 1919",
+              "definition": "the peace settlement ending WW1 — Germany lost territory, had its military restricted, and had to pay reparations; blamed for Germany's problems",
+              "display_order": 2
+            },
+            {
+              "keyword": "the 'stab in the back' myth",
+              "definition": "the false belief that Germany had not been defeated militarily but betrayed by politicians and Jews — used by the Nazis to gain support",
+              "display_order": 3
+            },
+            {
+              "keyword": "hyperinflation 1923",
+              "definition": "extreme inflation in Germany making money almost worthless — caused by the government printing money to pay reparations and the French occupation of the Ruhr",
+              "display_order": 4
+            },
+            {
+              "keyword": "the Munich Putsch 1923",
+              "definition": "Hitler's failed attempt to seize power in Munich — he was imprisoned but the trial gave him a national platform",
+              "display_order": 5
+            },
+            {
+              "keyword": "the Golden Twenties (1924–29)",
+              "definition": "a period of relative stability and cultural flourishing in Weimar Germany — ended by the Wall Street Crash of 1929",
+              "display_order": 6
+            },
+            {
+              "keyword": "proportional representation",
+              "definition": "the Weimar voting system giving parties seats in proportion to votes — led to many small parties and unstable coalition governments",
+              "display_order": 7
+            },
+            {
+              "keyword": "Article 48",
+              "definition": "a clause in the Weimar constitution allowing the president to rule by emergency decree — used increasingly by Hindenburg from 1930",
+              "display_order": 8
+            },
+            {
+              "keyword": "the Great Depression (1929)",
+              "definition": "a global economic crisis following the Wall Street Crash — led to mass unemployment in Germany and boosted support for extremist parties",
+              "display_order": 9
+            },
+            {
+              "keyword": "coalition government",
+              "definition": "a government formed by two or more parties — the Weimar Republic had many unstable coalitions that collapsed under pressure",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Nazi Germany",
+          "cards": [
+            {
+              "keyword": "the Nazi Party (NSDAP)",
+              "definition": "the National Socialist German Workers' Party — led by Hitler, it came to power in 1933 promising to restore German greatness",
+              "display_order": 1
+            },
+            {
+              "keyword": "propaganda",
+              "definition": "information spread to promote a particular viewpoint — the Nazis used propaganda extensively through Goebbels' Ministry of Propaganda",
+              "display_order": 2
+            },
+            {
+              "keyword": "the Reichstag Fire 1933",
+              "definition": "the burning of the German parliament building — blamed on communists, used by Hitler to pass the Reichstag Fire Decree suspending civil liberties",
+              "display_order": 3
+            },
+            {
+              "keyword": "the Enabling Act 1933",
+              "definition": "a law giving Hitler the power to pass laws without the Reichstag — effectively ended democracy in Germany",
+              "display_order": 4
+            },
+            {
+              "keyword": "totalitarian state",
+              "definition": "a state where the government controls all aspects of public and private life — the Nazi state used terror, propaganda, and censorship",
+              "display_order": 5
+            },
+            {
+              "keyword": "the Gestapo",
+              "definition": "the Nazi secret police — used terror and informants to identify and eliminate political opponents",
+              "display_order": 6
+            },
+            {
+              "keyword": "the SS (Schutzstaffel)",
+              "definition": "the elite Nazi paramilitary organisation — responsible for running concentration camps and enforcing racial policies",
+              "display_order": 7
+            },
+            {
+              "keyword": "the Nuremberg Laws 1935",
+              "definition": "laws that stripped German Jews of citizenship and banned marriage between Jews and non-Jews",
+              "display_order": 8
+            },
+            {
+              "keyword": "Kristallnacht 1938",
+              "definition": "'Night of Broken Glass' — a coordinated nationwide attack on Jewish businesses, synagogues, and homes",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Hitler Youth / League of German Girls",
+              "definition": "Nazi youth organisations designed to indoctrinate young Germans with Nazi ideology, loyalty to Hitler, and prepare boys for military service",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crime & Punishment in Britain, c1000–present",
+      "paper": "Paper 1",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Crime & Punishment Through Time",
+          "cards": [
+            {
+              "keyword": "deterrence",
+              "definition": "the idea that harsh punishments will discourage people from committing crimes",
+              "display_order": 1
+            },
+            {
+              "keyword": "retribution",
+              "definition": "punishment as revenge — making the offender suffer in proportion to the harm they caused",
+              "display_order": 2
+            },
+            {
+              "keyword": "rehabilitation",
+              "definition": "punishment aimed at reforming the offender so they do not reoffend",
+              "display_order": 3
+            },
+            {
+              "keyword": "trial by ordeal",
+              "definition": "a medieval method of establishing guilt — the accused faced a physical test (e.g. holding hot iron) and God's judgement determined innocence",
+              "display_order": 4
+            },
+            {
+              "keyword": "the Bloody Code",
+              "definition": "the system of over 200 capital offences in 18th-century England — hanging was the punishment for crimes including theft",
+              "display_order": 5
+            },
+            {
+              "keyword": "transportation",
+              "definition": "the punishment of sending convicted criminals to British colonies — mainly to Australia from 1788",
+              "display_order": 6
+            },
+            {
+              "keyword": "Robert Peel",
+              "definition": "Home Secretary who established the Metropolitan Police in 1829 — the first professional police force in Britain",
+              "display_order": 7
+            },
+            {
+              "keyword": "Elizabeth Fry",
+              "definition": "a 19th-century prison reformer who campaigned for humane conditions in prisons, especially for women",
+              "display_order": 8
+            },
+            {
+              "keyword": "conscientious objectors",
+              "definition": "people who refused military service in WW1 on moral or religious grounds — treated as criminals by the state",
+              "display_order": 9
+            },
+            {
+              "keyword": "the death penalty (abolition 1969)",
+              "definition": "capital punishment was abolished in Britain for murder in 1969 — reflects changing attitudes towards rehabilitation over retribution",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

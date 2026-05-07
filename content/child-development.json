@@ -1,0 +1,72 @@
+{
+  "subject": {
+    "name": "Child Development",
+    "slug": "child-development",
+    "colour": "#0ea5e9"
+  },
+  "topics": [
+    {
+      "name": "Development & Care of Children",
+      "paper": "Written Exam",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Child Development Birth–5 Years",
+          "cards": [
+            {
+              "keyword": "gross motor skills",
+              "definition": "large body movements using the major muscle groups — e.g. walking, running, jumping, climbing",
+              "display_order": 1
+            },
+            {
+              "keyword": "fine motor skills",
+              "definition": "small, precise movements using the hands and fingers — e.g. holding a pencil, buttoning clothes, using scissors",
+              "display_order": 2
+            },
+            {
+              "keyword": "developmental milestones",
+              "definition": "typical skills or abilities expected at certain ages — used to monitor whether a child is developing normally",
+              "display_order": 3
+            },
+            {
+              "keyword": "language development",
+              "definition": "the development of communication skills — from cooing and babbling in infancy to complex speech and reading",
+              "display_order": 4
+            },
+            {
+              "keyword": "play (types)",
+              "definition": "how children learn and develop — solitary play (alone), parallel play (alongside), cooperative play (together with shared rules)",
+              "display_order": 5
+            },
+            {
+              "keyword": "cognitive development",
+              "definition": "the development of thinking, memory, and problem-solving — Piaget's theory describes stages from birth to adolescence",
+              "display_order": 6
+            },
+            {
+              "keyword": "bonding / attachment",
+              "definition": "the close emotional relationship between a child and carer — essential for emotional security and healthy development",
+              "display_order": 7
+            },
+            {
+              "keyword": "immunisation",
+              "definition": "vaccinating children against infectious diseases — the UK childhood immunisation schedule protects against diseases including MMR",
+              "display_order": 8
+            },
+            {
+              "keyword": "weaning",
+              "definition": "the process of introducing solid foods alongside milk from around 6 months — gradually replacing milk as the main source of nutrition",
+              "display_order": 9
+            },
+            {
+              "keyword": "child poverty",
+              "definition": "growing up in a household with insufficient income — impacts physical health, development, and educational outcomes",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

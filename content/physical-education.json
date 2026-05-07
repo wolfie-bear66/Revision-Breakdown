@@ -1,0 +1,317 @@
+{
+  "subject": {
+    "name": "Physical Education",
+    "slug": "physical-education",
+    "colour": "#16a34a"
+  },
+  "topics": [
+    {
+      "name": "Applied Anatomy & Physiology",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "The Skeletal & Muscular System",
+          "cards": [
+            {
+              "keyword": "skeletal system",
+              "definition": "the framework of bones that supports the body, protects organs, and provides attachment points for muscles",
+              "display_order": 1
+            },
+            {
+              "keyword": "cartilage",
+              "definition": "smooth connective tissue covering the ends of bones at joints — reduces friction and absorbs shock",
+              "display_order": 2
+            },
+            {
+              "keyword": "ligament",
+              "definition": "a tough band of connective tissue that joins bone to bone at a joint, providing stability",
+              "display_order": 3
+            },
+            {
+              "keyword": "tendon",
+              "definition": "a tough band of connective tissue that joins muscle to bone, transmitting the force of muscle contractions",
+              "display_order": 4
+            },
+            {
+              "keyword": "synovial joint",
+              "definition": "a freely movable joint lubricated by synovial fluid — e.g. knee (hinge), shoulder (ball and socket)",
+              "display_order": 5
+            },
+            {
+              "keyword": "hinge joint",
+              "definition": "a synovial joint that allows movement in one plane only — e.g. knee, elbow, ankle",
+              "display_order": 6
+            },
+            {
+              "keyword": "ball and socket joint",
+              "definition": "a synovial joint allowing movement in all directions — e.g. shoulder, hip",
+              "display_order": 7
+            },
+            {
+              "keyword": "flexion",
+              "definition": "a movement that decreases the angle at a joint — e.g. bending the arm at the elbow",
+              "display_order": 8
+            },
+            {
+              "keyword": "extension",
+              "definition": "a movement that increases the angle at a joint — e.g. straightening the arm at the elbow",
+              "display_order": 9
+            },
+            {
+              "keyword": "antagonistic muscle pairs",
+              "definition": "pairs of muscles that work against each other — one contracts (agonist) while the other relaxes (antagonist)",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "The Cardiorespiratory System",
+          "cards": [
+            {
+              "keyword": "heart rate",
+              "definition": "the number of times the heart beats per minute (bpm) — resting heart rate is typically 60–80 bpm",
+              "display_order": 1
+            },
+            {
+              "keyword": "stroke volume",
+              "definition": "the volume of blood pumped out of the heart with each beat",
+              "display_order": 2
+            },
+            {
+              "keyword": "cardiac output",
+              "definition": "the total volume of blood pumped by the heart per minute (Cardiac Output = Heart Rate × Stroke Volume)",
+              "display_order": 3
+            },
+            {
+              "keyword": "aerobic respiration",
+              "definition": "energy production using oxygen — produces more ATP than anaerobic, used in sustained exercise",
+              "display_order": 4
+            },
+            {
+              "keyword": "anaerobic respiration",
+              "definition": "energy production without oxygen — produces lactic acid, used in short bursts of intense exercise",
+              "display_order": 5
+            },
+            {
+              "keyword": "lactic acid",
+              "definition": "a waste product of anaerobic respiration that causes muscle fatigue and the burning sensation during intense exercise",
+              "display_order": 6
+            },
+            {
+              "keyword": "tidal volume",
+              "definition": "the volume of air breathed in or out in a single breath",
+              "display_order": 7
+            },
+            {
+              "keyword": "breathing rate",
+              "definition": "the number of breaths taken per minute — increases during exercise to supply more oxygen",
+              "display_order": 8
+            },
+            {
+              "keyword": "gaseous exchange",
+              "definition": "the process of oxygen moving from the lungs into the blood, and carbon dioxide moving from the blood into the lungs",
+              "display_order": 9
+            },
+            {
+              "keyword": "VO2 max",
+              "definition": "the maximum amount of oxygen a person can use during intense exercise — a key measure of aerobic fitness",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Physical Training & Fitness",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Principles of Training",
+          "cards": [
+            {
+              "keyword": "FITT principles",
+              "definition": "Frequency, Intensity, Time, Type — the four variables that can be adjusted in a training programme",
+              "display_order": 1
+            },
+            {
+              "keyword": "progressive overload",
+              "definition": "gradually increasing the demands of training so the body continues to adapt and improve",
+              "display_order": 2
+            },
+            {
+              "keyword": "specificity",
+              "definition": "training should be relevant to the sport or skill being developed",
+              "display_order": 3
+            },
+            {
+              "keyword": "reversibility",
+              "definition": "fitness gains are lost if training stops — 'use it or lose it'",
+              "display_order": 4
+            },
+            {
+              "keyword": "rest and recovery",
+              "definition": "time for the body to repair and adapt after training — essential to prevent injury and overtraining",
+              "display_order": 5
+            },
+            {
+              "keyword": "aerobic training",
+              "definition": "continuous, moderate-intensity exercise that improves cardiovascular endurance — e.g. long-distance running",
+              "display_order": 6
+            },
+            {
+              "keyword": "interval training",
+              "definition": "alternating periods of high-intensity exercise with rest or low-intensity activity",
+              "display_order": 7
+            },
+            {
+              "keyword": "circuit training",
+              "definition": "a series of exercises performed at different stations, targeting different muscle groups",
+              "display_order": 8
+            },
+            {
+              "keyword": "strength training",
+              "definition": "resistance exercises designed to increase muscle strength and size — e.g. weight training",
+              "display_order": 9
+            },
+            {
+              "keyword": "flexibility training",
+              "definition": "stretching exercises designed to increase the range of movement at joints — e.g. yoga, static stretching",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sports Psychology",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Mental Aspects of Sport",
+          "cards": [
+            {
+              "keyword": "motivation",
+              "definition": "the drive to achieve a goal — intrinsic motivation comes from within; extrinsic motivation comes from external rewards",
+              "display_order": 1
+            },
+            {
+              "keyword": "arousal",
+              "definition": "a state of mental and physical alertness — optimal arousal improves performance; too much or too little hinders it",
+              "display_order": 2
+            },
+            {
+              "keyword": "anxiety",
+              "definition": "feelings of worry and nervousness that can negatively affect performance — cognitive (mental) or somatic (physical)",
+              "display_order": 3
+            },
+            {
+              "keyword": "inverted U theory",
+              "definition": "the theory that performance improves as arousal increases up to an optimal point, then declines if arousal becomes too high",
+              "display_order": 4
+            },
+            {
+              "keyword": "goal setting",
+              "definition": "setting targets to focus effort and improve performance — SMART goals are Specific, Measurable, Achievable, Realistic, Time-bound",
+              "display_order": 5
+            },
+            {
+              "keyword": "mental rehearsal / visualisation",
+              "definition": "mentally practising a skill or performance before doing it — helps build confidence and improve technique",
+              "display_order": 6
+            },
+            {
+              "keyword": "self-confidence",
+              "definition": "belief in one's ability to perform well — linked to better performance outcomes",
+              "display_order": 7
+            },
+            {
+              "keyword": "aggression in sport",
+              "definition": "hostile behaviour intended to harm — channelled aggression can aid performance but direct aggression is unacceptable",
+              "display_order": 8
+            },
+            {
+              "keyword": "team cohesion",
+              "definition": "the degree to which team members work together effectively — social and task cohesion",
+              "display_order": 9
+            },
+            {
+              "keyword": "leadership in sport",
+              "definition": "guiding and influencing team members — autocratic (directive) vs democratic (collaborative) leadership styles",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Socio-cultural Influences & Health",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Sport, Society & Health",
+          "cards": [
+            {
+              "keyword": "participation in sport",
+              "definition": "taking part in physical activity — barriers include cost, access, time, discrimination, and lack of role models",
+              "display_order": 1
+            },
+            {
+              "keyword": "social influences on participation",
+              "definition": "factors such as family, peers, culture, media, and role models that affect whether people take part in sport",
+              "display_order": 2
+            },
+            {
+              "keyword": "discrimination in sport",
+              "definition": "unfair treatment based on characteristics such as gender, race, disability, or age — remains a significant issue in sport",
+              "display_order": 3
+            },
+            {
+              "keyword": "media and sport",
+              "definition": "the relationship between sport and television, social media, sponsorship — media increases participation and funding but can create negative pressures",
+              "display_order": 4
+            },
+            {
+              "keyword": "commercialisation",
+              "definition": "the influence of money and business on sport — through sponsorship, TV rights, and merchandise",
+              "display_order": 5
+            },
+            {
+              "keyword": "performance-enhancing drugs (PEDs)",
+              "definition": "substances taken to improve sports performance — banned by sporting bodies for health and fairness reasons",
+              "display_order": 6
+            },
+            {
+              "keyword": "sportsmanship",
+              "definition": "fair, respectful, and ethical behaviour in sport — playing by the rules and respecting opponents",
+              "display_order": 7
+            },
+            {
+              "keyword": "gamesmanship",
+              "definition": "bending the rules or using psychological tactics to gain an advantage — legal but often seen as unsporting",
+              "display_order": 8
+            },
+            {
+              "keyword": "health",
+              "definition": "a state of complete physical, mental, and social wellbeing — not just the absence of illness (WHO definition)",
+              "display_order": 9
+            },
+            {
+              "keyword": "fitness",
+              "definition": "the ability to meet the demands of the environment — being fit enough to perform daily tasks and sport",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

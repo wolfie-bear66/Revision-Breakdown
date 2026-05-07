@@ -1,0 +1,735 @@
+{
+  "subject": {
+    "name": "Drama",
+    "slug": "drama",
+    "colour": "#92400e",
+    "exam_board": "AQA",
+    "emoji": "🎭"
+  },
+  "topics": [
+    {
+      "name": "Drama Terminology & Practitioners",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Drama Techniques & Practitioners",
+          "cards": [
+            {
+              "keyword": "Stanislavski",
+              "definition": "a practitioner who developed naturalistic acting — techniques include emotion memory, given circumstances, and the magic if",
+              "display_order": 1
+            },
+            {
+              "keyword": "Brecht",
+              "definition": "developed epic theatre — used alienation effect (Verfremdungseffekt) to make audiences think critically, not feel emotionally",
+              "display_order": 2
+            },
+            {
+              "keyword": "Artaud",
+              "definition": "Theatre of Cruelty — aimed to shock and overwhelm audiences through sensory experience to create a visceral response",
+              "display_order": 3
+            },
+            {
+              "keyword": "emotion memory",
+              "definition": "Stanislavski — recalling personal emotional experiences to create genuine emotion on stage",
+              "display_order": 4
+            },
+            {
+              "keyword": "alienation effect (V-Effekt)",
+              "definition": "Brecht — breaking the fourth wall, direct address, placards — stopping audiences from identifying emotionally with characters",
+              "display_order": 5
+            },
+            {
+              "keyword": "physical theatre",
+              "definition": "a style of performance using the body expressively — e.g. mime, movement, gesture",
+              "display_order": 6
+            },
+            {
+              "keyword": "devised theatre",
+              "definition": "creating original performance material through collaborative exploration — not from an existing script",
+              "display_order": 7
+            },
+            {
+              "keyword": "proxemics",
+              "definition": "the use of space and distance between performers to communicate relationships and power",
+              "display_order": 8
+            },
+            {
+              "keyword": "semiotics",
+              "definition": "the study of signs and symbols in performance — everything on stage communicates meaning",
+              "display_order": 9
+            },
+            {
+              "keyword": "fourth wall",
+              "definition": "the imaginary barrier between performers and audience — Brecht broke it; naturalism maintains it",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What did Stanislavski develop?",
+              "options": [
+                "A) Epic theatre and alienation",
+                "B) Naturalistic acting techniques — emotion memory, given circumstances",
+                "C) Theatre of Cruelty",
+                "D) Physical theatre and devised performance"
+              ],
+              "correct_answer": "B",
+              "explanation": "Stanislavski developed naturalistic performance methods — actors should believe in their role and use real emotion (emotion memory) to create authentic characters.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Brecht's alienation effect?",
+              "options": [
+                "A) Making actors feel emotionally connected to their roles",
+                "B) Breaking the emotional connection to make audiences think critically",
+                "C) Creating an overwhelming sensory experience",
+                "D) Using improvisation to develop characters"
+              ],
+              "correct_answer": "B",
+              "explanation": "Verfremdungseffekt: Brecht deliberately broke audience immersion — direct address, placards, songs — so they would think critically about social issues rather than empathise.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Artaud's Theatre of Cruelty?",
+              "options": [
+                "A) Realistic performance of classical plays",
+                "B) Political theatre with alienation techniques",
+                "C) Sensory-overwhelming performance to create a visceral, non-rational response",
+                "D) Improvised naturalistic theatre"
+              ],
+              "correct_answer": "C",
+              "explanation": "Artaud wanted to assault the senses — using light, sound, and space unconventionally to bypass rational thought and create raw emotional impact.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is emotion memory?",
+              "options": [
+                "A) Memorising lines through repetition",
+                "B) Recalling personal emotional experiences to generate genuine emotion on stage",
+                "C) A technique for breaking the fourth wall",
+                "D) A method for physical characterisation"
+              ],
+              "correct_answer": "B",
+              "explanation": "Stanislavski's emotion memory (affective memory) asks actors to recall real emotional experiences to produce authentic feelings for their characters.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is proxemics?",
+              "options": [
+                "A) The use of lighting to create mood",
+                "B) The use of space and distance between performers to communicate relationships",
+                "C) The study of signs in theatre",
+                "D) A method of voice projection"
+              ],
+              "correct_answer": "B",
+              "explanation": "Proxemics: how far apart characters stand communicates intimacy, power, or conflict — a key tool in performance analysis and design.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is devised theatre?",
+              "options": [
+                "A) Performing from a written script",
+                "B) A naturalistic performance style",
+                "C) Collaborative creation of original performance material without an existing script",
+                "D) A Greek theatrical tradition"
+              ],
+              "correct_answer": "C",
+              "explanation": "Devised theatre: performers create original work through improvisation, research, and collaboration — developing their own script or performance text.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is semiotics in theatre?",
+              "options": [
+                "A) The study of lighting design",
+                "B) The study of signs and symbols — everything on stage communicates meaning",
+                "C) The analysis of stage geography",
+                "D) A form of physical theatre"
+              ],
+              "correct_answer": "B",
+              "explanation": "Semiotics: in performance, every element (costume, gesture, set, lighting) functions as a sign communicating meaning to the audience.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is physical theatre?",
+              "options": [
+                "A) Outdoor performance",
+                "B) A performance style using the body expressively — movement, gesture, mime",
+                "C) Theatre requiring physical effort from the audience",
+                "D) Theatre using large-scale physical sets"
+              ],
+              "correct_answer": "B",
+              "explanation": "Physical theatre foregrounds the body — companies like Frantic Assembly use movement, contact work, and physicality as primary storytelling tools.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the fourth wall?",
+              "options": [
+                "A) The back wall of a theatre",
+                "B) The imaginary barrier between performers and audience",
+                "C) A physical separation between stage and audience",
+                "D) A type of stage configuration"
+              ],
+              "correct_answer": "B",
+              "explanation": "The fourth wall is the imaginary barrier that makes audiences feel they are watching events through a missing wall. Naturalism preserves it; Brecht breaks it.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What given circumstances must actors consider (Stanislavski)?",
+              "options": [
+                "A) Only the physical location of the scene",
+                "B) The facts of the play — time, place, social context — that define the character's world",
+                "C) The director's instructions only",
+                "D) The audience's expectations"
+              ],
+              "correct_answer": "B",
+              "explanation": "Given circumstances: everything the text tells us about the world of the play — facts an actor uses to justify their character's behaviour and choices.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Stanislavski developed naturalistic acting techniques.",
+              "correct_answer": "True",
+              "explanation": "Stanislavski's system (emotion memory, given circumstances, the magic if) aims to produce genuine, believable performance.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Brecht wanted audiences to feel emotionally connected to characters.",
+              "correct_answer": "False",
+              "explanation": "Brecht wanted the OPPOSITE — his alienation effect deliberately broke emotional connection so audiences would think critically.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Artaud's Theatre of Cruelty aimed to overwhelm the senses.",
+              "correct_answer": "True",
+              "explanation": "Artaud used non-traditional staging, light, sound, and space to create a visceral, overwhelming experience bypassing rational thought.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Emotion memory involves inventing fictional emotions for a character.",
+              "correct_answer": "False",
+              "explanation": "Emotion memory involves recalling REAL personal emotional experiences — not invention.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Proxemics refers to the use of sound in performance.",
+              "correct_answer": "False",
+              "explanation": "Proxemics refers to the use of SPACE and DISTANCE between performers — how proximity communicates relationships.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Devised theatre is performed from an existing script.",
+              "correct_answer": "False",
+              "explanation": "Devised theatre involves CREATING original material — it does not start from an existing script.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "In semiotics, everything on stage communicates meaning.",
+              "correct_answer": "True",
+              "explanation": "Every sign on stage — costume, lighting, gesture, set — communicates meaning to the audience.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The fourth wall is maintained in naturalistic theatre.",
+              "correct_answer": "True",
+              "explanation": "Naturalistic theatre preserves the fourth wall — the illusion that the audience is watching real events.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Physical theatre uses the body as a primary storytelling tool.",
+              "correct_answer": "True",
+              "explanation": "Physical theatre foregrounds movement, gesture, and physicality — the body IS the primary medium.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Brecht's V-Effekt (alienation effect) encourages emotional identification.",
+              "correct_answer": "False",
+              "explanation": "The V-Effekt PREVENTS emotional identification — it reminds audiences they are watching a performance.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ developed naturalistic acting — using emotion memory and given circumstances.",
+              "correct_answer": "Stanislavski",
+              "explanation": "His system forms the basis of much contemporary actor training.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ developed epic theatre — using alienation to make audiences think critically.",
+              "correct_answer": "Brecht",
+              "explanation": "Brechtian techniques include placards, direct address, and breaking the fourth wall.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ 's Theatre of Cruelty aimed to overwhelm the senses and bypass rational thought.",
+              "correct_answer": "Artaud",
+              "explanation": "Artaud used unconventional staging and sensory bombardment to create visceral impact.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ memory: recalling real personal emotions to generate authentic feeling on stage.",
+              "correct_answer": "Emotion",
+              "explanation": "Stanislavski's technique — actors draw on genuine emotional experience.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ effect (V-Effekt) breaks audience immersion to encourage critical thinking.",
+              "correct_answer": "alienation",
+              "explanation": "Brecht's tools include direct address, songs, and placards.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ uses the body expressively as the primary storytelling medium.",
+              "correct_answer": "Physical theatre",
+              "explanation": "Companies like Frantic Assembly and DV8 are known for physical theatre.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ theatre creates original material through collaborative exploration.",
+              "correct_answer": "Devised",
+              "explanation": "Devising involves improvisation, research, and collaboration to generate performance.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the use of space and distance to communicate relationships and power.",
+              "correct_answer": "Proxemics",
+              "explanation": "Characters standing close suggests intimacy; standing far apart suggests distance or conflict.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the study of signs — everything on stage communicates meaning.",
+              "correct_answer": "Semiotics",
+              "explanation": "Costume, lighting, gesture, and set design all function as signs in performance.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ wall is the imaginary barrier between performers and audience.",
+              "correct_answer": "fourth",
+              "explanation": "Naturalism maintains the fourth wall; Brecht deliberately breaks it.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Stanislavski",
+                  "match": "naturalistic acting — emotion memory, given circumstances"
+                },
+                {
+                  "term": "Brecht",
+                  "match": "epic theatre — alienation effect to make audiences think"
+                },
+                {
+                  "term": "Artaud",
+                  "match": "Theatre of Cruelty — overwhelm senses, visceral impact"
+                },
+                {
+                  "term": "proxemics",
+                  "match": "space and distance communicate relationships and power"
+                },
+                {
+                  "term": "devised theatre",
+                  "match": "original performance created through collaboration"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Performance & Design",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Stage Configurations & Design Elements",
+          "cards": [
+            {
+              "keyword": "proscenium arch",
+              "definition": "a traditional stage with a frame (arch) separating stage from audience — audience sits in front",
+              "display_order": 1
+            },
+            {
+              "keyword": "thrust stage",
+              "definition": "a stage that extends into the audience on three sides — more immersive than proscenium",
+              "display_order": 2
+            },
+            {
+              "keyword": "in the round",
+              "definition": "a stage configuration where the audience surrounds the performance area — maximum immersion",
+              "display_order": 3
+            },
+            {
+              "keyword": "traverse",
+              "definition": "a long, narrow stage with audience on both sides — like a catwalk",
+              "display_order": 4
+            },
+            {
+              "keyword": "set design",
+              "definition": "the creation of the physical environment for performance — communicates location, time period, and atmosphere",
+              "display_order": 5
+            },
+            {
+              "keyword": "costume design",
+              "definition": "clothing worn by performers — communicates character, status, period, and themes",
+              "display_order": 6
+            },
+            {
+              "keyword": "lighting design",
+              "definition": "use of light in performance — controls focus, atmosphere, and time of day",
+              "display_order": 7
+            },
+            {
+              "keyword": "sound design",
+              "definition": "use of sound effects and music — creates atmosphere, indicates location, and supports narrative",
+              "display_order": 8
+            },
+            {
+              "keyword": "props",
+              "definition": "portable objects used on stage — enhance realism or carry symbolic meaning",
+              "display_order": 9
+            },
+            {
+              "keyword": "levels",
+              "definition": "the use of height on stage — elevated performers may suggest power or importance",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a proscenium arch stage?",
+              "options": [
+                "A) Audience surrounds the stage",
+                "B) Stage extends into the audience on three sides",
+                "C) Traditional framed stage with audience in front",
+                "D) A long narrow stage with audience on both sides"
+              ],
+              "correct_answer": "C",
+              "explanation": "The proscenium arch creates a 'picture frame' effect — the arch frames the action. Most traditional theatres use this configuration.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an in-the-round configuration?",
+              "options": [
+                "A) A circular set design",
+                "B) The audience surrounds the performance area on all sides",
+                "C) A thrust stage extending into the audience",
+                "D) A stage with audience on two sides"
+              ],
+              "correct_answer": "B",
+              "explanation": "Theatre in the round surrounds the acting area with audience — creating maximum intimacy and immersion but making set design challenging.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does costume communicate?",
+              "options": [
+                "A) Stage geography only",
+                "B) Character, status, period, and themes",
+                "C) Lighting direction",
+                "D) Sound levels"
+              ],
+              "correct_answer": "B",
+              "explanation": "Costume is a powerful semiotic tool — colour, style, condition, and period all communicate character information immediately to an audience.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of lighting design?",
+              "options": [
+                "A) To make performers visible only",
+                "B) To control focus, create atmosphere, and indicate time of day",
+                "C) To replace set design",
+                "D) To guide the audience's exit"
+              ],
+              "correct_answer": "B",
+              "explanation": "Lighting can focus attention (spotlight), create mood (colour), establish time (golden = day, blue = night), and transform space.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a thrust stage?",
+              "options": [
+                "A) Audience on all sides",
+                "B) A stage extending into the audience on three sides",
+                "C) A proscenium arch with a smaller stage",
+                "D) A stage behind the audience"
+              ],
+              "correct_answer": "B",
+              "explanation": "A thrust stage extends into the auditorium — three sides of the performance area are surrounded by audience, creating greater intimacy than a proscenium arch.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do props contribute to performance?",
+              "options": [
+                "A) Only realism",
+                "B) They enhance realism or carry symbolic meaning",
+                "C) Only symbolic meaning",
+                "D) They replace costume"
+              ],
+              "correct_answer": "B",
+              "explanation": "Props can establish setting (a telephone dates a scene), reveal character (a worn wallet suggests poverty), or carry symbolic meaning (a red rose = love/danger).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is sound design's role?",
+              "options": [
+                "A) To replace lighting",
+                "B) To create atmosphere, indicate location, and support narrative",
+                "C) To fill pauses in dialogue",
+                "D) Only to provide music"
+              ],
+              "correct_answer": "B",
+              "explanation": "Sound design includes both recorded effects (wind, rain, traffic) and live sound — creating atmosphere, indicating setting, and supporting emotional moments.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does set design communicate?",
+              "options": [
+                "A) Only the location of the scene",
+                "B) Location, time period, social context, and atmosphere",
+                "C) Only the historical period",
+                "D) Character only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Set design establishes the world of the play — minimalist sets suggest universality; detailed realistic sets ground the action in a specific time and place.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the effect of using levels on stage?",
+              "options": [
+                "A) Levels have no symbolic significance",
+                "B) They can suggest power, importance, or vulnerability — elevated = power",
+                "C) Levels only affect audience sightlines",
+                "D) Levels are only used in physical theatre"
+              ],
+              "correct_answer": "B",
+              "explanation": "Levels (elevation, platforms, stairs) communicate meaning — a character standing above another may suggest dominance; kneeling suggests vulnerability.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is traverse staging?",
+              "options": [
+                "A) Moving the stage between scenes",
+                "B) A long narrow stage with audience on both sides",
+                "C) Audience surrounding the stage",
+                "D) A portable stage configuration"
+              ],
+              "correct_answer": "B",
+              "explanation": "Traverse staging: a long, narrow performance space with audience on both sides — creates an intimate 'catwalk' effect.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "A proscenium arch has audience surrounding the stage on all sides.",
+              "correct_answer": "False",
+              "explanation": "Proscenium arch: audience sits in front, facing a framed stage. Theatre IN THE ROUND has audience on all sides.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Costume communicates character, status, and period to the audience.",
+              "correct_answer": "True",
+              "explanation": "Costume is an immediate communicator — colour, style, condition, and period all tell the audience about a character.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Lighting can only make performers visible — it has no expressive function.",
+              "correct_answer": "False",
+              "explanation": "Lighting is a major expressive tool — controlling focus, atmosphere, time of day, and emotional tone.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "In thrust staging, the audience surrounds three sides of the performance area.",
+              "correct_answer": "True",
+              "explanation": "A thrust stage extends into the auditorium — three sides are flanked by audience.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Props can carry symbolic as well as functional meaning.",
+              "correct_answer": "True",
+              "explanation": "A prop can establish realism (a kettle for a domestic scene) or carry symbolic weight (a sword, a letter, a photograph).",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Sound design includes both recorded effects and live sound.",
+              "correct_answer": "True",
+              "explanation": "Sound design encompasses music, sound effects, ambience, and live sound — all contributing to atmosphere.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Theatre in the round is the least immersive configuration for the audience.",
+              "correct_answer": "False",
+              "explanation": "Theatre in the round is one of the MOST immersive — the audience surrounds the performance area.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Set design communicates only the physical location of a scene.",
+              "correct_answer": "False",
+              "explanation": "Set design communicates location, time period, social context, atmosphere, and thematic concerns.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Elevated levels on stage typically suggest power or importance.",
+              "correct_answer": "True",
+              "explanation": "A character standing above others visually suggests dominance — a key tool of spatial communication.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Traverse staging has audience on three sides.",
+              "correct_answer": "False",
+              "explanation": "Traverse staging has audience on TWO sides (like a catwalk). Thrust staging has audience on THREE sides.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ arch stage frames the action — audience sits in front.",
+              "correct_answer": "proscenium",
+              "explanation": "The proscenium arch creates a 'picture frame' effect — the most common traditional stage configuration.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ staging extends into the audience on three sides.",
+              "correct_answer": "Thrust",
+              "explanation": "A thrust stage offers greater intimacy than proscenium — three sides of the playing area are visible.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Theatre ________ the round places audience on all sides of the performance area.",
+              "correct_answer": "in",
+              "explanation": "Maximum immersion — but set design must work from all angles.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ staging has a long narrow performance area with audience on both sides.",
+              "correct_answer": "Traverse",
+              "explanation": "Also called 'end-on' when audience is at one end only.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ design communicates character, status, period, and themes through clothing.",
+              "correct_answer": "Costume",
+              "explanation": "Costume is an immediate semiotic communicator.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ design controls focus, creates atmosphere, and indicates time of day.",
+              "correct_answer": "Lighting",
+              "explanation": "Spotlights, coloured gels, and gobos are all lighting tools.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ design creates atmosphere and supports narrative through effects and music.",
+              "correct_answer": "Sound",
+              "explanation": "Sound establishes setting and emotional tone without dialogue.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ design creates the physical environment — communicating location and period.",
+              "correct_answer": "Set",
+              "explanation": "Minimalist or realistic sets make very different statements about the world of the play.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Using ________ on stage can suggest power — elevated characters appear dominant.",
+              "correct_answer": "levels",
+              "explanation": "Steps, platforms, and rostra are used to create levels and vary spatial relationships.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are portable objects on stage that enhance realism or carry symbolic meaning.",
+              "correct_answer": "Props",
+              "explanation": "Props ground scenes in reality and can carry important thematic weight.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "proscenium arch",
+                  "match": "framed stage — audience in front"
+                },
+                {
+                  "term": "in the round",
+                  "match": "audience surrounds performance area"
+                },
+                {
+                  "term": "thrust stage",
+                  "match": "extends into audience on three sides"
+                },
+                {
+                  "term": "lighting design",
+                  "match": "controls focus, atmosphere, and time of day"
+                },
+                {
+                  "term": "costume design",
+                  "match": "communicates character, status, and period"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

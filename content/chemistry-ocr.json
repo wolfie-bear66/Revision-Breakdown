@@ -1,0 +1,135 @@
+{
+  "subject": {
+    "name": "Chemistry (OCR A)",
+    "slug": "chemistry-ocr",
+    "colour": "#0c4a6e"
+  },
+  "topics": [
+    {
+      "name": "C1 — Particles",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Atomic Structure & Bonding (OCR)",
+          "cards": [
+            {
+              "keyword": "relative atomic mass (Ar)",
+              "definition": "the weighted average mass of an atom of an element compared to 1/12th the mass of a carbon-12 atom",
+              "display_order": 1
+            },
+            {
+              "keyword": "relative formula mass (Mr)",
+              "definition": "the sum of the relative atomic masses of all atoms in a formula — used in mole calculations",
+              "display_order": 2
+            },
+            {
+              "keyword": "the mole",
+              "definition": "a unit measuring amount of substance — one mole contains 6.02 × 10²³ particles (Avogadro's number)",
+              "display_order": 3
+            },
+            {
+              "keyword": "concentration",
+              "definition": "the amount of solute dissolved in a given volume of solution — measured in mol/dm³ or g/dm³",
+              "display_order": 4
+            },
+            {
+              "keyword": "electron shell / energy level",
+              "definition": "the region around the nucleus where electrons are found — electrons fill shells from the innermost outward",
+              "display_order": 5
+            },
+            {
+              "keyword": "ionic equation",
+              "definition": "an equation showing only the ions that change during a reaction — spectator ions are omitted",
+              "display_order": 6
+            },
+            {
+              "keyword": "precipitation",
+              "definition": "the formation of an insoluble solid when two solutions are mixed — used to identify ions in solution",
+              "display_order": 7
+            },
+            {
+              "keyword": "chromatography",
+              "definition": "a separation technique used to identify substances in a mixture — components travel different distances based on their properties",
+              "display_order": 8
+            },
+            {
+              "keyword": "titration",
+              "definition": "a technique to find the concentration of an acid or alkali by carefully adding a known solution until neutralisation occurs",
+              "display_order": 9
+            },
+            {
+              "keyword": "yield",
+              "definition": "the amount of product obtained in a reaction — percentage yield = (actual yield ÷ theoretical yield) × 100",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C3 — Chemical Reactions",
+      "paper": "Paper 2",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Rates, Equilibrium & Organic Chemistry",
+          "cards": [
+            {
+              "keyword": "rate of reaction",
+              "definition": "how quickly a reaction occurs — measured by the change in amount of reactant or product per unit time",
+              "display_order": 1
+            },
+            {
+              "keyword": "collision theory",
+              "definition": "reactions occur when particles collide with sufficient energy — increasing temperature, concentration, or surface area increases the rate",
+              "display_order": 2
+            },
+            {
+              "keyword": "dynamic equilibrium",
+              "definition": "in a closed system, the forward and reverse reactions occur at equal rates — concentrations remain constant",
+              "display_order": 3
+            },
+            {
+              "keyword": "Le Chatelier's principle",
+              "definition": "if conditions change in a system at equilibrium, the system shifts to oppose the change",
+              "display_order": 4
+            },
+            {
+              "keyword": "alkane",
+              "definition": "a saturated hydrocarbon with only single C-C bonds — general formula CₙH₂ₙ₊₂. E.g. methane (CH₄), ethane (C₂H₆)",
+              "display_order": 5
+            },
+            {
+              "keyword": "alkene",
+              "definition": "an unsaturated hydrocarbon containing a C=C double bond — general formula CₙH₂ₙ. More reactive than alkanes",
+              "display_order": 6
+            },
+            {
+              "keyword": "addition reaction",
+              "definition": "a reaction where atoms add across a double bond — e.g. ethene + bromine → dibromoethane",
+              "display_order": 7
+            },
+            {
+              "keyword": "polymerisation",
+              "definition": "joining many small monomer molecules together to form a long polymer chain — e.g. ethene → polyethene",
+              "display_order": 8
+            },
+            {
+              "keyword": "life cycle assessment (LCA)",
+              "definition": "an analysis of the environmental impact of a product throughout its entire life — from raw material extraction to disposal",
+              "display_order": 9
+            },
+            {
+              "keyword": "atom economy",
+              "definition": "a measure of how efficiently atoms in reactants are converted into useful products — higher is more sustainable",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2538 @@
+{
+  "subject": {
+    "name": "Chemistry",
+    "slug": "chemistry",
+    "colour": "#0e7490",
+    "exam_board": "AQA",
+    "emoji": "\u2697\ufe0f"
+  },
+  "topics": [
+    {
+      "name": "Atomic Structure & the Periodic Table",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Atomic Structure",
+          "cards": [
+            {
+              "keyword": "atom",
+              "definition": "the smallest particle of an element that can take part in a chemical reaction \u2014 made of protons, neutrons, and electrons",
+              "display_order": 1
+            },
+            {
+              "keyword": "proton",
+              "definition": "a positively charged particle found in the nucleus \u2014 its number defines the element (atomic number)",
+              "display_order": 2
+            },
+            {
+              "keyword": "neutron",
+              "definition": "a particle with no charge found in the nucleus \u2014 its number can vary in isotopes",
+              "display_order": 3
+            },
+            {
+              "keyword": "electron",
+              "definition": "a negatively charged particle that orbits the nucleus in shells \u2014 involved in chemical bonding",
+              "display_order": 4
+            },
+            {
+              "keyword": "atomic number",
+              "definition": "the number of protons in an atom's nucleus \u2014 unique to each element",
+              "display_order": 5
+            },
+            {
+              "keyword": "mass number",
+              "definition": "the total number of protons and neutrons in the nucleus of an atom",
+              "display_order": 6
+            },
+            {
+              "keyword": "isotope",
+              "definition": "atoms of the same element with the same number of protons but different numbers of neutrons",
+              "display_order": 7
+            },
+            {
+              "keyword": "relative atomic mass",
+              "definition": "the weighted average mass of an atom compared to 1/12th the mass of carbon-12",
+              "display_order": 8
+            },
+            {
+              "keyword": "electron shell",
+              "definition": "the region around the nucleus where electrons are found \u2014 fills from innermost outward (2, 8, 8...)",
+              "display_order": 9
+            },
+            {
+              "keyword": "ion",
+              "definition": "an atom or group of atoms that has gained or lost electrons, giving it an overall charge",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the charge of a proton?",
+              "options": [
+                "A) Negative",
+                "B) Neutral",
+                "C) Positive",
+                "D) Variable"
+              ],
+              "correct_answer": "C",
+              "explanation": "Protons are positively charged particles found in the nucleus. The number of protons defines the element.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Where are electrons found in an atom?",
+              "options": [
+                "A) In the nucleus",
+                "B) In shells around the nucleus",
+                "C) Between protons and neutrons",
+                "D) Randomly throughout the atom"
+              ],
+              "correct_answer": "B",
+              "explanation": "Electrons occupy shells (energy levels) around the nucleus. They fill from the innermost shell outward.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an isotope?",
+              "options": [
+                "A) An atom with a different number of protons",
+                "B) An atom with the same protons but different neutrons",
+                "C) A charged atom",
+                "D) An atom from a different element"
+              ],
+              "correct_answer": "B",
+              "explanation": "Isotopes are atoms of the same element with the same atomic number but different mass numbers due to different neutron counts.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the atomic number tell you?",
+              "options": [
+                "A) The number of neutrons",
+                "B) The total number of particles",
+                "C) The number of protons",
+                "D) The number of electron shells"
+              ],
+              "correct_answer": "C",
+              "explanation": "The atomic number is the number of protons in the nucleus. It identifies the element and equals the number of electrons in a neutral atom.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How is mass number calculated?",
+              "options": [
+                "A) Protons only",
+                "B) Neutrons only",
+                "C) Protons + neutrons",
+                "D) Protons + electrons"
+              ],
+              "correct_answer": "C",
+              "explanation": "Mass number = number of protons + number of neutrons in the nucleus.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an ion?",
+              "options": [
+                "A) An atom with extra neutrons",
+                "B) An atom that has gained or lost electrons",
+                "C) A molecule with two atoms",
+                "D) An isotope with a charge"
+              ],
+              "correct_answer": "B",
+              "explanation": "An ion is formed when an atom gains or loses electrons, giving it a positive (lost electrons) or negative (gained electrons) charge.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which particles are found in the nucleus?",
+              "options": [
+                "A) Electrons and protons",
+                "B) Electrons and neutrons",
+                "C) Protons and neutrons",
+                "D) Protons only"
+              ],
+              "correct_answer": "C",
+              "explanation": "The nucleus contains protons and neutrons. Electrons orbit the nucleus in shells.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is relative atomic mass?",
+              "options": [
+                "A) The mass of one proton",
+                "B) The weighted average mass compared to 1/12 of carbon-12",
+                "C) The number of neutrons in an atom",
+                "D) The total charge of the nucleus"
+              ],
+              "correct_answer": "B",
+              "explanation": "Relative atomic mass accounts for the different isotopes of an element and their natural abundance.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How many electrons can the first shell hold?",
+              "options": [
+                "A) 1",
+                "B) 2",
+                "C) 8",
+                "D) 18"
+              ],
+              "correct_answer": "B",
+              "explanation": "The first electron shell can hold a maximum of 2 electrons. The second and third shells can each hold up to 8.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "An atom with atomic number 11 and mass number 23 has how many neutrons?",
+              "options": [
+                "A) 11",
+                "B) 23",
+                "C) 12",
+                "D) 34"
+              ],
+              "correct_answer": "C",
+              "explanation": "Neutrons = mass number \u2212 atomic number = 23 \u2212 11 = 12.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Protons have a positive charge.",
+              "correct_answer": "True",
+              "explanation": "Protons are positively charged particles in the nucleus. Their number determines the element.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Electrons are found in the nucleus.",
+              "correct_answer": "False",
+              "explanation": "Electrons orbit the nucleus in shells (energy levels). The nucleus contains only protons and neutrons.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Isotopes of an element have the same number of protons.",
+              "correct_answer": "True",
+              "explanation": "Isotopes have the same atomic number (protons) but different mass numbers due to different neutron counts.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The mass number includes electrons.",
+              "correct_answer": "False",
+              "explanation": "Mass number = protons + neutrons only. Electrons have negligible mass and are not included.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "An ion is an atom that has gained or lost neutrons.",
+              "correct_answer": "False",
+              "explanation": "Ions are formed when atoms gain or lose electrons, giving them an overall positive or negative charge.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The atomic number equals the number of protons.",
+              "correct_answer": "True",
+              "explanation": "The atomic number uniquely identifies each element \u2014 it equals the number of protons in the nucleus.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "All atoms of the same element have the same number of neutrons.",
+              "correct_answer": "False",
+              "explanation": "Isotopes are atoms of the same element with different numbers of neutrons, so not all atoms of an element have the same neutron count.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Electrons fill the innermost shells first.",
+              "correct_answer": "True",
+              "explanation": "Electrons fill electron shells from the lowest energy level (closest to nucleus) outward.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "A neutral atom has the same number of protons and electrons.",
+              "correct_answer": "True",
+              "explanation": "In a neutral atom, the number of electrons equals the number of protons, so the charges cancel out.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The nucleus contains electrons and protons.",
+              "correct_answer": "False",
+              "explanation": "The nucleus contains protons and neutrons only. Electrons orbit the nucleus in shells.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ number equals the number of protons in an atom's nucleus.",
+              "correct_answer": "atomic",
+              "explanation": "The atomic number identifies the element and equals the number of electrons in a neutral atom.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ number = protons + neutrons in the nucleus.",
+              "correct_answer": "Mass",
+              "explanation": "The mass number tells you the total number of nucleons (protons and neutrons) in the nucleus.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are atoms of the same element with different numbers of neutrons.",
+              "correct_answer": "Isotopes",
+              "explanation": "Isotopes have the same atomic number but different mass numbers.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ is formed when an atom gains or loses electrons.",
+              "correct_answer": "ion",
+              "explanation": "Positive ions (cations) lose electrons; negative ions (anions) gain electrons.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Electrons are found in ________ around the nucleus.",
+              "correct_answer": "shells",
+              "explanation": "Electron shells fill from the innermost outward: first shell holds 2, second holds 8, third holds 8.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ have no electrical charge and are found in the nucleus.",
+              "correct_answer": "Neutrons",
+              "explanation": "Neutrons contribute to mass number but not to the charge of the atom.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The first electron shell can hold a maximum of ________ electrons.",
+              "correct_answer": "2",
+              "explanation": "The first shell is full with 2 electrons. The second and third shells hold up to 8 each.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ atomic mass is the weighted average mass of an element's atoms.",
+              "correct_answer": "Relative",
+              "explanation": "Relative atomic mass accounts for the different isotopes and their natural abundance.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Protons have a ________ charge.",
+              "correct_answer": "positive",
+              "explanation": "Protons (+1) and electrons (\u22121) have equal but opposite charges. Neutrons are neutral.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Number of neutrons = mass number \u2212 ________ number.",
+              "correct_answer": "atomic",
+              "explanation": "To find neutron number: subtract the number of protons (atomic number) from the mass number.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "proton",
+                  "match": "positively charged particle in the nucleus"
+                },
+                {
+                  "term": "neutron",
+                  "match": "neutral particle in the nucleus"
+                },
+                {
+                  "term": "electron",
+                  "match": "negatively charged particle orbiting in shells"
+                },
+                {
+                  "term": "atomic number",
+                  "match": "number of protons \u2014 identifies the element"
+                },
+                {
+                  "term": "isotope",
+                  "match": "same element, different number of neutrons"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Bonding & Structure",
+          "cards": [
+            {
+              "keyword": "ionic bonding",
+              "definition": "bonding by transfer of electrons from a metal to a non-metal \u2014 forms oppositely charged ions that attract",
+              "display_order": 1
+            },
+            {
+              "keyword": "covalent bonding",
+              "definition": "bonding by sharing electrons between non-metal atoms \u2014 forms molecules",
+              "display_order": 2
+            },
+            {
+              "keyword": "metallic bonding",
+              "definition": "bonding in metals \u2014 positive ions in a lattice surrounded by delocalised electrons",
+              "display_order": 3
+            },
+            {
+              "keyword": "giant ionic lattice",
+              "definition": "the structure of ionic compounds \u2014 ions arranged in a regular 3D lattice, held by strong electrostatic forces",
+              "display_order": 4
+            },
+            {
+              "keyword": "simple molecular structure",
+              "definition": "molecules held by weak intermolecular forces \u2014 low melting/boiling points",
+              "display_order": 5
+            },
+            {
+              "keyword": "giant covalent structure",
+              "definition": "many atoms bonded covalently in a large network \u2014 very high melting points (e.g. diamond, graphite)",
+              "display_order": 6
+            },
+            {
+              "keyword": "diamond",
+              "definition": "a form of carbon with a giant covalent structure \u2014 each carbon bonds to four others. Hard, high mp, no electrical conduction",
+              "display_order": 7
+            },
+            {
+              "keyword": "graphite",
+              "definition": "a form of carbon where each atom bonds to three others in layers \u2014 conducts electricity due to delocalised electrons, used as a lubricant",
+              "display_order": 8
+            },
+            {
+              "keyword": "polymer",
+              "definition": "a long chain molecule made from many small monomer units joined together",
+              "display_order": 9
+            },
+            {
+              "keyword": "nanoparticle",
+              "definition": "a particle 1\u2013100 nm in size \u2014 has a very high surface area to volume ratio and special properties",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What type of bonding involves transfer of electrons?",
+              "options": [
+                "A) Covalent",
+                "B) Metallic",
+                "C) Ionic",
+                "D) Hydrogen"
+              ],
+              "correct_answer": "C",
+              "explanation": "Ionic bonding involves one atom transferring electrons to another, forming positive and negative ions that attract each other.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is covalent bonding?",
+              "options": [
+                "A) Transfer of electrons",
+                "B) Sharing of electrons between atoms",
+                "C) Attraction between positive ions and electrons",
+                "D) Forces between molecules"
+              ],
+              "correct_answer": "B",
+              "explanation": "Covalent bonds form when two non-metal atoms share a pair of electrons, giving both atoms a full outer shell.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why do ionic compounds have high melting points?",
+              "options": [
+                "A) They have weak bonds",
+                "B) Strong electrostatic forces between ions require lots of energy to break",
+                "C) They are made of large molecules",
+                "D) They have metallic bonding"
+              ],
+              "correct_answer": "B",
+              "explanation": "Ionic compounds form giant lattices with strong electrostatic forces between oppositely charged ions \u2014 breaking these requires a lot of energy.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What gives metals their electrical conductivity?",
+              "options": [
+                "A) Ionic bonds",
+                "B) Covalent bonds",
+                "C) Delocalised electrons",
+                "D) High melting point"
+              ],
+              "correct_answer": "C",
+              "explanation": "In metallic bonding, electrons are delocalised and free to move \u2014 this allows metals to conduct electricity.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is special about graphite's structure?",
+              "options": [
+                "A) Each carbon bonds to four others",
+                "B) It has no free electrons",
+                "C) Layers can slide and it conducts electricity",
+                "D) It is very hard and has a high melting point"
+              ],
+              "correct_answer": "C",
+              "explanation": "In graphite, carbon atoms form layers of hexagonal rings. Layers can slide (lubricant). One electron per atom is delocalised, allowing electrical conduction.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why do simple molecular substances have low melting points?",
+              "options": [
+                "A) They have weak covalent bonds",
+                "B) Weak intermolecular forces are easily overcome",
+                "C) They have no bonding",
+                "D) Their ions are far apart"
+              ],
+              "correct_answer": "B",
+              "explanation": "Simple molecular substances have strong covalent bonds within molecules but only weak intermolecular forces between them \u2014 little energy is needed to separate the molecules.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a polymer?",
+              "options": [
+                "A) A small molecule used as a building block",
+                "B) A giant covalent structure",
+                "C) A long chain molecule made from many monomers",
+                "D) A type of ionic compound"
+              ],
+              "correct_answer": "C",
+              "explanation": "Polymers are long chain molecules formed when many small monomer units join together in polymerisation reactions.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What type of structure does diamond have?",
+              "options": [
+                "A) Simple molecular",
+                "B) Giant ionic lattice",
+                "C) Metallic",
+                "D) Giant covalent"
+              ],
+              "correct_answer": "D",
+              "explanation": "Diamond has a giant covalent structure \u2014 each carbon atom is covalently bonded to four others in a tetrahedral arrangement, making it extremely hard.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is special about nanoparticles?",
+              "options": [
+                "A) They are very large",
+                "B) They have a very high surface area to volume ratio",
+                "C) They conduct electricity like metals",
+                "D) They are always toxic"
+              ],
+              "correct_answer": "B",
+              "explanation": "Nanoparticles (1\u2013100 nm) have an extremely high surface area relative to their volume, giving them special properties useful in medicine, electronics, and catalysis.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which type of bonding occurs between a metal and a non-metal?",
+              "options": [
+                "A) Covalent",
+                "B) Metallic",
+                "C) Ionic",
+                "D) Van der Waals"
+              ],
+              "correct_answer": "C",
+              "explanation": "When a metal bonds with a non-metal, electrons are transferred from the metal to the non-metal, forming ionic bonds.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Ionic bonding involves sharing electrons.",
+              "correct_answer": "False",
+              "explanation": "Ionic bonding involves the transfer of electrons. Covalent bonding involves the sharing of electrons.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Metals conduct electricity because of delocalised electrons.",
+              "correct_answer": "True",
+              "explanation": "In metals, outer electrons are free to move through the structure, allowing electrical conduction.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Diamond is a giant covalent structure.",
+              "correct_answer": "True",
+              "explanation": "Diamond consists of carbon atoms each bonded to four others covalently in a giant 3D lattice \u2014 making it the hardest natural substance.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Simple molecular substances have high melting points.",
+              "correct_answer": "False",
+              "explanation": "Simple molecular substances have low melting points because only weak intermolecular forces need to be overcome \u2014 not covalent bonds.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Graphite can conduct electricity.",
+              "correct_answer": "True",
+              "explanation": "Each carbon in graphite contributes one delocalised electron that is free to move, allowing graphite to conduct electricity.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Ionic compounds are held together by weak forces.",
+              "correct_answer": "False",
+              "explanation": "Ionic compounds are held together by strong electrostatic forces between oppositely charged ions in a giant lattice.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Polymers are made from many small monomer units.",
+              "correct_answer": "True",
+              "explanation": "Polymerisation joins monomers together to form long polymer chains \u2014 e.g. ethene monomers form poly(ethene).",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Nanoparticles are larger than 1000 nm.",
+              "correct_answer": "False",
+              "explanation": "Nanoparticles are 1\u2013100 nm in size. Their small size gives them a very high surface area to volume ratio.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Covalent bonding occurs between metal atoms.",
+              "correct_answer": "False",
+              "explanation": "Covalent bonding occurs between non-metal atoms. Metal atoms bond using metallic bonding.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Giant covalent structures have very high melting points.",
+              "correct_answer": "True",
+              "explanation": "Giant covalent structures have many strong covalent bonds throughout the lattice \u2014 enormous energy is needed to break them all.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ bonding involves the transfer of electrons from a metal to a non-metal.",
+              "correct_answer": "Ionic",
+              "explanation": "Ionic bonds form between oppositely charged ions in a giant lattice structure.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ bonding involves sharing electrons between non-metal atoms.",
+              "correct_answer": "Covalent",
+              "explanation": "Covalent bonds form when atoms share electrons to achieve a full outer shell.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Metals conduct electricity because their ________ electrons are free to move.",
+              "correct_answer": "delocalised",
+              "explanation": "Delocalised electrons in metals act as a 'sea' of charge carriers, enabling electrical conduction.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ has a giant covalent structure where each carbon bonds to four others.",
+              "correct_answer": "Diamond",
+              "explanation": "Diamond's tetrahedral covalent structure makes it the hardest natural substance.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ conducts electricity and has layers that can slide over each other.",
+              "correct_answer": "Graphite",
+              "explanation": "Graphite's delocalised electrons and layered structure make it useful as an electrode and lubricant.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Simple molecular substances have ________ melting points due to weak intermolecular forces.",
+              "correct_answer": "low",
+              "explanation": "The covalent bonds within molecules are strong, but only weak forces act between molecules.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a long chain molecule made from many monomer units.",
+              "correct_answer": "polymer",
+              "explanation": "Polymerisation reactions join monomers to form polymers with very different properties.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Ionic compounds form a giant ________ lattice of oppositely charged ions.",
+              "correct_answer": "ionic",
+              "explanation": "The strong electrostatic forces in the ionic lattice give ionic compounds high melting points.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ particles (1\u2013100 nm) have a very high surface area to volume ratio.",
+              "correct_answer": "Nano",
+              "explanation": "Nanoparticles have unique properties due to their tiny size and high surface area.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ bonding in metals involves positive ions in a lattice surrounded by delocalised electrons.",
+              "correct_answer": "Metallic",
+              "explanation": "Metallic bonding explains electrical conductivity, malleability, and high melting points of metals.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "ionic bonding",
+                  "match": "transfer of electrons \u2014 forms charged ions that attract"
+                },
+                {
+                  "term": "covalent bonding",
+                  "match": "sharing of electrons between non-metal atoms"
+                },
+                {
+                  "term": "metallic bonding",
+                  "match": "positive ions in lattice surrounded by delocalised electrons"
+                },
+                {
+                  "term": "diamond",
+                  "match": "giant covalent \u2014 very hard, high mp, no conduction"
+                },
+                {
+                  "term": "graphite",
+                  "match": "giant covalent \u2014 conducts electricity, layers slide"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chemical Changes",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Reactivity & Reactions",
+          "cards": [
+            {
+              "keyword": "reactivity series",
+              "definition": "a list of metals in order of reactivity \u2014 potassium most reactive, gold least reactive",
+              "display_order": 1
+            },
+            {
+              "keyword": "displacement reaction",
+              "definition": "a more reactive metal displaces a less reactive metal from its salt solution",
+              "display_order": 2
+            },
+            {
+              "keyword": "oxidation",
+              "definition": "the loss of electrons (or gain of oxygen) \u2014 OIL in OIL RIG",
+              "display_order": 3
+            },
+            {
+              "keyword": "reduction",
+              "definition": "the gain of electrons (or loss of oxygen) \u2014 RIG in OIL RIG",
+              "display_order": 4
+            },
+            {
+              "keyword": "redox reaction",
+              "definition": "a reaction involving both oxidation and reduction simultaneously",
+              "display_order": 5
+            },
+            {
+              "keyword": "electrolysis",
+              "definition": "using electrical energy to break down a compound \u2014 used to extract metals and purify copper",
+              "display_order": 6
+            },
+            {
+              "keyword": "acid",
+              "definition": "a substance that produces H\u207a ions in solution \u2014 pH below 7",
+              "display_order": 7
+            },
+            {
+              "keyword": "alkali",
+              "definition": "a base that dissolves in water to produce OH\u207b ions \u2014 pH above 7",
+              "display_order": 8
+            },
+            {
+              "keyword": "neutralisation",
+              "definition": "the reaction between an acid and a base to form a salt and water",
+              "display_order": 9
+            },
+            {
+              "keyword": "pH scale",
+              "definition": "a scale from 0\u201314 measuring acidity/alkalinity \u2014 7 is neutral, below 7 acidic, above 7 alkaline",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does the reactivity series show?",
+              "options": [
+                "A) The order of elements in the periodic table",
+                "B) Metals in order of reactivity",
+                "C) The charge of different metal ions",
+                "D) The melting points of metals"
+              ],
+              "correct_answer": "B",
+              "explanation": "The reactivity series ranks metals from most reactive (e.g. potassium) to least reactive (e.g. gold), predicting which displacement reactions will occur.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens in a displacement reaction?",
+              "options": [
+                "A) Two compounds swap ions",
+                "B) A more reactive metal replaces a less reactive one from solution",
+                "C) A metal is oxidised by acid",
+                "D) An ionic compound dissolves"
+              ],
+              "correct_answer": "B",
+              "explanation": "A more reactive metal will displace a less reactive metal from its salt solution \u2014 e.g. iron displaces copper from copper sulfate.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "OIL RIG stands for what?",
+              "options": [
+                "A) Oxidation Is Lost \u2014 Reduction Is Gained (electrons)",
+                "B) Oxygen In Liquid \u2014 Reduction In Gas",
+                "C) Oxidation Increases Level \u2014 Reduction Increases Group",
+                "D) Only In Laboratory \u2014 Reactions In Gas"
+              ],
+              "correct_answer": "A",
+              "explanation": "OIL RIG: Oxidation Is Loss (of electrons), Reduction Is Gain (of electrons). A useful memory aid for redox reactions.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is electrolysis?",
+              "options": [
+                "A) Passing electricity through a metal to heat it",
+                "B) Using electrical energy to break down a compound",
+                "C) A spontaneous chemical reaction",
+                "D) The rusting of iron"
+              ],
+              "correct_answer": "B",
+              "explanation": "Electrolysis uses direct current to decompose an ionic compound \u2014 positive ions move to the cathode, negative ions to the anode.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What pH does a neutral solution have?",
+              "options": [
+                "A) 0",
+                "B) 7",
+                "C) 14",
+                "D) 1"
+              ],
+              "correct_answer": "B",
+              "explanation": "pH 7 is neutral \u2014 e.g. pure water. Below 7 is acidic; above 7 is alkaline.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is neutralisation?",
+              "options": [
+                "A) Dissolving a metal in acid",
+                "B) Reaction of acid and base to form salt and water",
+                "C) Removing ions from solution",
+                "D) Electrolysis of water"
+              ],
+              "correct_answer": "B",
+              "explanation": "Neutralisation: acid + base \u2192 salt + water. The H\u207a ions from the acid react with the OH\u207b ions from the alkali.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which ion does an acid produce in solution?",
+              "options": [
+                "A) OH\u207b",
+                "B) O\u00b2\u207b",
+                "C) H\u207a",
+                "D) Na\u207a"
+              ],
+              "correct_answer": "C",
+              "explanation": "Acids produce hydrogen ions (H\u207a) in solution. The more H\u207a ions, the lower the pH and the stronger the acid.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "During electrolysis, where do positive ions go?",
+              "options": [
+                "A) Anode (positive electrode)",
+                "B) Neither electrode",
+                "C) Cathode (negative electrode)",
+                "D) Into solution"
+              ],
+              "correct_answer": "C",
+              "explanation": "Positive ions (cations) are attracted to the negative cathode electrode during electrolysis. They gain electrons there (reduction).",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is oxidation in terms of electrons?",
+              "options": [
+                "A) Gain of electrons",
+                "B) Loss of electrons",
+                "C) No change in electrons",
+                "D) Transfer of neutrons"
+              ],
+              "correct_answer": "B",
+              "explanation": "Oxidation is the loss of electrons (OIL \u2014 Oxidation Is Loss). The oxidised species loses electrons to the reducing agent.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which is more reactive \u2014 iron or copper?",
+              "options": [
+                "A) Copper",
+                "B) They are equal",
+                "C) Iron",
+                "D) It depends on conditions"
+              ],
+              "correct_answer": "C",
+              "explanation": "Iron is above copper in the reactivity series. Iron will displace copper from copper sulfate solution.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Oxidation involves the gain of electrons.",
+              "correct_answer": "False",
+              "explanation": "Oxidation is the loss of electrons (OIL RIG \u2014 Oxidation Is Loss, Reduction Is Gain).",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "A more reactive metal can displace a less reactive one from solution.",
+              "correct_answer": "True",
+              "explanation": "In a displacement reaction, a more reactive metal takes the place of a less reactive one in its compound.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Electrolysis uses electrical energy to break down compounds.",
+              "correct_answer": "True",
+              "explanation": "Electrolysis passes direct current through an ionic compound (molten or in solution) to decompose it.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "pH 7 is acidic.",
+              "correct_answer": "False",
+              "explanation": "pH 7 is neutral. Below 7 is acidic and above 7 is alkaline.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Neutralisation produces a salt and water.",
+              "correct_answer": "True",
+              "explanation": "When an acid and a base react, they neutralise each other to form a salt and water.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "In electrolysis, positive ions move to the anode.",
+              "correct_answer": "False",
+              "explanation": "Positive ions (cations) move to the cathode (negative electrode). Negative ions move to the anode.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Reduction involves the gain of electrons.",
+              "correct_answer": "True",
+              "explanation": "RIG \u2014 Reduction Is Gain. During reduction, the species gains electrons and its oxidation state decreases.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Potassium is less reactive than gold.",
+              "correct_answer": "False",
+              "explanation": "Potassium is at the top of the reactivity series \u2014 it is one of the most reactive metals. Gold is at the bottom.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "An acid produces OH\u207b ions in solution.",
+              "correct_answer": "False",
+              "explanation": "Acids produce H\u207a ions in solution. Alkalis produce OH\u207b ions.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Redox reactions involve both oxidation and reduction.",
+              "correct_answer": "True",
+              "explanation": "In a redox reaction, one species loses electrons (oxidation) while another gains them (reduction) \u2014 they happen simultaneously.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the loss of electrons \u2014 remembered by OIL RIG.",
+              "correct_answer": "Oxidation",
+              "explanation": "OIL RIG: Oxidation Is Loss, Reduction Is Gain of electrons.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ reaction occurs when a more reactive metal replaces a less reactive one.",
+              "correct_answer": "displacement",
+              "explanation": "Displacement reactions follow the reactivity series \u2014 more reactive metals replace less reactive ones.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ uses electrical energy to break down an ionic compound.",
+              "correct_answer": "Electrolysis",
+              "explanation": "Electrolysis decomposes molten or dissolved ionic compounds using direct current.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The reaction of an acid and a base produces a ________ and water.",
+              "correct_answer": "salt",
+              "explanation": "Acid + base \u2192 salt + water. This is a neutralisation reaction.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Acids produce ________ ions in solution.",
+              "correct_answer": "H\u207a",
+              "explanation": "The concentration of H\u207a ions determines the pH \u2014 more H\u207a means lower pH and stronger acid.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "In electrolysis, positive ions move to the ________ electrode.",
+              "correct_answer": "cathode",
+              "explanation": "Cations are attracted to the negative cathode where they gain electrons (reduction).",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ series lists metals in order from most to least reactive.",
+              "correct_answer": "reactivity",
+              "explanation": "The reactivity series allows us to predict displacement reactions and how metals will react with acid or water.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "pH ________ is neutral \u2014 above this is alkaline, below is acidic.",
+              "correct_answer": "7",
+              "explanation": "The pH scale runs from 0 (very acidic) to 14 (very alkaline), with 7 being neutral.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ reactions involve both oxidation and reduction occurring simultaneously.",
+              "correct_answer": "Redox",
+              "explanation": "In redox reactions, one substance is oxidised while another is reduced \u2014 electrons are transferred between them.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the gain of electrons \u2014 the opposite of oxidation.",
+              "correct_answer": "Reduction",
+              "explanation": "Reduction (RIG) occurs at the cathode in electrolysis and when metals are extracted from their ores.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "oxidation",
+                  "match": "loss of electrons"
+                },
+                {
+                  "term": "reduction",
+                  "match": "gain of electrons"
+                },
+                {
+                  "term": "displacement reaction",
+                  "match": "more reactive metal replaces less reactive one"
+                },
+                {
+                  "term": "electrolysis",
+                  "match": "electrical energy breaks down a compound"
+                },
+                {
+                  "term": "neutralisation",
+                  "match": "acid + base \u2192 salt + water"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energy Changes",
+      "paper": "Paper 1",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Exothermic & Endothermic",
+          "cards": [
+            {
+              "keyword": "exothermic reaction",
+              "definition": "a reaction that releases energy to the surroundings \u2014 temperature rises (e.g. combustion, neutralisation, oxidation)",
+              "display_order": 1
+            },
+            {
+              "keyword": "endothermic reaction",
+              "definition": "a reaction that absorbs energy from surroundings \u2014 temperature falls (e.g. thermal decomposition, photosynthesis)",
+              "display_order": 2
+            },
+            {
+              "keyword": "activation energy",
+              "definition": "the minimum energy needed for reactants to collide and react \u2014 shown as the peak on an energy profile diagram",
+              "display_order": 3
+            },
+            {
+              "keyword": "catalyst",
+              "definition": "a substance that speeds up a reaction without being used up \u2014 lowers the activation energy",
+              "display_order": 4
+            },
+            {
+              "keyword": "bond breaking",
+              "definition": "an endothermic process \u2014 energy must be absorbed to break chemical bonds",
+              "display_order": 5
+            },
+            {
+              "keyword": "bond forming",
+              "definition": "an exothermic process \u2014 energy is released when new bonds form",
+              "display_order": 6
+            },
+            {
+              "keyword": "energy profile diagram",
+              "definition": "a diagram showing the energy of reactants and products and the activation energy of a reaction",
+              "display_order": 7
+            },
+            {
+              "keyword": "fuel cell",
+              "definition": "an electrochemical device that generates electricity from a fuel (e.g. hydrogen) and oxygen \u2014 produces water as the only product",
+              "display_order": 8
+            },
+            {
+              "keyword": "hydrogen fuel cell",
+              "definition": "produces electricity from hydrogen and oxygen \u2014 the only by-product is water, making it clean",
+              "display_order": 9
+            },
+            {
+              "keyword": "overall energy change",
+              "definition": "the difference between energy absorbed (breaking bonds) and energy released (forming bonds)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is an exothermic reaction?",
+              "options": [
+                "A) A reaction that absorbs energy from the surroundings",
+                "B) A reaction that releases energy \u2014 temperature rises",
+                "C) A reaction that uses a catalyst",
+                "D) A reaction with no energy change"
+              ],
+              "correct_answer": "B",
+              "explanation": "Exothermic reactions release energy to the surroundings, causing a temperature increase. Examples include combustion and neutralisation.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is activation energy?",
+              "options": [
+                "A) The energy released by a reaction",
+                "B) The minimum energy needed for reactants to react",
+                "C) The energy stored in bonds",
+                "D) The temperature rise during a reaction"
+              ],
+              "correct_answer": "B",
+              "explanation": "Activation energy is the energy barrier that must be overcome for a reaction to start. Catalysts lower this barrier.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Is bond breaking exothermic or endothermic?",
+              "options": [
+                "A) Exothermic",
+                "B) Endothermic",
+                "C) Neither",
+                "D) Both"
+              ],
+              "correct_answer": "B",
+              "explanation": "Breaking bonds always requires energy input \u2014 it is endothermic. Bond forming releases energy (exothermic).",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does a catalyst do?",
+              "options": [
+                "A) Provides extra energy for the reaction",
+                "B) Is used up in the reaction",
+                "C) Lowers the activation energy",
+                "D) Increases the activation energy"
+              ],
+              "correct_answer": "C",
+              "explanation": "A catalyst provides an alternative reaction pathway with a lower activation energy, speeding up the reaction without being used up.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In a hydrogen fuel cell, what is the only by-product?",
+              "options": [
+                "A) Carbon dioxide",
+                "B) Carbon monoxide",
+                "C) Oxygen",
+                "D) Water"
+              ],
+              "correct_answer": "D",
+              "explanation": "Hydrogen fuel cells combine hydrogen and oxygen to produce electricity. The only product is water \u2014 making them environmentally clean.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an endothermic process?",
+              "options": [
+                "A) Combustion of methane",
+                "B) Neutralisation of acid",
+                "C) Thermal decomposition of calcium carbonate",
+                "D) Oxidation of iron"
+              ],
+              "correct_answer": "C",
+              "explanation": "Thermal decomposition requires heat energy to be absorbed \u2014 it is endothermic. Temperature of the surroundings decreases.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "If bond breaking requires 600 kJ and bond forming releases 800 kJ, is the reaction exo or endothermic?",
+              "options": [
+                "A) Endothermic",
+                "B) Exothermic",
+                "C) Neutral",
+                "D) Cannot be determined"
+              ],
+              "correct_answer": "B",
+              "explanation": "Overall energy change = energy released \u2212 energy absorbed = 800 \u2212 600 = +200 kJ released. Net energy is released so the reaction is exothermic.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "On an energy profile diagram, what does the peak represent?",
+              "options": [
+                "A) The energy of the products",
+                "B) The energy of the reactants",
+                "C) The activation energy",
+                "D) The overall energy change"
+              ],
+              "correct_answer": "C",
+              "explanation": "The peak of an energy profile diagram represents the transition state \u2014 the highest energy point, which equals the activation energy required.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does a catalyst change the activation energy?",
+              "options": [
+                "A) It increases it",
+                "B) It decreases it",
+                "C) It has no effect",
+                "D) It eliminates it completely"
+              ],
+              "correct_answer": "B",
+              "explanation": "A catalyst provides an alternative reaction pathway with lower activation energy, allowing more particles to react at a given temperature.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to the temperature of the surroundings in an endothermic reaction?",
+              "options": [
+                "A) It increases",
+                "B) It stays the same",
+                "C) It decreases",
+                "D) It first increases then decreases"
+              ],
+              "correct_answer": "C",
+              "explanation": "In an endothermic reaction, energy is absorbed from the surroundings, causing the temperature of the surroundings to fall.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Exothermic reactions release energy to the surroundings.",
+              "correct_answer": "True",
+              "explanation": "In exothermic reactions, the products have less energy than the reactants \u2014 the difference is released as heat.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Bond breaking is an exothermic process.",
+              "correct_answer": "False",
+              "explanation": "Bond breaking requires energy input \u2014 it is endothermic. Bond forming releases energy (exothermic).",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "A catalyst lowers the activation energy of a reaction.",
+              "correct_answer": "True",
+              "explanation": "Catalysts provide an alternative pathway with lower activation energy, speeding up the reaction without being consumed.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Combustion is an endothermic reaction.",
+              "correct_answer": "False",
+              "explanation": "Combustion is exothermic \u2014 it releases energy. Burning fuels releases heat and light.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "A hydrogen fuel cell produces carbon dioxide as a by-product.",
+              "correct_answer": "False",
+              "explanation": "Hydrogen fuel cells produce only water. No carbon dioxide is produced, making them environmentally clean.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The activation energy is shown as the peak on an energy profile diagram.",
+              "correct_answer": "True",
+              "explanation": "The peak of an energy profile represents the transition state \u2014 the energy barrier (activation energy) that must be overcome.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Endothermic reactions cause the temperature of the surroundings to fall.",
+              "correct_answer": "True",
+              "explanation": "Endothermic reactions absorb energy from the surroundings \u2014 the surroundings cool down as a result.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "If bond forming releases more energy than bond breaking absorbs, the reaction is exothermic.",
+              "correct_answer": "True",
+              "explanation": "When more energy is released making new bonds than is absorbed breaking old bonds, the net energy change is exothermic.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Thermal decomposition is an exothermic process.",
+              "correct_answer": "False",
+              "explanation": "Thermal decomposition requires heat input \u2014 it is endothermic. Heat energy must be continuously supplied for it to occur.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "A catalyst is consumed during the reaction it speeds up.",
+              "correct_answer": "False",
+              "explanation": "Catalysts are not used up \u2014 they provide an alternative pathway and can be recovered unchanged after the reaction.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ reaction releases energy to the surroundings and raises temperature.",
+              "correct_answer": "exothermic",
+              "explanation": "Examples of exothermic reactions include combustion, neutralisation, and the reaction of metals with acid.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ reaction absorbs energy from the surroundings and lowers temperature.",
+              "correct_answer": "endothermic",
+              "explanation": "Examples include thermal decomposition, dissolving ammonium nitrate, and photosynthesis.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ energy is the minimum energy needed for a reaction to start.",
+              "correct_answer": "Activation",
+              "explanation": "Catalysts lower activation energy, allowing more collisions to be successful.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ speeds up a reaction by lowering the activation energy without being used up.",
+              "correct_answer": "catalyst",
+              "explanation": "Catalysts are specific to reactions and can be recovered unchanged.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Bond ________ is endothermic \u2014 it requires energy input.",
+              "correct_answer": "breaking",
+              "explanation": "Energy must be absorbed to break existing chemical bonds in the reactants.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Bond ________ is exothermic \u2014 it releases energy.",
+              "correct_answer": "forming",
+              "explanation": "Energy is released when new bonds form in the products.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A hydrogen ________ cell produces electricity with water as the only by-product.",
+              "correct_answer": "fuel",
+              "explanation": "Hydrogen fuel cells are clean energy devices \u2014 no carbon dioxide is produced.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of an energy profile diagram represents the activation energy.",
+              "correct_answer": "peak",
+              "explanation": "The peak shows the energy of the transition state \u2014 the highest energy point in the reaction pathway.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "If more energy is released forming bonds than absorbed breaking them, the reaction is ________.",
+              "correct_answer": "exothermic",
+              "explanation": "Net energy is released to the surroundings when bond forming releases more than bond breaking absorbs.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "If more energy is absorbed breaking bonds than released forming them, the reaction is ________.",
+              "correct_answer": "endothermic",
+              "explanation": "Net energy is absorbed from the surroundings when bond breaking requires more than bond forming releases.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "exothermic",
+                  "match": "releases energy \u2014 temperature of surroundings rises"
+                },
+                {
+                  "term": "endothermic",
+                  "match": "absorbs energy \u2014 temperature of surroundings falls"
+                },
+                {
+                  "term": "activation energy",
+                  "match": "minimum energy needed for a reaction to occur"
+                },
+                {
+                  "term": "catalyst",
+                  "match": "lowers activation energy without being used up"
+                },
+                {
+                  "term": "bond breaking",
+                  "match": "endothermic \u2014 requires energy input"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rates of Reaction & Equilibrium",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Rate of Reaction",
+          "cards": [
+            {
+              "keyword": "rate of reaction",
+              "definition": "how quickly a reaction occurs \u2014 measured by change in amount of reactant or product per unit time",
+              "display_order": 1
+            },
+            {
+              "keyword": "collision theory",
+              "definition": "reactions occur when particles collide with sufficient energy and correct orientation \u2014 more collisions = faster rate",
+              "display_order": 2
+            },
+            {
+              "keyword": "concentration",
+              "definition": "the amount of solute dissolved per unit volume \u2014 higher concentration means more particles, more collisions",
+              "display_order": 3
+            },
+            {
+              "keyword": "temperature",
+              "definition": "increasing temperature increases particle speed \u2014 more frequent and more energetic collisions, faster rate",
+              "display_order": 4
+            },
+            {
+              "keyword": "surface area",
+              "definition": "increasing surface area exposes more particles \u2014 more collisions per second, faster rate",
+              "display_order": 5
+            },
+            {
+              "keyword": "pressure",
+              "definition": "for gases, higher pressure increases concentration \u2014 more collisions, faster rate",
+              "display_order": 6
+            },
+            {
+              "keyword": "catalyst",
+              "definition": "a substance that increases reaction rate by lowering activation energy without being used up",
+              "display_order": 7
+            },
+            {
+              "keyword": "dynamic equilibrium",
+              "definition": "in a closed system, forward and reverse reactions occur at equal rates \u2014 concentrations remain constant",
+              "display_order": 8
+            },
+            {
+              "keyword": "Le Chatelier's principle",
+              "definition": "if conditions change, the equilibrium shifts to oppose the change",
+              "display_order": 9
+            },
+            {
+              "keyword": "yield",
+              "definition": "the amount of product obtained \u2014 increasing pressure and decreasing temperature favours product yield in some reactions",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does collision theory state?",
+              "options": [
+                "A) Reactions happen when particles are close together",
+                "B) Reactions happen when particles collide with enough energy and correct orientation",
+                "C) All collisions lead to reactions",
+                "D) Temperature has no effect on collisions"
+              ],
+              "correct_answer": "B",
+              "explanation": "Collision theory states that reactions only occur when particles collide with sufficient energy (at least the activation energy) and the correct orientation.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does increasing concentration affect reaction rate?",
+              "options": [
+                "A) Decreases it",
+                "B) No effect",
+                "C) Increases it \u2014 more particles means more collisions",
+                "D) Only affects gases"
+              ],
+              "correct_answer": "C",
+              "explanation": "Higher concentration means more reactant particles in the same volume \u2014 the collision frequency increases, speeding up the reaction.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does increasing temperature increase reaction rate?",
+              "options": [
+                "A) It lowers the activation energy",
+                "B) It increases particle speed and energy \u2014 more successful collisions",
+                "C) It decreases particle size",
+                "D) It adds more particles"
+              ],
+              "correct_answer": "B",
+              "explanation": "Higher temperature increases kinetic energy \u2014 particles move faster, collide more frequently, and more collisions exceed the activation energy.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is dynamic equilibrium?",
+              "options": [
+                "A) A reaction that only goes in one direction",
+                "B) When the rate of forward reaction equals rate of reverse reaction",
+                "C) When a reaction reaches 100% completion",
+                "D) When temperature and pressure are equal"
+              ],
+              "correct_answer": "B",
+              "explanation": "Dynamic equilibrium: forward and reverse reactions occur at equal rates \u2014 the concentrations of reactants and products remain constant.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Le Chatelier's principle state?",
+              "options": [
+                "A) Reactions always go to completion",
+                "B) If conditions change, equilibrium shifts to oppose the change",
+                "C) Catalysts change the position of equilibrium",
+                "D) Temperature has no effect on equilibrium"
+              ],
+              "correct_answer": "B",
+              "explanation": "Le Chatelier's principle: if a change is made to a system at equilibrium (concentration, temperature, pressure), the system shifts to counteract that change.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does increasing surface area increase reaction rate?",
+              "options": [
+                "A) It increases the activation energy",
+                "B) It adds more particles to the reaction",
+                "C) It exposes more particles for collision",
+                "D) It decreases the distance between particles"
+              ],
+              "correct_answer": "C",
+              "explanation": "A smaller particle size or powder has greater surface area \u2014 more particles are exposed to collisions, increasing the reaction rate.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the effect of a catalyst on equilibrium position?",
+              "options": [
+                "A) Shifts it to the right",
+                "B) Shifts it to the left",
+                "C) No effect on position \u2014 speeds up attainment of equilibrium",
+                "D) Changes the concentrations at equilibrium"
+              ],
+              "correct_answer": "C",
+              "explanation": "A catalyst speeds up both forward and reverse reactions equally \u2014 it does not change the position of equilibrium, only how quickly it is reached.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does increasing pressure affect a gaseous equilibrium?",
+              "options": [
+                "A) Equilibrium shifts to the side with more gas molecules",
+                "B) Equilibrium shifts to the side with fewer gas molecules",
+                "C) No effect",
+                "D) Shifts to produce more reactants always"
+              ],
+              "correct_answer": "B",
+              "explanation": "Increasing pressure favours the side of the equilibrium with fewer gas molecules \u2014 this reduces the pressure.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which factor does NOT affect rate of reaction?",
+              "options": [
+                "A) Temperature",
+                "B) Concentration",
+                "C) Colour of reactants",
+                "D) Surface area"
+              ],
+              "correct_answer": "C",
+              "explanation": "The colour of reactants has no effect on reaction rate. Factors that do affect rate include temperature, concentration, surface area, and catalysts.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What unit is used to measure rate of reaction?",
+              "options": [
+                "A) Seconds",
+                "B) Moles per second or cm\u00b3 per second",
+                "C) Joules per second",
+                "D) Grams only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Rate of reaction is measured as the change in amount of reactant or product per unit time \u2014 e.g. mol/s, g/s, or cm\u00b3/s for gas production.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Increasing concentration increases the rate of reaction.",
+              "correct_answer": "True",
+              "explanation": "Higher concentration means more particles per unit volume \u2014 more frequent collisions increase the rate.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "A catalyst is used up during the reaction.",
+              "correct_answer": "False",
+              "explanation": "Catalysts are not consumed \u2014 they provide an alternative pathway with lower activation energy and can be reused.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Dynamic equilibrium means the reaction has stopped.",
+              "correct_answer": "False",
+              "explanation": "At dynamic equilibrium, both forward and reverse reactions are still occurring at equal rates \u2014 it is not static.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Increasing temperature increases the rate of reaction.",
+              "correct_answer": "True",
+              "explanation": "Higher temperature increases particle kinetic energy \u2014 particles collide more frequently and with more energy.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Le Chatelier's principle states that equilibrium does not respond to changes in conditions.",
+              "correct_answer": "False",
+              "explanation": "Le Chatelier's principle states that equilibrium shifts to oppose any change in conditions.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Increasing surface area increases rate of reaction.",
+              "correct_answer": "True",
+              "explanation": "More surface area exposes more particles to collisions, increasing the frequency of successful collisions.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "A catalyst changes the position of equilibrium.",
+              "correct_answer": "False",
+              "explanation": "A catalyst speeds up both forward and reverse reactions equally \u2014 it does not change where equilibrium lies.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Increasing pressure shifts equilibrium to the side with fewer gas molecules.",
+              "correct_answer": "True",
+              "explanation": "Higher pressure is opposed by a shift to the side with fewer moles of gas, which reduces the pressure.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Collision theory states all collisions lead to a reaction.",
+              "correct_answer": "False",
+              "explanation": "Only collisions with sufficient energy (at least the activation energy) AND the correct orientation result in a reaction.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Rate of reaction can be measured by gas volume produced per second.",
+              "correct_answer": "True",
+              "explanation": "For reactions producing a gas, measuring volume per unit time is a common way to monitor reaction rate.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ theory states reactions need collisions with sufficient energy and correct orientation.",
+              "correct_answer": "Collision",
+              "explanation": "Only a small fraction of collisions result in a reaction \u2014 those meeting both energy and orientation requirements.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Increasing ________ means more particles per unit volume and more frequent collisions.",
+              "correct_answer": "concentration",
+              "explanation": "Higher concentration increases collision frequency, increasing the rate of reaction.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Increasing ________ increases particle kinetic energy and the frequency of successful collisions.",
+              "correct_answer": "temperature",
+              "explanation": "Temperature is one of the most effective ways to increase reaction rate.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Increasing ________ area exposes more particles, increasing collision frequency.",
+              "correct_answer": "surface",
+              "explanation": "Powders react faster than lumps because they have much greater surface area.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ increases reaction rate by providing an alternative pathway with lower activation energy.",
+              "correct_answer": "catalyst",
+              "explanation": "Catalysts are specific to reactions and are not consumed during the process.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ equilibrium occurs when forward and reverse reaction rates are equal.",
+              "correct_answer": "Dynamic",
+              "explanation": "At dynamic equilibrium, concentrations remain constant but both reactions continue.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Le ________ 's principle: equilibrium shifts to oppose any change in conditions.",
+              "correct_answer": "Chatelier",
+              "explanation": "This principle predicts how equilibrium will respond to changes in concentration, temperature, or pressure.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Increasing ________ for gases increases collision frequency between gas molecules.",
+              "correct_answer": "pressure",
+              "explanation": "Higher pressure forces gas molecules closer together, increasing the collision rate.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of a reaction is the amount of product actually obtained.",
+              "correct_answer": "yield",
+              "explanation": "Conditions such as temperature, pressure, and catalyst affect the yield of industrial reactions.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Rate of reaction is measured as change in amount of reactant or product per unit ________.",
+              "correct_answer": "time",
+              "explanation": "Common units for rate include mol/s, g/s, and cm\u00b3/s depending on what is being measured.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "collision theory",
+                  "match": "reactions need collisions with sufficient energy and correct orientation"
+                },
+                {
+                  "term": "concentration",
+                  "match": "more particles per volume \u2014 increases collision frequency"
+                },
+                {
+                  "term": "temperature",
+                  "match": "increases particle energy \u2014 more successful collisions"
+                },
+                {
+                  "term": "surface area",
+                  "match": "more particles exposed \u2014 increases collision frequency"
+                },
+                {
+                  "term": "dynamic equilibrium",
+                  "match": "forward and reverse reaction rates are equal"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Organic Chemistry",
+      "paper": "Paper 2",
+      "display_order": 5,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Hydrocarbons & Crude Oil",
+          "cards": [
+            {
+              "keyword": "crude oil",
+              "definition": "a fossil fuel \u2014 a mixture of hydrocarbons formed from ancient marine organisms over millions of years",
+              "display_order": 1
+            },
+            {
+              "keyword": "hydrocarbon",
+              "definition": "a compound containing only carbon and hydrogen atoms",
+              "display_order": 2
+            },
+            {
+              "keyword": "fractional distillation",
+              "definition": "the process separating crude oil into fractions based on different boiling points",
+              "display_order": 3
+            },
+            {
+              "keyword": "alkane",
+              "definition": "a saturated hydrocarbon with only single C-C bonds \u2014 general formula C\u2099H\u2082\u2099\u208a\u2082",
+              "display_order": 4
+            },
+            {
+              "keyword": "alkene",
+              "definition": "an unsaturated hydrocarbon with a C=C double bond \u2014 general formula C\u2099H\u2082\u2099 \u2014 more reactive than alkanes",
+              "display_order": 5
+            },
+            {
+              "keyword": "cracking",
+              "definition": "breaking down large hydrocarbon molecules into smaller, more useful ones using heat and a catalyst",
+              "display_order": 6
+            },
+            {
+              "keyword": "addition reaction",
+              "definition": "a reaction where atoms add across a double bond \u2014 e.g. ethene + bromine \u2192 dibromoethane",
+              "display_order": 7
+            },
+            {
+              "keyword": "polymerisation",
+              "definition": "joining many small monomer molecules together to form a long polymer chain",
+              "display_order": 8
+            },
+            {
+              "keyword": "combustion",
+              "definition": "burning a fuel in oxygen \u2014 complete combustion produces CO\u2082 and water; incomplete produces CO and soot",
+              "display_order": 9
+            },
+            {
+              "keyword": "bromine water test",
+              "definition": "used to distinguish alkanes from alkenes \u2014 alkenes decolourise bromine water (alkanes do not)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is fractional distillation used for?",
+              "options": [
+                "A) Making polymers",
+                "B) Separating crude oil into fractions",
+                "C) Cracking large hydrocarbons",
+                "D) Testing for unsaturation"
+              ],
+              "correct_answer": "B",
+              "explanation": "Fractional distillation separates crude oil into fractions with different boiling points \u2014 each fraction has different uses.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an alkane?",
+              "options": [
+                "A) An unsaturated hydrocarbon with a double bond",
+                "B) A saturated hydrocarbon with only single bonds",
+                "C) A hydrocarbon produced by cracking",
+                "D) A polymer"
+              ],
+              "correct_answer": "B",
+              "explanation": "Alkanes are saturated hydrocarbons \u2014 they only have C-C single bonds. General formula C\u2099H\u2082\u2099\u208a\u2082.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the general formula for alkenes?",
+              "options": [
+                "A) C\u2099H\u2082\u2099\u208a\u2082",
+                "B) C\u2099H\u2082\u2099\u208b\u2082",
+                "C) C\u2099H\u2082\u2099",
+                "D) C\u2099H\u2082\u2099\u208a\u2081"
+              ],
+              "correct_answer": "C",
+              "explanation": "Alkenes have the general formula C\u2099H\u2082\u2099. They have one C=C double bond, making them unsaturated.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is cracking?",
+              "options": [
+                "A) Joining small monomers into polymers",
+                "B) Breaking large hydrocarbons into smaller ones",
+                "C) Burning hydrocarbons in oxygen",
+                "D) Separating crude oil fractions"
+              ],
+              "correct_answer": "B",
+              "explanation": "Cracking uses high temperature and a catalyst to break down long-chain hydrocarbons into smaller, more useful molecules including alkenes.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How can you test for an alkene?",
+              "options": [
+                "A) Add sodium hydroxide",
+                "B) Add bromine water \u2014 alkenes decolourise it",
+                "C) Add pH indicator",
+                "D) Add litmus solution"
+              ],
+              "correct_answer": "B",
+              "explanation": "Alkenes decolourise bromine water because they react with bromine across the double bond. Alkanes have no effect on bromine water.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are the products of complete combustion of a hydrocarbon?",
+              "options": [
+                "A) Carbon monoxide and water",
+                "B) Carbon and water",
+                "C) Carbon dioxide and water",
+                "D) Carbon dioxide and hydrogen"
+              ],
+              "correct_answer": "C",
+              "explanation": "Complete combustion (excess oxygen): hydrocarbon + O\u2082 \u2192 CO\u2082 + H\u2082O. Incomplete combustion produces CO and soot.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is polymerisation?",
+              "options": [
+                "A) Breaking polymers into monomers",
+                "B) Cracking large hydrocarbons",
+                "C) Joining many monomers to form a polymer",
+                "D) Addition of bromine to a double bond"
+              ],
+              "correct_answer": "C",
+              "explanation": "Polymerisation links many small monomer molecules together through their double bonds to form long polymer chains.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What makes alkenes more reactive than alkanes?",
+              "options": [
+                "A) They are larger",
+                "B) They contain a C=C double bond",
+                "C) They are saturated",
+                "D) They have fewer hydrogen atoms"
+              ],
+              "correct_answer": "B",
+              "explanation": "The C=C double bond in alkenes is reactive \u2014 it can be broken in addition reactions. Alkanes only have single bonds and are much less reactive.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which product of incomplete combustion is toxic?",
+              "options": [
+                "A) Carbon dioxide",
+                "B) Water vapour",
+                "C) Carbon monoxide",
+                "D) Soot"
+              ],
+              "correct_answer": "C",
+              "explanation": "Carbon monoxide (CO) is produced by incomplete combustion. It is toxic because it binds to haemoglobin, preventing oxygen transport.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What property of crude oil fractions determines their separation?",
+              "options": [
+                "A) Density",
+                "B) Boiling point",
+                "C) Colour",
+                "D) Viscosity"
+              ],
+              "correct_answer": "B",
+              "explanation": "Fractions are separated by fractional distillation based on their different boiling points \u2014 smaller molecules have lower boiling points.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Crude oil is a mixture of hydrocarbons.",
+              "correct_answer": "True",
+              "explanation": "Crude oil is a complex mixture of many different hydrocarbons formed from ancient marine organisms.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Alkanes contain a carbon-carbon double bond.",
+              "correct_answer": "False",
+              "explanation": "Alkanes are saturated \u2014 they have only C-C single bonds. It is alkenes that contain C=C double bonds.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Cracking produces smaller, more useful hydrocarbons.",
+              "correct_answer": "True",
+              "explanation": "Cracking breaks long-chain hydrocarbons into shorter chains and alkenes, which are more in demand as fuels and chemical feedstocks.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Complete combustion of hydrocarbons produces CO\u2082 and water.",
+              "correct_answer": "True",
+              "explanation": "In excess oxygen, hydrocarbons combust completely to produce carbon dioxide and water.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Alkenes decolourise bromine water.",
+              "correct_answer": "True",
+              "explanation": "Alkenes react with bromine water by addition across the double bond \u2014 the orange bromine water is decolourised.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Polymerisation breaks polymers into monomers.",
+              "correct_answer": "False",
+              "explanation": "Polymerisation joins monomers together to form polymers. The reverse (breaking polymers) is depolymerisation.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Carbon monoxide is produced by complete combustion.",
+              "correct_answer": "False",
+              "explanation": "Carbon monoxide (CO) is produced by incomplete combustion when oxygen supply is limited.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Alkanes and alkenes have the same general formula.",
+              "correct_answer": "False",
+              "explanation": "Alkanes: C\u2099H\u2082\u2099\u208a\u2082. Alkenes: C\u2099H\u2082\u2099. Alkenes have two fewer hydrogen atoms due to the double bond.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Fractional distillation separates crude oil by boiling point.",
+              "correct_answer": "True",
+              "explanation": "Crude oil is heated and vapours condense at different heights in the fractionating column based on their boiling points.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Addition reactions occur across double bonds in alkenes.",
+              "correct_answer": "True",
+              "explanation": "In addition reactions, molecules add across the C=C double bond of an alkene, forming a single product with no other by-products.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Crude oil is separated into fractions by ________ distillation.",
+              "correct_answer": "fractional",
+              "explanation": "Fractional distillation separates crude oil fractions based on their different boiling points.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are saturated hydrocarbons with only single C-C bonds.",
+              "correct_answer": "Alkanes",
+              "explanation": "Alkanes have the general formula C\u2099H\u2082\u2099\u208a\u2082 and are relatively unreactive.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are unsaturated hydrocarbons containing a C=C double bond.",
+              "correct_answer": "Alkenes",
+              "explanation": "Alkenes (C\u2099H\u2082\u2099) are more reactive than alkanes due to their double bond.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ breaks large hydrocarbons into smaller, more useful molecules.",
+              "correct_answer": "Cracking",
+              "explanation": "Cracking uses heat and a catalyst to break C-C bonds in long-chain hydrocarbons.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Alkenes ________ bromine water \u2014 alkanes do not.",
+              "correct_answer": "decolourise",
+              "explanation": "Alkenes react with bromine across the double bond, removing the orange colour from bromine water.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Complete ________ of hydrocarbons produces carbon dioxide and water.",
+              "correct_answer": "combustion",
+              "explanation": "In excess oxygen, all carbon is oxidised to CO\u2082 and all hydrogen to H\u2082O.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ combustion produces carbon monoxide and soot.",
+              "correct_answer": "Incomplete",
+              "explanation": "Incomplete combustion occurs when oxygen supply is limited \u2014 toxic CO and unburned carbon (soot) are produced.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ joins many monomer molecules to form a long polymer chain.",
+              "correct_answer": "Polymerisation",
+              "explanation": "Addition polymerisation uses the double bonds in alkene monomers to link them into polymers.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ reaction adds atoms across the double bond of an alkene.",
+              "correct_answer": "addition",
+              "explanation": "In addition reactions, two reactants combine to form a single product \u2014 e.g. ethene + bromine \u2192 dibromoethane.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a compound containing only carbon and hydrogen atoms.",
+              "correct_answer": "hydrocarbon",
+              "explanation": "Crude oil is a mixture of hydrocarbons. Alkanes and alkenes are both types of hydrocarbon.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "alkane",
+                  "match": "saturated hydrocarbon \u2014 only single C-C bonds (C\u2099H\u2082\u2099\u208a\u2082)"
+                },
+                {
+                  "term": "alkene",
+                  "match": "unsaturated hydrocarbon \u2014 has C=C double bond (C\u2099H\u2082\u2099)"
+                },
+                {
+                  "term": "cracking",
+                  "match": "breaking large hydrocarbons into smaller ones"
+                },
+                {
+                  "term": "polymerisation",
+                  "match": "joining monomers to form a polymer"
+                },
+                {
+                  "term": "bromine water test",
+                  "match": "alkenes decolourise it \u2014 alkanes do not"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Separate Science Extra \u2014 Chemistry AQA",
+      "paper": "Paper 2",
+      "display_order": 7,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Separate Science: Quantitative Chemistry & Equilibrium",
+          "cards": [
+            {
+              "keyword": "percentage yield",
+              "definition": "actual yield \u00f7 theoretical yield \u00d7 100% \u2014 always \u2264 100%",
+              "display_order": 1
+            },
+            {
+              "keyword": "atom economy",
+              "definition": "Mr of desired product \u00f7 sum of Mr of all products \u00d7 100%",
+              "display_order": 2
+            },
+            {
+              "keyword": "limiting reactant",
+              "definition": "the reactant that runs out first \u2014 determines maximum product",
+              "display_order": 3
+            },
+            {
+              "keyword": "concentration",
+              "definition": "moles \u00f7 volume (mol/dm\u00b3) \u2014 amount of solute per unit volume",
+              "display_order": 4
+            },
+            {
+              "keyword": "Le Chatelier's principle",
+              "definition": "equilibrium shifts to oppose any imposed change",
+              "display_order": 5
+            },
+            {
+              "keyword": "Haber process",
+              "definition": "N\u2082 + 3H\u2082 \u21cc 2NH\u2083 \u2014 iron catalyst, 450\u00b0C, 200 atm",
+              "display_order": 6
+            },
+            {
+              "keyword": "strong vs weak acids",
+              "definition": "strong: fully ionise (HCl, H\u2082SO\u2084); weak: partially ionise (CH\u2083COOH)",
+              "display_order": 7
+            },
+            {
+              "keyword": "fuel cells",
+              "definition": "electrochemical cells \u2014 hydrogen + oxygen \u2192 water + electricity \u2014 no combustion",
+              "display_order": 8
+            },
+            {
+              "keyword": "chemical cells",
+              "definition": "batteries \u2014 chemical reactions produce electrical energy \u2014 e.g. zinc-copper cell",
+              "display_order": 9
+            },
+            {
+              "keyword": "titration",
+              "definition": "a method for finding the concentration of an acid or alkali using a known solution",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is percentage yield?",
+              "options": [
+                "A) Purity of product",
+                "B) Actual yield \u00f7 theoretical yield \u00d7 100%",
+                "C) Atom economy",
+                "D) Concentration of product"
+              ],
+              "correct_answer": "B",
+              "explanation": "Always \u2264 100% \u2014 reversible reactions, product loss, impure reactants.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is atom economy?",
+              "options": [
+                "A) Number of atoms in reactant",
+                "B) Mr desired product \u00f7 sum Mr all products \u00d7 100%",
+                "C) Moles used",
+                "D) Percentage yield"
+              ],
+              "correct_answer": "B",
+              "explanation": "High atom economy = less waste = more sustainable chemistry.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the limiting reactant?",
+              "options": [
+                "A) Largest amount",
+                "B) Always completely used regardless",
+                "C) Runs out first \u2014 determines maximum product",
+                "D) A catalyst"
+              ],
+              "correct_answer": "C",
+              "explanation": "Once limiting reactant is used up, the reaction stops.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are the conditions for the Haber process?",
+              "options": [
+                "A) 200\u00b0C, 10 atm, platinum",
+                "B) 450\u00b0C, 200 atm, iron catalyst",
+                "C) 1000\u00b0C, 100 atm",
+                "D) 50\u00b0C, 500 atm, nickel"
+              ],
+              "correct_answer": "B",
+              "explanation": "N\u2082 + 3H\u2082 \u21cc 2NH\u2083. Compromise conditions \u2014 good yield at acceptable rate.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Le Chatelier's principle?",
+              "options": [
+                "A) Catalysts shift equilibrium",
+                "B) Temperature always favours forward reaction",
+                "C) Equilibrium shifts to oppose any imposed change",
+                "D) Pressure only affects solid equilibria"
+              ],
+              "correct_answer": "C",
+              "explanation": "Increase pressure \u2192 shift to fewer moles of gas. Increase temperature \u2192 shift endothermic direction.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between strong and weak acids?",
+              "options": [
+                "A) Strong acids are more concentrated",
+                "B) Strong acids fully ionise; weak acids partially ionise",
+                "C) Weak acids have lower pH",
+                "D) No practical difference"
+              ],
+              "correct_answer": "B",
+              "explanation": "HCl fully ionises (strong). CH\u2083COOH partially ionises (weak) \u2014 solution contains acid molecules and ions.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a fuel cell?",
+              "options": [
+                "A) A battery",
+                "B) An electrochemical cell \u2014 hydrogen + oxygen \u2192 water + electricity",
+                "C) A combustion engine",
+                "D) A type of nuclear reactor"
+              ],
+              "correct_answer": "B",
+              "explanation": "Hydrogen fuel cells produce electricity without combustion \u2014 only water as by-product.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is titration used for?",
+              "options": [
+                "A) Measuring pH",
+                "B) Testing for ions",
+                "C) Finding concentration of acid/alkali using a known solution",
+                "D) Separating mixtures"
+              ],
+              "correct_answer": "C",
+              "explanation": "Titration: add acid to alkali (or vice versa) using a burette \u2014 indicator shows end point.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is atom economy measuring?",
+              "options": [
+                "A) Efficiency of a reaction only",
+                "B) How much of the reactants ends up in the desired product \u2014 waste indicator",
+                "C) Purity of a product",
+                "D) Speed of a reaction"
+              ],
+              "correct_answer": "B",
+              "explanation": "Atom economy = sustainable indicator. High AE = fewer waste products.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is percentage yield always less than 100%?",
+              "options": [
+                "A) Atom economy prevents it",
+                "B) Reversible reactions, product loss in transfers, impure reactants",
+                "C) Catalysts reduce yield",
+                "D) Only some atoms react"
+              ],
+              "correct_answer": "B",
+              "explanation": "Practical losses are unavoidable \u2014 reversible reactions don't go to completion.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Percentage yield is always \u2264 100%.",
+              "correct_answer": "True",
+              "explanation": "Practical losses prevent 100% yield.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "High atom economy means more waste.",
+              "correct_answer": "False",
+              "explanation": "High atom economy = LESS waste.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The limiting reactant is always in the smallest mass.",
+              "correct_answer": "False",
+              "explanation": "Limiting reactant runs out first \u2014 depends on molar quantities, not just mass.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The Haber process uses iron as a catalyst.",
+              "correct_answer": "True",
+              "explanation": "N\u2082 + 3H\u2082 \u21cc 2NH\u2083. 450\u00b0C, 200 atm, iron catalyst.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Le Chatelier: equilibrium shifts to reinforce disturbances.",
+              "correct_answer": "False",
+              "explanation": "Equilibrium shifts to OPPOSE disturbances.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Strong acids fully ionise in solution.",
+              "correct_answer": "True",
+              "explanation": "HCl \u2192 H\u207a + Cl\u207b (100%). Weak acids only partially ionise.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Fuel cells produce electricity by combustion.",
+              "correct_answer": "False",
+              "explanation": "Fuel cells are electrochemical \u2014 no combustion. Hydrogen + oxygen \u2192 water + electricity.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Increasing pressure always increases yield in the Haber process.",
+              "correct_answer": "True",
+              "explanation": "More pressure \u2192 equilibrium shifts to fewer moles of gas (right) \u2192 more NH\u2083.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Concentration = moles \u00f7 volume.",
+              "correct_answer": "True",
+              "explanation": "Units mol/dm\u00b3.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Titration can determine the concentration of an unknown acid.",
+              "correct_answer": "True",
+              "explanation": "Using a known alkali concentration and indicator to find the end point.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ yield = actual \u00f7 theoretical \u00d7 100%.",
+              "correct_answer": "Percentage",
+              "explanation": "Always \u2264 100%.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ economy = Mr desired product \u00f7 total Mr products \u00d7 100%.",
+              "correct_answer": "Atom",
+              "explanation": "High atom economy = sustainable = less waste.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ reactant runs out first and stops the reaction.",
+              "correct_answer": "limiting",
+              "explanation": "Other reactants remain in excess.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ process: N\u2082 + 3H\u2082 \u21cc 2NH\u2083 \u2014 450\u00b0C, 200 atm, iron catalyst.",
+              "correct_answer": "Haber",
+              "explanation": "Makes ammonia for fertilisers.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Le ________'s principle: equilibrium shifts to oppose changes.",
+              "correct_answer": "Chatelier",
+              "explanation": "Increase pressure \u2192 shift to fewer gas moles.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ acids fully ionise; ________ acids partially ionise.",
+              "correct_answer": "Strong, weak",
+              "explanation": "Strong: HCl. Weak: CH\u2083COOH.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ cells: hydrogen + oxygen \u2192 water + electricity.",
+              "correct_answer": "Fuel",
+              "explanation": "Electrochemical \u2014 no combustion. Only water produced.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ finds concentration of acid/alkali using a known solution.",
+              "correct_answer": "Titration",
+              "explanation": "Burette delivers solution; indicator shows end point.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = moles \u00f7 volume \u2014 mol/dm\u00b3.",
+              "correct_answer": "Concentration",
+              "explanation": "Volume in dm\u00b3.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ economy indicates sustainability \u2014 high value = less waste.",
+              "correct_answer": "Atom",
+              "explanation": "Desirable for green chemistry.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "percentage yield",
+                  "match": "actual \u00f7 theoretical \u00d7 100%"
+                },
+                {
+                  "term": "atom economy",
+                  "match": "desired Mr \u00f7 total products Mr \u00d7 100%"
+                },
+                {
+                  "term": "Haber process",
+                  "match": "N\u2082 + 3H\u2082 \u21cc 2NH\u2083 \u2014 iron, 450\u00b0C, 200 atm"
+                },
+                {
+                  "term": "Le Chatelier's principle",
+                  "match": "equilibrium opposes disturbances"
+                },
+                {
+                  "term": "strong vs weak acids",
+                  "match": "strong: fully ionise; weak: partially ionise"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

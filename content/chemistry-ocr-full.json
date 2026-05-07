@@ -1,0 +1,1459 @@
+{
+  "subject": {
+    "name": "Chemistry",
+    "slug": "chemistry",
+    "colour": "#0e7490",
+    "exam_board": "OCR",
+    "emoji": "⚗️"
+  },
+  "topics": [
+    {
+      "name": "Elements, Compounds & Mixtures",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Particles & Reactions",
+          "cards": [
+            {
+              "keyword": "atom",
+              "definition": "the smallest particle of an element — made of protons, neutrons, electrons",
+              "display_order": 1
+            },
+            {
+              "keyword": "element",
+              "definition": "a substance made of only one type of atom — cannot be broken down chemically",
+              "display_order": 2
+            },
+            {
+              "keyword": "compound",
+              "definition": "two or more elements chemically bonded — different properties from its elements",
+              "display_order": 3
+            },
+            {
+              "keyword": "mixture",
+              "definition": "two or more substances not chemically bonded — separated by physical methods",
+              "display_order": 4
+            },
+            {
+              "keyword": "pure substance",
+              "definition": "single element or compound with a fixed melting/boiling point",
+              "display_order": 5
+            },
+            {
+              "keyword": "chromatography",
+              "definition": "separates mixture components by different solubilities in a solvent",
+              "display_order": 6
+            },
+            {
+              "keyword": "Rf value",
+              "definition": "distance moved by spot ÷ distance moved by solvent front — identifies substances",
+              "display_order": 7
+            },
+            {
+              "keyword": "conservation of mass",
+              "definition": "total mass of reactants = total mass of products — atoms rearranged, not destroyed",
+              "display_order": 8
+            },
+            {
+              "keyword": "relative formula mass (Mr)",
+              "definition": "sum of all relative atomic masses in a formula",
+              "display_order": 9
+            },
+            {
+              "keyword": "mole",
+              "definition": "unit of amount — 1 mole = 6.02 × 10²³ particles — moles = mass ÷ Mr",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a compound?",
+              "options": [
+                "A) A mixture of elements",
+                "B) A single element",
+                "C) Two or more elements chemically bonded — different properties",
+                "D) A pure substance"
+              ],
+              "correct_answer": "C",
+              "explanation": "NaCl has very different properties from sodium (reactive metal) and chlorine (toxic gas).",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is conservation of mass?",
+              "options": [
+                "A) Mass increases in reactions",
+                "B) Mass decreases in exothermic reactions",
+                "C) Total mass of reactants = total mass of products — atoms rearranged, not destroyed",
+                "D) Only applies to physical changes"
+              ],
+              "correct_answer": "C",
+              "explanation": "Atoms are neither created nor destroyed — they are rearranged.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an Rf value?",
+              "options": [
+                "A) Rate of reaction",
+                "B) Distance solvent travels",
+                "C) Distance moved by spot ÷ distance moved by solvent front",
+                "D) Concentration of a solution"
+              ],
+              "correct_answer": "C",
+              "explanation": "Rf values between 0 and 1 — each substance has a characteristic Rf in a given solvent.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a mole?",
+              "options": [
+                "A) A unit of temperature",
+                "B) A unit of volume",
+                "C) A unit of amount — 1 mole = 6.02 × 10²³ particles",
+                "D) A unit of concentration"
+              ],
+              "correct_answer": "C",
+              "explanation": "Moles = mass ÷ Mr. Links mass to number of particles.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is relative formula mass?",
+              "options": [
+                "A) Mass of one atom",
+                "B) Sum of all atomic masses in a formula",
+                "C) Number of moles in a compound",
+                "D) Density of a compound"
+              ],
+              "correct_answer": "B",
+              "explanation": "Mr = sum of all Ar values. E.g. H₂O: (2×1) + 16 = 18.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is chromatography used for?",
+              "options": [
+                "A) Measuring melting points",
+                "B) Calculating moles",
+                "C) Separating mixture components by different solubilities",
+                "D) Testing for ions"
+              ],
+              "correct_answer": "C",
+              "explanation": "Components travel different distances depending on solubility in the solvent.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a pure substance?",
+              "options": [
+                "A) A mixture",
+                "B) A substance with a fixed melting/boiling point — single element or compound",
+                "C) Any natural substance",
+                "D) A colourless substance"
+              ],
+              "correct_answer": "B",
+              "explanation": "A pure substance has a sharp, fixed melting point — impurities lower and broaden it.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between a mixture and a compound?",
+              "options": [
+                "A) Same thing",
+                "B) Compounds separated physically; mixtures cannot",
+                "C) Mixtures not chemically bonded — separated physically; compounds require chemical reactions",
+                "D) Only compounds contain carbon"
+              ],
+              "correct_answer": "C",
+              "explanation": "In mixtures, substances retain their individual properties and can be separated physically.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How are moles calculated?",
+              "options": [
+                "A) Moles = Mr ÷ mass",
+                "B) Moles = mass × Mr",
+                "C) Moles = mass ÷ Mr",
+                "D) Moles = volume ÷ mass"
+              ],
+              "correct_answer": "C",
+              "explanation": "Moles = mass ÷ Mr. E.g. 18g of water (Mr = 18) = 1 mole.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an element?",
+              "options": [
+                "A) Two or more atoms bonded",
+                "B) A mixture of atoms",
+                "C) A substance made of only one type of atom — cannot be chemically broken down",
+                "D) A compound with one element"
+              ],
+              "correct_answer": "C",
+              "explanation": "All atoms of an element have the same atomic number.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "A compound has different properties from its elements.",
+              "correct_answer": "True",
+              "explanation": "NaCl (safe) ≠ Na (explosive) + Cl₂ (toxic).",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Mass is lost in chemical reactions.",
+              "correct_answer": "False",
+              "explanation": "Conservation of mass: reactant mass = product mass.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Rf values are between 0 and 1.",
+              "correct_answer": "True",
+              "explanation": "Rf = distance by substance ÷ distance by solvent. Max = 1.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "One mole = 6.02 × 10²³ particles.",
+              "correct_answer": "True",
+              "explanation": "Avogadro's constant.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "A pure substance has a range of melting points.",
+              "correct_answer": "False",
+              "explanation": "Pure substances have a FIXED, SHARP melting point.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Mixtures can be separated by physical methods.",
+              "correct_answer": "True",
+              "explanation": "Filtration, distillation, chromatography.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Mr is the sum of all atomic masses in a formula.",
+              "correct_answer": "True",
+              "explanation": "E.g. CO₂: 12 + (2×16) = 44.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Compounds can be separated by physical methods.",
+              "correct_answer": "False",
+              "explanation": "Compounds require CHEMICAL reactions to separate.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Moles = mass × Mr.",
+              "correct_answer": "False",
+              "explanation": "Moles = mass ÷ Mr (divided, not multiplied).",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Chromatography separates by differences in solubility.",
+              "correct_answer": "True",
+              "explanation": "Components travel different distances in the solvent.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is two or more elements chemically bonded.",
+              "correct_answer": "compound",
+              "explanation": "Different properties from constituent elements.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Conservation of ________: reactant mass = product mass.",
+              "correct_answer": "mass",
+              "explanation": "Atoms rearranged — not created or destroyed.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = distance by spot ÷ distance by solvent front.",
+              "correct_answer": "Rf value",
+              "explanation": "Between 0 and 1 — identifies substances in chromatography.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ has a fixed melting/boiling point.",
+              "correct_answer": "pure substance",
+              "explanation": "Impurities lower and broaden the melting point.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = mass ÷ Mr — unit of amount.",
+              "correct_answer": "Moles",
+              "explanation": "1 mole = 6.02 × 10²³ particles.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Relative ________ mass = sum of all atomic masses in the formula.",
+              "correct_answer": "formula",
+              "explanation": "E.g. H₂O: (2×1) + 16 = 18.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ separates components by different solubilities in a solvent.",
+              "correct_answer": "Chromatography",
+              "explanation": "Used to identify unknown substances by Rf values.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ is one type of atom only — cannot be broken down chemically.",
+              "correct_answer": "element",
+              "explanation": "118 known elements in the periodic table.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ contains two or more substances NOT chemically bonded.",
+              "correct_answer": "mixture",
+              "explanation": "Separated by physical methods.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "1 mole contains 6.02 × 10²³ particles — ________'s constant.",
+              "correct_answer": "Avogadro",
+              "explanation": "Links mass to number of particles.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "compound",
+                  "match": "elements chemically bonded — different properties"
+                },
+                {
+                  "term": "mixture",
+                  "match": "not chemically bonded — separated physically"
+                },
+                {
+                  "term": "conservation of mass",
+                  "match": "reactant mass = product mass"
+                },
+                {
+                  "term": "moles",
+                  "match": "mass ÷ Mr — 1 mole = 6.02 × 10²³ particles"
+                },
+                {
+                  "term": "Rf value",
+                  "match": "distance by spot ÷ distance by solvent — identifies substances"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bonding & Structure",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Bonding, Structure & Properties",
+          "cards": [
+            {
+              "keyword": "ionic bonding",
+              "definition": "transfer of electrons — positive and negative ions attracted — e.g. NaCl",
+              "display_order": 1
+            },
+            {
+              "keyword": "covalent bonding",
+              "definition": "sharing of electron pairs between non-metals — e.g. H₂O, CO₂",
+              "display_order": 2
+            },
+            {
+              "keyword": "metallic bonding",
+              "definition": "positive ions in a sea of delocalised electrons — good conductor",
+              "display_order": 3
+            },
+            {
+              "keyword": "ionic lattice",
+              "definition": "regular 3D arrangement of oppositely charged ions — high melting point",
+              "display_order": 4
+            },
+            {
+              "keyword": "simple molecular",
+              "definition": "covalent molecules with weak intermolecular forces — low melting point, no conductivity",
+              "display_order": 5
+            },
+            {
+              "keyword": "giant covalent",
+              "definition": "network of covalent bonds — very high melting point — diamond, silicon dioxide",
+              "display_order": 6
+            },
+            {
+              "keyword": "diamond",
+              "definition": "each C bonded to 4 others — very hard, high mp, no conductivity",
+              "display_order": 7
+            },
+            {
+              "keyword": "graphite",
+              "definition": "each C bonded to 3 — layers slide — conducts electricity via delocalised electrons",
+              "display_order": 8
+            },
+            {
+              "keyword": "polymer",
+              "definition": "long chain molecule of repeating monomer units — e.g. polythene from ethene",
+              "display_order": 9
+            },
+            {
+              "keyword": "nanoparticles",
+              "definition": "1–100 nm particles — very high surface area:volume ratio",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is ionic bonding?",
+              "options": [
+                "A) Sharing electrons",
+                "B) Transfer of electrons — positive and negative ions attracted",
+                "C) Metallic bonding",
+                "D) Covalent bonds"
+              ],
+              "correct_answer": "B",
+              "explanation": "Metal loses electrons (positive ion); non-metal gains (negative ion) → electrostatic attraction.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is covalent bonding?",
+              "options": [
+                "A) Electron transfer",
+                "B) Sharing electron pairs between non-metals",
+                "C) Attraction between ions",
+                "D) Delocalised electrons"
+              ],
+              "correct_answer": "B",
+              "explanation": "Covalent bonds: non-metals share electron pairs to achieve full outer shells.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why do ionic compounds have high melting points?",
+              "options": [
+                "A) Strong covalent bonds",
+                "B) Strong electrostatic attraction between many ions in the lattice",
+                "C) Metallic bonding",
+                "D) Weak forces between molecules"
+              ],
+              "correct_answer": "B",
+              "explanation": "Ionic lattices: strong electrostatic forces throughout — much energy needed to break apart.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does graphite conduct electricity?",
+              "options": [
+                "A) Has ionic bonds",
+                "B) Delocalised electrons free to carry charge — one electron per carbon not in a bond",
+                "C) Weak forces between layers",
+                "D) Same as diamond"
+              ],
+              "correct_answer": "B",
+              "explanation": "Each carbon in graphite forms 3 bonds — one delocalised electron per carbon free to carry charge.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why do simple molecular compounds have low melting points?",
+              "options": [
+                "A) Covalent bonds break easily",
+                "B) Weak intermolecular forces between molecules — easily overcome",
+                "C) No bonds to break",
+                "D) Ionic bonds break easily"
+              ],
+              "correct_answer": "B",
+              "explanation": "Only weak intermolecular forces (not covalent bonds) need to be broken — little energy required.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is metallic bonding?",
+              "options": [
+                "A) Transfer of electrons",
+                "B) Positive metal ions in a sea of delocalised electrons",
+                "C) Covalent bonds between metals",
+                "D) Ionic attraction"
+              ],
+              "correct_answer": "B",
+              "explanation": "Delocalised electrons carry charge and heat — explain electrical and thermal conductivity.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a polymer?",
+              "options": [
+                "A) A single covalent molecule",
+                "B) Long chain molecule made of repeating monomers",
+                "C) An ionic compound",
+                "D) A nanoparticle"
+              ],
+              "correct_answer": "B",
+              "explanation": "E.g. polythene made from many ethene monomers joined together.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is diamond very hard?",
+              "options": [
+                "A) Weak bonds between layers",
+                "B) Ionic bonds",
+                "C) Each carbon bonded to 4 others — rigid 3D covalent network",
+                "D) Delocalised electrons"
+              ],
+              "correct_answer": "C",
+              "explanation": "All 4 outer electrons form bonds — completely rigid structure.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a nanoparticle?",
+              "options": [
+                "A) A large particle",
+                "B) A particle 1–100 nm — very high SA:V ratio",
+                "C) An ionic compound",
+                "D) Only made of carbon"
+              ],
+              "correct_answer": "B",
+              "explanation": "Very high SA:V gives unique properties compared to bulk materials.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between diamond and graphite?",
+              "options": [
+                "A) Same structure",
+                "B) Diamond: 4 bonds per C, no conductivity; graphite: 3 bonds per C, conducts",
+                "C) Graphite: 3D network",
+                "D) Diamond has layers"
+              ],
+              "correct_answer": "B",
+              "explanation": "Diamond: tetrahedral 4-bond structure, very hard, no free electrons. Graphite: layered, one delocalised electron per C.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Ionic bonding involves sharing electrons.",
+              "correct_answer": "False",
+              "explanation": "Ionic bonding involves TRANSFER — covalent bonding involves sharing.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Ionic compounds conduct when solid.",
+              "correct_answer": "False",
+              "explanation": "Conduct only when MOLTEN or DISSOLVED — ions need to be free.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Simple molecular compounds have high melting points.",
+              "correct_answer": "False",
+              "explanation": "LOW melting points — weak intermolecular forces.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Graphite conducts due to delocalised electrons.",
+              "correct_answer": "True",
+              "explanation": "One delocalised electron per carbon.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Nanoparticles have a low SA:V ratio.",
+              "correct_answer": "False",
+              "explanation": "Nanoparticles have VERY HIGH SA:V ratio.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Metallic bonding explains electrical conductivity.",
+              "correct_answer": "True",
+              "explanation": "Delocalised electrons carry charge.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Diamond is soft because bonds between layers are weak.",
+              "correct_answer": "False",
+              "explanation": "Diamond has NO layers — rigid 3D network. Graphite has weak forces between layers.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Polymers are made of repeating monomer units.",
+              "correct_answer": "True",
+              "explanation": "Polymerisation joins many monomers into long chains.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Covalent bonds involve electron transfer.",
+              "correct_answer": "False",
+              "explanation": "Covalent bonds involve SHARING — transfer is ionic.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Giant covalent structures have very high melting points.",
+              "correct_answer": "True",
+              "explanation": "Many strong covalent bonds must be broken.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ bonding: electron transfer — positive and negative ions attract.",
+              "correct_answer": "Ionic",
+              "explanation": "Metal → positive; non-metal → negative.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ bonding: sharing electron pairs between non-metals.",
+              "correct_answer": "Covalent",
+              "explanation": "Shared electrons give both atoms full outer shells.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ bonding: positive ions in sea of delocalised electrons.",
+              "correct_answer": "Metallic",
+              "explanation": "Explains conductivity and malleability.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ has 4 bonds per C — rigid — hard — no conductivity.",
+              "correct_answer": "Diamond",
+              "explanation": "All 4 electrons in bonds — none free.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ has 3 bonds per C — layered — conducts electricity.",
+              "correct_answer": "Graphite",
+              "explanation": "One delocalised electron per carbon.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Simple ________ structures have low melting points — weak intermolecular forces.",
+              "correct_answer": "molecular",
+              "explanation": "Covalent bonds not broken — only weak forces.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ covalent structures have very high melting points.",
+              "correct_answer": "Giant",
+              "explanation": "E.g. diamond, silicon dioxide.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a long chain of repeating monomer units.",
+              "correct_answer": "polymer",
+              "explanation": "E.g. polythene from ethene.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are 1–100 nm particles — very high SA:V ratio.",
+              "correct_answer": "Nanoparticles",
+              "explanation": "Used in medicine, sunscreens, electronics.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ionic ________ has high melting point — strong electrostatic forces throughout.",
+              "correct_answer": "lattice",
+              "explanation": "Regular 3D arrangement of oppositely charged ions.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "ionic bonding",
+                  "match": "electron transfer — positive + negative ions"
+                },
+                {
+                  "term": "covalent bonding",
+                  "match": "sharing electrons between non-metals"
+                },
+                {
+                  "term": "diamond",
+                  "match": "4 bonds per C — hard — no conductivity"
+                },
+                {
+                  "term": "graphite",
+                  "match": "3 bonds per C — layers — conducts"
+                },
+                {
+                  "term": "metallic bonding",
+                  "match": "delocalised electrons — conducts electricity"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chemical Reactions & Energy",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Acids, Rates & Energy",
+          "cards": [
+            {
+              "keyword": "acid",
+              "definition": "produces H⁺ ions in solution — pH below 7",
+              "display_order": 1
+            },
+            {
+              "keyword": "alkali",
+              "definition": "soluble base — produces OH⁻ ions — pH above 7",
+              "display_order": 2
+            },
+            {
+              "keyword": "neutralisation",
+              "definition": "acid + base → salt + water",
+              "display_order": 3
+            },
+            {
+              "keyword": "rate of reaction",
+              "definition": "how fast a reaction occurs — affected by temperature, concentration, surface area, catalyst",
+              "display_order": 4
+            },
+            {
+              "keyword": "collision theory",
+              "definition": "particles must collide with ≥ activation energy — more collisions = faster rate",
+              "display_order": 5
+            },
+            {
+              "keyword": "catalyst",
+              "definition": "speeds up reaction by lowering activation energy — not consumed",
+              "display_order": 6
+            },
+            {
+              "keyword": "exothermic reaction",
+              "definition": "releases heat — temperature of surroundings rises — e.g. combustion, neutralisation",
+              "display_order": 7
+            },
+            {
+              "keyword": "endothermic reaction",
+              "definition": "absorbs heat — temperature of surroundings falls — e.g. thermal decomposition",
+              "display_order": 8
+            },
+            {
+              "keyword": "reversible reaction",
+              "definition": "can go forwards and backwards — ⇌ symbol",
+              "display_order": 9
+            },
+            {
+              "keyword": "dynamic equilibrium",
+              "definition": "forward and reverse rates equal — concentrations constant",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is neutralisation?",
+              "options": [
+                "A) Dissolving a metal in acid",
+                "B) Acid + base → salt + water",
+                "C) Electrolysis of a salt",
+                "D) A displacement reaction"
+              ],
+              "correct_answer": "B",
+              "explanation": "H⁺ + OH⁻ → H₂O. Acid + base always gives salt and water.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does collision theory state?",
+              "options": [
+                "A) All collisions lead to reactions",
+                "B) Particles must collide with ≥ activation energy for a reaction",
+                "C) More particles always means faster reactions",
+                "D) Temperature only affects frequency"
+              ],
+              "correct_answer": "B",
+              "explanation": "Successful collisions need correct orientation AND sufficient energy.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a catalyst?",
+              "options": [
+                "A) A reactant consumed",
+                "B) Speeds up reaction by lowering activation energy — not consumed",
+                "C) A product of the reaction",
+                "D) Slows reactions"
+              ],
+              "correct_answer": "B",
+              "explanation": "Catalysts provide an alternative lower-energy pathway — more collisions are successful.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is exothermic?",
+              "options": [
+                "A) Absorbs heat from surroundings",
+                "B) Releases heat — temperature rises",
+                "C) Releases light only",
+                "D) Requires constant heat"
+              ],
+              "correct_answer": "B",
+              "explanation": "Exothermic: energy released. E.g. combustion, neutralisation.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is dynamic equilibrium?",
+              "options": [
+                "A) Reaction has stopped",
+                "B) Forward and reverse rates equal — concentrations stay constant",
+                "C) All reactants converted to products",
+                "D) Very fast rate"
+              ],
+              "correct_answer": "B",
+              "explanation": "At dynamic equilibrium both directions continue — rates are equal, not concentrations.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does temperature affect rate?",
+              "options": [
+                "A) No effect",
+                "B) Higher temperature: more collisions with sufficient energy — faster rate",
+                "C) Higher temperature: fewer collisions",
+                "D) Only affects catalyst"
+              ],
+              "correct_answer": "B",
+              "explanation": "Higher temp → more kinetic energy → more frequent and energetic collisions → faster rate.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an acid?",
+              "options": [
+                "A) pH above 7",
+                "B) Produces H⁺ in solution — pH below 7",
+                "C) Produces OH⁻",
+                "D) Any substance dissolving in water"
+              ],
+              "correct_answer": "B",
+              "explanation": "Strong acids fully ionise (HCl); weak acids partially ionise (CH₃COOH).",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is formed when acid reacts with carbonate?",
+              "options": [
+                "A) Salt + water",
+                "B) Salt + water + carbon dioxide",
+                "C) Salt + hydrogen",
+                "D) Only CO₂"
+              ],
+              "correct_answer": "B",
+              "explanation": "Acid + carbonate → salt + water + CO₂.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an endothermic reaction?",
+              "options": [
+                "A) Releases heat",
+                "B) Absorbs heat from surroundings — temperature drops",
+                "C) Any combustion",
+                "D) Any neutralisation"
+              ],
+              "correct_answer": "B",
+              "explanation": "Endothermic: temperature of surroundings drops. E.g. thermal decomposition.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a reversible reaction?",
+              "options": [
+                "A) Always goes to completion",
+                "B) Can proceed forwards and backwards — shown by ⇌",
+                "C) Only endothermic reactions",
+                "D) A reaction that cannot reach equilibrium"
+              ],
+              "correct_answer": "B",
+              "explanation": "Reversible reactions: products can reform reactants. Reach dynamic equilibrium in a closed system.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Neutralisation: acid + base → salt + water.",
+              "correct_answer": "True",
+              "explanation": "H⁺ + OH⁻ → H₂O.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Catalysts are consumed in reactions.",
+              "correct_answer": "False",
+              "explanation": "Catalysts lower activation energy — not consumed.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Exothermic reactions absorb heat.",
+              "correct_answer": "False",
+              "explanation": "Exothermic reactions RELEASE heat — temperature rises.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Increasing temperature increases reaction rate.",
+              "correct_answer": "True",
+              "explanation": "More kinetic energy → more successful collisions.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "At equilibrium the reaction has stopped.",
+              "correct_answer": "False",
+              "explanation": "At equilibrium forward and reverse rates are equal — reaction continues.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Acids produce H⁺ ions in solution.",
+              "correct_answer": "True",
+              "explanation": "Strong acids fully ionise; weak acids partially ionise.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Acid + carbonate → salt + water + hydrogen.",
+              "correct_answer": "False",
+              "explanation": "Acid + carbonate → salt + water + CARBON DIOXIDE.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Endothermic reactions show a temperature decrease.",
+              "correct_answer": "True",
+              "explanation": "Energy absorbed from surroundings → surroundings cool.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Catalysts increase activation energy.",
+              "correct_answer": "False",
+              "explanation": "Catalysts LOWER activation energy.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Reversible reactions use the ⇌ symbol.",
+              "correct_answer": "True",
+              "explanation": "The double arrow shows the reaction can go in both directions.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ + base → salt + water.",
+              "correct_answer": "Acid/Neutralisation",
+              "explanation": "H⁺ + OH⁻ → H₂O.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ theory: particles must collide with ≥ activation energy.",
+              "correct_answer": "Collision",
+              "explanation": "Correct orientation AND sufficient energy required.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ lowers activation energy — not consumed.",
+              "correct_answer": "catalyst",
+              "explanation": "Provides alternative lower-energy pathway.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ reactions release heat — temperature rises.",
+              "correct_answer": "Exothermic",
+              "explanation": "Combustion, neutralisation.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ reactions absorb heat — temperature falls.",
+              "correct_answer": "Endothermic",
+              "explanation": "Thermal decomposition.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Higher ________ means more particles have ≥ activation energy — faster rate.",
+              "correct_answer": "temperature",
+              "explanation": "More kinetic energy → more successful collisions.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ equilibrium: forward and reverse rates equal — concentrations constant.",
+              "correct_answer": "Dynamic",
+              "explanation": "Reaction has NOT stopped — both directions continue.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ reactions can go forwards and backwards — shown by ⇌.",
+              "correct_answer": "Reversible",
+              "explanation": "Reach dynamic equilibrium in a closed system.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Acid + carbonate → salt + water + ________.",
+              "correct_answer": "carbon dioxide",
+              "explanation": "CO₂ can be tested with limewater.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ is a substance producing H⁺ ions — pH below 7.",
+              "correct_answer": "acid",
+              "explanation": "Strong acids fully ionise; weak acids partially ionise.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "neutralisation",
+                  "match": "acid + base → salt + water"
+                },
+                {
+                  "term": "catalyst",
+                  "match": "lowers activation energy — not consumed"
+                },
+                {
+                  "term": "exothermic",
+                  "match": "releases heat — temperature rises"
+                },
+                {
+                  "term": "endothermic",
+                  "match": "absorbs heat — temperature falls"
+                },
+                {
+                  "term": "dynamic equilibrium",
+                  "match": "equal rates forward/reverse — concentrations constant"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Separate Science Extra — Chemistry OCR",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Separate Science: Quantitative Chemistry & Organic Chemistry",
+          "cards": [
+            {
+              "keyword": "percentage yield",
+              "definition": "actual yield ÷ theoretical yield × 100% — always ≤ 100%",
+              "display_order": 1
+            },
+            {
+              "keyword": "atom economy",
+              "definition": "Mr of desired product ÷ sum of Mr of all products × 100%",
+              "display_order": 2
+            },
+            {
+              "keyword": "limiting reactant",
+              "definition": "the reactant that runs out first — determines maximum product",
+              "display_order": 3
+            },
+            {
+              "keyword": "concentration",
+              "definition": "moles ÷ volume (mol/dm³) — amount of solute in a given volume",
+              "display_order": 4
+            },
+            {
+              "keyword": "Le Chatelier's principle",
+              "definition": "equilibrium shifts to oppose any imposed change",
+              "display_order": 5
+            },
+            {
+              "keyword": "alkanes",
+              "definition": "saturated hydrocarbons — CₙH₂ₙ₊₂ — only single C-C bonds",
+              "display_order": 6
+            },
+            {
+              "keyword": "alkenes",
+              "definition": "unsaturated hydrocarbons — CₙH₂ₙ — contain C=C double bond",
+              "display_order": 7
+            },
+            {
+              "keyword": "addition reaction",
+              "definition": "reaction across a C=C double bond — e.g. bromine water decolourised by alkenes",
+              "display_order": 8
+            },
+            {
+              "keyword": "cracking",
+              "definition": "thermal or catalytic breaking of long alkane chains — produces shorter alkanes and alkenes",
+              "display_order": 9
+            },
+            {
+              "keyword": "addition polymerisation",
+              "definition": "many alkene monomers join together — e.g. ethene → polythene",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is percentage yield?",
+              "options": [
+                "A) Purity of product",
+                "B) Actual yield ÷ theoretical yield × 100%",
+                "C) Atom economy",
+                "D) Concentration of product"
+              ],
+              "correct_answer": "B",
+              "explanation": "Always ≤ 100% — practical losses from reversible reactions, product loss, impure reactants.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is atom economy?",
+              "options": [
+                "A) Number of atoms in reactant",
+                "B) Mr of desired product ÷ sum of Mr of all products × 100%",
+                "C) Moles of reactant",
+                "D) Percentage yield"
+              ],
+              "correct_answer": "B",
+              "explanation": "High atom economy = more atoms in desired product = less waste = more sustainable.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a limiting reactant?",
+              "options": [
+                "A) Reactant in largest amount",
+                "B) Reactant always completely used regardless",
+                "C) Reactant that runs out first — determines maximum product",
+                "D) A catalyst"
+              ],
+              "correct_answer": "C",
+              "explanation": "Once the limiting reactant is used up, the reaction stops.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Le Chatelier's principle?",
+              "options": [
+                "A) Catalysts shift equilibrium",
+                "B) Temperature always favours forward reaction",
+                "C) Equilibrium shifts to oppose any imposed change",
+                "D) Pressure only affects solid equilibria"
+              ],
+              "correct_answer": "C",
+              "explanation": "Increase concentration → shift to use it up. Increase temperature → shift endothermic. Increase pressure → shift to fewer moles of gas.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between alkanes and alkenes?",
+              "options": [
+                "A) Same formula",
+                "B) Alkanes: only single C-C bonds (saturated); alkenes: contain C=C double bond (unsaturated)",
+                "C) Alkenes have only single bonds",
+                "D) Alkanes are liquids; alkenes are gases"
+              ],
+              "correct_answer": "B",
+              "explanation": "Alkanes: CₙH₂ₙ₊₂, saturated. Alkenes: CₙH₂ₙ, unsaturated, reactive C=C double bond.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do you test for an alkene?",
+              "options": [
+                "A) Add universal indicator",
+                "B) Burn and test for CO₂",
+                "C) Add bromine water — decolourises if alkene present",
+                "D) Add acid"
+              ],
+              "correct_answer": "C",
+              "explanation": "Alkenes decolourise orange bromine water by an addition reaction across the C=C bond.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is cracking?",
+              "options": [
+                "A) Separation by distillation",
+                "B) Breaking long alkane chains into shorter chains and alkenes",
+                "C) Polymerisation of alkenes",
+                "D) Combustion of alkanes"
+              ],
+              "correct_answer": "B",
+              "explanation": "Thermal or catalytic cracking produces shorter, more useful alkane fractions and alkene monomers.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is addition polymerisation?",
+              "options": [
+                "A) Monomers joined with water released",
+                "B) Many alkene monomers joining together — C=C opens — long polymer chain formed",
+                "C) Breaking down polymers",
+                "D) Adding monomers to a solution"
+              ],
+              "correct_answer": "B",
+              "explanation": "E.g. many ethene molecules → polythene. The C=C double bonds open and join — no other products.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is concentration in chemistry?",
+              "options": [
+                "A) Mass of solute",
+                "B) Amount of solute per unit volume — moles ÷ volume (mol/dm³)",
+                "C) Volume of solution",
+                "D) Mass of solution"
+              ],
+              "correct_answer": "B",
+              "explanation": "Concentration = moles ÷ volume (dm³). Units: mol/dm³.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an addition reaction?",
+              "options": [
+                "A) Reaction producing water",
+                "B) Reaction adding atoms across a C=C double bond",
+                "C) Breaking a C-C single bond",
+                "D) A type of polymerisation only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Addition reactions: small molecules add across the C=C — e.g. H₂ added (hydrogenation), Br₂ added (bromine water test).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Percentage yield is always ≤ 100%.",
+              "correct_answer": "True",
+              "explanation": "Practical losses mean 100% yield is never achieved.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "High atom economy produces more waste.",
+              "correct_answer": "False",
+              "explanation": "HIGH atom economy = LESS waste.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The limiting reactant is in the largest amount.",
+              "correct_answer": "False",
+              "explanation": "Limiting reactant runs out FIRST — may not be in largest amount.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Le Chatelier: equilibrium shifts to reinforce disturbances.",
+              "correct_answer": "False",
+              "explanation": "Equilibrium shifts to OPPOSE disturbances.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Alkenes are saturated hydrocarbons.",
+              "correct_answer": "False",
+              "explanation": "Alkenes are UNSATURATED — they contain a C=C double bond. Alkanes are saturated.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Bromine water tests for alkenes.",
+              "correct_answer": "True",
+              "explanation": "Alkenes decolourise orange bromine water — addition reaction across C=C.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Cracking produces alkenes.",
+              "correct_answer": "True",
+              "explanation": "Cracking breaks long alkanes — producing shorter chains and reactive alkenes.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Addition polymerisation releases water.",
+              "correct_answer": "False",
+              "explanation": "Addition polymerisation: no water released — all atoms from monomers end up in the polymer.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Concentration = moles ÷ volume.",
+              "correct_answer": "True",
+              "explanation": "Units: mol/dm³.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Alkanes have the formula CₙH₂ₙ₊₂.",
+              "correct_answer": "True",
+              "explanation": "Saturated hydrocarbons — only single C-C bonds.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ yield = actual ÷ theoretical × 100% — always ≤ 100%.",
+              "correct_answer": "Percentage",
+              "explanation": "Practical losses prevent 100% yield.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ economy = Mr of desired product ÷ total Mr × 100%.",
+              "correct_answer": "Atom",
+              "explanation": "High atom economy = sustainable = less waste.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ reactant runs out first — determines maximum product.",
+              "correct_answer": "limiting",
+              "explanation": "Other reactants remain in excess.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Le ________'s principle: equilibrium shifts to oppose changes.",
+              "correct_answer": "Chatelier",
+              "explanation": "Increase pressure → shift to fewer moles of gas.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are saturated hydrocarbons — CₙH₂ₙ₊₂ — only single bonds.",
+              "correct_answer": "Alkanes",
+              "explanation": "Methane, ethane, propane.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are unsaturated hydrocarbons — CₙH₂ₙ — contain C=C.",
+              "correct_answer": "Alkenes",
+              "explanation": "Ethene, propene.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ water decolourises in the presence of an alkene — addition reaction.",
+              "correct_answer": "Bromine",
+              "explanation": "Tests for C=C double bond.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ breaks long alkane chains → shorter chains + alkenes.",
+              "correct_answer": "Cracking",
+              "explanation": "Thermal or catalytic.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Addition ________ joins many alkene monomers — C=C opens — long chain.",
+              "correct_answer": "polymerisation",
+              "explanation": "E.g. ethene → polythene. No by-products.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = moles ÷ volume — measured in mol/dm³.",
+              "correct_answer": "Concentration",
+              "explanation": "Volume must be in dm³.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "percentage yield",
+                  "match": "actual ÷ theoretical × 100%"
+                },
+                {
+                  "term": "atom economy",
+                  "match": "desired Mr ÷ all products Mr × 100%"
+                },
+                {
+                  "term": "alkanes",
+                  "match": "saturated — CₙH₂ₙ₊₂ — single bonds only"
+                },
+                {
+                  "term": "alkenes",
+                  "match": "unsaturated — CₙH₂ₙ — C=C double bond"
+                },
+                {
+                  "term": "Le Chatelier's principle",
+                  "match": "equilibrium shifts to oppose disturbances"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

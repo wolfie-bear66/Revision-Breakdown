@@ -1,0 +1,1814 @@
+{
+  "subject": {
+    "name": "English Literature",
+    "slug": "english-literature",
+    "colour": "#6d28d9",
+    "exam_board": "AQA",
+    "emoji": "📖"
+  },
+  "topics": [
+    {
+      "name": "Macbeth — Shakespeare",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Macbeth — Characters",
+          "cards": [
+            {
+              "keyword": "Macbeth",
+              "definition": "the protagonist — a brave general who becomes a murderous tyrant, driven by ambition and manipulated by the witches and Lady Macbeth",
+              "display_order": 1
+            },
+            {
+              "keyword": "Lady Macbeth",
+              "definition": "Macbeth's wife — initially the dominant partner who urges murder; later consumed by guilt and descends into madness",
+              "display_order": 2
+            },
+            {
+              "keyword": "the witches (Weird Sisters)",
+              "definition": "three supernatural figures who deliver prophecies — they tempt Macbeth but never directly cause his actions",
+              "display_order": 3
+            },
+            {
+              "keyword": "Banquo",
+              "definition": "Macbeth's loyal friend — the witches prophesy his descendants will be kings; Macbeth has him murdered",
+              "display_order": 4
+            },
+            {
+              "keyword": "Duncan",
+              "definition": "the virtuous King of Scotland murdered by Macbeth — his death represents the destruction of order and legitimacy",
+              "display_order": 5
+            },
+            {
+              "keyword": "Macduff",
+              "definition": "a Scottish nobleman who becomes Macbeth's nemesis — eventually kills Macbeth and restores order",
+              "display_order": 6
+            },
+            {
+              "keyword": "Malcolm",
+              "definition": "Duncan's son and rightful heir — flees after his father's murder but returns to claim the throne",
+              "display_order": 7
+            },
+            {
+              "keyword": "Hecate",
+              "definition": "the goddess of witchcraft who appears briefly — used by Shakespeare to link the witches to supernatural evil",
+              "display_order": 8
+            },
+            {
+              "keyword": "Lady Macduff",
+              "definition": "briefly shown as a caring mother — her murder by Macbeth's hired killers shows his complete moral collapse",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Porter",
+              "definition": "a comic character who provides dark humour — his speech about 'Hell Gate' gives Macbeth's castle demonic associations",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What drives Macbeth to murder Duncan?",
+              "options": [
+                "A) Obedience to the witches",
+                "B) Ambition and manipulation by Lady Macbeth",
+                "C) Fear of Malcolm",
+                "D) Loyalty to Scotland"
+              ],
+              "correct_answer": "B",
+              "explanation": "Macbeth's 'vaulting ambition' is the driving force — encouraged and manipulated by Lady Macbeth and tempted by the witches' prophecy.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does Lady Macbeth change through the play?",
+              "options": [
+                "A) She becomes more powerful and controlling",
+                "B) She remains unchanged throughout",
+                "C) She begins dominant but is consumed by guilt and descends into madness",
+                "D) She grows increasingly loyal to Duncan"
+              ],
+              "correct_answer": "C",
+              "explanation": "Lady Macbeth begins as the dominant partner pushing for murder, but guilt destroys her — she sleepwalks, hallucinates, and ultimately kills herself.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do the witches prophesy for Banquo?",
+              "options": [
+                "A) That he will become King",
+                "B) That his descendants will be kings",
+                "C) That he will betray Macbeth",
+                "D) That he will defeat Macbeth"
+              ],
+              "correct_answer": "B",
+              "explanation": "The witches tell Banquo he will be 'lesser than Macbeth and greater' and that his descendants will be kings — threatening Macbeth's dynasty.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Duncan's murder represent in the play?",
+              "options": [
+                "A) Macbeth's courage",
+                "B) The witches' victory",
+                "C) The destruction of order, legitimacy, and the natural hierarchy",
+                "D) Malcolm's incompetence"
+              ],
+              "correct_answer": "C",
+              "explanation": "Duncan is presented as a virtuous, legitimate king. His murder violates natural order, hospitality, and divine right — corrupting Scotland itself.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who eventually kills Macbeth?",
+              "options": [
+                "A) Malcolm",
+                "B) Banquo's ghost",
+                "C) Macduff",
+                "D) The witches"
+              ],
+              "correct_answer": "C",
+              "explanation": "Macduff kills Macbeth at the play's climax — fulfilling the witches' equivocal prophecy that 'no man of woman born' can harm him (Macduff was born by Caesarean section).",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the dramatic purpose of the Porter scene?",
+              "options": [
+                "A) To advance the plot",
+                "B) Comic relief and darkly linking Macbeth's castle to hell",
+                "C) To show Macbeth's hospitality",
+                "D) To introduce Macduff"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Porter provides comic relief after the intense murder scene — but his 'Hell Gate' speech gives the audience a moment to reflect on the demonic nature of what has happened.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the significance of Lady Macduff's murder?",
+              "options": [
+                "A) It shows Macbeth's military strength",
+                "B) It represents Macbeth's complete moral collapse — killing innocents",
+                "C) It is ordered by the witches",
+                "D) It motivates Banquo"
+              ],
+              "correct_answer": "B",
+              "explanation": "The murder of Lady Macduff and her children shows Macbeth has lost all moral restraint — he is now killing innocent women and children without direct political reason.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Macbeth see before killing Duncan?",
+              "options": [
+                "A) Banquo's ghost",
+                "B) A floating dagger",
+                "C) The witches",
+                "D) His own reflection"
+              ],
+              "correct_answer": "B",
+              "explanation": "Macbeth hallucinates a dagger leading him to Duncan's chamber — 'Is this a dagger which I see before me?' — showing his psychological deterioration.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Banquo's role in the play?",
+              "options": [
+                "A) He represents evil alongside Macbeth",
+                "B) He is a foil to Macbeth — also tempted but resists",
+                "C) He helps plan Duncan's murder",
+                "D) He opposes the witches from the start"
+              ],
+              "correct_answer": "B",
+              "explanation": "Banquo is a foil to Macbeth — both receive prophecies, but Banquo resists acting on them, highlighting Macbeth's free choice to pursue evil.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Malcolm test Macduff about before joining forces?",
+              "options": [
+                "A) His loyalty to Scotland",
+                "B) His skill in battle",
+                "C) His willingness to commit treason",
+                "D) His own apparent vices — to see if Macduff truly cares for Scotland"
+              ],
+              "correct_answer": "D",
+              "explanation": "Malcolm pretends to be a tyrant worse than Macbeth to test Macduff's loyalty. Macduff's horrified reaction proves his genuine love of Scotland.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Lady Macbeth is stronger and more determined than Macbeth at the start of the play.",
+              "correct_answer": "True",
+              "explanation": "Lady Macbeth takes control — she calls on spirits to 'unsex' her and drives the murder plan when Macbeth falters.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The witches directly cause Macbeth's actions.",
+              "correct_answer": "False",
+              "explanation": "The witches only prophesy — they do not force Macbeth to act. His choices are his own, highlighting free will vs. fate.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Duncan is presented as a flawed and weak king.",
+              "correct_answer": "False",
+              "explanation": "Duncan is portrayed as a virtuous, gracious king — his goodness makes his murder seem even more horrifying.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Banquo resists acting on the witches' prophecies.",
+              "correct_answer": "True",
+              "explanation": "Unlike Macbeth, Banquo holds his ambition in check — he is suspicious of the witches and does not act on their words.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Macduff's family is murdered because they were a direct political threat to Macbeth.",
+              "correct_answer": "False",
+              "explanation": "Macduff's family poses no real threat — their murder shows Macbeth's paranoid cruelty and complete moral disintegration.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Lady Macbeth's guilt manifests as sleepwalking and hallucinations.",
+              "correct_answer": "True",
+              "explanation": "In Act 5, Lady Macbeth sleepwalks, wringing her hands and reliving the murders — showing guilt has destroyed her mind.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Malcolm is Duncan's son and the rightful heir to the throne.",
+              "correct_answer": "True",
+              "explanation": "Malcolm is the legitimate heir — his restoration to the throne at the end represents the return of order.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Macbeth feels no guilt after murdering Duncan.",
+              "correct_answer": "False",
+              "explanation": "Macbeth is immediately plagued by guilt — he hallucinates, cannot sleep, and says 'Macbeth does murder sleep'.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The Porter scene provides light relief and symbolically links the castle to hell.",
+              "correct_answer": "True",
+              "explanation": "The Porter's comedy contrasts with the murder — his references to Hell Gate give Inverness demonic associations.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Hecate is a major character who appears throughout the play.",
+              "correct_answer": "False",
+              "explanation": "Hecate appears in only one brief scene — she is a minor character used to link the witches to a wider tradition of supernatural evil.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Macbeth is driven by ________ — described as his 'vaulting ambition'.",
+              "correct_answer": "ambition",
+              "explanation": "Ambition is Macbeth's tragic flaw — it drives him to murder and ultimately destroys him.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Lady Macbeth is later consumed by ________ — she sleepwalks and hallucinates.",
+              "correct_answer": "guilt",
+              "explanation": "Lady Macbeth's collapse mirrors her husband's earlier guilt — Shakespeare suggests evil cannot be suppressed.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ prophesy to Macbeth and Banquo at the start of the play.",
+              "correct_answer": "witches",
+              "explanation": "The witches represent temptation and fate — but do not control Macbeth's free choices.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is Macbeth's loyal friend, murdered because his descendants are prophesied to be kings.",
+              "correct_answer": "Banquo",
+              "explanation": "Banquo acts as a foil — he resists the temptation that Macbeth succumbs to.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ eventually kills Macbeth, fulfilling the prophecy about 'no man of woman born'.",
+              "correct_answer": "Macduff",
+              "explanation": "Macduff was delivered by Caesarean section — he exploits the witches' equivocal prophecy.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Duncan's murder violates natural order, ________, and divine right.",
+              "correct_answer": "hospitality",
+              "explanation": "Macbeth kills his king, kinsman, and guest — breaking three sacred duties simultaneously.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ provides comic relief through the Porter scene but also links the castle to Hell.",
+              "correct_answer": "Shakespeare",
+              "explanation": "The Porter's speech about Hell Gate gives Inverness sinister, demonic associations.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a foil to Macbeth — tempted by prophecy but choosing not to act.",
+              "correct_answer": "Banquo",
+              "explanation": "Banquo's restraint highlights that Macbeth's actions are a matter of free will.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Lady Macbeth calls on ________ to 'unsex her here' — to remove her feminine compassion.",
+              "correct_answer": "spirits",
+              "explanation": "This soliloquy establishes Lady Macbeth as a ruthless, determined character at the play's outset.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The murder of Lady ________ and her children represents Macbeth's complete moral collapse.",
+              "correct_answer": "Macduff",
+              "explanation": "These innocent characters pose no threat — their murder shows Macbeth's tyranny knows no limits.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Macbeth",
+                  "match": "protagonist — ambition leads him to tyranny and destruction"
+                },
+                {
+                  "term": "Lady Macbeth",
+                  "match": "dominant at first — destroyed by guilt"
+                },
+                {
+                  "term": "witches",
+                  "match": "prophesy and tempt — but don't control"
+                },
+                {
+                  "term": "Banquo",
+                  "match": "foil to Macbeth — tempted but resists"
+                },
+                {
+                  "term": "Macduff",
+                  "match": "nemesis — kills Macbeth and restores order"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Macbeth — Themes & Context",
+          "cards": [
+            {
+              "keyword": "ambition",
+              "definition": "Macbeth's tragic flaw — 'vaulting ambition, which o'erleaps itself' — drives him to murder and destruction",
+              "display_order": 1
+            },
+            {
+              "keyword": "power and tyranny",
+              "definition": "the abuse of power once legitimacy is abandoned — Macbeth's Scotland becomes a police state",
+              "display_order": 2
+            },
+            {
+              "keyword": "guilt and conscience",
+              "definition": "both Macbeth and Lady Macbeth are destroyed by guilt — Shakespeare suggests evil cannot go unpunished",
+              "display_order": 3
+            },
+            {
+              "keyword": "the supernatural",
+              "definition": "witches, ghosts, and prophecies create an atmosphere of darkness — supernatural forces tempt and unsettle",
+              "display_order": 4
+            },
+            {
+              "keyword": "appearance vs reality",
+              "definition": "nothing is as it seems — 'Fair is foul and foul is fair' — characters and intentions are concealed",
+              "display_order": 5
+            },
+            {
+              "keyword": "fate vs free will",
+              "definition": "the witches prophesy but do not force action — Macbeth chooses his path, making him responsible for his fate",
+              "display_order": 6
+            },
+            {
+              "keyword": "kingship and divine right",
+              "definition": "Shakespeare presents ideal kingship (Duncan, Malcolm) as God-given and sacred — tyranny violates this",
+              "display_order": 7
+            },
+            {
+              "keyword": "masculinity",
+              "definition": "the play questions what it means to be masculine — Lady Macbeth goads Macbeth by questioning his manhood",
+              "display_order": 8
+            },
+            {
+              "keyword": "James I context",
+              "definition": "Macbeth was likely written for King James I — who had interest in witchcraft and whose ancestor was Banquo",
+              "display_order": 9
+            },
+            {
+              "keyword": "Jacobean context",
+              "definition": "Elizabethan/Jacobean belief in the 'Great Chain of Being' — a divinely ordered hierarchy that Macbeth violates",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is Macbeth's tragic flaw?",
+              "options": [
+                "A) Cowardice",
+                "B) Ambition — 'vaulting ambition'",
+                "C) Cruelty",
+                "D) Obedience to his wife"
+              ],
+              "correct_answer": "B",
+              "explanation": "Macbeth's ambition is his hamartia (tragic flaw). Even before meeting the witches, he imagines murdering Duncan — the prophecy merely crystallises what is already there.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'Fair is foul and foul is fair' establish?",
+              "options": [
+                "A) The witches' evil",
+                "B) The theme of appearance vs reality — nothing is what it seems",
+                "C) Macbeth's courage",
+                "D) Scotland's natural beauty"
+              ],
+              "correct_answer": "B",
+              "explanation": "The witches' paradox immediately establishes the play's central theme: appearances deceive, good and evil are confused, and the world is morally inverted.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does guilt affect Macbeth and Lady Macbeth?",
+              "options": [
+                "A) Macbeth is unaffected; Lady Macbeth suffers",
+                "B) Neither is significantly affected",
+                "C) Both are ultimately destroyed by guilt — suggesting evil cannot go unpunished",
+                "D) Lady Macbeth is unaffected; Macbeth suffers"
+              ],
+              "correct_answer": "C",
+              "explanation": "Both characters are destroyed by guilt: Macbeth hallucinates and cannot sleep; Lady Macbeth sleepwalks and ultimately takes her own life.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the significance of the witches to a Jacobean audience?",
+              "options": [
+                "A) Entertainment only — audiences knew witchcraft was fictional",
+                "B) Witchcraft was a real threat — James I had written about it and attended witch trials",
+                "C) The witches represented wisdom and good advice",
+                "D) No significance — witches were a common theatrical device"
+              ],
+              "correct_answer": "B",
+              "explanation": "King James I (for whom the play was likely written) was fascinated by witchcraft and had written 'Daemonologie'. The supernatural was taken seriously.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does divine right of kings mean?",
+              "options": [
+                "A) Kings rule because of their military strength",
+                "B) Kings are chosen by their nobles",
+                "C) Kingship is God-given and sacred — usurping a king violates divine order",
+                "D) Kings must prove themselves through battle"
+              ],
+              "correct_answer": "C",
+              "explanation": "In Jacobean England, kings were believed to rule by God's will. Macbeth's murder of Duncan is therefore not just political but a sin against God.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does the theme of masculinity function in the play?",
+              "options": [
+                "A) It is irrelevant to the main themes",
+                "B) Lady Macbeth questions Macbeth's manhood to goad him into murder",
+                "C) Macbeth embodies ideal, heroic masculinity throughout",
+                "D) Masculinity is associated with wisdom and restraint"
+              ],
+              "correct_answer": "B",
+              "explanation": "Lady Macbeth attacks Macbeth's manhood: 'When you durst do it, then you were a man.' She weaponises his masculinity — goading him into violence by challenging his identity.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Great Chain of Being?",
+              "options": [
+                "A) A natural food chain",
+                "B) The idea that all living creatures are connected",
+                "C) A divinely ordered hierarchy from God downward — violated by Macbeth's actions",
+                "D) A scientific theory about evolution"
+              ],
+              "correct_answer": "C",
+              "explanation": "The Great Chain of Being was a Jacobean belief: God → angels → kings → nobles → commoners → animals. Macbeth's regicide disrupts this divine order.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does Macbeth continue killing after Duncan's murder?",
+              "options": [
+                "A) He enjoys it",
+                "B) The witches order it",
+                "C) Lady Macbeth forces him",
+                "D) Fear — he feels trapped and must eliminate all threats"
+              ],
+              "correct_answer": "D",
+              "explanation": "Macbeth is trapped by his initial crime — 'I am in blood stepped in so far...' — and kills to protect himself, showing how evil escalates once begun.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does Shakespeare present ideal kingship through Duncan and Malcolm?",
+              "options": [
+                "A) Both are shown as weak",
+                "B) Both represent legitimate, gracious kingship — the model Macbeth violates",
+                "C) Neither is shown positively",
+                "D) Malcolm is shown as a tyrant"
+              ],
+              "correct_answer": "B",
+              "explanation": "Duncan and Malcolm embody the qualities of a good king — gracious, legitimate, trusted. Their contrast with Macbeth highlights what tyranny destroys.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the significance of Banquo being James I's ancestor?",
+              "options": [
+                "A) It has no significance",
+                "B) It flatters James I — suggesting his dynasty is legitimate and blessed from the start",
+                "C) It proves Macbeth was based on real events",
+                "D) It warns James I about witchcraft"
+              ],
+              "correct_answer": "B",
+              "explanation": "By making James I a descendant of the virtuous Banquo (not the corrupted Macbeth), Shakespeare compliments his patron and gives the play a political purpose.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Macbeth's tragic flaw is cowardice.",
+              "correct_answer": "False",
+              "explanation": "Macbeth's tragic flaw is ambition — 'vaulting ambition, which o'erleaps itself.' He is physically brave but morally weak.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "'Fair is foul and foul is fair' establishes the theme of appearance vs reality.",
+              "correct_answer": "True",
+              "explanation": "This paradox introduces the idea that nothing in the play is what it seems — an inversion of natural order.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Both Macbeth and Lady Macbeth are ultimately destroyed by guilt.",
+              "correct_answer": "True",
+              "explanation": "Guilt destroys both characters — Macbeth through paranoia and violence, Lady Macbeth through madness and suicide.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The witches were not taken seriously by Jacobean audiences.",
+              "correct_answer": "False",
+              "explanation": "Jacobean audiences believed in the reality of witchcraft. King James I had written about it and attended witch trials.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Macbeth's murder of Duncan violates both political and divine order.",
+              "correct_answer": "True",
+              "explanation": "Regicide violated the divine right of kings — it was both a political crime and a sin against God.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Lady Macbeth's challenge to Macbeth's masculinity has no effect on his decision.",
+              "correct_answer": "False",
+              "explanation": "Lady Macbeth's attack on Macbeth's manhood ('are you a man?') directly influences his decision to proceed with the murder.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The Great Chain of Being was a belief that society had a divinely ordered hierarchy.",
+              "correct_answer": "True",
+              "explanation": "This Jacobean belief meant that Macbeth's regicide wasn't just murder — it violated God's divinely ordered universe.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Shakespeare presents kingship negatively through all the monarchs in the play.",
+              "correct_answer": "False",
+              "explanation": "Duncan and Malcolm represent virtuous, legitimate kingship — their contrast with Macbeth shows what tyranny destroys.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Macbeth is entirely controlled by the witches — he has no free will.",
+              "correct_answer": "False",
+              "explanation": "The witches prophesy but never force Macbeth to act. His choices are his own — Shakespeare presents free will alongside fate.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Macbeth's castle is associated with darkness and evil in the Porter scene.",
+              "correct_answer": "True",
+              "explanation": "The Porter calls himself 'porter of hell gate' — linking Inverness to hell and reinforcing the play's atmosphere of evil.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Macbeth's tragic flaw is ________ — described as 'vaulting ambition'.",
+              "correct_answer": "ambition",
+              "explanation": "Ambition drives Macbeth to murder and ultimately destroys him and everyone around him.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "'Fair is foul and foul is fair' establishes the theme of appearance vs ________.",
+              "correct_answer": "reality",
+              "explanation": "Nothing in the play is what it seems — characters conceal their true intentions throughout.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Both Macbeth and Lady Macbeth are destroyed by ________.",
+              "correct_answer": "guilt",
+              "explanation": "Shakespeare suggests there is no escape from the psychological consequences of evil.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Shakespeare likely wrote Macbeth for King ________ I, who was fascinated by witchcraft.",
+              "correct_answer": "James",
+              "explanation": "James I had written 'Daemonologie' and attended witch trials — making the play's supernatural elements politically relevant.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Jacobean belief in the ________ Chain of Being meant regicide violated divine order.",
+              "correct_answer": "Great",
+              "explanation": "Disrupting the chain by killing a divinely appointed king was a sin against God's universe.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Lady Macbeth goads Macbeth by questioning his ________.",
+              "correct_answer": "masculinity",
+              "explanation": "'When you durst do it, then you were a man' — she uses his identity against him.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The theme of ________ vs free will runs throughout — the witches prophesy but don't compel.",
+              "correct_answer": "fate",
+              "explanation": "Macbeth's choices are his own — making him morally responsible for his actions.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Shakespeare's ideal kingship is represented by Duncan and ________.",
+              "correct_answer": "Malcolm",
+              "explanation": "Both represent legitimate, gracious rule — the antithesis of Macbeth's tyranny.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Banquo being James I's ancestor ________ the king by linking his dynasty to virtue.",
+              "correct_answer": "flatters",
+              "explanation": "This political compliment gave Shakespeare a patron-friendly dimension to the play.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Macbeth becomes a ________ — ruling through fear, murder, and surveillance.",
+              "correct_answer": "tyrant",
+              "explanation": "Once legitimate order is abandoned, Macbeth's Scotland becomes a police state.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "ambition",
+                  "match": "Macbeth's tragic flaw — drives him to murder and destruction"
+                },
+                {
+                  "term": "guilt",
+                  "match": "destroys both Macbeth and Lady Macbeth"
+                },
+                {
+                  "term": "appearance vs reality",
+                  "match": "'Fair is foul' — nothing is what it seems"
+                },
+                {
+                  "term": "divine right of kings",
+                  "match": "God-given kingship — violated by Macbeth's regicide"
+                },
+                {
+                  "term": "fate vs free will",
+                  "match": "witches prophesy — but Macbeth chooses"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A Christmas Carol — Dickens",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "A Christmas Carol — Characters & Themes",
+          "cards": [
+            {
+              "keyword": "Scrooge",
+              "definition": "the miserly protagonist who undergoes moral transformation — represents greed and its redemption",
+              "display_order": 1
+            },
+            {
+              "keyword": "Marley's Ghost",
+              "definition": "Scrooge's dead business partner in chains — a warning of the fate awaiting those who prioritise money over humanity",
+              "display_order": 2
+            },
+            {
+              "keyword": "Ghost of Christmas Past",
+              "definition": "shows Scrooge scenes from his past — reveals how he became cold and lost his humanity",
+              "display_order": 3
+            },
+            {
+              "keyword": "Ghost of Christmas Present",
+              "definition": "shows Scrooge how others celebrate Christmas — including the Cratchit family and Fred's party",
+              "display_order": 4
+            },
+            {
+              "keyword": "Ghost of Christmas Yet to Come",
+              "definition": "a silent, dark spirit showing Scrooge his own death — the most frightening ghost",
+              "display_order": 5
+            },
+            {
+              "keyword": "Bob Cratchit",
+              "definition": "Scrooge's poorly paid but cheerful clerk — represents the working poor; his loyalty contrasts Scrooge's meanness",
+              "display_order": 6
+            },
+            {
+              "keyword": "Tiny Tim",
+              "definition": "Bob's disabled son — 'God bless us, every one!' — evokes sympathy and highlights the plight of the poor",
+              "display_order": 7
+            },
+            {
+              "keyword": "Fred",
+              "definition": "Scrooge's cheerful nephew — represents warmth, generosity, and the true Christmas spirit",
+              "display_order": 8
+            },
+            {
+              "keyword": "Victorian poverty",
+              "definition": "Dickens wrote ACC to expose the shocking conditions of the poor — the novella is a vehicle for social criticism",
+              "display_order": 9
+            },
+            {
+              "keyword": "redemption",
+              "definition": "the central message — Scrooge's transformation shows that people can change and choose compassion over greed",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does Marley's Ghost represent?",
+              "options": [
+                "A) The dangers of Christmas celebrations",
+                "B) A warning of what awaits those who live only for money",
+                "C) The goodness of the Christmas spirit",
+                "D) Scrooge's happy memories"
+              ],
+              "correct_answer": "B",
+              "explanation": "Marley's Ghost is a warning — in life he was as miserly as Scrooge, and in death is condemned to wander in chains, tormented by the good he could have done.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the central message of A Christmas Carol?",
+              "options": [
+                "A) Money is the most important thing in life",
+                "B) Christmas is a religious celebration above all else",
+                "C) People can change — compassion and generosity are more important than wealth",
+                "D) The poor should be grateful for charity"
+              ],
+              "correct_answer": "C",
+              "explanation": "Dickens' central message: Scrooge's transformation shows that redemption is possible and that human connection matters more than wealth.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Tiny Tim represent?",
+              "options": [
+                "A) The dangers of poor healthcare",
+                "B) Dickens' sympathy for the suffering poor and the vulnerability of children",
+                "C) The Christian meaning of Christmas",
+                "D) Bob Cratchit's personal failures"
+              ],
+              "correct_answer": "B",
+              "explanation": "Tiny Tim is designed to evoke sympathy — he is innocent, cheerful, and vulnerable. His possible death without Scrooge's help shows the consequences of indifference to poverty.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the purpose of the Ghost of Christmas Past?",
+              "options": [
+                "A) To show Scrooge the suffering of the poor",
+                "B) To show Scrooge his own future death",
+                "C) To reveal how Scrooge became cold and how his humanity was lost",
+                "D) To entertain Scrooge with happy memories"
+              ],
+              "correct_answer": "C",
+              "explanation": "The Past ghost shows the turning points in Scrooge's life — from a lonely boy who loved books, to a young man in love, to the moment he chose money over Belle. It shows humanity can be regained.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Fred represent in the novella?",
+              "options": [
+                "A) The dangers of excessive generosity",
+                "B) Warmth, forgiveness, and the true Christmas spirit",
+                "C) The middle classes ignoring the poor",
+                "D) Scrooge's lost son"
+              ],
+              "correct_answer": "B",
+              "explanation": "Fred refuses to condemn Scrooge despite his cruelty — he embodies forgiving, generous Christmas spirit that Dickens celebrates.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why did Dickens write A Christmas Carol?",
+              "options": [
+                "A) To celebrate Victorian Christmas traditions",
+                "B) To entertain children",
+                "C) To expose and critique the suffering caused by Victorian attitudes to poverty",
+                "D) To defend the work of Christian charities"
+              ],
+              "correct_answer": "C",
+              "explanation": "Dickens was a social reformer — he had experienced poverty as a child. ACC is a vehicle for his criticism of Victorian middle-class indifference to the suffering poor.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Marley's chain symbolise?",
+              "options": [
+                "A) His imprisonment in life",
+                "B) The chains of guilt binding him after murder",
+                "C) The burden of his selfish life — forged by every act of greed",
+                "D) His connection to the underworld"
+              ],
+              "correct_answer": "C",
+              "explanation": "Marley's chain was forged 'link by link' from his selfish acts — every penny saved, every opportunity for kindness rejected. It symbolises the burden of a life lived for money.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the significance of the Ghost of Christmas Yet to Come?",
+              "options": [
+                "A) It shows Scrooge happy in the future",
+                "B) It is the most comforting ghost",
+                "C) It is silent and terrifying — showing Scrooge the consequences of not changing",
+                "D) It represents Scrooge's dead father"
+              ],
+              "correct_answer": "C",
+              "explanation": "The silent, dark spirit is the most frightening — it shows Scrooge's neglected grave and people stealing his possessions. Its silence forces Scrooge to confront the emptiness of his life.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Scrooge's transformation represent?",
+              "options": [
+                "A) The power of supernatural intervention",
+                "B) The possibility of redemption — that anyone can choose compassion over greed",
+                "C) The importance of family",
+                "D) The failure of Victorian charity"
+              ],
+              "correct_answer": "B",
+              "explanation": "Scrooge's transformation is the novella's central argument: greed and isolation are not fixed — people can change. Dickens offers hope that Victorian society can change too.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the Ghost of Christmas Present show Scrooge about the Cratchits?",
+              "options": [
+                "A) That they are angry at Scrooge",
+                "B) That they struggle in poverty but celebrate Christmas with love and gratitude",
+                "C) That they plan to leave his employment",
+                "D) That Tiny Tim is not really ill"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Cratchits celebrate Christmas with joy despite their poverty — their warmth and togetherness contrast sharply with Scrooge's cold isolation and wealth.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Scrooge's transformation is impossible because people cannot change.",
+              "correct_answer": "False",
+              "explanation": "Scrooge's transformation is the CENTRAL MESSAGE — Dickens argues that redemption is possible and that compassion can replace greed.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Marley's chains were forged by his selfish and greedy behaviour in life.",
+              "correct_answer": "True",
+              "explanation": "Marley tells Scrooge he wears the chain he forged in life — every selfish act added a link.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Tiny Tim's character is used to evoke sympathy and highlight Victorian poverty.",
+              "correct_answer": "True",
+              "explanation": "Tiny Tim is vulnerable, cheerful, and dependent on Scrooge's goodwill — Dickens uses him to show the human cost of indifference.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Dickens wrote A Christmas Carol purely as an entertainment for children.",
+              "correct_answer": "False",
+              "explanation": "Dickens had a serious social purpose — to expose Victorian attitudes to poverty and argue for compassion and social responsibility.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The Ghost of Christmas Yet to Come speaks little and is the most frightening.",
+              "correct_answer": "True",
+              "explanation": "Its silence and dark, pointing figure terrify Scrooge more than the other ghosts — it forces him to confront his own death.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Fred is bitter and resentful towards Scrooge for his cruelty.",
+              "correct_answer": "False",
+              "explanation": "Fred consistently defends Scrooge and invites him to Christmas dinner — he embodies the forgiveness and warmth Dickens celebrates.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The Ghost of Christmas Past shows Scrooge the suffering of the poor.",
+              "correct_answer": "False",
+              "explanation": "The Ghost of Christmas Past shows Scrooge scenes from his OWN past — revealing how he became cold. The Present ghost shows the suffering of others.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Dickens uses A Christmas Carol to criticise Victorian attitudes to poverty.",
+              "correct_answer": "True",
+              "explanation": "The novella is deeply political — Dickens attacks the idea that the poor deserve their fate and argues for collective social responsibility.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Bob Cratchit is disloyal and ungrateful to Scrooge.",
+              "correct_answer": "False",
+              "explanation": "Bob is loyal and hardworking despite poor wages — he even toasts Scrooge at Christmas, showing his generous spirit.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Scrooge's cold character at the start is entirely his own fault.",
+              "correct_answer": "False",
+              "explanation": "The Ghost of Christmas Past reveals Scrooge's lonely childhood and the loss of Belle — his coldness has understandable origins, adding complexity.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Scrooge's transformation represents the theme of ________ — change is possible for everyone.",
+              "correct_answer": "redemption",
+              "explanation": "Dickens argues that no one is beyond saving — the hardest hearts can be softened.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Marley's ________ symbolises the burden of a life lived selfishly.",
+              "correct_answer": "chain",
+              "explanation": "Each link was forged by an act of greed — 'I wear the chain I forged in life'.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Tiny Tim's phrase '________ bless us, every one!' reflects the novella's message of universal compassion.",
+              "correct_answer": "God",
+              "explanation": "This phrase encapsulates the novella's Christian message of goodwill and shared humanity.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Ghost of Christmas ________ is the most frightening — silent and pointing.",
+              "correct_answer": "Yet to Come",
+              "explanation": "Its silence forces Scrooge to confront the emptiness and consequence of his life.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Dickens used A Christmas Carol to expose ________ poverty and criticise Victorian attitudes.",
+              "correct_answer": "Victorian",
+              "explanation": "Dickens was a social reformer — he had experienced poverty himself as a child.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ represents warmth and the true Christmas spirit — forgiving Scrooge despite his cruelty.",
+              "correct_answer": "Fred",
+              "explanation": "Fred's consistent generosity towards Scrooge embodies the values Dickens celebrates.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Ghost of Christmas ________ shows Scrooge how his past choices made him cold.",
+              "correct_answer": "Past",
+              "explanation": "Seeing the boy he was and the woman he lost (Belle) shows Scrooge — and the reader — how humanity can be lost.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Bob ________ represents the deserving poor — loyal, hardworking, and loving despite poverty.",
+              "correct_answer": "Cratchit",
+              "explanation": "Dickens presents Bob sympathetically to argue for better treatment of the working poor.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Scrooge's change shows that ________ and self-interest are not inevitable — people can choose compassion.",
+              "correct_answer": "greed",
+              "explanation": "This is Dickens' central argument: society can change if individuals choose humanity over profit.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of Christmas Present shows the Cratchits celebrating joyfully despite their poverty.",
+              "correct_answer": "Ghost",
+              "explanation": "Their warmth and love contrast with Scrooge's cold wealth — demonstrating that happiness cannot be bought.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Scrooge",
+                  "match": "miserly protagonist — represents greed and its redemption"
+                },
+                {
+                  "term": "Marley's Ghost",
+                  "match": "warning — chains forged by selfish life"
+                },
+                {
+                  "term": "Tiny Tim",
+                  "match": "evokes sympathy — represents the vulnerable poor"
+                },
+                {
+                  "term": "Fred",
+                  "match": "warmth and forgiveness — true Christmas spirit"
+                },
+                {
+                  "term": "redemption",
+                  "match": "central theme — anyone can change"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power & Conflict Poetry",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Power & Conflict — Key Poems",
+          "cards": [
+            {
+              "keyword": "Ozymandias (Shelley)",
+              "definition": "a sonnet about a ruined statue — the arrogant king's power has been destroyed by time; a meditation on the futility of human pride",
+              "display_order": 1
+            },
+            {
+              "keyword": "London (Blake)",
+              "definition": "a dark portrayal of London's suffering — Blake criticises the institutions (church, monarchy, marriage) that oppress the poor",
+              "display_order": 2
+            },
+            {
+              "keyword": "The Prelude — Stealing the Boat (Wordsworth)",
+              "definition": "an extract describing a young Wordsworth stealing a boat — nature reveals its power and leaves the speaker with a sense of guilt and awe",
+              "display_order": 3
+            },
+            {
+              "keyword": "My Last Duchess (Browning)",
+              "definition": "a dramatic monologue — an arrogant Duke reveals he had his wife killed for not sufficiently appreciating his status",
+              "display_order": 4
+            },
+            {
+              "keyword": "The Charge of the Light Brigade (Tennyson)",
+              "definition": "a poem about a disastrous cavalry charge — celebrates the soldiers' bravery and obedience while implicitly questioning military leadership",
+              "display_order": 5
+            },
+            {
+              "keyword": "Exposure (Owen)",
+              "definition": "a First World War poem — soldiers suffer not in battle but from cold and waiting. Nature, not the enemy, is the real killer",
+              "display_order": 6
+            },
+            {
+              "keyword": "Storm on the Island (Heaney)",
+              "definition": "a poem about islanders prepared for a storm — explores the power of nature and the fragility of human defences",
+              "display_order": 7
+            },
+            {
+              "keyword": "Bayonet Charge (Hughes)",
+              "definition": "a poem following a soldier's confused charge — war strips away ideology, leaving only survival instinct",
+              "display_order": 8
+            },
+            {
+              "keyword": "Remains (Armitage)",
+              "definition": "a modern war poem — a soldier is haunted by shooting a looter. Explores trauma and the lasting psychological damage of combat",
+              "display_order": 9
+            },
+            {
+              "keyword": "Poppies (Weir)",
+              "definition": "a mother's perspective on her child going to war — domestic and personal, contrasting with traditional heroic war poetry",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the central message of Ozymandias?",
+              "options": [
+                "A) War destroys everything",
+                "B) The power of nature over human ambition",
+                "C) Human power and pride are temporary — time destroys all",
+                "D) Art outlasts everything"
+              ],
+              "correct_answer": "C",
+              "explanation": "Shelley's poem argues that no matter how powerful you are, time destroys everything. The ruined statue of Ozymandias is a reminder that all empires fall.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Blake criticise in London?",
+              "options": [
+                "A) Individual moral weakness",
+                "B) The institutions of church, monarchy, and marriage that oppress the poor",
+                "C) The natural world of the city",
+                "D) London's architecture"
+              ],
+              "correct_answer": "B",
+              "explanation": "Blake criticises systemic oppression — the church, crown, and marriage all perpetuate suffering. 'Mind-forged manacles' suggests people are imprisoned by ideology.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the form of Ozymandias?",
+              "options": [
+                "A) Free verse",
+                "B) Dramatic monologue",
+                "C) A sonnet",
+                "D) A ballad"
+              ],
+              "correct_answer": "C",
+              "explanation": "Ozymandias is a sonnet — but with an irregular rhyme scheme, perhaps suggesting the instability of power.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a dramatic monologue?",
+              "options": [
+                "A) A poem with multiple voices",
+                "B) A poem spoken by a single, revealed character",
+                "C) A poem about a dramatic event",
+                "D) A poem with a regular rhyme scheme"
+              ],
+              "correct_answer": "B",
+              "explanation": "A dramatic monologue is spoken by one character, usually revealing more than they intend. My Last Duchess is a classic example — the Duke inadvertently confesses to murder.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In Exposure, what is the main enemy of the soldiers?",
+              "options": [
+                "A) German artillery",
+                "B) Their own officers",
+                "C) Cold, wind, and nature — not the enemy",
+                "D) Disease and starvation"
+              ],
+              "correct_answer": "C",
+              "explanation": "Owen presents nature (frost, snow, bitter wind) as the soldiers' true enemy — they die from cold and waiting, not heroic combat.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Remains explore?",
+              "options": [
+                "A) The physical injuries of war",
+                "B) The psychological trauma of combat — a soldier haunted by killing",
+                "C) A soldier's pride in his service",
+                "D) The death of a commanding officer"
+              ],
+              "correct_answer": "B",
+              "explanation": "Armitage's poem follows a soldier haunted by shooting a looter — the man's blood 'on my hands to this day' suggests lasting psychological damage (PTSD).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What perspective does Poppies offer?",
+              "options": [
+                "A) The soldier on the battlefield",
+                "B) A military commander's view",
+                "C) A mother's domestic perspective on her child going to war",
+                "D) A nurse treating the wounded"
+              ],
+              "correct_answer": "C",
+              "explanation": "Weir writes from a mother's perspective — domestic, personal, intimate. This subverts traditional heroic war poetry and emphasises the personal cost of conflict.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens in The Charge of the Light Brigade?",
+              "options": [
+                "A) A victorious cavalry charge",
+                "B) A disastrous cavalry charge — celebrated for bravery but implicitly questioning command",
+                "C) A retreat from battle",
+                "D) An ambush during a quiet campaign"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Light Brigade charges into cannon fire due to a misunderstood order — all 600 die. Tennyson celebrates their bravery and obedience while the repetition of 'someone had blundered' implies criticism of leadership.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the effect of nature in The Prelude?",
+              "options": [
+                "A) Nature is comforting and beautiful",
+                "B) Nature reveals its power and leaves the speaker awestruck and guilty",
+                "C) Nature is irrelevant to the poem",
+                "D) Nature symbolises freedom"
+              ],
+              "correct_answer": "B",
+              "explanation": "Wordsworth describes a boat trip that ends with a mountain seeming to rise up and follow him. Nature reveals its power and leaves him with a sense of guilt and moral education.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the central concern of Storm on the Island?",
+              "options": [
+                "A) Conflict between neighbours",
+                "B) The power of nature and the fragility of human defences",
+                "C) The political conflict in Northern Ireland",
+                "D) War and military power"
+              ],
+              "correct_answer": "B",
+              "explanation": "Heaney's poem shows islanders prepared for a storm — but the poem ends with the storm's 'huge nothing' overwhelming their defences. The power of nature is absolute.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Ozymandias argues that human power is permanent and enduring.",
+              "correct_answer": "False",
+              "explanation": "Ozymandias argues the OPPOSITE — all human power is temporary. The ruined statue symbolises the fall of all great empires.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Blake's London criticises the institutions that oppress the poor.",
+              "correct_answer": "True",
+              "explanation": "Blake uses 'chartered' (controlled), 'mind-forged manacles', and 'blackening church' to criticise systemic oppression.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Exposure presents nature as the soldiers' greatest enemy.",
+              "correct_answer": "True",
+              "explanation": "Owen's soldiers are not killed in battle — they die of cold and boredom. The frost and wind are more deadly than the enemy.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "My Last Duchess is a first-person narrative from a sympathetic narrator.",
+              "correct_answer": "False",
+              "explanation": "The Duke is an unreliable and sinister narrator — his casual revelation that he gave 'commands' to stop his wife's smiling suggests he had her killed.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Poppies uses military language and a heroic tone.",
+              "correct_answer": "False",
+              "explanation": "Poppies deliberately avoids heroic military language — it uses domestic, personal imagery (pins, blazer, collar) to show the human cost of war.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Remains shows a soldier proud of his actions in combat.",
+              "correct_answer": "False",
+              "explanation": "Remains shows a soldier HAUNTED by his actions — guilt and trauma follow him. The 'blood-shadow' stays with him permanently.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The Charge of the Light Brigade celebrates blind obedience without any criticism.",
+              "correct_answer": "False",
+              "explanation": "While Tennyson celebrates bravery, 'someone had blundered' is a repeated implicit criticism of the leadership that sent the soldiers to their deaths.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Ozymandias is a sonnet with an irregular rhyme scheme.",
+              "correct_answer": "True",
+              "explanation": "Shelley subverts the traditional sonnet form — the irregular rhyme scheme mirrors the instability and decay of the poem's subject.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Storm on the Island ends with the islanders successfully defending against the storm.",
+              "correct_answer": "False",
+              "explanation": "The poem ends with the 'huge nothing' of the storm overwhelming all defences — the power of nature is unstoppable.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Bayonet Charge strips war of ideology, leaving only the survival instinct.",
+              "correct_answer": "True",
+              "explanation": "Hughes shows a soldier reduced to an animal — all patriotism and heroism disappear, replaced by the terror of survival.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ argues that all human power and pride are temporary — time destroys everything.",
+              "correct_answer": "Ozymandias",
+              "explanation": "Shelley's sonnet presents the ruined statue as a symbol of every fallen empire.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ criticises the institutions of church, monarchy, and marriage for oppressing the poor.",
+              "correct_answer": "London",
+              "explanation": "Blake uses 'chartered' and 'mind-forged manacles' to suggest both physical and ideological oppression.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "In ________, Owen presents nature — cold and frost — as the soldiers' real enemy.",
+              "correct_answer": "Exposure",
+              "explanation": "The soldiers wait and freeze — death comes from nature, not enemy combat.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a dramatic monologue in which a Duke inadvertently reveals he had his wife killed.",
+              "correct_answer": "My Last Duchess",
+              "explanation": "The Duke's casual arrogance reveals his jealousy and desire for total control.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ explores the psychological trauma of a soldier haunted by shooting a looter.",
+              "correct_answer": "Remains",
+              "explanation": "Armitage's poem deals with PTSD — the soldier cannot escape the 'blood-shadow' of his actions.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ takes a mother's domestic perspective — subverting traditional heroic war poetry.",
+              "correct_answer": "Poppies",
+              "explanation": "The use of domestic imagery (pins, blazer, collar) emphasises personal loss over military glory.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "In ________, Wordsworth's boat trip ends with nature revealing its moral power and authority.",
+              "correct_answer": "The Prelude",
+              "explanation": "The 'huge peak' seems to pursue Wordsworth — nature educates him through awe and fear.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ celebrates the Light Brigade's bravery while implicitly criticising military command.",
+              "correct_answer": "The Charge of the Light Brigade",
+              "explanation": "'Someone had blundered' is quietly devastating — bravery cannot redeem poor leadership.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ reduces a soldier to his survival instinct — stripping away all ideology.",
+              "correct_answer": "Bayonet Charge",
+              "explanation": "Hughes shows that in the chaos of combat, patriotism and heroism dissolve into terror.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ explores the absolute power of nature over human defences.",
+              "correct_answer": "Storm on the Island",
+              "explanation": "The 'huge nothing' at the poem's end suggests nature cannot be tamed or predicted.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Ozymandias",
+                  "match": "human power is temporary — all empires fall"
+                },
+                {
+                  "term": "London",
+                  "match": "Blake criticises institutions oppressing the poor"
+                },
+                {
+                  "term": "Exposure",
+                  "match": "nature — not the enemy — kills the soldiers"
+                },
+                {
+                  "term": "Remains",
+                  "match": "soldier haunted by killing — explores PTSD"
+                },
+                {
+                  "term": "My Last Duchess",
+                  "match": "dramatic monologue — Duke reveals his sinister control"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "An Inspector Calls — Priestley",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "An Inspector Calls — Key Concepts",
+          "cards": [
+            {
+              "keyword": "Inspector Goole",
+              "definition": "a mysterious inspector who interrogates the Birlings — possibly supernatural; represents social conscience and collective responsibility",
+              "display_order": 1
+            },
+            {
+              "keyword": "Arthur Birling",
+              "definition": "the patriarch — a pompous, self-important businessman who dismisses social responsibility; represents capitalist individualism",
+              "display_order": 2
+            },
+            {
+              "keyword": "Sybil Birling",
+              "definition": "Arthur's cold, snobbish wife — the last to accept responsibility; refuses to help Eva on moral grounds",
+              "display_order": 3
+            },
+            {
+              "keyword": "Sheila Birling",
+              "definition": "the daughter — initially complicit but accepts responsibility and changes; represents the younger generation's potential for change",
+              "display_order": 4
+            },
+            {
+              "keyword": "Eric Birling",
+              "definition": "the son — drinks heavily, has a relationship with Eva; accepts responsibility; represents moral failure within privilege",
+              "display_order": 5
+            },
+            {
+              "keyword": "Gerald Croft",
+              "definition": "Sheila's fiancé — had an affair with Eva/Daisy; represents the hypocrisy of the upper classes",
+              "display_order": 6
+            },
+            {
+              "keyword": "Eva Smith / Daisy Renton",
+              "definition": "the unseen victim — represents all exploited working-class women; her name 'Eva' suggests all women",
+              "display_order": 7
+            },
+            {
+              "keyword": "collective responsibility",
+              "definition": "Priestley's central message — we are all responsible for each other; actions affect the vulnerable",
+              "display_order": 8
+            },
+            {
+              "keyword": "social class",
+              "definition": "the play exposes class prejudice — the Birlings' wealth and status blind them to their responsibility to Eva",
+              "display_order": 9
+            },
+            {
+              "keyword": "1912 vs 1945 context",
+              "definition": "written in 1945 about 1912 — the audience knows WWI and WWII are coming; Birling's confident predictions are ironic",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does Inspector Goole represent?",
+              "options": [
+                "A) The police and law enforcement",
+                "B) Social conscience — collective responsibility for the vulnerable",
+                "C) The working class uprising",
+                "D) The justice system's failures"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Inspector represents Priestley's socialist message — he forces the Birlings to confront their social responsibility and the consequences of their actions on the vulnerable.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Priestley's central message in An Inspector Calls?",
+              "options": [
+                "A) Individual success is the most important thing",
+                "B) The upper classes are inherently corrupt",
+                "C) We are all responsible for each other — collective responsibility",
+                "D) Capitalism is the only fair economic system"
+              ],
+              "correct_answer": "C",
+              "explanation": "Priestley's socialist message: we cannot ignore the suffering of others. The Inspector's final speech argues for collective responsibility and warns of 'fire and blood and anguish'.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Eva Smith represent?",
+              "options": [
+                "A) One specific working-class woman",
+                "B) All exploited working-class women — 'Eva' suggests all women",
+                "C) The suffragette movement",
+                "D) The failure of charity"
+              ],
+              "correct_answer": "B",
+              "explanation": "Eva Smith is symbolic — her name echoes Eve (the first woman) and suggests she represents all women exploited by the class system. She has no voice of her own.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is significant about Mr Birling's character?",
+              "options": [
+                "A) He is shown as the most sympathetic character",
+                "B) His pomposity and wrong predictions expose the arrogance of the capitalist class",
+                "C) He accepts responsibility by the end",
+                "D) He represents the younger generation's capacity for change"
+              ],
+              "correct_answer": "B",
+              "explanation": "Birling confidently predicts peace (WWI was imminent), dismisses the Titanic as 'unsinkable', and rejects collective responsibility — Priestley makes him a comic fool to discredit capitalist ideology.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does Sheila differ from her parents by the end of the play?",
+              "options": [
+                "A) She accepts no responsibility",
+                "B) She pretends nothing happened",
+                "C) She accepts responsibility and changes — representing hope for the younger generation",
+                "D) She defends the family's reputation"
+              ],
+              "correct_answer": "C",
+              "explanation": "Sheila's transformation is real — unlike her parents, she accepts responsibility and cannot simply 'go back to how things were'. She represents the possibility of social change.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the significance of the play's 1912 setting?",
+              "options": [
+                "A) It has no particular significance",
+                "B) 1912 represents stability and prosperity",
+                "C) The audience (1945) knows WWI and WWII are coming — Birling's confident predictions become tragically ironic",
+                "D) The social class system was most extreme in 1912"
+              ],
+              "correct_answer": "C",
+              "explanation": "Writing in 1945 about 1912, Priestley gives the audience hindsight. Birling's predictions about lasting peace and the Titanic's unsinkability are catastrophically wrong — discrediting his worldview.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Gerald Croft represent?",
+              "options": [
+                "A) The moral integrity of the upper classes",
+                "B) The hypocrisy of the upper classes — presenting respectability while exploiting others",
+                "C) A positive role model for the younger generation",
+                "D) The failures of the police system"
+              ],
+              "correct_answer": "B",
+              "explanation": "Gerald hid his relationship with Eva/Daisy and presents himself as respectable — he represents the hypocrisy of a class that exploits the vulnerable while maintaining social appearances.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the dramatic purpose of Eva Smith never appearing on stage?",
+              "options": [
+                "A) She is unimportant to the plot",
+                "B) She represents all exploited people — her absence makes her universal",
+                "C) It saves production costs",
+                "D) She is revealed to be alive at the end"
+              ],
+              "correct_answer": "B",
+              "explanation": "Eva never appears — she is a symbol, not an individual. Her facelessness allows her to represent all the Eva Smiths and John Smiths exploited by the class system.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Mrs Birling's refusal to help Eva reveal?",
+              "options": [
+                "A) Her genuine belief in working hard",
+                "B) Her ignorance of Eva's situation",
+                "C) The cruel indifference of the upper class to the deserving poor",
+                "D) Her loyalty to the family"
+              ],
+              "correct_answer": "C",
+              "explanation": "Mrs Birling refuses Eva help on moral grounds (she disapproves of Eva using the Birling name) — her cold logic reveals a class that judges the poor harshly while ignoring its own moral failures.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the Inspector's final speech warn about?",
+              "options": [
+                "A) The need for stronger policing",
+                "B) Fire, blood, and anguish if people don't accept collective responsibility",
+                "C) The dangers of socialism",
+                "D) The importance of family loyalty"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Inspector warns: 'if men will not learn that lesson, then they will be taught it in fire and blood and anguish' — a prophecy of WWI, WWII, and the consequences of ignoring social responsibility.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Inspector Goole is confirmed to be a real police inspector.",
+              "correct_answer": "False",
+              "explanation": "The Inspector's identity is deliberately mysterious — he may be supernatural, a ghost (Goole sounds like 'ghoul'), or a moral force.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Priestley's central message is individual responsibility over collective duty.",
+              "correct_answer": "False",
+              "explanation": "Priestley's central message is the OPPOSITE — collective responsibility is essential. We are all responsible for each other.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Eva Smith is present and speaks in the play.",
+              "correct_answer": "False",
+              "explanation": "Eva Smith never appears on stage — she is entirely off-stage and voiceless, representing all exploited working-class people.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Mr Birling is presented as a wise, admirable character.",
+              "correct_answer": "False",
+              "explanation": "Birling is presented as a pompous fool — his wrong predictions and arrogant dismissal of collective responsibility discredit capitalist individualism.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Sheila accepts responsibility and changes by the end.",
+              "correct_answer": "True",
+              "explanation": "Unlike her parents, Sheila cannot simply return to normal — she accepts genuine responsibility and represents the possibility of social change.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The 1945 audience would know that Birling's optimistic predictions were wrong.",
+              "correct_answer": "True",
+              "explanation": "Writing in 1945, Priestley knew that WWI, the Titanic, and WWII had already happened — making Birling's confidence tragically ironic.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Gerald Croft represents honesty and transparency in his relationship with Sheila.",
+              "correct_answer": "False",
+              "explanation": "Gerald concealed his relationship with Daisy Renton — he represents the hypocrisy of presenting respectability while exploiting others.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The Inspector's final speech calls for collective responsibility or warns of catastrophic consequences.",
+              "correct_answer": "True",
+              "explanation": "The Inspector warns of 'fire and blood and anguish' if people refuse to accept their responsibility to each other.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Mrs Birling is the first family member to accept responsibility for Eva's death.",
+              "correct_answer": "False",
+              "explanation": "Mrs Birling is the LAST to accept responsibility — she is cold and dismissive until the very end, when she realises she condemned her own grandchild.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Eva Smith's absence from the stage makes her a universal symbol.",
+              "correct_answer": "True",
+              "explanation": "Never appearing allows Eva to represent all exploited working-class women — not just one individual.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Inspector Goole represents social ________ — the idea that we are all responsible for each other.",
+              "correct_answer": "conscience",
+              "explanation": "The Inspector forces each character to confront the consequences of their actions on the vulnerable.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Priestley's central message is ________ responsibility — we cannot ignore others' suffering.",
+              "correct_answer": "collective",
+              "explanation": "This socialist message argues against the individualism represented by Mr Birling.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Eva Smith represents all ________ working-class women exploited by the class system.",
+              "correct_answer": "exploited",
+              "explanation": "Her name 'Eva' echoes Eve — suggesting she represents all women.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Mr Birling's wrong predictions (peace, Titanic) make him a ________ who discredits capitalism.",
+              "correct_answer": "fool",
+              "explanation": "Priestley uses irony — the audience's hindsight exposes Birling's arrogance.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ represents hope — she accepts responsibility and cannot simply go back to normal.",
+              "correct_answer": "Sheila",
+              "explanation": "Sheila's change is genuine; her parents' is not — she represents the younger generation's capacity to learn.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The play is set in ________ but written in 1945 — giving the audience devastating dramatic irony.",
+              "correct_answer": "1912",
+              "explanation": "The 1945 audience knows WWI and WWII have already happened — Birling's confidence is catastrophically naive.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Gerald Croft represents the ________ of the upper classes — respectable appearance hiding exploitation.",
+              "correct_answer": "hypocrisy",
+              "explanation": "Gerald presented himself as a gentleman while keeping Eva as his mistress.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Eva Smith never appears on stage — making her a ________ of all exploited people.",
+              "correct_answer": "symbol",
+              "explanation": "Her absence and voicelessness make her represent all those ignored and exploited by the class system.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Inspector's final speech warns of 'fire and ________ and anguish' if collective responsibility is rejected.",
+              "correct_answer": "blood",
+              "explanation": "This prophecy references WWI, WWII, and the consequences of capitalist indifference to suffering.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Mrs ________ is the last family member to accept responsibility — her cold logic exposes class prejudice.",
+              "correct_answer": "Birling",
+              "explanation": "Her refusal to help Eva on moral grounds reveals how the upper class judges the poor while ignoring its own failures.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Inspector Goole",
+                  "match": "represents social conscience — collective responsibility"
+                },
+                {
+                  "term": "Mr Birling",
+                  "match": "pompous capitalist — wrong predictions expose his arrogance"
+                },
+                {
+                  "term": "Sheila",
+                  "match": "accepts responsibility — represents hope and change"
+                },
+                {
+                  "term": "Eva Smith",
+                  "match": "never on stage — symbol of all exploited working-class women"
+                },
+                {
+                  "term": "collective responsibility",
+                  "match": "Priestley's central message — we are all responsible for each other"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

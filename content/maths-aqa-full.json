@@ -1,0 +1,2169 @@
+{
+  "subject": {
+    "name": "Maths",
+    "slug": "maths",
+    "colour": "#1d4ed8",
+    "exam_board": "AQA",
+    "emoji": "📐"
+  },
+  "topics": [
+    {
+      "name": "Number",
+      "paper": "Paper 1, 2 & 3",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Number Basics & Fractions",
+          "cards": [
+            {
+              "keyword": "integer",
+              "definition": "a whole number — can be positive, negative, or zero. E.g. −3, 0, 7",
+              "display_order": 1
+            },
+            {
+              "keyword": "factor",
+              "definition": "a whole number that divides exactly into another — e.g. factors of 12 are 1, 2, 3, 4, 6, 12",
+              "display_order": 2
+            },
+            {
+              "keyword": "multiple",
+              "definition": "the result of multiplying a number by a positive integer — e.g. multiples of 4: 4, 8, 12, 16...",
+              "display_order": 3
+            },
+            {
+              "keyword": "prime number",
+              "definition": "a number with exactly two factors: 1 and itself — e.g. 2, 3, 5, 7, 11, 13",
+              "display_order": 4
+            },
+            {
+              "keyword": "HCF (Highest Common Factor)",
+              "definition": "the largest factor shared by two or more numbers",
+              "display_order": 5
+            },
+            {
+              "keyword": "LCM (Lowest Common Multiple)",
+              "definition": "the smallest multiple shared by two or more numbers",
+              "display_order": 6
+            },
+            {
+              "keyword": "fraction",
+              "definition": "a way of expressing part of a whole — written as numerator ÷ denominator",
+              "display_order": 7
+            },
+            {
+              "keyword": "percentage",
+              "definition": "a fraction expressed out of 100 — e.g. 45% = 45/100",
+              "display_order": 8
+            },
+            {
+              "keyword": "ratio",
+              "definition": "a comparison of two or more quantities — e.g. 3:2 means 3 parts to 2 parts",
+              "display_order": 9
+            },
+            {
+              "keyword": "standard form",
+              "definition": "a way of writing very large or small numbers — A × 10ⁿ where 1 ≤ A < 10",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a prime number?",
+              "options": [
+                "A) A number divisible by 2",
+                "B) A number with exactly two factors: 1 and itself",
+                "C) Any odd number",
+                "D) A number divisible by any integer"
+              ],
+              "correct_answer": "B",
+              "explanation": "Prime numbers have exactly two factors — 1 and the number itself. 1 is not prime (only one factor). 2 is the only even prime.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the HCF of 12 and 18?",
+              "options": [
+                "A) 2",
+                "B) 3",
+                "C) 6",
+                "D) 9"
+              ],
+              "correct_answer": "C",
+              "explanation": "Factors of 12: 1,2,3,4,6,12. Factors of 18: 1,2,3,6,9,18. The highest common factor is 6.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the LCM of 4 and 6?",
+              "options": [
+                "A) 2",
+                "B) 12",
+                "C) 24",
+                "D) 8"
+              ],
+              "correct_answer": "B",
+              "explanation": "Multiples of 4: 4,8,12... Multiples of 6: 6,12... The lowest common multiple is 12.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 0.35 as a percentage?",
+              "options": [
+                "A) 0.35%",
+                "B) 3.5%",
+                "C) 35%",
+                "D) 350%"
+              ],
+              "correct_answer": "C",
+              "explanation": "Multiply by 100 to convert a decimal to a percentage: 0.35 × 100 = 35%.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is NOT a prime number?",
+              "options": [
+                "A) 7",
+                "B) 11",
+                "C) 15",
+                "D) 13"
+              ],
+              "correct_answer": "C",
+              "explanation": "15 = 3 × 5, so it has more than two factors — it is not prime. 7, 11, and 13 are all prime.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 4.5 × 10³ in ordinary form?",
+              "options": [
+                "A) 4500",
+                "B) 45000",
+                "C) 450",
+                "D) 0.0045"
+              ],
+              "correct_answer": "A",
+              "explanation": "4.5 × 10³ = 4.5 × 1000 = 4500. Moving the decimal point 3 places to the right.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the ratio 15:25 in its simplest form?",
+              "options": [
+                "A) 15:25",
+                "B) 5:8",
+                "C) 3:5",
+                "D) 1:2"
+              ],
+              "correct_answer": "C",
+              "explanation": "Divide both sides by their HCF (5): 15÷5 = 3, 25÷5 = 5. Simplest form is 3:5.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is ¾ as a decimal?",
+              "options": [
+                "A) 0.34",
+                "B) 0.75",
+                "C) 3.4",
+                "D) 0.43"
+              ],
+              "correct_answer": "B",
+              "explanation": "¾ = 3 ÷ 4 = 0.75. Alternatively, ¾ = 75/100 = 0.75.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are the factors of 24?",
+              "options": [
+                "A) 1, 2, 3, 4, 6, 8, 12, 24",
+                "B) 1, 2, 3, 4, 8, 24",
+                "C) 2, 4, 6, 8, 12",
+                "D) 1, 2, 3, 6, 24"
+              ],
+              "correct_answer": "A",
+              "explanation": "Factors of 24: 1×24, 2×12, 3×8, 4×6 — giving factors 1, 2, 3, 4, 6, 8, 12, 24.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In standard form A × 10ⁿ, what must be true about A?",
+              "options": [
+                "A) A must be a whole number",
+                "B) 1 ≤ A < 10",
+                "C) A can be any positive number",
+                "D) A must be less than 1"
+              ],
+              "correct_answer": "B",
+              "explanation": "In standard form, A must satisfy 1 ≤ A < 10. So 35000 = 3.5 × 10⁴ (not 35 × 10³).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "1 is a prime number.",
+              "correct_answer": "False",
+              "explanation": "1 is not prime — it has only one factor (itself). Prime numbers must have exactly two factors.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The HCF is the largest shared factor of two or more numbers.",
+              "correct_answer": "True",
+              "explanation": "The Highest Common Factor is found by listing all factors and finding the largest one they share.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "0.6 as a percentage is 60%.",
+              "correct_answer": "True",
+              "explanation": "0.6 × 100 = 60%. To convert a decimal to a percentage, multiply by 100.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The LCM of 3 and 5 is 15.",
+              "correct_answer": "True",
+              "explanation": "The lowest common multiple is the smallest number in both times tables: multiples of 3: 3,6,9,12,15... multiples of 5: 5,10,15... LCM = 15.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Standard form requires the first number to be between 0 and 1.",
+              "correct_answer": "False",
+              "explanation": "In standard form A × 10ⁿ, A must satisfy 1 ≤ A < 10 — not between 0 and 1.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "A factor divides exactly into a number with no remainder.",
+              "correct_answer": "True",
+              "explanation": "Factors of a number divide it exactly — no remainder. E.g. 4 is a factor of 12 because 12 ÷ 4 = 3.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The ratio 6:9 simplifies to 2:3.",
+              "correct_answer": "True",
+              "explanation": "HCF of 6 and 9 is 3. 6÷3=2, 9÷3=3. Simplified ratio is 2:3.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "All even numbers are composite (not prime).",
+              "correct_answer": "False",
+              "explanation": "2 is even and prime — it is the only even prime number. All other even numbers have 2 as a factor, so are composite.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "⅝ as a decimal is 0.625.",
+              "correct_answer": "False",
+              "explanation": "⅝ = 5 ÷ 8 = 0.625. So this statement is actually TRUE. ⅝ = 0.625.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The LCM is always larger than or equal to both original numbers.",
+              "correct_answer": "True",
+              "explanation": "The LCM is at least as large as the largest of the numbers — it can never be smaller than either number.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ number has exactly two factors: 1 and itself.",
+              "correct_answer": "prime",
+              "explanation": "Examples of prime numbers: 2, 3, 5, 7, 11, 13, 17, 19, 23...",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Common Factor is the largest factor shared by two numbers.",
+              "correct_answer": "Highest",
+              "explanation": "HCF is found by listing factors of both numbers and finding the largest one they share.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Common Multiple is the smallest multiple shared by two numbers.",
+              "correct_answer": "Lowest",
+              "explanation": "LCM is found by listing multiples of both numbers and finding the first one they share.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "To write a decimal as a percentage, ________ by 100.",
+              "correct_answer": "multiply",
+              "explanation": "0.45 × 100 = 45%. To convert back, divide by 100.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "In standard form A × 10ⁿ, A must satisfy ________ ≤ A < 10.",
+              "correct_answer": "1",
+              "explanation": "Standard form requires A to be at least 1 but less than 10.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ of a number are found by multiplying it by positive integers.",
+              "correct_answer": "Multiples",
+              "explanation": "Multiples of 7: 7, 14, 21, 28... They go on forever.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ compares two or more quantities — e.g. 3:2.",
+              "correct_answer": "ratio",
+              "explanation": "Ratios can be simplified by dividing both parts by their HCF.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a number with exactly two factors: 1 and itself.",
+              "correct_answer": "prime",
+              "explanation": "The first five primes are 2, 3, 5, 7, 11.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "To convert a fraction to a decimal, ________ the numerator by the denominator.",
+              "correct_answer": "divide",
+              "explanation": "¾ = 3 ÷ 4 = 0.75.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a number that divides exactly into another — e.g. 4 is a ________ of 12.",
+              "correct_answer": "Factor",
+              "explanation": "Factors come in pairs: 1×12, 2×6, 3×4 — all give factors of 12.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "prime number",
+                  "match": "exactly two factors: 1 and itself"
+                },
+                {
+                  "term": "HCF",
+                  "match": "largest factor shared by two numbers"
+                },
+                {
+                  "term": "LCM",
+                  "match": "smallest multiple shared by two numbers"
+                },
+                {
+                  "term": "standard form",
+                  "match": "A × 10ⁿ where 1 ≤ A < 10"
+                },
+                {
+                  "term": "ratio",
+                  "match": "comparison of quantities — e.g. 3:2"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Percentages & Proportional Reasoning",
+          "cards": [
+            {
+              "keyword": "percentage increase",
+              "definition": "finding the new value after adding a percentage: New = Original × (1 + r/100)",
+              "display_order": 1
+            },
+            {
+              "keyword": "percentage decrease",
+              "definition": "finding the new value after removing a percentage: New = Original × (1 − r/100)",
+              "display_order": 2
+            },
+            {
+              "keyword": "percentage change",
+              "definition": "change as a percentage of original: % change = (change ÷ original) × 100",
+              "display_order": 3
+            },
+            {
+              "keyword": "reverse percentage",
+              "definition": "finding the original value before a percentage change was applied",
+              "display_order": 4
+            },
+            {
+              "keyword": "simple interest",
+              "definition": "interest calculated on the original principal only — I = PRT/100",
+              "display_order": 5
+            },
+            {
+              "keyword": "compound interest",
+              "definition": "interest calculated on the principal plus previously earned interest — A = P(1 + r/100)ⁿ",
+              "display_order": 6
+            },
+            {
+              "keyword": "direct proportion",
+              "definition": "two quantities increase or decrease together at the same rate — y = kx",
+              "display_order": 7
+            },
+            {
+              "keyword": "inverse proportion",
+              "definition": "as one quantity increases, the other decreases proportionally — y = k/x",
+              "display_order": 8
+            },
+            {
+              "keyword": "multiplier",
+              "definition": "a single number used to calculate a percentage change — e.g. a 20% increase uses multiplier 1.2",
+              "display_order": 9
+            },
+            {
+              "keyword": "best buy",
+              "definition": "comparing unit prices or quantities to find the best value for money",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What multiplier is used for a 15% increase?",
+              "options": [
+                "A) 1.5",
+                "B) 0.85",
+                "C) 0.15",
+                "D) 1.15"
+              ],
+              "correct_answer": "D",
+              "explanation": "For a 15% increase, multiply by (1 + 0.15) = 1.15. E.g. £200 increased by 15% = £200 × 1.15 = £230.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What multiplier is used for a 30% decrease?",
+              "options": [
+                "A) 0.3",
+                "B) 0.7",
+                "C) 1.3",
+                "D) 1.7"
+              ],
+              "correct_answer": "B",
+              "explanation": "For a 30% decrease, multiply by (1 − 0.30) = 0.70. E.g. £500 decreased by 30% = £500 × 0.70 = £350.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A price rises from £80 to £100. What is the % increase?",
+              "options": [
+                "A) 20%",
+                "B) 25%",
+                "C) 80%",
+                "D) 125%"
+              ],
+              "correct_answer": "B",
+              "explanation": "% change = (change ÷ original) × 100 = (20 ÷ 80) × 100 = 25%.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the formula for compound interest?",
+              "options": [
+                "A) A = P + PRT/100",
+                "B) A = P(1 + r/100)ⁿ",
+                "C) A = Prⁿ",
+                "D) A = P(1 − r)ⁿ"
+              ],
+              "correct_answer": "B",
+              "explanation": "Compound interest: A = P(1 + r/100)ⁿ where P = principal, r = annual rate, n = number of years.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "If y is directly proportional to x and y = 12 when x = 3, what is k?",
+              "options": [
+                "A) 4",
+                "B) 9",
+                "C) 36",
+                "D) 0.25"
+              ],
+              "correct_answer": "A",
+              "explanation": "y = kx so k = y/x = 12/3 = 4. The equation is y = 4x.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "After a 20% increase, a price is £144. What was the original price?",
+              "options": [
+                "A) £115.20",
+                "B) £120",
+                "C) £124",
+                "D) £172.80"
+              ],
+              "correct_answer": "B",
+              "explanation": "£144 ÷ 1.2 = £120. Divide by the multiplier to reverse a percentage change.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does inverse proportion mean?",
+              "options": [
+                "A) Both quantities increase together",
+                "B) As one increases, the other decreases proportionally",
+                "C) Quantities are unrelated",
+                "D) One quantity is squared"
+              ],
+              "correct_answer": "B",
+              "explanation": "Inverse proportion: y = k/x. If x doubles, y halves. If x triples, y becomes a third.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "£500 is invested for 3 years at 4% compound interest. What is the final amount?",
+              "options": [
+                "A) £560",
+                "B) £562.43",
+                "C) £560.00",
+                "D) £624.00"
+              ],
+              "correct_answer": "B",
+              "explanation": "A = 500 × (1.04)³ = 500 × 1.124864 = £562.43.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is simple interest on £300 at 5% for 2 years?",
+              "options": [
+                "A) £15",
+                "B) £30",
+                "C) £315",
+                "D) £330"
+              ],
+              "correct_answer": "B",
+              "explanation": "Simple interest I = PRT/100 = 300 × 5 × 2 / 100 = £30.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A product costs £2.40 for 400g and £3.50 for 600g. Which is better value?",
+              "options": [
+                "A) £2.40 for 400g",
+                "B) £3.50 for 600g",
+                "C) They are equal",
+                "D) Cannot determine"
+              ],
+              "correct_answer": "B",
+              "explanation": "Price per gram: £2.40/400 = 0.6p/g. £3.50/600 = 0.583p/g. The 600g is slightly better value.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "A 20% increase uses the multiplier 1.2.",
+              "correct_answer": "True",
+              "explanation": "For percentage increases, add the percentage as a decimal to 1: 1 + 0.20 = 1.20.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Compound interest earns interest on the original principal only.",
+              "correct_answer": "False",
+              "explanation": "Compound interest earns interest on the principal AND previously accumulated interest — it grows faster than simple interest.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "To reverse a 25% increase, divide by 0.75.",
+              "correct_answer": "False",
+              "explanation": "A 25% increase uses multiplier 1.25 — to reverse it, divide by 1.25 (not 0.75). Dividing by 0.75 would reverse a 25% decrease.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "In direct proportion, y = kx for some constant k.",
+              "correct_answer": "True",
+              "explanation": "Direct proportion: y increases by the same factor as x. The graph is a straight line through the origin.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Simple interest is calculated on the original amount only.",
+              "correct_answer": "True",
+              "explanation": "Simple interest: I = PRT/100. Unlike compound interest, it does not accumulate on previously earned interest.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Percentage change = (change ÷ new value) × 100.",
+              "correct_answer": "False",
+              "explanation": "Percentage change = (change ÷ original value) × 100. The original value is the denominator.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "In inverse proportion, if x doubles, y doubles.",
+              "correct_answer": "False",
+              "explanation": "In inverse proportion (y = k/x), if x doubles, y halves. They vary in opposite directions.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "A 10% decrease followed by 10% increase returns to the original.",
+              "correct_answer": "False",
+              "explanation": "E.g. £100 × 0.9 = £90, then £90 × 1.1 = £99 — not the original. Percentage changes do not simply cancel.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The multiplier for a 35% decrease is 0.65.",
+              "correct_answer": "True",
+              "explanation": "For a 35% decrease: 1 − 0.35 = 0.65. Multiply the original by 0.65 to find the new value.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Compound interest gives a higher return than simple interest over time.",
+              "correct_answer": "True",
+              "explanation": "Compound interest accumulates on previous interest — over time it grows faster than simple interest.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ % increase uses the multiplier 1 + (percentage/100).",
+              "correct_answer": "percentage",
+              "explanation": "E.g. 15% increase uses multiplier 1.15. 30% increase uses 1.30.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "To find the original value before a percentage increase, ________ by the multiplier.",
+              "correct_answer": "divide",
+              "explanation": "E.g. after 20% increase the price is £120 — original = £120 ÷ 1.20 = £100.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Compound interest: A = P(1 + r/100)________.",
+              "correct_answer": "ⁿ",
+              "explanation": "n = number of years. Compound interest grows exponentially.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "In direct proportion, y = ________ × x for some constant k.",
+              "correct_answer": "k",
+              "explanation": "The constant k is the rate of proportionality — the gradient of the y = kx graph.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "In ________ proportion, as x increases, y decreases — y = k/x.",
+              "correct_answer": "inverse",
+              "explanation": "Inverse proportion: doubling x halves y. The graph is a reciprocal curve.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "% change = (change ÷ ________) × 100.",
+              "correct_answer": "original",
+              "explanation": "Always divide by the original value, not the new value.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Simple interest I = ________.",
+              "correct_answer": "PRT/100",
+              "explanation": "P = principal, R = rate per year, T = time in years.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a single number used to apply a percentage change in one step.",
+              "correct_answer": "multiplier",
+              "explanation": "Multipliers: 20% increase → 1.2; 15% decrease → 0.85.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "For best buy comparisons, calculate the ________ per unit for each option.",
+              "correct_answer": "price",
+              "explanation": "Divide the total price by the quantity to get price per gram, litre, or unit.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A 25% decrease uses the multiplier ________.",
+              "correct_answer": "0.75",
+              "explanation": "1 − 0.25 = 0.75. Multiply original by 0.75 to find the decreased value.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "percentage increase multiplier",
+                  "match": "1 + (percentage ÷ 100)"
+                },
+                {
+                  "term": "percentage decrease multiplier",
+                  "match": "1 − (percentage ÷ 100)"
+                },
+                {
+                  "term": "percentage change formula",
+                  "match": "(change ÷ original) × 100"
+                },
+                {
+                  "term": "compound interest",
+                  "match": "A = P(1 + r/100)ⁿ"
+                },
+                {
+                  "term": "direct proportion",
+                  "match": "y = kx — both increase at same rate"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algebra",
+      "paper": "Paper 1, 2 & 3",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Algebra Fundamentals",
+          "cards": [
+            {
+              "keyword": "expression",
+              "definition": "a mathematical phrase containing numbers and variables but no equals sign — e.g. 3x + 2",
+              "display_order": 1
+            },
+            {
+              "keyword": "equation",
+              "definition": "a mathematical statement showing two expressions are equal — e.g. 3x + 2 = 11",
+              "display_order": 2
+            },
+            {
+              "keyword": "formula",
+              "definition": "a rule showing the relationship between variables — e.g. A = πr²",
+              "display_order": 3
+            },
+            {
+              "keyword": "expanding brackets",
+              "definition": "multiplying out brackets — e.g. 3(x + 4) = 3x + 12",
+              "display_order": 4
+            },
+            {
+              "keyword": "factorising",
+              "definition": "writing an expression as a product of its factors — the reverse of expanding",
+              "display_order": 5
+            },
+            {
+              "keyword": "solving equations",
+              "definition": "finding the value of the unknown that makes the equation true",
+              "display_order": 6
+            },
+            {
+              "keyword": "simultaneous equations",
+              "definition": "two equations with two unknowns — solve by elimination or substitution",
+              "display_order": 7
+            },
+            {
+              "keyword": "quadratic equation",
+              "definition": "an equation of the form ax² + bx + c = 0 — solved by factorising, formula, or completing the square",
+              "display_order": 8
+            },
+            {
+              "keyword": "gradient",
+              "definition": "the steepness of a straight line — rise ÷ run, or m in y = mx + c",
+              "display_order": 9
+            },
+            {
+              "keyword": "y-intercept",
+              "definition": "the point where a line crosses the y-axis — c in y = mx + c",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between an expression and an equation?",
+              "options": [
+                "A) Expressions have unknowns; equations do not",
+                "B) An equation has an equals sign; an expression does not",
+                "C) Expressions are always linear",
+                "D) Equations cannot be solved"
+              ],
+              "correct_answer": "B",
+              "explanation": "An expression (e.g. 2x + 3) has no equals sign. An equation (e.g. 2x + 3 = 9) has an equals sign — it can be solved.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 3(2x − 5) expanded?",
+              "options": [
+                "A) 6x − 5",
+                "B) 6x + 15",
+                "C) 6x − 15",
+                "D) 5x − 15"
+              ],
+              "correct_answer": "C",
+              "explanation": "3(2x − 5) = 3×2x − 3×5 = 6x − 15. Multiply each term inside the brackets by 3.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the gradient in y = 3x − 7?",
+              "options": [
+                "A) −7",
+                "B) x",
+                "C) 3",
+                "D) −3"
+              ],
+              "correct_answer": "C",
+              "explanation": "In y = mx + c, m is the gradient and c is the y-intercept. In y = 3x − 7, gradient = 3, y-intercept = −7.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do you factorise x² + 5x + 6?",
+              "options": [
+                "A) (x + 2)(x + 3)",
+                "B) (x + 1)(x + 6)",
+                "C) (x + 3)(x + 2) and (x + 1)(x + 6) are the same",
+                "D) (x + 5)(x + 1)"
+              ],
+              "correct_answer": "A",
+              "explanation": "Find two numbers that multiply to 6 and add to 5: 2 and 3. So x² + 5x + 6 = (x + 2)(x + 3).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the y-intercept of y = 4x + 9?",
+              "options": [
+                "A) 4",
+                "B) x",
+                "C) 9",
+                "D) −9"
+              ],
+              "correct_answer": "C",
+              "explanation": "In y = mx + c, c is the y-intercept. In y = 4x + 9, the line crosses the y-axis at (0, 9).",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the quadratic formula?",
+              "options": [
+                "A) x = (b ± √(b²−4ac)) / 2a",
+                "B) x = (−b ± √(b²−4ac)) / 2a",
+                "C) x = −b / 2a",
+                "D) x = (b² − 4ac) / 2a"
+              ],
+              "correct_answer": "B",
+              "explanation": "The quadratic formula: x = (−b ± √(b²−4ac)) / 2a. Used to solve ax² + bx + c = 0.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Solve 2x + 5 = 13. What is x?",
+              "options": [
+                "A) 3",
+                "B) 4",
+                "C) 9",
+                "D) 18"
+              ],
+              "correct_answer": "B",
+              "explanation": "2x + 5 = 13 → 2x = 8 → x = 4.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is factorising?",
+              "options": [
+                "A) Expanding brackets",
+                "B) Writing an expression as a product of its factors",
+                "C) Solving a quadratic",
+                "D) Substituting values"
+              ],
+              "correct_answer": "B",
+              "explanation": "Factorising is the reverse of expanding — writing an expression as a product e.g. x² + 5x + 6 = (x+2)(x+3).",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Two lines are parallel if they have the same what?",
+              "options": [
+                "A) Y-intercept",
+                "B) X-intercept",
+                "C) Gradient",
+                "D) Length"
+              ],
+              "correct_answer": "C",
+              "explanation": "Parallel lines have the same gradient (m value) — they never meet.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Solve the simultaneous equations: x + y = 10 and x − y = 2.",
+              "options": [
+                "A) x = 5, y = 5",
+                "B) x = 6, y = 4",
+                "C) x = 4, y = 6",
+                "D) x = 8, y = 2"
+              ],
+              "correct_answer": "B",
+              "explanation": "Add equations: 2x = 12, x = 6. Substitute: 6 + y = 10, y = 4.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "An expression has an equals sign.",
+              "correct_answer": "False",
+              "explanation": "An expression (e.g. 3x + 2) does not have an equals sign. An equation does (e.g. 3x + 2 = 8).",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "In y = mx + c, m represents the gradient.",
+              "correct_answer": "True",
+              "explanation": "y = mx + c is the equation of a straight line. m = gradient, c = y-intercept.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "3(x + 4) = 3x + 4 when expanded.",
+              "correct_answer": "False",
+              "explanation": "3(x + 4) = 3×x + 3×4 = 3x + 12. Multiply every term inside the brackets by 3.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Parallel lines have different gradients.",
+              "correct_answer": "False",
+              "explanation": "Parallel lines have the same gradient. They never intersect.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Factorising is the reverse of expanding brackets.",
+              "correct_answer": "True",
+              "explanation": "Expanding: a(b + c) = ab + ac. Factorising: ab + ac = a(b + c).",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The y-intercept is where a line crosses the x-axis.",
+              "correct_answer": "False",
+              "explanation": "The y-intercept is where a line crosses the y-axis — it is the c value in y = mx + c.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The quadratic formula can solve any quadratic equation.",
+              "correct_answer": "True",
+              "explanation": "The quadratic formula x = (−b ± √(b²−4ac))/2a works for any quadratic ax² + bx + c = 0.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Simultaneous equations always have one unique solution.",
+              "correct_answer": "False",
+              "explanation": "Simultaneous equations can have one unique solution, no solution (parallel lines), or infinite solutions (same line).",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The gradient of a horizontal line is zero.",
+              "correct_answer": "True",
+              "explanation": "A horizontal line has no rise — gradient = rise/run = 0/run = 0.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "x² + 7x + 12 factorises to (x + 3)(x + 4).",
+              "correct_answer": "True",
+              "explanation": "3 × 4 = 12 and 3 + 4 = 7, so x² + 7x + 12 = (x + 3)(x + 4).",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ has an equals sign; an expression does not.",
+              "correct_answer": "equation",
+              "explanation": "Equations can be solved to find unknown values.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "In y = mx + c, ________ is the gradient and c is the y-intercept.",
+              "correct_answer": "m",
+              "explanation": "The gradient tells you how steep the line is — rise ÷ run.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ brackets means multiplying every term inside by the factor outside.",
+              "correct_answer": "Expanding",
+              "explanation": "3(2x − 1) = 6x − 3. Each term is multiplied by 3.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is writing an expression as a product of its factors.",
+              "correct_answer": "Factorising",
+              "explanation": "x² + 5x + 6 = (x + 2)(x + 3). Find two numbers multiplying to 6 and adding to 5.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ formula: x = (−b ± √(b²−4ac)) / 2a.",
+              "correct_answer": "quadratic",
+              "explanation": "The quadratic formula solves any equation in the form ax² + bx + c = 0.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ lines have the same gradient but different y-intercepts.",
+              "correct_answer": "Parallel",
+              "explanation": "Parallel lines never meet — they have the same m value in y = mx + c.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the value of y where a line crosses the y-axis.",
+              "correct_answer": "y-intercept",
+              "explanation": "The y-intercept is c in y = mx + c. It is the point (0, c) on the graph.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ equations are two equations with two unknowns solved together.",
+              "correct_answer": "Simultaneous",
+              "explanation": "Simultaneous equations are solved by substitution or elimination.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ equation has the form ax² + bx + c = 0.",
+              "correct_answer": "quadratic",
+              "explanation": "Quadratic equations are solved by factorising, completing the square, or the quadratic formula.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of a line = rise ÷ run.",
+              "correct_answer": "gradient",
+              "explanation": "Gradient m = (y₂ − y₁) / (x₂ − x₁). It measures how steep the line is.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "expression",
+                  "match": "mathematical phrase — no equals sign"
+                },
+                {
+                  "term": "equation",
+                  "match": "mathematical statement with equals sign — can be solved"
+                },
+                {
+                  "term": "gradient (m)",
+                  "match": "steepness of a line — rise ÷ run"
+                },
+                {
+                  "term": "y-intercept (c)",
+                  "match": "where the line crosses the y-axis"
+                },
+                {
+                  "term": "quadratic equation",
+                  "match": "ax² + bx + c = 0 — solved by factorising or formula"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geometry & Measures",
+      "paper": "Paper 1, 2 & 3",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Angles, Shapes & Trigonometry",
+          "cards": [
+            {
+              "keyword": "angles on a straight line",
+              "definition": "angles on a straight line add up to 180°",
+              "display_order": 1
+            },
+            {
+              "keyword": "angles in a triangle",
+              "definition": "angles in any triangle add up to 180°",
+              "display_order": 2
+            },
+            {
+              "keyword": "angles in a quadrilateral",
+              "definition": "angles in any quadrilateral add up to 360°",
+              "display_order": 3
+            },
+            {
+              "keyword": "alternate angles",
+              "definition": "equal angles formed between parallel lines on opposite sides of a transversal — Z angles",
+              "display_order": 4
+            },
+            {
+              "keyword": "corresponding angles",
+              "definition": "equal angles formed on the same side of a transversal crossing parallel lines — F angles",
+              "display_order": 5
+            },
+            {
+              "keyword": "Pythagoras' theorem",
+              "definition": "in a right-angled triangle, a² + b² = c² where c is the hypotenuse",
+              "display_order": 6
+            },
+            {
+              "keyword": "hypotenuse",
+              "definition": "the longest side of a right-angled triangle — always opposite the right angle",
+              "display_order": 7
+            },
+            {
+              "keyword": "SOH CAH TOA",
+              "definition": "memory aid for trigonometry: Sin = Opp/Hyp, Cos = Adj/Hyp, Tan = Opp/Adj",
+              "display_order": 8
+            },
+            {
+              "keyword": "interior angle (polygon)",
+              "definition": "the angle inside a polygon — sum of interior angles = (n − 2) × 180°",
+              "display_order": 9
+            },
+            {
+              "keyword": "exterior angle (polygon)",
+              "definition": "the angle outside a polygon — exterior angles always add up to 360°",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What do angles in a triangle add up to?",
+              "options": [
+                "A) 90°",
+                "B) 180°",
+                "C) 360°",
+                "D) 270°"
+              ],
+              "correct_answer": "B",
+              "explanation": "The angles in any triangle always sum to 180°.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In Pythagoras' theorem, what does c represent?",
+              "options": [
+                "A) Any side",
+                "B) The shortest side",
+                "C) The hypotenuse",
+                "D) The base"
+              ],
+              "correct_answer": "C",
+              "explanation": "In a² + b² = c², c is always the hypotenuse — the longest side, opposite the right angle.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is SOH in SOH CAH TOA?",
+              "options": [
+                "A) Sin = Adjacent/Hypotenuse",
+                "B) Sin = Opposite/Hypotenuse",
+                "C) Sin = Opposite/Adjacent",
+                "D) Sin = Hypotenuse/Opposite"
+              ],
+              "correct_answer": "B",
+              "explanation": "SOH: Sin θ = Opposite ÷ Hypotenuse. CAH: Cos θ = Adjacent ÷ Hypotenuse. TOA: Tan θ = Opposite ÷ Adjacent.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are alternate angles?",
+              "options": [
+                "A) Angles that add to 90°",
+                "B) Angles on a straight line",
+                "C) Equal angles on opposite sides of a transversal between parallel lines",
+                "D) Angles in the same position at each intersection"
+              ],
+              "correct_answer": "C",
+              "explanation": "Alternate angles (Z angles) are equal — they are between parallel lines on opposite sides of the transversal.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the sum of exterior angles of any polygon?",
+              "options": [
+                "A) 180°",
+                "B) (n−2) × 180°",
+                "C) 360°",
+                "D) 540°"
+              ],
+              "correct_answer": "C",
+              "explanation": "The exterior angles of any convex polygon always add up to 360°, regardless of the number of sides.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the formula for the sum of interior angles of an n-sided polygon?",
+              "options": [
+                "A) n × 180°",
+                "B) (n − 2) × 180°",
+                "C) (n + 2) × 180°",
+                "D) 360° ÷ n"
+              ],
+              "correct_answer": "B",
+              "explanation": "Sum of interior angles = (n − 2) × 180°. For a triangle (n=3): (3−2)×180 = 180°. For a quadrilateral (n=4): (4−2)×180 = 360°.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In a right-angled triangle, the side opposite 30° is 5. Find the hypotenuse.",
+              "options": [
+                "A) 2.5",
+                "B) 10",
+                "C) 8.66",
+                "D) 5"
+              ],
+              "correct_answer": "B",
+              "explanation": "Sin 30° = 0.5 = Opp/Hyp = 5/Hyp. Hyp = 5/0.5 = 10.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do corresponding angles look like?",
+              "options": [
+                "A) Z angles",
+                "B) F angles — same position at each parallel line",
+                "C) Co-interior angles adding to 180°",
+                "D) Vertically opposite angles"
+              ],
+              "correct_answer": "B",
+              "explanation": "Corresponding angles (F angles) are in the same position at each intersection — they are equal when lines are parallel.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A right-angled triangle has legs 3 and 4. What is the hypotenuse?",
+              "options": [
+                "A) 7",
+                "B) 12",
+                "C) 5",
+                "D) 25"
+              ],
+              "correct_answer": "C",
+              "explanation": "Pythagoras: 3² + 4² = 9 + 16 = 25. √25 = 5. The 3-4-5 triangle is a classic Pythagorean triple.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are co-interior angles?",
+              "options": [
+                "A) Equal angles between parallel lines",
+                "B) Angles on opposite sides of a transversal",
+                "C) Angles between parallel lines on the same side — add to 180°",
+                "D) Angles at a point"
+              ],
+              "correct_answer": "C",
+              "explanation": "Co-interior angles (C angles) are between parallel lines on the same side of the transversal — they add up to 180°.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Angles in a triangle add up to 180°.",
+              "correct_answer": "True",
+              "explanation": "This is a fundamental geometric property — true for all triangles, regardless of type.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The hypotenuse is the shortest side of a right-angled triangle.",
+              "correct_answer": "False",
+              "explanation": "The hypotenuse is the LONGEST side — it is always opposite the right angle.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "In Pythagoras' theorem, a² + b² = c², c is the hypotenuse.",
+              "correct_answer": "True",
+              "explanation": "c represents the hypotenuse in Pythagoras' theorem. a and b are the other two sides (legs).",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Exterior angles of a polygon add up to 180°.",
+              "correct_answer": "False",
+              "explanation": "The exterior angles of any convex polygon always add up to 360°, not 180°.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Alternate angles are equal.",
+              "correct_answer": "True",
+              "explanation": "Alternate angles (Z angles) between parallel lines are always equal.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Corresponding angles are supplementary (add to 180°).",
+              "correct_answer": "False",
+              "explanation": "Corresponding angles (F angles) between parallel lines are EQUAL, not supplementary.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Sum of interior angles of a hexagon = 720°.",
+              "correct_answer": "True",
+              "explanation": "(n−2) × 180° = (6−2) × 180° = 4 × 180° = 720°.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "SOH CAH TOA means Sin=Opp/Hyp, Cos=Adj/Hyp, Tan=Opp/Adj.",
+              "correct_answer": "True",
+              "explanation": "This is the correct mnemonic for right-angle trigonometry.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "In a 3-4-5 right-angled triangle, the hypotenuse is 4.",
+              "correct_answer": "False",
+              "explanation": "In a 3-4-5 triangle, the hypotenuse is 5 — the longest side. 3² + 4² = 5².",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The angles in a quadrilateral add up to 360°.",
+              "correct_answer": "True",
+              "explanation": "Sum of interior angles = (4−2) × 180° = 360°.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Angles in any triangle add up to ________.",
+              "correct_answer": "180°",
+              "explanation": "This is one of the most fundamental rules in geometry.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Pythagoras' theorem: a² + b² = ________ where c is the hypotenuse.",
+              "correct_answer": "c²",
+              "explanation": "Pythagoras applies to right-angled triangles only.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "SOH: Sin = ________ ÷ Hypotenuse.",
+              "correct_answer": "Opposite",
+              "explanation": "SOH CAH TOA: use the letters to recall each trigonometric ratio.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ angles (Z angles) between parallel lines are equal.",
+              "correct_answer": "Alternate",
+              "explanation": "Alternate angles are on opposite sides of the transversal between parallel lines.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Sum of interior angles = (n − ________) × 180°.",
+              "correct_answer": "2",
+              "explanation": "For a triangle: (3−2)×180=180°. For a pentagon: (5−2)×180=540°.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Exterior angles of any polygon always add up to ________.",
+              "correct_answer": "360°",
+              "explanation": "Each exterior angle = 360° ÷ number of sides for a regular polygon.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "CAH: Cos = ________ ÷ Hypotenuse.",
+              "correct_answer": "Adjacent",
+              "explanation": "CAH reminds us that Cosine uses the Adjacent side and Hypotenuse.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ angles (F angles) are in the same position at each parallel line — they are equal.",
+              "correct_answer": "Corresponding",
+              "explanation": "Corresponding angles are equal when lines are parallel.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the longest side of a right-angled triangle — opposite the right angle.",
+              "correct_answer": "hypotenuse",
+              "explanation": "In a² + b² = c², c is always the hypotenuse.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "TOA: Tan = ________ ÷ Adjacent.",
+              "correct_answer": "Opposite",
+              "explanation": "Tan θ = Opposite ÷ Adjacent. Useful when the hypotenuse is not involved.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Pythagoras' theorem",
+                  "match": "a² + b² = c² (c = hypotenuse)"
+                },
+                {
+                  "term": "SOH",
+                  "match": "Sin = Opposite ÷ Hypotenuse"
+                },
+                {
+                  "term": "CAH",
+                  "match": "Cos = Adjacent ÷ Hypotenuse"
+                },
+                {
+                  "term": "TOA",
+                  "match": "Tan = Opposite ÷ Adjacent"
+                },
+                {
+                  "term": "sum of interior angles",
+                  "match": "(n − 2) × 180°"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Statistics & Probability",
+      "paper": "Paper 1, 2 & 3",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Statistics",
+          "cards": [
+            {
+              "keyword": "mean",
+              "definition": "the average — total of all values ÷ number of values",
+              "display_order": 1
+            },
+            {
+              "keyword": "median",
+              "definition": "the middle value when data is arranged in order — if even number, average the two middle values",
+              "display_order": 2
+            },
+            {
+              "keyword": "mode",
+              "definition": "the most frequently occurring value in a data set",
+              "display_order": 3
+            },
+            {
+              "keyword": "range",
+              "definition": "the difference between the highest and lowest values — a measure of spread",
+              "display_order": 4
+            },
+            {
+              "keyword": "frequency table",
+              "definition": "a table showing how often each value appears in a data set",
+              "display_order": 5
+            },
+            {
+              "keyword": "cumulative frequency",
+              "definition": "a running total of frequencies — used to find the median and quartiles",
+              "display_order": 6
+            },
+            {
+              "keyword": "interquartile range (IQR)",
+              "definition": "the range of the middle 50% of data — Upper Quartile minus Lower Quartile",
+              "display_order": 7
+            },
+            {
+              "keyword": "scatter diagram",
+              "definition": "a graph plotting two variables to show correlation between them",
+              "display_order": 8
+            },
+            {
+              "keyword": "correlation",
+              "definition": "the relationship between two variables — positive, negative, or no correlation",
+              "display_order": 9
+            },
+            {
+              "keyword": "line of best fit",
+              "definition": "a straight line drawn through the middle of a scatter diagram — used to estimate values",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the mean?",
+              "options": [
+                "A) The middle value",
+                "B) The most common value",
+                "C) Total of all values ÷ number of values",
+                "D) Highest minus lowest value"
+              ],
+              "correct_answer": "C",
+              "explanation": "Mean = sum of all values ÷ number of values. It uses all the data and is sensitive to extreme values.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do you find the median of 5 values?",
+              "options": [
+                "A) Add them all and divide by 5",
+                "B) Find the most common value",
+                "C) Arrange in order and find the middle value",
+                "D) Subtract lowest from highest"
+              ],
+              "correct_answer": "C",
+              "explanation": "Median: arrange in ascending order and find the middle value. For 5 values, the 3rd value is the median.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the interquartile range?",
+              "options": [
+                "A) Highest − lowest value",
+                "B) Upper quartile − lower quartile",
+                "C) Mean − median",
+                "D) Total frequency"
+              ],
+              "correct_answer": "B",
+              "explanation": "IQR = Q3 − Q1 (upper quartile minus lower quartile). It measures the spread of the middle 50% of data.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does a scatter diagram show?",
+              "options": [
+                "A) Frequency of each value",
+                "B) Running total of data",
+                "C) Relationship between two variables",
+                "D) Distribution of one variable"
+              ],
+              "correct_answer": "C",
+              "explanation": "Scatter diagrams plot two variables against each other to show whether there is correlation between them.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is positive correlation?",
+              "options": [
+                "A) As x increases, y decreases",
+                "B) As x increases, y stays the same",
+                "C) As x increases, y increases",
+                "D) No relationship between x and y"
+              ],
+              "correct_answer": "C",
+              "explanation": "Positive correlation: both variables increase together. The scatter points go from bottom-left to top-right.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "For the data set 3, 5, 7, 7, 8, what is the mode?",
+              "options": [
+                "A) 5",
+                "B) 6",
+                "C) 7",
+                "D) 8"
+              ],
+              "correct_answer": "C",
+              "explanation": "The mode is the most frequently occurring value. 7 appears twice — all other values appear once.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the range of: 4, 7, 2, 9, 11?",
+              "options": [
+                "A) 7",
+                "B) 9",
+                "C) 6.6",
+                "D) 7"
+              ],
+              "correct_answer": "B",
+              "explanation": "Range = highest − lowest = 11 − 2 = 9.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is cumulative frequency used for?",
+              "options": [
+                "A) Finding the mean",
+                "B) Finding the median and quartiles from grouped data",
+                "C) Drawing a pie chart",
+                "D) Calculating probability"
+              ],
+              "correct_answer": "B",
+              "explanation": "A cumulative frequency graph allows you to estimate the median (at 50%) and quartiles (at 25% and 75%).",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the mean of 4, 8, 6, 10, 2?",
+              "options": [
+                "A) 5",
+                "B) 6",
+                "C) 7",
+                "D) 8"
+              ],
+              "correct_answer": "B",
+              "explanation": "Mean = (4+8+6+10+2) ÷ 5 = 30 ÷ 5 = 6.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the line of best fit allow you to do?",
+              "options": [
+                "A) Find the exact value of every point",
+                "B) Calculate the mean",
+                "C) Estimate values by reading from the line",
+                "D) Calculate the range"
+              ],
+              "correct_answer": "C",
+              "explanation": "The line of best fit (trend line) allows estimation of one variable given the other — useful for prediction within the data range.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The mean uses all values in a data set.",
+              "correct_answer": "True",
+              "explanation": "Mean = sum ÷ count. It uses every value, which makes it sensitive to extreme values (outliers).",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The median is the most common value.",
+              "correct_answer": "False",
+              "explanation": "The median is the middle value when data is in order. The mode is the most common value.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The range measures the spread of a data set.",
+              "correct_answer": "True",
+              "explanation": "Range = highest − lowest. It measures how spread out the data is.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The interquartile range uses only the top and bottom 25% of data.",
+              "correct_answer": "False",
+              "explanation": "IQR uses the middle 50% — from Q1 (25th percentile) to Q3 (75th percentile). It excludes the extreme values.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Negative correlation means both variables decrease together.",
+              "correct_answer": "False",
+              "explanation": "Negative correlation means as one variable increases, the other decreases. It is not about both decreasing.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "A line of best fit must pass through the origin.",
+              "correct_answer": "False",
+              "explanation": "A line of best fit passes through the 'middle' of the scatter points — it does not need to pass through the origin.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Cumulative frequency is a running total of frequencies.",
+              "correct_answer": "True",
+              "explanation": "Cumulative frequency adds up as you go through the data — it reaches the total frequency at the end.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "If there are two middle values, the median is their average.",
+              "correct_answer": "True",
+              "explanation": "For an even number of values, the median = average of the two middle values when in order.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "A scatter diagram shows the distribution of one variable only.",
+              "correct_answer": "False",
+              "explanation": "Scatter diagrams plot two variables against each other to show the relationship (correlation) between them.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Strong correlation means points are closely clustered around the line of best fit.",
+              "correct_answer": "True",
+              "explanation": "Strong correlation: points are close to the line. Weak correlation: points are more scattered.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = sum of all values ÷ number of values.",
+              "correct_answer": "Mean",
+              "explanation": "The mean is the most commonly used average but is affected by outliers.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the middle value when data is in order.",
+              "correct_answer": "median",
+              "explanation": "For an even number of values, find the average of the two middle values.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the most frequently occurring value.",
+              "correct_answer": "mode",
+              "explanation": "A data set can have no mode, one mode, or more than one mode.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = highest value − lowest value.",
+              "correct_answer": "Range",
+              "explanation": "Range measures spread but is affected by extreme values.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "IQR = ________ quartile − lower quartile.",
+              "correct_answer": "upper",
+              "explanation": "IQR measures the spread of the middle 50% — less affected by outliers than range.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ diagram plots two variables to show correlation.",
+              "correct_answer": "scatter",
+              "explanation": "The pattern of scatter points shows whether correlation is positive, negative, or absent.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ frequency is a running total — used to find the median from grouped data.",
+              "correct_answer": "Cumulative",
+              "explanation": "On a cumulative frequency graph, the median is at 50% of the total frequency.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ correlation: as one variable increases, the other decreases.",
+              "correct_answer": "Negative",
+              "explanation": "Negative correlation scatter points go from top-left to bottom-right.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ of best fit is drawn through the middle of a scatter diagram.",
+              "correct_answer": "line",
+              "explanation": "The line of best fit allows estimation of one variable given the other.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ correlation: as x increases, y also increases.",
+              "correct_answer": "Positive",
+              "explanation": "Positive correlation scatter points go from bottom-left to top-right.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "mean",
+                  "match": "total ÷ number of values"
+                },
+                {
+                  "term": "median",
+                  "match": "middle value when in order"
+                },
+                {
+                  "term": "mode",
+                  "match": "most frequently occurring value"
+                },
+                {
+                  "term": "range",
+                  "match": "highest minus lowest — measures spread"
+                },
+                {
+                  "term": "IQR",
+                  "match": "upper quartile minus lower quartile — spread of middle 50%"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Probability",
+          "cards": [
+            {
+              "keyword": "probability",
+              "definition": "a measure of how likely an event is — written as a fraction, decimal, or percentage between 0 and 1",
+              "display_order": 1
+            },
+            {
+              "keyword": "theoretical probability",
+              "definition": "probability calculated from equally likely outcomes — P(event) = favourable outcomes ÷ total outcomes",
+              "display_order": 2
+            },
+            {
+              "keyword": "experimental probability",
+              "definition": "probability estimated from the results of an experiment — relative frequency = frequency ÷ total trials",
+              "display_order": 3
+            },
+            {
+              "keyword": "mutually exclusive events",
+              "definition": "events that cannot both happen at the same time — P(A or B) = P(A) + P(B)",
+              "display_order": 4
+            },
+            {
+              "keyword": "independent events",
+              "definition": "events where the outcome of one does not affect the other — P(A and B) = P(A) × P(B)",
+              "display_order": 5
+            },
+            {
+              "keyword": "tree diagram",
+              "definition": "a diagram showing all possible outcomes of two or more events and their probabilities",
+              "display_order": 6
+            },
+            {
+              "keyword": "sample space",
+              "definition": "all possible outcomes of an experiment — often shown in a two-way table or list",
+              "display_order": 7
+            },
+            {
+              "keyword": "complement",
+              "definition": "the probability of an event NOT happening — P(not A) = 1 − P(A)",
+              "display_order": 8
+            },
+            {
+              "keyword": "Venn diagram",
+              "definition": "a diagram using overlapping circles to show the relationship between sets",
+              "display_order": 9
+            },
+            {
+              "keyword": "expected frequency",
+              "definition": "the number of times an outcome is expected to occur — P(event) × number of trials",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the probability scale?",
+              "options": [
+                "A) 0 to 100",
+                "B) −1 to 1",
+                "C) 0 to 1",
+                "D) 1 to 10"
+              ],
+              "correct_answer": "C",
+              "explanation": "Probability is always between 0 (impossible) and 1 (certain). It can be written as a fraction, decimal, or percentage.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A bag has 3 red and 7 blue balls. What is P(red)?",
+              "options": [
+                "A) 3/10",
+                "B) 7/10",
+                "C) 3/7",
+                "D) 1/3"
+              ],
+              "correct_answer": "A",
+              "explanation": "P(red) = 3 ÷ 10 = 3/10. There are 3 favourable outcomes out of 10 total equally likely outcomes.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the probability of NOT rolling a 6 on a fair die?",
+              "options": [
+                "A) 1/6",
+                "B) 5/6",
+                "C) 6/5",
+                "D) 1/5"
+              ],
+              "correct_answer": "B",
+              "explanation": "P(not 6) = 1 − P(6) = 1 − 1/6 = 5/6. The complement rule.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Two coins are flipped. What is P(two heads) if independent?",
+              "options": [
+                "A) 1/2",
+                "B) 1/3",
+                "C) 1/4",
+                "D) 2/4"
+              ],
+              "correct_answer": "C",
+              "explanation": "P(H and H) = P(H) × P(H) = 1/2 × 1/2 = 1/4. Independent events: multiply probabilities.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are mutually exclusive events?",
+              "options": [
+                "A) Events that must both happen",
+                "B) Events that cannot both happen at the same time",
+                "C) Events with equal probability",
+                "D) Events that are independent"
+              ],
+              "correct_answer": "B",
+              "explanation": "Mutually exclusive events cannot occur simultaneously. If A and B are mutually exclusive, P(A or B) = P(A) + P(B).",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is experimental probability?",
+              "options": [
+                "A) Probability calculated from theory",
+                "B) Probability estimated from actual results",
+                "C) Probability of mutually exclusive events",
+                "D) Probability on a Venn diagram"
+              ],
+              "correct_answer": "B",
+              "explanation": "Experimental (relative frequency) probability = frequency of outcome ÷ total number of trials. It improves with more trials.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a sample space?",
+              "options": [
+                "A) A list of probable outcomes",
+                "B) All possible outcomes of an experiment",
+                "C) A tree diagram",
+                "D) The range of probabilities"
+              ],
+              "correct_answer": "B",
+              "explanation": "The sample space is the complete set of all possible outcomes — e.g. rolling a die: {1, 2, 3, 4, 5, 6}.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Expected frequency = ?",
+              "options": [
+                "A) Number of trials ÷ probability",
+                "B) P(event) × number of trials",
+                "C) Frequency ÷ probability",
+                "D) 1 − P(event)"
+              ],
+              "correct_answer": "B",
+              "explanation": "Expected frequency = probability × number of trials. E.g. rolling a 3 on a fair die 60 times: expected = 1/6 × 60 = 10.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "P(A or B) for mutually exclusive events = ?",
+              "options": [
+                "A) P(A) × P(B)",
+                "B) P(A) − P(B)",
+                "C) P(A) + P(B)",
+                "D) P(A) × P(B) + P(A)"
+              ],
+              "correct_answer": "C",
+              "explanation": "For mutually exclusive events: P(A or B) = P(A) + P(B). They cannot both happen, so there is no overlap.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does a tree diagram show?",
+              "options": [
+                "A) The distribution of one variable",
+                "B) All possible outcomes and their probabilities for two or more events",
+                "C) The correlation between variables",
+                "D) Relative frequencies"
+              ],
+              "correct_answer": "B",
+              "explanation": "Tree diagrams show all branches of possible outcomes with their probabilities — multiply along branches, add between branches.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Probability is always between 0 and 1.",
+              "correct_answer": "True",
+              "explanation": "P = 0 means impossible; P = 1 means certain. All probabilities lie in this range.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "P(not A) = P(A) − 1.",
+              "correct_answer": "False",
+              "explanation": "P(not A) = 1 − P(A). The complement of an event is 1 minus its probability.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "For mutually exclusive events, P(A or B) = P(A) × P(B).",
+              "correct_answer": "False",
+              "explanation": "For mutually exclusive events: P(A or B) = P(A) + P(B). Multiplication applies to independent events.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "For independent events, P(A and B) = P(A) × P(B).",
+              "correct_answer": "True",
+              "explanation": "Independent events: the outcome of one does not affect the other. Multiply probabilities to find P(both).",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Experimental probability always equals theoretical probability.",
+              "correct_answer": "False",
+              "explanation": "Experimental probability is an estimate based on trials — it approaches theoretical probability as the number of trials increases.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Expected frequency = probability × number of trials.",
+              "correct_answer": "True",
+              "explanation": "E.g. expected frequency of rolling a 4 in 120 throws = 1/6 × 120 = 20.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The sample space contains all impossible and possible outcomes.",
+              "correct_answer": "False",
+              "explanation": "The sample space contains ONLY all possible outcomes of an experiment.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "A Venn diagram uses overlapping circles to show set relationships.",
+              "correct_answer": "True",
+              "explanation": "Venn diagrams show how sets overlap — the intersection shows elements in both sets.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "In a tree diagram, multiply probabilities along branches and add between branches.",
+              "correct_answer": "True",
+              "explanation": "To find P(sequence of events): multiply along the branch. To combine mutually exclusive outcomes: add the branch probabilities.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "If P(A) = 0.3 and P(B) = 0.5 (mutually exclusive), P(A or B) = 0.15.",
+              "correct_answer": "False",
+              "explanation": "P(A or B) for mutually exclusive events = P(A) + P(B) = 0.3 + 0.5 = 0.8, not 0.15.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Probability is between ________ and 1.",
+              "correct_answer": "0",
+              "explanation": "P = 0 is impossible, P = 1 is certain. Never below 0 or above 1.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "P(not A) = 1 − ________.",
+              "correct_answer": "P(A)",
+              "explanation": "The complement rule: probability of event NOT happening = 1 − P(event).",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "For ________ events, P(A and B) = P(A) × P(B).",
+              "correct_answer": "independent",
+              "explanation": "Independent events do not affect each other — multiply their probabilities.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "For ________ exclusive events, P(A or B) = P(A) + P(B).",
+              "correct_answer": "mutually",
+              "explanation": "Mutually exclusive events cannot both occur — add their probabilities.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Expected frequency = P(event) × number of ________.",
+              "correct_answer": "trials",
+              "explanation": "E.g. P = 0.25, trials = 200: expected frequency = 0.25 × 200 = 50.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Experimental probability = frequency ÷ total ________.",
+              "correct_answer": "trials",
+              "explanation": "Experimental probability improves as the number of trials increases.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ diagram shows all possible outcomes and their probabilities.",
+              "correct_answer": "tree",
+              "explanation": "Multiply along branches; add between branches for overall probabilities.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ space is all possible outcomes of an experiment.",
+              "correct_answer": "sample",
+              "explanation": "E.g. flipping a coin: sample space = {Heads, Tails}.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ diagram uses overlapping circles to show set relationships.",
+              "correct_answer": "Venn",
+              "explanation": "The intersection (overlap) shows elements belonging to both sets.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Theoretical probability = favourable outcomes ÷ ________ outcomes.",
+              "correct_answer": "total",
+              "explanation": "This assumes all outcomes are equally likely — e.g. P(rolling 3) = 1/6.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "probability",
+                  "match": "measure of likelihood — between 0 (impossible) and 1 (certain)"
+                },
+                {
+                  "term": "complement",
+                  "match": "P(not A) = 1 − P(A)"
+                },
+                {
+                  "term": "mutually exclusive",
+                  "match": "cannot both occur — P(A or B) = P(A) + P(B)"
+                },
+                {
+                  "term": "independent events",
+                  "match": "P(A and B) = P(A) × P(B)"
+                },
+                {
+                  "term": "expected frequency",
+                  "match": "P(event) × number of trials"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

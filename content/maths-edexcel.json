@@ -1,0 +1,128 @@
+{
+  "subject": {
+    "name": "Maths (Edexcel)",
+    "slug": "maths-edexcel",
+    "colour": "#1d4ed8"
+  },
+  "topics": [
+    {
+      "name": "Edexcel-Specific Topics & Formula Sheet",
+      "paper": "Paper 1, 2 & 3",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Key Formulas & Edexcel Differences",
+          "cards": [
+            {
+              "keyword": "quadratic formula",
+              "definition": "x = (−b ± √(b²−4ac)) / 2a — given on the Edexcel formula sheet. Used to solve any quadratic equation ax² + bx + c = 0",
+              "display_order": 1
+            },
+            {
+              "keyword": "area of a trapezium",
+              "definition": "A = ½(a + b)h — given on the Edexcel formula sheet. a and b are the parallel sides, h is the perpendicular height",
+              "display_order": 2
+            },
+            {
+              "keyword": "volume of a prism",
+              "definition": "V = area of cross-section × length — given on the Edexcel formula sheet",
+              "display_order": 3
+            },
+            {
+              "keyword": "volume of a sphere",
+              "definition": "V = (4/3)πr³ — given on the Edexcel formula sheet",
+              "display_order": 4
+            },
+            {
+              "keyword": "volume of a cone",
+              "definition": "V = (1/3)πr²h — given on the Edexcel formula sheet",
+              "display_order": 5
+            },
+            {
+              "keyword": "curved surface area of a cone",
+              "definition": "A = πrl — given on the Edexcel formula sheet. l is the slant height",
+              "display_order": 6
+            },
+            {
+              "keyword": "surface area of a sphere",
+              "definition": "A = 4πr² — given on the Edexcel formula sheet",
+              "display_order": 7
+            },
+            {
+              "keyword": "the sine rule",
+              "definition": "a/sinA = b/sinB = c/sinC — given on the Edexcel formula sheet. Used in non-right-angled triangles",
+              "display_order": 8
+            },
+            {
+              "keyword": "the cosine rule",
+              "definition": "a² = b² + c² − 2bc cosA — given on the Edexcel formula sheet. Used in non-right-angled triangles",
+              "display_order": 9
+            },
+            {
+              "keyword": "area of a triangle",
+              "definition": "Area = ½ab sinC — given on the Edexcel formula sheet. Used when two sides and the included angle are known",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Higher Tier — Edexcel Topics",
+          "cards": [
+            {
+              "keyword": "iteration",
+              "definition": "a method of solving equations by repeatedly substituting values into a formula to get closer to the solution",
+              "display_order": 1
+            },
+            {
+              "keyword": "function notation f(x)",
+              "definition": "a way of writing a rule: f(x) = 2x + 1 means the function f applied to x gives 2x + 1",
+              "display_order": 2
+            },
+            {
+              "keyword": "composite function fg(x)",
+              "definition": "applying one function then another: fg(x) means apply g first, then f to the result",
+              "display_order": 3
+            },
+            {
+              "keyword": "inverse function f⁻¹(x)",
+              "definition": "the function that reverses f — if f(3) = 7 then f⁻¹(7) = 3",
+              "display_order": 4
+            },
+            {
+              "keyword": "proof",
+              "definition": "a logical argument showing a statement must always be true — used in Edexcel Higher. Must use algebra, not just examples",
+              "display_order": 5
+            },
+            {
+              "keyword": "algebraic fraction",
+              "definition": "a fraction with algebraic expressions in the numerator and/or denominator — can be simplified, added, subtracted, multiplied",
+              "display_order": 6
+            },
+            {
+              "keyword": "completing the square",
+              "definition": "rewriting a quadratic in the form (x + p)² + q — used to find the vertex of a parabola or solve quadratics",
+              "display_order": 7
+            },
+            {
+              "keyword": "vectors",
+              "definition": "quantities with both magnitude and direction — represented as column vectors or with letters. Used to describe translations and geometric proofs",
+              "display_order": 8
+            },
+            {
+              "keyword": "conditional probability",
+              "definition": "the probability of an event given that another event has already occurred — used with tree diagrams and two-way tables",
+              "display_order": 9
+            },
+            {
+              "keyword": "Venn diagrams",
+              "definition": "diagrams using overlapping circles to show relationships between sets — used in probability questions on the Edexcel paper",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

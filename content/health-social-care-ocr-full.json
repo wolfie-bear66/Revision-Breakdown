@@ -1,0 +1,735 @@
+{
+  "subject": {
+    "name": "Health & Social Care",
+    "slug": "health-social-care",
+    "colour": "#0369a1",
+    "exam_board": "OCR",
+    "emoji": "🏥"
+  },
+  "topics": [
+    {
+      "name": "Human Lifespan Development",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Life Stages & Development",
+          "cards": [
+            {
+              "keyword": "infancy",
+              "definition": "0–2 years — rapid physical growth, attachment forms, first language development",
+              "display_order": 1
+            },
+            {
+              "keyword": "childhood",
+              "definition": "3–12 years — rapid intellectual development, social skills develop, attending school",
+              "display_order": 2
+            },
+            {
+              "keyword": "adolescence",
+              "definition": "13–18 years — puberty, identity formation, peer relationships become important",
+              "display_order": 3
+            },
+            {
+              "keyword": "adulthood",
+              "definition": "19–65 years — career, relationships, family, physical peak then gradual decline",
+              "display_order": 4
+            },
+            {
+              "keyword": "late adulthood",
+              "definition": "65+ years — retirement, physical decline, potential social isolation",
+              "display_order": 5
+            },
+            {
+              "keyword": "PIES",
+              "definition": "a framework for development: Physical, Intellectual, Emotional, Social",
+              "display_order": 6
+            },
+            {
+              "keyword": "gross motor skills",
+              "definition": "large muscle movements — e.g. walking, running, jumping",
+              "display_order": 7
+            },
+            {
+              "keyword": "fine motor skills",
+              "definition": "small, precise movements — e.g. writing, using scissors, threading a needle",
+              "display_order": 8
+            },
+            {
+              "keyword": "attachment",
+              "definition": "a deep emotional bond between a child and caregiver — crucial for emotional development (Bowlby)",
+              "display_order": 9
+            },
+            {
+              "keyword": "self-concept",
+              "definition": "how a person perceives themselves — made up of self-image and self-esteem",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does PIES stand for?",
+              "options": [
+                "A) Personal, Individual, Emotional, Social",
+                "B) Physical, Intellectual, Emotional, Social",
+                "C) Physical, Individual, Educational, Social",
+                "D) Practical, Intellectual, Emotional, Spiritual"
+              ],
+              "correct_answer": "B",
+              "explanation": "PIES is used to describe development across all life stages: Physical (body), Intellectual (thinking), Emotional (feelings), Social (relationships).",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is attachment?",
+              "options": [
+                "A) A child's physical development",
+                "B) A deep emotional bond between a child and caregiver — crucial for emotional development",
+                "C) A type of intellectual skill",
+                "D) A social skill developed in adolescence"
+              ],
+              "correct_answer": "B",
+              "explanation": "Bowlby's attachment theory: a secure early bond with a caregiver provides a 'safe base' for emotional development — affecting relationships throughout life.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are gross motor skills?",
+              "options": [
+                "A) Small, precise muscle movements",
+                "B) Large muscle movements — walking, running, jumping",
+                "C) Intellectual development milestones",
+                "D) Social skills development"
+              ],
+              "correct_answer": "B",
+              "explanation": "Gross motor skills use large muscles for major movements. Developed before fine motor skills — babies lift heads, then sit, crawl, stand, and walk.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is adolescence?",
+              "options": [
+                "A) 0–2 years — rapid growth and attachment",
+                "B) 3–12 years — school and intellectual development",
+                "C) 13–18 years — puberty and identity formation",
+                "D) 65+ years — retirement and physical decline"
+              ],
+              "correct_answer": "C",
+              "explanation": "Adolescence (13–18) is characterised by puberty, identity formation (Erikson), increased peer influence, and emotional volatility.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is self-concept?",
+              "options": [
+                "A) Understanding other people's thoughts",
+                "B) How a person perceives themselves — self-image and self-esteem",
+                "C) A type of intellectual development",
+                "D) A social skill"
+              ],
+              "correct_answer": "B",
+              "explanation": "Self-concept = self-image (how you see yourself) + self-esteem (how you feel about yourself). Develops through social interaction and feedback.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are fine motor skills?",
+              "options": [
+                "A) Large muscle movements",
+                "B) Small, precise muscle movements — writing, using scissors",
+                "C) Emotional responses to situations",
+                "D) Social interaction skills"
+              ],
+              "correct_answer": "B",
+              "explanation": "Fine motor skills require precision — e.g. holding a pen, doing up buttons, threading a needle. They develop after gross motor skills.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens during late adulthood (65+)?",
+              "options": [
+                "A) Identity formation and puberty",
+                "B) Rapid intellectual development",
+                "C) Retirement, physical decline, potential social isolation",
+                "D) Career and family formation"
+              ],
+              "correct_answer": "C",
+              "explanation": "Late adulthood involves retirement (major life change), physical decline (reduced mobility, sensory decline), potential social isolation, and life review.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the significance of infancy (0–2)?",
+              "options": [
+                "A) Secondary education begins",
+                "B) Career choices are made",
+                "C) Rapid physical growth and the formation of key attachments",
+                "D) Puberty and identity formation"
+              ],
+              "correct_answer": "C",
+              "explanation": "Infancy is a critical period — the fastest physical growth, first language acquisition, and formation of key emotional attachments all occur.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What characterises childhood (3–12)?",
+              "options": [
+                "A) Puberty and identity formation",
+                "B) Rapid intellectual development and social skill development through school",
+                "C) Physical decline and retirement",
+                "D) Career and family formation"
+              ],
+              "correct_answer": "B",
+              "explanation": "Childhood involves rapid cognitive development (Piaget), developing social skills, school attendance, and forming friendships.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Bowlby's key idea about attachment?",
+              "options": [
+                "A) Attachment is unimportant for development",
+                "B) Secure early attachment provides a safe base for emotional development throughout life",
+                "C) Attachment only matters in adolescence",
+                "D) Attachment is purely a physical bond"
+              ],
+              "correct_answer": "B",
+              "explanation": "Bowlby argued that a secure attachment in infancy creates an internal working model — a template for all future relationships.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "PIES stands for Physical, Intellectual, Emotional, Social.",
+              "correct_answer": "True",
+              "explanation": "PIES is a framework for describing holistic development across all life stages.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Gross motor skills involve small, precise movements.",
+              "correct_answer": "False",
+              "explanation": "GROSS motor skills involve LARGE muscle movements. FINE motor skills involve small, precise movements.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Attachment theory was developed by Bowlby.",
+              "correct_answer": "True",
+              "explanation": "John Bowlby's attachment theory argues that secure early bonds are crucial for emotional development.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Adolescence is characterised by puberty and identity formation.",
+              "correct_answer": "True",
+              "explanation": "Adolescence (13–18) involves physical changes (puberty) and psychological changes (Erikson's identity vs role confusion stage).",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Self-concept includes both self-image and self-esteem.",
+              "correct_answer": "True",
+              "explanation": "Self-concept = self-image (how you see yourself) + self-esteem (how you feel about yourself).",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Late adulthood begins at age 65 and includes retirement.",
+              "correct_answer": "True",
+              "explanation": "Late adulthood (65+) involves retirement, physical decline, and major life changes.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Fine motor skills develop before gross motor skills.",
+              "correct_answer": "False",
+              "explanation": "GROSS motor skills (large movements) develop BEFORE fine motor skills (small, precise movements).",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Childhood is a period of rapid intellectual development.",
+              "correct_answer": "True",
+              "explanation": "During childhood, cognitive skills develop rapidly — language, reasoning, and problem-solving all advance significantly.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Infancy lasts from birth to age 5.",
+              "correct_answer": "False",
+              "explanation": "Infancy is 0–2 years. Ages 3–12 are childhood.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Self-esteem refers to how a person physically looks.",
+              "correct_answer": "False",
+              "explanation": "Self-esteem is how a person FEELS about themselves — their sense of worth and value. Self-image is how they see themselves.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "PIES: Physical, ________, Emotional, Social.",
+              "correct_answer": "Intellectual",
+              "explanation": "PIES is used to describe holistic development across all life stages.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a deep emotional bond between a child and caregiver (Bowlby).",
+              "correct_answer": "Attachment",
+              "explanation": "Secure attachment provides a safe base for emotional development.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ motor skills involve large movements — walking, running, jumping.",
+              "correct_answer": "Gross",
+              "explanation": "Gross motor skills develop before fine motor skills in infancy.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ motor skills involve small, precise movements — writing, using scissors.",
+              "correct_answer": "Fine",
+              "explanation": "Fine motor skills require coordination of small muscles.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ (13–18) is characterised by puberty and identity formation.",
+              "correct_answer": "Adolescence",
+              "explanation": "Peer relationships become increasingly important during adolescence.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ (65+) involves retirement and potential social isolation.",
+              "correct_answer": "Late adulthood",
+              "explanation": "Physical decline and major life changes characterise this stage.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ concept = self-image + self-esteem.",
+              "correct_answer": "Self",
+              "explanation": "Self-concept develops through social interaction and feedback from others.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ (0–2) involves rapid growth and formation of key attachments.",
+              "correct_answer": "Infancy",
+              "explanation": "Infancy is a critical period for physical and emotional development.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ (3–12) involves school, intellectual development, and social skills.",
+              "correct_answer": "Childhood",
+              "explanation": "Piaget's stages of cognitive development are mainly associated with childhood.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ (19–65) involves career, relationships, and family formation.",
+              "correct_answer": "Adulthood",
+              "explanation": "Physical peak occurs in early adulthood; gradual decline begins in middle adulthood.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "PIES",
+                  "match": "Physical, Intellectual, Emotional, Social development"
+                },
+                {
+                  "term": "attachment",
+                  "match": "deep emotional bond — Bowlby — crucial for development"
+                },
+                {
+                  "term": "gross motor skills",
+                  "match": "large muscle movements — walk, run, jump"
+                },
+                {
+                  "term": "fine motor skills",
+                  "match": "small precise movements — write, use scissors"
+                },
+                {
+                  "term": "self-concept",
+                  "match": "self-image + self-esteem"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health, Social Care & Wellbeing",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Care Values & Services",
+          "cards": [
+            {
+              "keyword": "duty of care",
+              "definition": "a legal and ethical obligation to act in the best interests of service users — avoiding harm",
+              "display_order": 1
+            },
+            {
+              "keyword": "person-centred care",
+              "definition": "placing the individual at the centre of their own care — respecting choices and preferences",
+              "display_order": 2
+            },
+            {
+              "keyword": "dignity",
+              "definition": "treating service users with respect — maintaining privacy, being non-judgemental",
+              "display_order": 3
+            },
+            {
+              "keyword": "confidentiality",
+              "definition": "keeping personal information private — only sharing on a need-to-know basis or with consent",
+              "display_order": 4
+            },
+            {
+              "keyword": "safeguarding",
+              "definition": "protecting vulnerable individuals from abuse, neglect, or harm — a primary duty of care workers",
+              "display_order": 5
+            },
+            {
+              "keyword": "abuse",
+              "definition": "harm caused to a vulnerable person — types: physical, emotional, sexual, financial, neglect",
+              "display_order": 6
+            },
+            {
+              "keyword": "advocacy",
+              "definition": "supporting a service user to express their views and access their rights",
+              "display_order": 7
+            },
+            {
+              "keyword": "multi-agency working",
+              "definition": "different professionals (e.g. GP, social worker, nurse) working together to support an individual",
+              "display_order": 8
+            },
+            {
+              "keyword": "legislation",
+              "definition": "laws governing health and social care — e.g. Care Act 2014, Mental Capacity Act 2005",
+              "display_order": 9
+            },
+            {
+              "keyword": "empowerment",
+              "definition": "enabling service users to take control of their own lives and decisions",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is duty of care?",
+              "options": [
+                "A) A care worker's choice of treatment",
+                "B) A legal obligation to act in the best interests of service users and avoid harm",
+                "C) A patient's right to treatment",
+                "D) A type of safeguarding measure"
+              ],
+              "correct_answer": "B",
+              "explanation": "Duty of care means care workers must take reasonable steps to protect service users from harm — failing duty of care can result in legal consequences.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is person-centred care?",
+              "options": [
+                "A) Care focused on medical needs only",
+                "B) Placing the individual at the centre — respecting their choices and preferences",
+                "C) Care provided by a single professional",
+                "D) Care that treats everyone identically"
+              ],
+              "correct_answer": "B",
+              "explanation": "Person-centred care recognises each person as unique — involving them in decisions about their own care, respecting their dignity and preferences.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is confidentiality in health and social care?",
+              "options": [
+                "A) Sharing all information with all staff",
+                "B) Keeping personal information private — only sharing on need-to-know basis or with consent",
+                "C) Recording all patient information",
+                "D) Giving information to family members only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Confidentiality is a core care value — but it can be broken in specific circumstances (risk of serious harm to self or others, court orders, child protection concerns).",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is safeguarding?",
+              "options": [
+                "A) Storing medical records securely",
+                "B) Protecting vulnerable individuals from abuse, neglect, or harm",
+                "C) A type of personal care",
+                "D) Writing care plans"
+              ],
+              "correct_answer": "B",
+              "explanation": "Safeguarding is everyone's responsibility in health and social care — recognising signs of abuse and following correct procedures to protect vulnerable people.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are the types of abuse?",
+              "options": [
+                "A) Only physical and emotional",
+                "B) Physical, emotional, sexual, financial, and neglect",
+                "C) Physical and financial only",
+                "D) Only neglect and emotional"
+              ],
+              "correct_answer": "B",
+              "explanation": "The main types of abuse: physical (injury), emotional (psychological harm), sexual (sexual acts without consent), financial (theft/fraud), neglect (failure to meet basic needs).",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is advocacy in social care?",
+              "options": [
+                "A) Treating service users fairly",
+                "B) Supporting a service user to express their views and access their rights",
+                "C) A type of therapy",
+                "D) A safeguarding procedure"
+              ],
+              "correct_answer": "B",
+              "explanation": "Advocates speak on behalf of, or support, individuals who cannot represent themselves — ensuring their rights and wishes are heard.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is empowerment?",
+              "options": [
+                "A) Giving care workers more authority",
+                "B) Protecting service users from harm",
+                "C) Enabling service users to take control of their own lives and decisions",
+                "D) Training care workers"
+              ],
+              "correct_answer": "C",
+              "explanation": "Empowerment means giving people the information, skills, and confidence to make their own choices — a key principle of modern health and social care.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is multi-agency working?",
+              "options": [
+                "A) One professional managing all care",
+                "B) Different professionals working together to support an individual",
+                "C) A single agency providing all services",
+                "D) The NHS working independently"
+              ],
+              "correct_answer": "B",
+              "explanation": "Multi-agency working (e.g. GP + social worker + nurse) ensures holistic support — reducing risk of things being missed when services work in isolation.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is dignity in care?",
+              "options": [
+                "A) Providing the most expensive care",
+                "B) Treating service users with respect — maintaining privacy and being non-judgemental",
+                "C) Meeting only physical needs",
+                "D) Following medical instructions only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Dignity means treating people as individuals with worth and value — maintaining privacy during personal care, respecting choices, and speaking respectfully.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did the Care Act 2014 introduce?",
+              "options": [
+                "A) The NHS",
+                "B) Rights to mental health treatment",
+                "C) A framework for adult safeguarding — including duty to assess and promote wellbeing",
+                "D) Children's safeguarding only"
+              ],
+              "correct_answer": "C",
+              "explanation": "The Care Act 2014 placed adult safeguarding on a statutory footing — local authorities have a duty to assess care needs and promote wellbeing.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Duty of care means always doing what the service user wants.",
+              "correct_answer": "False",
+              "explanation": "Duty of care means acting in the BEST INTERESTS of service users — sometimes this means overriding preferences if safety is at risk.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Person-centred care places the individual at the centre of their own care.",
+              "correct_answer": "True",
+              "explanation": "Person-centred care respects individuality, choices, and preferences — the service user is an active participant.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Confidentiality can never be broken for any reason.",
+              "correct_answer": "False",
+              "explanation": "Confidentiality can be broken in specific circumstances — serious risk of harm, court orders, or child protection concerns.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Safeguarding is the responsibility of one designated professional only.",
+              "correct_answer": "False",
+              "explanation": "Safeguarding is EVERYONE's responsibility — all staff must recognise and respond to signs of abuse.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Neglect is a form of abuse.",
+              "correct_answer": "True",
+              "explanation": "Neglect — failing to meet basic physical or emotional needs — is a recognised form of abuse.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Advocacy supports service users to express their views and access their rights.",
+              "correct_answer": "True",
+              "explanation": "Advocates speak on behalf of those who cannot represent themselves.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Empowerment means making all decisions on behalf of service users.",
+              "correct_answer": "False",
+              "explanation": "Empowerment means enabling service users to make their OWN decisions — the opposite of making decisions for them.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Multi-agency working reduces the risk of important information being missed.",
+              "correct_answer": "True",
+              "explanation": "When different professionals share information, the chances of overlooking a safeguarding concern are reduced.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Dignity in care only refers to physical care.",
+              "correct_answer": "False",
+              "explanation": "Dignity covers all aspects of care — how staff speak to people, respect for privacy, non-judgemental attitudes.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The Care Act 2014 placed adult safeguarding on a statutory footing.",
+              "correct_answer": "True",
+              "explanation": "The Care Act created a legal duty for local authorities to assess care needs and protect adults at risk.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ of care is a legal obligation to act in the best interests of service users.",
+              "correct_answer": "Duty",
+              "explanation": "Failing duty of care can lead to legal consequences and professional disciplinary action.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ centred care places the individual at the centre of their own care.",
+              "correct_answer": "Person",
+              "explanation": "Service users are involved in decisions — their preferences and choices are respected.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ means keeping personal information private — sharing only on need-to-know basis.",
+              "correct_answer": "Confidentiality",
+              "explanation": "Confidentiality can be broken in specific circumstances — serious harm, court orders.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ protects vulnerable individuals from abuse, neglect, or harm.",
+              "correct_answer": "Safeguarding",
+              "explanation": "Safeguarding is everyone's responsibility — not just designated leads.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Types of abuse include physical, emotional, sexual, financial, and ________.",
+              "correct_answer": "neglect",
+              "explanation": "Neglect is failing to meet basic physical or emotional needs.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ supports service users to express their views and access their rights.",
+              "correct_answer": "Advocacy",
+              "explanation": "Advocates speak on behalf of, or alongside, those who cannot represent themselves.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ enables service users to take control of their own lives and decisions.",
+              "correct_answer": "Empowerment",
+              "explanation": "Empowerment gives people information, skills, and confidence to make choices.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ working brings together different professionals to support an individual holistically.",
+              "correct_answer": "Multi-agency",
+              "explanation": "GP, social worker, nurse, and other professionals share information and coordinate care.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ means treating service users with respect — maintaining privacy and dignity.",
+              "correct_answer": "Dignity",
+              "explanation": "Dignity is a core care value — central to person-centred practice.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Act 2014 placed adult safeguarding on a statutory footing.",
+              "correct_answer": "Care",
+              "explanation": "The Care Act created legal duties for local authorities regarding adult social care.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "duty of care",
+                  "match": "legal obligation to act in best interests of service users"
+                },
+                {
+                  "term": "person-centred care",
+                  "match": "individual at centre — respecting choices and preferences"
+                },
+                {
+                  "term": "confidentiality",
+                  "match": "personal information kept private — need-to-know basis"
+                },
+                {
+                  "term": "safeguarding",
+                  "match": "protecting vulnerable people from abuse and harm"
+                },
+                {
+                  "term": "empowerment",
+                  "match": "enabling service users to control their own lives"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

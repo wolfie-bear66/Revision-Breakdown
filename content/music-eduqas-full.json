@@ -1,0 +1,735 @@
+{
+  "subject": {
+    "name": "Music",
+    "slug": "music",
+    "colour": "#b45309",
+    "exam_board": "Eduqas",
+    "emoji": "🎵"
+  },
+  "topics": [
+    {
+      "name": "Musical Elements & Concepts",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Elements of Music",
+          "cards": [
+            {
+              "keyword": "pitch",
+              "definition": "how high or low a note sounds — determined by the frequency of vibration",
+              "display_order": 1
+            },
+            {
+              "keyword": "dynamics",
+              "definition": "the volume of music — from ppp (very quiet) to fff (very loud)",
+              "display_order": 2
+            },
+            {
+              "keyword": "tempo",
+              "definition": "the speed of the music — measured in BPM (beats per minute)",
+              "display_order": 3
+            },
+            {
+              "keyword": "rhythm",
+              "definition": "the pattern of long and short sounds and silences in music",
+              "display_order": 4
+            },
+            {
+              "keyword": "melody",
+              "definition": "a sequence of pitches that form a recognisable tune — the 'singable' part",
+              "display_order": 5
+            },
+            {
+              "keyword": "harmony",
+              "definition": "two or more notes sounding together — chords, consonance, or dissonance",
+              "display_order": 6
+            },
+            {
+              "keyword": "texture",
+              "definition": "how musical layers are combined — monophonic, homophonic, or polyphonic",
+              "display_order": 7
+            },
+            {
+              "keyword": "timbre",
+              "definition": "the tone colour or quality of a sound — what makes a trumpet sound different from a violin",
+              "display_order": 8
+            },
+            {
+              "keyword": "structure",
+              "definition": "how a piece of music is organised — e.g. binary (AB), ternary (ABA), rondo (ABACADA)",
+              "display_order": 9
+            },
+            {
+              "keyword": "tonality",
+              "definition": "the key or tonal centre of a piece — major (bright/happy) or minor (dark/sad)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is dynamics in music?",
+              "options": [
+                "A) The speed of the music",
+                "B) The volume of music — from very quiet to very loud",
+                "C) The pitch of notes",
+                "D) The rhythm pattern"
+              ],
+              "correct_answer": "B",
+              "explanation": "Dynamics describe volume: ppp (pianissimo) = very quiet, pp = quite quiet, p = quiet, mf = moderately loud, f = loud, ff = very loud, fff = extremely loud.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is tempo?",
+              "options": [
+                "A) The volume of music",
+                "B) The rhythm of a melody",
+                "C) The speed of music — measured in BPM",
+                "D) The pitch of notes"
+              ],
+              "correct_answer": "C",
+              "explanation": "Tempo is the speed of the music. Italian terms: Largo (very slow), Andante (walking pace), Moderato (moderate), Allegro (fast), Presto (very fast).",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is texture in music?",
+              "options": [
+                "A) The timbre of instruments",
+                "B) How musical layers are combined — monophonic, homophonic, polyphonic",
+                "C) The structure of a piece",
+                "D) The key of a piece"
+              ],
+              "correct_answer": "B",
+              "explanation": "Texture describes how musical lines combine: monophonic (melody only), homophonic (melody + accompaniment), polyphonic (multiple independent melodies).",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is timbre?",
+              "options": [
+                "A) The speed of the music",
+                "B) The volume of music",
+                "C) The tone colour or quality of a sound",
+                "D) The rhythm of a piece"
+              ],
+              "correct_answer": "C",
+              "explanation": "Timbre (tone colour) is what makes different instruments sound distinct even at the same pitch — e.g. a flute sounds different from an oboe.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is tonality?",
+              "options": [
+                "A) The rhythm pattern of a piece",
+                "B) The structure of a piece",
+                "C) The key or tonal centre — major or minor",
+                "D) The volume of a piece"
+              ],
+              "correct_answer": "C",
+              "explanation": "Tonality refers to the key of a piece. Major keys have a bright, happy quality; minor keys have a darker, sadder quality.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is harmony in music?",
+              "options": [
+                "A) A single melodic line",
+                "B) Two or more notes sounding together — chords, consonance, or dissonance",
+                "C) The speed of music",
+                "D) The texture of a piece"
+              ],
+              "correct_answer": "B",
+              "explanation": "Harmony is created when two or more notes sound simultaneously. Consonant harmony sounds stable and pleasant; dissonant harmony sounds tense and unresolved.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is structure in music?",
+              "options": [
+                "A) The volume of music",
+                "B) The timbre of instruments",
+                "C) How a piece is organised — e.g. binary, ternary, rondo",
+                "D) The pitch of notes"
+              ],
+              "correct_answer": "C",
+              "explanation": "Common musical structures: binary (AB), ternary (ABA), rondo (ABACADA), sonata form (exposition, development, recapitulation), verse-chorus.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a melody?",
+              "options": [
+                "A) The rhythm pattern of a piece",
+                "B) A sequence of pitches forming a recognisable tune",
+                "C) The combination of musical layers",
+                "D) The volume of a piece"
+              ],
+              "correct_answer": "B",
+              "explanation": "A melody is a linear sequence of pitches — the main tune that can be sung or played. Characteristics: contour, range, phrase length, intervals.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is rhythm?",
+              "options": [
+                "A) The pitch of a note",
+                "B) The pattern of long and short sounds and silences",
+                "C) The key of a piece",
+                "D) How musical layers combine"
+              ],
+              "correct_answer": "B",
+              "explanation": "Rhythm is the temporal organisation of music — patterns of long/short notes and silences that give music its pulse and drive.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is pitch?",
+              "options": [
+                "A) The volume of a note",
+                "B) The speed of music",
+                "C) How high or low a note sounds",
+                "D) The tone quality of an instrument"
+              ],
+              "correct_answer": "C",
+              "explanation": "Pitch is determined by frequency — higher frequency = higher pitch. Notes are named A-G and can be sharp (#) or flat (♭).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Dynamics refers to the speed of music.",
+              "correct_answer": "False",
+              "explanation": "Dynamics refers to VOLUME (loud/quiet). Tempo refers to speed.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Polyphonic texture involves multiple independent melodic lines.",
+              "correct_answer": "True",
+              "explanation": "Polyphonic texture: multiple independent melodies sounding simultaneously — e.g. a Bach fugue.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Timbre is what makes a trumpet sound different from a violin.",
+              "correct_answer": "True",
+              "explanation": "Timbre (tone colour) is the distinctive quality of a sound — determined by overtones and the way the instrument produces sound.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "A major key typically sounds dark and sad.",
+              "correct_answer": "False",
+              "explanation": "Major keys typically sound bright and happy. Minor keys have a darker, sadder quality.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Monophonic texture has only a single melodic line with no accompaniment.",
+              "correct_answer": "True",
+              "explanation": "Monophonic texture = melody alone, no harmony or accompaniment.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Harmony is created when two or more notes sound together.",
+              "correct_answer": "True",
+              "explanation": "Harmony includes chords, intervals, and the relationship between simultaneous pitches.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Ternary structure follows the pattern ABA.",
+              "correct_answer": "True",
+              "explanation": "Ternary form: A section (first theme) → B section (contrasting) → return of A.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Tempo is measured in beats per minute (BPM).",
+              "correct_answer": "True",
+              "explanation": "BPM measures how many beats occur in one minute. 60 BPM = 1 beat per second.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Dissonant harmony sounds stable and resolved.",
+              "correct_answer": "False",
+              "explanation": "Dissonant harmony sounds tense and unresolved. CONSONANT harmony sounds stable and pleasant.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Rhythm involves patterns of long and short sounds and silences.",
+              "correct_answer": "True",
+              "explanation": "Rhythm is the organisation of notes and rests in time — giving music its pulse and feel.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the volume of music — from ppp (very quiet) to fff (very loud).",
+              "correct_answer": "Dynamics",
+              "explanation": "Italian dynamic markings: p = piano (quiet), f = forte (loud), mf = mezzo forte (moderately loud).",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the speed of music — measured in beats per minute.",
+              "correct_answer": "Tempo",
+              "explanation": "Italian tempo markings: Andante (walking), Allegro (fast), Largo (very slow).",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ describes how musical layers combine — monophonic, homophonic, or polyphonic.",
+              "correct_answer": "Texture",
+              "explanation": "Texture tells us how many and what kind of melodic lines are present.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the tone colour or quality of a sound — what makes instruments sound distinctive.",
+              "correct_answer": "Timbre",
+              "explanation": "Timbre is determined by the overtones produced when an instrument creates a note.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the key or tonal centre — major (bright) or minor (dark).",
+              "correct_answer": "Tonality",
+              "explanation": "Major and minor are the two main tonalities in Western music.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is two or more notes sounding together — chords, consonance, or dissonance.",
+              "correct_answer": "Harmony",
+              "explanation": "Consonant harmony is stable; dissonant harmony creates tension.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the organisation of a piece — binary (AB), ternary (ABA), rondo.",
+              "correct_answer": "Structure",
+              "explanation": "Structure gives music its shape and helps listeners follow its journey.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a sequence of pitches forming a recognisable tune.",
+              "correct_answer": "Melody",
+              "explanation": "The melody is the foreground tune — often the most memorable part of a piece.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the pattern of long and short sounds and silences.",
+              "correct_answer": "Rhythm",
+              "explanation": "Rhythm gives music its energy and pulse.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is how high or low a note sounds — determined by frequency.",
+              "correct_answer": "Pitch",
+              "explanation": "Higher frequency = higher pitch. Pitches are named A through G.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "dynamics",
+                  "match": "volume — from ppp (very quiet) to fff (very loud)"
+                },
+                {
+                  "term": "tempo",
+                  "match": "speed of music — measured in BPM"
+                },
+                {
+                  "term": "texture",
+                  "match": "how musical layers combine — mono/homo/polyphonic"
+                },
+                {
+                  "term": "timbre",
+                  "match": "tone colour — what makes instruments sound distinctive"
+                },
+                {
+                  "term": "tonality",
+                  "match": "key — major (bright) or minor (dark)"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Music History & Set Works",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Musical Periods & Genres",
+          "cards": [
+            {
+              "keyword": "Baroque period",
+              "definition": "c.1600–1750 — features: complex counterpoint, ornamentation, basso continuo. Composers: Bach, Handel",
+              "display_order": 1
+            },
+            {
+              "keyword": "Classical period",
+              "definition": "c.1750–1820 — features: clear melody, balanced phrases, sonata form. Composers: Mozart, Haydn",
+              "display_order": 2
+            },
+            {
+              "keyword": "Romantic period",
+              "definition": "c.1820–1900 — features: emotional expression, larger orchestras, programme music. Composers: Beethoven, Brahms",
+              "display_order": 3
+            },
+            {
+              "keyword": "20th century music",
+              "definition": "1900–2000 — features: atonality, serialism, minimalism, jazz, blues. Varied and experimental",
+              "display_order": 4
+            },
+            {
+              "keyword": "sonata form",
+              "definition": "Classical structure: exposition (introduces themes), development (manipulates them), recapitulation (restates them)",
+              "display_order": 5
+            },
+            {
+              "keyword": "counterpoint",
+              "definition": "two or more independent melodic lines played simultaneously — associated with Baroque music",
+              "display_order": 6
+            },
+            {
+              "keyword": "basso continuo",
+              "definition": "Baroque bass line — typically harpsichord + cello providing harmonic foundation",
+              "display_order": 7
+            },
+            {
+              "keyword": "programme music",
+              "definition": "Romantic music depicting a story, scene, or idea — e.g. Vivaldi's The Four Seasons",
+              "display_order": 8
+            },
+            {
+              "keyword": "minimalism",
+              "definition": "20th century style — very gradual change, repetition of small cells, phase shifting. Composers: Steve Reich, Philip Glass",
+              "display_order": 9
+            },
+            {
+              "keyword": "blues scale",
+              "definition": "a minor pentatonic scale with an added flattened 5th (the blue note) — characteristic of blues and jazz",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What characterises Baroque music?",
+              "options": [
+                "A) Simple melodies and balanced phrases",
+                "B) Complex counterpoint, ornamentation, and basso continuo",
+                "C) Large orchestras and emotional expression",
+                "D) Atonality and serialism"
+              ],
+              "correct_answer": "B",
+              "explanation": "Baroque music (c.1600–1750): intricate counterpoint, ornamental decoration, basso continuo (harpsichord+cello bass), and clarity of texture. Composers: Bach, Handel.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is sonata form?",
+              "options": [
+                "A) A solo instrument playing a sonata",
+                "B) A Baroque dance form",
+                "C) Classical structure: exposition, development, recapitulation",
+                "D) A minimalist compositional technique"
+              ],
+              "correct_answer": "C",
+              "explanation": "Sonata form: exposition (first and second subject themes introduced), development (themes manipulated), recapitulation (themes restated, both in home key).",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is programme music?",
+              "options": [
+                "A) Music following a strict classical form",
+                "B) Music depicting a story, scene, or idea outside the music",
+                "C) Music for a specific instrument",
+                "D) Music with a basso continuo"
+              ],
+              "correct_answer": "B",
+              "explanation": "Programme music (Romantic era) has extra-musical associations — Vivaldi's Four Seasons depicts seasons, Berlioz's Symphonie Fantastique tells a story.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is minimalism in music?",
+              "options": [
+                "A) Very simple Classical music",
+                "B) Music using very few instruments",
+                "C) A 20th-century style using repetition, gradual change, and phase shifting",
+                "D) Baroque counterpoint reduced to one melody"
+              ],
+              "correct_answer": "C",
+              "explanation": "Minimalism: Steve Reich and Philip Glass use repeating melodic cells with very gradual changes over long periods — creating hypnotic, meditative effects.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is counterpoint?",
+              "options": [
+                "A) A single melodic line",
+                "B) Two or more independent melodies played simultaneously",
+                "C) A Romantic orchestral texture",
+                "D) A 20th-century technique"
+              ],
+              "correct_answer": "B",
+              "explanation": "Counterpoint is the combination of independent melodic lines — central to Baroque music. A fugue is a strict form of counterpoint.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is basso continuo?",
+              "options": [
+                "A) A solo bass instrument",
+                "B) A continuous melodic line in the treble",
+                "C) Baroque bass line — harpsichord + cello providing harmonic foundation",
+                "D) A type of bass drum pattern"
+              ],
+              "correct_answer": "C",
+              "explanation": "Basso continuo is foundational in Baroque music — the harpsichord fills in harmonies (realising the figured bass) while the cello reinforces the bass line.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What characterises Romantic music?",
+              "options": [
+                "A) Simplicity and short works",
+                "B) Restrained, formal structures",
+                "C) Emotional expression, larger orchestras, and programme music",
+                "D) Atonality and experimental techniques"
+              ],
+              "correct_answer": "C",
+              "explanation": "Romantic music (c.1820–1900): expanded orchestras, emotional expressiveness, programme music, longer forms, chromatic harmony. Composers: Beethoven, Brahms, Tchaikovsky.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the blues scale?",
+              "options": [
+                "A) A major scale used in blues",
+                "B) A minor pentatonic scale with an added flattened 5th (blue note)",
+                "C) A chromatic scale for jazz",
+                "D) A scale unique to classical music"
+              ],
+              "correct_answer": "B",
+              "explanation": "The blues scale adds a flattened 5th (the 'blue note') to the minor pentatonic scale — this note creates the characteristic tension of blues and jazz.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What characterises Classical period music?",
+              "options": [
+                "A) Complex counterpoint and ornamentation",
+                "B) Extreme emotional expression and large orchestras",
+                "C) Clear melody, balanced phrases, and sonata form",
+                "D) Atonality and experimental structures"
+              ],
+              "correct_answer": "C",
+              "explanation": "Classical music (c.1750–1820): clarity, balanced phrases, homophonic texture, sonata form. Composers: Mozart, Haydn, early Beethoven.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What characterises 20th century music?",
+              "options": [
+                "A) Strict adherence to sonata form",
+                "B) Basso continuo and counterpoint",
+                "C) Diversity — atonality, serialism, minimalism, jazz, blues",
+                "D) Emotional expression with large orchestras"
+              ],
+              "correct_answer": "C",
+              "explanation": "The 20th century saw enormous diversity: atonality (Schoenberg), serialism, neo-classicism, jazz, blues, minimalism, electronic music. No single style dominated.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Baroque music is associated with simple melodies and small orchestras.",
+              "correct_answer": "False",
+              "explanation": "Baroque music features complex COUNTERPOINT and basso continuo — it is intricate and ornate.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Sonata form consists of exposition, development, and recapitulation.",
+              "correct_answer": "True",
+              "explanation": "Sonata form: expose themes → develop and manipulate → restate in home key.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Programme music tells a story or depicts an idea outside the music itself.",
+              "correct_answer": "True",
+              "explanation": "Romantic programme music: Vivaldi's Four Seasons, Berlioz's Symphonie Fantastique.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Minimalism uses rapid change and variety.",
+              "correct_answer": "False",
+              "explanation": "Minimalism uses GRADUAL change and repetition — evolving slowly over long time spans.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Counterpoint involves a single melodic line.",
+              "correct_answer": "False",
+              "explanation": "Counterpoint combines TWO or MORE independent melodic lines simultaneously.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Romantic music is characterised by restrained, formal structures.",
+              "correct_answer": "False",
+              "explanation": "Romantic music features EMOTIONAL EXPRESSION, larger orchestras, and less formal constraints.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The blues scale includes a flattened 5th note.",
+              "correct_answer": "True",
+              "explanation": "The blue note (flattened 5th) is the characteristic note of the blues scale.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Classical period music features complex counterpoint.",
+              "correct_answer": "False",
+              "explanation": "Counterpoint is associated with the BAROQUE period. Classical music features clearer, homophonic textures.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Basso continuo is a feature of Baroque music.",
+              "correct_answer": "True",
+              "explanation": "Basso continuo (harpsichord + cello) provides the harmonic and bass foundation in Baroque music.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Steve Reich and Philip Glass are associated with minimalism.",
+              "correct_answer": "True",
+              "explanation": "Both composers use repetitive cells and gradual change — defining features of minimalism.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ music (c.1600–1750) features counterpoint, ornamentation, and basso continuo.",
+              "correct_answer": "Baroque",
+              "explanation": "Baroque composers include Bach and Handel.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ music (c.1750–1820) features clear melody, balanced phrases, and sonata form.",
+              "correct_answer": "Classical",
+              "explanation": "Classical composers include Mozart and Haydn.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ music (c.1820–1900) features emotional expression and programme music.",
+              "correct_answer": "Romantic",
+              "explanation": "Romantic composers include Beethoven, Brahms, and Tchaikovsky.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Sonata form: ________, development, recapitulation.",
+              "correct_answer": "exposition",
+              "explanation": "The exposition introduces the first and second subject themes.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ music depicts a story or idea outside the music — e.g. Vivaldi's Four Seasons.",
+              "correct_answer": "Programme",
+              "explanation": "Programme music is associated with the Romantic period.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is two or more independent melodic lines sounding simultaneously.",
+              "correct_answer": "Counterpoint",
+              "explanation": "Counterpoint is central to Baroque music — the fugue is a strict contrapuntal form.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ continuo provides the harmonic foundation in Baroque music.",
+              "correct_answer": "Basso",
+              "explanation": "Typically harpsichord filling in harmonies with cello reinforcing the bass.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ uses repetition and very gradual change — Steve Reich and Philip Glass.",
+              "correct_answer": "Minimalism",
+              "explanation": "Minimalism creates hypnotic, meditative effects through slowly evolving repeated cells.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ scale adds a flattened 5th (blue note) to the minor pentatonic.",
+              "correct_answer": "blues",
+              "explanation": "The blue note creates the characteristic tension of blues and jazz.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The 20th century saw enormous diversity — including ________, serialism, and minimalism.",
+              "correct_answer": "atonality",
+              "explanation": "Atonality abandons the traditional tonal centre — Schoenberg's twelve-tone technique.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Baroque",
+                  "match": "c.1600–1750 — counterpoint, ornamentation, basso continuo"
+                },
+                {
+                  "term": "Classical",
+                  "match": "c.1750–1820 — clear melody, balanced phrases, sonata form"
+                },
+                {
+                  "term": "Romantic",
+                  "match": "c.1820–1900 — emotional expression, programme music"
+                },
+                {
+                  "term": "sonata form",
+                  "match": "exposition, development, recapitulation"
+                },
+                {
+                  "term": "minimalism",
+                  "match": "repetition and gradual change — Reich, Glass"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

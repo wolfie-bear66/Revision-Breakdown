@@ -1,0 +1,1459 @@
+{
+  "subject": {
+    "name": "Physics",
+    "slug": "physics",
+    "colour": "#1e3a5f",
+    "exam_board": "Edexcel",
+    "emoji": "⚡"
+  },
+  "topics": [
+    {
+      "name": "Forces & Motion",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Motion & Forces",
+          "cards": [
+            {
+              "keyword": "scalar quantity",
+              "definition": "a quantity with magnitude only — e.g. speed, mass, energy, temperature",
+              "display_order": 1
+            },
+            {
+              "keyword": "vector quantity",
+              "definition": "a quantity with magnitude and direction — e.g. velocity, force, acceleration, momentum",
+              "display_order": 2
+            },
+            {
+              "keyword": "speed",
+              "definition": "distance ÷ time — a scalar quantity",
+              "display_order": 3
+            },
+            {
+              "keyword": "velocity",
+              "definition": "speed in a given direction — a vector. Velocity = displacement ÷ time",
+              "display_order": 4
+            },
+            {
+              "keyword": "acceleration",
+              "definition": "rate of change of velocity — a = (v−u)/t — units m/s²",
+              "display_order": 5
+            },
+            {
+              "keyword": "displacement-time graph",
+              "definition": "gradient = velocity. Horizontal line = stationary. Curved line = changing speed",
+              "display_order": 6
+            },
+            {
+              "keyword": "velocity-time graph",
+              "definition": "gradient = acceleration. Area under graph = distance travelled",
+              "display_order": 7
+            },
+            {
+              "keyword": "Newton's First Law",
+              "definition": "object stays at rest or constant velocity unless acted on by a resultant force",
+              "display_order": 8
+            },
+            {
+              "keyword": "Newton's Second Law",
+              "definition": "F = ma — resultant force = mass × acceleration",
+              "display_order": 9
+            },
+            {
+              "keyword": "Newton's Third Law",
+              "definition": "every action has an equal and opposite reaction force — on different objects",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between scalar and vector?",
+              "options": [
+                "A) Scalars are larger",
+                "B) Vectors have direction; scalars have magnitude only",
+                "C) Scalars include velocity",
+                "D) No difference"
+              ],
+              "correct_answer": "B",
+              "explanation": "Scalar: magnitude only (speed, mass, energy). Vector: magnitude AND direction (velocity, force, momentum).",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the gradient of a v-t graph represent?",
+              "options": [
+                "A) Speed",
+                "B) Distance",
+                "C) Acceleration",
+                "D) Force"
+              ],
+              "correct_answer": "C",
+              "explanation": "Gradient of a v-t graph = Δv/Δt = acceleration.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the area under a v-t graph represent?",
+              "options": [
+                "A) Acceleration",
+                "B) Force",
+                "C) Distance",
+                "D) Time"
+              ],
+              "correct_answer": "C",
+              "explanation": "Area under a v-t graph = velocity × time = distance travelled.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Newton's Second Law?",
+              "options": [
+                "A) Objects stay at rest unless forced",
+                "B) Equal and opposite reactions",
+                "C) F = ma — resultant force = mass × acceleration",
+                "D) Momentum is conserved"
+              ],
+              "correct_answer": "C",
+              "explanation": "F = ma. A larger force produces a greater acceleration for the same mass.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Newton's Third Law?",
+              "options": [
+                "A) F = ma",
+                "B) Objects maintain constant velocity without force",
+                "C) Every action force has an equal and opposite reaction on a different object",
+                "D) Momentum is always conserved"
+              ],
+              "correct_answer": "C",
+              "explanation": "Newton's Third Law pairs: both forces are equal in magnitude, opposite in direction, same type, but act on DIFFERENT objects.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a vector quantity?",
+              "options": [
+                "A) Magnitude only",
+                "B) Both magnitude and direction",
+                "C) Always a force",
+                "D) Measured in metres"
+              ],
+              "correct_answer": "B",
+              "explanation": "Vectors need both a size and a direction to be fully described.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is acceleration?",
+              "options": [
+                "A) Speed in a direction",
+                "B) Distance per unit time",
+                "C) Rate of change of velocity — (v−u)/t",
+                "D) Total distance ÷ time"
+              ],
+              "correct_answer": "C",
+              "explanation": "Acceleration can be positive (speeding up) or negative (decelerating). Units: m/s².",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does a horizontal line on a d-t graph show?",
+              "options": [
+                "A) Constant acceleration",
+                "B) Stationary — no change in displacement",
+                "C) Decelerating",
+                "D) Moving at constant velocity"
+              ],
+              "correct_answer": "B",
+              "explanation": "Horizontal line on a d-t graph: displacement not changing = stationary.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Newton's First Law?",
+              "options": [
+                "A) F = ma",
+                "B) Equal and opposite reactions",
+                "C) No resultant force → constant velocity or rest",
+                "D) Momentum is conserved in collisions"
+              ],
+              "correct_answer": "C",
+              "explanation": "Newton's First Law: without a resultant force, objects maintain their state of rest or uniform motion.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is velocity?",
+              "options": [
+                "A) Speed only — no direction",
+                "B) Distance ÷ time",
+                "C) Speed in a given direction — displacement ÷ time",
+                "D) Acceleration × time"
+              ],
+              "correct_answer": "C",
+              "explanation": "Velocity is a vector — it has both magnitude (speed) and direction. Displacement is also a vector.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Velocity is a scalar quantity.",
+              "correct_answer": "False",
+              "explanation": "Velocity is a VECTOR — it has both magnitude (speed) and direction.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The gradient of a v-t graph gives acceleration.",
+              "correct_answer": "True",
+              "explanation": "Gradient = Δv/Δt = acceleration.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The area under a v-t graph gives distance.",
+              "correct_answer": "True",
+              "explanation": "Area = velocity × time = distance.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Newton's Second Law states F = ma.",
+              "correct_answer": "True",
+              "explanation": "Resultant force = mass × acceleration.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Newton's Third Law forces act on the same object.",
+              "correct_answer": "False",
+              "explanation": "Newton's Third Law force pairs act on DIFFERENT objects.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Mass is a vector quantity.",
+              "correct_answer": "False",
+              "explanation": "Mass is a SCALAR — magnitude only.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Acceleration can be negative.",
+              "correct_answer": "True",
+              "explanation": "Negative acceleration means deceleration — the object is slowing down.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "A horizontal line on a d-t graph means constant velocity.",
+              "correct_answer": "False",
+              "explanation": "Horizontal line on d-t graph = STATIONARY. Constant velocity on d-t = diagonal straight line.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Newton's First Law requires a force to maintain constant velocity.",
+              "correct_answer": "False",
+              "explanation": "Newton's First Law: NO force needed to maintain constant velocity — only to CHANGE it.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Speed and velocity are the same quantity.",
+              "correct_answer": "False",
+              "explanation": "Speed is scalar (magnitude only). Velocity is vector (magnitude + direction).",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ quantity has magnitude only — e.g. speed, mass.",
+              "correct_answer": "scalar",
+              "explanation": "No direction needed.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ quantity has magnitude and direction — e.g. velocity, force.",
+              "correct_answer": "vector",
+              "explanation": "Represented by arrows.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = speed in a given direction — displacement ÷ time.",
+              "correct_answer": "Velocity",
+              "explanation": "Velocity is a vector; speed is a scalar.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Gradient of a v-t graph = ________.",
+              "correct_answer": "acceleration",
+              "explanation": "Steeper gradient = greater acceleration.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Area under a v-t graph = ________ travelled.",
+              "correct_answer": "distance",
+              "explanation": "Area = velocity × time.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Newton's ________ Law: no resultant force → constant velocity or rest.",
+              "correct_answer": "First",
+              "explanation": "A force is needed to CHANGE motion, not maintain it.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Newton's ________ Law: F = ma.",
+              "correct_answer": "Second",
+              "explanation": "Greater force → greater acceleration for same mass.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Newton's ________ Law: equal and opposite force pairs — on different objects.",
+              "correct_answer": "Third",
+              "explanation": "E.g. foot pushes ground → ground pushes foot upwards.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = rate of change of velocity — (v−u)/t — units m/s².",
+              "correct_answer": "Acceleration",
+              "explanation": "Can be positive or negative.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A horizontal line on a d-t graph means the object is ________.",
+              "correct_answer": "stationary",
+              "explanation": "No change in displacement = not moving.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "scalar",
+                  "match": "magnitude only — e.g. speed, mass"
+                },
+                {
+                  "term": "vector",
+                  "match": "magnitude and direction — e.g. velocity, force"
+                },
+                {
+                  "term": "v-t graph gradient",
+                  "match": "acceleration"
+                },
+                {
+                  "term": "v-t graph area",
+                  "match": "distance travelled"
+                },
+                {
+                  "term": "Newton's Second Law",
+                  "match": "F = ma"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electricity & Magnetism",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Electric Circuits",
+          "cards": [
+            {
+              "keyword": "current",
+              "definition": "the flow of charge — measured in amperes (A). I = Q/t",
+              "display_order": 1
+            },
+            {
+              "keyword": "potential difference (voltage)",
+              "definition": "the work done per unit charge — measured in volts (V). V = W/Q",
+              "display_order": 2
+            },
+            {
+              "keyword": "resistance",
+              "definition": "opposition to current flow — measured in ohms (Ω). R = V/I",
+              "display_order": 3
+            },
+            {
+              "keyword": "Ohm's Law",
+              "definition": "V = IR — voltage is proportional to current at constant temperature for ohmic conductors",
+              "display_order": 4
+            },
+            {
+              "keyword": "series circuit",
+              "definition": "components connected in a single loop — same current throughout, voltages add up",
+              "display_order": 5
+            },
+            {
+              "keyword": "parallel circuit",
+              "definition": "components connected in branches — same voltage across each branch, currents add up",
+              "display_order": 6
+            },
+            {
+              "keyword": "power",
+              "definition": "P = IV or P = I²R — rate of energy transfer — measured in watts (W)",
+              "display_order": 7
+            },
+            {
+              "keyword": "static electricity",
+              "definition": "build-up of charge on insulating materials — caused by friction transferring electrons",
+              "display_order": 8
+            },
+            {
+              "keyword": "electric field",
+              "definition": "a region where a charge experiences a force — field lines go from + to −",
+              "display_order": 9
+            },
+            {
+              "keyword": "direct current (DC)",
+              "definition": "current flowing in one direction only — e.g. from a battery",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is Ohm's Law?",
+              "options": [
+                "A) P = IV",
+                "B) V = IR — voltage proportional to current at constant temperature",
+                "C) I = Q/t",
+                "D) R = P/I²"
+              ],
+              "correct_answer": "B",
+              "explanation": "Ohm's Law: V = IR. An ohmic conductor has constant resistance — the V-I graph is a straight line through the origin.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is potential difference?",
+              "options": [
+                "A) Current per unit charge",
+                "B) Work done per unit charge — measured in volts",
+                "C) Charge per unit time",
+                "D) Power per unit resistance"
+              ],
+              "correct_answer": "B",
+              "explanation": "Potential difference (voltage) = work done ÷ charge. V = W/Q. It drives current around the circuit.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to voltage in a series circuit?",
+              "options": [
+                "A) Voltage is the same across each component",
+                "B) Voltages add up — total EMF shared between components",
+                "C) Voltage doubles across each component",
+                "D) No voltage drop"
+              ],
+              "correct_answer": "B",
+              "explanation": "Series: voltages across components add up to the supply voltage. Current is the same everywhere.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to current in a parallel circuit?",
+              "options": [
+                "A) Current is the same in each branch",
+                "B) Currents in each branch add up to the total current",
+                "C) Total current halves at each junction",
+                "D) Current is zero in parallel"
+              ],
+              "correct_answer": "B",
+              "explanation": "Parallel: current splits between branches — total current = sum of branch currents. Voltage is the same across each branch.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the formula for electrical power?",
+              "options": [
+                "A) P = V/I",
+                "B) P = IV or P = I²R",
+                "C) P = V²/R only",
+                "D) P = IR"
+              ],
+              "correct_answer": "B",
+              "explanation": "Power = current × voltage (P = IV). Also P = I²R (useful when you know R and I).",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What causes static electricity?",
+              "options": [
+                "A) Current flowing through a conductor",
+                "B) Friction transferring electrons between surfaces — charge builds up on insulators",
+                "C) Magnetic fields",
+                "D) Potential difference between components"
+              ],
+              "correct_answer": "B",
+              "explanation": "When two insulators rub together, electrons transfer — one becomes positively charged, one negatively charged.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is resistance?",
+              "options": [
+                "A) The flow of charge",
+                "B) Work done per unit charge",
+                "C) Opposition to current flow — measured in ohms (Ω)",
+                "D) Rate of energy transfer"
+              ],
+              "correct_answer": "C",
+              "explanation": "Resistance = voltage ÷ current (R = V/I). Higher resistance → less current for same voltage.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is direct current?",
+              "options": [
+                "A) Current that changes direction periodically",
+                "B) Current that only flows in one direction — from a battery",
+                "C) A type of static electricity",
+                "D) Current measured in volts"
+              ],
+              "correct_answer": "B",
+              "explanation": "DC (direct current) flows in one direction — from batteries. AC (alternating current) changes direction — from the mains.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the equation for current?",
+              "options": [
+                "A) I = V/R",
+                "B) I = Q/t — charge per unit time",
+                "C) I = P/V",
+                "D) I = W/Q"
+              ],
+              "correct_answer": "B",
+              "explanation": "Current (I) = charge (Q) ÷ time (t). Measured in amperes (A). Also I = V/R.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an electric field?",
+              "options": [
+                "A) A magnetic field around a conductor",
+                "B) A region where a charge experiences a force — field lines from + to −",
+                "C) The potential difference between two points",
+                "D) The resistance of a material"
+              ],
+              "correct_answer": "B",
+              "explanation": "Electric field lines show the direction a positive test charge would move — from positive to negative.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Ohm's Law states V = IR.",
+              "correct_answer": "True",
+              "explanation": "An ohmic conductor has a constant resistance — V-I graph is a straight line through origin.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "In a series circuit, current is different through each component.",
+              "correct_answer": "False",
+              "explanation": "Series circuit: current is the SAME throughout.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "In a parallel circuit, voltage is the same across each branch.",
+              "correct_answer": "True",
+              "explanation": "Parallel: same voltage across each branch. Current splits between branches.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Power = current × voltage.",
+              "correct_answer": "True",
+              "explanation": "P = IV. Also P = I²R and P = V²/R.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Static electricity is caused by the flow of current.",
+              "correct_answer": "False",
+              "explanation": "Static electricity is caused by FRICTION — electrons transfer between insulating surfaces.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Resistance is measured in volts.",
+              "correct_answer": "False",
+              "explanation": "Resistance is measured in OHMS (Ω). Voltage is measured in volts.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Direct current flows in one direction only.",
+              "correct_answer": "True",
+              "explanation": "DC from batteries; AC from mains — AC changes direction.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Voltages in series circuits add up to the supply voltage.",
+              "correct_answer": "True",
+              "explanation": "Series: V₁ + V₂ + V₃ = total EMF.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "An electric field exerts a force on charged particles.",
+              "correct_answer": "True",
+              "explanation": "Electric field lines show the direction of force on a positive charge.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Current = charge ÷ time.",
+              "correct_answer": "True",
+              "explanation": "I = Q/t. Current is the rate of flow of charge.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = V/I — opposition to current flow — measured in ohms.",
+              "correct_answer": "Resistance",
+              "explanation": "Higher resistance → less current for the same voltage.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Ohm's Law: ________ = IR.",
+              "correct_answer": "V",
+              "explanation": "Voltage is proportional to current for ohmic conductors.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = IV — rate of energy transfer — measured in watts.",
+              "correct_answer": "Power",
+              "explanation": "Also P = I²R.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Series circuit: ________ is the same throughout.",
+              "correct_answer": "current",
+              "explanation": "Voltages add up; current is constant.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Parallel circuit: ________ is the same across each branch.",
+              "correct_answer": "voltage",
+              "explanation": "Currents in branches add up to total current.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ electricity is caused by friction transferring electrons.",
+              "correct_answer": "Static",
+              "explanation": "Builds up on insulators — can cause sparks.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ current (DC) flows in one direction only — e.g. from batteries.",
+              "correct_answer": "Direct",
+              "explanation": "AC (alternating current) comes from the mains.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "I = ________ ÷ time — charge flow per second.",
+              "correct_answer": "Q (charge)",
+              "explanation": "Measured in amperes (A).",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Electric field lines go from ________ to negative charge.",
+              "correct_answer": "positive",
+              "explanation": "The direction a positive test charge would move.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Potential ________ is work done per unit charge — measured in volts.",
+              "correct_answer": "difference",
+              "explanation": "Also called voltage. V = W/Q.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Ohm's Law",
+                  "match": "V = IR — voltage proportional to current"
+                },
+                {
+                  "term": "series circuit",
+                  "match": "same current — voltages add up"
+                },
+                {
+                  "term": "parallel circuit",
+                  "match": "same voltage — currents add up"
+                },
+                {
+                  "term": "power",
+                  "match": "P = IV = I²R — rate of energy transfer"
+                },
+                {
+                  "term": "static electricity",
+                  "match": "friction transfers electrons — charge on insulators"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energy, Waves & Nuclear Physics",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Energy & Waves",
+          "cards": [
+            {
+              "keyword": "conservation of energy",
+              "definition": "energy cannot be created or destroyed — only transferred between stores",
+              "display_order": 1
+            },
+            {
+              "keyword": "work done",
+              "definition": "W = Fd — force × distance — measured in joules",
+              "display_order": 2
+            },
+            {
+              "keyword": "kinetic energy",
+              "definition": "KE = ½mv² — energy of a moving object",
+              "display_order": 3
+            },
+            {
+              "keyword": "gravitational potential energy",
+              "definition": "GPE = mgh — energy due to height",
+              "display_order": 4
+            },
+            {
+              "keyword": "efficiency",
+              "definition": "useful energy output ÷ total energy input × 100%",
+              "display_order": 5
+            },
+            {
+              "keyword": "wave",
+              "definition": "a transfer of energy without transfer of matter — transverse or longitudinal",
+              "display_order": 6
+            },
+            {
+              "keyword": "transverse wave",
+              "definition": "vibrations perpendicular to direction of travel — e.g. light, electromagnetic waves",
+              "display_order": 7
+            },
+            {
+              "keyword": "longitudinal wave",
+              "definition": "vibrations parallel to direction of travel — e.g. sound, compressions and rarefactions",
+              "display_order": 8
+            },
+            {
+              "keyword": "wave speed",
+              "definition": "v = fλ — wave speed = frequency × wavelength",
+              "display_order": 9
+            },
+            {
+              "keyword": "electromagnetic spectrum",
+              "definition": "range of EM waves ordered by frequency/wavelength — radio to gamma rays",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is conservation of energy?",
+              "options": [
+                "A) Energy is created in nuclear reactions",
+                "B) Energy cannot be created or destroyed — only transferred",
+                "C) Energy is always conserved in mechanical systems only",
+                "D) Energy decreases in every transfer"
+              ],
+              "correct_answer": "B",
+              "explanation": "Total energy in a closed system is always constant — energy changes form but is never created or destroyed.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the formula for work done?",
+              "options": [
+                "A) W = ma",
+                "B) W = P × t",
+                "C) W = F × d",
+                "D) W = ½mv²"
+              ],
+              "correct_answer": "C",
+              "explanation": "Work done = force × distance (in direction of force). Units: joules (N⋅m).",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is kinetic energy?",
+              "options": [
+                "A) Energy stored by position",
+                "B) Energy stored in stretched objects",
+                "C) Energy of a moving object — KE = ½mv²",
+                "D) Energy transferred by heating"
+              ],
+              "correct_answer": "C",
+              "explanation": "KE = ½ × mass × velocity². Doubling speed quadruples KE (velocity is squared).",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is efficiency?",
+              "options": [
+                "A) Total output ÷ input",
+                "B) Useful energy output ÷ total energy input × 100%",
+                "C) Wasted energy ÷ total energy",
+                "D) Power × time"
+              ],
+              "correct_answer": "B",
+              "explanation": "Efficiency < 100% for all real machines — some energy is always dissipated as heat.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a transverse wave?",
+              "options": [
+                "A) Vibrations parallel to direction of travel",
+                "B) Vibrations perpendicular to direction of travel — e.g. light",
+                "C) A wave that transfers matter",
+                "D) Only sound waves"
+              ],
+              "correct_answer": "B",
+              "explanation": "Transverse waves: vibrations at right angles to wave travel. Examples: all electromagnetic waves, water waves.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a longitudinal wave?",
+              "options": [
+                "A) Vibrations perpendicular to travel direction",
+                "B) Vibrations parallel to direction of travel — compressions and rarefactions",
+                "C) Only electromagnetic waves",
+                "D) Waves that cannot travel through solids"
+              ],
+              "correct_answer": "B",
+              "explanation": "Longitudinal waves: vibrations in the same direction as travel. Sound is the main GCSE example.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the wave speed equation?",
+              "options": [
+                "A) v = f + λ",
+                "B) v = f/λ",
+                "C) v = fλ — frequency × wavelength",
+                "D) v = λ/f"
+              ],
+              "correct_answer": "C",
+              "explanation": "v = fλ. Wave speed = frequency (Hz) × wavelength (m). Speed in m/s.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the electromagnetic spectrum?",
+              "options": [
+                "A) Only visible light",
+                "B) A range of EM waves ordered by frequency — radio to gamma rays",
+                "C) Only waves that can travel through matter",
+                "D) A range of sound frequencies"
+              ],
+              "correct_answer": "B",
+              "explanation": "EM spectrum (low to high frequency): radio → microwave → infrared → visible → UV → X-ray → gamma.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is GPE?",
+              "options": [
+                "A) Energy of moving objects",
+                "B) Energy stored in springs",
+                "C) Energy due to height — GPE = mgh",
+                "D) Energy released in combustion"
+              ],
+              "correct_answer": "C",
+              "explanation": "GPE = mass × g × height. On Earth, g ≈ 10 N/kg. Increasing height increases GPE.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between transverse and longitudinal waves?",
+              "options": [
+                "A) Only longitudinal waves transfer energy",
+                "B) Transverse: vibrations perpendicular; longitudinal: vibrations parallel to travel",
+                "C) Transverse waves cannot travel in a vacuum",
+                "D) Longitudinal waves have higher frequency"
+              ],
+              "correct_answer": "B",
+              "explanation": "Transverse: perpendicular vibrations (EM waves, water). Longitudinal: parallel vibrations (sound).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Energy cannot be created or destroyed.",
+              "correct_answer": "True",
+              "explanation": "Conservation of energy is a fundamental law of physics.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Work done = force × time.",
+              "correct_answer": "False",
+              "explanation": "Work done = force × DISTANCE (W = Fd).",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Doubling speed doubles kinetic energy.",
+              "correct_answer": "False",
+              "explanation": "KE = ½mv² — speed is squared. Doubling speed QUADRUPLES KE.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Efficiency can exceed 100%.",
+              "correct_answer": "False",
+              "explanation": "Efficiency cannot exceed 100% — energy is always wasted as heat.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Sound is a transverse wave.",
+              "correct_answer": "False",
+              "explanation": "Sound is a LONGITUDINAL wave — vibrations are parallel to direction of travel.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "All electromagnetic waves travel at the same speed in a vacuum.",
+              "correct_answer": "True",
+              "explanation": "All EM waves travel at 3 × 10⁸ m/s in a vacuum.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Wave speed = frequency × wavelength.",
+              "correct_answer": "True",
+              "explanation": "v = fλ.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Gamma rays have the lowest frequency in the EM spectrum.",
+              "correct_answer": "False",
+              "explanation": "Gamma rays have the HIGHEST frequency (and shortest wavelength).",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "GPE increases with height.",
+              "correct_answer": "True",
+              "explanation": "GPE = mgh — more height = more stored gravitational potential energy.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Transverse waves have vibrations perpendicular to direction of travel.",
+              "correct_answer": "True",
+              "explanation": "E.g. all EM waves, water waves. Sound is longitudinal.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ of energy: cannot be created or destroyed — only transferred.",
+              "correct_answer": "Conservation",
+              "explanation": "Total energy in a closed system is constant.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Work done = ________ × distance — measured in joules.",
+              "correct_answer": "force",
+              "explanation": "W = Fd.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "KE = ½m________ — kinetic energy depends on speed squared.",
+              "correct_answer": "v²",
+              "explanation": "Doubling speed quadruples KE.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "GPE = m × ________ × height.",
+              "correct_answer": "g",
+              "explanation": "On Earth, g ≈ 10 N/kg.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = useful output ÷ total input × 100%.",
+              "correct_answer": "Efficiency",
+              "explanation": "All real machines are less than 100% efficient.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ waves have vibrations perpendicular to direction of travel — e.g. light.",
+              "correct_answer": "Transverse",
+              "explanation": "All EM waves are transverse.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ waves have vibrations parallel to direction of travel — e.g. sound.",
+              "correct_answer": "Longitudinal",
+              "explanation": "Sound travels as compressions and rarefactions.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Wave speed = ________ × wavelength (v = fλ).",
+              "correct_answer": "frequency",
+              "explanation": "Frequency in Hz, wavelength in m, speed in m/s.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "EM spectrum from lowest to highest frequency: radio → microwave → infrared → ________ → UV → X-ray → gamma.",
+              "correct_answer": "visible light",
+              "explanation": "Visible light is a tiny part of the full EM spectrum.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ rays have the highest frequency in the EM spectrum.",
+              "correct_answer": "Gamma",
+              "explanation": "Gamma rays also have the shortest wavelength.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "conservation of energy",
+                  "match": "cannot be created/destroyed — only transferred"
+                },
+                {
+                  "term": "kinetic energy",
+                  "match": "KE = ½mv²"
+                },
+                {
+                  "term": "GPE",
+                  "match": "mgh — energy due to height"
+                },
+                {
+                  "term": "v = fλ",
+                  "match": "wave speed = frequency × wavelength"
+                },
+                {
+                  "term": "transverse wave",
+                  "match": "vibrations perpendicular — e.g. EM waves"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Separate Science Extra — Physics",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Separate Science: Moments, Pressure & Astronomy",
+          "cards": [
+            {
+              "keyword": "moment",
+              "definition": "the turning effect of a force — moment = force × perpendicular distance from pivot (N⋅m)",
+              "display_order": 1
+            },
+            {
+              "keyword": "principle of moments",
+              "definition": "for a balanced object: sum of clockwise moments = sum of anticlockwise moments",
+              "display_order": 2
+            },
+            {
+              "keyword": "centre of mass",
+              "definition": "the point where all of an object's weight appears to act — determines stability",
+              "display_order": 3
+            },
+            {
+              "keyword": "pressure in fluids",
+              "definition": "P = F/A — pressure increases with depth in liquids (liquid pressure = ρgh)",
+              "display_order": 4
+            },
+            {
+              "keyword": "upthrust",
+              "definition": "the upward force on an object submerged in a fluid — equal to weight of fluid displaced",
+              "display_order": 5
+            },
+            {
+              "keyword": "atmospheric pressure",
+              "definition": "pressure exerted by the weight of air above — decreases with altitude",
+              "display_order": 6
+            },
+            {
+              "keyword": "orbital motion",
+              "definition": "planets orbit the Sun due to gravitational attraction — centripetal force provided by gravity",
+              "display_order": 7
+            },
+            {
+              "keyword": "red-shift",
+              "definition": "light from distant galaxies is shifted towards the red end of the spectrum — evidence for expansion",
+              "display_order": 8
+            },
+            {
+              "keyword": "Big Bang theory",
+              "definition": "the Universe began as an extremely dense, hot point — it has been expanding ever since",
+              "display_order": 9
+            },
+            {
+              "keyword": "life cycle of a star",
+              "definition": "nebula → protostar → main sequence → red giant/supergiant → white dwarf/supernova/neutron star/black hole",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a moment?",
+              "options": [
+                "A) A unit of time",
+                "B) The turning effect of a force — force × perpendicular distance from pivot",
+                "C) A type of force",
+                "D) The centre of mass"
+              ],
+              "correct_answer": "B",
+              "explanation": "Moment (N⋅m) = force (N) × perpendicular distance from pivot (m). A longer spanner produces a greater moment.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the principle of moments?",
+              "options": [
+                "A) All forces must be equal",
+                "B) Clockwise moments = anticlockwise moments for a balanced object",
+                "C) The centre of mass must be at the pivot",
+                "D) Forces always act through the centre of mass"
+              ],
+              "correct_answer": "B",
+              "explanation": "Principle of moments: for equilibrium, sum of clockwise moments about any point = sum of anticlockwise moments.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is upthrust?",
+              "options": [
+                "A) The weight of an object in a fluid",
+                "B) The upward force equal to the weight of fluid displaced",
+                "C) The pressure at the surface of a fluid",
+                "D) Atmospheric pressure"
+              ],
+              "correct_answer": "B",
+              "explanation": "Upthrust = weight of fluid displaced (Archimedes' principle). If upthrust > weight, the object floats.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is red-shift?",
+              "options": [
+                "A) Stars appearing red due to their temperature",
+                "B) Light from distant galaxies shifted towards longer wavelengths — evidence the Universe is expanding",
+                "C) A type of nuclear radiation",
+                "D) The light from cooling stars"
+              ],
+              "correct_answer": "B",
+              "explanation": "Red-shift: the further a galaxy, the greater the red-shift — evidence that the Universe is expanding in all directions.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Big Bang theory?",
+              "options": [
+                "A) Stars exploding",
+                "B) The Universe began as an extremely hot, dense point and has been expanding ever since",
+                "C) Matter being created in stars",
+                "D) The theory of nuclear fusion"
+              ],
+              "correct_answer": "B",
+              "explanation": "Big Bang theory is supported by red-shift and cosmic microwave background radiation (CMBR).",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is atmospheric pressure?",
+              "options": [
+                "A) Pressure from a liquid column",
+                "B) The pressure exerted by the weight of air — decreases with altitude",
+                "C) Pressure due to upthrust",
+                "D) The pressure at the centre of the Earth"
+              ],
+              "correct_answer": "B",
+              "explanation": "Atmospheric pressure decreases with altitude — less air above = less weight = less pressure.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What force provides centripetal force for planetary orbits?",
+              "options": [
+                "A) Magnetic force",
+                "B) Electrostatic force",
+                "C) Gravitational attraction between the planet and the Sun",
+                "D) Atmospheric pressure"
+              ],
+              "correct_answer": "C",
+              "explanation": "Gravity provides the centripetal force — planets are constantly pulled towards the Sun, keeping them in orbit.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is pressure in a liquid?",
+              "options": [
+                "A) P = Fv",
+                "B) P = F/A — increases with depth (P = ρgh)",
+                "C) P = mgh",
+                "D) P = ρ/gh"
+              ],
+              "correct_answer": "B",
+              "explanation": "Liquid pressure: P = ρgh (density × g × height). Pressure increases with depth.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to a star like our Sun after the main sequence?",
+              "options": [
+                "A) It becomes a black hole",
+                "B) It explodes as a supernova",
+                "C) It becomes a red giant then a white dwarf",
+                "D) It becomes a neutron star"
+              ],
+              "correct_answer": "C",
+              "explanation": "Sun-like stars: main sequence → red giant → planetary nebula → white dwarf. More massive stars end as supernovae → neutron star or black hole.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the principle of moments used for?",
+              "options": [
+                "A) Calculating wave speed",
+                "B) Finding when a balanced object will topple",
+                "C) Calculating turning effects — for balanced beams and levers",
+                "D) Working out upthrust"
+              ],
+              "correct_answer": "C",
+              "explanation": "Principle of moments: if Σ clockwise moments = Σ anticlockwise moments, the object is in rotational equilibrium.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Moment = force × perpendicular distance from pivot.",
+              "correct_answer": "True",
+              "explanation": "Units: N⋅m. Longer distance from pivot = greater moment.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "For a balanced object, clockwise moments exceed anticlockwise moments.",
+              "correct_answer": "False",
+              "explanation": "For BALANCE: clockwise moments = anticlockwise moments.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Upthrust is the downward force on a submerged object.",
+              "correct_answer": "False",
+              "explanation": "Upthrust is UPWARD — equal to the weight of fluid displaced.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Red-shift provides evidence that the Universe is expanding.",
+              "correct_answer": "True",
+              "explanation": "Galaxies moving away cause red-shift — the further the galaxy, the greater the red-shift.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Atmospheric pressure increases with altitude.",
+              "correct_answer": "False",
+              "explanation": "Atmospheric pressure DECREASES with altitude — less air above.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Gravity provides the centripetal force for planetary orbits.",
+              "correct_answer": "True",
+              "explanation": "Without gravity, planets would travel in straight lines.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Liquid pressure increases with depth.",
+              "correct_answer": "True",
+              "explanation": "P = ρgh — more depth = more liquid above = more pressure.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Our Sun will end its life as a black hole.",
+              "correct_answer": "False",
+              "explanation": "The Sun will become a RED GIANT then a WHITE DWARF. Black holes form from much more massive stars.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The Big Bang theory is supported by red-shift evidence.",
+              "correct_answer": "True",
+              "explanation": "Red-shift and CMBR both support the Big Bang model.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The principle of moments applies when a system is in rotational equilibrium.",
+              "correct_answer": "True",
+              "explanation": "Σ clockwise moments = Σ anticlockwise moments.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = force × perpendicular distance from pivot — turning effect.",
+              "correct_answer": "Moment",
+              "explanation": "Units: N⋅m.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Principle of moments: ________ moments = anticlockwise moments for balance.",
+              "correct_answer": "clockwise",
+              "explanation": "Used to solve beam and lever problems.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the upward force on a submerged object — weight of fluid displaced.",
+              "correct_answer": "Upthrust",
+              "explanation": "If upthrust > weight, object floats.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ shows light from galaxies is shifted to longer wavelengths — Universe expanding.",
+              "correct_answer": "Red-shift",
+              "explanation": "Greater distance = greater red-shift.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ Bang theory: Universe began as hot dense point — expanding since.",
+              "correct_answer": "Big",
+              "explanation": "Supported by red-shift and cosmic microwave background radiation.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ pressure = weight of air above — decreases with altitude.",
+              "correct_answer": "Atmospheric",
+              "explanation": "Less air above at high altitude = lower pressure.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ provides centripetal force for planets orbiting the Sun.",
+              "correct_answer": "Gravity",
+              "explanation": "Without gravity, planets would travel in straight lines.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Liquid pressure P = ρg________ — increases with depth.",
+              "correct_answer": "h",
+              "explanation": "ρ = density, g = gravitational field strength, h = depth.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Sun-like stars: red giant → planetary nebula → ________ dwarf.",
+              "correct_answer": "white",
+              "explanation": "More massive stars end as neutron stars or black holes.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The life cycle of a star begins with a ________.",
+              "correct_answer": "nebula",
+              "explanation": "A nebula is a cloud of gas and dust that collapses under gravity.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "moment",
+                  "match": "turning effect — force × perpendicular distance from pivot"
+                },
+                {
+                  "term": "principle of moments",
+                  "match": "clockwise moments = anticlockwise for balance"
+                },
+                {
+                  "term": "upthrust",
+                  "match": "upward force = weight of fluid displaced"
+                },
+                {
+                  "term": "red-shift",
+                  "match": "evidence Universe is expanding — galaxies moving away"
+                },
+                {
+                  "term": "Big Bang theory",
+                  "match": "Universe from hot dense point — still expanding"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1459 @@
+{
+  "subject": {
+    "name": "Sociology",
+    "slug": "sociology",
+    "colour": "#065f46",
+    "exam_board": "AQA",
+    "emoji": "👥"
+  },
+  "topics": [
+    {
+      "name": "Families & Households",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Family Structures & Diversity",
+          "cards": [
+            {
+              "keyword": "nuclear family",
+              "definition": "a family unit consisting of two parents and their children living together",
+              "display_order": 1
+            },
+            {
+              "keyword": "extended family",
+              "definition": "a family unit that includes relatives beyond parents and children — e.g. grandparents, aunts, uncles",
+              "display_order": 2
+            },
+            {
+              "keyword": "reconstituted family",
+              "definition": "a 'blended' family formed when partners with children from previous relationships form a new family unit",
+              "display_order": 3
+            },
+            {
+              "keyword": "lone parent family",
+              "definition": "a family with one parent raising children — the most common type is a single mother",
+              "display_order": 4
+            },
+            {
+              "keyword": "same-sex family",
+              "definition": "a family headed by two parents of the same gender, increasingly recognised legally",
+              "display_order": 5
+            },
+            {
+              "keyword": "functionalism",
+              "definition": "a sociological perspective that sees the family as essential — performing key functions for society",
+              "display_order": 6
+            },
+            {
+              "keyword": "Marxism",
+              "definition": "a conflict perspective seeing the family as serving the interests of capitalism — reproducing inequality",
+              "display_order": 7
+            },
+            {
+              "keyword": "feminism",
+              "definition": "a perspective arguing the family is a site of patriarchy — women perform unpredictable, unequal domestic labour",
+              "display_order": 8
+            },
+            {
+              "keyword": "secularisation",
+              "definition": "the decline of religious influence in society — has contributed to rising divorce rates and family diversity",
+              "display_order": 9
+            },
+            {
+              "keyword": "conjugal roles",
+              "definition": "the roles played by husbands and wives within a marriage — joint (shared) or segregated (separate)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a nuclear family?",
+              "options": [
+                "A) A family with many generations living together",
+                "B) Two parents and their children",
+                "C) A single parent and children",
+                "D) Any family unit"
+              ],
+              "correct_answer": "B",
+              "explanation": "The nuclear family consists of two parents and their dependent children — traditionally seen as the 'typical' family.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a reconstituted family?",
+              "options": [
+                "A) A family that has moved house",
+                "B) A blended family from partners with children from previous relationships",
+                "C) An extended family that has split up",
+                "D) A same-sex family"
+              ],
+              "correct_answer": "B",
+              "explanation": "Reconstituted (blended) families form when partners who already have children from previous relationships form a new family unit.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does functionalism say about the family?",
+              "options": [
+                "A) The family reproduces inequality",
+                "B) The family oppresses women",
+                "C) The family performs essential functions for society",
+                "D) The family is irrelevant to society"
+              ],
+              "correct_answer": "C",
+              "explanation": "Functionalists like Parsons argue the family performs key functions: primary socialisation and stabilisation of adult personalities.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does feminism say about the family?",
+              "options": [
+                "A) The family is beneficial for women",
+                "B) The family is a site of patriarchy — women do unpaid, unequal domestic labour",
+                "C) The family serves capitalism",
+                "D) The family is the ideal social unit"
+              ],
+              "correct_answer": "B",
+              "explanation": "Feminists argue the family benefits men — women do the 'triple shift' (paid work, domestic labour, emotional work) while men benefit from their labour.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is secularisation?",
+              "options": [
+                "A) An increase in religious attendance",
+                "B) The decline of religious influence in society",
+                "C) The growth of non-religious ceremonies",
+                "D) The spread of Christianity"
+              ],
+              "correct_answer": "B",
+              "explanation": "Secularisation has led to more liberal attitudes — contributing to rising divorce rates, cohabitation, and greater family diversity as religious norms weaken.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are conjugal roles?",
+              "options": [
+                "A) Roles played by children in families",
+                "B) Roles of husbands and wives within marriage",
+                "C) Roles of extended family members",
+                "D) Roles of parents in schools"
+              ],
+              "correct_answer": "B",
+              "explanation": "Conjugal roles are either joint (shared tasks) or segregated (separate tasks for husband and wife). Wilmott and Young argued roles have become increasingly joint.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a lone parent family?",
+              "options": [
+                "A) A family where one parent works abroad",
+                "B) A family with one parent raising children",
+                "C) A nuclear family where one parent is deceased",
+                "D) A family with one child"
+              ],
+              "correct_answer": "B",
+              "explanation": "Lone parent families are most commonly headed by single mothers. Their numbers have increased due to rising divorce rates and changing social attitudes.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Marxism say about the family?",
+              "options": [
+                "A) The family is a positive institution",
+                "B) The family serves capitalism by reproducing compliant workers and passing on wealth",
+                "C) The family performs primary socialisation",
+                "D) The family has no economic function"
+              ],
+              "correct_answer": "B",
+              "explanation": "Marxists argue the family maintains capitalism — it socialises children to accept inequality and transmits wealth/status between generations.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an extended family?",
+              "options": [
+                "A) A nuclear family that has grown",
+                "B) A family including relatives beyond parents and children",
+                "C) A family with more than two children",
+                "D) A family that extends across different countries"
+              ],
+              "correct_answer": "B",
+              "explanation": "Extended families include grandparents, aunts, uncles, and cousins. They may be vertically extended (multiple generations) or horizontally extended (same generation).",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the 'triple shift' concept?",
+              "options": [
+                "A) Three generations living together",
+                "B) Women doing paid work, domestic labour, and emotional work",
+                "C) Three types of family structure",
+                "D) Shift work affecting family life"
+              ],
+              "correct_answer": "B",
+              "explanation": "The triple shift (Hochschild) describes women's threefold burden: paid employment, domestic labour (cooking, cleaning), and emotional labour (managing family relationships).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "A nuclear family consists of two parents and their children.",
+              "correct_answer": "True",
+              "explanation": "The nuclear family is the traditional family unit — though it is no longer the most common form.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Functionalists see the family as a site of oppression.",
+              "correct_answer": "False",
+              "explanation": "Functionalists see the family as performing essential positive functions. Feminists see it as oppressive.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The reconstituted family has increased due to rising divorce rates.",
+              "correct_answer": "True",
+              "explanation": "More divorces mean more remarriages — creating stepfamilies or reconstituted families.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Marxists argue the family primarily benefits women.",
+              "correct_answer": "False",
+              "explanation": "Marxists argue the family benefits CAPITALISM — reproducing a compliant workforce and transmitting property.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Feminists argue women perform an unequal share of domestic labour.",
+              "correct_answer": "True",
+              "explanation": "Feminist sociologists argue women do more domestic and emotional work — even when in paid employment (the triple shift).",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Secularisation has led to more rigid family structures.",
+              "correct_answer": "False",
+              "explanation": "Secularisation has contributed to GREATER diversity — as religious norms against divorce, cohabitation, and same-sex relationships have weakened.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Conjugal roles are the roles played by partners within a marriage.",
+              "correct_answer": "True",
+              "explanation": "Joint conjugal roles (shared tasks) have increased as society has changed — though feminists argue true equality has not been achieved.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Extended families include only grandparents.",
+              "correct_answer": "False",
+              "explanation": "Extended families include all relatives beyond parents and children — grandparents, aunts, uncles, and cousins.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Same-sex families have become more socially accepted over recent decades.",
+              "correct_answer": "True",
+              "explanation": "Legal recognition (civil partnerships, same-sex marriage) and changing social attitudes have increased acceptance of same-sex families.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Lone parent families are most commonly headed by fathers.",
+              "correct_answer": "False",
+              "explanation": "The vast majority of lone parent families are headed by mothers — reflecting wider gender inequalities.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ family consists of two parents and their dependent children.",
+              "correct_answer": "nuclear",
+              "explanation": "The nuclear family was long seen as the 'norm' but family diversity has increased significantly.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ family includes relatives beyond parents and children — e.g. grandparents.",
+              "correct_answer": "extended",
+              "explanation": "Extended families may be vertically (multiple generations) or horizontally (same generation) extended.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ family is formed when partners with children from previous relationships combine.",
+              "correct_answer": "reconstituted",
+              "explanation": "Also called blended families — their number has grown as divorce and remarriage have increased.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ see the family as performing essential functions for individuals and society.",
+              "correct_answer": "Functionalists",
+              "explanation": "Parsons identified primary socialisation and stabilisation of adult personalities as key family functions.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ argue the family is a site of patriarchy — women perform unequal domestic labour.",
+              "correct_answer": "Feminists",
+              "explanation": "The 'triple shift' describes women's threefold burden: paid work, domestic labour, and emotional work.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The decline of religious influence in society is called ________.",
+              "correct_answer": "secularisation",
+              "explanation": "Secularisation has contributed to greater family diversity — weakening norms against divorce and cohabitation.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ roles are the roles played by partners within a marriage — joint or segregated.",
+              "correct_answer": "Conjugal",
+              "explanation": "Joint roles involve sharing tasks; segregated roles involve separate, traditional divisions.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ argue the family reproduces capitalism by transmitting wealth and socialising workers.",
+              "correct_answer": "Marxists",
+              "explanation": "The family passes on class position and teaches acceptance of inequality.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ parent family has one parent raising children — most commonly a single mother.",
+              "correct_answer": "lone",
+              "explanation": "Lone parent families have grown due to rising divorce and changing attitudes to unmarried parenthood.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ shift describes women doing paid work, domestic labour, and emotional work.",
+              "correct_answer": "triple",
+              "explanation": "Hochschild's concept shows women face a threefold burden even when in full-time employment.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "nuclear family",
+                  "match": "two parents and their children"
+                },
+                {
+                  "term": "functionalism",
+                  "match": "family performs essential functions for society"
+                },
+                {
+                  "term": "feminism",
+                  "match": "family is a site of patriarchy — women do unequal labour"
+                },
+                {
+                  "term": "Marxism",
+                  "match": "family serves capitalism — reproduces inequality"
+                },
+                {
+                  "term": "reconstituted family",
+                  "match": "blended family from partners with previous children"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Education & Social Class",
+          "cards": [
+            {
+              "keyword": "meritocracy",
+              "definition": "the idea that success is based on ability and effort — education is supposed to create a level playing field",
+              "display_order": 1
+            },
+            {
+              "keyword": "cultural capital",
+              "definition": "Bourdieu's concept — middle-class children have knowledge, skills, and attitudes that give them an educational advantage",
+              "display_order": 2
+            },
+            {
+              "keyword": "material deprivation",
+              "definition": "lack of money and resources — affects working-class pupils' achievement through poor diet, housing, and lack of materials",
+              "display_order": 3
+            },
+            {
+              "keyword": "labelling",
+              "definition": "when teachers or others attach a fixed definition to a pupil — can become a self-fulfilling prophecy",
+              "display_order": 4
+            },
+            {
+              "keyword": "self-fulfilling prophecy",
+              "definition": "when a label causes a person to behave in ways that confirm the label — e.g. a labelled 'troublemaker' acts out",
+              "display_order": 5
+            },
+            {
+              "keyword": "hidden curriculum",
+              "definition": "the informal lessons schools teach — conformity, punctuality, hierarchy — serving middle-class values",
+              "display_order": 6
+            },
+            {
+              "keyword": "streaming",
+              "definition": "grouping pupils by ability across all subjects — research suggests it widens the gap between high and low achievers",
+              "display_order": 7
+            },
+            {
+              "keyword": "subcultural theory",
+              "definition": "some pupils form anti-school subcultures rejecting school values — particularly working-class boys (Willis 1977)",
+              "display_order": 8
+            },
+            {
+              "keyword": "gender gap",
+              "definition": "girls consistently outperform boys in exams — explained by changing expectations, feminism, and laddish culture",
+              "display_order": 9
+            },
+            {
+              "keyword": "institutional racism",
+              "definition": "the policies and practices of institutions that systematically disadvantage ethnic minority groups",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is meritocracy?",
+              "options": [
+                "A) A system where the wealthy succeed",
+                "B) A system where success is based on ability and effort",
+                "C) A system controlled by the middle class",
+                "D) A system where birth determines success"
+              ],
+              "correct_answer": "B",
+              "explanation": "Meritocracy claims education gives everyone an equal chance to succeed based on merit. Sociologists question this — arguing structural inequalities persist.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is cultural capital?",
+              "options": [
+                "A) Money invested in education",
+                "B) Middle-class knowledge, skills, and attitudes that give educational advantages",
+                "C) The official curriculum taught in schools",
+                "D) Resources available to working-class pupils"
+              ],
+              "correct_answer": "B",
+              "explanation": "Bourdieu argued middle-class children have cultural capital — knowledge of art, language, and cultural norms valued by schools — giving them a built-in advantage.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a self-fulfilling prophecy?",
+              "options": [
+                "A) Achieving something through hard work",
+                "B) A label causing behaviour that confirms the label",
+                "C) A teacher's expectation being disproved",
+                "D) A pupil choosing to underachieve"
+              ],
+              "correct_answer": "B",
+              "explanation": "If a teacher labels a pupil as bright, they receive more attention and achieve more. If labelled negatively, they may internalise the label and behave accordingly.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the hidden curriculum?",
+              "options": [
+                "A) Subjects not taught in schools",
+                "B) Informal lessons in conformity, punctuality, and hierarchy serving middle-class values",
+                "C) The official exam syllabus",
+                "D) Extra-curricular activities"
+              ],
+              "correct_answer": "B",
+              "explanation": "The hidden curriculum teaches pupils to accept authority, follow rules, and conform — reinforcing middle-class norms and values.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is institutional racism?",
+              "options": [
+                "A) Individual teachers being racist",
+                "B) Pupils being deliberately excluded",
+                "C) Policies and practices that systematically disadvantage ethnic minority groups",
+                "D) Racism that is hidden within schools"
+              ],
+              "correct_answer": "C",
+              "explanation": "Institutional racism (Macpherson) refers to systems and structures that disadvantage minority groups — even without individual intent.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Willis's research (1977) show?",
+              "options": [
+                "A) Working-class boys succeed in education",
+                "B) Middle-class girls outperform all other groups",
+                "C) Working-class boys form anti-school subcultures that reinforce their own class position",
+                "D) Streaming benefits all pupils equally"
+              ],
+              "correct_answer": "C",
+              "explanation": "Willis studied working-class boys who rejected school values, forming a counter-culture ('the lads'). Ironically, this led them into the same working-class jobs as their fathers.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is material deprivation?",
+              "options": [
+                "A) Lack of cultural knowledge",
+                "B) Lack of money and resources affecting educational achievement",
+                "C) Emotional neglect at home",
+                "D) Schools lacking equipment"
+              ],
+              "correct_answer": "B",
+              "explanation": "Material deprivation affects achievement through: poor diet (affecting concentration), overcrowded housing (no study space), inability to afford resources (books, trips, uniforms).",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is labelling in education?",
+              "options": [
+                "A) Naming subjects in school",
+                "B) Teachers attaching a fixed definition to a pupil — affecting their achievement",
+                "C) Grouping pupils by ability",
+                "D) Giving pupils grades"
+              ],
+              "correct_answer": "B",
+              "explanation": "Labelling theory (Becker) shows that teacher expectations affect pupil behaviour — labelled 'bright' students get more support; labelled 'troublemakers' get less.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why do girls outperform boys in education?",
+              "options": [
+                "A) Girls are naturally more intelligent",
+                "B) Boys receive more resources",
+                "C) Changing expectations, feminist influence, and boys' 'laddish' anti-school culture",
+                "D) Girls attend better schools"
+              ],
+              "correct_answer": "C",
+              "explanation": "Girls' achievement has risen due to feminism, changing aspirations, and the service economy. Boys are held back by 'laddish' culture that sees academic effort as unmasculine.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is streaming?",
+              "options": [
+                "A) Watching educational videos",
+                "B) Grouping pupils by ability across all subjects",
+                "C) Teaching pupils in mixed-ability groups",
+                "D) Selecting pupils for grammar schools"
+              ],
+              "correct_answer": "B",
+              "explanation": "Streaming groups pupils by perceived ability for all subjects. Research shows it can become a self-fulfilling prophecy — pupils in lower streams have lower expectations.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Meritocracy means success is guaranteed by social class.",
+              "correct_answer": "False",
+              "explanation": "Meritocracy argues success should be based on ability and effort — not social class. Sociologists question whether schools actually achieve this.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Cultural capital gives middle-class pupils an educational advantage.",
+              "correct_answer": "True",
+              "explanation": "Middle-class pupils' knowledge of cultural norms, language, and attitudes matches what schools value — giving them a built-in advantage.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The hidden curriculum refers to official exam syllabuses.",
+              "correct_answer": "False",
+              "explanation": "The hidden curriculum is the unofficial lessons schools teach — conformity, punctuality, deference to authority — serving middle-class values.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Labelling can lead to a self-fulfilling prophecy.",
+              "correct_answer": "True",
+              "explanation": "A negative label can cause a pupil to internalise it and behave accordingly — confirming the original label.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Material deprivation only affects achievement through lack of textbooks.",
+              "correct_answer": "False",
+              "explanation": "Material deprivation affects achievement through poor diet, overcrowded housing, inability to afford equipment, and stress from family financial problems.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Girls consistently underperform compared to boys in GCSE results.",
+              "correct_answer": "False",
+              "explanation": "Girls consistently OUTPERFORM boys at GCSE and A-level. The gender gap in education now favours girls.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Institutional racism refers to individual teachers' prejudiced attitudes.",
+              "correct_answer": "False",
+              "explanation": "Institutional racism refers to organisational policies and practices that systematically disadvantage minority groups — regardless of individual intent.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Willis found working-class boys enthusiastically embraced school values.",
+              "correct_answer": "False",
+              "explanation": "Willis found the opposite — working-class 'lads' rejected school values and formed anti-school subcultures, ironically confirming their class position.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Streaming can reinforce existing inequalities.",
+              "correct_answer": "True",
+              "explanation": "Pupils in lower streams receive lower expectations and less challenging work — the stream can become a self-fulfilling prophecy.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Bourdieu coined the term 'cultural capital'.",
+              "correct_answer": "True",
+              "explanation": "Bourdieu used cultural capital to explain why middle-class children succeed in education — their habitus matches the school's values.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the idea that success in education is based on ability and effort — not background.",
+              "correct_answer": "Meritocracy",
+              "explanation": "Sociologists question whether education truly achieves meritocracy — class, gender, and ethnicity all affect outcomes.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ capital is Bourdieu's concept — middle-class knowledge and attitudes valued by schools.",
+              "correct_answer": "Cultural",
+              "explanation": "Cultural capital includes familiarity with language, art, and cultural references that schools reward.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ deprivation is the lack of money and resources affecting working-class pupils' achievement.",
+              "correct_answer": "Material",
+              "explanation": "Poor housing, diet, and inability to afford resources all disadvantage working-class pupils.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ prophecy occurs when a label causes behaviour that confirms the label.",
+              "correct_answer": "self-fulfilling",
+              "explanation": "If labelled as disruptive, a pupil may internalise this and act accordingly — confirming the teacher's original judgement.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ curriculum teaches conformity, punctuality, and acceptance of authority.",
+              "correct_answer": "hidden",
+              "explanation": "The hidden curriculum reinforces middle-class values and prepares pupils to accept hierarchy.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ theory shows anti-school subcultures can confirm working-class pupils' class position.",
+              "correct_answer": "Subcultural",
+              "explanation": "Willis's 'lads' rejected school but ended up in working-class jobs — reproducing their own position.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ racism is when institutional policies systematically disadvantage ethnic minorities.",
+              "correct_answer": "Institutional",
+              "explanation": "Institutional racism operates through structures and norms — not necessarily through individual prejudice.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Girls outperform boys partly due to a 'laddish' ________ culture among boys.",
+              "correct_answer": "anti-school",
+              "explanation": "'Laddish' culture makes academic effort seem unmasculine — contributing to boys' underachievement.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ groups pupils by ability across all subjects — can reinforce inequalities.",
+              "correct_answer": "Streaming",
+              "explanation": "Streaming can become self-fulfilling — lower-stream pupils receive lower expectations and less support.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ deprivation combined with cultural capital differences explain class attainment gaps.",
+              "correct_answer": "Material",
+              "explanation": "Working-class pupils face both a lack of resources and a mismatch between their cultural background and school expectations.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "meritocracy",
+                  "match": "success based on ability and effort — not background"
+                },
+                {
+                  "term": "cultural capital",
+                  "match": "middle-class knowledge giving educational advantage"
+                },
+                {
+                  "term": "labelling",
+                  "match": "fixed definition attached to pupil — can become self-fulfilling"
+                },
+                {
+                  "term": "hidden curriculum",
+                  "match": "informal lessons in conformity serving middle-class values"
+                },
+                {
+                  "term": "self-fulfilling prophecy",
+                  "match": "label causes behaviour that confirms it"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crime & Deviance",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Theories of Crime",
+          "cards": [
+            {
+              "keyword": "crime",
+              "definition": "an act that breaks the law of the land — subject to formal punishment",
+              "display_order": 1
+            },
+            {
+              "keyword": "deviance",
+              "definition": "behaviour that breaks social norms — does not have to be criminal (e.g. bad manners)",
+              "display_order": 2
+            },
+            {
+              "keyword": "functionalism (crime)",
+              "definition": "Durkheim — crime is inevitable and serves functions: boundary maintenance, social solidarity, and enabling change",
+              "display_order": 3
+            },
+            {
+              "keyword": "strain theory",
+              "definition": "Merton — crime results from a gap between culturally valued goals (wealth) and the legitimate means to achieve them",
+              "display_order": 4
+            },
+            {
+              "keyword": "subcultural theory (crime)",
+              "definition": "Cohen — working-class boys who fail educationally form delinquent subcultures as an alternative status system",
+              "display_order": 5
+            },
+            {
+              "keyword": "Marxist criminology",
+              "definition": "crime is defined by the powerful to protect their interests — white-collar crime is under-prosecuted",
+              "display_order": 6
+            },
+            {
+              "keyword": "labelling theory (crime)",
+              "definition": "Becker — defining someone as criminal leads to a deviant career — the label becomes a master status",
+              "display_order": 7
+            },
+            {
+              "keyword": "social control",
+              "definition": "mechanisms that keep people conforming to social norms — formal (police, courts) or informal (peer pressure)",
+              "display_order": 8
+            },
+            {
+              "keyword": "white-collar crime",
+              "definition": "crime committed by high-status individuals in the course of their work — e.g. fraud, embezzlement",
+              "display_order": 9
+            },
+            {
+              "keyword": "moral panic",
+              "definition": "Cohen — media exaggeration of a social problem creates disproportionate public fear and a folk devil",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between crime and deviance?",
+              "options": [
+                "A) They are the same thing",
+                "B) Crime breaks social norms; deviance breaks the law",
+                "C) Deviance breaks social norms but may not be illegal; crime breaks the law",
+                "D) Deviance is always more serious than crime"
+              ],
+              "correct_answer": "C",
+              "explanation": "Crime is illegal behaviour. Deviance breaks social norms but may be legal — e.g. extreme body modification or nudism in certain contexts.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Durkheim say about crime?",
+              "options": [
+                "A) Crime must be eliminated",
+                "B) Crime is inevitable and serves positive functions for society",
+                "C) Crime is caused by inequality",
+                "D) Crime is a product of labelling"
+              ],
+              "correct_answer": "B",
+              "explanation": "Durkheim argued crime is universal — every society has it. It serves functions: boundary maintenance (clarifying norms), social solidarity (uniting against deviance), and enabling social change.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Merton's strain theory?",
+              "options": [
+                "A) Crime results from lack of intelligence",
+                "B) Crime results from a gap between culturally valued goals and the legitimate means to achieve them",
+                "C) Crime is caused by weak social bonds",
+                "D) Crime is learnt from criminal peers"
+              ],
+              "correct_answer": "B",
+              "explanation": "Merton argued American culture promotes wealth as a goal for all, but legitimate means (education, jobs) are unequally distributed — some people turn to crime when they cannot succeed legitimately.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a moral panic?",
+              "options": [
+                "A) A genuine public health emergency",
+                "B) Media exaggeration creating disproportionate fear about a social problem and a 'folk devil'",
+                "C) A government crime prevention campaign",
+                "D) Public concern about rising crime statistics"
+              ],
+              "correct_answer": "B",
+              "explanation": "Cohen's moral panic: media sensationalises a threat → police crackdown → creates more deviants → confirms original fear. Mods and Rockers were his original 'folk devils'.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does labelling theory say about crime?",
+              "options": [
+                "A) Criminals are born, not made",
+                "B) Defining someone as criminal creates a deviant career — the label becomes their identity",
+                "C) Crime is caused by poverty",
+                "D) Criminals choose crime rationally"
+              ],
+              "correct_answer": "B",
+              "explanation": "Becker argued the label 'criminal' becomes a master status — affecting how others see you and how you see yourself — leading to a deviant career.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is white-collar crime?",
+              "options": [
+                "A) Crime committed by teenagers",
+                "B) Violent crime in city centres",
+                "C) Crime by high-status individuals in the course of their work",
+                "D) Property crime in wealthy areas"
+              ],
+              "correct_answer": "C",
+              "explanation": "White-collar crime (Sutherland) includes fraud, embezzlement, and corporate crime. Marxists argue it is under-prosecuted because the powerful define and enforce the law.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Marxist criminology argue?",
+              "options": [
+                "A) Crime is caused by socialisation failures",
+                "B) Crime serves positive social functions",
+                "C) The law is defined by the powerful to protect their interests",
+                "D) Crime is inevitable in all societies"
+              ],
+              "correct_answer": "C",
+              "explanation": "Marxists argue the law protects ruling-class interests — working-class crimes (theft) are heavily prosecuted while white-collar and corporate crimes are largely ignored.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Cohen's subcultural theory?",
+              "options": [
+                "A) Middle-class youths create delinquent subcultures",
+                "B) Working-class boys who fail form delinquent subcultures as an alternative status system",
+                "C) Crime is caused by weak family bonds",
+                "D) Subcultures always lead to serious crime"
+              ],
+              "correct_answer": "B",
+              "explanation": "Cohen argued working-class boys who fail in school cannot achieve status legitimately — so they create alternative subcultures where delinquency provides status.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is social control?",
+              "options": [
+                "A) The government's control of the economy",
+                "B) Mechanisms keeping people conforming — formal (law) and informal (peer pressure)",
+                "C) Control of the media by the state",
+                "D) Control of deviant behaviour through punishment only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Social control includes formal mechanisms (police, courts, prisons) and informal ones (family disapproval, peer pressure, religious teachings) that keep behaviour within norms.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a 'master status' in labelling theory?",
+              "options": [
+                "A) A high-status individual in society",
+                "B) A label that overrides all other aspects of identity",
+                "C) A teacher's assessment of a pupil",
+                "D) A status achieved through hard work"
+              ],
+              "correct_answer": "B",
+              "explanation": "A master status (Becker) dominates all other characteristics — once labelled 'criminal', that label defines how others see you, overriding all other aspects of your identity.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "All deviance is criminal.",
+              "correct_answer": "False",
+              "explanation": "Deviance breaks social norms but is not necessarily illegal. Crime is specifically the breaking of laws. E.g. bad manners are deviant but not criminal.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Durkheim argued crime is dysfunctional and should be eliminated.",
+              "correct_answer": "False",
+              "explanation": "Durkheim argued crime is INEVITABLE and FUNCTIONAL — it clarifies norms, promotes solidarity, and can enable social change.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Merton's strain theory argues crime results from poverty alone.",
+              "correct_answer": "False",
+              "explanation": "Merton argued crime results from a gap between culturally valued GOALS (wealth) and the MEANS to achieve them — not poverty alone.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "White-collar crime receives more police attention than street crime.",
+              "correct_answer": "False",
+              "explanation": "White-collar crime is typically under-prosecuted — Marxists argue this is because the powerful define and enforce the law in their own interests.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Labelling can lead to a deviant career.",
+              "correct_answer": "True",
+              "explanation": "Once labelled criminal, individuals may internalise the label — it becomes a master status affecting their self-concept and interactions.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "A moral panic involves proportionate media coverage of a real threat.",
+              "correct_answer": "False",
+              "explanation": "A moral panic involves DISPROPORTIONATE media coverage — exaggerating a threat, creating a 'folk devil', and amplifying the problem.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Cohen's subcultural theory focuses on working-class boys who fail in education.",
+              "correct_answer": "True",
+              "explanation": "Cohen argued working-class boys who cannot achieve status through education form delinquent subcultures as an alternative status system.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Social control includes both formal and informal mechanisms.",
+              "correct_answer": "True",
+              "explanation": "Formal control: police, courts, prisons. Informal control: family, peers, media, religion.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Marxists argue the law protects the interests of the ruling class.",
+              "correct_answer": "True",
+              "explanation": "Laws against property crime protect ruling-class wealth; corporate crime (harming workers) is often less severely prosecuted.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "A 'folk devil' is created when media sensationalises a social group as a threat.",
+              "correct_answer": "True",
+              "explanation": "Cohen showed how Mods and Rockers were turned into 'folk devils' by sensationalist media coverage.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ breaks social norms but may not be illegal; crime specifically breaks the law.",
+              "correct_answer": "Deviance",
+              "explanation": "Deviance and crime overlap but are not identical — something can be deviant without being criminal.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Durkheim argued crime is ________ — it serves boundary maintenance and social solidarity.",
+              "correct_answer": "functional",
+              "explanation": "Crime clarifies norms when it is punished — and can enable social change by challenging existing laws.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Merton's ________ theory argues crime results from a gap between goals and means.",
+              "correct_answer": "strain",
+              "explanation": "When legitimate means to success are blocked, some people adapt through crime.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ theory argues defining someone as criminal creates a deviant career.",
+              "correct_answer": "Labelling",
+              "explanation": "The label becomes a master status — shaping self-concept and others' responses.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ panic is media exaggeration of a threat — creating a 'folk devil'.",
+              "correct_answer": "moral",
+              "explanation": "Stanley Cohen developed moral panic theory through his study of Mods and Rockers.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ crime is committed by high-status individuals in the course of their work.",
+              "correct_answer": "White-collar",
+              "explanation": "Fraud, embezzlement, and corporate crime are examples of white-collar crime.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ argue the law is defined by the powerful to protect their interests.",
+              "correct_answer": "Marxists",
+              "explanation": "Corporate crime harms many people but is under-prosecuted compared to working-class crime.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Cohen's ________ theory: working-class boys form delinquent subcultures after educational failure.",
+              "correct_answer": "subcultural",
+              "explanation": "Status frustration drives working-class boys to form alternative peer groups that reward delinquency.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ control includes both the police and courts (formal) and family and peers (informal).",
+              "correct_answer": "Social",
+              "explanation": "Social control mechanisms keep most people conforming to norms most of the time.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ status is a label that overrides all other aspects of identity.",
+              "correct_answer": "master",
+              "explanation": "Once labelled 'criminal', this label dominates how others perceive the individual.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "crime",
+                  "match": "breaks the law — subject to formal punishment"
+                },
+                {
+                  "term": "deviance",
+                  "match": "breaks social norms — may not be criminal"
+                },
+                {
+                  "term": "functionalism (crime)",
+                  "match": "crime is inevitable and functional for society"
+                },
+                {
+                  "term": "moral panic",
+                  "match": "media exaggeration creates folk devil and disproportionate fear"
+                },
+                {
+                  "term": "labelling theory",
+                  "match": "criminal label becomes master status — creates deviant career"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Beliefs in Society",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Religion & Society",
+          "cards": [
+            {
+              "keyword": "religion",
+              "definition": "a set of beliefs and practices relating to the sacred or supernatural — performs social functions",
+              "display_order": 1
+            },
+            {
+              "keyword": "functionalism (religion)",
+              "definition": "Durkheim — religion promotes social solidarity and collective identity; the sacred is society worshipping itself",
+              "display_order": 2
+            },
+            {
+              "keyword": "Marxism (religion)",
+              "definition": "religion is the 'opium of the masses' — it legitimises inequality and prevents revolution",
+              "display_order": 3
+            },
+            {
+              "keyword": "feminism (religion)",
+              "definition": "religion is patriarchal — it oppresses women through sacred texts, leadership, and norms",
+              "display_order": 4
+            },
+            {
+              "keyword": "secularisation thesis",
+              "definition": "the claim that religion is declining in modern societies — challenged by the persistence of faith globally",
+              "display_order": 5
+            },
+            {
+              "keyword": "new age movements",
+              "definition": "spiritual beliefs and practices outside mainstream religion — individualised, consumer-driven spirituality",
+              "display_order": 6
+            },
+            {
+              "keyword": "fundamentalism",
+              "definition": "a return to strict, literal interpretation of religious texts — often a reaction to modernity and globalisation",
+              "display_order": 7
+            },
+            {
+              "keyword": "religious pluralism",
+              "definition": "the existence of many different religions in a society — associated with modernity and tolerance",
+              "display_order": 8
+            },
+            {
+              "keyword": "ethnicity and religion",
+              "definition": "minority ethnic groups often show higher levels of religious participation — religion as community and cultural identity",
+              "display_order": 9
+            },
+            {
+              "keyword": "social change",
+              "definition": "religion can promote social change — Martin Luther King used Christianity to advance civil rights",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does Durkheim argue about religion?",
+              "options": [
+                "A) Religion is the opium of the masses",
+                "B) Religion is patriarchal",
+                "C) Religion promotes social solidarity — the sacred is society worshipping itself",
+                "D) Religion is declining in modern societies"
+              ],
+              "correct_answer": "C",
+              "explanation": "Durkheim studied Australian Aboriginal totemism — arguing that religion binds communities together and the sacred represents the collective power of society.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Marx say about religion?",
+              "options": [
+                "A) Religion helps the working class",
+                "B) Religion is the opium of the masses — it legitimises inequality and prevents revolution",
+                "C) Religion promotes social change",
+                "D) Religion is declining in modern societies"
+              ],
+              "correct_answer": "B",
+              "explanation": "Marx: religion comforts the oppressed ('opium') and tells them their suffering is God's will or will be rewarded in heaven — preventing them from rebelling against capitalism.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the secularisation thesis?",
+              "options": [
+                "A) Religion is growing globally",
+                "B) Religion is becoming more diverse",
+                "C) Religion is declining in influence in modern societies",
+                "D) Religion has always been in decline"
+              ],
+              "correct_answer": "C",
+              "explanation": "The secularisation thesis argues modernisation, science, and individualisation have undermined religion's influence. Evidence: falling church attendance, fewer religious marriages.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is fundamentalism?",
+              "options": [
+                "A) A return to moderate religious practice",
+                "B) Rejecting all religion",
+                "C) Strict, literal interpretation of religious texts — often a reaction to modernity",
+                "D) New Age spirituality"
+              ],
+              "correct_answer": "C",
+              "explanation": "Religious fundamentalism (Giddens) is a response to the uncertainty of modernity — returning to absolute truths and strict rules.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does feminist sociology say about religion?",
+              "options": [
+                "A) Religion benefits women",
+                "B) Religion is declining",
+                "C) Religion is patriarchal — it oppresses women through texts, leadership, and norms",
+                "D) Religion has no gender dimension"
+              ],
+              "correct_answer": "C",
+              "explanation": "Feminist sociologists argue most world religions are patriarchal: sacred texts are male-authored, leadership is male-dominated, and norms restrict women's freedom.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the significance of ethnicity and religion?",
+              "options": [
+                "A) Ethnic minorities have lower religious participation",
+                "B) Minority ethnic groups often have higher religious participation — religion provides community and identity",
+                "C) Religion has no relationship with ethnicity",
+                "D) Only White British people are religious"
+              ],
+              "correct_answer": "B",
+              "explanation": "For minority ethnic groups, religion can be a source of cultural identity and community — especially in societies where they face discrimination.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Can religion promote social change?",
+              "options": [
+                "A) No — religion always supports the status quo",
+                "B) Only in non-Western societies",
+                "C) Yes — e.g. the Civil Rights Movement used Christianity to argue for equality",
+                "D) Only through fundamentalist movements"
+              ],
+              "correct_answer": "C",
+              "explanation": "Religion can inspire change — Martin Luther King used Christian moral arguments to advance civil rights. Liberation theology in Latin America also used religion to challenge oppression.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are New Age movements?",
+              "options": [
+                "A) A type of fundamentalism",
+                "B) Mainstream religious denominations",
+                "C) Individualised, consumer-driven spiritual beliefs outside mainstream religion",
+                "D) Government religious policies"
+              ],
+              "correct_answer": "C",
+              "explanation": "New Age movements (yoga, crystals, astrology) reflect individualised spirituality — people pick and choose beliefs rather than following one religion.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is religious pluralism?",
+              "options": [
+                "A) The decline of all religion",
+                "B) One dominant religion in a society",
+                "C) The existence of many different religions in a society",
+                "D) Religious fundamentalism"
+              ],
+              "correct_answer": "C",
+              "explanation": "Religious pluralism describes multi-faith societies — associated with tolerance and modernity, though some argue pluralism undermines religion's authority.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Stark and Bainbridge's religious market theory?",
+              "options": [
+                "A) Religion is declining",
+                "B) Religion is patriarchal",
+                "C) Religious participation is driven by demand — people choose religions like goods in a market",
+                "D) Religion promotes inequality"
+              ],
+              "correct_answer": "C",
+              "explanation": "Stark and Bainbridge argue that where religious diversity exists (a free 'market'), people have more choice and participation is higher — challenging the secularisation thesis.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Durkheim argued religion promotes social solidarity and collective identity.",
+              "correct_answer": "True",
+              "explanation": "Durkheim studied totemism and argued religion binds communities — the sacred represents the collective power of society.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Marx saw religion as a force for positive social change.",
+              "correct_answer": "False",
+              "explanation": "Marx saw religion as the 'opium of the masses' — it dulled the pain of exploitation and prevented revolution.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The secularisation thesis argues religion is growing in all modern societies.",
+              "correct_answer": "False",
+              "explanation": "The secularisation thesis argues religion is DECLINING in influence — though this is contested, especially given global religious growth.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Feminists argue all religions are equally oppressive to women.",
+              "correct_answer": "False",
+              "explanation": "Feminists argue most mainstream religions are patriarchal, but the degree varies. Some argue women can find empowerment within religion.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Minority ethnic groups generally show higher levels of religious participation.",
+              "correct_answer": "True",
+              "explanation": "Research consistently shows higher religious participation among minority ethnic groups — religion serves as community identity and cultural preservation.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Fundamentalism is a relaxed, modern approach to religion.",
+              "correct_answer": "False",
+              "explanation": "Fundamentalism is the strict, literal interpretation of religious texts — often a defensive reaction to perceived threats from modernity.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Religion can only act as a conservative force — never promoting change.",
+              "correct_answer": "False",
+              "explanation": "Religion has both conservative and radical potential. The Civil Rights Movement and liberation theology both used religion to challenge injustice.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "New Age movements represent highly organised, communal religious practice.",
+              "correct_answer": "False",
+              "explanation": "New Age movements are highly individualised — people pick and choose spiritual beliefs rather than joining organised religions.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Religious pluralism describes a society with only one dominant religion.",
+              "correct_answer": "False",
+              "explanation": "Religious pluralism describes a society with many different religions coexisting.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Weber argued Protestantism contributed to the development of capitalism.",
+              "correct_answer": "True",
+              "explanation": "Weber's 'Protestant Ethic' argued Calvinist values (hard work, thrift, calling) created conditions favourable to capitalist development.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Durkheim argued religion promotes social ________ — the sacred is society worshipping itself.",
+              "correct_answer": "solidarity",
+              "explanation": "Religion binds communities together through shared beliefs, rituals, and a sense of the sacred.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Marx called religion the 'opium of the ________' — it prevents revolution by legitimising inequality.",
+              "correct_answer": "masses",
+              "explanation": "Religion comforts the oppressed and tells them suffering is God's will — discouraging resistance.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ thesis argues religion is declining in influence in modern societies.",
+              "correct_answer": "secularisation",
+              "explanation": "Evidence includes falling church attendance, fewer religious marriages, and declining religious belief.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the strict, literal interpretation of religious texts — a reaction to modernity.",
+              "correct_answer": "Fundamentalism",
+              "explanation": "Fundamentalist movements often reject modern values and scientific explanation.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Feminist sociologists argue most religions are ________ — they oppress women.",
+              "correct_answer": "patriarchal",
+              "explanation": "Sacred texts, male leadership, and restrictive norms all reflect and reinforce patriarchy.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "For minority ethnic groups, religion often provides ________ identity and community.",
+              "correct_answer": "cultural",
+              "explanation": "Religion helps maintain cultural heritage and provides community support in societies where minorities may face discrimination.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Martin Luther ________ used Christian moral arguments to advance civil rights — showing religion can promote change.",
+              "correct_answer": "King",
+              "explanation": "This challenges the view that religion is always a conservative force.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ Age movements offer individualised, consumer-driven spirituality outside mainstream religion.",
+              "correct_answer": "New",
+              "explanation": "People mix beliefs from different traditions rather than following one organised religion.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Religious ________ describes a multi-faith society with many different religions coexisting.",
+              "correct_answer": "pluralism",
+              "explanation": "Pluralism is associated with tolerance and modernity — though some argue it undermines religious authority.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Weber argued ________ work ethic contributed to the development of capitalism.",
+              "correct_answer": "Protestant",
+              "explanation": "Calvinist values of hard work, frugality, and a 'calling' created conditions for capitalist accumulation.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "functionalism (religion)",
+                  "match": "promotes social solidarity — sacred is society worshipping itself"
+                },
+                {
+                  "term": "Marxism (religion)",
+                  "match": "opium of the masses — legitimises inequality"
+                },
+                {
+                  "term": "feminism (religion)",
+                  "match": "religion is patriarchal — oppresses women"
+                },
+                {
+                  "term": "secularisation thesis",
+                  "match": "religion declining in modern societies"
+                },
+                {
+                  "term": "fundamentalism",
+                  "match": "strict literal interpretation — reaction to modernity"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

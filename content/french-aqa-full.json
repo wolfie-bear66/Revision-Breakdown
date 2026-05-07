@@ -1,0 +1,1459 @@
+{
+  "subject": {
+    "name": "French",
+    "slug": "french",
+    "colour": "#b91c1c",
+    "exam_board": "AQA",
+    "emoji": "🇫🇷"
+  },
+  "topics": [
+    {
+      "name": "Identity & Culture",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Family, Relationships & Daily Life",
+          "cards": [
+            {
+              "keyword": "la famille",
+              "definition": "family — les parents (parents), les frères et sœurs (siblings), les grands-parents (grandparents)",
+              "display_order": 1
+            },
+            {
+              "keyword": "le mariage",
+              "definition": "marriage — se marier (to get married), le/la marié(e) (bride/groom)",
+              "display_order": 2
+            },
+            {
+              "keyword": "le divorce",
+              "definition": "divorce — divorcer (to get divorced), séparé(e) (separated)",
+              "display_order": 3
+            },
+            {
+              "keyword": "l'amitié",
+              "definition": "friendship — un/une ami(e) (a friend), être ami avec (to be friends with)",
+              "display_order": 4
+            },
+            {
+              "keyword": "les relations",
+              "definition": "relationships — sortir avec (to go out with), s'entendre bien avec (to get on well with)",
+              "display_order": 5
+            },
+            {
+              "keyword": "les corvées",
+              "definition": "chores — faire la vaisselle (do the dishes), passer l'aspirateur (vacuum), faire son lit (make your bed)",
+              "display_order": 6
+            },
+            {
+              "keyword": "le petit-déjeuner",
+              "definition": "breakfast — usually light in France: bread, croissants, café or orange juice",
+              "display_order": 7
+            },
+            {
+              "keyword": "le déjeuner",
+              "definition": "lunch — traditionally the main meal in France, often two to three courses",
+              "display_order": 8
+            },
+            {
+              "keyword": "le dîner",
+              "definition": "dinner — evening meal, family eat together, often with bread and cheese",
+              "display_order": 9
+            },
+            {
+              "keyword": "les habitudes",
+              "definition": "habits/routines — se lever (get up), se coucher (go to bed), prendre une douche (have a shower)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does 'les parents' mean?",
+              "options": [
+                "A) Parents",
+                "B) Grandparents",
+                "C) Relatives",
+                "D) Neighbours"
+              ],
+              "correct_answer": "A",
+              "explanation": "Les parents = parents. Les grands-parents = grandparents. Les proches or la famille = relatives.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'se marier' mean?",
+              "options": [
+                "A) To have children",
+                "B) To get divorced",
+                "C) To get married",
+                "D) To get engaged"
+              ],
+              "correct_answer": "C",
+              "explanation": "Se marier = to get married. Je me marie = I am getting married. Ils se sont mariés = They got married.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 's'entendre bien avec' mean?",
+              "options": [
+                "A) To argue with",
+                "B) To get on well with",
+                "C) To live with",
+                "D) To miss"
+              ],
+              "correct_answer": "B",
+              "explanation": "S'entendre bien avec = to get on well with. Je m'entends bien avec ma sœur = I get on well with my sister.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'faire la vaisselle' mean?",
+              "options": [
+                "A) To make the bed",
+                "B) To cook dinner",
+                "C) To tidy the bedroom",
+                "D) To do the dishes"
+              ],
+              "correct_answer": "D",
+              "explanation": "Faire la vaisselle = to do the dishes. Other chores: faire son lit (make bed), passer l'aspirateur (vacuum).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'le déjeuner'?",
+              "options": [
+                "A) Breakfast",
+                "B) Dinner",
+                "C) Lunch",
+                "D) A snack"
+              ],
+              "correct_answer": "C",
+              "explanation": "Le déjeuner = lunch. Le petit-déjeuner = breakfast. Le dîner = dinner/evening meal.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'se coucher' mean?",
+              "options": [
+                "A) To get up",
+                "B) To get dressed",
+                "C) To go to bed",
+                "D) To have a shower"
+              ],
+              "correct_answer": "C",
+              "explanation": "Se coucher = to go to bed. Se lever = to get up. Both are reflexive verbs.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'l'amitié'?",
+              "options": [
+                "A) Love",
+                "B) Friendship",
+                "C) Family",
+                "D) Relationship"
+              ],
+              "correct_answer": "B",
+              "explanation": "L'amitié = friendship. Un(e) ami(e) = a friend. Mon/ma meilleur(e) ami(e) = my best friend.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'sortir avec' mean?",
+              "options": [
+                "A) To go out of",
+                "B) To go out with (in a relationship)",
+                "C) To leave school",
+                "D) To exit a building"
+              ],
+              "correct_answer": "B",
+              "explanation": "Sortir avec = to go out with / to date. Je sors avec quelqu'un = I am going out with someone.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'le dîner'?",
+              "options": [
+                "A) Lunch",
+                "B) Breakfast",
+                "C) Dinner/evening meal",
+                "D) Dessert"
+              ],
+              "correct_answer": "C",
+              "explanation": "Le dîner = dinner. In France, the family typically eats together in the evening with bread and cheese.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'prendre une douche' mean?",
+              "options": [
+                "A) To have a bath",
+                "B) To get dressed",
+                "C) To brush teeth",
+                "D) To have a shower"
+              ],
+              "correct_answer": "D",
+              "explanation": "Prendre une douche = to have a shower. Prendre un bain = to have a bath.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Les parents means grandparents in French.",
+              "correct_answer": "False",
+              "explanation": "Les parents = parents. Les grands-parents = grandparents.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Se marier means to get divorced.",
+              "correct_answer": "False",
+              "explanation": "Se marier = to get married. Divorcer = to get divorced.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "S'entendre bien avec means to get on well with.",
+              "correct_answer": "True",
+              "explanation": "Je m'entends bien avec mon frère = I get on well with my brother.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Le déjeuner is the evening meal.",
+              "correct_answer": "False",
+              "explanation": "Le déjeuner = lunch. Le dîner = dinner (evening meal).",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Faire la vaisselle means to do the dishes.",
+              "correct_answer": "True",
+              "explanation": "Faire la vaisselle is one of the most common chores — don't confuse with faire la cuisine (to cook).",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Se coucher means to get up in the morning.",
+              "correct_answer": "False",
+              "explanation": "Se coucher = to go to bed. Se lever = to get up.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "L'amitié means friendship.",
+              "correct_answer": "True",
+              "explanation": "L'amitié = friendship. Un(e) ami(e) = a friend.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Sortir avec means to go shopping.",
+              "correct_answer": "False",
+              "explanation": "Sortir avec = to go out with (in a relationship). Faire des courses = to go shopping.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Le petit-déjeuner is the main meal in France.",
+              "correct_answer": "False",
+              "explanation": "Le déjeuner (lunch) is traditionally the main meal. Le petit-déjeuner = breakfast.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Prendre une douche means to have a shower.",
+              "correct_answer": "True",
+              "explanation": "Prendre une douche = to have a shower. Prendre un bain = to have a bath.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "La ________ = family.",
+              "correct_answer": "famille",
+              "explanation": "La famille includes les parents, les frères et sœurs, and les grands-parents.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Se ________ = to get married.",
+              "correct_answer": "marier",
+              "explanation": "Je veux me marier un jour = I want to get married one day.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "S'entendre ________ avec = to get on well with.",
+              "correct_answer": "bien",
+              "explanation": "Je m'entends bien avec mes parents = I get on well with my parents.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Faire la ________ = to do the dishes.",
+              "correct_answer": "vaisselle",
+              "explanation": "Les corvées = chores. Faire la vaisselle is a common household chore.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Le ________ = lunch.",
+              "correct_answer": "déjeuner",
+              "explanation": "In France, lunch is traditionally an important, often two-course meal.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Se ________ = to go to bed.",
+              "correct_answer": "coucher",
+              "explanation": "Je me couche à dix heures = I go to bed at ten o'clock.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "L'________ = friendship.",
+              "correct_answer": "amitié",
+              "explanation": "L'amitié est très importante pour moi = Friendship is very important to me.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ avec = to go out with (in a relationship).",
+              "correct_answer": "Sortir",
+              "explanation": "Elle sort avec un garçon de sa classe = She is going out with a boy from her class.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Le ________ = dinner/evening meal.",
+              "correct_answer": "dîner",
+              "explanation": "On dîne ensemble chaque soir = We have dinner together every evening.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Prendre une ________ = to have a shower.",
+              "correct_answer": "douche",
+              "explanation": "Je prends une douche chaque matin = I have a shower every morning.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "la famille",
+                  "match": "family — parents, siblings, grandparents"
+                },
+                {
+                  "term": "se marier",
+                  "match": "to get married"
+                },
+                {
+                  "term": "s'entendre bien avec",
+                  "match": "to get on well with"
+                },
+                {
+                  "term": "faire la vaisselle",
+                  "match": "to do the dishes"
+                },
+                {
+                  "term": "se coucher",
+                  "match": "to go to bed"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Local Area, Holiday & Travel",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Travel, Transport & Holiday",
+          "cards": [
+            {
+              "keyword": "les vacances",
+              "definition": "holidays — partir en vacances (to go on holiday), passer du temps (to spend time)",
+              "display_order": 1
+            },
+            {
+              "keyword": "l'hôtel",
+              "definition": "hotel — réserver une chambre (to book a room), la chambre (room), l'ascenseur (lift)",
+              "display_order": 2
+            },
+            {
+              "keyword": "la plage",
+              "definition": "beach — se baigner (to swim), faire du surf (to surf), prendre un bain de soleil (to sunbathe)",
+              "display_order": 3
+            },
+            {
+              "keyword": "les transports",
+              "definition": "transport — le train (train), l'avion (plane), la voiture (car), le vélo (bike)",
+              "display_order": 4
+            },
+            {
+              "keyword": "la gare",
+              "definition": "train station — le quai (platform), l'horaire (timetable), le billet (ticket)",
+              "display_order": 5
+            },
+            {
+              "keyword": "l'aéroport",
+              "definition": "airport — l'enregistrement (check-in), le vol (flight), la porte (gate)",
+              "display_order": 6
+            },
+            {
+              "keyword": "faire du tourisme",
+              "definition": "to go sightseeing — visiter (to visit), un monument (monument), une cathédrale (cathedral)",
+              "display_order": 7
+            },
+            {
+              "keyword": "le camping",
+              "definition": "camping — une tente (tent), un sac de couchage (sleeping bag)",
+              "display_order": 8
+            },
+            {
+              "keyword": "les activités",
+              "definition": "activities — faire de la randonnée (hiking), faire du vélo (cycling), faire de la voile (sailing)",
+              "display_order": 9
+            },
+            {
+              "keyword": "la météo",
+              "definition": "the weather — il fait beau (it's nice), il pleut (it's raining), il neige (it's snowing), il fait chaud (it's hot)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does 'partir en vacances' mean?",
+              "options": [
+                "A) To come back from holiday",
+                "B) To go on holiday",
+                "C) To book a holiday",
+                "D) To enjoy the holidays"
+              ],
+              "correct_answer": "B",
+              "explanation": "Partir en vacances = to go on holiday. Je pars en vacances demain = I am going on holiday tomorrow.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'la gare'?",
+              "options": [
+                "A) The airport",
+                "B) The bus stop",
+                "C) The train station",
+                "D) The car park"
+              ],
+              "correct_answer": "C",
+              "explanation": "La gare = train station. L'aéroport = airport. La gare routière = bus station.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'il fait beau' mean?",
+              "options": [
+                "A) It is cold",
+                "B) It is raining",
+                "C) It is nice/sunny",
+                "D) It is windy"
+              ],
+              "correct_answer": "C",
+              "explanation": "Il fait beau = it's nice / the weather is good. Il fait mauvais = it's bad weather.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'faire de la randonnée' mean?",
+              "options": [
+                "A) To go cycling",
+                "B) To go swimming",
+                "C) To go hiking",
+                "D) To go sailing"
+              ],
+              "correct_answer": "C",
+              "explanation": "Faire de la randonnée = to go hiking. Faire du vélo = cycling. Faire de la voile = sailing.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'l'enregistrement' at an airport?",
+              "options": [
+                "A) The gate",
+                "B) Check-in",
+                "C) Baggage reclaim",
+                "D) Passport control"
+              ],
+              "correct_answer": "B",
+              "explanation": "L'enregistrement = check-in. La porte = gate. Le vol = flight.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'réserver une chambre' mean?",
+              "options": [
+                "A) To check out of a hotel",
+                "B) To book a room",
+                "C) To describe a room",
+                "D) To clean a room"
+              ],
+              "correct_answer": "B",
+              "explanation": "Réserver une chambre = to book a room. Je voudrais réserver une chambre pour deux personnes = I would like to book a room for two people.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'se baigner' mean?",
+              "options": [
+                "A) To sunbathe",
+                "B) To swim/bathe",
+                "C) To surf",
+                "D) To build sandcastles"
+              ],
+              "correct_answer": "B",
+              "explanation": "Se baigner = to swim / to bathe. On the beach: se baigner (swim), prendre un bain de soleil (sunbathe).",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'le camping'?",
+              "options": [
+                "A) A type of hotel",
+                "B) A youth hostel",
+                "C) Camping",
+                "D) A holiday cottage"
+              ],
+              "correct_answer": "C",
+              "explanation": "Le camping = camping. Une tente = a tent. Un sac de couchage = a sleeping bag.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'il neige' mean?",
+              "options": [
+                "A) It is sunny",
+                "B) It is raining",
+                "C) It is windy",
+                "D) It is snowing"
+              ],
+              "correct_answer": "D",
+              "explanation": "Il neige = it is snowing. Il pleut = it is raining. Il gèle = it is freezing.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'faire du tourisme' mean?",
+              "options": [
+                "A) To go on a tour bus",
+                "B) To go sightseeing",
+                "C) To work in tourism",
+                "D) To buy souvenirs"
+              ],
+              "correct_answer": "B",
+              "explanation": "Faire du tourisme = to go sightseeing. Visiter = to visit. Un monument = a monument/sight.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Partir en vacances means to return from holiday.",
+              "correct_answer": "False",
+              "explanation": "Partir en vacances = to go on holiday. Rentrer = to return/come back.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "La gare is a train station.",
+              "correct_answer": "True",
+              "explanation": "La gare = train station. Le quai = platform. L'horaire = timetable. Le billet = ticket.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Il fait chaud means it is cold.",
+              "correct_answer": "False",
+              "explanation": "Il fait chaud = it is hot. Il fait froid = it is cold.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Faire de la randonnée means to go hiking.",
+              "correct_answer": "True",
+              "explanation": "Faire de la randonnée = to go hiking. C'est une activité populaire en montagne = It's a popular mountain activity.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "L'aéroport means the train station.",
+              "correct_answer": "False",
+              "explanation": "L'aéroport = airport. La gare = train station.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Se baigner means to sunbathe.",
+              "correct_answer": "False",
+              "explanation": "Se baigner = to swim/bathe. Prendre un bain de soleil = to sunbathe.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Il pleut means it is raining.",
+              "correct_answer": "True",
+              "explanation": "Il pleut = it is raining. Il pleuvait = it was raining (imperfect).",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Réserver une chambre means to book a room.",
+              "correct_answer": "True",
+              "explanation": "Réserver = to book/reserve. Je voudrais réserver une chambre = I would like to book a room.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Le camping involves staying in a tent.",
+              "correct_answer": "True",
+              "explanation": "Le camping = camping. Une tente = tent. Un sac de couchage = sleeping bag.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Faire du tourisme means to work in a tourist office.",
+              "correct_answer": "False",
+              "explanation": "Faire du tourisme = to go sightseeing/be a tourist.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Partir en ________ = to go on holiday.",
+              "correct_answer": "vacances",
+              "explanation": "Je pars en vacances en été = I go on holiday in summer.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "La ________ = train station.",
+              "correct_answer": "gare",
+              "explanation": "Je vais à la gare pour prendre le train = I go to the station to catch the train.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Il fait ________ = the weather is nice.",
+              "correct_answer": "beau",
+              "explanation": "Il fait beau aujourd'hui = The weather is nice today.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Faire de la ________ = to go hiking.",
+              "correct_answer": "randonnée",
+              "explanation": "J'aime faire de la randonnée en montagne = I love hiking in the mountains.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "L'________ = airport.",
+              "correct_answer": "aéroport",
+              "explanation": "On va à l'aéroport en taxi = We go to the airport by taxi.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Réserver une ________ = to book a room.",
+              "correct_answer": "chambre",
+              "explanation": "Je voudrais réserver une chambre pour deux nuits = I would like to book a room for two nights.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Se ________ = to swim/bathe.",
+              "correct_answer": "baigner",
+              "explanation": "On peut se baigner à la plage = You can swim at the beach.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Il ________ = it is snowing.",
+              "correct_answer": "neige",
+              "explanation": "Il neige en hiver dans les Alpes = It snows in winter in the Alps.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Faire du ________ = to go sightseeing.",
+              "correct_answer": "tourisme",
+              "explanation": "J'aime faire du tourisme quand je suis en vacances = I like sightseeing when I'm on holiday.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "La ________ = the weather.",
+              "correct_answer": "météo",
+              "explanation": "La météo dit qu'il va pleuvoir demain = The forecast says it will rain tomorrow.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "les vacances",
+                  "match": "holidays — partir en vacances = to go on holiday"
+                },
+                {
+                  "term": "la gare",
+                  "match": "train station — le billet (ticket), l'horaire (timetable)"
+                },
+                {
+                  "term": "la météo",
+                  "match": "weather — il fait beau, il pleut, il neige"
+                },
+                {
+                  "term": "faire de la randonnée",
+                  "match": "to go hiking"
+                },
+                {
+                  "term": "réserver une chambre",
+                  "match": "to book a room"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "School & Future Plans",
+      "paper": "Paper 1",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "School & Education",
+          "cards": [
+            {
+              "keyword": "le collège",
+              "definition": "secondary school (age 11–15) in France — equivalent to Key Stage 3 and the start of GCSE",
+              "display_order": 1
+            },
+            {
+              "keyword": "le lycée",
+              "definition": "upper secondary school (age 15–18) in France — students take le baccalauréat",
+              "display_order": 2
+            },
+            {
+              "keyword": "les matières",
+              "definition": "subjects — les maths, les sciences, l'histoire-géographie, les langues vivantes",
+              "display_order": 3
+            },
+            {
+              "keyword": "le baccalauréat",
+              "definition": "the French equivalent of A-levels — taken at the end of lycée, age 17–18",
+              "display_order": 4
+            },
+            {
+              "keyword": "l'uniforme scolaire",
+              "definition": "school uniform — France does not generally require uniforms unlike the UK",
+              "display_order": 5
+            },
+            {
+              "keyword": "les devoirs",
+              "definition": "homework — faire ses devoirs (to do homework), rendre un devoir (to hand in work)",
+              "display_order": 6
+            },
+            {
+              "keyword": "la cantine",
+              "definition": "school canteen — manger à la cantine (to eat in the canteen)",
+              "display_order": 7
+            },
+            {
+              "keyword": "les heures de cours",
+              "definition": "school hours — French school often runs 8am–5pm with a long lunch break",
+              "display_order": 8
+            },
+            {
+              "keyword": "réussir",
+              "definition": "to succeed / to pass — réussir un examen (to pass an exam)",
+              "display_order": 9
+            },
+            {
+              "keyword": "échouer",
+              "definition": "to fail — échouer à un examen (to fail an exam)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is 'le lycée'?",
+              "options": [
+                "A) Primary school",
+                "B) Secondary school for 11-15 year olds",
+                "C) Upper secondary school for 15-18 year olds",
+                "D) University"
+              ],
+              "correct_answer": "C",
+              "explanation": "Le lycée is French upper secondary education (15–18). Students study for le baccalauréat. Le collège = 11–15 year olds.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'faire ses devoirs' mean?",
+              "options": [
+                "A) To go to school",
+                "B) To take an exam",
+                "C) To do homework",
+                "D) To read a textbook"
+              ],
+              "correct_answer": "C",
+              "explanation": "Faire ses devoirs = to do homework. Rendre un devoir = to hand in homework.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'la cantine'?",
+              "options": [
+                "A) The library",
+                "B) The playground",
+                "C) The staffroom",
+                "D) The canteen"
+              ],
+              "correct_answer": "D",
+              "explanation": "La cantine = the school canteen. Manger à la cantine = to eat in the canteen.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'réussir un examen' mean?",
+              "options": [
+                "A) To take an exam",
+                "B) To fail an exam",
+                "C) To revise for an exam",
+                "D) To pass an exam"
+              ],
+              "correct_answer": "D",
+              "explanation": "Réussir = to succeed / to pass. Réussir un examen = to pass an exam. Échouer = to fail.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'le baccalauréat'?",
+              "options": [
+                "A) A French middle school exam",
+                "B) The French equivalent of A-levels",
+                "C) A primary school leaving certificate",
+                "D) A university entrance test"
+              ],
+              "correct_answer": "B",
+              "explanation": "Le baccalauréat (le bac) is taken at the end of lycée — it is the French school leaving qualification, equivalent to A-levels.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'les matières' mean?",
+              "options": [
+                "A) School materials",
+                "B) School subjects",
+                "C) School timetable",
+                "D) School rules"
+              ],
+              "correct_answer": "B",
+              "explanation": "Les matières = school subjects. Les matières obligatoires = compulsory subjects. Les matières facultatives = optional subjects.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'échouer à un examen' mean?",
+              "options": [
+                "A) To pass an exam",
+                "B) To sit an exam",
+                "C) To fail an exam",
+                "D) To cheat in an exam"
+              ],
+              "correct_answer": "C",
+              "explanation": "Échouer = to fail. Échouer à un examen = to fail an exam. The opposite is réussir un examen.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Does France generally require school uniform?",
+              "options": [
+                "A) Yes — it is compulsory in all schools",
+                "B) No — French schools generally do not have uniforms",
+                "C) Only in lycées",
+                "D) Only in private schools"
+              ],
+              "correct_answer": "B",
+              "explanation": "Unlike the UK, most French schools do not require uniforms — though some private schools may have dress codes.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'le collège' in France?",
+              "options": [
+                "A) University",
+                "B) Upper secondary school",
+                "C) Lower secondary school for 11–15 year olds",
+                "D) Primary school"
+              ],
+              "correct_answer": "C",
+              "explanation": "Le collège = lower secondary school (11–15) in France. It covers the equivalent of UK Year 7 to Year 10.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'rendre un devoir' mean?",
+              "options": [
+                "A) To fail homework",
+                "B) To do homework",
+                "C) To hand in homework",
+                "D) To copy homework"
+              ],
+              "correct_answer": "C",
+              "explanation": "Rendre un devoir = to hand in/submit homework or coursework.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Le collège in France is for students aged 15–18.",
+              "correct_answer": "False",
+              "explanation": "Le collège is for 11–15 year olds. Le lycée is for 15–18 year olds.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Faire ses devoirs means to do homework.",
+              "correct_answer": "True",
+              "explanation": "Faire ses devoirs = to do homework. An essential phrase for school topic answers.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "La cantine is the school library.",
+              "correct_answer": "False",
+              "explanation": "La cantine = the school canteen. La bibliothèque = the library.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Réussir un examen means to fail an exam.",
+              "correct_answer": "False",
+              "explanation": "Réussir = to succeed / pass. Échouer = to fail.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Le baccalauréat is the French equivalent of A-levels.",
+              "correct_answer": "True",
+              "explanation": "Le bac is taken at the end of lycée (age 17–18) and is required for university entrance.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "French schools generally require students to wear uniform.",
+              "correct_answer": "False",
+              "explanation": "Most French schools do not require school uniform — unlike most British schools.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Les matières means school subjects.",
+              "correct_answer": "True",
+              "explanation": "Les matières includes maths, sciences, langues vivantes, histoire-géographie, etc.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Échouer means to succeed in an exam.",
+              "correct_answer": "False",
+              "explanation": "Échouer = to fail. Réussir = to succeed/pass.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "French school days often run from 8am to 5pm.",
+              "correct_answer": "True",
+              "explanation": "French school hours are typically longer than British ones, with a long lunch break (often 2 hours) in the middle.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Rendre un devoir means to do homework.",
+              "correct_answer": "False",
+              "explanation": "Rendre un devoir = to hand in work. Faire ses devoirs = to do homework.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Le ________ = lower secondary school in France (age 11–15).",
+              "correct_answer": "collège",
+              "explanation": "Le collège is equivalent to Key Stage 3 and the start of GCSE in England.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Le ________ = upper secondary school in France (age 15–18).",
+              "correct_answer": "lycée",
+              "explanation": "At the lycée, students work towards le baccalauréat.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Faire ses ________ = to do homework.",
+              "correct_answer": "devoirs",
+              "explanation": "C'est important de faire ses devoirs tous les soirs = It's important to do homework every evening.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "La ________ = the school canteen.",
+              "correct_answer": "cantine",
+              "explanation": "Je mange à la cantine tous les jours = I eat in the canteen every day.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ un examen = to pass an exam.",
+              "correct_answer": "Réussir",
+              "explanation": "J'espère réussir tous mes examens = I hope to pass all my exams.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Le ________ is the French school leaving qualification, equivalent to A-levels.",
+              "correct_answer": "baccalauréat",
+              "explanation": "Le bac is essential for university entry in France.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Les ________ = school subjects.",
+              "correct_answer": "matières",
+              "explanation": "Mes matières préférées sont les sciences et les langues = My favourite subjects are sciences and languages.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ à un examen = to fail an exam.",
+              "correct_answer": "Échouer",
+              "explanation": "Je ne veux pas échouer à mes examens = I don't want to fail my exams.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ un devoir = to hand in homework/coursework.",
+              "correct_answer": "Rendre",
+              "explanation": "Il faut rendre ce devoir vendredi = This homework must be handed in on Friday.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "L'________ scolaire = school uniform (not generally worn in France).",
+              "correct_answer": "uniforme",
+              "explanation": "En France, on ne porte pas souvent d'uniforme scolaire = In France, school uniform is not often worn.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "le collège",
+                  "match": "lower secondary school — age 11–15"
+                },
+                {
+                  "term": "le lycée",
+                  "match": "upper secondary school — age 15–18"
+                },
+                {
+                  "term": "le baccalauréat",
+                  "match": "French A-level equivalent"
+                },
+                {
+                  "term": "réussir",
+                  "match": "to succeed/pass — réussir un examen"
+                },
+                {
+                  "term": "échouer",
+                  "match": "to fail — échouer à un examen"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "French Grammar Essentials",
+      "paper": "All papers",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Key Grammar — Tenses & Structures",
+          "cards": [
+            {
+              "keyword": "présent",
+              "definition": "the present tense — used for current actions and general truths — je mange, il parle, nous allons",
+              "display_order": 1
+            },
+            {
+              "keyword": "passé composé",
+              "definition": "the perfect tense — used for completed past actions — j'ai mangé (I ate), je suis allé(e) (I went)",
+              "display_order": 2
+            },
+            {
+              "keyword": "imparfait",
+              "definition": "the imperfect tense — used for repeated/ongoing past actions or descriptions — c'était, j'allais, il faisait",
+              "display_order": 3
+            },
+            {
+              "keyword": "futur proche",
+              "definition": "the near future — aller + infinitive — je vais manger (I am going to eat)",
+              "display_order": 4
+            },
+            {
+              "keyword": "futur simple",
+              "definition": "the simple future — used for future plans — je mangerai (I will eat), il ira (he will go)",
+              "display_order": 5
+            },
+            {
+              "keyword": "conditionnel",
+              "definition": "the conditional — would — je voudrais (I would like), j'aimerais (I would love)",
+              "display_order": 6
+            },
+            {
+              "keyword": "les auxiliaires",
+              "definition": "the auxiliary verbs avoir and être — used to form the passé composé",
+              "display_order": 7
+            },
+            {
+              "keyword": "les verbes réfléchis",
+              "definition": "reflexive verbs — action done to yourself — se lever (to get up), se laver (to wash)",
+              "display_order": 8
+            },
+            {
+              "keyword": "les adjectifs",
+              "definition": "adjectives — must agree with the noun in gender and number — grand/grande/grands/grandes",
+              "display_order": 9
+            },
+            {
+              "keyword": "la négation",
+              "definition": "negation — ne...pas (not), ne...jamais (never), ne...plus (no longer), ne...rien (nothing)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "How do you form the futur proche?",
+              "options": [
+                "A) Avoir + past participle",
+                "B) Être + past participle",
+                "C) Aller + infinitive",
+                "D) Infinitive + -rai"
+              ],
+              "correct_answer": "C",
+              "explanation": "Futur proche = aller (present) + infinitive. Je vais manger = I am going to eat. Nous allons partir = We are going to leave.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which auxiliary verb is used with 'aller' in the passé composé?",
+              "options": [
+                "A) Avoir",
+                "B) Être",
+                "C) Aller",
+                "D) Faire"
+              ],
+              "correct_answer": "B",
+              "explanation": "Most movement verbs (including aller) use être in the passé composé. Je suis allé(e) = I went. The past participle agrees with the subject.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the imparfait used for?",
+              "options": [
+                "A) Future plans",
+                "B) Completed single actions in the past",
+                "C) Ongoing/repeated past actions and descriptions",
+                "D) Hypothetical situations"
+              ],
+              "correct_answer": "C",
+              "explanation": "The imparfait is used for: ongoing past actions (j'allais = I was going), repeated habits (je mangeais = I used to eat), and descriptions (il faisait beau = it was nice).",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'je voudrais' mean?",
+              "options": [
+                "A) I want",
+                "B) I wanted",
+                "C) I would like",
+                "D) I will want"
+              ],
+              "correct_answer": "C",
+              "explanation": "Je voudrais = I would like. It is the conditional of vouloir. Polite and used for requests.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the rule for adjective agreement in French?",
+              "options": [
+                "A) Adjectives never change",
+                "B) Adjectives change only for plural",
+                "C) Adjectives change to match the gender and number of the noun",
+                "D) Adjectives come before the noun always"
+              ],
+              "correct_answer": "C",
+              "explanation": "French adjectives must agree in gender (masculine/feminine) and number (singular/plural) with the noun they describe. Grand → grande → grands → grandes.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do you say 'I never go' in French?",
+              "options": [
+                "A) Je vais jamais",
+                "B) Je ne vais jamais",
+                "C) Je ne vas pas",
+                "D) Jamais je vais"
+              ],
+              "correct_answer": "B",
+              "explanation": "Ne...jamais = never. Je ne vais jamais = I never go. Remember: ne before verb, jamais after.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are reflexive verbs?",
+              "options": [
+                "A) Verbs used only in formal French",
+                "B) Verbs where the action is done to yourself — se lever, se laver",
+                "C) Irregular verbs with unpredictable forms",
+                "D) Verbs that use avoir in the passé composé"
+              ],
+              "correct_answer": "B",
+              "explanation": "Reflexive verbs use reflexive pronouns (me, te, se, nous, vous): je me lève = I get up. Je me lave = I wash (myself).",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the futur simple of 'manger'?",
+              "options": [
+                "A) Je mange",
+                "B) J'ai mangé",
+                "C) Je vais manger",
+                "D) Je mangerai"
+              ],
+              "correct_answer": "D",
+              "explanation": "Futur simple: take the infinitive + endings (-ai, -as, -a, -ons, -ez, -ont). Je mangerai = I will eat.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'ne...plus' mean?",
+              "options": [
+                "A) Not yet",
+                "B) No longer / not anymore",
+                "C) Not at all",
+                "D) Not often"
+              ],
+              "correct_answer": "B",
+              "explanation": "Ne...plus = no longer / not anymore. Je ne mange plus de viande = I no longer eat meat.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the passé composé of 'finir' (to finish)?",
+              "options": [
+                "A) Je finissais",
+                "B) Je finirai",
+                "C) J'ai fini",
+                "D) Je finissais"
+              ],
+              "correct_answer": "C",
+              "explanation": "Passé composé of -ir verbs: avoir + past participle (-i). J'ai fini = I finished / I have finished.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Futur proche uses aller + infinitive.",
+              "correct_answer": "True",
+              "explanation": "Je vais faire mes devoirs = I am going to do my homework.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "All verbs use avoir in the passé composé.",
+              "correct_answer": "False",
+              "explanation": "Movement verbs and reflexive verbs use être. DR MRS VANDERTRAMP verbs use être.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The imparfait is used for completed single past actions.",
+              "correct_answer": "False",
+              "explanation": "The passé composé is for completed single actions. The imparfait is for ongoing, habitual, or descriptive past.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Je voudrais is the conditional — meaning 'I would like'.",
+              "correct_answer": "True",
+              "explanation": "Je voudrais is polite and essential — used constantly for requests and preferences.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "French adjectives agree in gender and number with the noun.",
+              "correct_answer": "True",
+              "explanation": "Grand (masc sg) → grande (fem sg) → grands (masc pl) → grandes (fem pl).",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Ne...jamais means 'not anymore'.",
+              "correct_answer": "False",
+              "explanation": "Ne...jamais = never. Ne...plus = not anymore / no longer.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Reflexive verbs use reflexive pronouns (me, te, se, nous, vous, se).",
+              "correct_answer": "True",
+              "explanation": "Je me lève à sept heures = I get up at seven o'clock.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The futur simple of regular -er verbs adds endings to the infinitive.",
+              "correct_answer": "True",
+              "explanation": "Je mangerai, tu mangeras, il mangera, nous mangerons, vous mangerez, ils mangeront.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Adjectives in French always come before the noun.",
+              "correct_answer": "False",
+              "explanation": "Most French adjectives come AFTER the noun. A few common ones (beau, grand, petit, jeune, vieux) come before.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Ne...rien means 'not anything / nothing'.",
+              "correct_answer": "True",
+              "explanation": "Je ne mange rien = I eat nothing / I don't eat anything.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Futur proche = ________ + infinitive.",
+              "correct_answer": "aller",
+              "explanation": "Je vais partir demain = I am going to leave tomorrow.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Passé composé = auxiliary (avoir or ________) + past participle.",
+              "correct_answer": "être",
+              "explanation": "Être is used with movement verbs and reflexive verbs.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is used for ongoing or repeated past actions and descriptions.",
+              "correct_answer": "imparfait",
+              "explanation": "Quand j'étais jeune, j'allais à la piscine = When I was young, I used to go to the pool.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Je ________ = I would like (conditional of vouloir).",
+              "correct_answer": "voudrais",
+              "explanation": "Je voudrais une chambre pour deux personnes = I would like a room for two people.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "French adjectives agree in ________ and number with the noun.",
+              "correct_answer": "gender",
+              "explanation": "Grand (masc) → grande (fem). Grands (masc pl) → grandes (fem pl).",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Ne...________ = never.",
+              "correct_answer": "jamais",
+              "explanation": "Je ne mens jamais = I never lie.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Ne...________ = no longer / not anymore.",
+              "correct_answer": "plus",
+              "explanation": "Je ne mange plus de viande = I no longer eat meat.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ verbs use reflexive pronouns — se lever, se laver, se coucher.",
+              "correct_answer": "Reflexive",
+              "explanation": "Je me lève = I get up. Tu te laves = You wash. Il se couche = He goes to bed.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Futur simple of -er verbs = infinitive + ________.",
+              "correct_answer": "endings",
+              "explanation": "Je parlerai = I will speak. Tu parleras = You will speak.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Ne...________ = nothing / not anything.",
+              "correct_answer": "rien",
+              "explanation": "Il ne fait rien = He does nothing.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "présent",
+                  "match": "current actions — je mange, il parle"
+                },
+                {
+                  "term": "passé composé",
+                  "match": "completed past actions — j'ai mangé, je suis allé"
+                },
+                {
+                  "term": "imparfait",
+                  "match": "ongoing/habitual past — c'était, j'allais"
+                },
+                {
+                  "term": "futur proche",
+                  "match": "near future — aller + infinitive"
+                },
+                {
+                  "term": "conditionnel",
+                  "match": "would — je voudrais, j'aimerais"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

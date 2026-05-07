@@ -1,0 +1,135 @@
+{
+  "subject": {
+    "name": "Biology (OCR A)",
+    "slug": "biology-ocr",
+    "colour": "#15803d"
+  },
+  "topics": [
+    {
+      "name": "B1 — Cell Level Systems",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Cells & Biological Molecules",
+          "cards": [
+            {
+              "keyword": "cell membrane",
+              "definition": "a phospholipid bilayer controlling what enters and leaves the cell — described by the fluid mosaic model",
+              "display_order": 1
+            },
+            {
+              "keyword": "phospholipid bilayer",
+              "definition": "the double layer of phospholipid molecules forming the cell membrane — hydrophilic heads face outward, hydrophobic tails face inward",
+              "display_order": 2
+            },
+            {
+              "keyword": "osmosis",
+              "definition": "the movement of water molecules through a partially permeable membrane from high water potential to low water potential",
+              "display_order": 3
+            },
+            {
+              "keyword": "active transport",
+              "definition": "the movement of molecules against a concentration gradient using energy (ATP) — requires carrier proteins",
+              "display_order": 4
+            },
+            {
+              "keyword": "ATP (adenosine triphosphate)",
+              "definition": "the universal energy currency of cells — releases energy when broken down to ADP + phosphate",
+              "display_order": 5
+            },
+            {
+              "keyword": "photosynthesis",
+              "definition": "the process by which plants convert light energy into glucose using carbon dioxide and water — occurs in chloroplasts",
+              "display_order": 6
+            },
+            {
+              "keyword": "respiration",
+              "definition": "the process by which cells release energy from glucose — aerobic uses oxygen; anaerobic does not",
+              "display_order": 7
+            },
+            {
+              "keyword": "mitosis",
+              "definition": "cell division producing two genetically identical cells — used for growth and repair",
+              "display_order": 8
+            },
+            {
+              "keyword": "meiosis",
+              "definition": "cell division producing four genetically unique cells with half the chromosome number — produces gametes",
+              "display_order": 9
+            },
+            {
+              "keyword": "stem cells",
+              "definition": "undifferentiated cells that can divide and specialise into different cell types — embryonic or adult",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B3 — Unified Biology",
+      "paper": "Paper 2",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Ecosystems & Evolution",
+          "cards": [
+            {
+              "keyword": "ecosystem",
+              "definition": "all the living organisms in an area plus their non-living environment, interacting together",
+              "display_order": 1
+            },
+            {
+              "keyword": "food chain",
+              "definition": "a sequence showing the transfer of energy from one organism to the next through feeding",
+              "display_order": 2
+            },
+            {
+              "keyword": "trophic level",
+              "definition": "the position of an organism in a food chain — producers are level 1, primary consumers level 2, and so on",
+              "display_order": 3
+            },
+            {
+              "keyword": "biomass",
+              "definition": "the total mass of living matter at each trophic level — biomass is lost at each level as energy is used for respiration",
+              "display_order": 4
+            },
+            {
+              "keyword": "natural selection",
+              "definition": "the process by which organisms with advantageous traits are more likely to survive and reproduce — driving evolution",
+              "display_order": 5
+            },
+            {
+              "keyword": "evolution",
+              "definition": "the gradual change in inherited characteristics of a population over many generations",
+              "display_order": 6
+            },
+            {
+              "keyword": "speciation",
+              "definition": "the formation of new species when populations become reproductively isolated and evolve separately",
+              "display_order": 7
+            },
+            {
+              "keyword": "homeostasis",
+              "definition": "the maintenance of a stable internal environment despite changes in external conditions",
+              "display_order": 8
+            },
+            {
+              "keyword": "negative feedback",
+              "definition": "a control mechanism where a change triggers a response that reverses the change — used in homeostasis e.g. temperature regulation",
+              "display_order": 9
+            },
+            {
+              "keyword": "biodiversity",
+              "definition": "the variety of living organisms in an ecosystem — high biodiversity makes ecosystems more stable and resilient",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

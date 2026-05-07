@@ -1,0 +1,317 @@
+{
+  "subject": {
+    "name": "Business Studies",
+    "slug": "business-studies",
+    "colour": "#0891b2"
+  },
+  "topics": [
+    {
+      "name": "Business in the Real World",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Starting a Business",
+          "cards": [
+            {
+              "keyword": "entrepreneur",
+              "definition": "a person who sets up and runs a business, taking on financial risk in the hope of making a profit",
+              "display_order": 1
+            },
+            {
+              "keyword": "enterprise",
+              "definition": "the skills and willingness to set up and run a business, or the business itself",
+              "display_order": 2
+            },
+            {
+              "keyword": "business plan",
+              "definition": "a written document outlining a business's goals, strategies, and financial forecasts",
+              "display_order": 3
+            },
+            {
+              "keyword": "sole trader",
+              "definition": "a business owned and run by one person who has unlimited liability for its debts",
+              "display_order": 4
+            },
+            {
+              "keyword": "partnership",
+              "definition": "a business owned by two or more people who share profits and liability",
+              "display_order": 5
+            },
+            {
+              "keyword": "limited company (Ltd)",
+              "definition": "a business where owners have limited liability — the business is a separate legal entity from its owners",
+              "display_order": 6
+            },
+            {
+              "keyword": "limited liability",
+              "definition": "owners are only responsible for business debts up to the amount they invested — personal assets are protected",
+              "display_order": 7
+            },
+            {
+              "keyword": "unlimited liability",
+              "definition": "owners are personally responsible for all business debts — personal assets can be used to pay them",
+              "display_order": 8
+            },
+            {
+              "keyword": "franchise",
+              "definition": "a business model where a franchisor licenses their brand and methods to a franchisee in exchange for fees",
+              "display_order": 9
+            },
+            {
+              "keyword": "social enterprise",
+              "definition": "a business that trades to achieve a social or environmental goal rather than purely for profit",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Business Aims & Objectives",
+          "cards": [
+            {
+              "keyword": "aim",
+              "definition": "a general long-term goal of a business — e.g. to be the market leader",
+              "display_order": 1
+            },
+            {
+              "keyword": "objective",
+              "definition": "a specific, measurable target a business sets to help achieve its aims — e.g. increase sales by 10% this year",
+              "display_order": 2
+            },
+            {
+              "keyword": "profit",
+              "definition": "the money left over after all costs have been deducted from revenue (Profit = Revenue − Costs)",
+              "display_order": 3
+            },
+            {
+              "keyword": "revenue / turnover",
+              "definition": "the total money a business receives from selling its goods or services (Revenue = Price × Quantity sold)",
+              "display_order": 4
+            },
+            {
+              "keyword": "market share",
+              "definition": "the percentage of total sales in a market that a business holds",
+              "display_order": 5
+            },
+            {
+              "keyword": "stakeholder",
+              "definition": "anyone who has an interest in or is affected by a business — e.g. owners, employees, customers, suppliers",
+              "display_order": 6
+            },
+            {
+              "keyword": "shareholder",
+              "definition": "a person who owns shares in a limited company and receives a share of profits as dividends",
+              "display_order": 7
+            },
+            {
+              "keyword": "dividend",
+              "definition": "a share of a company's profits paid to shareholders",
+              "display_order": 8
+            },
+            {
+              "keyword": "public sector",
+              "definition": "organisations owned and run by the government — e.g. NHS, state schools",
+              "display_order": 9
+            },
+            {
+              "keyword": "private sector",
+              "definition": "businesses owned by private individuals or investors, not the government",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marketing",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "The Marketing Mix — 4Ps",
+          "cards": [
+            {
+              "keyword": "marketing mix (4Ps)",
+              "definition": "the combination of Product, Price, Place, and Promotion used by a business to sell its goods or services",
+              "display_order": 1
+            },
+            {
+              "keyword": "market research",
+              "definition": "gathering and analysing information about customers and markets to inform business decisions",
+              "display_order": 2
+            },
+            {
+              "keyword": "primary research",
+              "definition": "collecting new, first-hand data directly — e.g. surveys, interviews, focus groups",
+              "display_order": 3
+            },
+            {
+              "keyword": "secondary research",
+              "definition": "using existing data collected by others — e.g. industry reports, government statistics, competitor websites",
+              "display_order": 4
+            },
+            {
+              "keyword": "market segmentation",
+              "definition": "dividing a market into groups of customers with similar needs or characteristics",
+              "display_order": 5
+            },
+            {
+              "keyword": "target market",
+              "definition": "the specific group of customers a business aims its products and marketing at",
+              "display_order": 6
+            },
+            {
+              "keyword": "price skimming",
+              "definition": "setting a high price when a new product launches, then lowering it over time",
+              "display_order": 7
+            },
+            {
+              "keyword": "penetration pricing",
+              "definition": "setting a low price to attract customers quickly when entering a market",
+              "display_order": 8
+            },
+            {
+              "keyword": "competitive pricing",
+              "definition": "setting prices based on what competitors charge",
+              "display_order": 9
+            },
+            {
+              "keyword": "USP (Unique Selling Point)",
+              "definition": "the feature that makes a product different from and better than competitors — the reason customers choose it",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Finance",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Financial Terms & Calculations",
+          "cards": [
+            {
+              "keyword": "fixed costs",
+              "definition": "costs that stay the same regardless of how much a business produces — e.g. rent, insurance",
+              "display_order": 1
+            },
+            {
+              "keyword": "variable costs",
+              "definition": "costs that change with the level of output — e.g. raw materials, packaging",
+              "display_order": 2
+            },
+            {
+              "keyword": "total costs",
+              "definition": "all costs combined (Total Costs = Fixed Costs + Variable Costs)",
+              "display_order": 3
+            },
+            {
+              "keyword": "gross profit",
+              "definition": "revenue minus the cost of goods sold (Gross Profit = Revenue − Cost of Sales)",
+              "display_order": 4
+            },
+            {
+              "keyword": "net profit",
+              "definition": "gross profit minus all other expenses such as wages and rent",
+              "display_order": 5
+            },
+            {
+              "keyword": "break-even point",
+              "definition": "the level of output at which total revenue equals total costs — the business makes neither profit nor loss",
+              "display_order": 6
+            },
+            {
+              "keyword": "cash flow",
+              "definition": "the movement of money in and out of a business over a period of time",
+              "display_order": 7
+            },
+            {
+              "keyword": "cash flow forecast",
+              "definition": "a prediction of the money expected to come in and go out of a business over a future period",
+              "display_order": 8
+            },
+            {
+              "keyword": "overdraft",
+              "definition": "a short-term borrowing facility allowing a business to spend more than it has in its bank account",
+              "display_order": 9
+            },
+            {
+              "keyword": "loan",
+              "definition": "a fixed amount of money borrowed, usually from a bank, repaid with interest over an agreed period",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Human Resources & Operations",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "People & Production",
+          "cards": [
+            {
+              "keyword": "organisational structure",
+              "definition": "the way a business arranges its employees and management — shown in an organisational chart",
+              "display_order": 1
+            },
+            {
+              "keyword": "hierarchy",
+              "definition": "the levels of authority in an organisation — decisions are made at the top and passed down",
+              "display_order": 2
+            },
+            {
+              "keyword": "span of control",
+              "definition": "the number of employees directly managed by one manager",
+              "display_order": 3
+            },
+            {
+              "keyword": "delegation",
+              "definition": "passing responsibility for tasks to employees at a lower level",
+              "display_order": 4
+            },
+            {
+              "keyword": "motivation",
+              "definition": "the reasons why employees work hard and stay committed — includes pay, recognition, and job satisfaction",
+              "display_order": 5
+            },
+            {
+              "keyword": "productivity",
+              "definition": "the output produced per worker in a given time period — a measure of efficiency",
+              "display_order": 6
+            },
+            {
+              "keyword": "recruitment",
+              "definition": "the process of finding and hiring new employees",
+              "display_order": 7
+            },
+            {
+              "keyword": "training",
+              "definition": "developing employees' skills and knowledge to improve performance",
+              "display_order": 8
+            },
+            {
+              "keyword": "quality control",
+              "definition": "checking products meet required standards — often done at the end of the production process",
+              "display_order": 9
+            },
+            {
+              "keyword": "lean production",
+              "definition": "an approach to production that aims to reduce waste and improve efficiency",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

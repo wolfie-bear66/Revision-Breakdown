@@ -1,0 +1,128 @@
+{
+  "subject": {
+    "name": "Film Studies (Eduqas)",
+    "slug": "film-studies-eduqas",
+    "colour": "#4c0519"
+  },
+  "topics": [
+    {
+      "name": "Film Form & Language",
+      "paper": "Component 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Film Techniques & Analysis",
+          "cards": [
+            {
+              "keyword": "cinematography",
+              "definition": "the art of capturing moving images on film — includes camera shots, angles, movement, and lighting",
+              "display_order": 1
+            },
+            {
+              "keyword": "mise-en-scène (film)",
+              "definition": "all visual elements placed before the camera — setting, costume, lighting, performance, and composition",
+              "display_order": 2
+            },
+            {
+              "keyword": "editing (film)",
+              "definition": "assembling film shots into a sequence — creates pace, rhythm, meaning, and narrative continuity",
+              "display_order": 3
+            },
+            {
+              "keyword": "sound design (film)",
+              "definition": "all sound elements in a film — dialogue, sound effects, foley, and music (score and soundtrack)",
+              "display_order": 4
+            },
+            {
+              "keyword": "genre conventions",
+              "definition": "the typical features audiences expect from a genre — e.g. horror uses dark lighting, jump scares, isolated settings",
+              "display_order": 5
+            },
+            {
+              "keyword": "auteur theory",
+              "definition": "the idea that a film director is the primary creative force behind a film — their recurring themes and style are the 'signature' of the work",
+              "display_order": 6
+            },
+            {
+              "keyword": "narrative structure",
+              "definition": "the shape of a film's story — often follows Todorov's equilibrium model: equilibrium → disruption → new equilibrium",
+              "display_order": 7
+            },
+            {
+              "keyword": "Todorov's narrative theory",
+              "definition": "a model suggesting stories follow a pattern: initial equilibrium, disruption, recognition, repair, new equilibrium",
+              "display_order": 8
+            },
+            {
+              "keyword": "character archetypes (Propp)",
+              "definition": "Vladimir Propp identified recurring character types in stories — hero, villain, helper, princess, false hero etc.",
+              "display_order": 9
+            },
+            {
+              "keyword": "representation (film)",
+              "definition": "how groups of people and social issues are portrayed — films can reinforce or challenge stereotypes and ideologies",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Film Industry & Context",
+          "cards": [
+            {
+              "keyword": "Hollywood / mainstream cinema",
+              "definition": "high-budget films produced by major studios for mass global audiences — uses stars, high production values, and generic formulas",
+              "display_order": 1
+            },
+            {
+              "keyword": "independent film",
+              "definition": "films produced outside the major studio system with lower budgets — often more experimental or socially conscious",
+              "display_order": 2
+            },
+            {
+              "keyword": "British cinema",
+              "definition": "films produced in the UK — often address specifically British social issues and have a distinct cultural identity",
+              "display_order": 3
+            },
+            {
+              "keyword": "film distribution",
+              "definition": "getting a film to audiences — through cinema release, streaming, DVD, or broadcast. Studios spend heavily on marketing",
+              "display_order": 4
+            },
+            {
+              "keyword": "film rating / certification",
+              "definition": "a classification indicating the suitability of a film for different ages — in the UK set by the BBFC (U, PG, 12A, 15, 18)",
+              "display_order": 5
+            },
+            {
+              "keyword": "social and historical context",
+              "definition": "the circumstances in which a film was made and received — understanding context helps explain the film's themes and messages",
+              "display_order": 6
+            },
+            {
+              "keyword": "set text films (Eduqas)",
+              "definition": "Eduqas specifies films for study — typically including one Hollywood film, one British film, and one global film from outside the English-speaking world",
+              "display_order": 7
+            },
+            {
+              "keyword": "global/world cinema",
+              "definition": "films produced outside Hollywood and the English-speaking world — Eduqas requires study of at least one global film",
+              "display_order": 8
+            },
+            {
+              "keyword": "documentary film",
+              "definition": "a non-fiction film representing reality — can be observational, expository, or participatory in style",
+              "display_order": 9
+            },
+            {
+              "keyword": "film movements",
+              "definition": "groups of filmmakers sharing a style or philosophy — e.g. French New Wave, Italian Neorealism, British Kitchen Sink realism",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1097 @@
+{
+  "subject": {
+    "name": "Physical Education",
+    "slug": "physical-education",
+    "colour": "#15803d",
+    "exam_board": "AQA",
+    "emoji": "🏃"
+  },
+  "topics": [
+    {
+      "name": "Applied Anatomy & Physiology",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Skeletal & Muscular Systems",
+          "cards": [
+            {
+              "keyword": "skeletal system",
+              "definition": "the framework of bones in the body — functions: support, protection, movement, blood cell production, mineral storage",
+              "display_order": 1
+            },
+            {
+              "keyword": "joint",
+              "definition": "where two or more bones meet — allows movement. Types include hinge, ball and socket, pivot, condyloid",
+              "display_order": 2
+            },
+            {
+              "keyword": "cartilage",
+              "definition": "smooth tissue covering the ends of bones at joints — reduces friction and absorbs shock",
+              "display_order": 3
+            },
+            {
+              "keyword": "ligament",
+              "definition": "a tough band of fibrous tissue connecting bone to bone — stabilises joints",
+              "display_order": 4
+            },
+            {
+              "keyword": "tendon",
+              "definition": "a tough cord of fibrous tissue connecting muscle to bone — transmits the force of muscle contraction",
+              "display_order": 5
+            },
+            {
+              "keyword": "muscle contraction",
+              "definition": "muscles generate force by contracting — agonist (prime mover) contracts; antagonist relaxes",
+              "display_order": 6
+            },
+            {
+              "keyword": "agonist",
+              "definition": "the muscle primarily responsible for a movement — also called the prime mover",
+              "display_order": 7
+            },
+            {
+              "keyword": "antagonist",
+              "definition": "the muscle that relaxes and lengthens as the agonist contracts — works in pairs",
+              "display_order": 8
+            },
+            {
+              "keyword": "isometric contraction",
+              "definition": "muscle produces force but does not change length — e.g. holding a position",
+              "display_order": 9
+            },
+            {
+              "keyword": "isotonic contraction",
+              "definition": "muscle changes length — concentric (shortens) or eccentric (lengthens under tension)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of ligaments?",
+              "options": [
+                "A) Connect muscle to bone",
+                "B) Connect bone to bone — stabilising joints",
+                "C) Reduce friction at joints",
+                "D) Transmit nerve signals"
+              ],
+              "correct_answer": "B",
+              "explanation": "Ligaments are tough fibrous tissues connecting bone to bone — they stabilise joints and prevent excessive movement.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an agonist muscle?",
+              "options": [
+                "A) A muscle that relaxes during movement",
+                "B) The primary muscle responsible for a movement",
+                "C) A muscle that opposes the prime mover",
+                "D) A muscle that holds a position statically"
+              ],
+              "correct_answer": "B",
+              "explanation": "The agonist (prime mover) contracts to produce movement. During a bicep curl, the bicep is the agonist.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is isotonic muscle contraction?",
+              "options": [
+                "A) Muscle produces force without changing length",
+                "B) Muscle changes length — concentric (shortens) or eccentric (lengthens)",
+                "C) Muscle contraction at maximum strength",
+                "D) Contraction only during isometric exercises"
+              ],
+              "correct_answer": "B",
+              "explanation": "Isotonic contractions involve length changes: concentric (muscle shortens during contraction) and eccentric (muscle lengthens under tension).",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is cartilage?",
+              "options": [
+                "A) Connects muscles to bones",
+                "B) Connects bones to bones",
+                "C) Smooth tissue covering bone ends at joints — reduces friction",
+                "D) A type of muscle tissue"
+              ],
+              "correct_answer": "C",
+              "explanation": "Articular cartilage covers the ends of bones at synovial joints — it reduces friction and absorbs impact during movement.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a tendon?",
+              "options": [
+                "A) Connects bone to bone",
+                "B) Reduces friction at joints",
+                "C) Connects muscle to bone — transmits force",
+                "D) Provides joint stability"
+              ],
+              "correct_answer": "C",
+              "explanation": "Tendons are strong fibrous cords connecting muscle to bone — they transmit the pulling force of muscle contractions.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the antagonist muscle?",
+              "options": [
+                "A) The primary mover during a movement",
+                "B) The muscle that relaxes and lengthens as the agonist contracts",
+                "C) A muscle holding a joint stable",
+                "D) The muscle generating the most force"
+              ],
+              "correct_answer": "B",
+              "explanation": "Muscles work in pairs: as the agonist contracts, the antagonist relaxes. During a bicep curl, the bicep is the agonist; the tricep is the antagonist.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is isometric contraction?",
+              "options": [
+                "A) Muscle shortens during contraction",
+                "B) Muscle lengthens during contraction",
+                "C) Muscle produces force without changing length",
+                "D) Rapid muscle contraction for power"
+              ],
+              "correct_answer": "C",
+              "explanation": "Isometric contractions occur when a muscle generates force but neither shortens nor lengthens — e.g. holding a plank position.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What type of joint is the knee?",
+              "options": [
+                "A) Ball and socket",
+                "B) Pivot",
+                "C) Hinge",
+                "D) Condyloid"
+              ],
+              "correct_answer": "C",
+              "explanation": "The knee is a hinge joint — it allows movement in one plane (flexion and extension). The hip is a ball and socket joint.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of cartilage at a joint?",
+              "options": [
+                "A) Connect bones together",
+                "B) Connect muscles to bones",
+                "C) Reduce friction and absorb shock at bone ends",
+                "D) Transmit nerve impulses"
+              ],
+              "correct_answer": "C",
+              "explanation": "Articular cartilage covers the bone ends in synovial joints — its smooth surface reduces friction and its compressible structure absorbs shock.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the role of the skeletal system in blood cell production?",
+              "options": [
+                "A) Bones store calcium",
+                "B) Red and white blood cells are produced in red bone marrow",
+                "C) Bones transmit nerve signals",
+                "D) Bones store glycogen"
+              ],
+              "correct_answer": "B",
+              "explanation": "Red bone marrow (found in spongy bone) produces red blood cells, white blood cells, and platelets — an essential function of the skeletal system.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Ligaments connect muscle to bone.",
+              "correct_answer": "False",
+              "explanation": "Ligaments connect BONE TO BONE. Tendons connect muscle to bone.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The agonist muscle contracts during a movement.",
+              "correct_answer": "True",
+              "explanation": "The agonist is the prime mover — it contracts to produce the movement.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Isometric contractions involve the muscle changing length.",
+              "correct_answer": "False",
+              "explanation": "In isometric contractions, the muscle generates force but does NOT change length.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Cartilage reduces friction at joints.",
+              "correct_answer": "True",
+              "explanation": "Articular cartilage is a smooth tissue covering bone ends — it reduces friction and absorbs shock.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The antagonist muscle contracts at the same time as the agonist.",
+              "correct_answer": "False",
+              "explanation": "The antagonist RELAXES as the agonist contracts — they work in opposing pairs.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The knee is a ball and socket joint.",
+              "correct_answer": "False",
+              "explanation": "The knee is a hinge joint. The hip and shoulder are ball and socket joints.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Tendons connect bone to bone.",
+              "correct_answer": "False",
+              "explanation": "Tendons connect MUSCLE TO BONE. Ligaments connect bone to bone.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Red blood cells are produced in red bone marrow.",
+              "correct_answer": "True",
+              "explanation": "Red bone marrow in spongy bone produces red blood cells, white blood cells, and platelets.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Concentric contraction occurs when a muscle shortens.",
+              "correct_answer": "True",
+              "explanation": "Concentric contraction: muscle shortens under tension — e.g. the bicep shortening during a curl.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "An eccentric contraction involves a muscle lengthening under tension.",
+              "correct_answer": "True",
+              "explanation": "Eccentric contraction: muscle lengthens while under load — e.g. the bicep lengthening as you lower a weight.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ connect bone to bone — stabilising joints.",
+              "correct_answer": "Ligaments",
+              "explanation": "Torn ligaments are a common sports injury — especially at the knee and ankle.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ connect muscle to bone — transmitting force.",
+              "correct_answer": "Tendons",
+              "explanation": "The Achilles tendon connects the calf muscle to the heel bone.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ covers bone ends at joints — reducing friction and absorbing shock.",
+              "correct_answer": "Cartilage",
+              "explanation": "Damaged cartilage can lead to joint pain and arthritis.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the prime mover — the muscle primarily responsible for a movement.",
+              "correct_answer": "agonist",
+              "explanation": "During a squat, the quadriceps are the agonist (prime mover).",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ muscle relaxes as the agonist contracts.",
+              "correct_answer": "antagonist",
+              "explanation": "Agonist and antagonist work in pairs — bicep/tricep is a classic example.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ contraction: muscle generates force without changing length.",
+              "correct_answer": "Isometric",
+              "explanation": "Holding a plank or a wall sit involves isometric contraction.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ contraction: muscle changes length — concentric (shortens) or eccentric (lengthens).",
+              "correct_answer": "Isotonic",
+              "explanation": "Most everyday movements involve isotonic contractions.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ joint allows movement in one plane only — e.g. the knee and elbow.",
+              "correct_answer": "hinge",
+              "explanation": "Hinge joints allow flexion and extension only.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ system provides support, protection, movement, and blood cell production.",
+              "correct_answer": "skeletal",
+              "explanation": "The 206 bones of the adult skeleton perform these vital functions.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ and socket joint allows movement in all planes — e.g. hip and shoulder.",
+              "correct_answer": "ball",
+              "explanation": "Ball and socket joints have the greatest range of movement of any joint type.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "ligament",
+                  "match": "connects bone to bone — stabilises joints"
+                },
+                {
+                  "term": "tendon",
+                  "match": "connects muscle to bone — transmits force"
+                },
+                {
+                  "term": "agonist",
+                  "match": "prime mover — contracts to produce movement"
+                },
+                {
+                  "term": "antagonist",
+                  "match": "relaxes as agonist contracts — opposing pair"
+                },
+                {
+                  "term": "isometric contraction",
+                  "match": "force produced — no change in muscle length"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Physical Training",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Principles of Training",
+          "cards": [
+            {
+              "keyword": "FITT principle",
+              "definition": "Frequency, Intensity, Time, Type — variables to manipulate when designing a training programme",
+              "display_order": 1
+            },
+            {
+              "keyword": "progressive overload",
+              "definition": "gradually increasing the demands of training to continue improving — the body adapts to greater stress",
+              "display_order": 2
+            },
+            {
+              "keyword": "specificity",
+              "definition": "training should be specific to the sport and the muscles/energy systems used",
+              "display_order": 3
+            },
+            {
+              "keyword": "reversibility",
+              "definition": "fitness gains are lost if training stops — 'use it or lose it'",
+              "display_order": 4
+            },
+            {
+              "keyword": "individual differences",
+              "definition": "training should be tailored to the individual's needs, ability, and goals",
+              "display_order": 5
+            },
+            {
+              "keyword": "aerobic capacity (VO₂ max)",
+              "definition": "the maximum amount of oxygen the body can use during intense exercise — a measure of cardiovascular fitness",
+              "display_order": 6
+            },
+            {
+              "keyword": "interval training",
+              "definition": "alternating periods of high-intensity work and rest — improves both aerobic and anaerobic fitness",
+              "display_order": 7
+            },
+            {
+              "keyword": "circuit training",
+              "definition": "a series of different exercises performed at stations — develops all-round fitness",
+              "display_order": 8
+            },
+            {
+              "keyword": "plyometrics",
+              "definition": "explosive jumping exercises that improve muscular power — e.g. box jumps, depth jumps",
+              "display_order": 9
+            },
+            {
+              "keyword": "RICE treatment",
+              "definition": "Rest, Ice, Compression, Elevation — first aid treatment for soft tissue injuries",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does FITT stand for?",
+              "options": [
+                "A) Flexibility, Intensity, Time, Training",
+                "B) Frequency, Intensity, Time, Type",
+                "C) Fitness, Intervals, Training, Technique",
+                "D) Force, Intensity, Training, Time"
+              ],
+              "correct_answer": "B",
+              "explanation": "FITT principle: Frequency (how often), Intensity (how hard), Time (how long), Type (what kind of training).",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is progressive overload?",
+              "options": [
+                "A) Training as hard as possible from day one",
+                "B) Reducing training load over time",
+                "C) Gradually increasing training demands so the body continues to adapt",
+                "D) Performing the same training every session"
+              ],
+              "correct_answer": "C",
+              "explanation": "Progressive overload ensures the body is continually challenged — adaptations occur only when training exceeds what the body is used to.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is specificity in training?",
+              "options": [
+                "A) Training as many muscles as possible",
+                "B) Training designed for the specific demands of a sport and its muscles/energy systems",
+                "C) Avoiding overtraining",
+                "D) Training at the same intensity every session"
+              ],
+              "correct_answer": "B",
+              "explanation": "Specificity: a swimmer should train their swimming muscles and energy systems — not just general fitness.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is reversibility?",
+              "options": [
+                "A) Fitness gains are permanent",
+                "B) Fitness levels can be improved by reversing training methods",
+                "C) Fitness gains are lost if training stops",
+                "D) Training too hard causes injury"
+              ],
+              "correct_answer": "C",
+              "explanation": "Reversibility ('use it or lose it'): without training, adaptations gained reverse — fitness decreases relatively quickly.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is VO₂ max?",
+              "options": [
+                "A) Maximum weight lifted in training",
+                "B) Maximum heart rate during exercise",
+                "C) Maximum oxygen the body can use during intense exercise",
+                "D) Volume of air breathed per minute"
+              ],
+              "correct_answer": "C",
+              "explanation": "VO₂ max is the gold standard measure of cardiovascular fitness — elite endurance athletes have much higher VO₂ max than untrained individuals.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is interval training?",
+              "options": [
+                "A) Training at a single steady pace",
+                "B) Alternating periods of high-intensity work and rest",
+                "C) Training at maximum intensity only",
+                "D) A circuit of different exercises"
+              ],
+              "correct_answer": "B",
+              "explanation": "Interval training improves both aerobic and anaerobic fitness — the high-intensity periods stress the anaerobic system; recovery periods stress aerobic recovery.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is plyometrics?",
+              "options": [
+                "A) Stretching exercises for flexibility",
+                "B) Endurance running training",
+                "C) Explosive jumping exercises improving muscular power",
+                "D) Weight training for strength"
+              ],
+              "correct_answer": "C",
+              "explanation": "Plyometrics uses the stretch-shortening cycle — rapid eccentric loading followed by explosive concentric contraction — to develop power.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is RICE treatment?",
+              "options": [
+                "A) A type of training method",
+                "B) Rest, Intensity, Compression, Elevation",
+                "C) Rest, Ice, Compression, Elevation — first aid for soft tissue injuries",
+                "D) A warm-up method"
+              ],
+              "correct_answer": "C",
+              "explanation": "RICE: Rest (stop activity), Ice (reduce swelling), Compression (support), Elevation (reduce blood flow) — immediate treatment for sprains and strains.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is circuit training?",
+              "options": [
+                "A) Running in circuits",
+                "B) A series of different exercises at stations improving all-round fitness",
+                "C) Interval training on a track",
+                "D) Resistance training for one muscle group"
+              ],
+              "correct_answer": "B",
+              "explanation": "Circuit training involves moving between stations of different exercises — targeting different muscle groups and fitness components in one session.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does individual differences mean in training?",
+              "options": [
+                "A) All athletes should follow the same programme",
+                "B) Training must be tailored to the individual's needs, ability, and goals",
+                "C) Only professional athletes need individual programmes",
+                "D) Training differences between male and female athletes only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Individual differences: a beginner needs a different programme from an elite athlete — age, fitness level, goals, and health status all influence training design.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "FITT stands for Frequency, Intensity, Time, and Type.",
+              "correct_answer": "True",
+              "explanation": "These four variables are manipulated when designing and progressing a training programme.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Progressive overload means training at the same level every session.",
+              "correct_answer": "False",
+              "explanation": "Progressive overload means GRADUALLY INCREASING the demands — the body must be challenged beyond its current capacity to continue adapting.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Specificity means training should match the demands of the sport.",
+              "correct_answer": "True",
+              "explanation": "A sprinter should train differently from a marathon runner — different muscles and energy systems are required.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Reversibility means fitness gains are permanent.",
+              "correct_answer": "False",
+              "explanation": "Reversibility means fitness gains ARE LOST if training stops — 'use it or lose it'.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "VO₂ max is a measure of muscular strength.",
+              "correct_answer": "False",
+              "explanation": "VO₂ max measures CARDIOVASCULAR fitness — the maximum oxygen the body can use during intense exercise.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Interval training alternates high-intensity work with rest periods.",
+              "correct_answer": "True",
+              "explanation": "Interval training improves both aerobic and anaerobic fitness through work-rest cycles.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Plyometrics develops cardiovascular endurance.",
+              "correct_answer": "False",
+              "explanation": "Plyometrics develops MUSCULAR POWER through explosive jumping and stretch-shortening cycle exercises.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "RICE treatment includes Rest, Ice, Compression, and Elevation.",
+              "correct_answer": "True",
+              "explanation": "RICE is the standard first aid for soft tissue injuries such as sprains and strains.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Circuit training focuses on one muscle group at a time.",
+              "correct_answer": "False",
+              "explanation": "Circuit training targets multiple fitness components and muscle groups through a variety of exercises at different stations.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Individual differences mean all athletes should follow identical training programmes.",
+              "correct_answer": "False",
+              "explanation": "Training must be tailored to the individual's needs, fitness level, age, and goals.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "FITT stands for Frequency, Intensity, Time, and ________.",
+              "correct_answer": "Type",
+              "explanation": "These four variables are adjusted when designing and progressing a training programme.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ overload: gradually increasing training demands so the body continues to adapt.",
+              "correct_answer": "Progressive",
+              "explanation": "Without overload, the body has no reason to adapt — fitness plateaus.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ means training should match the specific demands of the sport.",
+              "correct_answer": "Specificity",
+              "explanation": "A cyclist should train the muscles and energy systems used in cycling.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ means fitness gains are lost if training stops — 'use it or lose it'.",
+              "correct_answer": "Reversibility",
+              "explanation": "Cardiovascular fitness decreases relatively quickly when training stops.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ max is the maximum oxygen the body can use — a measure of cardiovascular fitness.",
+              "correct_answer": "VO₂",
+              "explanation": "Elite endurance athletes have VO₂ max values much higher than untrained individuals.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ training alternates high-intensity work with rest or recovery periods.",
+              "correct_answer": "Interval",
+              "explanation": "Interval training develops both aerobic and anaerobic fitness.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are explosive jumping exercises developing muscular power.",
+              "correct_answer": "Plyometrics",
+              "explanation": "Plyometrics uses the stretch-shortening cycle to develop explosive power.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "RICE: Rest, Ice, ________, Elevation — first aid for soft tissue injuries.",
+              "correct_answer": "Compression",
+              "explanation": "Compression reduces swelling; elevation reduces blood flow to the injured area.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ training uses a series of exercise stations to develop all-round fitness.",
+              "correct_answer": "Circuit",
+              "explanation": "Circuit training targets different muscle groups and fitness components in one session.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ differences mean training must be tailored to the individual's needs and goals.",
+              "correct_answer": "Individual",
+              "explanation": "Age, fitness level, health status, and goals all influence appropriate training.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "FITT principle",
+                  "match": "Frequency, Intensity, Time, Type"
+                },
+                {
+                  "term": "progressive overload",
+                  "match": "gradually increase demands — body continues to adapt"
+                },
+                {
+                  "term": "specificity",
+                  "match": "training matches demands of the sport"
+                },
+                {
+                  "term": "reversibility",
+                  "match": "fitness lost if training stops — use it or lose it"
+                },
+                {
+                  "term": "VO₂ max",
+                  "match": "max oxygen use — gold standard of cardiovascular fitness"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sport Psychology",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Motivation, Aggression & Mental Health",
+          "cards": [
+            {
+              "keyword": "motivation",
+              "definition": "the drive to achieve a goal — intrinsic (from within) or extrinsic (from external rewards)",
+              "display_order": 1
+            },
+            {
+              "keyword": "intrinsic motivation",
+              "definition": "motivation driven by internal satisfaction — enjoyment, personal achievement, mastery",
+              "display_order": 2
+            },
+            {
+              "keyword": "extrinsic motivation",
+              "definition": "motivation driven by external rewards — trophies, money, praise",
+              "display_order": 3
+            },
+            {
+              "keyword": "aggression",
+              "definition": "deliberately harming another person physically or psychologically — outside the rules",
+              "display_order": 4
+            },
+            {
+              "keyword": "assertion",
+              "definition": "forceful, competitive play within the rules — not the same as aggression",
+              "display_order": 5
+            },
+            {
+              "keyword": "arousal",
+              "definition": "a state of mental and physical activation — affects performance",
+              "display_order": 6
+            },
+            {
+              "keyword": "inverted U theory",
+              "definition": "Yerkes-Dodson — performance improves with arousal up to an optimum, then declines if over-aroused",
+              "display_order": 7
+            },
+            {
+              "keyword": "goal setting",
+              "definition": "SMART goals — Specific, Measurable, Achievable, Realistic, Time-bound — improves motivation",
+              "display_order": 8
+            },
+            {
+              "keyword": "mental health benefits",
+              "definition": "regular exercise reduces anxiety and depression — improves mood, self-esteem, and sleep",
+              "display_order": 9
+            },
+            {
+              "keyword": "social facilitation",
+              "definition": "performance improves in the presence of an audience — for well-learned skills; declines for new skills",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is intrinsic motivation?",
+              "options": [
+                "A) Motivation from trophies and money",
+                "B) Motivation from praise from a coach",
+                "C) Internal motivation from enjoyment and personal satisfaction",
+                "D) Motivation from competitive goals"
+              ],
+              "correct_answer": "C",
+              "explanation": "Intrinsic motivation comes from within — playing for the love of the sport, personal challenge, and the satisfaction of improvement.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the inverted U theory?",
+              "options": [
+                "A) Performance decreases as arousal increases",
+                "B) Performance increases with any amount of arousal",
+                "C) Performance improves with increasing arousal up to an optimum, then declines",
+                "D) Arousal has no effect on performance"
+              ],
+              "correct_answer": "C",
+              "explanation": "Yerkes-Dodson: too little arousal = under-performance; optimal arousal = best performance; too much arousal = anxiety and declining performance.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between aggression and assertion?",
+              "options": [
+                "A) Both are the same",
+                "B) Assertion involves harm; aggression is within the rules",
+                "C) Aggression deliberately harms; assertion is forceful but within the rules",
+                "D) Assertion is only verbal; aggression is physical"
+              ],
+              "correct_answer": "C",
+              "explanation": "Aggression deliberately harms — it is outside the rules. Assertion is competitive, forceful play within the rules — e.g. a hard but fair tackle.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are SMART goals?",
+              "options": [
+                "A) Simple, Measurable, Accurate, Realistic, Timely",
+                "B) Specific, Measurable, Achievable, Realistic, Time-bound",
+                "C) Strategic, Motivating, Achievable, Rewarding, Timely",
+                "D) Set, Manage, Assess, Record, Track"
+              ],
+              "correct_answer": "B",
+              "explanation": "SMART goal setting: Specific (clear), Measurable (trackable), Achievable (possible), Realistic (appropriate), Time-bound (deadline).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is social facilitation?",
+              "options": [
+                "A) Playing better alone",
+                "B) Performance improving in the presence of an audience — for well-learned skills",
+                "C) Working cooperatively in a team",
+                "D) Improving through social media"
+              ],
+              "correct_answer": "B",
+              "explanation": "Zajonc's social facilitation: an audience improves performance of dominant (well-learned) responses but impairs performance of non-dominant (novel) skills.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What mental health benefits does exercise provide?",
+              "options": [
+                "A) Increases anxiety in the short term",
+                "B) Only benefits physical health",
+                "C) Reduces anxiety and depression — improves mood, self-esteem, and sleep",
+                "D) Mental health benefits only occur in elite athletes"
+              ],
+              "correct_answer": "C",
+              "explanation": "Regular exercise releases endorphins, reduces stress hormones, improves sleep quality, and boosts self-esteem — well-evidenced mental health benefits.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is extrinsic motivation?",
+              "options": [
+                "A) Internal satisfaction from sport",
+                "B) Motivation from enjoyment and mastery",
+                "C) Motivation from external rewards — trophies, money, or praise",
+                "D) Motivation to beat personal records"
+              ],
+              "correct_answer": "C",
+              "explanation": "Extrinsic motivation comes from outside — medals, prizes, praise, or recognition. Over-reliance on extrinsic rewards can undermine intrinsic motivation.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to performance if arousal is too high according to inverted U theory?",
+              "options": [
+                "A) Performance continues to improve",
+                "B) Performance stays the same",
+                "C) Performance declines — anxiety and over-arousal impair execution",
+                "D) Performance improves then stays stable"
+              ],
+              "correct_answer": "C",
+              "explanation": "Above the optimal arousal level, performance declines — muscles tighten, decision-making worsens, and anxiety disrupts skill execution.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is goal setting used for in sport?",
+              "options": [
+                "A) To measure fitness only",
+                "B) To improve motivation and focus — SMART goals direct effort",
+                "C) To select team members",
+                "D) To measure arousal levels"
+              ],
+              "correct_answer": "B",
+              "explanation": "Goal setting directs effort, increases persistence, and improves motivation — SMART goals make progress measurable and achievable.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is arousal in the context of sport?",
+              "options": [
+                "A) The level of physical fitness",
+                "B) A state of mental and physical activation affecting performance",
+                "C) A measure of aggression",
+                "D) The level of social support"
+              ],
+              "correct_answer": "B",
+              "explanation": "Arousal is a state of physiological and psychological readiness — too little leads to poor performance; too much leads to anxiety. The optimal level varies by sport and individual.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Intrinsic motivation comes from external rewards.",
+              "correct_answer": "False",
+              "explanation": "Intrinsic motivation comes from WITHIN — enjoyment, personal achievement, and the love of the activity.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The inverted U theory states performance always improves with more arousal.",
+              "correct_answer": "False",
+              "explanation": "The inverted U theory shows performance DECLINES above the optimal arousal level.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Aggression and assertion are the same thing.",
+              "correct_answer": "False",
+              "explanation": "Aggression involves deliberate harm outside the rules. Assertion is forceful but within the rules.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "SMART goals include being Specific and Measurable.",
+              "correct_answer": "True",
+              "explanation": "SMART: Specific, Measurable, Achievable, Realistic, Time-bound.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Social facilitation always improves performance.",
+              "correct_answer": "False",
+              "explanation": "Social facilitation improves performance of WELL-LEARNED skills but impairs performance of NEW or COMPLEX skills.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Regular exercise has proven mental health benefits.",
+              "correct_answer": "True",
+              "explanation": "Exercise reduces anxiety and depression, improves mood, boosts self-esteem, and enhances sleep quality.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Extrinsic motivation involves internal satisfaction.",
+              "correct_answer": "False",
+              "explanation": "Extrinsic motivation comes from EXTERNAL sources — trophies, money, praise.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Optimal arousal level is the same for all sports.",
+              "correct_answer": "False",
+              "explanation": "Optimal arousal varies — contact sports require higher arousal; precision sports (archery) require lower arousal.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Over-reliance on extrinsic rewards can undermine intrinsic motivation.",
+              "correct_answer": "True",
+              "explanation": "When external rewards are removed, motivation may drop below original levels — this is the overjustification effect.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Goal setting using SMART criteria improves motivation and performance.",
+              "correct_answer": "True",
+              "explanation": "SMART goals provide clear targets, measurable progress, and appropriate challenge — all of which improve motivation.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ motivation comes from within — enjoyment and personal satisfaction.",
+              "correct_answer": "Intrinsic",
+              "explanation": "Intrinsically motivated athletes play for the love of the sport, not for external rewards.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ motivation comes from external rewards — trophies, money, praise.",
+              "correct_answer": "Extrinsic",
+              "explanation": "Extrinsic rewards can be effective short-term but may undermine intrinsic motivation if overused.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ deliberately harms another person and is outside the rules.",
+              "correct_answer": "Aggression",
+              "explanation": "Aggression in sport violates the rules and may result in penalties or disciplinary action.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is forceful, competitive play within the rules — not the same as aggression.",
+              "correct_answer": "Assertion",
+              "explanation": "A hard but fair tackle is assertion, not aggression.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The inverted ________ theory shows performance peaks at optimal arousal then declines.",
+              "correct_answer": "U",
+              "explanation": "Yerkes-Dodson: too little or too much arousal both lead to poor performance.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "SMART stands for Specific, Measurable, ________, Realistic, Time-bound.",
+              "correct_answer": "Achievable",
+              "explanation": "SMART goals make progress trackable and targets appropriately challenging.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Social ________ improves performance of well-learned skills in front of an audience.",
+              "correct_answer": "facilitation",
+              "explanation": "Zajonc: audiences enhance dominant responses but impair non-dominant (new) skills.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Regular exercise reduces ________ and depression — proven mental health benefits.",
+              "correct_answer": "anxiety",
+              "explanation": "Exercise releases endorphins and reduces cortisol — improving mood and mental wellbeing.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a state of mental and physical activation that affects performance.",
+              "correct_answer": "Arousal",
+              "explanation": "Optimal arousal varies by sport — too little or too much impairs performance.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "SMART ________ setting directs effort and increases motivation and persistence.",
+              "correct_answer": "goal",
+              "explanation": "Clear, achievable goals with deadlines give athletes focus and measurable progress.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "intrinsic motivation",
+                  "match": "internal — enjoyment, mastery, personal satisfaction"
+                },
+                {
+                  "term": "extrinsic motivation",
+                  "match": "external — trophies, money, praise"
+                },
+                {
+                  "term": "inverted U theory",
+                  "match": "performance peaks at optimal arousal — declines above it"
+                },
+                {
+                  "term": "aggression",
+                  "match": "deliberate harm — outside the rules"
+                },
+                {
+                  "term": "SMART goals",
+                  "match": "Specific, Measurable, Achievable, Realistic, Time-bound"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

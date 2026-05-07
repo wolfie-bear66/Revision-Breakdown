@@ -1,0 +1,1010 @@
+{
+  "subject": {
+    "name": "German",
+    "slug": "german",
+    "colour": "#d97706"
+  },
+  "topics": [
+    {
+      "name": "Identity & Culture — Me, My Family & Friends",
+      "paper": "Paper 1 & 2",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Family & Relationships Vocabulary",
+          "cards": [
+            {
+              "keyword": "die Familie",
+              "definition": "the family",
+              "display_order": 1
+            },
+            {
+              "keyword": "die Eltern",
+              "definition": "the parents",
+              "display_order": 2
+            },
+            {
+              "keyword": "der Bruder",
+              "definition": "the brother",
+              "display_order": 3
+            },
+            {
+              "keyword": "die Schwester",
+              "definition": "the sister",
+              "display_order": 4
+            },
+            {
+              "keyword": "der Sohn",
+              "definition": "the son",
+              "display_order": 5
+            },
+            {
+              "keyword": "die Tochter",
+              "definition": "the daughter",
+              "display_order": 6
+            },
+            {
+              "keyword": "der Mann / der Ehemann",
+              "definition": "the man / the husband",
+              "display_order": 7
+            },
+            {
+              "keyword": "die Frau / die Ehefrau",
+              "definition": "the woman / the wife",
+              "display_order": 8
+            },
+            {
+              "keyword": "der Freund / die Freundin",
+              "definition": "the boyfriend / girlfriend (also: friend)",
+              "display_order": 9
+            },
+            {
+              "keyword": "heiraten",
+              "definition": "to get married",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Personality & Character",
+          "cards": [
+            {
+              "keyword": "nett",
+              "definition": "nice / kind",
+              "display_order": 1
+            },
+            {
+              "keyword": "freundlich",
+              "definition": "friendly",
+              "display_order": 2
+            },
+            {
+              "keyword": "lustig",
+              "definition": "funny / amusing",
+              "display_order": 3
+            },
+            {
+              "keyword": "gesprächig",
+              "definition": "chatty / talkative",
+              "display_order": 4
+            },
+            {
+              "keyword": "schüchtern",
+              "definition": "shy / timid",
+              "display_order": 5
+            },
+            {
+              "keyword": "faul",
+              "definition": "lazy",
+              "display_order": 6
+            },
+            {
+              "keyword": "fleißig",
+              "definition": "hardworking / diligent",
+              "display_order": 7
+            },
+            {
+              "keyword": "egoistisch",
+              "definition": "selfish",
+              "display_order": 8
+            },
+            {
+              "keyword": "ehrlich",
+              "definition": "honest",
+              "display_order": 9
+            },
+            {
+              "keyword": "sich streiten",
+              "definition": "to argue / quarrel",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Relationships & Social Media",
+          "cards": [
+            {
+              "keyword": "die Freundschaft",
+              "definition": "friendship",
+              "display_order": 1
+            },
+            {
+              "keyword": "das Vertrauen",
+              "definition": "trust / confidence",
+              "display_order": 2
+            },
+            {
+              "keyword": "teilen",
+              "definition": "to share",
+              "display_order": 3
+            },
+            {
+              "keyword": "unterstützen",
+              "definition": "to support",
+              "display_order": 4
+            },
+            {
+              "keyword": "das soziale Netzwerk",
+              "definition": "the social network",
+              "display_order": 5
+            },
+            {
+              "keyword": "das Handy",
+              "definition": "the mobile phone",
+              "display_order": 6
+            },
+            {
+              "keyword": "herunterladen",
+              "definition": "to download",
+              "display_order": 7
+            },
+            {
+              "keyword": "online",
+              "definition": "online",
+              "display_order": 8
+            },
+            {
+              "keyword": "das Mobbing",
+              "definition": "bullying / harassment",
+              "display_order": 9
+            },
+            {
+              "keyword": "das Cybermobbing",
+              "definition": "cyberbullying",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Identity & Culture — Technology",
+      "paper": "Paper 1 & 2",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Technology & Internet Vocabulary",
+          "cards": [
+            {
+              "keyword": "der Computer",
+              "definition": "the computer",
+              "display_order": 1
+            },
+            {
+              "keyword": "das Tablet",
+              "definition": "the tablet",
+              "display_order": 2
+            },
+            {
+              "keyword": "im Internet surfen",
+              "definition": "to surf the internet",
+              "display_order": 3
+            },
+            {
+              "keyword": "eine Nachricht senden",
+              "definition": "to send a message",
+              "display_order": 4
+            },
+            {
+              "keyword": "das Videospiel",
+              "definition": "the video game",
+              "display_order": 5
+            },
+            {
+              "keyword": "die sozialen Medien",
+              "definition": "social media",
+              "display_order": 6
+            },
+            {
+              "keyword": "die App",
+              "definition": "the app / application",
+              "display_order": 7
+            },
+            {
+              "keyword": "das Passwort",
+              "definition": "the password",
+              "display_order": 8
+            },
+            {
+              "keyword": "die Privatsphäre",
+              "definition": "privacy",
+              "display_order": 9
+            },
+            {
+              "keyword": "digital",
+              "definition": "digital",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Identity & Culture — Free Time",
+      "paper": "Paper 1 & 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Hobbies & Free Time Vocabulary",
+          "cards": [
+            {
+              "keyword": "die Freizeit",
+              "definition": "free time / leisure",
+              "display_order": 1
+            },
+            {
+              "keyword": "Fußball spielen",
+              "definition": "to play football",
+              "display_order": 2
+            },
+            {
+              "keyword": "schwimmen",
+              "definition": "to swim",
+              "display_order": 3
+            },
+            {
+              "keyword": "lesen",
+              "definition": "to read",
+              "display_order": 4
+            },
+            {
+              "keyword": "Musik hören",
+              "definition": "to listen to music",
+              "display_order": 5
+            },
+            {
+              "keyword": "fernsehen",
+              "definition": "to watch TV",
+              "display_order": 6
+            },
+            {
+              "keyword": "einkaufen gehen",
+              "definition": "to go shopping",
+              "display_order": 7
+            },
+            {
+              "keyword": "sich erholen",
+              "definition": "to rest / relax",
+              "display_order": 8
+            },
+            {
+              "keyword": "das Spiel / das Match",
+              "definition": "the game / the match",
+              "display_order": 9
+            },
+            {
+              "keyword": "die Mannschaft",
+              "definition": "the team",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Music, Film & Culture",
+          "cards": [
+            {
+              "keyword": "der Sänger / die Sängerin",
+              "definition": "the singer (male / female)",
+              "display_order": 1
+            },
+            {
+              "keyword": "die Band / die Gruppe",
+              "definition": "the band / group",
+              "display_order": 2
+            },
+            {
+              "keyword": "der Actionfilm",
+              "definition": "the action film",
+              "display_order": 3
+            },
+            {
+              "keyword": "die Komödie",
+              "definition": "the comedy",
+              "display_order": 4
+            },
+            {
+              "keyword": "der Zeichentrickfilm",
+              "definition": "the cartoon / animated film",
+              "display_order": 5
+            },
+            {
+              "keyword": "der Star",
+              "definition": "the (film/pop) star",
+              "display_order": 6
+            },
+            {
+              "keyword": "spannend",
+              "definition": "exciting / gripping",
+              "display_order": 7
+            },
+            {
+              "keyword": "langweilig",
+              "definition": "boring",
+              "display_order": 8
+            },
+            {
+              "keyword": "unterhaltsam",
+              "definition": "entertaining",
+              "display_order": 9
+            },
+            {
+              "keyword": "die Sendung",
+              "definition": "the TV programme / broadcast",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Local Area, Holiday & Travel",
+      "paper": "Paper 1 & 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Town & Local Area",
+          "cards": [
+            {
+              "keyword": "in der Stadt",
+              "definition": "in the city / town",
+              "display_order": 1
+            },
+            {
+              "keyword": "die Vorstadt / der Vorort",
+              "definition": "the suburb / outskirts",
+              "display_order": 2
+            },
+            {
+              "keyword": "auf dem Land",
+              "definition": "in the countryside",
+              "display_order": 3
+            },
+            {
+              "keyword": "an der Küste",
+              "definition": "at the coast / seaside",
+              "display_order": 4
+            },
+            {
+              "keyword": "das Rathaus",
+              "definition": "the town hall",
+              "display_order": 5
+            },
+            {
+              "keyword": "das Fremdenverkehrsbüro",
+              "definition": "the tourist information office",
+              "display_order": 6
+            },
+            {
+              "keyword": "lebhaft",
+              "definition": "lively / busy",
+              "display_order": 7
+            },
+            {
+              "keyword": "ruhig",
+              "definition": "calm / quiet",
+              "display_order": 8
+            },
+            {
+              "keyword": "verschmutzt",
+              "definition": "polluted",
+              "display_order": 9
+            },
+            {
+              "keyword": "sauber",
+              "definition": "clean",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Travel & Transport",
+          "cards": [
+            {
+              "keyword": "das Flugzeug",
+              "definition": "the plane",
+              "display_order": 1
+            },
+            {
+              "keyword": "der Zug",
+              "definition": "the train",
+              "display_order": 2
+            },
+            {
+              "keyword": "der Bus / der Reisebus",
+              "definition": "the bus / the coach",
+              "display_order": 3
+            },
+            {
+              "keyword": "das Auto",
+              "definition": "the car",
+              "display_order": 4
+            },
+            {
+              "keyword": "zu Fuß",
+              "definition": "on foot",
+              "display_order": 5
+            },
+            {
+              "keyword": "der Bahnhof",
+              "definition": "the train station",
+              "display_order": 6
+            },
+            {
+              "keyword": "der Flughafen",
+              "definition": "the airport",
+              "display_order": 7
+            },
+            {
+              "keyword": "eine Hin- und Rückfahrkarte",
+              "definition": "a return ticket",
+              "display_order": 8
+            },
+            {
+              "keyword": "mieten",
+              "definition": "to hire / rent",
+              "display_order": 9
+            },
+            {
+              "keyword": "die öffentlichen Verkehrsmittel",
+              "definition": "public transport",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Holiday & Accommodation",
+          "cards": [
+            {
+              "keyword": "der Urlaub / die Ferien",
+              "definition": "the holiday / holidays",
+              "display_order": 1
+            },
+            {
+              "keyword": "das Hotel",
+              "definition": "the hotel",
+              "display_order": 2
+            },
+            {
+              "keyword": "die Jugendherberge",
+              "definition": "the youth hostel",
+              "display_order": 3
+            },
+            {
+              "keyword": "der Campingplatz",
+              "definition": "the campsite",
+              "display_order": 4
+            },
+            {
+              "keyword": "buchen / reservieren",
+              "definition": "to book / reserve",
+              "display_order": 5
+            },
+            {
+              "keyword": "ein Doppelzimmer",
+              "definition": "a double room",
+              "display_order": 6
+            },
+            {
+              "keyword": "die Halbpension",
+              "definition": "half board (breakfast + one meal)",
+              "display_order": 7
+            },
+            {
+              "keyword": "sich sonnen",
+              "definition": "to sunbathe",
+              "display_order": 8
+            },
+            {
+              "keyword": "besichtigen",
+              "definition": "to visit / sightsee (a place)",
+              "display_order": 9
+            },
+            {
+              "keyword": "unvergesslich",
+              "definition": "unforgettable",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "School & Future Plans",
+      "paper": "Paper 1 & 2",
+      "display_order": 5,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "School Subjects & Opinions",
+          "cards": [
+            {
+              "keyword": "die Mathematik",
+              "definition": "mathematics / maths",
+              "display_order": 1
+            },
+            {
+              "keyword": "die Naturwissenschaften",
+              "definition": "science / natural sciences",
+              "display_order": 2
+            },
+            {
+              "keyword": "die Geschichte",
+              "definition": "history",
+              "display_order": 3
+            },
+            {
+              "keyword": "die Erdkunde / Geografie",
+              "definition": "geography",
+              "display_order": 4
+            },
+            {
+              "keyword": "die Informatik",
+              "definition": "computing / ICT",
+              "display_order": 5
+            },
+            {
+              "keyword": "nützlich",
+              "definition": "useful",
+              "display_order": 6
+            },
+            {
+              "keyword": "nutzlos",
+              "definition": "useless",
+              "display_order": 7
+            },
+            {
+              "keyword": "schwierig / schwer",
+              "definition": "difficult / hard",
+              "display_order": 8
+            },
+            {
+              "keyword": "leicht / einfach",
+              "definition": "easy",
+              "display_order": 9
+            },
+            {
+              "keyword": "sich verbessern",
+              "definition": "to improve (oneself)",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "School Life & Rules",
+          "cards": [
+            {
+              "keyword": "die Regeln",
+              "definition": "the rules / regulations",
+              "display_order": 1
+            },
+            {
+              "keyword": "die Schuluniform",
+              "definition": "the school uniform",
+              "display_order": 2
+            },
+            {
+              "keyword": "die Pause",
+              "definition": "break time",
+              "display_order": 3
+            },
+            {
+              "keyword": "die Stunde / der Unterricht",
+              "definition": "the lesson",
+              "display_order": 4
+            },
+            {
+              "keyword": "die Prüfung / das Examen",
+              "definition": "the exam",
+              "display_order": 5
+            },
+            {
+              "keyword": "bestehen",
+              "definition": "to pass (an exam)",
+              "display_order": 6
+            },
+            {
+              "keyword": "durchfallen",
+              "definition": "to fail (an exam)",
+              "display_order": 7
+            },
+            {
+              "keyword": "eine Klasse wiederholen",
+              "definition": "to repeat a year",
+              "display_order": 8
+            },
+            {
+              "keyword": "verboten",
+              "definition": "forbidden / not allowed",
+              "display_order": 9
+            },
+            {
+              "keyword": "obligatorisch / Pflicht-",
+              "definition": "compulsory / obligatory",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Jobs & Future Plans",
+          "cards": [
+            {
+              "keyword": "der Beruf / die Stelle",
+              "definition": "the job / profession / position",
+              "display_order": 1
+            },
+            {
+              "keyword": "die Arbeit / der Job",
+              "definition": "the work / the job",
+              "display_order": 2
+            },
+            {
+              "keyword": "arbeiten",
+              "definition": "to work",
+              "display_order": 3
+            },
+            {
+              "keyword": "verdienen",
+              "definition": "to earn",
+              "display_order": 4
+            },
+            {
+              "keyword": "das Gehalt / der Lohn",
+              "definition": "the salary / wage",
+              "display_order": 5
+            },
+            {
+              "keyword": "das Unternehmen / die Firma",
+              "definition": "the company / business",
+              "display_order": 6
+            },
+            {
+              "keyword": "Arbeit suchen",
+              "definition": "to look for work",
+              "display_order": 7
+            },
+            {
+              "keyword": "in der Zukunft",
+              "definition": "in the future",
+              "display_order": 8
+            },
+            {
+              "keyword": "ich möchte",
+              "definition": "I would like",
+              "display_order": 9
+            },
+            {
+              "keyword": "die Ausbildung",
+              "definition": "training / apprenticeship / vocational course",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Global Issues & Environment",
+      "paper": "Paper 1 & 2",
+      "display_order": 6,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Environment Vocabulary",
+          "cards": [
+            {
+              "keyword": "die Umwelt",
+              "definition": "the environment",
+              "display_order": 1
+            },
+            {
+              "keyword": "die Erderwärmung / der Klimawandel",
+              "definition": "global warming / climate change",
+              "display_order": 2
+            },
+            {
+              "keyword": "die Umweltverschmutzung",
+              "definition": "pollution",
+              "display_order": 3
+            },
+            {
+              "keyword": "der Müll / die Abfälle",
+              "definition": "waste / rubbish",
+              "display_order": 4
+            },
+            {
+              "keyword": "recyceln",
+              "definition": "to recycle",
+              "display_order": 5
+            },
+            {
+              "keyword": "sparen",
+              "definition": "to save / conserve (energy, water etc.)",
+              "display_order": 6
+            },
+            {
+              "keyword": "schützen",
+              "definition": "to protect",
+              "display_order": 7
+            },
+            {
+              "keyword": "die erneuerbaren Energien",
+              "definition": "renewable energies",
+              "display_order": 8
+            },
+            {
+              "keyword": "die Abholzung",
+              "definition": "deforestation",
+              "display_order": 9
+            },
+            {
+              "keyword": "eine bedrohte Art",
+              "definition": "an endangered species",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Global & Social Issues",
+          "cards": [
+            {
+              "keyword": "die Armut",
+              "definition": "poverty",
+              "display_order": 1
+            },
+            {
+              "keyword": "die Arbeitslosigkeit",
+              "definition": "unemployment",
+              "display_order": 2
+            },
+            {
+              "keyword": "obdachlos",
+              "definition": "homeless",
+              "display_order": 3
+            },
+            {
+              "keyword": "der Krieg",
+              "definition": "war",
+              "display_order": 4
+            },
+            {
+              "keyword": "der Frieden",
+              "definition": "peace",
+              "display_order": 5
+            },
+            {
+              "keyword": "die Menschenrechte",
+              "definition": "human rights",
+              "display_order": 6
+            },
+            {
+              "keyword": "die Gleichheit",
+              "definition": "equality",
+              "display_order": 7
+            },
+            {
+              "keyword": "der Rassismus",
+              "definition": "racism",
+              "display_order": 8
+            },
+            {
+              "keyword": "ehrenamtlich",
+              "definition": "voluntary / on a voluntary basis",
+              "display_order": 9
+            },
+            {
+              "keyword": "ehrenamtlich tätig sein",
+              "definition": "to do voluntary work",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Key Grammar — Verbs & Tenses",
+      "paper": "Paper 1 & 2",
+      "display_order": 7,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Essential Verbs",
+          "cards": [
+            {
+              "keyword": "sein",
+              "definition": "to be",
+              "display_order": 1
+            },
+            {
+              "keyword": "haben",
+              "definition": "to have",
+              "display_order": 2
+            },
+            {
+              "keyword": "gehen",
+              "definition": "to go",
+              "display_order": 3
+            },
+            {
+              "keyword": "machen / tun",
+              "definition": "to make / to do",
+              "display_order": 4
+            },
+            {
+              "keyword": "wollen",
+              "definition": "to want",
+              "display_order": 5
+            },
+            {
+              "keyword": "können",
+              "definition": "to be able to / can",
+              "display_order": 6
+            },
+            {
+              "keyword": "müssen",
+              "definition": "to have to / must",
+              "display_order": 7
+            },
+            {
+              "keyword": "wissen",
+              "definition": "to know (a fact)",
+              "display_order": 8
+            },
+            {
+              "keyword": "kommen",
+              "definition": "to come",
+              "display_order": 9
+            },
+            {
+              "keyword": "nehmen",
+              "definition": "to take",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Tense Markers & Time Phrases",
+          "cards": [
+            {
+              "keyword": "jetzt / gerade",
+              "definition": "now / at the moment",
+              "display_order": 1
+            },
+            {
+              "keyword": "heute",
+              "definition": "today",
+              "display_order": 2
+            },
+            {
+              "keyword": "gestern",
+              "definition": "yesterday",
+              "display_order": 3
+            },
+            {
+              "keyword": "morgen",
+              "definition": "tomorrow",
+              "display_order": 4
+            },
+            {
+              "keyword": "letzte Woche",
+              "definition": "last week",
+              "display_order": 5
+            },
+            {
+              "keyword": "nächstes Jahr",
+              "definition": "next year",
+              "display_order": 6
+            },
+            {
+              "keyword": "normalerweise",
+              "definition": "normally / usually",
+              "display_order": 7
+            },
+            {
+              "keyword": "kürzlich / neulich",
+              "definition": "recently",
+              "display_order": 8
+            },
+            {
+              "keyword": "früher",
+              "definition": "in the past / formerly",
+              "display_order": 9
+            },
+            {
+              "keyword": "in der Zukunft",
+              "definition": "in the future",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Opinion & Connective Phrases",
+          "cards": [
+            {
+              "keyword": "ich denke, dass",
+              "definition": "I think that",
+              "display_order": 1
+            },
+            {
+              "keyword": "ich glaube, dass",
+              "definition": "I believe that",
+              "display_order": 2
+            },
+            {
+              "keyword": "meiner Meinung nach",
+              "definition": "in my opinion",
+              "display_order": 3
+            },
+            {
+              "keyword": "meiner Ansicht nach",
+              "definition": "in my view / according to me",
+              "display_order": 4
+            },
+            {
+              "keyword": "jedoch / aber",
+              "definition": "however / but",
+              "display_order": 5
+            },
+            {
+              "keyword": "obwohl",
+              "definition": "although / even though",
+              "display_order": 6
+            },
+            {
+              "keyword": "andererseits",
+              "definition": "on the other hand",
+              "display_order": 7
+            },
+            {
+              "keyword": "zum Beispiel",
+              "definition": "for example",
+              "display_order": 8
+            },
+            {
+              "keyword": "deshalb / daher",
+              "definition": "therefore / that's why",
+              "display_order": 9
+            },
+            {
+              "keyword": "trotzdem / trotz",
+              "definition": "despite / nevertheless",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

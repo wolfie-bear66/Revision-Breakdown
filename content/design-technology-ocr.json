@@ -1,0 +1,72 @@
+{
+  "subject": {
+    "name": "Design & Technology (OCR)",
+    "slug": "design-technology-ocr",
+    "colour": "#b45309"
+  },
+  "topics": [
+    {
+      "name": "OCR D&T — Technical Principles",
+      "paper": "Component 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Electronic & Mechanical Systems (OCR)",
+          "cards": [
+            {
+              "keyword": "input → process → output",
+              "definition": "the systems model for electronic and mechanical products — input triggers a process that produces an output",
+              "display_order": 1
+            },
+            {
+              "keyword": "sensor",
+              "definition": "an input device that detects a change in the environment — e.g. LDR (light), thermistor (temperature), microphone (sound)",
+              "display_order": 2
+            },
+            {
+              "keyword": "LDR (light dependent resistor)",
+              "definition": "a component whose resistance decreases as light intensity increases — used in light-sensitive circuits",
+              "display_order": 3
+            },
+            {
+              "keyword": "thermistor",
+              "definition": "a component whose resistance changes with temperature — used in temperature-sensing circuits",
+              "display_order": 4
+            },
+            {
+              "keyword": "transistor",
+              "definition": "an electronic component used as a switch or amplifier — turns a circuit on when the base current reaches a threshold",
+              "display_order": 5
+            },
+            {
+              "keyword": "microcontroller",
+              "definition": "a programmable chip that can control electronic systems — e.g. Arduino. Takes inputs and controls outputs based on programmed logic",
+              "display_order": 6
+            },
+            {
+              "keyword": "CAD/CAM in D&T",
+              "definition": "Computer-Aided Design software is used to create designs, which are then manufactured using Computer-Aided Manufacture machines like laser cutters and CNC routers",
+              "display_order": 7
+            },
+            {
+              "keyword": "laser cutter",
+              "definition": "a CAM machine that cuts or engraves materials using a focused laser beam — precise and quick for sheet materials",
+              "display_order": 8
+            },
+            {
+              "keyword": "3D printer",
+              "definition": "a CAM machine that builds objects layer by layer from a digital design — used for prototyping and small batch production",
+              "display_order": 9
+            },
+            {
+              "keyword": "vacuum forming",
+              "definition": "a process where a heated thermoplastic sheet is stretched over a mould and a vacuum pulls it tight — used for packaging and trays",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

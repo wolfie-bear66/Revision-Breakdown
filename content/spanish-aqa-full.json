@@ -1,0 +1,735 @@
+{
+  "subject": {
+    "name": "Spanish",
+    "slug": "spanish",
+    "colour": "#c2410c",
+    "exam_board": "AQA",
+    "emoji": "🇪🇸"
+  },
+  "topics": [
+    {
+      "name": "Identity & Culture",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Family, Relationships & Daily Life",
+          "cards": [
+            {
+              "keyword": "la familia",
+              "definition": "family — los padres (parents), los hermanos (siblings), los abuelos (grandparents)",
+              "display_order": 1
+            },
+            {
+              "keyword": "el matrimonio",
+              "definition": "marriage — casarse (to get married), la boda (wedding), el marido/la mujer (husband/wife)",
+              "display_order": 2
+            },
+            {
+              "keyword": "el divorcio",
+              "definition": "divorce — divorciarse (to get divorced), separado/a (separated)",
+              "display_order": 3
+            },
+            {
+              "keyword": "la amistad",
+              "definition": "friendship — un/a amigo/a (a friend), llevarse bien con (to get on well with)",
+              "display_order": 4
+            },
+            {
+              "keyword": "las relaciones",
+              "definition": "relationships — salir con (to go out with), enamorarse de (to fall in love with)",
+              "display_order": 5
+            },
+            {
+              "keyword": "las tareas domésticas",
+              "definition": "household chores — fregar los platos (do the dishes), pasar la aspiradora (vacuum), hacer la cama (make the bed)",
+              "display_order": 6
+            },
+            {
+              "keyword": "el desayuno",
+              "definition": "breakfast — in Spain often a light meal — café con leche, tostadas",
+              "display_order": 7
+            },
+            {
+              "keyword": "el almuerzo / la comida",
+              "definition": "lunch — the main meal in Spain, usually eaten between 2–4pm",
+              "display_order": 8
+            },
+            {
+              "keyword": "la cena",
+              "definition": "dinner — a lighter evening meal, usually eaten late (9–11pm in Spain)",
+              "display_order": 9
+            },
+            {
+              "keyword": "la rutina diaria",
+              "definition": "daily routine — levantarse (get up), acostarse (go to bed), ducharse (have a shower)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does 'los padres' mean?",
+              "options": [
+                "A) Grandparents",
+                "B) Parents",
+                "C) Siblings",
+                "D) Relatives"
+              ],
+              "correct_answer": "B",
+              "explanation": "Los padres = parents. Los abuelos = grandparents. Los hermanos = siblings.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'casarse' mean?",
+              "options": [
+                "A) To get divorced",
+                "B) To get engaged",
+                "C) To get married",
+                "D) To move in together"
+              ],
+              "correct_answer": "C",
+              "explanation": "Casarse = to get married. Me caso el año que viene = I am getting married next year.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'llevarse bien con' mean?",
+              "options": [
+                "A) To argue with",
+                "B) To miss someone",
+                "C) To live with",
+                "D) To get on well with"
+              ],
+              "correct_answer": "D",
+              "explanation": "Llevarse bien con = to get on well with. Me llevo bien con mi hermano = I get on well with my brother.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'fregar los platos' mean?",
+              "options": [
+                "A) To make the bed",
+                "B) To do the dishes",
+                "C) To cook",
+                "D) To tidy the bedroom"
+              ],
+              "correct_answer": "B",
+              "explanation": "Fregar los platos = to do the dishes. Also lavar los platos. Fregar = to scrub/wash.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'la comida' in the Spanish meal schedule?",
+              "options": [
+                "A) Breakfast",
+                "B) Dinner",
+                "C) Lunch — the main meal in Spain",
+                "D) A snack"
+              ],
+              "correct_answer": "C",
+              "explanation": "La comida / el almuerzo = lunch — the main meal of the day in Spain, eaten between 2–4pm.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'acostarse' mean?",
+              "options": [
+                "A) To get up",
+                "B) To get dressed",
+                "C) To go to bed",
+                "D) To have breakfast"
+              ],
+              "correct_answer": "C",
+              "explanation": "Acostarse = to go to bed. Levantarse = to get up. Both are reflexive verbs.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'la amistad'?",
+              "options": [
+                "A) Love",
+                "B) Family",
+                "C) Friendship",
+                "D) Relationship"
+              ],
+              "correct_answer": "C",
+              "explanation": "La amistad = friendship. Un/a amigo/a = a friend. Mi mejor amigo/a = my best friend.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'salir con' mean?",
+              "options": [
+                "A) To go out from a place",
+                "B) To go out with (in a relationship)",
+                "C) To leave school",
+                "D) To go shopping"
+              ],
+              "correct_answer": "B",
+              "explanation": "Salir con = to go out with / to date. Salgo con alguien = I am going out with someone.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'la cena'?",
+              "options": [
+                "A) Breakfast",
+                "B) Lunch",
+                "C) Dinner/evening meal",
+                "D) Dessert"
+              ],
+              "correct_answer": "C",
+              "explanation": "La cena = dinner. In Spain, dinner is typically eaten late — often 9–11pm.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'ducharse' mean?",
+              "options": [
+                "A) To have a bath",
+                "B) To get dressed",
+                "C) To have a shower",
+                "D) To brush teeth"
+              ],
+              "correct_answer": "C",
+              "explanation": "Ducharse = to have a shower. Bañarse = to have a bath. Both are reflexive verbs.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Los padres means grandparents in Spanish.",
+              "correct_answer": "False",
+              "explanation": "Los padres = parents. Los abuelos = grandparents.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Casarse means to get divorced.",
+              "correct_answer": "False",
+              "explanation": "Casarse = to get married. Divorciarse = to get divorced.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Llevarse bien con means to get on well with.",
+              "correct_answer": "True",
+              "explanation": "Me llevo bien con mis padres = I get on well with my parents.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "La comida is the main meal of the day in Spain.",
+              "correct_answer": "True",
+              "explanation": "In Spain, la comida (lunch) is eaten 2–4pm and is traditionally the largest meal.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Fregar los platos means to make the bed.",
+              "correct_answer": "False",
+              "explanation": "Fregar los platos = to do the dishes. Hacer la cama = to make the bed.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Acostarse means to get up in the morning.",
+              "correct_answer": "False",
+              "explanation": "Acostarse = to go to bed. Levantarse = to get up.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "La amistad means friendship.",
+              "correct_answer": "True",
+              "explanation": "La amistad = friendship. Un/a amigo/a = a friend.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Salir con means to go shopping.",
+              "correct_answer": "False",
+              "explanation": "Salir con = to go out with (in a relationship). Ir de compras = to go shopping.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "La cena in Spain is typically eaten late in the evening.",
+              "correct_answer": "True",
+              "explanation": "Spanish dinner (la cena) is usually eaten between 9pm and 11pm.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Ducharse means to have a shower.",
+              "correct_answer": "True",
+              "explanation": "Ducharse = to have a shower. Me ducho cada mañana = I shower every morning.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "La ________ = family.",
+              "correct_answer": "familia",
+              "explanation": "La familia incluye los padres, los hermanos y los abuelos.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = to get married.",
+              "correct_answer": "Casarse",
+              "explanation": "Me gustaría casarme algún día = I would like to get married someday.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Llevarse ________ con = to get on well with.",
+              "correct_answer": "bien",
+              "explanation": "Me llevo bien con mis compañeros de clase = I get on well with my classmates.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Fregar los ________ = to do the dishes.",
+              "correct_answer": "platos",
+              "explanation": "Las tareas domésticas = household chores.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "La ________ = lunch — the main meal in Spain.",
+              "correct_answer": "comida",
+              "explanation": "En España, la comida es la comida principal del día.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = to go to bed.",
+              "correct_answer": "Acostarse",
+              "explanation": "Me acuesto a las diez = I go to bed at ten.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "La ________ = friendship.",
+              "correct_answer": "amistad",
+              "explanation": "La amistad es muy importante para mí = Friendship is very important to me.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ con = to go out with (in a relationship).",
+              "correct_answer": "Salir",
+              "explanation": "Salgo con alguien desde hace tres meses = I've been going out with someone for three months.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "La ________ = dinner — eaten late in Spain.",
+              "correct_answer": "cena",
+              "explanation": "La cena en España se sirve tarde, a veces a las once = Dinner in Spain is served late, sometimes at 11.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = to have a shower (reflexive verb).",
+              "correct_answer": "Ducharse",
+              "explanation": "Me ducho por la mañana = I have a shower in the morning.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "la familia",
+                  "match": "family — padres, hermanos, abuelos"
+                },
+                {
+                  "term": "casarse",
+                  "match": "to get married"
+                },
+                {
+                  "term": "llevarse bien con",
+                  "match": "to get on well with"
+                },
+                {
+                  "term": "fregar los platos",
+                  "match": "to do the dishes"
+                },
+                {
+                  "term": "acostarse",
+                  "match": "to go to bed"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spanish Grammar Essentials",
+      "paper": "All papers",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Key Grammar — Tenses & Structures",
+          "cards": [
+            {
+              "keyword": "presente",
+              "definition": "the present tense — hablar: hablo, hablas, habla, hablamos, habláis, hablan",
+              "display_order": 1
+            },
+            {
+              "keyword": "pretérito indefinido",
+              "definition": "the preterite — completed past actions — hablé (I spoke), fui (I went), comí (I ate)",
+              "display_order": 2
+            },
+            {
+              "keyword": "pretérito imperfecto",
+              "definition": "the imperfect — ongoing/habitual past — hablaba (I was speaking/used to speak)",
+              "display_order": 3
+            },
+            {
+              "keyword": "futuro inmediato",
+              "definition": "near future — ir a + infinitive — voy a hablar (I am going to speak)",
+              "display_order": 4
+            },
+            {
+              "keyword": "futuro simple",
+              "definition": "simple future — hablaré (I will speak), iré (I will go)",
+              "display_order": 5
+            },
+            {
+              "keyword": "condicional",
+              "definition": "conditional — would — me gustaría (I would like), hablaría (I would speak)",
+              "display_order": 6
+            },
+            {
+              "keyword": "los verbos reflexivos",
+              "definition": "reflexive verbs — action done to yourself — levantarse, ducharse, llamarse",
+              "display_order": 7
+            },
+            {
+              "keyword": "ser vs estar",
+              "definition": "two verbs meaning 'to be' — ser for permanent qualities; estar for temporary states and location",
+              "display_order": 8
+            },
+            {
+              "keyword": "los adjetivos",
+              "definition": "adjectives — must agree in gender and number — grande, grandes, pequeño/a",
+              "display_order": 9
+            },
+            {
+              "keyword": "la negación",
+              "definition": "negation — no (not), nunca (never), nada (nothing), nadie (nobody), tampoco (neither)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "How do you form the futuro inmediato?",
+              "options": [
+                "A) Haber + past participle",
+                "B) Ir a + infinitive",
+                "C) Infinitive + -é",
+                "D) Present tense of querer + infinitive"
+              ],
+              "correct_answer": "B",
+              "explanation": "Futuro inmediato = ir a + infinitive. Voy a estudiar = I am going to study.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between ser and estar?",
+              "options": [
+                "A) They are interchangeable",
+                "B) Ser is for places; estar is for people",
+                "C) Ser for permanent qualities; estar for temporary states and location",
+                "D) Ser is used in the past; estar in the present"
+              ],
+              "correct_answer": "C",
+              "explanation": "Ser: permanent (nationality, character, profession). Estar: temporary (emotions, health, location). Soy inglés / Estoy cansado.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the preterite (pretérito indefinido) used for?",
+              "options": [
+                "A) Ongoing past actions",
+                "B) Future events",
+                "C) Completed past actions",
+                "D) Habitual past actions"
+              ],
+              "correct_answer": "C",
+              "explanation": "The preterite is for completed single past actions: Fui al cine = I went to the cinema. Comí = I ate.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'me gustaría' mean?",
+              "options": [
+                "A) I like",
+                "B) I liked",
+                "C) I would like",
+                "D) I will like"
+              ],
+              "correct_answer": "C",
+              "explanation": "Me gustaría = I would like. It is the conditional of gustar — used for polite requests and preferences.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does 'gustar' work in Spanish?",
+              "options": [
+                "A) Like English — yo gusto el chocolate",
+                "B) The thing liked is the subject — me gusta el chocolate",
+                "C) It uses ser as auxiliary",
+                "D) It doesn't change form"
+              ],
+              "correct_answer": "B",
+              "explanation": "Gustar works backwards: me gusta (I like — lit. 'it pleases me'). Me gustan las películas (I like films — plural).",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the imperfect (imperfecto) used for?",
+              "options": [
+                "A) Completed single past events",
+                "B) Future plans",
+                "C) Ongoing/habitual past actions and descriptions",
+                "D) Polite requests"
+              ],
+              "correct_answer": "C",
+              "explanation": "The imperfect: Cuando era joven, jugaba al fútbol = When I was young, I used to play football. Also for descriptions.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'nunca' mean?",
+              "options": [
+                "A) Always",
+                "B) Sometimes",
+                "C) Never",
+                "D) Already"
+              ],
+              "correct_answer": "C",
+              "explanation": "Nunca = never. No voy nunca al cine = I never go to the cinema. (Double negative is correct in Spanish.)",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the rule for adjective agreement in Spanish?",
+              "options": [
+                "A) Adjectives never change",
+                "B) Adjectives agree in gender and number with the noun",
+                "C) All adjectives end in -o",
+                "D) Adjectives only change for plural"
+              ],
+              "correct_answer": "B",
+              "explanation": "Spanish adjectives agree: alto (m sg) → alta (f sg) → altos (m pl) → altas (f pl).",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do reflexive verbs work?",
+              "options": [
+                "A) They use haber as auxiliary",
+                "B) They are irregular verbs",
+                "C) The subject does the action to themselves — levantarse, ducharse",
+                "D) They only exist in the past tense"
+              ],
+              "correct_answer": "C",
+              "explanation": "Reflexive verbs use reflexive pronouns: me, te, se, nos, os, se. Me levanto = I get up.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the futur simple of 'hablar'?",
+              "options": [
+                "A) Hablaré",
+                "B) Hablé",
+                "C) Hablaba",
+                "D) Voy a hablar"
+              ],
+              "correct_answer": "A",
+              "explanation": "Futur simple: add endings to infinitive — hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Futuro inmediato uses ir a + infinitive.",
+              "correct_answer": "True",
+              "explanation": "Voy a visitar España el año que viene = I am going to visit Spain next year.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Ser and estar are interchangeable in Spanish.",
+              "correct_answer": "False",
+              "explanation": "Ser is for permanent characteristics; estar is for temporary states and location. They cannot be swapped.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The pretérito indefinido is used for completed single past actions.",
+              "correct_answer": "True",
+              "explanation": "Ayer fui al parque = Yesterday I went to the park.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Me gustaría means 'I like'.",
+              "correct_answer": "False",
+              "explanation": "Me gustaría = I would like (conditional). Me gusta = I like (present).",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Nunca requires the word 'no' before the verb in Spanish.",
+              "correct_answer": "True",
+              "explanation": "No voy nunca = I never go. Spanish uses double negatives — both no and nunca are required.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Spanish adjectives agree in gender and number with the noun.",
+              "correct_answer": "True",
+              "explanation": "Adjectives change form: alto/alta/altos/altas depending on the noun's gender and number.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Gustar works like English — yo gusto el chocolate.",
+              "correct_answer": "False",
+              "explanation": "Gustar works backwards: me gusta el chocolate (I like chocolate). The thing liked is the subject.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The imperfect is used for completed single events.",
+              "correct_answer": "False",
+              "explanation": "The imperfect is for ongoing/habitual past. The preterite is for completed single events.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Reflexive verbs use the pronouns me, te, se, nos, os, se.",
+              "correct_answer": "True",
+              "explanation": "Me levanto, te duchas, se llama — reflexive pronouns precede the conjugated verb.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The futuro simple of hablar is hablaré.",
+              "correct_answer": "True",
+              "explanation": "Hablaré (I will speak), hablarás (you will speak), hablará (he/she will speak).",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Futuro inmediato = ________ a + infinitive.",
+              "correct_answer": "ir",
+              "explanation": "Voy a comer = I am going to eat. Van a salir = They are going to go out.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is for permanent qualities; estar is for temporary states.",
+              "correct_answer": "Ser",
+              "explanation": "Soy español = I am Spanish (permanent). Estoy cansado = I am tired (temporary).",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ indefinido is used for completed past actions.",
+              "correct_answer": "pretérito",
+              "explanation": "Fui al cine ayer = I went to the cinema yesterday.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Me ________ = I would like (conditional of gustar).",
+              "correct_answer": "gustaría",
+              "explanation": "Me gustaría visitar España = I would like to visit Spain.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = never. (Double negative required in Spanish.)",
+              "correct_answer": "Nunca",
+              "explanation": "No hago nunca mi cama = I never make my bed.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Spanish adjectives agree in ________ and number with the noun.",
+              "correct_answer": "gender",
+              "explanation": "Alto/alta/altos/altas depending on the noun described.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Me ________ = I like (present — the thing liked is the subject).",
+              "correct_answer": "gusta/gustan",
+              "explanation": "Me gusta el fútbol. Me gustan las películas. (Gusta = singular; gustan = plural.)",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is used for ongoing or habitual past actions.",
+              "correct_answer": "imperfecto",
+              "explanation": "Cuando era niño, comía mucho chocolate = When I was a child, I used to eat lots of chocolate.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ verbs use pronouns me, te, se — the subject does the action to themselves.",
+              "correct_answer": "Reflexive",
+              "explanation": "Levantarse, ducharse, llamarse, acostarse.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Futuro simple of -ar verbs = infinitive + ________.",
+              "correct_answer": "endings",
+              "explanation": "Hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "presente",
+                  "match": "present tense — hablo, comes, vive"
+                },
+                {
+                  "term": "pretérito indefinido",
+                  "match": "completed past — hablé, fui, comí"
+                },
+                {
+                  "term": "imperfecto",
+                  "match": "ongoing/habitual past — hablaba, iba"
+                },
+                {
+                  "term": "futuro inmediato",
+                  "match": "ir a + infinitive — near future"
+                },
+                {
+                  "term": "ser vs estar",
+                  "match": "ser = permanent; estar = temporary/location"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "subject": {
+    "name": "Chemistry (Edexcel)",
+    "slug": "chemistry-edexcel",
+    "colour": "#0e7490"
+  },
+  "topics": [
+    {
+      "name": "Topic 1 — Key Concepts in Chemistry",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Atomic Structure & the Periodic Table",
+          "cards": [
+            {
+              "keyword": "atom",
+              "definition": "the smallest particle of an element that can exist — made up of a nucleus (protons and neutrons) surrounded by electrons",
+              "display_order": 1
+            },
+            {
+              "keyword": "proton",
+              "definition": "a positively charged particle found in the nucleus of an atom — its number defines the element",
+              "display_order": 2
+            },
+            {
+              "keyword": "neutron",
+              "definition": "a particle with no charge found in the nucleus — its number can vary in isotopes of the same element",
+              "display_order": 3
+            },
+            {
+              "keyword": "electron",
+              "definition": "a negatively charged particle orbiting the nucleus in shells — involved in chemical bonding",
+              "display_order": 4
+            },
+            {
+              "keyword": "atomic number",
+              "definition": "the number of protons in the nucleus of an atom — unique to each element",
+              "display_order": 5
+            },
+            {
+              "keyword": "mass number",
+              "definition": "the total number of protons and neutrons in the nucleus of an atom",
+              "display_order": 6
+            },
+            {
+              "keyword": "isotope",
+              "definition": "atoms of the same element with the same number of protons but different numbers of neutrons",
+              "display_order": 7
+            },
+            {
+              "keyword": "the periodic table",
+              "definition": "a table of all elements arranged in order of atomic number — elements in the same group have similar chemical properties",
+              "display_order": 8
+            },
+            {
+              "keyword": "group",
+              "definition": "a vertical column in the periodic table — elements in the same group have the same number of outer electrons and similar properties",
+              "display_order": 9
+            },
+            {
+              "keyword": "period",
+              "definition": "a horizontal row in the periodic table — the period number tells you how many electron shells an atom has",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Bonding & Structure",
+          "cards": [
+            {
+              "keyword": "ionic bonding",
+              "definition": "bonding formed by the transfer of electrons from a metal to a non-metal — creates oppositely charged ions that attract each other",
+              "display_order": 1
+            },
+            {
+              "keyword": "covalent bonding",
+              "definition": "bonding formed by the sharing of electrons between non-metal atoms",
+              "display_order": 2
+            },
+            {
+              "keyword": "metallic bonding",
+              "definition": "bonding in metals where positive ions are surrounded by a sea of delocalised electrons — explains electrical conductivity and malleability",
+              "display_order": 3
+            },
+            {
+              "keyword": "ionic compound",
+              "definition": "a compound formed by ionic bonding — forms a giant lattice structure with high melting point",
+              "display_order": 4
+            },
+            {
+              "keyword": "simple molecular substance",
+              "definition": "a substance made of small molecules held together by weak intermolecular forces — low melting/boiling points",
+              "display_order": 5
+            },
+            {
+              "keyword": "giant covalent structure",
+              "definition": "a substance with many atoms bonded covalently in a large network — e.g. diamond, graphite, silicon dioxide. Very high melting points",
+              "display_order": 6
+            },
+            {
+              "keyword": "diamond",
+              "definition": "a form of carbon with a giant covalent structure — each carbon bonded to four others. Very hard, high melting point, does not conduct electricity",
+              "display_order": 7
+            },
+            {
+              "keyword": "graphite",
+              "definition": "a form of carbon where each atom bonds to three others in layers — layers can slide, making it slippery. Conducts electricity due to delocalised electrons",
+              "display_order": 8
+            },
+            {
+              "keyword": "polymer",
+              "definition": "a long chain molecule made by joining many small monomer units together — e.g. polyethene, PVC",
+              "display_order": 9
+            },
+            {
+              "keyword": "nanomaterials",
+              "definition": "materials with particles between 1 and 100 nanometres in size — have very large surface area to volume ratio and special properties",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Topic 3 — Chemical Changes",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Reactions & Energy Changes",
+          "cards": [
+            {
+              "keyword": "exothermic reaction",
+              "definition": "a reaction that releases energy to the surroundings — temperature of surroundings increases (e.g. combustion, neutralisation)",
+              "display_order": 1
+            },
+            {
+              "keyword": "endothermic reaction",
+              "definition": "a reaction that absorbs energy from the surroundings — temperature of surroundings decreases (e.g. thermal decomposition, photosynthesis)",
+              "display_order": 2
+            },
+            {
+              "keyword": "activation energy",
+              "definition": "the minimum energy required for reactants to collide and react — a catalyst lowers the activation energy",
+              "display_order": 3
+            },
+            {
+              "keyword": "catalyst",
+              "definition": "a substance that speeds up a chemical reaction without being used up — lowers the activation energy",
+              "display_order": 4
+            },
+            {
+              "keyword": "oxidation",
+              "definition": "the loss of electrons, or the gain of oxygen — in terms of oxidation state, oxidation is an increase",
+              "display_order": 5
+            },
+            {
+              "keyword": "reduction",
+              "definition": "the gain of electrons, or the loss of oxygen — in terms of oxidation state, reduction is a decrease",
+              "display_order": 6
+            },
+            {
+              "keyword": "redox reaction",
+              "definition": "a reaction involving both oxidation and reduction simultaneously — one species loses electrons while another gains them",
+              "display_order": 7
+            },
+            {
+              "keyword": "electrolysis",
+              "definition": "using electrical energy to break down a compound — positive ions move to the cathode (negative electrode), negative ions to the anode",
+              "display_order": 8
+            },
+            {
+              "keyword": "acid",
+              "definition": "a substance that produces hydrogen ions (H⁺) in solution — pH below 7",
+              "display_order": 9
+            },
+            {
+              "keyword": "base / alkali",
+              "definition": "a substance that neutralises an acid — an alkali dissolves in water to produce hydroxide ions (OH⁻). pH above 7",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Topic 6 — Groups in the Periodic Table",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Periodic Table Groups",
+          "cards": [
+            {
+              "keyword": "Group 1 — alkali metals",
+              "definition": "very reactive metals (lithium, sodium, potassium etc.) — react vigorously with water, producing hydrogen gas and an alkaline solution",
+              "display_order": 1
+            },
+            {
+              "keyword": "Group 7 — halogens",
+              "definition": "reactive non-metals (fluorine, chlorine, bromine, iodine) — reactivity decreases down the group",
+              "display_order": 2
+            },
+            {
+              "keyword": "Group 0 — noble gases",
+              "definition": "unreactive gases (helium, neon, argon etc.) — have a full outer electron shell so do not need to react",
+              "display_order": 3
+            },
+            {
+              "keyword": "reactivity trend (Group 1)",
+              "definition": "alkali metals become more reactive down the group — outer electron is further from the nucleus and lost more easily",
+              "display_order": 4
+            },
+            {
+              "keyword": "reactivity trend (Group 7)",
+              "definition": "halogens become less reactive down the group — harder to gain an electron as the outer shell is further from the nucleus",
+              "display_order": 5
+            },
+            {
+              "keyword": "displacement reaction (halogens)",
+              "definition": "a more reactive halogen can displace a less reactive one from its salt solution — e.g. chlorine displaces bromine from potassium bromide solution",
+              "display_order": 6
+            },
+            {
+              "keyword": "transition metals",
+              "definition": "metals in the central block of the periodic table — generally harder, denser, and less reactive than Group 1 metals. Form coloured compounds",
+              "display_order": 7
+            },
+            {
+              "keyword": "flame test",
+              "definition": "a test to identify metal ions based on the colour they produce in a flame — e.g. sodium burns yellow, potassium burns lilac",
+              "display_order": 8
+            },
+            {
+              "keyword": "precipitation reaction",
+              "definition": "a reaction in which an insoluble solid (precipitate) forms when two solutions are mixed — used to identify ions",
+              "display_order": 9
+            },
+            {
+              "keyword": "the reactivity series",
+              "definition": "a list of metals in order of their reactivity — potassium is most reactive, gold is least reactive",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Topic 8 — Fuels & Earth Science",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Fuels, Atmosphere & Climate",
+          "cards": [
+            {
+              "keyword": "crude oil",
+              "definition": "a fossil fuel formed from ancient marine organisms over millions of years — a mixture of hydrocarbons",
+              "display_order": 1
+            },
+            {
+              "keyword": "hydrocarbon",
+              "definition": "a compound containing only carbon and hydrogen atoms — crude oil is a mixture of hydrocarbons",
+              "display_order": 2
+            },
+            {
+              "keyword": "fractional distillation",
+              "definition": "the process used to separate crude oil into fractions based on different boiling points",
+              "display_order": 3
+            },
+            {
+              "keyword": "combustion",
+              "definition": "the burning of a fuel in oxygen — complete combustion produces CO₂ and H₂O; incomplete produces CO and soot",
+              "display_order": 4
+            },
+            {
+              "keyword": "greenhouse gases",
+              "definition": "gases that absorb and re-emit infrared radiation, warming the atmosphere — CO₂, methane, and water vapour are key examples",
+              "display_order": 5
+            },
+            {
+              "keyword": "global warming",
+              "definition": "the increase in average global temperatures caused by rising levels of greenhouse gases from human activity",
+              "display_order": 6
+            },
+            {
+              "keyword": "the carbon cycle",
+              "definition": "the continuous movement of carbon between the atmosphere, living organisms, oceans, and rocks",
+              "display_order": 7
+            },
+            {
+              "keyword": "cracking",
+              "definition": "breaking down large hydrocarbon molecules into smaller, more useful ones using heat and a catalyst",
+              "display_order": 8
+            },
+            {
+              "keyword": "the early atmosphere",
+              "definition": "Earth's early atmosphere was mainly carbon dioxide and water vapour — oxygen built up as photosynthetic organisms evolved",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Haber process",
+              "definition": "an industrial process making ammonia from nitrogen and hydrogen — uses an iron catalyst, high pressure, and a temperature of about 450°C",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2893 @@
+{
+  "subject": {
+    "name": "Biology",
+    "slug": "biology",
+    "colour": "#166534",
+    "exam_board": "Edexcel",
+    "emoji": "🧬"
+  },
+  "topics": [
+    {
+      "name": "Key Concepts in Biology",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Cell Biology",
+          "cards": [
+            {
+              "keyword": "cell",
+              "definition": "the basic structural and functional unit of all living organisms",
+              "display_order": 1
+            },
+            {
+              "keyword": "eukaryotic cell",
+              "definition": "a cell with a true nucleus enclosed by a membrane — includes plant and animal cells",
+              "display_order": 2
+            },
+            {
+              "keyword": "prokaryotic cell",
+              "definition": "a cell with no membrane-bound nucleus — bacteria are prokaryotes",
+              "display_order": 3
+            },
+            {
+              "keyword": "cell membrane",
+              "definition": "a phospholipid bilayer controlling what enters and leaves the cell — semi-permeable",
+              "display_order": 4
+            },
+            {
+              "keyword": "nucleus",
+              "definition": "contains DNA as chromosomes — controls cell activities — only in eukaryotes",
+              "display_order": 5
+            },
+            {
+              "keyword": "mitochondria",
+              "definition": "site of aerobic respiration — produce ATP — found in eukaryotes",
+              "display_order": 6
+            },
+            {
+              "keyword": "ribosome",
+              "definition": "site of protein synthesis — found in all cells including prokaryotes",
+              "display_order": 7
+            },
+            {
+              "keyword": "chloroplast",
+              "definition": "contains chlorophyll — site of photosynthesis — in plant cells only",
+              "display_order": 8
+            },
+            {
+              "keyword": "cell wall (plant)",
+              "definition": "rigid cellulose layer outside cell membrane — provides support and shape",
+              "display_order": 9
+            },
+            {
+              "keyword": "cell wall (bacterial)",
+              "definition": "made of peptidoglycan — different from plant cell walls — prevents bursting",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the key difference between eukaryotic and prokaryotic cells?",
+              "options": [
+                "A) Size only",
+                "B) Eukaryotes have a membrane-bound nucleus; prokaryotes do not",
+                "C) Prokaryotes have more organelles",
+                "D) Only prokaryotes have DNA"
+              ],
+              "correct_answer": "B",
+              "explanation": "Eukaryotic cells have a true nucleus enclosed by a nuclear envelope. Prokaryotic cells have no membrane-bound nucleus — DNA floats in the cytoplasm.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of the cell membrane?",
+              "options": [
+                "A) Provides rigid support",
+                "B) Controls what enters and leaves — semi-permeable phospholipid bilayer",
+                "C) Contains DNA",
+                "D) Carries out photosynthesis"
+              ],
+              "correct_answer": "B",
+              "explanation": "The cell membrane is a phospholipid bilayer with embedded proteins — it controls movement of substances in and out of the cell.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which organelle is found in plant cells but not animal cells?",
+              "options": [
+                "A) Mitochondria",
+                "B) Ribosomes",
+                "C) Nucleus",
+                "D) Chloroplast"
+              ],
+              "correct_answer": "D",
+              "explanation": "Chloroplasts contain chlorophyll and are the site of photosynthesis — found only in plant cells.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of ribosomes?",
+              "options": [
+                "A) Aerobic respiration",
+                "B) Photosynthesis",
+                "C) Protein synthesis",
+                "D) Storing genetic information"
+              ],
+              "correct_answer": "C",
+              "explanation": "Ribosomes synthesise proteins by translating mRNA — they are found in ALL cells, both eukaryotic and prokaryotic.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the plant cell wall made from?",
+              "options": [
+                "A) Peptidoglycan",
+                "B) Chitin",
+                "C) Cellulose",
+                "D) Lignin"
+              ],
+              "correct_answer": "C",
+              "explanation": "Plant cell walls are made of cellulose — a structural carbohydrate providing rigidity and support.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of mitochondria?",
+              "options": [
+                "A) Protein synthesis",
+                "B) Photosynthesis",
+                "C) Aerobic respiration — producing ATP",
+                "D) Controlling cell activities"
+              ],
+              "correct_answer": "C",
+              "explanation": "Mitochondria carry out aerobic respiration — they produce ATP, the energy currency of the cell.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the bacterial cell wall made from?",
+              "options": [
+                "A) Cellulose",
+                "B) Peptidoglycan",
+                "C) Chitin",
+                "D) No cell wall"
+              ],
+              "correct_answer": "B",
+              "explanation": "Bacterial cell walls are made of peptidoglycan — many antibiotics target its synthesis.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the nucleus contain?",
+              "options": [
+                "A) Ribosomes and ATP",
+                "B) Chlorophyll",
+                "C) DNA as chromosomes — controls cell activities",
+                "D) Mitochondria"
+              ],
+              "correct_answer": "C",
+              "explanation": "The nucleus contains chromosomes (DNA + protein). It controls the cell by directing protein synthesis.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which organelles are found in both plant and animal cells?",
+              "options": [
+                "A) Chloroplasts and vacuoles",
+                "B) Nucleus, mitochondria, and ribosomes",
+                "C) Cell walls and chloroplasts",
+                "D) Vacuoles only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Both plant and animal cells have nucleus (genetic control), mitochondria (respiration), and ribosomes (protein synthesis).",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a prokaryotic cell?",
+              "options": [
+                "A) A cell with a large nucleus",
+                "B) A cell with multiple nuclei",
+                "C) A cell with no membrane-bound nucleus — e.g. bacteria",
+                "D) A cell without ribosomes"
+              ],
+              "correct_answer": "C",
+              "explanation": "Prokaryotic cells have no membrane-bound nucleus — DNA is a single circular chromosome in the cytoplasm.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Eukaryotic cells have a membrane-bound nucleus.",
+              "correct_answer": "True",
+              "explanation": "Eukaryotes (plants, animals, fungi) have a true nucleus enclosed by a nuclear membrane.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Prokaryotic cells are larger than eukaryotic cells.",
+              "correct_answer": "False",
+              "explanation": "Prokaryotic cells are typically SMALLER than eukaryotic cells.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Ribosomes are found in all cells.",
+              "correct_answer": "True",
+              "explanation": "Ribosomes synthesise proteins — they are found in both eukaryotic and prokaryotic cells.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Chloroplasts are found in all plant and animal cells.",
+              "correct_answer": "False",
+              "explanation": "Chloroplasts are found only in PLANT cells — not in animal cells.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Bacterial cell walls are made of cellulose.",
+              "correct_answer": "False",
+              "explanation": "Bacterial cell walls are made of PEPTIDOGLYCAN — plant cell walls are made of cellulose.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Mitochondria produce ATP through aerobic respiration.",
+              "correct_answer": "True",
+              "explanation": "Mitochondria are the site of aerobic respiration — producing the majority of a cell's ATP.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Both plant and animal cells have a cell wall.",
+              "correct_answer": "False",
+              "explanation": "Only plant cells (and fungi and bacteria) have cell walls. Animal cells have only a cell membrane.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The nucleus controls cell activities.",
+              "correct_answer": "True",
+              "explanation": "The nucleus contains DNA — it controls the cell by directing which proteins are made.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Prokaryotic cells have no membrane-bound nucleus.",
+              "correct_answer": "True",
+              "explanation": "In prokaryotes, DNA is a circular chromosome in the cytoplasm — not enclosed by a membrane.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Plant cell walls are made of peptidoglycan.",
+              "correct_answer": "False",
+              "explanation": "Plant cell walls are made of CELLULOSE. BACTERIAL cell walls are made of peptidoglycan.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ cells have a membrane-bound nucleus — plants and animals.",
+              "correct_answer": "Eukaryotic",
+              "explanation": "Eukaryotes also have other membrane-bound organelles.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ cells have no membrane-bound nucleus — bacteria.",
+              "correct_answer": "Prokaryotic",
+              "explanation": "Prokaryotic DNA is a single circular chromosome in the cytoplasm.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The cell ________ is a semi-permeable phospholipid bilayer controlling substance movement.",
+              "correct_answer": "membrane",
+              "explanation": "The cell membrane is present in ALL cells.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are the site of aerobic respiration — producing ATP.",
+              "correct_answer": "Mitochondria",
+              "explanation": "More metabolically active cells have more mitochondria.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are the site of protein synthesis — found in all cells.",
+              "correct_answer": "Ribosomes",
+              "explanation": "Ribosomes translate mRNA into proteins.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ contain chlorophyll and are the site of photosynthesis.",
+              "correct_answer": "Chloroplasts",
+              "explanation": "Chloroplasts are only found in plant cells.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Plant cell walls are made of ________.",
+              "correct_answer": "cellulose",
+              "explanation": "Cellulose provides structural rigidity to plant cells.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Bacterial cell walls are made of ________.",
+              "correct_answer": "peptidoglycan",
+              "explanation": "Peptidoglycan is the target of many antibiotics.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ contains DNA as chromosomes and controls cell activities.",
+              "correct_answer": "nucleus",
+              "explanation": "Only eukaryotic cells have a membrane-bound nucleus.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are plant organelles containing chlorophyll for photosynthesis.",
+              "correct_answer": "Chloroplasts",
+              "explanation": "Chloroplasts have a double membrane and contain thylakoids stacked in grana.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "eukaryotic cell",
+                  "match": "membrane-bound nucleus — plants and animals"
+                },
+                {
+                  "term": "prokaryotic cell",
+                  "match": "no membrane-bound nucleus — bacteria"
+                },
+                {
+                  "term": "mitochondria",
+                  "match": "site of aerobic respiration — produces ATP"
+                },
+                {
+                  "term": "ribosomes",
+                  "match": "site of protein synthesis — all cells"
+                },
+                {
+                  "term": "chloroplast",
+                  "match": "photosynthesis — plant cells only"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Transport in Cells",
+          "cards": [
+            {
+              "keyword": "diffusion",
+              "definition": "net movement of particles from high to low concentration — passive, no energy needed",
+              "display_order": 1
+            },
+            {
+              "keyword": "osmosis",
+              "definition": "diffusion of water molecules through a partially permeable membrane — from dilute to concentrated solution",
+              "display_order": 2
+            },
+            {
+              "keyword": "active transport",
+              "definition": "movement of substances against a concentration gradient — requires energy (ATP)",
+              "display_order": 3
+            },
+            {
+              "keyword": "concentration gradient",
+              "definition": "the difference in concentration between two areas — drives diffusion",
+              "display_order": 4
+            },
+            {
+              "keyword": "partially permeable membrane",
+              "definition": "a membrane that allows some molecules to pass but not others — e.g. cell membrane",
+              "display_order": 5
+            },
+            {
+              "keyword": "turgor pressure",
+              "definition": "pressure exerted by water inside a plant cell against the cell wall — keeps plant firm",
+              "display_order": 6
+            },
+            {
+              "keyword": "plasmolysis",
+              "definition": "when a plant cell loses water by osmosis and the cell membrane pulls away from the cell wall",
+              "display_order": 7
+            },
+            {
+              "keyword": "surface area to volume ratio",
+              "definition": "as cells increase in size, SA:V ratio decreases — affects rate of diffusion into/out of cell",
+              "display_order": 8
+            },
+            {
+              "keyword": "facilitated diffusion",
+              "definition": "diffusion through protein channels in the membrane — passive, no energy needed",
+              "display_order": 9
+            },
+            {
+              "keyword": "carrier proteins",
+              "definition": "membrane proteins that transport specific molecules by active transport or facilitated diffusion",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is diffusion?",
+              "options": [
+                "A) Movement against a concentration gradient requiring energy",
+                "B) Net movement of particles from high to low concentration — passive",
+                "C) Movement of water through a membrane",
+                "D) Transport requiring ATP"
+              ],
+              "correct_answer": "B",
+              "explanation": "Diffusion is passive — particles move down their concentration gradient until evenly distributed.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is osmosis?",
+              "options": [
+                "A) Active transport of ions",
+                "B) Movement of any molecules through a membrane",
+                "C) Diffusion of water through a partially permeable membrane — dilute to concentrated",
+                "D) Movement of glucose into cells"
+              ],
+              "correct_answer": "C",
+              "explanation": "Osmosis is specifically water movement — from a dilute (high water potential) to concentrated (low water potential) solution through a partially permeable membrane.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is active transport?",
+              "options": [
+                "A) Fast diffusion",
+                "B) Movement of substances against a concentration gradient — requires ATP",
+                "C) Osmosis of water molecules",
+                "D) Diffusion through protein channels"
+              ],
+              "correct_answer": "B",
+              "explanation": "Active transport moves substances from low to high concentration — against the gradient. It requires ATP and carrier proteins.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is turgor pressure?",
+              "options": [
+                "A) Pressure from osmosis in animal cells",
+                "B) Pressure from water inside a plant cell pushing against the cell wall",
+                "C) The force needed for active transport",
+                "D) Pressure from plasmolysis"
+              ],
+              "correct_answer": "B",
+              "explanation": "Turgor pressure keeps plants firm and upright — when plant cells are full of water they are turgid. Water loss causes wilting.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is plasmolysis?",
+              "options": [
+                "A) Cell bursting due to excess water",
+                "B) Plant cell losing water — cell membrane pulls away from cell wall",
+                "C) Active transport in plant cells",
+                "D) Water entering plant cells"
+              ],
+              "correct_answer": "B",
+              "explanation": "Plasmolysis occurs when a plant cell is placed in a concentrated solution — water leaves by osmosis and the membrane shrinks away from the wall.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does surface area to volume ratio matter for cells?",
+              "options": [
+                "A) Larger cells have higher SA:V — better diffusion",
+                "B) SA:V ratio is irrelevant to cell function",
+                "C) As cells grow, SA:V decreases — diffusion becomes less efficient",
+                "D) SA:V only matters for plant cells"
+              ],
+              "correct_answer": "C",
+              "explanation": "As cells get larger, the volume increases faster than surface area — diffusion distances increase and exchange becomes less efficient. This limits cell size.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is facilitated diffusion?",
+              "options": [
+                "A) Diffusion requiring ATP",
+                "B) Diffusion through protein channels — passive, no energy needed",
+                "C) Active transport through carrier proteins",
+                "D) Osmosis through aquaporin channels"
+              ],
+              "correct_answer": "B",
+              "explanation": "Facilitated diffusion uses protein channels — it is passive (no ATP needed) but is specific to certain molecules that cannot cross the lipid bilayer directly.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a concentration gradient?",
+              "options": [
+                "A) The speed at which particles move",
+                "B) The difference in concentration between two areas — drives diffusion",
+                "C) The concentration of a solution",
+                "D) A gradient caused by active transport"
+              ],
+              "correct_answer": "B",
+              "explanation": "The steeper the concentration gradient, the faster the rate of diffusion — more particles move from high to low concentration.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to a plant cell placed in a dilute solution?",
+              "options": [
+                "A) It plasmolysis",
+                "B) It shrinks",
+                "C) It becomes turgid — water enters by osmosis",
+                "D) Nothing changes"
+              ],
+              "correct_answer": "C",
+              "explanation": "In a dilute solution (higher water potential than the cell), water enters by osmosis — the cell becomes turgid and the cell wall prevents it from bursting.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does active transport differ from diffusion?",
+              "options": [
+                "A) Active transport moves with the gradient",
+                "B) Diffusion requires ATP",
+                "C) Active transport moves against the gradient and requires ATP; diffusion is passive",
+                "D) They are the same process"
+              ],
+              "correct_answer": "C",
+              "explanation": "Diffusion: passive, with the gradient. Active transport: requires ATP, against the gradient. Both can use membrane proteins.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Diffusion requires energy (ATP).",
+              "correct_answer": "False",
+              "explanation": "Diffusion is PASSIVE — particles move down their concentration gradient without energy input.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Osmosis is the diffusion of water through a partially permeable membrane.",
+              "correct_answer": "True",
+              "explanation": "Water moves from dilute (high water potential) to concentrated (low water potential) solution.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Active transport moves substances against their concentration gradient.",
+              "correct_answer": "True",
+              "explanation": "Active transport requires ATP and carrier proteins to move substances from low to high concentration.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Turgor pressure keeps plant cells firm.",
+              "correct_answer": "True",
+              "explanation": "Water entering by osmosis creates turgor pressure — the cell wall resists the expansion, keeping the plant rigid.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Plasmolysis occurs when a plant cell gains water.",
+              "correct_answer": "False",
+              "explanation": "Plasmolysis occurs when a plant cell LOSES water — the membrane pulls away from the cell wall.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "As a cell gets larger, its SA:V ratio increases.",
+              "correct_answer": "False",
+              "explanation": "As cells grow, the SA:V ratio DECREASES — volume grows faster than surface area.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Facilitated diffusion requires ATP.",
+              "correct_answer": "False",
+              "explanation": "Facilitated diffusion is PASSIVE — it uses protein channels but requires no energy.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Diffusion moves particles from low to high concentration.",
+              "correct_answer": "False",
+              "explanation": "Diffusion moves particles from HIGH to LOW concentration — down the gradient.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "A plant cell in a concentrated solution will become turgid.",
+              "correct_answer": "False",
+              "explanation": "A plant cell in a concentrated solution will LOSE water by osmosis — it will plasmolyse, not become turgid.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Active transport and diffusion both use membrane proteins.",
+              "correct_answer": "True",
+              "explanation": "Diffusion can use protein channels (facilitated diffusion); active transport always uses carrier proteins.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the net movement of particles from high to low concentration — no energy needed.",
+              "correct_answer": "Diffusion",
+              "explanation": "Diffusion is a passive process driven by the concentration gradient.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the diffusion of water through a partially permeable membrane.",
+              "correct_answer": "Osmosis",
+              "explanation": "Water moves from dilute to concentrated solution.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ moves substances against a concentration gradient — requires ATP.",
+              "correct_answer": "Active transport",
+              "explanation": "Active transport uses carrier proteins and ATP.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ pressure is water pressing against the plant cell wall — keeps plants firm.",
+              "correct_answer": "Turgor",
+              "explanation": "Loss of turgor pressure causes wilting.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ occurs when a plant cell loses water and the membrane pulls away from the wall.",
+              "correct_answer": "Plasmolysis",
+              "explanation": "Caused by placing a plant cell in a concentrated solution.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "As cells increase in size, surface area to ________ ratio decreases.",
+              "correct_answer": "volume",
+              "explanation": "Decreasing SA:V ratio reduces efficiency of diffusion.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ diffusion uses protein channels — passive, no ATP needed.",
+              "correct_answer": "Facilitated",
+              "explanation": "Molecules too large or charged to cross the lipid bilayer use protein channels.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ gradient drives diffusion — steeper gradient = faster diffusion.",
+              "correct_answer": "concentration",
+              "explanation": "Particles move from areas of high to low concentration.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A plant cell in a dilute solution absorbs water by osmosis and becomes ________.",
+              "correct_answer": "turgid",
+              "explanation": "The cell wall prevents bursting — turgor pressure builds up.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ proteins transport specific molecules across the membrane in active transport.",
+              "correct_answer": "Carrier",
+              "explanation": "Carrier proteins change shape to move molecules against the gradient.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "diffusion",
+                  "match": "high to low concentration — passive"
+                },
+                {
+                  "term": "osmosis",
+                  "match": "water through partially permeable membrane — dilute to concentrated"
+                },
+                {
+                  "term": "active transport",
+                  "match": "against gradient — requires ATP"
+                },
+                {
+                  "term": "turgor pressure",
+                  "match": "water pressure in plant cell — keeps plant firm"
+                },
+                {
+                  "term": "plasmolysis",
+                  "match": "plant cell loses water — membrane pulls from wall"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cells & Control",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Cell Division & Genetics",
+          "cards": [
+            {
+              "keyword": "mitosis",
+              "definition": "cell division producing two genetically identical daughter cells — for growth and repair",
+              "display_order": 1
+            },
+            {
+              "keyword": "meiosis",
+              "definition": "cell division producing four genetically different gametes — halves chromosome number",
+              "display_order": 2
+            },
+            {
+              "keyword": "chromosome",
+              "definition": "a long strand of DNA carrying genes — humans have 46 chromosomes in 23 pairs",
+              "display_order": 3
+            },
+            {
+              "keyword": "gene",
+              "definition": "a section of DNA that codes for a protein — determines an inherited characteristic",
+              "display_order": 4
+            },
+            {
+              "keyword": "allele",
+              "definition": "a version of a gene — e.g. the gene for eye colour has alleles for blue and brown",
+              "display_order": 5
+            },
+            {
+              "keyword": "dominant allele",
+              "definition": "an allele whose characteristic is always expressed — even if only one copy is present",
+              "display_order": 6
+            },
+            {
+              "keyword": "recessive allele",
+              "definition": "an allele only expressed if two copies are present (homozygous recessive)",
+              "display_order": 7
+            },
+            {
+              "keyword": "genotype",
+              "definition": "the genetic make-up of an organism — the alleles it carries",
+              "display_order": 8
+            },
+            {
+              "keyword": "phenotype",
+              "definition": "the observable characteristics of an organism — result of genotype and environment",
+              "display_order": 9
+            },
+            {
+              "keyword": "stem cell",
+              "definition": "an undifferentiated cell that can divide and differentiate into specialised cell types",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is mitosis?",
+              "options": [
+                "A) Cell division producing gametes",
+                "B) Cell division producing two genetically identical daughter cells",
+                "C) Cell division halving chromosome number",
+                "D) Cell division for sexual reproduction"
+              ],
+              "correct_answer": "B",
+              "explanation": "Mitosis produces two identical cells — used for growth, repair, and asexual reproduction. The daughter cells are genetically identical to the parent.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is meiosis?",
+              "options": [
+                "A) Cell division for growth",
+                "B) Cell division producing identical cells",
+                "C) Cell division producing four genetically different gametes — halves chromosome number",
+                "D) Cell division in prokaryotes"
+              ],
+              "correct_answer": "C",
+              "explanation": "Meiosis occurs in the reproductive organs — producing gametes (sperm/eggs) with half the chromosome number (haploid).",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a dominant allele?",
+              "options": [
+                "A) An allele only expressed when two copies are present",
+                "B) An allele always expressed — even with just one copy",
+                "C) An allele that causes disease",
+                "D) The most common allele in a population"
+              ],
+              "correct_answer": "B",
+              "explanation": "Dominant alleles are expressed whenever they are present — one copy is enough to show the characteristic.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between genotype and phenotype?",
+              "options": [
+                "A) They are the same thing",
+                "B) Genotype is observable; phenotype is genetic",
+                "C) Genotype is the alleles carried; phenotype is the observable characteristic",
+                "D) Genotype only refers to dominant alleles"
+              ],
+              "correct_answer": "C",
+              "explanation": "Genotype = genetic makeup (alleles). Phenotype = observable result — influenced by both genotype and environment.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a stem cell?",
+              "options": [
+                "A) A cell that cannot divide",
+                "B) A specialised muscle cell",
+                "C) An undifferentiated cell that can divide and become specialised",
+                "D) A cell found only in plants"
+              ],
+              "correct_answer": "C",
+              "explanation": "Stem cells are undifferentiated — they can self-renew and differentiate into many cell types. Embryonic stem cells are pluripotent.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How many chromosomes do human body cells contain?",
+              "options": [
+                "A) 23",
+                "B) 46",
+                "C) 92",
+                "D) 48"
+              ],
+              "correct_answer": "B",
+              "explanation": "Human body cells have 46 chromosomes in 23 pairs — one from each parent. Gametes have 23 (haploid).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a recessive allele?",
+              "options": [
+                "A) Always expressed",
+                "B) Only expressed when two copies are present",
+                "C) The dominant form of a gene",
+                "D) An allele that causes cancer"
+              ],
+              "correct_answer": "B",
+              "explanation": "Recessive alleles are only expressed in the homozygous recessive genotype (aa) — they are masked by dominant alleles.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a gene?",
+              "options": [
+                "A) A complete chromosome",
+                "B) All of an organism's DNA",
+                "C) A section of DNA coding for a specific protein",
+                "D) A type of allele"
+              ],
+              "correct_answer": "C",
+              "explanation": "A gene is a specific sequence of DNA bases that codes for the production of a particular protein.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the purpose of meiosis?",
+              "options": [
+                "A) Growth and repair",
+                "B) Asexual reproduction",
+                "C) Producing gametes with half the chromosome number for sexual reproduction",
+                "D) Replacing damaged cells"
+              ],
+              "correct_answer": "C",
+              "explanation": "Meiosis produces haploid gametes (sperm and eggs) — when they fuse at fertilisation, the full diploid number is restored.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens during differentiation?",
+              "options": [
+                "A) Cells lose their DNA",
+                "B) Cells become specialised by switching on specific genes",
+                "C) Cells divide by mitosis",
+                "D) Cells die"
+              ],
+              "correct_answer": "B",
+              "explanation": "During differentiation, cells activate specific genes — producing the proteins needed for their specialised function (e.g. muscle cells produce actin/myosin).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Mitosis produces genetically identical daughter cells.",
+              "correct_answer": "True",
+              "explanation": "Mitosis is used for growth, repair, and asexual reproduction — the daughter cells are identical to the parent.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Meiosis produces two daughter cells.",
+              "correct_answer": "False",
+              "explanation": "Meiosis produces FOUR genetically different daughter cells (gametes).",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "A dominant allele is only expressed when two copies are present.",
+              "correct_answer": "False",
+              "explanation": "A dominant allele is expressed with just ONE copy — only recessive alleles require two copies.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Phenotype is determined solely by genotype.",
+              "correct_answer": "False",
+              "explanation": "Phenotype is influenced by BOTH genotype and environmental factors.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Stem cells are undifferentiated and can become specialised.",
+              "correct_answer": "True",
+              "explanation": "Stem cells can self-renew and differentiate into specialised cell types.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Human gametes contain 46 chromosomes.",
+              "correct_answer": "False",
+              "explanation": "Human GAMETES contain 23 chromosomes (haploid). Body cells contain 46.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "A recessive allele is expressed in a heterozygous genotype.",
+              "correct_answer": "False",
+              "explanation": "Recessive alleles are only expressed when HOMOZYGOUS (aa) — they are masked in heterozygotes.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Genes are sections of DNA coding for proteins.",
+              "correct_answer": "True",
+              "explanation": "Each gene contains the code for the sequence of amino acids in a specific protein.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Meiosis occurs in body cells for growth.",
+              "correct_answer": "False",
+              "explanation": "MITOSIS occurs for growth. Meiosis occurs in reproductive organs to produce gametes.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Differentiation involves cells switching on specific genes.",
+              "correct_answer": "True",
+              "explanation": "Differentiation results from specific genes being expressed — producing the proteins needed for the cell's specialised role.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ produces two genetically identical daughter cells — for growth and repair.",
+              "correct_answer": "Mitosis",
+              "explanation": "Mitosis is also used for asexual reproduction.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ produces four genetically different gametes — halves chromosome number.",
+              "correct_answer": "Meiosis",
+              "explanation": "Meiosis produces haploid cells (sperm and eggs).",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ allele is always expressed — even with just one copy.",
+              "correct_answer": "dominant",
+              "explanation": "Dominant alleles mask recessive alleles in heterozygotes.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ allele is only expressed when two copies are present.",
+              "correct_answer": "recessive",
+              "explanation": "Recessive alleles are masked in heterozygous individuals.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the genetic make-up of an organism — the alleles it carries.",
+              "correct_answer": "Genotype",
+              "explanation": "Genotype is written as pairs of letters — e.g. Bb.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the observable characteristic — result of genotype and environment.",
+              "correct_answer": "Phenotype",
+              "explanation": "E.g. tall or short, brown or blue eyes.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ cells are undifferentiated and can become specialised cell types.",
+              "correct_answer": "Stem",
+              "explanation": "Embryonic stem cells are pluripotent — can become any cell type.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Humans have ________ chromosomes in body cells — 23 pairs.",
+              "correct_answer": "46",
+              "explanation": "Gametes have 23 chromosomes (haploid).",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a section of DNA coding for a specific protein.",
+              "correct_answer": "gene",
+              "explanation": "Genes are found at specific locations (loci) on chromosomes.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a version of a gene — e.g. blue or brown eye colour.",
+              "correct_answer": "Allele",
+              "explanation": "Alleles for the same gene are found at the same locus on homologous chromosomes.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "mitosis",
+                  "match": "two identical daughter cells — growth and repair"
+                },
+                {
+                  "term": "meiosis",
+                  "match": "four different gametes — halves chromosome number"
+                },
+                {
+                  "term": "dominant allele",
+                  "match": "expressed with one copy — masks recessive"
+                },
+                {
+                  "term": "recessive allele",
+                  "match": "only expressed with two copies"
+                },
+                {
+                  "term": "stem cell",
+                  "match": "undifferentiated — can become specialised"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Organism Level Biology",
+      "paper": "Paper 1",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Coordination & Homeostasis",
+          "cards": [
+            {
+              "keyword": "homeostasis",
+              "definition": "maintaining a constant internal environment — e.g. temperature, blood glucose, water levels",
+              "display_order": 1
+            },
+            {
+              "keyword": "negative feedback",
+              "definition": "a mechanism that reverses a change to restore normal levels — the basis of homeostasis",
+              "display_order": 2
+            },
+            {
+              "keyword": "thermoregulation",
+              "definition": "control of body temperature — the hypothalamus detects and responds to temperature changes",
+              "display_order": 3
+            },
+            {
+              "keyword": "blood glucose regulation",
+              "definition": "insulin lowers blood glucose; glucagon raises it — both secreted by the pancreas",
+              "display_order": 4
+            },
+            {
+              "keyword": "insulin",
+              "definition": "hormone secreted by the pancreas — causes cells to absorb glucose, lowering blood glucose",
+              "display_order": 5
+            },
+            {
+              "keyword": "glucagon",
+              "definition": "hormone secreted by the pancreas — stimulates glycogen breakdown, raising blood glucose",
+              "display_order": 6
+            },
+            {
+              "keyword": "ADH (antidiuretic hormone)",
+              "definition": "hormone controlling water reabsorption in the kidney — released when blood is too concentrated",
+              "display_order": 7
+            },
+            {
+              "keyword": "nervous system",
+              "definition": "the brain, spinal cord, and nerves — rapid electrical communication using neurones",
+              "display_order": 8
+            },
+            {
+              "keyword": "reflex arc",
+              "definition": "a rapid, automatic response — receptor → sensory neurone → relay neurone → motor neurone → effector",
+              "display_order": 9
+            },
+            {
+              "keyword": "synapse",
+              "definition": "the gap between two neurones — neurotransmitters diffuse across to pass the signal",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is homeostasis?",
+              "options": [
+                "A) Growth of an organism",
+                "B) Maintaining a constant internal environment",
+                "C) Responding to external stimuli",
+                "D) Regulation of reproduction"
+              ],
+              "correct_answer": "B",
+              "explanation": "Homeostasis maintains stable conditions — temperature, blood glucose, water content — essential for enzyme function and cell processes.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is negative feedback?",
+              "options": [
+                "A) A mechanism that amplifies a change",
+                "B) A mechanism that reverses a change to restore normal levels",
+                "C) A type of hormonal response",
+                "D) The immune response to pathogens"
+              ],
+              "correct_answer": "B",
+              "explanation": "Negative feedback: if a variable rises above the set point, a response brings it back down. If it falls below, a response raises it. This maintains stability.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the role of insulin?",
+              "options": [
+                "A) Raises blood glucose",
+                "B) Stimulates glycogen breakdown",
+                "C) Lowers blood glucose — causes cells to absorb glucose",
+                "D) Controls water reabsorption"
+              ],
+              "correct_answer": "C",
+              "explanation": "Insulin is released when blood glucose is too high — it causes cells to absorb glucose and stimulates the liver to convert glucose to glycogen (glycogenesis).",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the role of glucagon?",
+              "options": [
+                "A) Lowers blood glucose",
+                "B) Stimulates glycogen storage",
+                "C) Raises blood glucose — stimulates glycogen breakdown in the liver",
+                "D) Controls temperature"
+              ],
+              "correct_answer": "C",
+              "explanation": "Glucagon is released when blood glucose is too low — it stimulates the liver to break down glycogen to glucose (glycogenolysis).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is ADH and what does it do?",
+              "options": [
+                "A) A hormone that raises blood glucose",
+                "B) A hormone that controls heart rate",
+                "C) A hormone that increases water reabsorption in the kidney — released when blood is concentrated",
+                "D) A neurotransmitter"
+              ],
+              "correct_answer": "C",
+              "explanation": "ADH (antidiuretic hormone) is released by the pituitary gland when blood water content is low — it causes more water to be reabsorbed in the kidney tubules.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a reflex arc?",
+              "options": [
+                "A) A voluntary response to a stimulus",
+                "B) A rapid, automatic response — receptor → sensory → relay → motor neurone → effector",
+                "C) A slow hormonal response",
+                "D) A learned behaviour"
+              ],
+              "correct_answer": "B",
+              "explanation": "Reflex arcs bypass the brain — the signal passes through the spinal cord for a faster response, protecting the body from harm.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a synapse?",
+              "options": [
+                "A) A type of neurone",
+                "B) The gap between two neurones — neurotransmitters carry the signal across",
+                "C) A receptor detecting stimuli",
+                "D) The part of the brain controlling reflexes"
+              ],
+              "correct_answer": "B",
+              "explanation": "At a synapse, neurotransmitters (e.g. acetylcholine) diffuse across the gap and bind to receptors on the next neurone, restarting the electrical signal.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the hypothalamus do?",
+              "options": [
+                "A) Produces hormones that enter the blood",
+                "B) Detects changes in body temperature and blood composition — coordinates responses",
+                "C) Controls voluntary movement",
+                "D) Produces insulin"
+              ],
+              "correct_answer": "B",
+              "explanation": "The hypothalamus is the body's control centre for homeostasis — it detects changes and coordinates responses via the nervous and endocrine systems.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is thermoregulation?",
+              "options": [
+                "A) Control of blood glucose",
+                "B) Control of body temperature — the hypothalamus detects temperature changes",
+                "C) Control of water balance",
+                "D) Control of breathing rate"
+              ],
+              "correct_answer": "B",
+              "explanation": "Thermoregulation: if too hot — vasodilation, sweating; if too cold — vasoconstriction, shivering. The hypothalamus coordinates all these responses.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does the nervous system communicate?",
+              "options": [
+                "A) Via hormones in the blood",
+                "B) Via rapid electrical impulses along neurones",
+                "C) Via diffusion of neurotransmitters throughout the body",
+                "D) Via changes in gene expression"
+              ],
+              "correct_answer": "B",
+              "explanation": "The nervous system uses electrical impulses — fast and short-lived. The endocrine system uses hormones — slower but longer-lasting.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Homeostasis maintains a constant internal environment.",
+              "correct_answer": "True",
+              "explanation": "Homeostasis uses negative feedback to keep temperature, blood glucose, and water content stable.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Negative feedback amplifies changes away from the set point.",
+              "correct_answer": "False",
+              "explanation": "Negative feedback REVERSES changes — bringing variables back to the set point.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Insulin raises blood glucose.",
+              "correct_answer": "False",
+              "explanation": "Insulin LOWERS blood glucose — it causes cells to absorb glucose and stimulates glycogen storage.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Glucagon is released when blood glucose is too high.",
+              "correct_answer": "False",
+              "explanation": "Glucagon is released when blood glucose is TOO LOW — it raises glucose by breaking down glycogen.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "ADH increases water reabsorption in the kidney.",
+              "correct_answer": "True",
+              "explanation": "ADH is released when blood is too concentrated — it causes more water to be reabsorbed.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Reflex arcs involve conscious decision-making in the brain.",
+              "correct_answer": "False",
+              "explanation": "Reflex arcs BYPASS the brain — the signal travels through the spinal cord for a faster response.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Neurotransmitters carry signals across synapses.",
+              "correct_answer": "True",
+              "explanation": "Neurotransmitters diffuse across the synaptic cleft and bind to receptors on the next neurone.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The hypothalamus controls homeostasis.",
+              "correct_answer": "True",
+              "explanation": "The hypothalamus detects changes in body conditions and coordinates corrective responses.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Insulin and glucagon are both secreted by the pancreas.",
+              "correct_answer": "True",
+              "explanation": "The islets of Langerhans in the pancreas contain beta cells (insulin) and alpha cells (glucagon).",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The nervous system communicates using hormones in the blood.",
+              "correct_answer": "False",
+              "explanation": "The nervous system uses ELECTRICAL IMPULSES along neurones — hormones are used by the ENDOCRINE system.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ maintains a constant internal environment — temperature, glucose, water.",
+              "correct_answer": "Homeostasis",
+              "explanation": "Homeostasis uses negative feedback loops.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ feedback reverses changes — restoring normal levels.",
+              "correct_answer": "Negative",
+              "explanation": "The basis of all homeostatic control.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ lowers blood glucose — secreted by the pancreas.",
+              "correct_answer": "Insulin",
+              "explanation": "Insulin causes cells to absorb glucose and stimulates glycogen storage.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ raises blood glucose by stimulating glycogen breakdown.",
+              "correct_answer": "Glucagon",
+              "explanation": "Glucagon is released when blood glucose falls too low.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ increases water reabsorption in the kidney when blood is concentrated.",
+              "correct_answer": "ADH",
+              "explanation": "ADH stands for antidiuretic hormone.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ arc is a rapid, automatic response bypassing the brain.",
+              "correct_answer": "reflex",
+              "explanation": "Receptor → sensory → relay → motor neurone → effector.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is the gap between neurones — neurotransmitters carry the signal across.",
+              "correct_answer": "synapse",
+              "explanation": "Neurotransmitters diffuse across and bind to receptors on the next neurone.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ detects temperature changes and coordinates homeostatic responses.",
+              "correct_answer": "hypothalamus",
+              "explanation": "The hypothalamus is the body's main homeostasis control centre.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The nervous system uses ________ impulses along neurones.",
+              "correct_answer": "electrical",
+              "explanation": "Nerve impulses are fast and short-lived compared to hormonal responses.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the control of body temperature — responses include sweating and shivering.",
+              "correct_answer": "Thermoregulation",
+              "explanation": "Too hot: vasodilation and sweating. Too cold: vasoconstriction and shivering.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "homeostasis",
+                  "match": "constant internal environment via negative feedback"
+                },
+                {
+                  "term": "insulin",
+                  "match": "lowers blood glucose — secreted by pancreas"
+                },
+                {
+                  "term": "glucagon",
+                  "match": "raises blood glucose — stimulates glycogen breakdown"
+                },
+                {
+                  "term": "ADH",
+                  "match": "increases water reabsorption in kidney"
+                },
+                {
+                  "term": "reflex arc",
+                  "match": "receptor → sensory → relay → motor → effector"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Genetics & Evolution",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Inheritance & Evolution",
+          "cards": [
+            {
+              "keyword": "DNA",
+              "definition": "a double helix polymer of nucleotides — carries the genetic code for all proteins",
+              "display_order": 1
+            },
+            {
+              "keyword": "base pairing",
+              "definition": "A pairs with T; C pairs with G — complementary base pairs hold the DNA strands together",
+              "display_order": 2
+            },
+            {
+              "keyword": "mutation",
+              "definition": "a change in the sequence of DNA bases — can alter the protein produced",
+              "display_order": 3
+            },
+            {
+              "keyword": "natural selection",
+              "definition": "organisms with advantageous adaptations survive and reproduce — passing on their genes",
+              "display_order": 4
+            },
+            {
+              "keyword": "adaptation",
+              "definition": "a feature that improves an organism's chance of survival in its environment",
+              "display_order": 5
+            },
+            {
+              "keyword": "speciation",
+              "definition": "the formation of a new species — occurs when populations become reproductively isolated",
+              "display_order": 6
+            },
+            {
+              "keyword": "extinction",
+              "definition": "a species no longer exists — can be caused by habitat loss, disease, competition",
+              "display_order": 7
+            },
+            {
+              "keyword": "variation",
+              "definition": "differences between individuals — caused by genetic differences, environmental factors, or both",
+              "display_order": 8
+            },
+            {
+              "keyword": "Punnett square",
+              "definition": "a grid used to predict the probability of offspring genotypes from a genetic cross",
+              "display_order": 9
+            },
+            {
+              "keyword": "sex determination",
+              "definition": "sex is determined by sex chromosomes — XX = female, XY = male",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the base pairing rule in DNA?",
+              "options": [
+                "A) A pairs with G; T pairs with C",
+                "B) A pairs with T; C pairs with G",
+                "C) A pairs with C; T pairs with G",
+                "D) All bases pair with each other"
+              ],
+              "correct_answer": "B",
+              "explanation": "Complementary base pairing: Adenine-Thymine and Cytosine-Guanine. This holds the double helix together.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is natural selection?",
+              "options": [
+                "A) Humans selecting the best organisms to breed",
+                "B) Random changes in DNA",
+                "C) Organisms with advantageous adaptations surviving and reproducing — passing on genes",
+                "D) The process of speciation only"
+              ],
+              "correct_answer": "C",
+              "explanation": "Natural selection: variation exists → some variants survive better → they reproduce more → advantageous alleles become more common over generations.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What causes speciation?",
+              "options": [
+                "A) Mutation alone",
+                "B) Natural selection alone",
+                "C) Reproductive isolation — separated populations evolve differently until they can no longer interbreed",
+                "D) Adaptation to different diets"
+              ],
+              "correct_answer": "C",
+              "explanation": "Speciation requires reproductive isolation — separated populations accumulate different mutations and adaptations until they become distinct species.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a mutation?",
+              "options": [
+                "A) A change in the organism's environment",
+                "B) A change in the organism's behaviour",
+                "C) A change in the DNA base sequence",
+                "D) A change caused by natural selection"
+              ],
+              "correct_answer": "C",
+              "explanation": "Mutations are changes in DNA sequence — most are neutral, some are harmful, occasionally they are beneficial. They are the source of new alleles.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What determines biological sex in humans?",
+              "options": [
+                "A) Hormones only",
+                "B) X and Y chromosomes — XX = female, XY = male",
+                "C) The number of autosomes",
+                "D) Environmental factors"
+              ],
+              "correct_answer": "B",
+              "explanation": "The sex chromosomes determine biological sex: females have two X chromosomes; males have one X and one Y chromosome.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an adaptation?",
+              "options": [
+                "A) A change in DNA",
+                "B) Learning a new behaviour",
+                "C) A feature improving an organism's chance of survival in its environment",
+                "D) A type of mutation"
+              ],
+              "correct_answer": "C",
+              "explanation": "Adaptations can be structural (e.g. thick fur), behavioural (e.g. migration), or physiological (e.g. producing antifreeze proteins).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a Punnett square used for?",
+              "options": [
+                "A) Drawing DNA structures",
+                "B) Predicting offspring genotype probabilities from a genetic cross",
+                "C) Mapping chromosomes",
+                "D) Calculating mutation rates"
+              ],
+              "correct_answer": "B",
+              "explanation": "Punnett squares show all possible combinations of alleles from two parents — each box represents a 25% probability.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What causes variation within a species?",
+              "options": [
+                "A) Only genetic differences",
+                "B) Only environmental factors",
+                "C) Genetic differences, environmental factors, or both",
+                "D) Only mutations"
+              ],
+              "correct_answer": "C",
+              "explanation": "Continuous variation (e.g. height) is influenced by multiple genes and the environment. Discontinuous variation (e.g. blood group) is determined by one gene.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What can cause extinction?",
+              "options": [
+                "A) Successful adaptation only",
+                "B) Habitat loss, disease, competition, climate change — a species is lost forever",
+                "C) Natural selection alone",
+                "D) Speciation only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Extinction is permanent — causes include habitat destruction, introduced predators, disease, climate change, and human overexploitation.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is DNA?",
+              "options": [
+                "A) A single-stranded molecule of amino acids",
+                "B) A double helix polymer of nucleotides — carries the genetic code",
+                "C) A type of RNA",
+                "D) A protein molecule"
+              ],
+              "correct_answer": "B",
+              "explanation": "DNA (deoxyribonucleic acid) is a double helix — the sequence of bases codes for the order of amino acids in proteins.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "In DNA, A pairs with T and C pairs with G.",
+              "correct_answer": "True",
+              "explanation": "Complementary base pairing holds the two DNA strands together.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Natural selection requires organisms to deliberately adapt.",
+              "correct_answer": "False",
+              "explanation": "Natural selection is not deliberate — organisms with existing advantageous variations survive and reproduce more.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Speciation requires reproductive isolation.",
+              "correct_answer": "True",
+              "explanation": "Populations must be isolated so they cannot interbreed — over time they accumulate different adaptations and become separate species.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Mutations always produce harmful changes.",
+              "correct_answer": "False",
+              "explanation": "Most mutations are neutral. Some are harmful. Occasionally mutations are beneficial — providing new variation for natural selection.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Human females have XY sex chromosomes.",
+              "correct_answer": "False",
+              "explanation": "Human females have XX chromosomes. Males have XY.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Adaptations improve an organism's chance of survival.",
+              "correct_answer": "True",
+              "explanation": "Adaptations can be structural, behavioural, or physiological — all increase survival and reproduction in a particular environment.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Punnett squares can predict exact offspring genotypes.",
+              "correct_answer": "False",
+              "explanation": "Punnett squares predict PROBABILITIES — not certainties. Each offspring is an independent event.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Variation within a species can be caused by environmental factors.",
+              "correct_answer": "True",
+              "explanation": "Environment affects phenotype — e.g. a genetically tall person may be shorter if malnourished.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Extinction means all members of a species have died.",
+              "correct_answer": "True",
+              "explanation": "Extinction is the permanent loss of a species — it cannot be reversed.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "DNA base sequence codes for amino acid sequence in proteins.",
+              "correct_answer": "True",
+              "explanation": "The order of DNA bases determines the order of amino acids in the protein produced.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a double helix of nucleotides — carries the genetic code.",
+              "correct_answer": "DNA",
+              "explanation": "The sequence of DNA bases codes for the sequence of amino acids in proteins.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Base pairing: A pairs with ________ ; C pairs with G.",
+              "correct_answer": "T",
+              "explanation": "Complementary base pairing holds the double helix together.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a change in DNA base sequence — can alter the protein produced.",
+              "correct_answer": "mutation",
+              "explanation": "Mutations are the source of new alleles and genetic variation.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ selection: organisms with advantageous adaptations survive and reproduce.",
+              "correct_answer": "Natural",
+              "explanation": "Over generations, advantageous alleles become more common in the population.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ occurs when populations become reproductively isolated and diverge.",
+              "correct_answer": "Speciation",
+              "explanation": "New species form when isolated populations can no longer interbreed.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ is a feature improving survival in a particular environment.",
+              "correct_answer": "adaptation",
+              "explanation": "Adaptations can be structural, behavioural, or physiological.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the permanent loss of a species — cannot be reversed.",
+              "correct_answer": "Extinction",
+              "explanation": "Caused by habitat loss, disease, competition, or climate change.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ square predicts probability of offspring genotypes from a genetic cross.",
+              "correct_answer": "Punnett",
+              "explanation": "Each box in a Punnett square represents a 25% probability.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Human sex is determined by sex chromosomes — ________ = female, XY = male.",
+              "correct_answer": "XX",
+              "explanation": "The Y chromosome carries the SRY gene that triggers male development.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is differences between individuals — genetic, environmental, or both.",
+              "correct_answer": "Variation",
+              "explanation": "Variation provides the raw material for natural selection.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "natural selection",
+                  "match": "advantageous adaptations → survive → reproduce → genes passed on"
+                },
+                {
+                  "term": "mutation",
+                  "match": "change in DNA sequence — source of new alleles"
+                },
+                {
+                  "term": "speciation",
+                  "match": "reproductive isolation → populations diverge → new species"
+                },
+                {
+                  "term": "adaptation",
+                  "match": "feature improving survival in environment"
+                },
+                {
+                  "term": "DNA base pairing",
+                  "match": "A-T, C-G — holds double helix together"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ecology",
+      "paper": "Paper 2",
+      "display_order": 5,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Ecosystems & Human Impact",
+          "cards": [
+            {
+              "keyword": "ecosystem",
+              "definition": "all the living organisms in an area and the non-living environment they interact with",
+              "display_order": 1
+            },
+            {
+              "keyword": "food chain",
+              "definition": "shows feeding relationships — producer → primary consumer → secondary consumer → tertiary consumer",
+              "display_order": 2
+            },
+            {
+              "keyword": "producer",
+              "definition": "an organism that makes its own food by photosynthesis — the first trophic level",
+              "display_order": 3
+            },
+            {
+              "keyword": "consumer",
+              "definition": "an organism that eats other organisms — herbivores eat plants, carnivores eat animals",
+              "display_order": 4
+            },
+            {
+              "keyword": "decomposer",
+              "definition": "organisms that break down dead matter — fungi and bacteria — recycle nutrients",
+              "display_order": 5
+            },
+            {
+              "keyword": "carbon cycle",
+              "definition": "the movement of carbon through living organisms, the atmosphere, and the ground",
+              "display_order": 6
+            },
+            {
+              "keyword": "nitrogen cycle",
+              "definition": "the movement of nitrogen through living organisms and soil — nitrogen fixation, nitrification, denitrification",
+              "display_order": 7
+            },
+            {
+              "keyword": "biodiversity",
+              "definition": "the variety of different species in an ecosystem — high biodiversity increases stability",
+              "display_order": 8
+            },
+            {
+              "keyword": "pollution",
+              "definition": "contamination of the environment by human activities — e.g. acid rain, eutrophication, plastic",
+              "display_order": 9
+            },
+            {
+              "keyword": "eutrophication",
+              "definition": "excess fertiliser runs into water → algal bloom → oxygen depletion → death of aquatic organisms",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is an ecosystem?",
+              "options": [
+                "A) All the plants in an area",
+                "B) The non-living environment only",
+                "C) All living organisms and their non-living environment in an area",
+                "D) A food web"
+              ],
+              "correct_answer": "C",
+              "explanation": "An ecosystem includes biotic (living) and abiotic (non-living) components that interact — e.g. a pond, a woodland, a coral reef.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the role of decomposers?",
+              "options": [
+                "A) Photosynthesis",
+                "B) Predation",
+                "C) Breaking down dead matter — recycling nutrients back into the soil",
+                "D) Nitrogen fixation only"
+              ],
+              "correct_answer": "C",
+              "explanation": "Decomposers (bacteria and fungi) break down dead organisms and waste — releasing nutrients that can be reabsorbed by plants.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is eutrophication?",
+              "options": [
+                "A) Loss of biodiversity from habitat destruction",
+                "B) Excess fertiliser → algal bloom → oxygen depletion → death of aquatic life",
+                "C) Acid rain damage to forests",
+                "D) Greenhouse effect causing warming"
+              ],
+              "correct_answer": "B",
+              "explanation": "Eutrophication: fertilisers wash into water → algae bloom → algae block sunlight → submerged plants die → bacteria decompose plants → bacteria use oxygen → aquatic organisms die.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is biodiversity?",
+              "options": [
+                "A) The number of individuals in one species",
+                "B) The variety of different species in an ecosystem",
+                "C) The number of food chains in an ecosystem",
+                "D) The total biomass of an ecosystem"
+              ],
+              "correct_answer": "B",
+              "explanation": "High biodiversity increases ecosystem stability — more species means more feeding relationships and better resilience to change.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the carbon cycle?",
+              "options": [
+                "A) Carbon moving only through the atmosphere",
+                "B) Carbon moving through living organisms, atmosphere, and the ground",
+                "C) Carbon being released only by combustion",
+                "D) Carbon only in photosynthesis and respiration"
+              ],
+              "correct_answer": "B",
+              "explanation": "Carbon cycles through photosynthesis (CO₂ absorbed), respiration (CO₂ released), decomposition, and combustion.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a producer?",
+              "options": [
+                "A) An organism that eats plants",
+                "B) An organism that makes its own food by photosynthesis — the first trophic level",
+                "C) A decomposer",
+                "D) A tertiary consumer"
+              ],
+              "correct_answer": "B",
+              "explanation": "Producers (green plants and algae) convert light energy into chemical energy via photosynthesis — they form the base of all food chains.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is nitrogen fixation?",
+              "options": [
+                "A) Nitrogen entering the atmosphere",
+                "B) Nitrogen being absorbed by plants",
+                "C) Conversion of atmospheric nitrogen to ammonia by bacteria",
+                "D) Decomposition of protein"
+              ],
+              "correct_answer": "C",
+              "explanation": "Nitrogen-fixing bacteria (e.g. Rhizobium in root nodules) convert N₂ gas to ammonia — making nitrogen available to plants.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What causes eutrophication?",
+              "options": [
+                "A) Drought",
+                "B) Excess fertiliser running off into water bodies",
+                "C) Acid rain",
+                "D) Overfishing"
+              ],
+              "correct_answer": "B",
+              "explanation": "Fertilisers containing nitrates and phosphates wash into waterways — stimulating algal growth that ultimately depletes oxygen.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is high biodiversity important?",
+              "options": [
+                "A) It only benefits large animals",
+                "B) High biodiversity makes ecosystems more stable and resilient",
+                "C) Biodiversity only matters in tropical regions",
+                "D) High biodiversity increases competition and reduces productivity"
+              ],
+              "correct_answer": "B",
+              "explanation": "Diverse ecosystems have more feeding relationships and redundancy — if one species is lost, others can fill its role.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between a food chain and a food web?",
+              "options": [
+                "A) They are the same",
+                "B) A food chain shows one pathway; a food web shows all feeding relationships in an ecosystem",
+                "C) Food chains are more complex than food webs",
+                "D) Food webs only include decomposers"
+              ],
+              "correct_answer": "B",
+              "explanation": "A food chain shows a single feeding pathway. A food web shows multiple interconnected food chains — more accurately representing feeding relationships.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "An ecosystem includes both living and non-living components.",
+              "correct_answer": "True",
+              "explanation": "Biotic (living) and abiotic (non-living) components interact to form an ecosystem.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Decomposers break down dead matter and release nutrients.",
+              "correct_answer": "True",
+              "explanation": "Decomposers (bacteria and fungi) are essential for nutrient recycling.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Eutrophication increases oxygen levels in water.",
+              "correct_answer": "False",
+              "explanation": "Eutrophication DECREASES oxygen levels — decomposing algae use up dissolved oxygen.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "High biodiversity decreases ecosystem stability.",
+              "correct_answer": "False",
+              "explanation": "High biodiversity INCREASES stability — more species means more feeding relationships and resilience.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Producers make their own food by photosynthesis.",
+              "correct_answer": "True",
+              "explanation": "Producers are the first trophic level — converting light energy to chemical energy.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The carbon cycle only involves photosynthesis and respiration.",
+              "correct_answer": "False",
+              "explanation": "The carbon cycle also involves decomposition, combustion, and the formation/release of fossil fuels.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Nitrogen fixation converts atmospheric nitrogen to ammonia.",
+              "correct_answer": "True",
+              "explanation": "Nitrogen-fixing bacteria convert N₂ to ammonia — making nitrogen available to plants.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Eutrophication is caused by a lack of nutrients in water.",
+              "correct_answer": "False",
+              "explanation": "Eutrophication is caused by EXCESS nutrients (fertiliser run-off) — too many nutrients causes algal bloom.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "All consumers eat plants.",
+              "correct_answer": "False",
+              "explanation": "Herbivores eat plants; carnivores eat animals; omnivores eat both.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Food webs are more realistic than food chains.",
+              "correct_answer": "True",
+              "explanation": "Food webs show multiple interconnected feeding relationships — more accurately representing ecosystems.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ includes all living organisms and their non-living environment.",
+              "correct_answer": "ecosystem",
+              "explanation": "Ecosystems include biotic (living) and abiotic (non-living) components.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ break down dead matter — recycling nutrients into the soil.",
+              "correct_answer": "Decomposers",
+              "explanation": "Bacteria and fungi are the main decomposers.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ produces an algal bloom → oxygen depletion → death of aquatic organisms.",
+              "correct_answer": "Eutrophication",
+              "explanation": "Caused by excess fertiliser (nitrates/phosphates) washing into water.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the variety of different species in an ecosystem.",
+              "correct_answer": "Biodiversity",
+              "explanation": "High biodiversity increases ecosystem stability and resilience.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ cycle moves carbon through organisms, the atmosphere, and the ground.",
+              "correct_answer": "carbon",
+              "explanation": "Photosynthesis, respiration, decomposition, and combustion all feature.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ makes its own food by photosynthesis — the first trophic level.",
+              "correct_answer": "producer",
+              "explanation": "All food chains begin with a producer.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ fixation converts atmospheric nitrogen to ammonia — done by bacteria.",
+              "correct_answer": "Nitrogen",
+              "explanation": "Rhizobium bacteria in legume root nodules fix nitrogen.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the variety of different species — high levels increase stability.",
+              "correct_answer": "Biodiversity",
+              "explanation": "Biodiversity is threatened by habitat loss, pollution, and climate change.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A food ________ shows multiple interconnected feeding relationships.",
+              "correct_answer": "web",
+              "explanation": "Food webs more accurately represent the complexity of ecosystems.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ contaminate environments — e.g. acid rain, fertiliser run-off, plastics.",
+              "correct_answer": "Pollutants",
+              "explanation": "Human activities produce pollutants that damage ecosystems and biodiversity.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "ecosystem",
+                  "match": "living organisms + non-living environment interacting"
+                },
+                {
+                  "term": "decomposer",
+                  "match": "breaks down dead matter — recycles nutrients"
+                },
+                {
+                  "term": "eutrophication",
+                  "match": "fertiliser run-off → algal bloom → oxygen depletion"
+                },
+                {
+                  "term": "biodiversity",
+                  "match": "variety of species — high biodiversity = more stable"
+                },
+                {
+                  "term": "producer",
+                  "match": "makes own food by photosynthesis — first trophic level"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Separate Science Extra — Biology",
+      "paper": "Paper 2",
+      "display_order": 6,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Separate Science: Microbiology & Monoclonal Antibodies",
+          "cards": [
+            {
+              "keyword": "monoclonal antibodies",
+              "definition": "identical antibodies produced from a single clone of cells — highly specific to one antigen",
+              "display_order": 1
+            },
+            {
+              "keyword": "hybridoma cell",
+              "definition": "a cell made by fusing a B lymphocyte with a tumour cell — used to produce monoclonal antibodies",
+              "display_order": 2
+            },
+            {
+              "keyword": "ELISA test",
+              "definition": "a diagnostic test using monoclonal antibodies to detect specific proteins — e.g. pregnancy tests",
+              "display_order": 3
+            },
+            {
+              "keyword": "targeted drug delivery",
+              "definition": "monoclonal antibodies carry drugs directly to cancer cells — reducing side effects",
+              "display_order": 4
+            },
+            {
+              "keyword": "plant disease detection",
+              "definition": "monoclonal antibodies used to identify specific pathogens in plants",
+              "display_order": 5
+            },
+            {
+              "keyword": "culturing microorganisms",
+              "definition": "growing bacteria or fungi in agar plates or broth — requires aseptic technique",
+              "display_order": 6
+            },
+            {
+              "keyword": "aseptic technique",
+              "definition": "procedures to prevent contamination — sterilising equipment, using bunsen burners, working quickly",
+              "display_order": 7
+            },
+            {
+              "keyword": "antibiotic resistance",
+              "definition": "bacteria that survive antibiotic treatment and reproduce — passing on resistance genes",
+              "display_order": 8
+            },
+            {
+              "keyword": "MRSA",
+              "definition": "methicillin-resistant Staphylococcus aureus — a bacterium resistant to most antibiotics",
+              "display_order": 9
+            },
+            {
+              "keyword": "viral replication",
+              "definition": "viruses inject their genetic material into a host cell — using the cell to make new viruses",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What are monoclonal antibodies?",
+              "options": [
+                "A) Antibodies made by T cells",
+                "B) Identical antibodies from a single clone — highly specific to one antigen",
+                "C) Antibodies that attack all pathogens",
+                "D) Antibodies produced in bone marrow only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Monoclonal antibodies are produced by hybridoma cells — they are identical and bind to one specific antigen, making them very precise.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a hybridoma cell?",
+              "options": [
+                "A) A type of cancer cell",
+                "B) A bacterial cell used in ELISA",
+                "C) A cell made by fusing a B lymphocyte with a tumour cell — produces monoclonal antibodies",
+                "D) A stem cell"
+              ],
+              "correct_answer": "C",
+              "explanation": "Hybridoma cells combine the antibody-making ability of B lymphocytes with the rapid division of tumour cells — they produce large quantities of identical antibodies.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How are monoclonal antibodies used in cancer treatment?",
+              "options": [
+                "A) They destroy all rapidly dividing cells",
+                "B) Linked to radioactive markers or drugs — they target and destroy cancer cells specifically",
+                "C) They stimulate the immune system generally",
+                "D) They prevent cancer cells from dividing by blocking all growth factors"
+              ],
+              "correct_answer": "B",
+              "explanation": "Targeted drug delivery: monoclonal antibodies carry drugs or toxins directly to cancer cells — minimising damage to healthy cells.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is aseptic technique?",
+              "options": [
+                "A) Sterilising the patient before surgery",
+                "B) Procedures to prevent contamination when culturing microorganisms",
+                "C) Using antibiotics to kill bacteria",
+                "D) Testing antibiotic resistance"
+              ],
+              "correct_answer": "B",
+              "explanation": "Aseptic technique: sterilise equipment, use Bunsen burners to create an updraught, work quickly, and avoid unnecessary talking to prevent contamination.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is antibiotic resistance?",
+              "options": [
+                "A) The ability of humans to resist antibiotics",
+                "B) Bacteria that survive antibiotic treatment and reproduce — passing on resistance genes",
+                "C) A type of allergy to antibiotics",
+                "D) Antibiotics that no longer work on viruses"
+              ],
+              "correct_answer": "B",
+              "explanation": "Antibiotic resistance: bacteria with resistance mutations survive treatment, reproduce, and pass on resistance — overuse of antibiotics accelerates this.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the ELISA test used for?",
+              "options": [
+                "A) Culturing bacteria",
+                "B) Detecting antibiotic resistance",
+                "C) Detecting specific proteins using monoclonal antibodies — e.g. pregnancy tests, disease diagnosis",
+                "D) Growing hybridoma cells"
+              ],
+              "correct_answer": "C",
+              "explanation": "ELISA (Enzyme-Linked Immunosorbent Assay): monoclonal antibodies bind to a specific antigen — colour change indicates the presence of the target protein.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is MRSA?",
+              "options": [
+                "A) A type of virus",
+                "B) A bacterium resistant to most antibiotics — a major hospital infection",
+                "C) A fungal infection",
+                "D) An antibiotic drug"
+              ],
+              "correct_answer": "B",
+              "explanation": "MRSA (methicillin-resistant Staphylococcus aureus) is resistant to most antibiotics — it is dangerous in hospitals where patients are vulnerable.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do viruses replicate?",
+              "options": [
+                "A) By binary fission",
+                "B) By mitosis",
+                "C) By injecting genetic material into a host cell — using the cell's machinery to make new viruses",
+                "D) By budding off from the host cell membrane only"
+              ],
+              "correct_answer": "C",
+              "explanation": "Viruses are not cells — they cannot reproduce independently. They inject their genetic material into a host cell, which produces new viruses that burst out.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What makes monoclonal antibodies useful in diagnosis?",
+              "options": [
+                "A) They react with all antigens",
+                "B) They are cheap to produce",
+                "C) Their high specificity — they bind only to one particular antigen",
+                "D) They can cross the blood-brain barrier"
+              ],
+              "correct_answer": "C",
+              "explanation": "Specificity is the key advantage — monoclonal antibodies bind to one antigen only, making them highly accurate diagnostic tools.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is antibiotic resistance a global concern?",
+              "options": [
+                "A) Antibiotics are expensive",
+                "B) Resistant bacteria cannot be treated with existing antibiotics — infections become untreatable",
+                "C) Antibiotics cause side effects",
+                "D) Only some bacteria develop resistance"
+              ],
+              "correct_answer": "B",
+              "explanation": "Antibiotic resistance is evolving faster than new antibiotics are being developed — infections that were once treatable could become fatal.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Monoclonal antibodies are specific to one antigen.",
+              "correct_answer": "True",
+              "explanation": "Each monoclonal antibody binds to only one particular antigen — making them highly precise.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Hybridoma cells are made by fusing two B lymphocytes.",
+              "correct_answer": "False",
+              "explanation": "Hybridoma cells are made by fusing a B lymphocyte with a TUMOUR cell — combining antibody production with rapid division.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Monoclonal antibodies can deliver drugs directly to cancer cells.",
+              "correct_answer": "True",
+              "explanation": "Targeted drug delivery uses monoclonal antibodies to carry drugs to cancer cells specifically.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Aseptic technique is used to ensure all bacteria are killed.",
+              "correct_answer": "False",
+              "explanation": "Aseptic technique PREVENTS CONTAMINATION — it does not necessarily kill bacteria, it prevents unwanted bacteria from entering the culture.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Antibiotic resistance is caused by bacteria mutating in response to antibiotics.",
+              "correct_answer": "False",
+              "explanation": "Bacteria don't mutate IN RESPONSE to antibiotics — resistant mutants already exist and are SELECTED by antibiotic exposure.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "ELISA tests use monoclonal antibodies to detect specific proteins.",
+              "correct_answer": "True",
+              "explanation": "The ELISA test is a highly sensitive diagnostic test — used in pregnancy tests and disease diagnosis.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "MRSA is resistant to all known treatments.",
+              "correct_answer": "False",
+              "explanation": "MRSA is resistant to most antibiotics but some treatments (e.g. vancomycin) can still be effective.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Viruses replicate by binary fission.",
+              "correct_answer": "False",
+              "explanation": "Binary fission is how BACTERIA reproduce. Viruses replicate by injecting genetic material into a host cell.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Monoclonal antibody production uses hybridoma cells.",
+              "correct_answer": "True",
+              "explanation": "Hybridoma cells combine the antibody-making ability of B lymphocytes with the immortality of tumour cells.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Antibiotic overuse accelerates the development of resistance.",
+              "correct_answer": "True",
+              "explanation": "Overuse selects for resistant bacteria — removing susceptible bacteria and allowing resistant ones to dominate.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ antibodies are identical antibodies from one clone — specific to one antigen.",
+              "correct_answer": "Monoclonal",
+              "explanation": "Used in diagnosis, cancer treatment, and research.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ cell is made by fusing a B lymphocyte with a tumour cell.",
+              "correct_answer": "hybridoma",
+              "explanation": "Hybridoma cells produce large quantities of identical antibodies.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ test uses monoclonal antibodies to detect specific proteins.",
+              "correct_answer": "ELISA",
+              "explanation": "Used in pregnancy tests and diagnosis of diseases.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ drug delivery uses monoclonal antibodies to target cancer cells specifically.",
+              "correct_answer": "Targeted",
+              "explanation": "Reduces side effects by sparing healthy cells.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ technique prevents contamination when culturing microorganisms.",
+              "correct_answer": "Aseptic",
+              "explanation": "Involves sterilising equipment and working in sterile conditions.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ resistance occurs when bacteria survive antibiotics and pass on resistance genes.",
+              "correct_answer": "Antibiotic",
+              "explanation": "Natural selection drives antibiotic resistance — resistant bacteria survive and reproduce.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a bacterium resistant to most antibiotics — a major hospital threat.",
+              "correct_answer": "MRSA",
+              "explanation": "MRSA stands for methicillin-resistant Staphylococcus aureus.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Viruses inject their genetic material into a ________ cell to replicate.",
+              "correct_answer": "host",
+              "explanation": "The host cell's machinery produces new viral particles.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Monoclonal antibodies are useful diagnostically because of their high ________.",
+              "correct_answer": "specificity",
+              "explanation": "They bind only to one particular antigen.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ overuse accelerates the evolution of antibiotic-resistant bacteria.",
+              "correct_answer": "Antibiotic",
+              "explanation": "New antibiotics must be developed to keep pace with resistance.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "monoclonal antibodies",
+                  "match": "identical — specific to one antigen — from hybridoma cells"
+                },
+                {
+                  "term": "hybridoma cell",
+                  "match": "B lymphocyte + tumour cell — produces monoclonal antibodies"
+                },
+                {
+                  "term": "ELISA",
+                  "match": "monoclonal antibodies detect specific proteins — diagnosis"
+                },
+                {
+                  "term": "antibiotic resistance",
+                  "match": "resistant bacteria survive and reproduce — selection"
+                },
+                {
+                  "term": "aseptic technique",
+                  "match": "prevents contamination when culturing microorganisms"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Separate Science: The Eye, Nervous System & Hormones",
+          "cards": [
+            {
+              "keyword": "cornea",
+              "definition": "the transparent front of the eye — refracts (bends) light entering the eye",
+              "display_order": 1
+            },
+            {
+              "keyword": "lens",
+              "definition": "focuses light onto the retina — changes shape for near and distant objects (accommodation)",
+              "display_order": 2
+            },
+            {
+              "keyword": "retina",
+              "definition": "the light-sensitive layer at the back of the eye — contains rod and cone cells",
+              "display_order": 3
+            },
+            {
+              "keyword": "accommodation",
+              "definition": "the eye changing the shape of the lens to focus on near or distant objects",
+              "display_order": 4
+            },
+            {
+              "keyword": "cone cells",
+              "definition": "colour-sensitive cells in the retina — concentrated in the fovea — require bright light",
+              "display_order": 5
+            },
+            {
+              "keyword": "rod cells",
+              "definition": "light-sensitive cells in the retina — sensitive in dim light — cannot detect colour",
+              "display_order": 6
+            },
+            {
+              "keyword": "optic nerve",
+              "definition": "carries electrical impulses from the retina to the brain",
+              "display_order": 7
+            },
+            {
+              "keyword": "neurotransmitter",
+              "definition": "a chemical that diffuses across a synapse — e.g. acetylcholine, dopamine",
+              "display_order": 8
+            },
+            {
+              "keyword": "contraceptive pill",
+              "definition": "contains oestrogen and/or progesterone — inhibits FSH production — prevents ovulation",
+              "display_order": 9
+            },
+            {
+              "keyword": "IVF (in vitro fertilisation)",
+              "definition": "fertility treatment — FSH and LH given to stimulate egg production — eggs fertilised outside the body",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of the cornea?",
+              "options": [
+                "A) Detects light intensity",
+                "B) Focuses light onto the retina",
+                "C) Refracts (bends) light entering the eye",
+                "D) Contains photoreceptors"
+              ],
+              "correct_answer": "C",
+              "explanation": "The cornea does most of the eye's light bending — it has a fixed curvature. Fine focusing is done by the lens.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is accommodation?",
+              "options": [
+                "A) The eye adapting to different light levels",
+                "B) The lens changing shape to focus on near or distant objects",
+                "C) The pupil changing size",
+                "D) Rod cells becoming active in dim light"
+              ],
+              "correct_answer": "B",
+              "explanation": "Accommodation: close objects — the ciliary muscles contract, suspensory ligaments relax, lens becomes fat (more curved). Distant objects — opposite happens.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between rod and cone cells?",
+              "options": [
+                "A) Rods detect colour; cones work in dim light",
+                "B) Rods are sensitive in dim light; cones detect colour in bright light",
+                "C) Both detect colour equally",
+                "D) Rods are only in the fovea"
+              ],
+              "correct_answer": "B",
+              "explanation": "Rods: sensitive in dim light, no colour detection, spread across the retina. Cones: colour detection, require bright light, concentrated in the fovea.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the role of the optic nerve?",
+              "options": [
+                "A) Refracts light",
+                "B) Controls the shape of the lens",
+                "C) Carries electrical impulses from the retina to the brain",
+                "D) Controls pupil size"
+              ],
+              "correct_answer": "C",
+              "explanation": "The optic nerve carries visual information as electrical impulses to the visual cortex in the brain.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does the contraceptive pill work?",
+              "options": [
+                "A) It prevents sperm reaching the egg",
+                "B) It contains oestrogen/progesterone — inhibits FSH — prevents ovulation",
+                "C) It makes the uterus lining thick",
+                "D) It kills sperm in the reproductive tract"
+              ],
+              "correct_answer": "B",
+              "explanation": "The combined pill contains oestrogen and progesterone — negative feedback inhibits FSH production, preventing egg maturation and ovulation.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is IVF?",
+              "options": [
+                "A) A contraceptive method",
+                "B) A fertility treatment — eggs fertilised outside the body after hormone stimulation",
+                "C) A type of hormone therapy for menopause",
+                "D) A surgical procedure to unblock fallopian tubes"
+              ],
+              "correct_answer": "B",
+              "explanation": "IVF: FSH and LH given to stimulate multiple egg production → eggs collected → fertilised with sperm → embryo transferred to uterus.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a neurotransmitter?",
+              "options": [
+                "A) An electrical impulse",
+                "B) A chemical that carries signals across synapses — e.g. acetylcholine",
+                "C) A hormone carried in the blood",
+                "D) A type of nerve cell"
+              ],
+              "correct_answer": "B",
+              "explanation": "Neurotransmitters diffuse across synapses and bind to receptors on the next neurone — converting chemical signals back to electrical ones.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Where are cone cells concentrated in the eye?",
+              "options": [
+                "A) Across the whole retina",
+                "B) At the edges of the retina",
+                "C) In the fovea (yellow spot) — directly behind the lens",
+                "D) In the iris"
+              ],
+              "correct_answer": "C",
+              "explanation": "The fovea has the highest density of cone cells — this is where the most detailed, colour vision occurs. The optic nerve exits nearby creating a blind spot.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does FSH do in IVF treatment?",
+              "options": [
+                "A) Prevents ovulation",
+                "B) Stimulates egg production — multiple eggs are collected for fertilisation",
+                "C) Thickens the uterus lining",
+                "D) Prevents fertilisation"
+              ],
+              "correct_answer": "B",
+              "explanation": "FSH (follicle-stimulating hormone) is given in high doses to stimulate the ovaries to produce multiple eggs — increasing the chance of successful fertilisation.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to the lens when focusing on a close object?",
+              "options": [
+                "A) The lens becomes flat (less curved)",
+                "B) The ciliary muscles relax",
+                "C) The lens becomes fat (more curved) — ciliary muscles contract, suspensory ligaments slacken",
+                "D) The pupil dilates"
+              ],
+              "correct_answer": "C",
+              "explanation": "Close objects: ciliary muscles contract → suspensory ligaments go slack → lens becomes fat and more curved → light refracted more strongly.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The cornea does most of the eye's light refraction.",
+              "correct_answer": "True",
+              "explanation": "The cornea has a fixed curvature and does most of the bending of light. The lens fine-tunes focus.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Accommodation involves the iris changing size.",
+              "correct_answer": "False",
+              "explanation": "Accommodation involves the LENS changing shape — controlled by ciliary muscles and suspensory ligaments.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Rod cells detect colour.",
+              "correct_answer": "False",
+              "explanation": "ROD cells detect light intensity only — they cannot detect colour. CONE cells detect colour.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The optic nerve carries impulses from the brain to the retina.",
+              "correct_answer": "False",
+              "explanation": "The optic nerve carries impulses FROM THE RETINA TO THE BRAIN.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The contraceptive pill contains hormones that prevent ovulation.",
+              "correct_answer": "True",
+              "explanation": "Oestrogen and progesterone in the pill inhibit FSH — preventing egg maturation.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "IVF involves fertilisation inside the body.",
+              "correct_answer": "False",
+              "explanation": "IVF stands for in VITRO (outside the body) fertilisation — eggs are fertilised in a laboratory.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Neurotransmitters are electrical signals.",
+              "correct_answer": "False",
+              "explanation": "Neurotransmitters are CHEMICAL signals that diffuse across synapses.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Cone cells require dim light to function.",
+              "correct_answer": "False",
+              "explanation": "Cone cells require BRIGHT LIGHT — they detect colour. Rod cells function in dim light.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "During accommodation for a close object, the lens becomes fatter.",
+              "correct_answer": "True",
+              "explanation": "Ciliary muscles contract → suspensory ligaments relax → lens bulges → greater curvature → more refraction.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "FSH is used in IVF to stimulate multiple egg production.",
+              "correct_answer": "True",
+              "explanation": "FSH stimulates the ovaries to mature multiple follicles — increasing the number of eggs available.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ refracts light entering the eye — does most of the bending.",
+              "correct_answer": "cornea",
+              "explanation": "The cornea has a fixed curvature — fine focusing is done by the lens.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the lens changing shape to focus on near or distant objects.",
+              "correct_answer": "Accommodation",
+              "explanation": "Near: fat lens. Far: flat lens.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ cells detect colour in bright light — concentrated in the fovea.",
+              "correct_answer": "Cone",
+              "explanation": "The fovea gives the sharpest, most detailed colour vision.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ cells detect light in dim conditions — cannot detect colour.",
+              "correct_answer": "Rod",
+              "explanation": "Rod cells are more widely distributed across the retina.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ nerve carries visual impulses from the retina to the brain.",
+              "correct_answer": "optic",
+              "explanation": "Where the optic nerve exits, there are no photoreceptors — creating a blind spot.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are chemicals that carry signals across synapses.",
+              "correct_answer": "Neurotransmitters",
+              "explanation": "E.g. acetylcholine, dopamine, serotonin.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The contraceptive ________ inhibits FSH — preventing ovulation.",
+              "correct_answer": "pill",
+              "explanation": "Contains oestrogen and/or progesterone — hormonal negative feedback.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ fertilisation involves eggs being fertilised outside the body.",
+              "correct_answer": "In vitro",
+              "explanation": "IVF uses FSH and LH to stimulate multiple egg production.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "During accommodation for close objects, ciliary muscles ________.",
+              "correct_answer": "contract",
+              "explanation": "Contraction slackens suspensory ligaments — allowing lens to bulge.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The fovea has the highest concentration of ________ cells.",
+              "correct_answer": "cone",
+              "explanation": "Cone cells are responsible for colour and detailed vision.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "cornea",
+                  "match": "refracts light — fixed curvature — most bending"
+                },
+                {
+                  "term": "accommodation",
+                  "match": "lens changes shape — near: fat, far: flat"
+                },
+                {
+                  "term": "rod cells",
+                  "match": "dim light — no colour detection"
+                },
+                {
+                  "term": "cone cells",
+                  "match": "bright light — colour detection — fovea"
+                },
+                {
+                  "term": "IVF",
+                  "match": "eggs fertilised outside body — FSH stimulates egg production"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

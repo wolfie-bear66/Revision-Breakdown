@@ -1,0 +1,135 @@
+{
+  "subject": {
+    "name": "Physics (OCR A)",
+    "slug": "physics-ocr",
+    "colour": "#1e3a5f"
+  },
+  "topics": [
+    {
+      "name": "Forces & Motion",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Forces, Motion & Energy (OCR)",
+          "cards": [
+            {
+              "keyword": "resultant force",
+              "definition": "the single force that has the same effect as all the forces acting on an object combined",
+              "display_order": 1
+            },
+            {
+              "keyword": "free body diagram",
+              "definition": "a diagram showing all the forces acting on an object as arrows — their size and direction show magnitude and direction",
+              "display_order": 2
+            },
+            {
+              "keyword": "weight",
+              "definition": "the force of gravity acting on an object (Weight = mass × gravitational field strength, W = mg)",
+              "display_order": 3
+            },
+            {
+              "keyword": "friction",
+              "definition": "a contact force opposing relative motion between surfaces — produces heat and slows moving objects",
+              "display_order": 4
+            },
+            {
+              "keyword": "terminal velocity",
+              "definition": "the constant velocity reached when the driving force equals the resistive force — no net force, no acceleration",
+              "display_order": 5
+            },
+            {
+              "keyword": "work done",
+              "definition": "the energy transferred when a force moves an object (Work done = Force × Distance, W = Fd)",
+              "display_order": 6
+            },
+            {
+              "keyword": "the principle of moments",
+              "definition": "for a balanced object, the total clockwise moments equal the total anticlockwise moments",
+              "display_order": 7
+            },
+            {
+              "keyword": "pressure",
+              "definition": "force per unit area (Pressure = Force ÷ Area) — measured in pascals (Pa)",
+              "display_order": 8
+            },
+            {
+              "keyword": "Hooke's Law",
+              "definition": "the extension of a spring is proportional to the force applied, provided the elastic limit is not exceeded (F = ke)",
+              "display_order": 9
+            },
+            {
+              "keyword": "elastic limit",
+              "definition": "the point beyond which a material will not return to its original shape after a force is removed",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electricity & Magnetism",
+      "paper": "Paper 2",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Circuits & Electromagnetism (OCR)",
+          "cards": [
+            {
+              "keyword": "current",
+              "definition": "the rate of flow of electric charge (Current = Charge ÷ Time, I = Q/t) — measured in amperes (A)",
+              "display_order": 1
+            },
+            {
+              "keyword": "potential difference (voltage)",
+              "definition": "the energy transferred per unit charge (V = W/Q) — measured in volts (V)",
+              "display_order": 2
+            },
+            {
+              "keyword": "resistance",
+              "definition": "opposition to the flow of current (Resistance = Voltage ÷ Current, R = V/I) — measured in ohms (Ω)",
+              "display_order": 3
+            },
+            {
+              "keyword": "series circuit",
+              "definition": "a circuit where components are connected in a single loop — same current flows through each component",
+              "display_order": 4
+            },
+            {
+              "keyword": "parallel circuit",
+              "definition": "a circuit where components are connected in separate branches — voltage is the same across each branch",
+              "display_order": 5
+            },
+            {
+              "keyword": "the motor effect",
+              "definition": "a current-carrying conductor in a magnetic field experiences a force — the basis of electric motors",
+              "display_order": 6
+            },
+            {
+              "keyword": "electromagnetic induction",
+              "definition": "generating a voltage by moving a conductor through a magnetic field — the basis of generators and transformers",
+              "display_order": 7
+            },
+            {
+              "keyword": "transformer",
+              "definition": "a device using electromagnetic induction to change the voltage of an alternating current — step-up increases voltage, step-down decreases it",
+              "display_order": 8
+            },
+            {
+              "keyword": "the National Grid",
+              "definition": "the system of cables and transformers distributing electricity across the UK — high voltage reduces energy loss during transmission",
+              "display_order": 9
+            },
+            {
+              "keyword": "direct current (DC) vs alternating current (AC)",
+              "definition": "DC flows in one direction (batteries); AC reverses direction periodically (mains electricity, 50 Hz in the UK)",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

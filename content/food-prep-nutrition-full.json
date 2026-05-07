@@ -1,0 +1,735 @@
+{
+  "subject": {
+    "name": "Food Preparation & Nutrition",
+    "slug": "food-preparation-nutrition",
+    "colour": "#dc2626",
+    "exam_board": "AQA",
+    "emoji": "🍳"
+  },
+  "topics": [
+    {
+      "name": "Nutrition",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Macronutrients",
+          "cards": [
+            {
+              "keyword": "carbohydrate",
+              "definition": "a macronutrient providing energy — sugars (simple) and starch/fibre (complex). 4 kcal per gram",
+              "display_order": 1
+            },
+            {
+              "keyword": "protein",
+              "definition": "a macronutrient for growth and repair — made of amino acids. Sources: meat, fish, eggs, beans, nuts",
+              "display_order": 2
+            },
+            {
+              "keyword": "fat",
+              "definition": "a macronutrient providing energy and fat-soluble vitamins — saturated (animal) and unsaturated (plant)",
+              "display_order": 3
+            },
+            {
+              "keyword": "saturated fat",
+              "definition": "solid at room temperature — associated with raised cholesterol and heart disease. Found in butter, cheese, red meat",
+              "display_order": 4
+            },
+            {
+              "keyword": "unsaturated fat",
+              "definition": "liquid at room temperature — healthier than saturated fat. Includes monounsaturated and polyunsaturated fats",
+              "display_order": 5
+            },
+            {
+              "keyword": "dietary fibre",
+              "definition": "indigestible plant material — aids digestive health, prevents constipation, may reduce cancer risk",
+              "display_order": 6
+            },
+            {
+              "keyword": "essential amino acids",
+              "definition": "amino acids the body cannot make — must be obtained from food. Complete proteins contain all 8",
+              "display_order": 7
+            },
+            {
+              "keyword": "high biological value (HBV) protein",
+              "definition": "contains all essential amino acids — animal sources: meat, fish, eggs, dairy",
+              "display_order": 8
+            },
+            {
+              "keyword": "low biological value (LBV) protein",
+              "definition": "lacks one or more essential amino acids — plant sources: beans, lentils, nuts",
+              "display_order": 9
+            },
+            {
+              "keyword": "complementary proteins",
+              "definition": "combining LBV proteins to provide all essential amino acids — e.g. beans on toast",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of carbohydrate?",
+              "options": [
+                "A) Growth and repair of tissues",
+                "B) Providing energy — 4 kcal per gram",
+                "C) Fat-soluble vitamin absorption",
+                "D) Enzyme production"
+              ],
+              "correct_answer": "B",
+              "explanation": "Carbohydrates are the body's primary energy source — glucose from carbohydrates fuels cells, including the brain.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of protein?",
+              "options": [
+                "A) Providing energy storage",
+                "B) Absorbing fat-soluble vitamins",
+                "C) Growth and repair of body tissues — made of amino acids",
+                "D) Regulating temperature"
+              ],
+              "correct_answer": "C",
+              "explanation": "Protein is essential for growth, repair, and maintenance — it builds muscles, organs, enzymes, and hormones.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between saturated and unsaturated fat?",
+              "options": [
+                "A) Saturated is healthier",
+                "B) Saturated is solid at room temperature and linked to heart disease; unsaturated is liquid and healthier",
+                "C) Unsaturated is from animal sources",
+                "D) There is no nutritional difference"
+              ],
+              "correct_answer": "B",
+              "explanation": "Saturated fats raise LDL ('bad') cholesterol, increasing heart disease risk. Unsaturated fats are healthier — they can lower LDL cholesterol.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is dietary fibre?",
+              "options": [
+                "A) A type of fat",
+                "B) A type of protein",
+                "C) Indigestible plant material — aids digestion and prevents constipation",
+                "D) A simple sugar"
+              ],
+              "correct_answer": "C",
+              "explanation": "Dietary fibre is indigestible — it adds bulk to stools, aids digestion, and is associated with reduced risk of bowel cancer and heart disease.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are essential amino acids?",
+              "options": [
+                "A) Amino acids the body makes itself",
+                "B) Amino acids from meat only",
+                "C) Amino acids the body cannot make — must come from food",
+                "D) Amino acids found only in complete proteins"
+              ],
+              "correct_answer": "C",
+              "explanation": "8–9 essential amino acids cannot be synthesised by the body — they must come from diet. Complete proteins contain all essential amino acids.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a high biological value (HBV) protein?",
+              "options": [
+                "A) Protein containing no amino acids",
+                "B) Protein from plant sources",
+                "C) Protein containing all essential amino acids — typically from animal sources",
+                "D) Protein with low nutritional value"
+              ],
+              "correct_answer": "C",
+              "explanation": "HBV proteins (meat, fish, eggs, dairy) contain all essential amino acids — they are 'complete' proteins.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a low biological value (LBV) protein?",
+              "options": [
+                "A) Protein from animal sources",
+                "B) Protein lacking one or more essential amino acids — typically from plant sources",
+                "C) Protein with no amino acids",
+                "D) Protein containing excess amino acids"
+              ],
+              "correct_answer": "B",
+              "explanation": "LBV proteins (beans, lentils, nuts) lack one or more essential amino acids — they are 'incomplete' proteins. Combining LBV proteins provides all amino acids.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is complementary protein?",
+              "options": [
+                "A) Protein found in dairy products",
+                "B) Combining LBV proteins to provide all essential amino acids",
+                "C) Adding vitamin supplements to protein",
+                "D) Cooking proteins to improve their quality"
+              ],
+              "correct_answer": "B",
+              "explanation": "E.g. beans on toast: neither beans nor bread contain all essential amino acids, but together they provide a complete amino acid profile.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How many kilocalories does fat provide per gram?",
+              "options": [
+                "A) 4 kcal",
+                "B) 7 kcal",
+                "C) 9 kcal",
+                "D) 2 kcal"
+              ],
+              "correct_answer": "C",
+              "explanation": "Fat provides 9 kcal per gram — more than double the energy of carbohydrate or protein (both 4 kcal/g).",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of unsaturated fat?",
+              "options": [
+                "A) Raises bad cholesterol",
+                "B) Provides energy, fat-soluble vitamins, and is better for heart health than saturated fat",
+                "C) Only found in animal products",
+                "D) Provides no nutritional benefit"
+              ],
+              "correct_answer": "B",
+              "explanation": "Unsaturated fats provide energy and fat-soluble vitamins (A, D, E, K). They are associated with better heart health than saturated fats.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Carbohydrates provide 9 kcal per gram.",
+              "correct_answer": "False",
+              "explanation": "Carbohydrates provide 4 kcal per gram. Fat provides 9 kcal per gram.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Saturated fat is solid at room temperature.",
+              "correct_answer": "True",
+              "explanation": "Saturated fats (butter, lard, coconut oil) are solid at room temperature — unsaturated fats are liquid.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Dietary fibre is fully digested and absorbed by the body.",
+              "correct_answer": "False",
+              "explanation": "Dietary fibre is INDIGESTIBLE — it passes through the digestive system, adding bulk and aiding gut health.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "HBV proteins contain all essential amino acids.",
+              "correct_answer": "True",
+              "explanation": "High biological value proteins (meat, fish, eggs, dairy) contain all 8-9 essential amino acids.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "LBV proteins can be combined to provide all essential amino acids.",
+              "correct_answer": "True",
+              "explanation": "Complementary proteins: combining LBV sources (e.g. rice and beans) provides a complete amino acid profile.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Protein provides 9 kcal per gram.",
+              "correct_answer": "False",
+              "explanation": "Protein provides 4 kcal per gram — the same as carbohydrate.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Unsaturated fats are associated with raised cholesterol and heart disease.",
+              "correct_answer": "False",
+              "explanation": "SATURATED fats are associated with raised LDL cholesterol. Unsaturated fats are generally healthier for the heart.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Essential amino acids can be made by the body.",
+              "correct_answer": "False",
+              "explanation": "Essential amino acids CANNOT be made by the body — they must be obtained from food.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Plant-based proteins are generally LBV proteins.",
+              "correct_answer": "True",
+              "explanation": "Most plant proteins lack one or more essential amino acids — they are incomplete (LBV) proteins.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Combining beans on toast provides complementary proteins.",
+              "correct_answer": "True",
+              "explanation": "Beans and toast together supply all essential amino acids that neither provides alone.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are the body's primary energy source — providing 4 kcal per gram.",
+              "correct_answer": "Carbohydrates",
+              "explanation": "Simple carbohydrates (sugars) provide quick energy; complex carbohydrates provide sustained energy.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is used for growth and repair — made of amino acids.",
+              "correct_answer": "Protein",
+              "explanation": "HBV proteins contain all essential amino acids; LBV proteins lack one or more.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ fat is solid at room temperature and linked to heart disease.",
+              "correct_answer": "Saturated",
+              "explanation": "Saturated fats raise LDL cholesterol — found in butter, cheese, and red meat.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ fat is liquid at room temperature and better for heart health.",
+              "correct_answer": "Unsaturated",
+              "explanation": "Monounsaturated and polyunsaturated fats are healthier choices.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ fibre aids digestion and prevents constipation.",
+              "correct_answer": "Dietary",
+              "explanation": "Fibre adds bulk to stools and is associated with reduced cancer and heart disease risk.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ amino acids cannot be made by the body — they must come from food.",
+              "correct_answer": "Essential",
+              "explanation": "There are 8-9 essential amino acids — all must be present for protein synthesis.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ biological value proteins contain all essential amino acids.",
+              "correct_answer": "High",
+              "explanation": "HBV proteins: meat, fish, eggs, dairy — 'complete' proteins.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ biological value proteins lack one or more essential amino acids.",
+              "correct_answer": "Low",
+              "explanation": "LBV proteins: beans, lentils, nuts — 'incomplete' proteins.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ proteins are LBV proteins combined to provide all essential amino acids.",
+              "correct_answer": "Complementary",
+              "explanation": "E.g. beans on toast — neither is complete alone, but together they are.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Fat provides ________ kcal per gram — more than double carbohydrate or protein.",
+              "correct_answer": "9",
+              "explanation": "Fat is the most energy-dense macronutrient.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "carbohydrate",
+                  "match": "primary energy source — 4 kcal/g"
+                },
+                {
+                  "term": "protein",
+                  "match": "growth and repair — made of amino acids"
+                },
+                {
+                  "term": "saturated fat",
+                  "match": "solid, animal sources — linked to heart disease"
+                },
+                {
+                  "term": "dietary fibre",
+                  "match": "indigestible — aids digestion and gut health"
+                },
+                {
+                  "term": "complementary proteins",
+                  "match": "combining LBV proteins to provide all amino acids"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Food Science",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Cooking & Food Safety",
+          "cards": [
+            {
+              "keyword": "Maillard reaction",
+              "definition": "a chemical reaction between amino acids and sugars when heated — causes browning and new flavours (e.g. toast, roasted meat)",
+              "display_order": 1
+            },
+            {
+              "keyword": "caramelisation",
+              "definition": "the browning of sugars when heated — creates a sweet, nutty flavour",
+              "display_order": 2
+            },
+            {
+              "keyword": "gelatinisation",
+              "definition": "starch granules absorb water and swell when heated — thickens sauces and gravies",
+              "display_order": 3
+            },
+            {
+              "keyword": "denaturation",
+              "definition": "heat or acid permanently alters the structure of proteins — eggs coagulate, gluten develops",
+              "display_order": 4
+            },
+            {
+              "keyword": "emulsification",
+              "definition": "combining two immiscible liquids (oil and water) with an emulsifier — e.g. mayonnaise uses egg yolk (lecithin)",
+              "display_order": 5
+            },
+            {
+              "keyword": "food poisoning",
+              "definition": "illness caused by eating contaminated food — common bacteria: Salmonella, E. coli, Campylobacter",
+              "display_order": 6
+            },
+            {
+              "keyword": "cross-contamination",
+              "definition": "spreading bacteria from one food to another — e.g. raw meat touching cooked food or salad",
+              "display_order": 7
+            },
+            {
+              "keyword": "danger zone",
+              "definition": "the temperature range 5°C–63°C where bacteria multiply rapidly",
+              "display_order": 8
+            },
+            {
+              "keyword": "food labelling",
+              "definition": "information required on packaged food — ingredients, allergens, use-by/best-before dates, nutritional info",
+              "display_order": 9
+            },
+            {
+              "keyword": "allergens",
+              "definition": "substances causing allergic reactions — the 14 major allergens must be declared on food labels",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the Maillard reaction?",
+              "options": [
+                "A) Sugar browning under heat",
+                "B) Chemical reaction between amino acids and sugars — causing browning and new flavours",
+                "C) Protein coagulation when heated",
+                "D) Starch thickening when mixed with water"
+              ],
+              "correct_answer": "B",
+              "explanation": "Maillard reaction occurs above 140°C — produces the brown colour and complex flavours in toast, roasted meat, and baked goods.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is gelatinisation?",
+              "options": [
+                "A) Sugar dissolving in water",
+                "B) Protein coagulation when heated",
+                "C) Starch granules absorbing water and swelling when heated — thickening sauces",
+                "D) Fat emulsification"
+              ],
+              "correct_answer": "C",
+              "explanation": "Gelatinisation: starch granules absorb water, swell, and burst when heated — thickening liquids. This is how sauces, gravies, and custards are thickened.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the danger zone for bacterial growth?",
+              "options": [
+                "A) 0°C–5°C",
+                "B) 5°C–63°C",
+                "C) 63°C–100°C",
+                "D) Above 100°C"
+              ],
+              "correct_answer": "B",
+              "explanation": "The danger zone (5°C–63°C) is where bacteria multiply rapidly. Food should be kept below 5°C (refrigerator) or above 63°C (cooking) to prevent growth.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is cross-contamination?",
+              "options": [
+                "A) Mixing different food types",
+                "B) Spreading bacteria from one food to another",
+                "C) Cooking food at the wrong temperature",
+                "D) Using out-of-date ingredients"
+              ],
+              "correct_answer": "B",
+              "explanation": "Cross-contamination transfers bacteria — e.g. using the same chopping board for raw meat and salad vegetables. Always use separate boards/utensils for raw and ready-to-eat food.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an emulsion?",
+              "options": [
+                "A) A thickened sauce",
+                "B) A mixture of two immiscible liquids stabilised by an emulsifier",
+                "C) A browned protein reaction",
+                "D) A type of caramelisation"
+              ],
+              "correct_answer": "B",
+              "explanation": "Emulsions combine oil and water using an emulsifier (e.g. lecithin in egg yolk). Mayonnaise is an oil-in-water emulsion.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is caramelisation?",
+              "options": [
+                "A) Protein browning under heat",
+                "B) Starch thickening in sauces",
+                "C) The browning of sugars when heated — creating sweet, nutty flavours",
+                "D) Bacteria growth on sweet foods"
+              ],
+              "correct_answer": "C",
+              "explanation": "Caramelisation occurs when sugars are heated above 160°C — they break down and create brown colour and complex flavours.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is denaturation of protein?",
+              "options": [
+                "A) Protein dissolving in water",
+                "B) Protein permanently changing structure when heated or exposed to acid",
+                "C) Protein combining with starch",
+                "D) Protein producing energy"
+              ],
+              "correct_answer": "B",
+              "explanation": "Denaturation permanently changes the protein's shape — e.g. egg white coagulating when fried, gluten developing when flour is kneaded.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are the 14 major allergens?",
+              "options": [
+                "A) Any ingredient that could cause illness",
+                "B) 14 specific substances that must be declared on food labels — including nuts, dairy, gluten, eggs",
+                "C) All additives in food",
+                "D) 14 common food poisoning bacteria"
+              ],
+              "correct_answer": "B",
+              "explanation": "The 14 allergens (EU/UK law): celery, cereals containing gluten, crustaceans, eggs, fish, lupin, milk, molluscs, mustard, peanuts, sesame, soybeans, sulphur dioxide, tree nuts.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What bacteria commonly cause food poisoning?",
+              "options": [
+                "A) Penicillium",
+                "B) Saccharomyces",
+                "C) Salmonella, E. coli, Campylobacter",
+                "D) Aspergillus"
+              ],
+              "correct_answer": "C",
+              "explanation": "Common food poisoning bacteria: Salmonella (raw poultry/eggs), Campylobacter (most common in UK — raw chicken), E. coli (undercooked meat, contaminated vegetables).",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What information must food labels include?",
+              "options": [
+                "A) Only the brand name",
+                "B) Ingredients, allergens, use-by/best-before dates, and nutritional information",
+                "C) Only calorie content",
+                "D) Only the country of origin"
+              ],
+              "correct_answer": "B",
+              "explanation": "UK food labelling law requires: product name, ingredients list (with allergens highlighted), nutritional information, use-by or best-before date, storage instructions, and weight/volume.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The Maillard reaction is the same as caramelisation.",
+              "correct_answer": "False",
+              "explanation": "They are DIFFERENT: Maillard reaction involves amino acids + sugars → browning. Caramelisation involves sugar alone heating → browning.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Gelatinisation thickens sauces when starch granules absorb water.",
+              "correct_answer": "True",
+              "explanation": "Starch granules swell and burst when heated in liquid — thickening the sauce.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The danger zone for bacterial growth is between 5°C and 63°C.",
+              "correct_answer": "True",
+              "explanation": "Bacteria multiply rapidly in this temperature range — food should be kept outside it.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Cross-contamination only occurs between raw meats.",
+              "correct_answer": "False",
+              "explanation": "Cross-contamination can occur between any contaminated food and any other — raw to cooked or ready-to-eat foods.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Denaturation is a reversible process.",
+              "correct_answer": "False",
+              "explanation": "Denaturation is IRREVERSIBLE — the protein's structure is permanently changed.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Allergens must be declared on food labels.",
+              "correct_answer": "True",
+              "explanation": "UK law requires the 14 major allergens to be clearly indicated on food labels.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Caramelisation occurs when sugars are heated.",
+              "correct_answer": "True",
+              "explanation": "Sugars heated above approximately 160°C undergo caramelisation — browning and developing complex flavours.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Emulsification combines two liquids that naturally mix.",
+              "correct_answer": "False",
+              "explanation": "Emulsification combines two IMMISCIBLE liquids (that don't naturally mix) — oil and water — using an emulsifier.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Salmonella is a common cause of food poisoning.",
+              "correct_answer": "True",
+              "explanation": "Salmonella is found in raw poultry, eggs, and meat. Thorough cooking destroys it.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Food kept at 70°C is within the danger zone.",
+              "correct_answer": "False",
+              "explanation": "70°C is ABOVE the danger zone (5°C–63°C). Above 63°C, bacteria are killed or their growth is significantly inhibited.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ reaction causes browning between amino acids and sugars when heated.",
+              "correct_answer": "Maillard",
+              "explanation": "The Maillard reaction produces the brown colour and complex flavours in toast, roasted meat, and pastry.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ thickens sauces — starch granules absorb water and swell when heated.",
+              "correct_answer": "Gelatinisation",
+              "explanation": "Gelatinisation is used to thicken gravies, custards, and soups.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The danger zone for bacterial growth is ________ °C to 63°C.",
+              "correct_answer": "5",
+              "explanation": "Bacteria multiply rapidly between 5°C and 63°C — keep food outside this range.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is spreading bacteria from one food to another.",
+              "correct_answer": "Cross-contamination",
+              "explanation": "Use separate boards and utensils for raw and ready-to-eat food.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ combines oil and water using an emulsifier — e.g. mayonnaise.",
+              "correct_answer": "Emulsification",
+              "explanation": "Lecithin in egg yolk acts as the emulsifier in mayonnaise.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ of sugars when heated above 160°C creates brown colour and complex flavours.",
+              "correct_answer": "Caramelisation",
+              "explanation": "Caramelisation is different from the Maillard reaction — it involves only sugar.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ permanently changes protein structure — e.g. eggs coagulating.",
+              "correct_answer": "Denaturation",
+              "explanation": "Denaturation is irreversible — caused by heat or acid.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ major allergens must be declared on food labels.",
+              "correct_answer": "14",
+              "explanation": "Allergens include nuts, milk, eggs, gluten, fish, and shellfish.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________, E. coli, and Campylobacter are common food poisoning bacteria.",
+              "correct_answer": "Salmonella",
+              "explanation": "Thorough cooking (core temp 75°C+) destroys these bacteria.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Food labels must include ingredients, ________, nutritional info, and date marking.",
+              "correct_answer": "allergens",
+              "explanation": "Allergens must be emphasised in the ingredients list — e.g. in bold.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Maillard reaction",
+                  "match": "amino acids + sugars heated → browning and new flavours"
+                },
+                {
+                  "term": "gelatinisation",
+                  "match": "starch + heat + water → thickens sauces"
+                },
+                {
+                  "term": "danger zone",
+                  "match": "5°C–63°C — bacteria multiply rapidly"
+                },
+                {
+                  "term": "cross-contamination",
+                  "match": "bacteria spreading from one food to another"
+                },
+                {
+                  "term": "denaturation",
+                  "match": "protein structure permanently changed by heat or acid"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

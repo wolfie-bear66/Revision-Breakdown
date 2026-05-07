@@ -1,0 +1,735 @@
+{
+  "subject": {
+    "name": "Religious Studies",
+    "slug": "religious-studies",
+    "colour": "#5b21b6",
+    "exam_board": "AQA",
+    "emoji": "🕊️"
+  },
+  "topics": [
+    {
+      "name": "Christian Beliefs",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Christian Beliefs & Practices",
+          "cards": [
+            {
+              "keyword": "the Trinity",
+              "definition": "the Christian belief that God exists as three persons in one — Father, Son, and Holy Spirit",
+              "display_order": 1
+            },
+            {
+              "keyword": "the Incarnation",
+              "definition": "the belief that God became human in the person of Jesus Christ",
+              "display_order": 2
+            },
+            {
+              "keyword": "salvation",
+              "definition": "being saved from sin — Christians believe Jesus' death and resurrection made salvation possible",
+              "display_order": 3
+            },
+            {
+              "keyword": "the resurrection",
+              "definition": "the belief that Jesus rose from the dead three days after the crucifixion — central to Christian faith",
+              "display_order": 4
+            },
+            {
+              "keyword": "the crucifixion",
+              "definition": "the death of Jesus on the cross — seen as an atonement for human sin",
+              "display_order": 5
+            },
+            {
+              "keyword": "atonement",
+              "definition": "the idea that Jesus' death on the cross repaired the relationship between humanity and God",
+              "display_order": 6
+            },
+            {
+              "keyword": "heaven",
+              "definition": "the Christian belief in eternal life with God after death — for those who have been saved",
+              "display_order": 7
+            },
+            {
+              "keyword": "hell",
+              "definition": "in Christianity — eternal separation from God — punishment for those who reject God",
+              "display_order": 8
+            },
+            {
+              "keyword": "prayer",
+              "definition": "communication with God — personal prayer, liturgical prayer, intercessory prayer",
+              "display_order": 9
+            },
+            {
+              "keyword": "the sacraments",
+              "definition": "sacred rites in Christianity — baptism and Holy Communion (Eucharist) are recognised by most denominations",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the Trinity?",
+              "options": [
+                "A) The three books of the Bible",
+                "B) God as three persons — Father, Son, and Holy Spirit",
+                "C) Three Christian sacraments",
+                "D) Three Christian denominations"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Trinity: God is one being but three persons — Father (creator), Son (Jesus), Holy Spirit (guide). It is central to Christian theology.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Incarnation?",
+              "options": [
+                "A) Jesus' resurrection",
+                "B) God becoming human in Jesus Christ",
+                "C) The Holy Spirit entering believers",
+                "D) Jesus' baptism"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Incarnation: God took on human flesh in the person of Jesus. 'The Word became flesh' (John 1:14).",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is the resurrection central to Christianity?",
+              "options": [
+                "A) It proves Jesus was God",
+                "B) Without it, faith would be pointless — it confirms victory over death and sin",
+                "C) It fulfils Old Testament prophecy only",
+                "D) It established the Church"
+              ],
+              "correct_answer": "B",
+              "explanation": "St Paul wrote: 'If Christ has not been raised, your faith is futile.' The resurrection confirms salvation and eternal life.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is atonement?",
+              "options": [
+                "A) Prayer to God for forgiveness",
+                "B) Going to heaven after death",
+                "C) Jesus' death restoring the broken relationship between humanity and God",
+                "D) Baptism washing away sin"
+              ],
+              "correct_answer": "C",
+              "explanation": "Atonement: Jesus' sacrificial death on the cross repaired ('atoned for') the damage done by human sin, reconciling humanity with God.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is salvation?",
+              "options": [
+                "A) Saying prayers in church",
+                "B) Being saved from sin and its consequences — eternal separation from God",
+                "C) Baptism in the Church",
+                "D) Following the Ten Commandments"
+              ],
+              "correct_answer": "B",
+              "explanation": "Salvation: Christians believe Jesus' death and resurrection offer humans forgiveness of sin and the possibility of eternal life with God.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are the sacraments?",
+              "options": [
+                "A) Sacred texts in the Bible",
+                "B) Christian holy days",
+                "C) Sacred rites — including baptism and Holy Communion",
+                "D) Christian prayer forms"
+              ],
+              "correct_answer": "C",
+              "explanation": "Sacraments are sacred rituals — Catholics recognise seven; most Protestants recognise two (baptism and Eucharist).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the crucifixion represent?",
+              "options": [
+                "A) God's abandonment of Jesus",
+                "B) The beginning of Jesus' ministry",
+                "C) Jesus' death as a sacrifice atoning for human sin",
+                "D) The founding of the Christian Church"
+              ],
+              "correct_answer": "C",
+              "explanation": "The crucifixion is seen as the ultimate sacrifice — Jesus died to take the punishment for human sin, making salvation possible.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is heaven in Christian belief?",
+              "options": [
+                "A) A state of mind",
+                "B) Eternal life in the presence of God after death",
+                "C) The afterlife for all people",
+                "D) A physical place above the clouds"
+              ],
+              "correct_answer": "B",
+              "explanation": "Heaven: Christians believe those saved through faith will spend eternity in God's presence — a state of perfect peace and joy.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is liturgical prayer?",
+              "options": [
+                "A) Silent, private prayer",
+                "B) Formal, set prayers used in church worship",
+                "C) Prayer through fasting",
+                "D) Personal prayer at home"
+              ],
+              "correct_answer": "B",
+              "explanation": "Liturgical prayer uses set words and forms — e.g. the Lord's Prayer, prayers in church services. It is communal and structured.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is baptism?",
+              "options": [
+                "A) A private prayer of commitment",
+                "B) The ceremony of Holy Communion",
+                "C) A sacrament using water — entry into the Christian community",
+                "D) A Christian holy day"
+              ],
+              "correct_answer": "C",
+              "explanation": "Baptism uses water to symbolise washing away sin and entry into the Christian community. Infant and adult (believer's) baptism are both practised.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The Trinity means God is three separate gods.",
+              "correct_answer": "False",
+              "explanation": "The Trinity: God is ONE being in three persons — Father, Son, and Holy Spirit. Not three gods.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The Incarnation is the belief that God became human in Jesus.",
+              "correct_answer": "True",
+              "explanation": "'The Word became flesh' — Jesus is believed to be fully God and fully human.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The resurrection is central to Christian faith.",
+              "correct_answer": "True",
+              "explanation": "St Paul said: if Christ has not been raised, faith is futile. The resurrection confirms victory over death.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Atonement means going to heaven after death.",
+              "correct_answer": "False",
+              "explanation": "Atonement means Jesus' death repaired the broken relationship between humanity and God.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Christians believe salvation is possible through Jesus.",
+              "correct_answer": "True",
+              "explanation": "Jesus' death and resurrection are believed to offer forgiveness of sin and eternal life.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Most Protestant denominations recognise seven sacraments.",
+              "correct_answer": "False",
+              "explanation": "Most Protestants recognise only two sacraments — baptism and the Eucharist. Catholics recognise seven.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The crucifixion represents Jesus' triumphant entry into Jerusalem.",
+              "correct_answer": "False",
+              "explanation": "The crucifixion is Jesus' death on the cross — seen as a sacrifice atoning for human sin.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Heaven is eternal separation from God.",
+              "correct_answer": "False",
+              "explanation": "Heaven is eternal UNION with God. Hell is eternal separation from God.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Baptism symbolises washing away sin and entry into the Christian community.",
+              "correct_answer": "True",
+              "explanation": "Baptism uses water as a symbol of spiritual cleansing and new life in Christ.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Liturgical prayer uses set words in communal worship.",
+              "correct_answer": "True",
+              "explanation": "Liturgical prayer includes the Lord's Prayer and set forms used in church services.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the belief that God is three persons — Father, Son, and Holy Spirit.",
+              "correct_answer": "Trinity",
+              "explanation": "God is one being in three persons — a central and distinctive Christian belief.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the belief that God became human in Jesus Christ.",
+              "correct_answer": "Incarnation",
+              "explanation": "'The Word became flesh and dwelt among us' (John 1:14).",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Jesus' death on the cross is called the ________.",
+              "correct_answer": "crucifixion",
+              "explanation": "The crucifixion is seen as a sacrifice atoning for human sin.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the idea that Jesus' death restored the relationship between humanity and God.",
+              "correct_answer": "Atonement",
+              "explanation": "Without atonement, Christians believe humanity would remain separated from God by sin.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ means being saved from sin — made possible through Jesus.",
+              "correct_answer": "Salvation",
+              "explanation": "Christians believe faith in Jesus and his resurrection offers eternal salvation.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ — Jesus rising from the dead — is central to Christian faith.",
+              "correct_answer": "resurrection",
+              "explanation": "Without the resurrection, St Paul says, Christian faith is 'futile'.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is eternal life with God — for those who have been saved.",
+              "correct_answer": "Heaven",
+              "explanation": "Christians believe heaven is a state of perfect peace and joy in God's presence.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is seen as eternal separation from God.",
+              "correct_answer": "Hell",
+              "explanation": "Hell represents the ultimate consequence of rejecting God.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is communication with God — personal, liturgical, or intercessory.",
+              "correct_answer": "Prayer",
+              "explanation": "Prayer is fundamental to Christian life — direct communication with God.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ and baptism are the two sacraments recognised by most Protestant denominations.",
+              "correct_answer": "Communion",
+              "explanation": "The Eucharist (Holy Communion) commemorates the Last Supper.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Trinity",
+                  "match": "God as Father, Son, and Holy Spirit — one being, three persons"
+                },
+                {
+                  "term": "Incarnation",
+                  "match": "God became human in Jesus Christ"
+                },
+                {
+                  "term": "crucifixion",
+                  "match": "Jesus' death — sacrifice for human sin"
+                },
+                {
+                  "term": "atonement",
+                  "match": "Jesus' death restoring relationship between humanity and God"
+                },
+                {
+                  "term": "resurrection",
+                  "match": "Jesus rising from the dead — central to faith"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Islamic Beliefs",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Islamic Beliefs & Practices",
+          "cards": [
+            {
+              "keyword": "Tawhid",
+              "definition": "the oneness of God — the central belief in Islam — Allah is one, unique, and indivisible",
+              "display_order": 1
+            },
+            {
+              "keyword": "the Five Pillars",
+              "definition": "the five core duties of Muslim life: Shahadah, Salah, Zakah, Sawm, Hajj",
+              "display_order": 2
+            },
+            {
+              "keyword": "Shahadah",
+              "definition": "the declaration of faith: 'There is no God but Allah and Muhammad is his messenger'",
+              "display_order": 3
+            },
+            {
+              "keyword": "Salah",
+              "definition": "obligatory prayer — five times daily — facing Mecca",
+              "display_order": 4
+            },
+            {
+              "keyword": "Zakah",
+              "definition": "giving 2.5% of surplus wealth to those in need — one of the Five Pillars",
+              "display_order": 5
+            },
+            {
+              "keyword": "Sawm",
+              "definition": "fasting during Ramadan — no food, drink, or smoking from dawn to sunset",
+              "display_order": 6
+            },
+            {
+              "keyword": "Hajj",
+              "definition": "the pilgrimage to Mecca — required once in a lifetime if able — one of the Five Pillars",
+              "display_order": 7
+            },
+            {
+              "keyword": "the Qur'an",
+              "definition": "the holy book of Islam — believed to be the direct word of God, revealed to Muhammad",
+              "display_order": 8
+            },
+            {
+              "keyword": "the Prophet Muhammad",
+              "definition": "the final prophet of Islam — received revelations from God via the angel Jibril (Gabriel)",
+              "display_order": 9
+            },
+            {
+              "keyword": "akhirah",
+              "definition": "life after death in Islam — Day of Judgement, heaven (Jannah), and hell (Jahannam)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is Tawhid?",
+              "options": [
+                "A) The belief in many gods",
+                "B) The belief in the oneness and uniqueness of God (Allah)",
+                "C) The five duties of Muslims",
+                "D) The holy book of Islam"
+              ],
+              "correct_answer": "B",
+              "explanation": "Tawhid is the most fundamental belief in Islam — Allah is one, unique, and has no partners or equals. Shirk (associating others with God) is the greatest sin.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are the Five Pillars of Islam?",
+              "options": [
+                "A) Qur'an, prayer, fasting, hajj, charity",
+                "B) Shahadah, Salah, Zakah, Sawm, Hajj",
+                "C) Prayer, fasting, pilgrimage, zakat, jihad",
+                "D) Faith, hope, charity, prayer, pilgrimage"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Five Pillars: Shahadah (declaration), Salah (prayer), Zakah (charity), Sawm (fasting), Hajj (pilgrimage).",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Shahadah?",
+              "options": [
+                "A) Prayer five times daily",
+                "B) Fasting during Ramadan",
+                "C) The declaration of faith: no God but Allah and Muhammad is his messenger",
+                "D) Pilgrimage to Mecca"
+              ],
+              "correct_answer": "C",
+              "explanation": "The Shahadah: 'La ilaha illallah, Muhammadur rasulullah.' It is the first Pillar — saying it with sincerity makes a person Muslim.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How many times do Muslims pray (Salah) each day?",
+              "options": [
+                "A) Three",
+                "B) Seven",
+                "C) Once",
+                "D) Five"
+              ],
+              "correct_answer": "D",
+              "explanation": "Muslims perform Salah five times daily — dawn, midday, afternoon, sunset, and night — facing Mecca.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Zakah?",
+              "options": [
+                "A) Fasting during Ramadan",
+                "B) Pilgrimage to Mecca",
+                "C) Giving 2.5% of surplus wealth to those in need",
+                "D) Saying prayers five times daily"
+              ],
+              "correct_answer": "C",
+              "explanation": "Zakah: 2.5% of surplus wealth given annually to the poor. It purifies wealth and promotes social justice.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Sawm?",
+              "options": [
+                "A) Prayer",
+                "B) Fasting during Ramadan — no food or drink from dawn to sunset",
+                "C) Charitable giving",
+                "D) Pilgrimage"
+              ],
+              "correct_answer": "B",
+              "explanation": "Sawm is fasting during the month of Ramadan. It involves spiritual reflection, self-discipline, and gratitude.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Qur'an believed to be?",
+              "options": [
+                "A) Muhammad's own writings",
+                "B) A collection of hadith",
+                "C) The direct word of God, revealed to Muhammad",
+                "D) The Torah adapted for Islam"
+              ],
+              "correct_answer": "C",
+              "explanation": "The Qur'an is believed to be the literal word of Allah, revealed to Muhammad through the angel Jibril over 23 years.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is akhirah?",
+              "options": [
+                "A) The Five Pillars",
+                "B) The oneness of God",
+                "C) Life after death — Day of Judgement, Jannah, and Jahannam",
+                "D) The pilgrimage to Mecca"
+              ],
+              "correct_answer": "C",
+              "explanation": "Akhirah is the Islamic concept of afterlife — all souls will be judged on the Day of Judgement and sent to Jannah (paradise) or Jahannam (hell).",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Hajj?",
+              "options": [
+                "A) Fasting during Ramadan",
+                "B) The declaration of faith",
+                "C) Charitable giving",
+                "D) Pilgrimage to Mecca — required once in a lifetime"
+              ],
+              "correct_answer": "D",
+              "explanation": "Hajj is the annual pilgrimage to Mecca — required of every Muslim who is physically and financially able. It is the fifth Pillar.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who was the Prophet Muhammad?",
+              "options": [
+                "A) The founder of Judaism",
+                "B) The first prophet",
+                "C) The final prophet of Islam who received God's revelations",
+                "D) A religious scholar who wrote the Qur'an"
+              ],
+              "correct_answer": "C",
+              "explanation": "Muhammad (pbuh) is the final prophet — God's last messenger. He received the Qur'an through the angel Jibril between 610–632 CE.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Tawhid means God is three persons in Islam.",
+              "correct_answer": "False",
+              "explanation": "Tawhid means God is ONE — indivisible and unique. This is the fundamental difference from the Christian Trinity.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The Five Pillars are the core duties of Muslim life.",
+              "correct_answer": "True",
+              "explanation": "The Five Pillars — Shahadah, Salah, Zakah, Sawm, Hajj — structure Muslim worship and life.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The Shahadah is the declaration of faith.",
+              "correct_answer": "True",
+              "explanation": "Saying the Shahadah sincerely is the entry point to Islam.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Muslims pray three times daily.",
+              "correct_answer": "False",
+              "explanation": "Muslims perform Salah FIVE times daily — at dawn, midday, afternoon, sunset, and night.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Zakah is fasting during Ramadan.",
+              "correct_answer": "False",
+              "explanation": "Zakah is charitable giving — 2.5% of surplus wealth. Sawm is fasting.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The Qur'an is believed to be Muhammad's own words.",
+              "correct_answer": "False",
+              "explanation": "The Qur'an is believed to be the direct word of Allah, revealed to Muhammad through the angel Jibril.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Hajj must be performed once in a lifetime by those able to.",
+              "correct_answer": "True",
+              "explanation": "Hajj is the fifth Pillar — compulsory for all Muslims who are physically and financially capable.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Akhirah refers to life after death in Islam.",
+              "correct_answer": "True",
+              "explanation": "Akhirah includes the Day of Judgement, Jannah (paradise), and Jahannam (hell).",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Sawm means giving 2.5% of surplus wealth to the poor.",
+              "correct_answer": "False",
+              "explanation": "Sawm is fasting during Ramadan. Zakah is charitable giving.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Shirk (associating partners with God) is the greatest sin in Islam.",
+              "correct_answer": "True",
+              "explanation": "Tawhid (God's oneness) is fundamental — shirk contradicts it and is considered the gravest sin.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the Islamic belief in the absolute oneness of God.",
+              "correct_answer": "Tawhid",
+              "explanation": "Tawhid is the most fundamental belief — Allah is one, unique, with no partners.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Five ________ are the core duties of Muslim life.",
+              "correct_answer": "Pillars",
+              "explanation": "Shahadah, Salah, Zakah, Sawm, Hajj.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the declaration of faith: 'No God but Allah and Muhammad is his messenger'.",
+              "correct_answer": "Shahadah",
+              "explanation": "The Shahadah is the first Pillar and the entry point into Islam.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is obligatory prayer five times daily, facing Mecca.",
+              "correct_answer": "Salah",
+              "explanation": "Salah is performed at dawn, midday, afternoon, sunset, and night.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is giving 2.5% of surplus wealth to those in need.",
+              "correct_answer": "Zakah",
+              "explanation": "Zakah promotes social justice and purifies wealth.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is fasting during Ramadan — no food or drink from dawn to sunset.",
+              "correct_answer": "Sawm",
+              "explanation": "Sawm develops self-discipline, gratitude, and empathy for the poor.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the pilgrimage to Mecca — required once if able.",
+              "correct_answer": "Hajj",
+              "explanation": "Hajj is the fifth Pillar — performed in the Islamic month of Dhu al-Hijjah.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the holy book of Islam — the direct word of Allah.",
+              "correct_answer": "Qur'an",
+              "explanation": "The Qur'an was revealed to Muhammad through the angel Jibril over 23 years.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the concept of life after death in Islam.",
+              "correct_answer": "Akhirah",
+              "explanation": "Akhirah includes the Day of Judgement, Jannah (paradise), and Jahannam (hell).",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Muhammad is the ________ prophet of Islam.",
+              "correct_answer": "final",
+              "explanation": "Muslims believe Muhammad was the last prophet — completing God's revelation.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Tawhid",
+                  "match": "oneness of God — fundamental Islamic belief"
+                },
+                {
+                  "term": "Five Pillars",
+                  "match": "Shahadah, Salah, Zakah, Sawm, Hajj"
+                },
+                {
+                  "term": "Zakah",
+                  "match": "2.5% of surplus wealth given to those in need"
+                },
+                {
+                  "term": "Sawm",
+                  "match": "fasting during Ramadan — dawn to sunset"
+                },
+                {
+                  "term": "Hajj",
+                  "match": "pilgrimage to Mecca — once in a lifetime"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

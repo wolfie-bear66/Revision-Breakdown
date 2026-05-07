@@ -1,0 +1,1010 @@
+{
+  "subject": {
+    "name": "French",
+    "slug": "french",
+    "colour": "#3b82f6"
+  },
+  "topics": [
+    {
+      "name": "Identity & Culture — Me, My Family & Friends",
+      "paper": "Paper 1 & 2",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Family & Relationships Vocabulary",
+          "cards": [
+            {
+              "keyword": "la famille",
+              "definition": "the family",
+              "display_order": 1
+            },
+            {
+              "keyword": "les parents",
+              "definition": "the parents / relatives",
+              "display_order": 2
+            },
+            {
+              "keyword": "le frère",
+              "definition": "the brother",
+              "display_order": 3
+            },
+            {
+              "keyword": "la sœur",
+              "definition": "the sister",
+              "display_order": 4
+            },
+            {
+              "keyword": "le fils",
+              "definition": "the son",
+              "display_order": 5
+            },
+            {
+              "keyword": "la fille",
+              "definition": "the daughter / the girl",
+              "display_order": 6
+            },
+            {
+              "keyword": "le mari",
+              "definition": "the husband",
+              "display_order": 7
+            },
+            {
+              "keyword": "la femme",
+              "definition": "the wife / the woman",
+              "display_order": 8
+            },
+            {
+              "keyword": "le copain / la copine",
+              "definition": "the boyfriend / girlfriend (also: friend)",
+              "display_order": 9
+            },
+            {
+              "keyword": "se marier",
+              "definition": "to get married",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Personality & Character",
+          "cards": [
+            {
+              "keyword": "sympa(thique)",
+              "definition": "nice / friendly",
+              "display_order": 1
+            },
+            {
+              "keyword": "gentil(le)",
+              "definition": "kind / gentle",
+              "display_order": 2
+            },
+            {
+              "keyword": "marrant(e)",
+              "definition": "funny / amusing",
+              "display_order": 3
+            },
+            {
+              "keyword": "bavard(e)",
+              "definition": "chatty / talkative",
+              "display_order": 4
+            },
+            {
+              "keyword": "timide",
+              "definition": "shy / timid",
+              "display_order": 5
+            },
+            {
+              "keyword": "paresseux / paresseuse",
+              "definition": "lazy",
+              "display_order": 6
+            },
+            {
+              "keyword": "travailleur / travailleuse",
+              "definition": "hardworking",
+              "display_order": 7
+            },
+            {
+              "keyword": "égoïste",
+              "definition": "selfish",
+              "display_order": 8
+            },
+            {
+              "keyword": "honnête",
+              "definition": "honest",
+              "display_order": 9
+            },
+            {
+              "keyword": "se disputer",
+              "definition": "to argue / to quarrel",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Relationships & Social Media",
+          "cards": [
+            {
+              "keyword": "l'amitié (f)",
+              "definition": "friendship",
+              "display_order": 1
+            },
+            {
+              "keyword": "la confiance",
+              "definition": "trust / confidence",
+              "display_order": 2
+            },
+            {
+              "keyword": "partager",
+              "definition": "to share",
+              "display_order": 3
+            },
+            {
+              "keyword": "soutenir",
+              "definition": "to support",
+              "display_order": 4
+            },
+            {
+              "keyword": "un réseau social",
+              "definition": "a social network",
+              "display_order": 5
+            },
+            {
+              "keyword": "un portable",
+              "definition": "a mobile phone",
+              "display_order": 6
+            },
+            {
+              "keyword": "télécharger",
+              "definition": "to download",
+              "display_order": 7
+            },
+            {
+              "keyword": "en ligne",
+              "definition": "online",
+              "display_order": 8
+            },
+            {
+              "keyword": "le harcèlement",
+              "definition": "bullying / harassment",
+              "display_order": 9
+            },
+            {
+              "keyword": "la cyberintimidation",
+              "definition": "cyberbullying",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Identity & Culture — Technology",
+      "paper": "Paper 1 & 2",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Technology & Internet Vocabulary",
+          "cards": [
+            {
+              "keyword": "un ordinateur",
+              "definition": "a computer",
+              "display_order": 1
+            },
+            {
+              "keyword": "une tablette",
+              "definition": "a tablet",
+              "display_order": 2
+            },
+            {
+              "keyword": "surfer sur Internet",
+              "definition": "to surf the internet",
+              "display_order": 3
+            },
+            {
+              "keyword": "envoyer un message",
+              "definition": "to send a message",
+              "display_order": 4
+            },
+            {
+              "keyword": "un jeu vidéo",
+              "definition": "a video game",
+              "display_order": 5
+            },
+            {
+              "keyword": "les réseaux sociaux",
+              "definition": "social media / social networks",
+              "display_order": 6
+            },
+            {
+              "keyword": "une application",
+              "definition": "an app / application",
+              "display_order": 7
+            },
+            {
+              "keyword": "un mot de passe",
+              "definition": "a password",
+              "display_order": 8
+            },
+            {
+              "keyword": "la vie privée",
+              "definition": "privacy / private life",
+              "display_order": 9
+            },
+            {
+              "keyword": "numérique",
+              "definition": "digital",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Identity & Culture — Free Time",
+      "paper": "Paper 1 & 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Hobbies & Free Time Vocabulary",
+          "cards": [
+            {
+              "keyword": "les loisirs",
+              "definition": "hobbies / leisure activities",
+              "display_order": 1
+            },
+            {
+              "keyword": "jouer au foot",
+              "definition": "to play football",
+              "display_order": 2
+            },
+            {
+              "keyword": "faire de la natation",
+              "definition": "to go swimming",
+              "display_order": 3
+            },
+            {
+              "keyword": "lire",
+              "definition": "to read",
+              "display_order": 4
+            },
+            {
+              "keyword": "écouter de la musique",
+              "definition": "to listen to music",
+              "display_order": 5
+            },
+            {
+              "keyword": "regarder la télé",
+              "definition": "to watch TV",
+              "display_order": 6
+            },
+            {
+              "keyword": "faire du shopping",
+              "definition": "to go shopping",
+              "display_order": 7
+            },
+            {
+              "keyword": "se reposer",
+              "definition": "to rest / relax",
+              "display_order": 8
+            },
+            {
+              "keyword": "un match",
+              "definition": "a match / game",
+              "display_order": 9
+            },
+            {
+              "keyword": "une équipe",
+              "definition": "a team",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Music, Film & Culture",
+          "cards": [
+            {
+              "keyword": "un chanteur / une chanteuse",
+              "definition": "a singer (male / female)",
+              "display_order": 1
+            },
+            {
+              "keyword": "un groupe",
+              "definition": "a band / group",
+              "display_order": 2
+            },
+            {
+              "keyword": "un film d'action",
+              "definition": "an action film",
+              "display_order": 3
+            },
+            {
+              "keyword": "une comédie",
+              "definition": "a comedy",
+              "display_order": 4
+            },
+            {
+              "keyword": "un dessin animé",
+              "definition": "a cartoon / animated film",
+              "display_order": 5
+            },
+            {
+              "keyword": "la vedette",
+              "definition": "the (film/pop) star",
+              "display_order": 6
+            },
+            {
+              "keyword": "passionnant(e)",
+              "definition": "exciting / fascinating",
+              "display_order": 7
+            },
+            {
+              "keyword": "ennuyeux / ennuyeuse",
+              "definition": "boring",
+              "display_order": 8
+            },
+            {
+              "keyword": "divertissant(e)",
+              "definition": "entertaining",
+              "display_order": 9
+            },
+            {
+              "keyword": "une émission",
+              "definition": "a TV programme / broadcast",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Local Area, Holiday & Travel",
+      "paper": "Paper 1 & 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Town & Local Area",
+          "cards": [
+            {
+              "keyword": "en ville",
+              "definition": "in town / in the city",
+              "display_order": 1
+            },
+            {
+              "keyword": "la banlieue",
+              "definition": "the suburb / outskirts",
+              "display_order": 2
+            },
+            {
+              "keyword": "à la campagne",
+              "definition": "in the countryside",
+              "display_order": 3
+            },
+            {
+              "keyword": "au bord de la mer",
+              "definition": "at the seaside / coast",
+              "display_order": 4
+            },
+            {
+              "keyword": "une mairie",
+              "definition": "a town hall",
+              "display_order": 5
+            },
+            {
+              "keyword": "un syndicat d'initiative",
+              "definition": "a tourist information office",
+              "display_order": 6
+            },
+            {
+              "keyword": "animé(e)",
+              "definition": "lively / busy",
+              "display_order": 7
+            },
+            {
+              "keyword": "calme",
+              "definition": "calm / quiet",
+              "display_order": 8
+            },
+            {
+              "keyword": "pollué(e)",
+              "definition": "polluted",
+              "display_order": 9
+            },
+            {
+              "keyword": "propre",
+              "definition": "clean",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Travel & Transport",
+          "cards": [
+            {
+              "keyword": "un avion",
+              "definition": "a plane",
+              "display_order": 1
+            },
+            {
+              "keyword": "un train",
+              "definition": "a train",
+              "display_order": 2
+            },
+            {
+              "keyword": "un car",
+              "definition": "a coach",
+              "display_order": 3
+            },
+            {
+              "keyword": "une voiture",
+              "definition": "a car",
+              "display_order": 4
+            },
+            {
+              "keyword": "à pied",
+              "definition": "on foot",
+              "display_order": 5
+            },
+            {
+              "keyword": "une gare",
+              "definition": "a train station",
+              "display_order": 6
+            },
+            {
+              "keyword": "un aéroport",
+              "definition": "an airport",
+              "display_order": 7
+            },
+            {
+              "keyword": "un billet aller-retour",
+              "definition": "a return ticket",
+              "display_order": 8
+            },
+            {
+              "keyword": "louer",
+              "definition": "to hire / rent",
+              "display_order": 9
+            },
+            {
+              "keyword": "les transports en commun",
+              "definition": "public transport",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Holiday & Accommodation",
+          "cards": [
+            {
+              "keyword": "les vacances",
+              "definition": "the holidays",
+              "display_order": 1
+            },
+            {
+              "keyword": "un hôtel",
+              "definition": "a hotel",
+              "display_order": 2
+            },
+            {
+              "keyword": "une auberge de jeunesse",
+              "definition": "a youth hostel",
+              "display_order": 3
+            },
+            {
+              "keyword": "un camping",
+              "definition": "a campsite",
+              "display_order": 4
+            },
+            {
+              "keyword": "réserver",
+              "definition": "to book / reserve",
+              "display_order": 5
+            },
+            {
+              "keyword": "une chambre pour deux personnes",
+              "definition": "a double room",
+              "display_order": 6
+            },
+            {
+              "keyword": "la demi-pension",
+              "definition": "half board (breakfast + one meal)",
+              "display_order": 7
+            },
+            {
+              "keyword": "se bronzer",
+              "definition": "to sunbathe",
+              "display_order": 8
+            },
+            {
+              "keyword": "visiter",
+              "definition": "to visit (a place)",
+              "display_order": 9
+            },
+            {
+              "keyword": "inoubliable",
+              "definition": "unforgettable",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "School & Future Plans",
+      "paper": "Paper 1 & 2",
+      "display_order": 5,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "School Subjects & Opinions",
+          "cards": [
+            {
+              "keyword": "les mathématiques",
+              "definition": "mathematics / maths",
+              "display_order": 1
+            },
+            {
+              "keyword": "les sciences",
+              "definition": "science",
+              "display_order": 2
+            },
+            {
+              "keyword": "l'histoire (f)",
+              "definition": "history",
+              "display_order": 3
+            },
+            {
+              "keyword": "la géographie",
+              "definition": "geography",
+              "display_order": 4
+            },
+            {
+              "keyword": "l'informatique (f)",
+              "definition": "computing / ICT",
+              "display_order": 5
+            },
+            {
+              "keyword": "utile",
+              "definition": "useful",
+              "display_order": 6
+            },
+            {
+              "keyword": "inutile",
+              "definition": "useless",
+              "display_order": 7
+            },
+            {
+              "keyword": "difficile",
+              "definition": "difficult / hard",
+              "display_order": 8
+            },
+            {
+              "keyword": "facile",
+              "definition": "easy",
+              "display_order": 9
+            },
+            {
+              "keyword": "s'améliorer",
+              "definition": "to improve (oneself)",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "School Life & Rules",
+          "cards": [
+            {
+              "keyword": "le règlement",
+              "definition": "the rules / regulations",
+              "display_order": 1
+            },
+            {
+              "keyword": "l'uniforme scolaire (m)",
+              "definition": "the school uniform",
+              "display_order": 2
+            },
+            {
+              "keyword": "la récréation",
+              "definition": "break time",
+              "display_order": 3
+            },
+            {
+              "keyword": "un cours",
+              "definition": "a lesson",
+              "display_order": 4
+            },
+            {
+              "keyword": "un examen",
+              "definition": "an exam",
+              "display_order": 5
+            },
+            {
+              "keyword": "réussir",
+              "definition": "to succeed / pass (an exam)",
+              "display_order": 6
+            },
+            {
+              "keyword": "échouer",
+              "definition": "to fail",
+              "display_order": 7
+            },
+            {
+              "keyword": "redoubler",
+              "definition": "to repeat a year",
+              "display_order": 8
+            },
+            {
+              "keyword": "interdit(e)",
+              "definition": "forbidden / not allowed",
+              "display_order": 9
+            },
+            {
+              "keyword": "obligatoire",
+              "definition": "compulsory / obligatory",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Jobs & Future Plans",
+          "cards": [
+            {
+              "keyword": "un métier",
+              "definition": "a job / trade / profession",
+              "display_order": 1
+            },
+            {
+              "keyword": "un emploi",
+              "definition": "employment / a job",
+              "display_order": 2
+            },
+            {
+              "keyword": "travailler",
+              "definition": "to work",
+              "display_order": 3
+            },
+            {
+              "keyword": "gagner",
+              "definition": "to earn / to win",
+              "display_order": 4
+            },
+            {
+              "keyword": "un salaire",
+              "definition": "a salary / wage",
+              "display_order": 5
+            },
+            {
+              "keyword": "une entreprise",
+              "definition": "a company / business",
+              "display_order": 6
+            },
+            {
+              "keyword": "chercher du travail",
+              "definition": "to look for work",
+              "display_order": 7
+            },
+            {
+              "keyword": "à l'avenir",
+              "definition": "in the future",
+              "display_order": 8
+            },
+            {
+              "keyword": "j'aimerais",
+              "definition": "I would like",
+              "display_order": 9
+            },
+            {
+              "keyword": "une formation",
+              "definition": "training / vocational course",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Global Issues & Environment",
+      "paper": "Paper 1 & 2",
+      "display_order": 6,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Environment Vocabulary",
+          "cards": [
+            {
+              "keyword": "l'environnement (m)",
+              "definition": "the environment",
+              "display_order": 1
+            },
+            {
+              "keyword": "le réchauffement climatique",
+              "definition": "global warming / climate change",
+              "display_order": 2
+            },
+            {
+              "keyword": "la pollution",
+              "definition": "pollution",
+              "display_order": 3
+            },
+            {
+              "keyword": "les déchets (m pl)",
+              "definition": "waste / rubbish",
+              "display_order": 4
+            },
+            {
+              "keyword": "recycler",
+              "definition": "to recycle",
+              "display_order": 5
+            },
+            {
+              "keyword": "économiser",
+              "definition": "to save / conserve (energy, water etc.)",
+              "display_order": 6
+            },
+            {
+              "keyword": "protéger",
+              "definition": "to protect",
+              "display_order": 7
+            },
+            {
+              "keyword": "les énergies renouvelables",
+              "definition": "renewable energies",
+              "display_order": 8
+            },
+            {
+              "keyword": "la déforestation",
+              "definition": "deforestation",
+              "display_order": 9
+            },
+            {
+              "keyword": "une espèce menacée",
+              "definition": "an endangered species",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Global & Social Issues",
+          "cards": [
+            {
+              "keyword": "la pauvreté",
+              "definition": "poverty",
+              "display_order": 1
+            },
+            {
+              "keyword": "le chômage",
+              "definition": "unemployment",
+              "display_order": 2
+            },
+            {
+              "keyword": "sans-abri",
+              "definition": "homeless",
+              "display_order": 3
+            },
+            {
+              "keyword": "la guerre",
+              "definition": "war",
+              "display_order": 4
+            },
+            {
+              "keyword": "la paix",
+              "definition": "peace",
+              "display_order": 5
+            },
+            {
+              "keyword": "les droits de l'homme",
+              "definition": "human rights",
+              "display_order": 6
+            },
+            {
+              "keyword": "l'égalité (f)",
+              "definition": "equality",
+              "display_order": 7
+            },
+            {
+              "keyword": "le racisme",
+              "definition": "racism",
+              "display_order": 8
+            },
+            {
+              "keyword": "bénévole",
+              "definition": "voluntary / volunteer",
+              "display_order": 9
+            },
+            {
+              "keyword": "faire du bénévolat",
+              "definition": "to do voluntary work",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Key Grammar — Verbs & Tenses",
+      "paper": "Paper 1 & 2",
+      "display_order": 7,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Essential Verbs",
+          "cards": [
+            {
+              "keyword": "être",
+              "definition": "to be",
+              "display_order": 1
+            },
+            {
+              "keyword": "avoir",
+              "definition": "to have",
+              "display_order": 2
+            },
+            {
+              "keyword": "aller",
+              "definition": "to go",
+              "display_order": 3
+            },
+            {
+              "keyword": "faire",
+              "definition": "to do / to make",
+              "display_order": 4
+            },
+            {
+              "keyword": "vouloir",
+              "definition": "to want",
+              "display_order": 5
+            },
+            {
+              "keyword": "pouvoir",
+              "definition": "to be able to / can",
+              "display_order": 6
+            },
+            {
+              "keyword": "devoir",
+              "definition": "to have to / must",
+              "display_order": 7
+            },
+            {
+              "keyword": "savoir",
+              "definition": "to know (a fact / how to do something)",
+              "display_order": 8
+            },
+            {
+              "keyword": "venir",
+              "definition": "to come",
+              "display_order": 9
+            },
+            {
+              "keyword": "prendre",
+              "definition": "to take",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Tense Markers & Time Phrases",
+          "cards": [
+            {
+              "keyword": "maintenant",
+              "definition": "now",
+              "display_order": 1
+            },
+            {
+              "keyword": "aujourd'hui",
+              "definition": "today",
+              "display_order": 2
+            },
+            {
+              "keyword": "hier",
+              "definition": "yesterday",
+              "display_order": 3
+            },
+            {
+              "keyword": "demain",
+              "definition": "tomorrow",
+              "display_order": 4
+            },
+            {
+              "keyword": "la semaine dernière",
+              "definition": "last week",
+              "display_order": 5
+            },
+            {
+              "keyword": "l'année prochaine",
+              "definition": "next year",
+              "display_order": 6
+            },
+            {
+              "keyword": "normalement",
+              "definition": "normally / usually",
+              "display_order": 7
+            },
+            {
+              "keyword": "récemment",
+              "definition": "recently",
+              "display_order": 8
+            },
+            {
+              "keyword": "autrefois",
+              "definition": "in the past / formerly",
+              "display_order": 9
+            },
+            {
+              "keyword": "à l'avenir",
+              "definition": "in the future",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Opinion & Connective Phrases",
+          "cards": [
+            {
+              "keyword": "je pense que",
+              "definition": "I think that",
+              "display_order": 1
+            },
+            {
+              "keyword": "je crois que",
+              "definition": "I believe that",
+              "display_order": 2
+            },
+            {
+              "keyword": "à mon avis",
+              "definition": "in my opinion",
+              "display_order": 3
+            },
+            {
+              "keyword": "selon moi",
+              "definition": "according to me / in my view",
+              "display_order": 4
+            },
+            {
+              "keyword": "cependant",
+              "definition": "however",
+              "display_order": 5
+            },
+            {
+              "keyword": "pourtant",
+              "definition": "yet / however / still",
+              "display_order": 6
+            },
+            {
+              "keyword": "en revanche",
+              "definition": "on the other hand",
+              "display_order": 7
+            },
+            {
+              "keyword": "par exemple",
+              "definition": "for example",
+              "display_order": 8
+            },
+            {
+              "keyword": "donc",
+              "definition": "therefore / so",
+              "display_order": 9
+            },
+            {
+              "keyword": "malgré",
+              "definition": "despite / in spite of",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

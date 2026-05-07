@@ -1,0 +1,735 @@
+{
+  "subject": {
+    "name": "Design & Technology",
+    "slug": "design-technology",
+    "colour": "#78350f",
+    "exam_board": "AQA",
+    "emoji": "🔧"
+  },
+  "topics": [
+    {
+      "name": "Materials & Manufacturing",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Materials & Their Properties",
+          "cards": [
+            {
+              "keyword": "ferrous metal",
+              "definition": "a metal containing iron — e.g. mild steel, cast iron. Magnetic and prone to rust",
+              "display_order": 1
+            },
+            {
+              "keyword": "non-ferrous metal",
+              "definition": "a metal without iron — e.g. aluminium, copper, brass. Generally corrosion-resistant",
+              "display_order": 2
+            },
+            {
+              "keyword": "thermoplastic",
+              "definition": "a plastic that softens when heated and can be reshaped — e.g. acrylic, PET. Recyclable",
+              "display_order": 3
+            },
+            {
+              "keyword": "thermosetting plastic",
+              "definition": "a plastic that sets permanently when heated and cannot be remoulded — e.g. epoxy resin, urea formaldehyde",
+              "display_order": 4
+            },
+            {
+              "keyword": "hardwood",
+              "definition": "wood from deciduous (broad-leaved) trees — e.g. oak, beech, mahogany. Generally harder and more expensive",
+              "display_order": 5
+            },
+            {
+              "keyword": "softwood",
+              "definition": "wood from coniferous (evergreen) trees — e.g. pine, spruce. Generally softer and cheaper",
+              "display_order": 6
+            },
+            {
+              "keyword": "composite material",
+              "definition": "a material made from two or more materials combined — e.g. carbon fibre reinforced polymer (CFRP), fibreglass",
+              "display_order": 7
+            },
+            {
+              "keyword": "smart material",
+              "definition": "a material that responds to environmental changes — e.g. shape memory alloy, photochromic pigment",
+              "display_order": 8
+            },
+            {
+              "keyword": "tensile strength",
+              "definition": "the maximum stress a material can withstand when stretched before breaking",
+              "display_order": 9
+            },
+            {
+              "keyword": "sustainability",
+              "definition": "designing and making products with minimal environmental impact — using renewable resources, reducing waste",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a ferrous metal?",
+              "options": [
+                "A) A metal without iron — resistant to rust",
+                "B) A metal containing iron — magnetic and prone to rust",
+                "C) A type of thermoplastic",
+                "D) A composite material"
+              ],
+              "correct_answer": "B",
+              "explanation": "Ferrous metals contain iron — they are magnetic and prone to rust (corrosion). Examples: mild steel, cast iron, stainless steel (iron + chromium).",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a thermoplastic?",
+              "options": [
+                "A) A plastic that sets permanently when heated",
+                "B) A plastic that softens when heated and can be reshaped",
+                "C) A natural material",
+                "D) A metal alloy"
+              ],
+              "correct_answer": "B",
+              "explanation": "Thermoplastics can be heated and reformed repeatedly — making them recyclable. Examples: acrylic (PMMA), PET (drinks bottles), polyethylene, nylon.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a thermosetting plastic?",
+              "options": [
+                "A) A plastic that softens when heated",
+                "B) A plastic that sets permanently and cannot be remoulded",
+                "C) A natural polymer",
+                "D) A recyclable plastic"
+              ],
+              "correct_answer": "B",
+              "explanation": "Thermosets set permanently through a chemical reaction — they cannot be remelted or reshaped. Examples: epoxy resin, melamine formaldehyde, urea formaldehyde.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between hardwood and softwood?",
+              "options": [
+                "A) Hardwood is always harder than softwood",
+                "B) Hardwood is from deciduous trees; softwood is from coniferous trees",
+                "C) Softwood is from deciduous trees; hardwood is from coniferous trees",
+                "D) There is no botanical difference"
+              ],
+              "correct_answer": "B",
+              "explanation": "Hardwood is from broad-leaved deciduous trees (oak, beech). Softwood is from cone-bearing coniferous trees (pine, spruce). Note: balsa is a hardwood but is physically very soft.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a composite material?",
+              "options": [
+                "A) A single pure material",
+                "B) A metal alloy",
+                "C) A material made from two or more materials combined",
+                "D) A naturally occurring material"
+              ],
+              "correct_answer": "C",
+              "explanation": "Composites combine materials to gain the best properties of each — e.g. carbon fibre + resin = CFRP (very strong, lightweight). GRP (fibreglass) is another example.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a smart material?",
+              "options": [
+                "A) A material that is the most expensive",
+                "B) A material that responds to environmental changes",
+                "C) A material that is always recycled",
+                "D) A natural composite material"
+              ],
+              "correct_answer": "B",
+              "explanation": "Smart materials: shape memory alloys (return to original shape when heated), photochromic materials (change colour in light), piezoelectric materials (generate electricity under pressure).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is tensile strength?",
+              "options": [
+                "A) A material's resistance to compression",
+                "B) A material's flexibility",
+                "C) The maximum stress a material can withstand when stretched before breaking",
+                "D) A material's hardness"
+              ],
+              "correct_answer": "C",
+              "explanation": "Tensile strength measures how much pulling force a material can withstand — important for ropes, cables, and structural members under tension.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why are non-ferrous metals generally preferred for outdoor use?",
+              "options": [
+                "A) They are magnetic",
+                "B) They are cheaper than ferrous metals",
+                "C) They are corrosion-resistant — they do not rust",
+                "D) They are stronger than ferrous metals"
+              ],
+              "correct_answer": "C",
+              "explanation": "Non-ferrous metals (aluminium, copper, brass) do not contain iron so they do not rust — making them suitable for outdoor or marine applications.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is sustainability in design and technology?",
+              "options": [
+                "A) Using the most expensive materials",
+                "B) Designing with minimal environmental impact — using renewable resources, reducing waste",
+                "C) Only using natural materials",
+                "D) Making the most durable product possible"
+              ],
+              "correct_answer": "B",
+              "explanation": "Sustainable design considers the full lifecycle — material extraction, manufacture, use, and disposal. It aims to minimise environmental impact and use renewable resources.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which plastic is used to make most clear drinks bottles?",
+              "options": [
+                "A) Acrylic",
+                "B) Urea formaldehyde",
+                "C) PET (polyethylene terephthalate)",
+                "D) Epoxy resin"
+              ],
+              "correct_answer": "C",
+              "explanation": "PET (polyethylene terephthalate) is a thermoplastic — lightweight, transparent, and widely recycled. Used for drinks bottles and food packaging.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Ferrous metals contain iron and are prone to rust.",
+              "correct_answer": "True",
+              "explanation": "Iron content makes ferrous metals magnetic and susceptible to corrosion (rust) when exposed to water and oxygen.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Thermoplastics cannot be recycled.",
+              "correct_answer": "False",
+              "explanation": "Thermoplastics can be REHEATED and reshaped — they ARE recyclable. Thermosetting plastics cannot be recycled.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Hardwood always comes from physically hard trees.",
+              "correct_answer": "False",
+              "explanation": "Hardwood comes from DECIDUOUS (broad-leaved) trees. Some hardwoods (balsa) are physically very soft.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Composite materials combine two or more materials to achieve better properties.",
+              "correct_answer": "True",
+              "explanation": "E.g. CFRP combines carbon fibre (strong) with resin (binds fibres) — achieving high strength and low weight.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Thermosetting plastics can be remelted and reshaped.",
+              "correct_answer": "False",
+              "explanation": "Thermosetting plastics set permanently — they cannot be remelted or remoulded.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Smart materials respond to changes in their environment.",
+              "correct_answer": "True",
+              "explanation": "Shape memory alloys, photochromic materials, and piezoelectric materials all respond to external stimuli.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Non-ferrous metals are magnetic.",
+              "correct_answer": "False",
+              "explanation": "Non-ferrous metals do NOT contain iron and are generally NOT magnetic.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Tensile strength measures how much compression a material can withstand.",
+              "correct_answer": "False",
+              "explanation": "Tensile strength measures resistance to STRETCHING (tension). Compressive strength measures resistance to being crushed.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Softwood comes from coniferous (evergreen) trees.",
+              "correct_answer": "True",
+              "explanation": "Softwood trees (pine, spruce, larch) are coniferous — they retain their needles year-round.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Sustainable design considers the full lifecycle of a product.",
+              "correct_answer": "True",
+              "explanation": "From material extraction to manufacture, use, and disposal — sustainable design minimises environmental impact at every stage.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ metals contain iron — they are magnetic and prone to rust.",
+              "correct_answer": "Ferrous",
+              "explanation": "Mild steel and cast iron are ferrous metals.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ metals contain no iron — they are generally corrosion-resistant.",
+              "correct_answer": "Non-ferrous",
+              "explanation": "Aluminium, copper, and brass are non-ferrous metals.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ plastics soften when heated and can be reshaped — they are recyclable.",
+              "correct_answer": "Thermoplastic",
+              "explanation": "Examples: acrylic, PET, polyethylene, nylon.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ plastics set permanently and cannot be remoulded.",
+              "correct_answer": "Thermosetting",
+              "explanation": "Examples: epoxy resin, melamine formaldehyde, urea formaldehyde.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ wood comes from deciduous (broad-leaved) trees — e.g. oak, beech.",
+              "correct_answer": "Hard",
+              "explanation": "Hardwoods are generally more expensive and durable than softwoods.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ wood comes from coniferous trees — e.g. pine, spruce.",
+              "correct_answer": "Soft",
+              "explanation": "Softwoods are generally cheaper and easier to work with.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ material combines two or more materials — e.g. carbon fibre reinforced polymer.",
+              "correct_answer": "composite",
+              "explanation": "Composites gain the best properties of their component materials.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ material responds to environmental changes — e.g. shape memory alloy.",
+              "correct_answer": "smart",
+              "explanation": "Smart materials change properties in response to temperature, light, pressure, or other stimuli.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ strength is the maximum force a material can withstand when stretched.",
+              "correct_answer": "Tensile",
+              "explanation": "High tensile strength is important for cables, ropes, and tension members.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ design minimises environmental impact using renewable resources and reducing waste.",
+              "correct_answer": "Sustainable",
+              "explanation": "Sustainable design considers the full lifecycle of a product.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "ferrous metal",
+                  "match": "contains iron — magnetic, prone to rust"
+                },
+                {
+                  "term": "non-ferrous metal",
+                  "match": "no iron — generally corrosion-resistant"
+                },
+                {
+                  "term": "thermoplastic",
+                  "match": "softens when heated — can be reshaped — recyclable"
+                },
+                {
+                  "term": "thermosetting plastic",
+                  "match": "sets permanently — cannot be remoulded"
+                },
+                {
+                  "term": "composite material",
+                  "match": "two or more materials combined — e.g. CFRP"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Design Process & Technology",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Design Process",
+          "cards": [
+            {
+              "keyword": "design brief",
+              "definition": "a statement of the problem to be solved — outlines the purpose and context of the design task",
+              "display_order": 1
+            },
+            {
+              "keyword": "design specification",
+              "definition": "a detailed list of criteria the final product must meet — measurable and testable",
+              "display_order": 2
+            },
+            {
+              "keyword": "ergonomics",
+              "definition": "designing for human use — considering size, comfort, ease of use, and safety",
+              "display_order": 3
+            },
+            {
+              "keyword": "anthropometrics",
+              "definition": "the measurement of the human body — data used to ensure products fit users",
+              "display_order": 4
+            },
+            {
+              "keyword": "prototype",
+              "definition": "a working model made to test and evaluate a design before full production",
+              "display_order": 5
+            },
+            {
+              "keyword": "CAD (Computer-Aided Design)",
+              "definition": "using software to create 2D drawings or 3D models — e.g. AutoCAD, Fusion 360",
+              "display_order": 6
+            },
+            {
+              "keyword": "CAM (Computer-Aided Manufacture)",
+              "definition": "using computer-controlled machines to manufacture products — e.g. CNC router, laser cutter, 3D printer",
+              "display_order": 7
+            },
+            {
+              "keyword": "iterative design",
+              "definition": "a design process involving repeated cycles of designing, testing, and improving",
+              "display_order": 8
+            },
+            {
+              "keyword": "system",
+              "definition": "a set of components working together to perform a function — input, process, output",
+              "display_order": 9
+            },
+            {
+              "keyword": "lifecycle assessment (LCA)",
+              "definition": "evaluating the environmental impact of a product through its entire lifecycle",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a design specification?",
+              "options": [
+                "A) A rough sketch of an idea",
+                "B) A detailed, measurable list of criteria the product must meet",
+                "C) The final product",
+                "D) The design brief"
+              ],
+              "correct_answer": "B",
+              "explanation": "The design specification sets measurable criteria — size, weight, cost, materials, performance — against which the final product is evaluated.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is ergonomics?",
+              "options": [
+                "A) The measurement of the human body",
+                "B) Designing for human use — considering comfort, size, and safety",
+                "C) Computer-aided design",
+                "D) A type of prototype"
+              ],
+              "correct_answer": "B",
+              "explanation": "Ergonomics ensures products fit and work well for human users — good ergonomic design reduces fatigue, injury, and user error.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is anthropometrics?",
+              "options": [
+                "A) Designing for environmental impact",
+                "B) The measurement of the human body used in product design",
+                "C) A type of material testing",
+                "D) The lifecycle of a product"
+              ],
+              "correct_answer": "B",
+              "explanation": "Anthropometric data (e.g. average hand size, reach) ensures products are designed to fit the target user — avoiding exclusion of parts of the population.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is CAD?",
+              "options": [
+                "A) Computer-Aided Delivery",
+                "B) Using computer software to create 2D drawings or 3D models",
+                "C) A type of prototype testing",
+                "D) A manufacturing process"
+              ],
+              "correct_answer": "B",
+              "explanation": "CAD software (AutoCAD, SolidWorks, Fusion 360) allows designers to create, modify, and test designs digitally — saving time and reducing errors.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is CAM?",
+              "options": [
+                "A) Computer-Assisted Marketing",
+                "B) Using computer-controlled machines to manufacture products",
+                "C) A type of material testing",
+                "D) A design specification tool"
+              ],
+              "correct_answer": "B",
+              "explanation": "CAM machines (CNC routers, laser cutters, 3D printers) are controlled by CAD data — enabling accurate, repeatable manufacturing.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is iterative design?",
+              "options": [
+                "A) Designing a product once and manufacturing it",
+                "B) A process of repeated cycles — design, test, improve",
+                "C) Manufacturing the same product repeatedly",
+                "D) Evaluating a finished product"
+              ],
+              "correct_answer": "B",
+              "explanation": "Iterative design: design → prototype → test → evaluate → improve → repeat. Each cycle refines the product.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a design brief?",
+              "options": [
+                "A) A list of measurable criteria",
+                "B) A statement of the problem to be solved — outlines purpose and context",
+                "C) A final design drawing",
+                "D) A prototype"
+              ],
+              "correct_answer": "B",
+              "explanation": "The design brief identifies the design problem, the target user, and the context — it gives the designer direction without specifying the solution.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a prototype?",
+              "options": [
+                "A) A final finished product",
+                "B) A working model to test and evaluate a design before full production",
+                "C) A computer model only",
+                "D) A design specification"
+              ],
+              "correct_answer": "B",
+              "explanation": "Prototypes are made to test and evaluate designs — they may be rough models (foam, card) or fully functional working models.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is lifecycle assessment (LCA)?",
+              "options": [
+                "A) The lifespan of a product",
+                "B) Evaluating the environmental impact of a product across its entire lifecycle",
+                "C) Assessing the cost of a product",
+                "D) Testing the durability of a material"
+              ],
+              "correct_answer": "B",
+              "explanation": "LCA considers: raw material extraction → manufacturing → use → end of life (disposal/recycling). It helps designers minimise environmental impact at each stage.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a system in design and technology?",
+              "options": [
+                "A) A manufacturing process",
+                "B) A set of components working together — input, process, output",
+                "C) A design brief",
+                "D) A type of material"
+              ],
+              "correct_answer": "B",
+              "explanation": "Systems thinking: input (something that enters) → process (what happens) → output (what results). E.g. a circuit: battery (input) → switch (process) → light (output).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "A design specification should be measurable and testable.",
+              "correct_answer": "True",
+              "explanation": "Specifications like 'must weigh less than 200g' are measurable — vague criteria like 'should be good' are not acceptable.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Ergonomics considers the measurement of the human body.",
+              "correct_answer": "False",
+              "explanation": "ANTHROPOMETRICS measures the human body. ERGONOMICS uses this data to design products that fit and work well for humans.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "CAD allows designers to create and modify designs digitally.",
+              "correct_answer": "True",
+              "explanation": "CAD software enables 2D and 3D design, simulation, and modification — faster and cheaper than physical drawing.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Iterative design involves designing a product once and going straight to manufacture.",
+              "correct_answer": "False",
+              "explanation": "Iterative design involves repeated cycles of design → test → improve.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "A prototype tests a design before full-scale production.",
+              "correct_answer": "True",
+              "explanation": "Prototypes allow designers to identify problems and refine designs before committing to expensive full production.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "CAM machines include CNC routers, laser cutters, and 3D printers.",
+              "correct_answer": "True",
+              "explanation": "All of these are computer-controlled manufacturing machines.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Lifecycle assessment only considers the manufacturing stage.",
+              "correct_answer": "False",
+              "explanation": "LCA considers the ENTIRE lifecycle — from raw material extraction to disposal or recycling.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Anthropometric data is used to ensure products fit the target users.",
+              "correct_answer": "True",
+              "explanation": "Anthropometric data about body dimensions ensures products are appropriately sized for the target population.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "A design brief specifies exact measurements and materials.",
+              "correct_answer": "False",
+              "explanation": "The design brief identifies the PROBLEM — the design specification gives exact, measurable criteria.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Systems consist of input, process, and output.",
+              "correct_answer": "True",
+              "explanation": "All systems can be described in terms of what goes in, what happens, and what comes out.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A design ________ is a statement of the problem to be solved.",
+              "correct_answer": "brief",
+              "explanation": "The design brief gives direction without specifying the solution.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A design ________ is a detailed, measurable list of criteria the product must meet.",
+              "correct_answer": "specification",
+              "explanation": "Specifications are testable — e.g. 'must cost less than £10'.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ designs products for comfortable, safe human use.",
+              "correct_answer": "Ergonomics",
+              "explanation": "Ergonomics reduces fatigue, injury, and error in product use.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the measurement of the human body used in product design.",
+              "correct_answer": "Anthropometrics",
+              "explanation": "Anthropometric data ensures products fit the target user population.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ uses computer software to create 2D and 3D design models.",
+              "correct_answer": "CAD",
+              "explanation": "CAD allows rapid modification and testing without physical prototypes.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ uses computer-controlled machines to manufacture products.",
+              "correct_answer": "CAM",
+              "explanation": "CNC, laser cutters, and 3D printers are all CAM machines.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ design involves repeated cycles of designing, testing, and improving.",
+              "correct_answer": "Iterative",
+              "explanation": "Each cycle refines the product — getting closer to the ideal solution.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a working model made to test a design before full production.",
+              "correct_answer": "prototype",
+              "explanation": "Prototypes may be rough models or fully functional working examples.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ assessment evaluates a product's environmental impact across its entire life.",
+              "correct_answer": "Lifecycle",
+              "explanation": "LCA covers extraction, manufacture, use, and disposal.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ consists of input, process, and output components.",
+              "correct_answer": "system",
+              "explanation": "Systems thinking applies to electrical, mechanical, and product design.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "design brief",
+                  "match": "statement of problem — purpose and context"
+                },
+                {
+                  "term": "design specification",
+                  "match": "measurable criteria the product must meet"
+                },
+                {
+                  "term": "ergonomics",
+                  "match": "designing for comfortable, safe human use"
+                },
+                {
+                  "term": "CAD",
+                  "match": "computer software for 2D/3D design"
+                },
+                {
+                  "term": "CAM",
+                  "match": "computer-controlled manufacture — CNC, laser, 3D printing"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

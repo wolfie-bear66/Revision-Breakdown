@@ -1,0 +1,317 @@
+{
+  "subject": {
+    "name": "Biology (Edexcel)",
+    "slug": "biology-edexcel",
+    "colour": "#166534"
+  },
+  "topics": [
+    {
+      "name": "Topic 1 — Key Concepts in Biology",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Cells & Microscopy",
+          "cards": [
+            {
+              "keyword": "cell",
+              "definition": "the basic structural and functional unit of all living organisms",
+              "display_order": 1
+            },
+            {
+              "keyword": "eukaryotic cell",
+              "definition": "a cell with a true nucleus enclosed by a membrane — includes all plant and animal cells",
+              "display_order": 2
+            },
+            {
+              "keyword": "prokaryotic cell",
+              "definition": "a cell with no true nucleus — DNA floats freely in the cytoplasm. Bacteria are prokaryotes",
+              "display_order": 3
+            },
+            {
+              "keyword": "cell membrane",
+              "definition": "a thin, flexible layer surrounding all cells — controls what enters and leaves",
+              "display_order": 4
+            },
+            {
+              "keyword": "cell wall (plant)",
+              "definition": "a rigid outer layer made of cellulose surrounding plant cells — provides support and shape",
+              "display_order": 5
+            },
+            {
+              "keyword": "mitochondria",
+              "definition": "organelles where aerobic respiration occurs — produce ATP (energy) for the cell",
+              "display_order": 6
+            },
+            {
+              "keyword": "chloroplast",
+              "definition": "organelle in plant cells containing chlorophyll — the site of photosynthesis",
+              "display_order": 7
+            },
+            {
+              "keyword": "magnification",
+              "definition": "how many times larger an image appears compared to the actual object (Magnification = Image size ÷ Actual size)",
+              "display_order": 8
+            },
+            {
+              "keyword": "light microscope",
+              "definition": "a microscope using visible light and lenses — can magnify up to about ×1500 and shows living specimens",
+              "display_order": 9
+            },
+            {
+              "keyword": "electron microscope",
+              "definition": "a microscope using electrons instead of light — far higher magnification and resolution than a light microscope, but cannot show living specimens",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Enzymes & Biological Molecules",
+          "cards": [
+            {
+              "keyword": "enzyme",
+              "definition": "a biological catalyst — speeds up chemical reactions in living organisms without being used up",
+              "display_order": 1
+            },
+            {
+              "keyword": "active site",
+              "definition": "the specific region of an enzyme where a substrate binds — has a complementary shape to the substrate",
+              "display_order": 2
+            },
+            {
+              "keyword": "the lock and key model",
+              "definition": "the idea that an enzyme's active site is a specific shape that only fits one substrate — like a key fits only one lock",
+              "display_order": 3
+            },
+            {
+              "keyword": "denaturation",
+              "definition": "when an enzyme's active site changes shape permanently due to high temperature or extreme pH — the enzyme can no longer function",
+              "display_order": 4
+            },
+            {
+              "keyword": "optimum temperature/pH",
+              "definition": "the conditions at which an enzyme works most efficiently — different enzymes have different optima",
+              "display_order": 5
+            },
+            {
+              "keyword": "carbohydrate",
+              "definition": "a biological molecule made of carbon, hydrogen, and oxygen — used for energy (glucose) and structure (cellulose)",
+              "display_order": 6
+            },
+            {
+              "keyword": "protein",
+              "definition": "a biological molecule made of amino acids — used for enzymes, antibodies, hormones, and structural components",
+              "display_order": 7
+            },
+            {
+              "keyword": "lipid",
+              "definition": "a biological molecule including fats and oils — used for energy storage, cell membranes, and insulation",
+              "display_order": 8
+            },
+            {
+              "keyword": "DNA",
+              "definition": "deoxyribonucleic acid — the molecule that carries genetic information in cells, made of two strands in a double helix",
+              "display_order": 9
+            },
+            {
+              "keyword": "diffusion",
+              "definition": "the movement of molecules from an area of high concentration to an area of low concentration — a passive process requiring no energy",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Topic 2 — Cells & Control",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Cell Division & the Nervous System",
+          "cards": [
+            {
+              "keyword": "mitosis",
+              "definition": "cell division producing two genetically identical daughter cells — used for growth, repair, and asexual reproduction",
+              "display_order": 1
+            },
+            {
+              "keyword": "meiosis",
+              "definition": "cell division producing four genetically unique cells with half the chromosome number — used to make gametes (sex cells)",
+              "display_order": 2
+            },
+            {
+              "keyword": "chromosome",
+              "definition": "a thread-like structure of DNA carrying genetic information — human cells have 46 chromosomes in 23 pairs",
+              "display_order": 3
+            },
+            {
+              "keyword": "stem cell",
+              "definition": "an undifferentiated cell that can divide and develop into different cell types",
+              "display_order": 4
+            },
+            {
+              "keyword": "differentiation",
+              "definition": "the process by which a cell becomes specialised for a particular function — e.g. a stem cell becoming a nerve cell",
+              "display_order": 5
+            },
+            {
+              "keyword": "neurone",
+              "definition": "a specialised nerve cell that transmits electrical impulses around the body",
+              "display_order": 6
+            },
+            {
+              "keyword": "synapse",
+              "definition": "the gap between two neurones — impulses cross the gap using chemical signals called neurotransmitters",
+              "display_order": 7
+            },
+            {
+              "keyword": "reflex arc",
+              "definition": "the pathway of an automatic response: receptor → sensory neurone → relay neurone → motor neurone → effector",
+              "display_order": 8
+            },
+            {
+              "keyword": "the central nervous system (CNS)",
+              "definition": "the brain and spinal cord — processes information and coordinates responses",
+              "display_order": 9
+            },
+            {
+              "keyword": "receptor",
+              "definition": "a cell or organ that detects stimuli — e.g. the retina detects light; taste buds detect chemicals",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Topic 3 — Genetics",
+      "paper": "Paper 1",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Inheritance & Variation",
+          "cards": [
+            {
+              "keyword": "gene",
+              "definition": "a section of DNA that codes for a specific protein — determines an organism's characteristics",
+              "display_order": 1
+            },
+            {
+              "keyword": "allele",
+              "definition": "a version of a gene — most genes have two or more alleles (e.g. dominant and recessive)",
+              "display_order": 2
+            },
+            {
+              "keyword": "dominant allele",
+              "definition": "an allele whose characteristic is always expressed, even if only one copy is present",
+              "display_order": 3
+            },
+            {
+              "keyword": "recessive allele",
+              "definition": "an allele whose characteristic is only expressed when two copies are present (homozygous recessive)",
+              "display_order": 4
+            },
+            {
+              "keyword": "homozygous",
+              "definition": "having two identical alleles for a gene — e.g. BB or bb",
+              "display_order": 5
+            },
+            {
+              "keyword": "heterozygous",
+              "definition": "having two different alleles for a gene — e.g. Bb",
+              "display_order": 6
+            },
+            {
+              "keyword": "genotype",
+              "definition": "the genetic make-up of an organism — the alleles it carries (e.g. Bb)",
+              "display_order": 7
+            },
+            {
+              "keyword": "phenotype",
+              "definition": "the physical characteristics of an organism produced by its genotype and environment",
+              "display_order": 8
+            },
+            {
+              "keyword": "Punnett square",
+              "definition": "a grid used to predict the outcomes and probabilities of a genetic cross",
+              "display_order": 9
+            },
+            {
+              "keyword": "mutation",
+              "definition": "a random change in the DNA sequence — can be harmful, beneficial, or neutral",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Topic 5 — Health, Disease & Treatments",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Disease & Immunity",
+          "cards": [
+            {
+              "keyword": "pathogen",
+              "definition": "a microorganism that causes disease — includes bacteria, viruses, fungi, and protists",
+              "display_order": 1
+            },
+            {
+              "keyword": "communicable disease",
+              "definition": "a disease that can be passed from one organism to another — e.g. influenza, malaria, tuberculosis",
+              "display_order": 2
+            },
+            {
+              "keyword": "non-communicable disease",
+              "definition": "a disease that cannot be passed between organisms — e.g. cancer, diabetes, heart disease",
+              "display_order": 3
+            },
+            {
+              "keyword": "the immune system",
+              "definition": "the body's defence against pathogens — includes white blood cells (phagocytes and lymphocytes)",
+              "display_order": 4
+            },
+            {
+              "keyword": "phagocytosis",
+              "definition": "the process by which white blood cells (phagocytes) engulf and destroy pathogens",
+              "display_order": 5
+            },
+            {
+              "keyword": "antibody",
+              "definition": "a protein produced by lymphocytes that binds to and destroys a specific pathogen",
+              "display_order": 6
+            },
+            {
+              "keyword": "antigen",
+              "definition": "a protein on the surface of a pathogen that triggers an immune response",
+              "display_order": 7
+            },
+            {
+              "keyword": "vaccination",
+              "definition": "introducing a harmless form of a pathogen into the body to stimulate the immune system to produce antibodies without causing disease",
+              "display_order": 8
+            },
+            {
+              "keyword": "antibiotic",
+              "definition": "a medicine that kills or inhibits the growth of bacteria — does not work against viruses",
+              "display_order": 9
+            },
+            {
+              "keyword": "antibiotic resistance",
+              "definition": "when bacteria evolve to no longer be killed by an antibiotic — caused by overuse and misuse of antibiotics",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

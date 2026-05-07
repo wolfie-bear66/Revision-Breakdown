@@ -1,0 +1,128 @@
+{
+  "subject": {
+    "name": "Health & Social Care (OCR)",
+    "slug": "health-social-care-ocr",
+    "colour": "#db2777"
+  },
+  "topics": [
+    {
+      "name": "Human Development & Health",
+      "paper": "Component 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Life Stages & Development",
+          "cards": [
+            {
+              "keyword": "life stages",
+              "definition": "the recognised stages of human development — infancy (0–2), childhood (3–8), adolescence (9–18), early adulthood (19–45), middle adulthood (46–65), later adulthood (65+)",
+              "display_order": 1
+            },
+            {
+              "keyword": "PIES",
+              "definition": "an acronym for the four areas of human development — Physical, Intellectual, Emotional, and Social",
+              "display_order": 2
+            },
+            {
+              "keyword": "physical development",
+              "definition": "changes to the body over time — including growth, puberty, fine and gross motor skills, and physical decline in later life",
+              "display_order": 3
+            },
+            {
+              "keyword": "intellectual development",
+              "definition": "changes in thinking, memory, and problem-solving abilities — develops rapidly in childhood and may decline in later adulthood",
+              "display_order": 4
+            },
+            {
+              "keyword": "emotional development",
+              "definition": "the development of feelings, self-awareness, and the ability to manage emotions — includes forming attachments and identity",
+              "display_order": 5
+            },
+            {
+              "keyword": "social development",
+              "definition": "learning to interact with others and forming relationships — includes play, friendship, intimate relationships, and social roles",
+              "display_order": 6
+            },
+            {
+              "keyword": "puberty",
+              "definition": "the period of physical change where a child's body develops into an adult capable of reproduction — typically 9–16 years old",
+              "display_order": 7
+            },
+            {
+              "keyword": "self-concept",
+              "definition": "how a person sees themselves — includes self-image (how you see yourself) and self-esteem (how you value yourself)",
+              "display_order": 8
+            },
+            {
+              "keyword": "Erikson's stages",
+              "definition": "a theory of development proposing eight life-stage challenges — e.g. 'identity vs role confusion' in adolescence",
+              "display_order": 9
+            },
+            {
+              "keyword": "nature vs nurture",
+              "definition": "the debate over whether development is determined by genetics (nature) or environment and experience (nurture)",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Health, Wellbeing & Services",
+          "cards": [
+            {
+              "keyword": "health (WHO definition)",
+              "definition": "a state of complete physical, mental, and social wellbeing — not merely the absence of disease",
+              "display_order": 1
+            },
+            {
+              "keyword": "holistic health",
+              "definition": "considering all aspects of a person's wellbeing — physical, emotional, social, and intellectual",
+              "display_order": 2
+            },
+            {
+              "keyword": "social care",
+              "definition": "support for people who need help with daily living — including elderly people, disabled people, and children in need",
+              "display_order": 3
+            },
+            {
+              "keyword": "primary healthcare",
+              "definition": "the first point of contact with the health service — e.g. GP, dentist, community nurse, pharmacist",
+              "display_order": 4
+            },
+            {
+              "keyword": "secondary healthcare",
+              "definition": "specialist services accessed via referral from primary care — e.g. hospital consultants, surgeons, specialist clinics",
+              "display_order": 5
+            },
+            {
+              "keyword": "informal care",
+              "definition": "unpaid care provided by family members, friends, or neighbours — the majority of care in the UK is informal",
+              "display_order": 6
+            },
+            {
+              "keyword": "formal care",
+              "definition": "paid, professional care provided by trained workers in registered settings — e.g. care homes, hospitals, nurseries",
+              "display_order": 7
+            },
+            {
+              "keyword": "person-centred care",
+              "definition": "an approach that treats individuals as whole people with their own needs and preferences — rather than focusing only on their condition",
+              "display_order": 8
+            },
+            {
+              "keyword": "care values / RESPECT",
+              "definition": "the values underpinning health and social care — including Respect, Empathy, Support, Partnership, Equality, Choice, Trust",
+              "display_order": 9
+            },
+            {
+              "keyword": "safeguarding",
+              "definition": "measures taken to protect vulnerable people from abuse, neglect, and harm — a legal duty for all care workers",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1821 @@
+{
+  "subject": {
+    "name": "Biology",
+    "slug": "biology",
+    "colour": "#166534",
+    "exam_board": "OCR",
+    "emoji": "🧬"
+  },
+  "topics": [
+    {
+      "name": "Cell Level Systems",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Cells & Biological Molecules",
+          "cards": [
+            {
+              "keyword": "cell theory",
+              "definition": "all living things are made of cells; the cell is the basic unit of life; all cells come from pre-existing cells",
+              "display_order": 1
+            },
+            {
+              "keyword": "magnification",
+              "definition": "magnification = image size ÷ actual size — used in microscopy calculations",
+              "display_order": 2
+            },
+            {
+              "keyword": "resolution",
+              "definition": "the ability to distinguish between two points — determines image clarity",
+              "display_order": 3
+            },
+            {
+              "keyword": "light microscope",
+              "definition": "uses visible light — max magnification ~×1500, resolution ~200nm. Can view living cells",
+              "display_order": 4
+            },
+            {
+              "keyword": "electron microscope",
+              "definition": "uses electrons — magnification ×500,000+, resolution ~0.2nm. Cannot view living cells",
+              "display_order": 5
+            },
+            {
+              "keyword": "cell fractionation",
+              "definition": "breaking cells and separating organelles by centrifugation — allows study of individual organelles",
+              "display_order": 6
+            },
+            {
+              "keyword": "carbohydrate",
+              "definition": "made of C, H, O — monosaccharides (glucose), disaccharides (sucrose), polysaccharides (starch, glycogen)",
+              "display_order": 7
+            },
+            {
+              "keyword": "protein",
+              "definition": "made of amino acids joined by peptide bonds — primary, secondary, tertiary, quaternary structure",
+              "display_order": 8
+            },
+            {
+              "keyword": "DNA",
+              "definition": "a double helix of nucleotides — carries genetic information. Bases: A, T, C, G",
+              "display_order": 9
+            },
+            {
+              "keyword": "enzyme",
+              "definition": "a biological catalyst — has an active site specific to its substrate. Speeds reactions without being consumed",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is magnification?",
+              "options": [
+                "A) Image clarity",
+                "B) Image size ÷ actual size",
+                "C) Size of an organelle",
+                "D) Resolution of a microscope"
+              ],
+              "correct_answer": "B",
+              "explanation": "Magnification = image size ÷ actual size. Express both in the same units.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the advantage of an electron microscope?",
+              "options": [
+                "A) It can view living cells",
+                "B) It is cheaper",
+                "C) Much higher magnification and resolution — revealing ultrastructure",
+                "D) It uses visible light"
+              ],
+              "correct_answer": "C",
+              "explanation": "Electron microscopes resolve structures to ~0.2nm — revealing organelles invisible with light microscopy.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is cell fractionation used for?",
+              "options": [
+                "A) Staining cells",
+                "B) Breaking cells and separating organelles by centrifugation",
+                "C) Measuring magnification",
+                "D) Creating microscope images"
+              ],
+              "correct_answer": "B",
+              "explanation": "Cell fractionation: cells are homogenised then centrifuged at different speeds — denser organelles pellet first.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the structure of DNA?",
+              "options": [
+                "A) Single strand of amino acids",
+                "B) Double helix of nucleotides — sugar, phosphate, and base",
+                "C) A polysaccharide chain",
+                "D) A lipid bilayer"
+              ],
+              "correct_answer": "B",
+              "explanation": "DNA is a double helix: two strands of nucleotides held together by hydrogen bonds between complementary base pairs (A-T, C-G).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an enzyme?",
+              "options": [
+                "A) A substrate",
+                "B) A biological catalyst with specific active site — not consumed",
+                "C) A protein that carries oxygen",
+                "D) A structural protein"
+              ],
+              "correct_answer": "B",
+              "explanation": "Enzymes are globular proteins — their specific active site shape means they only catalyse specific reactions.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are polysaccharides?",
+              "options": [
+                "A) Single sugars",
+                "B) Two sugars joined together",
+                "C) Long chains of monosaccharides — starch, glycogen, cellulose",
+                "D) Short amino acid chains"
+              ],
+              "correct_answer": "C",
+              "explanation": "Polysaccharides are polymers of monosaccharides — starch/glycogen store energy; cellulose provides structure.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the primary structure of a protein?",
+              "options": [
+                "A) 3D shape",
+                "B) Alpha-helix or beta-sheet",
+                "C) Sequence of amino acids in the polypeptide chain",
+                "D) Multiple polypeptide chains"
+              ],
+              "correct_answer": "C",
+              "explanation": "Primary structure = sequence of amino acids — determined by DNA. Determines all higher levels of structure.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between light and electron microscopes?",
+              "options": [
+                "A) Both use electrons",
+                "B) Light microscopes have higher resolution",
+                "C) Light: visible light, lower resolution, can view living cells; electron: much higher resolution, cannot view living cells",
+                "D) Electron microscopes can view living cells"
+              ],
+              "correct_answer": "C",
+              "explanation": "Light microscopes: ×1500, ~200nm, can view living. Electron: ×500,000+, ~0.2nm, cannot view living.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is glycogen?",
+              "options": [
+                "A) Structural in plants",
+                "B) Stores genetic information",
+                "C) Energy storage in animals and fungi",
+                "D) Carries oxygen in blood"
+              ],
+              "correct_answer": "C",
+              "explanation": "Glycogen is a branched polysaccharide — stored in liver and muscle cells for rapid glucose release.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does resolution mean?",
+              "options": [
+                "A) How large the image appears",
+                "B) Ability to distinguish two separate points",
+                "C) Power of light source",
+                "D) Size of specimen"
+              ],
+              "correct_answer": "B",
+              "explanation": "Higher resolution = clearer images. Electron microscopes have much higher resolution than light microscopes.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Magnification = image size ÷ actual size.",
+              "correct_answer": "True",
+              "explanation": "Express both measurements in the same units.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Electron microscopes can view living cells.",
+              "correct_answer": "False",
+              "explanation": "Electron microscopes cannot view living cells — specimens must be dead and in a vacuum.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Cell fractionation separates organelles by centrifugation.",
+              "correct_answer": "True",
+              "explanation": "Denser organelles pellet first at lower speeds.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "DNA is single-stranded.",
+              "correct_answer": "False",
+              "explanation": "DNA is a DOUBLE helix — two complementary strands.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Enzymes are consumed during reactions.",
+              "correct_answer": "False",
+              "explanation": "Enzymes are CATALYSTS — they are not consumed and can be reused.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Starch and glycogen are both polysaccharides.",
+              "correct_answer": "True",
+              "explanation": "Both polymers of glucose — starch stores energy in plants; glycogen in animals.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Primary protein structure is its 3D shape.",
+              "correct_answer": "False",
+              "explanation": "Primary structure is the AMINO ACID SEQUENCE — 3D shape is tertiary structure.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Light microscopes have higher resolution than electron microscopes.",
+              "correct_answer": "False",
+              "explanation": "Electron microscopes have MUCH higher resolution (~0.2nm vs ~200nm).",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Polysaccharides are made of monosaccharide monomers.",
+              "correct_answer": "True",
+              "explanation": "Starch, glycogen, and cellulose are all polymers of glucose.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Resolution and magnification are the same thing.",
+              "correct_answer": "False",
+              "explanation": "Magnification increases image size; resolution determines clarity.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = image size ÷ actual size.",
+              "correct_answer": "Magnification",
+              "explanation": "Express both in the same units.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the ability to distinguish two points — image clarity.",
+              "correct_answer": "Resolution",
+              "explanation": "Electron microscopes have much higher resolution than light microscopes.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ microscopes can view living cells — up to ×1500 magnification.",
+              "correct_answer": "Light",
+              "explanation": "Limited by wavelength of visible light.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ microscopes use electrons — higher resolution, cannot view living cells.",
+              "correct_answer": "Electron",
+              "explanation": "Resolution ~0.2nm.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Cell ________ breaks cells and separates organelles using centrifugation.",
+              "correct_answer": "fractionation",
+              "explanation": "Denser organelles pellet first at lower centrifuge speeds.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "DNA is a double ________ — each strand made of nucleotides.",
+              "correct_answer": "helix",
+              "explanation": "Complementary base pairs: A-T and C-G.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are biological catalysts with active site specific to one substrate.",
+              "correct_answer": "Enzymes",
+              "explanation": "Not consumed — can be reused.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are long chains of monosaccharides — starch, glycogen, cellulose.",
+              "correct_answer": "Polysaccharides",
+              "explanation": "Starch/glycogen: energy storage. Cellulose: structural.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ structure of a protein is the sequence of amino acids.",
+              "correct_answer": "primary",
+              "explanation": "Determines all higher levels of structure.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is stored in animal liver and muscle as energy reserve.",
+              "correct_answer": "Glycogen",
+              "explanation": "Branched structure allows rapid glucose release.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "magnification",
+                  "match": "image size ÷ actual size"
+                },
+                {
+                  "term": "resolution",
+                  "match": "ability to distinguish two points — image clarity"
+                },
+                {
+                  "term": "electron microscope",
+                  "match": "electrons — ×500,000+, 0.2nm — cannot view living cells"
+                },
+                {
+                  "term": "enzyme",
+                  "match": "biological catalyst — active site specific to substrate"
+                },
+                {
+                  "term": "polysaccharides",
+                  "match": "long chains of monosaccharides — starch, glycogen, cellulose"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scaling Up",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Cell Division & Specialisation",
+          "cards": [
+            {
+              "keyword": "mitosis",
+              "definition": "cell division producing two genetically identical cells — for growth and repair",
+              "display_order": 1
+            },
+            {
+              "keyword": "meiosis",
+              "definition": "cell division producing four genetically different gametes — halves chromosome number",
+              "display_order": 2
+            },
+            {
+              "keyword": "stem cell",
+              "definition": "undifferentiated cell that can divide and become specialised",
+              "display_order": 3
+            },
+            {
+              "keyword": "differentiation",
+              "definition": "process by which cells become specialised — specific genes are activated",
+              "display_order": 4
+            },
+            {
+              "keyword": "cancer",
+              "definition": "uncontrolled cell division caused by mutations in genes controlling the cell cycle",
+              "display_order": 5
+            },
+            {
+              "keyword": "the cell cycle",
+              "definition": "the process of cell growth and division — interphase (growth, DNA replication) then mitosis",
+              "display_order": 6
+            },
+            {
+              "keyword": "chromosome",
+              "definition": "a long strand of DNA carrying genes — humans have 46 in 23 pairs",
+              "display_order": 7
+            },
+            {
+              "keyword": "diploid",
+              "definition": "a cell with two sets of chromosomes — all body cells in humans are diploid (2n = 46)",
+              "display_order": 8
+            },
+            {
+              "keyword": "haploid",
+              "definition": "a cell with one set of chromosomes — gametes are haploid (n = 23)",
+              "display_order": 9
+            },
+            {
+              "keyword": "specialised cell",
+              "definition": "a cell adapted for a specific function — e.g. red blood cells, neurones, sperm cells",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is mitosis used for?",
+              "options": [
+                "A) Producing gametes",
+                "B) Growth, repair, and asexual reproduction — producing identical cells",
+                "C) Halving chromosome number",
+                "D) Sexual reproduction only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Mitosis produces two genetically identical diploid cells — used for growth, repair, and asexual reproduction.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is differentiation?",
+              "options": [
+                "A) Cells dividing rapidly",
+                "B) Cells dying and being replaced",
+                "C) Cells becoming specialised by activating specific genes",
+                "D) DNA replication"
+              ],
+              "correct_answer": "C",
+              "explanation": "During differentiation, specific genes are switched on — producing the proteins needed for the cell's specialised function.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a stem cell?",
+              "options": [
+                "A) A specialised cell",
+                "B) An undifferentiated cell that can divide and become specialised",
+                "C) A cell that cannot divide",
+                "D) A cell only found in bone marrow"
+              ],
+              "correct_answer": "B",
+              "explanation": "Stem cells can self-renew and differentiate — embryonic stem cells (pluripotent) can become any cell type.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is cancer?",
+              "options": [
+                "A) A normal rate of cell division",
+                "B) Uncontrolled cell division caused by mutations in cell cycle control genes",
+                "C) Differentiation failure only",
+                "D) A type of stem cell disorder"
+              ],
+              "correct_answer": "B",
+              "explanation": "Cancer: mutations cause cells to divide without control — forming tumours that can invade other tissues.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between diploid and haploid cells?",
+              "options": [
+                "A) They are the same",
+                "B) Diploid has two sets of chromosomes; haploid has one set",
+                "C) Haploid has more chromosomes",
+                "D) Diploid cells cannot divide"
+              ],
+              "correct_answer": "B",
+              "explanation": "Diploid (2n = 46): all body cells. Haploid (n = 23): gametes. At fertilisation, two haploid cells combine to restore the diploid number.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does a red blood cell differ from a typical cell?",
+              "options": [
+                "A) It has a nucleus",
+                "B) It is diploid",
+                "C) It has no nucleus — maximises space for haemoglobin — carries oxygen",
+                "D) It cannot divide"
+              ],
+              "correct_answer": "C",
+              "explanation": "Red blood cells are enucleated (no nucleus) — biconcave shape maximises surface area for oxygen absorption.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens during the cell cycle?",
+              "options": [
+                "A) Only DNA replication",
+                "B) Cell growth, DNA replication (interphase) then cell division (mitosis)",
+                "C) Only cell division",
+                "D) Meiosis and mitosis alternating"
+              ],
+              "correct_answer": "B",
+              "explanation": "Cell cycle: interphase (cell grows, DNA replicates, organelles duplicate) → mitosis → cytokinesis (cells separate).",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How many chromosomes do human gametes contain?",
+              "options": [
+                "A) 46",
+                "B) 92",
+                "C) 23",
+                "D) 48"
+              ],
+              "correct_answer": "C",
+              "explanation": "Gametes are haploid — 23 chromosomes. At fertilisation, 23 + 23 = 46 (diploid).",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why are embryonic stem cells valuable in medicine?",
+              "options": [
+                "A) They are easy to obtain",
+                "B) They can differentiate into any cell type — could replace damaged tissue",
+                "C) They only produce red blood cells",
+                "D) They do not divide"
+              ],
+              "correct_answer": "B",
+              "explanation": "Embryonic stem cells are pluripotent — potential to treat conditions like Parkinson's, diabetes, and spinal injuries.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What makes a sperm cell specialised?",
+              "options": [
+                "A) No mitochondria",
+                "B) Large flat shape",
+                "C) Tail (flagellum) for movement, many mitochondria, acrosome with enzymes",
+                "D) No nucleus"
+              ],
+              "correct_answer": "C",
+              "explanation": "Sperm cells: tail for swimming, mitochondria for ATP, acrosome releases enzymes to penetrate the egg.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Mitosis produces genetically identical cells.",
+              "correct_answer": "True",
+              "explanation": "Mitosis is used for growth and repair — daughter cells identical to parent.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Meiosis produces two daughter cells.",
+              "correct_answer": "False",
+              "explanation": "Meiosis produces FOUR genetically different cells.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Stem cells are highly specialised.",
+              "correct_answer": "False",
+              "explanation": "Stem cells are UNDIFFERENTIATED — they can become specialised.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Cancer is caused by uncontrolled cell division.",
+              "correct_answer": "True",
+              "explanation": "Mutations in cell cycle control genes can lead to uncontrolled division.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Human body cells are haploid.",
+              "correct_answer": "False",
+              "explanation": "Human body cells are DIPLOID (2n = 46). Gametes are haploid (n = 23).",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Red blood cells have a nucleus.",
+              "correct_answer": "False",
+              "explanation": "Mature red blood cells have NO nucleus — more space for haemoglobin.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "DNA replication occurs during interphase.",
+              "correct_answer": "True",
+              "explanation": "During interphase, the cell grows and DNA is replicated before mitosis.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Embryonic stem cells can differentiate into any cell type.",
+              "correct_answer": "True",
+              "explanation": "Embryonic stem cells are pluripotent — potential to treat many conditions.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Differentiation involves switching off all genes.",
+              "correct_answer": "False",
+              "explanation": "Differentiation involves switching ON SPECIFIC genes — producing proteins for the cell's function.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Gametes are produced by meiosis.",
+              "correct_answer": "True",
+              "explanation": "Meiosis in reproductive organs produces haploid sperm and egg cells.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ produces two identical cells — for growth and repair.",
+              "correct_answer": "Mitosis",
+              "explanation": "Used in asexual reproduction too.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ produces four different gametes — halves chromosome number.",
+              "correct_answer": "Meiosis",
+              "explanation": "Gametes are haploid (n = 23 in humans).",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is when cells become specialised by activating specific genes.",
+              "correct_answer": "Differentiation",
+              "explanation": "Different cell types have different genes switched on.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ cells are undifferentiated — can divide and become specialised.",
+              "correct_answer": "Stem",
+              "explanation": "Embryonic stem cells are pluripotent.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is uncontrolled cell division — caused by mutations.",
+              "correct_answer": "Cancer",
+              "explanation": "Mutations in cell cycle control genes allow uncontrolled division.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ cells have two sets of chromosomes — all human body cells.",
+              "correct_answer": "Diploid",
+              "explanation": "2n = 46 in humans.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ cells have one set of chromosomes — gametes.",
+              "correct_answer": "Haploid",
+              "explanation": "n = 23 in humans.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "During ________, cells grow, DNA replicates, and organelles duplicate.",
+              "correct_answer": "interphase",
+              "explanation": "Interphase is the longest part of the cell cycle.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Red blood cells have no ________ — maximising space for haemoglobin.",
+              "correct_answer": "nucleus",
+              "explanation": "Their biconcave shape also increases surface area.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ cells are pluripotent — valuable for treating disease.",
+              "correct_answer": "Embryonic stem",
+              "explanation": "Could replace damaged cells in conditions like Parkinson's and diabetes.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "mitosis",
+                  "match": "two identical cells — growth and repair"
+                },
+                {
+                  "term": "meiosis",
+                  "match": "four different gametes — halves chromosome number"
+                },
+                {
+                  "term": "differentiation",
+                  "match": "cells become specialised — specific genes activated"
+                },
+                {
+                  "term": "stem cell",
+                  "match": "undifferentiated — can become specialised"
+                },
+                {
+                  "term": "cancer",
+                  "match": "uncontrolled cell division — mutations in cell cycle genes"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Organism Level Systems",
+      "paper": "Paper 1",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Coordination, Homeostasis & Disease",
+          "cards": [
+            {
+              "keyword": "nervous system",
+              "definition": "brain, spinal cord, nerves — rapid electrical signals using neurones",
+              "display_order": 1
+            },
+            {
+              "keyword": "hormone",
+              "definition": "a chemical messenger secreted by a gland — transported in the blood — slower but longer-lasting than nerves",
+              "display_order": 2
+            },
+            {
+              "keyword": "homeostasis",
+              "definition": "maintaining a constant internal environment — temperature, blood glucose, water levels",
+              "display_order": 3
+            },
+            {
+              "keyword": "negative feedback",
+              "definition": "a response that reverses a change — restores the set point",
+              "display_order": 4
+            },
+            {
+              "keyword": "pathogen",
+              "definition": "a microorganism that causes disease — bacteria, viruses, fungi, protists",
+              "display_order": 5
+            },
+            {
+              "keyword": "immune response",
+              "definition": "white blood cells destroy pathogens — phagocytosis, antibody production, memory cells",
+              "display_order": 6
+            },
+            {
+              "keyword": "vaccine",
+              "definition": "contains weakened or dead pathogens — stimulates immune response without causing disease",
+              "display_order": 7
+            },
+            {
+              "keyword": "antibiotic",
+              "definition": "a drug that kills or inhibits bacteria — does not affect viruses",
+              "display_order": 8
+            },
+            {
+              "keyword": "blood glucose regulation",
+              "definition": "insulin (lowers) and glucagon (raises) — secreted by the pancreas",
+              "display_order": 9
+            },
+            {
+              "keyword": "thermoregulation",
+              "definition": "control of body temperature — hypothalamus coordinates sweating, shivering, vasodilation",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is homeostasis?",
+              "options": [
+                "A) Growth and development",
+                "B) Maintaining a constant internal environment",
+                "C) Responding to external stimuli only",
+                "D) Controlling reproduction"
+              ],
+              "correct_answer": "B",
+              "explanation": "Homeostasis keeps conditions stable for enzyme function — temperature, blood glucose, water content.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a pathogen?",
+              "options": [
+                "A) A white blood cell",
+                "B) Any microorganism",
+                "C) A microorganism that causes disease — bacteria, viruses, fungi, protists",
+                "D) An antibody"
+              ],
+              "correct_answer": "C",
+              "explanation": "Pathogens cause disease by invading tissues, reproducing rapidly, and producing toxins.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do vaccines work?",
+              "options": [
+                "A) They contain antibiotics",
+                "B) They contain weakened/dead pathogens — stimulate immune response and memory cells",
+                "C) They destroy viruses directly",
+                "D) They replace damaged white blood cells"
+              ],
+              "correct_answer": "B",
+              "explanation": "Vaccination: immune system produces antibodies against the pathogen — memory cells remain for future rapid response.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the role of insulin?",
+              "options": [
+                "A) Raises blood glucose",
+                "B) Stimulates glycogen breakdown",
+                "C) Lowers blood glucose — causes cells to absorb glucose",
+                "D) Controls temperature"
+              ],
+              "correct_answer": "C",
+              "explanation": "Insulin is released when blood glucose is too high — causes cells to absorb glucose, liver to store it as glycogen.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why don't antibiotics work against viruses?",
+              "options": [
+                "A) They do — antibiotics kill all pathogens",
+                "B) Antibiotics target bacterial structures — viruses use the host cell's machinery, not their own",
+                "C) Viruses are too large",
+                "D) Viruses produce antibiotics"
+              ],
+              "correct_answer": "B",
+              "explanation": "Antibiotics target specific bacterial processes (e.g. cell wall synthesis) — viruses don't have these structures.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is negative feedback?",
+              "options": [
+                "A) A response that amplifies change",
+                "B) A mechanism that reverses changes to restore normal levels",
+                "C) A type of immune response",
+                "D) Sweating and shivering together"
+              ],
+              "correct_answer": "B",
+              "explanation": "Negative feedback: deviation detected → corrective response → return to set point.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the immune response?",
+              "options": [
+                "A) Temperature regulation",
+                "B) White blood cells destroying pathogens — phagocytosis, antibodies, memory cells",
+                "C) Blood glucose regulation",
+                "D) Hormonal control of reproduction"
+              ],
+              "correct_answer": "B",
+              "explanation": "Immune response: phagocytes engulf pathogens; lymphocytes produce antibodies; memory cells remain for future exposure.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is thermoregulation?",
+              "options": [
+                "A) Control of blood glucose",
+                "B) Control of body temperature — coordinated by the hypothalamus",
+                "C) Control of water loss",
+                "D) Control of breathing rate"
+              ],
+              "correct_answer": "B",
+              "explanation": "Thermoregulation: too hot → sweating, vasodilation; too cold → shivering, vasoconstriction. Hypothalamus coordinates.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a hormone?",
+              "options": [
+                "A) An electrical signal",
+                "B) A chemical messenger in the blood — slower but longer-lasting than nerve signals",
+                "C) An enzyme",
+                "D) A type of antibody"
+              ],
+              "correct_answer": "B",
+              "explanation": "Hormones are secreted by endocrine glands into the blood — they travel to target organs and produce longer-lasting effects.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is glucagon?",
+              "options": [
+                "A) A hormone that lowers blood glucose",
+                "B) An enzyme in the liver",
+                "C) A hormone that raises blood glucose — stimulates glycogen breakdown",
+                "D) A neurotransmitter"
+              ],
+              "correct_answer": "C",
+              "explanation": "Glucagon is released when blood glucose is too low — stimulates the liver to break down glycogen to glucose.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Homeostasis maintains a stable internal environment.",
+              "correct_answer": "True",
+              "explanation": "Negative feedback mechanisms keep temperature, blood glucose, and water content stable.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Antibiotics cure viral infections.",
+              "correct_answer": "False",
+              "explanation": "Antibiotics ONLY work against bacteria — not viruses.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Vaccines contain live, fully virulent pathogens.",
+              "correct_answer": "False",
+              "explanation": "Vaccines contain weakened, dead, or fragments of pathogens — safe but stimulate immunity.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Insulin lowers blood glucose.",
+              "correct_answer": "True",
+              "explanation": "Insulin causes cells to absorb glucose and the liver to convert glucose to glycogen.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Glucagon is released when blood glucose is too high.",
+              "correct_answer": "False",
+              "explanation": "Glucagon is released when blood glucose is TOO LOW — it raises glucose.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Negative feedback amplifies changes.",
+              "correct_answer": "False",
+              "explanation": "Negative feedback REVERSES changes — restoring the set point.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Hormones are transported in the blood.",
+              "correct_answer": "True",
+              "explanation": "Hormones travel in the bloodstream to target organs.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The hypothalamus controls thermoregulation.",
+              "correct_answer": "True",
+              "explanation": "The hypothalamus detects temperature changes and coordinates corrective responses.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Memory cells from vaccination allow faster responses to future infections.",
+              "correct_answer": "True",
+              "explanation": "Memory cells recognise the pathogen rapidly — producing antibodies faster on re-exposure.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Pathogens include bacteria, viruses, fungi, and protists.",
+              "correct_answer": "True",
+              "explanation": "All four groups contain organisms that can cause disease.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ maintains a constant internal environment — uses negative feedback.",
+              "correct_answer": "Homeostasis",
+              "explanation": "Temperature, blood glucose, and water content are all regulated.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ feedback reverses changes — restoring the set point.",
+              "correct_answer": "Negative",
+              "explanation": "The basis of all homeostatic control mechanisms.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a microorganism that causes disease — bacteria, viruses, fungi, protists.",
+              "correct_answer": "Pathogen",
+              "explanation": "Pathogens invade tissues, reproduce, and produce toxins.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ stimulate the immune system without causing disease.",
+              "correct_answer": "Vaccines",
+              "explanation": "Memory cells remain — faster response on future exposure.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ lowers blood glucose — secreted by the pancreas.",
+              "correct_answer": "Insulin",
+              "explanation": "Causes glucose uptake by cells and glycogen storage in liver.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ raises blood glucose by stimulating glycogen breakdown.",
+              "correct_answer": "Glucagon",
+              "explanation": "Released when blood glucose falls below the set point.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are chemical messengers transported in the blood — slower than nerve signals.",
+              "correct_answer": "Hormones",
+              "explanation": "Target specific organs — effects are longer-lasting.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ kill bacteria — do not work against viruses.",
+              "correct_answer": "Antibiotics",
+              "explanation": "Antibiotics target bacterial structures absent in viruses.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ coordinates thermoregulation — detects temperature changes.",
+              "correct_answer": "hypothalamus",
+              "explanation": "Too hot: sweating and vasodilation. Too cold: shivering and vasoconstriction.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The immune response includes phagocytosis, antibody production, and ________ cells.",
+              "correct_answer": "memory",
+              "explanation": "Memory cells remain after infection for rapid future responses.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "homeostasis",
+                  "match": "constant internal environment — negative feedback"
+                },
+                {
+                  "term": "pathogen",
+                  "match": "microorganism causing disease — bacteria, virus, fungi, protist"
+                },
+                {
+                  "term": "vaccine",
+                  "match": "weakened/dead pathogen — stimulates immune response"
+                },
+                {
+                  "term": "insulin",
+                  "match": "lowers blood glucose — pancreas"
+                },
+                {
+                  "term": "antibiotics",
+                  "match": "kill bacteria — not effective against viruses"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Community Level Systems & Genetics",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Ecosystems, Genetics & Evolution",
+          "cards": [
+            {
+              "keyword": "ecosystem",
+              "definition": "all living organisms in an area and their non-living environment",
+              "display_order": 1
+            },
+            {
+              "keyword": "food web",
+              "definition": "multiple interconnected food chains — more realistic representation of feeding relationships",
+              "display_order": 2
+            },
+            {
+              "keyword": "photosynthesis",
+              "definition": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ — plants make glucose using light energy",
+              "display_order": 3
+            },
+            {
+              "keyword": "respiration",
+              "definition": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP — releasing energy from glucose",
+              "display_order": 4
+            },
+            {
+              "keyword": "gene",
+              "definition": "a section of DNA coding for a protein — carried on chromosomes",
+              "display_order": 5
+            },
+            {
+              "keyword": "allele",
+              "definition": "a version of a gene — dominant (expressed if present) or recessive (needs two copies)",
+              "display_order": 6
+            },
+            {
+              "keyword": "natural selection",
+              "definition": "organisms with advantageous adaptations survive and reproduce — alleles become more common",
+              "display_order": 7
+            },
+            {
+              "keyword": "evolution",
+              "definition": "change in allele frequencies in a population over many generations",
+              "display_order": 8
+            },
+            {
+              "keyword": "biodiversity",
+              "definition": "the variety of species — high biodiversity increases ecosystem stability",
+              "display_order": 9
+            },
+            {
+              "keyword": "extinction",
+              "definition": "permanent loss of a species — caused by habitat loss, competition, disease, climate change",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is photosynthesis?",
+              "options": [
+                "A) Releasing energy from glucose",
+                "B) 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ — making glucose from CO₂ and water using light",
+                "C) Breaking down food in the gut",
+                "D) DNA replication"
+              ],
+              "correct_answer": "B",
+              "explanation": "Photosynthesis occurs in chloroplasts — light energy converts CO₂ and water to glucose and oxygen.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the equation for aerobic respiration?",
+              "options": [
+                "A) CO₂ + H₂O → glucose + O₂",
+                "B) C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP",
+                "C) Glucose → lactic acid + ATP",
+                "D) Glucose + ATP → CO₂ + water"
+              ],
+              "correct_answer": "B",
+              "explanation": "Aerobic respiration releases energy from glucose — produces ATP, CO₂, and water.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is natural selection?",
+              "options": [
+                "A) Humans choosing which organisms breed",
+                "B) Random mutations improving organisms",
+                "C) Organisms with advantageous adaptations surviving and reproducing — passing on beneficial alleles",
+                "D) All organisms adapting over one generation"
+              ],
+              "correct_answer": "C",
+              "explanation": "Natural selection: variation exists → some survive better → they reproduce more → beneficial alleles increase in frequency.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is evolution?",
+              "options": [
+                "A) Growth of an individual",
+                "B) Change in allele frequencies in a population over many generations",
+                "C) A single mutation",
+                "D) Extinction of a species"
+              ],
+              "correct_answer": "B",
+              "explanation": "Evolution is driven by natural selection — allele frequencies change over many generations, leading to new adaptations.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is biodiversity?",
+              "options": [
+                "A) Number of individuals in one species",
+                "B) Variety of different species in an ecosystem",
+                "C) Number of food chains",
+                "D) Total biomass of ecosystem"
+              ],
+              "correct_answer": "B",
+              "explanation": "High biodiversity = more stable ecosystems. Biodiversity is threatened by habitat loss, pollution, and climate change.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a food web?",
+              "options": [
+                "A) A single feeding pathway",
+                "B) Multiple interconnected food chains — realistic feeding relationships",
+                "C) A diagram of all organisms in an ecosystem",
+                "D) A map of habitats"
+              ],
+              "correct_answer": "B",
+              "explanation": "Food webs show the complexity of feeding relationships — more accurately representing real ecosystems than single food chains.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between gene and allele?",
+              "options": [
+                "A) They are identical",
+                "B) A gene is a section of DNA coding for a protein; an allele is a version of that gene",
+                "C) Alleles are found on different chromosomes",
+                "D) Genes are found in mitochondria"
+              ],
+              "correct_answer": "B",
+              "explanation": "Gene = a section of DNA coding for a specific protein. Allele = a variant of that gene at the same locus.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What can cause extinction?",
+              "options": [
+                "A) Only climate change",
+                "B) Habitat loss, competition, disease, climate change — species permanently lost",
+                "C) Only predation",
+                "D) Only genetic mutations"
+              ],
+              "correct_answer": "B",
+              "explanation": "Extinction is permanent — causes include habitat destruction, introduced species, disease, climate change, and overexploitation.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the role of decomposers in an ecosystem?",
+              "options": [
+                "A) Primary production",
+                "B) Predation",
+                "C) Breaking down dead matter — returning nutrients to the ecosystem",
+                "D) Nitrogen fixation only"
+              ],
+              "correct_answer": "C",
+              "explanation": "Decomposers (bacteria and fungi) break down dead organic matter — releasing nutrients that plants can absorb.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is respiration?",
+              "options": [
+                "A) Breathing",
+                "B) Releasing energy from glucose — produces ATP, CO₂, and water",
+                "C) Photosynthesis in reverse",
+                "D) Only occurs in plants"
+              ],
+              "correct_answer": "B",
+              "explanation": "Aerobic respiration occurs in mitochondria — it releases energy from glucose to produce ATP for cell processes.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Photosynthesis produces glucose and oxygen.",
+              "correct_answer": "True",
+              "explanation": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ — in chloroplasts.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Aerobic respiration produces lactic acid.",
+              "correct_answer": "False",
+              "explanation": "Aerobic respiration produces CO₂ and water. ANAEROBIC respiration produces lactic acid (in animals).",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Natural selection requires organisms to consciously adapt.",
+              "correct_answer": "False",
+              "explanation": "Natural selection is not conscious — organisms with existing advantageous variations survive and reproduce more.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Extinction is reversible.",
+              "correct_answer": "False",
+              "explanation": "Extinction is PERMANENT — once a species is gone, it cannot return.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "High biodiversity makes ecosystems more stable.",
+              "correct_answer": "True",
+              "explanation": "More species = more feeding relationships = more resilience to change.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "A gene and an allele are the same thing.",
+              "correct_answer": "False",
+              "explanation": "A GENE codes for a protein. An ALLELE is a specific version of that gene.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Decomposers break down dead matter and return nutrients.",
+              "correct_answer": "True",
+              "explanation": "Without decomposers, nutrients would not be recycled and ecosystems would collapse.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Evolution occurs over a single generation.",
+              "correct_answer": "False",
+              "explanation": "Evolution requires MANY generations — allele frequencies change slowly over time.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Food webs are less realistic than food chains.",
+              "correct_answer": "False",
+              "explanation": "Food webs are MORE realistic — they show multiple interconnected feeding relationships.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Respiration occurs in mitochondria.",
+              "correct_answer": "True",
+              "explanation": "Aerobic respiration occurs in mitochondria — producing ATP from glucose.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ — making glucose using light.",
+              "correct_answer": "Photosynthesis",
+              "explanation": "Occurs in chloroplasts.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Aerobic ________ releases energy from glucose — produces ATP, CO₂, water.",
+              "correct_answer": "respiration",
+              "explanation": "Occurs in mitochondria.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ selection: organisms with advantageous adaptations survive and reproduce more.",
+              "correct_answer": "Natural",
+              "explanation": "Beneficial alleles increase in frequency over generations.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is change in allele frequencies over many generations.",
+              "correct_answer": "Evolution",
+              "explanation": "Driven by natural selection acting on variation.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the variety of species — high levels increase stability.",
+              "correct_answer": "Biodiversity",
+              "explanation": "Threatened by habitat loss, pollution, and climate change.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ break down dead matter — returning nutrients to the ecosystem.",
+              "correct_answer": "Decomposers",
+              "explanation": "Bacteria and fungi are the main decomposers.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a section of DNA coding for a specific protein.",
+              "correct_answer": "gene",
+              "explanation": "Genes are found at specific locations (loci) on chromosomes.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ is a version of a gene — dominant or recessive.",
+              "correct_answer": "allele",
+              "explanation": "Alleles at the same locus on homologous chromosomes.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the permanent loss of a species.",
+              "correct_answer": "Extinction",
+              "explanation": "Cannot be reversed — caused by habitat loss, disease, climate change.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A food ________ shows multiple interconnected feeding relationships.",
+              "correct_answer": "web",
+              "explanation": "More realistic than a single food chain.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "photosynthesis",
+                  "match": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ — light energy"
+                },
+                {
+                  "term": "aerobic respiration",
+                  "match": "C₆H₁₂O₆ + 6O₂ → CO₂ + H₂O + ATP"
+                },
+                {
+                  "term": "natural selection",
+                  "match": "advantageous adaptations → survive → reproduce → alleles spread"
+                },
+                {
+                  "term": "evolution",
+                  "match": "change in allele frequencies over generations"
+                },
+                {
+                  "term": "biodiversity",
+                  "match": "variety of species — high = more stable"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Separate Science Extra — Biology OCR",
+      "paper": "Paper 2",
+      "display_order": 5,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Separate Science: Plant Biology & Genetics in Depth",
+          "cards": [
+            {
+              "keyword": "transpiration",
+              "definition": "loss of water vapour from leaves through stomata — drives water up the xylem",
+              "display_order": 1
+            },
+            {
+              "keyword": "stomata",
+              "definition": "pores in leaves for gas exchange — surrounded by guard cells that control opening",
+              "display_order": 2
+            },
+            {
+              "keyword": "guard cells",
+              "definition": "cells that control stomatal opening — swell when turgid (stomata open) or shrink (stomata close)",
+              "display_order": 3
+            },
+            {
+              "keyword": "xylem",
+              "definition": "vascular tissue transporting water and minerals from roots to leaves — dead cells with lignified walls",
+              "display_order": 4
+            },
+            {
+              "keyword": "phloem",
+              "definition": "vascular tissue transporting dissolved sugars (e.g. sucrose) — from leaves to all parts of the plant",
+              "display_order": 5
+            },
+            {
+              "keyword": "translocation",
+              "definition": "transport of sucrose through phloem — from source (leaves) to sink (roots, growing tips)",
+              "display_order": 6
+            },
+            {
+              "keyword": "codominance",
+              "definition": "when both alleles in a heterozygote are expressed — neither is dominant — e.g. blood group AB",
+              "display_order": 7
+            },
+            {
+              "keyword": "sex-linked inheritance",
+              "definition": "genes carried on sex chromosomes — e.g. colour blindness carried on the X chromosome",
+              "display_order": 8
+            },
+            {
+              "keyword": "genetic engineering",
+              "definition": "inserting a gene from one organism into another — e.g. human insulin gene into bacteria",
+              "display_order": 9
+            },
+            {
+              "keyword": "selective breeding",
+              "definition": "choosing organisms with desirable characteristics to breed — increases frequency of those traits",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is transpiration?",
+              "options": [
+                "A) Transport of sucrose through phloem",
+                "B) Loss of water vapour from leaves through stomata",
+                "C) Absorption of water by roots",
+                "D) Photosynthesis in guard cells"
+              ],
+              "correct_answer": "B",
+              "explanation": "Transpiration: water evaporates from leaves → creates a 'pull' that draws water up through the xylem from roots.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What controls stomatal opening?",
+              "options": [
+                "A) Xylem vessels",
+                "B) Chloroplasts in leaves",
+                "C) Guard cells — swelling (opening) or shrinking (closing) by osmosis",
+                "D) Root pressure"
+              ],
+              "correct_answer": "C",
+              "explanation": "Guard cells control stomata: when turgid (full of water) they curve — opening the stomatal pore. When flaccid, they close.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is codominance?",
+              "options": [
+                "A) One allele always masks the other",
+                "B) Both alleles in a heterozygote are expressed — e.g. blood group AB",
+                "C) Neither allele is expressed",
+                "D) A type of sex-linked inheritance"
+              ],
+              "correct_answer": "B",
+              "explanation": "Codominance: both alleles contribute to the phenotype. Blood group AB: both A and B antigens expressed.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is sex-linked inheritance?",
+              "options": [
+                "A) All genes on X and Y chromosomes",
+                "B) Genes carried on sex chromosomes — e.g. colour blindness on the X chromosome",
+                "C) Inherited diseases only",
+                "D) Genes only affecting one sex"
+              ],
+              "correct_answer": "B",
+              "explanation": "Sex-linked genes are on the sex chromosomes — mostly on X. Males (XY) only have one copy, so recessive X-linked traits more commonly affect males.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is genetic engineering?",
+              "options": [
+                "A) Selective breeding of animals",
+                "B) Inserting a gene from one organism into another to produce a desired protein",
+                "C) Cloning organisms",
+                "D) Studying genes with microscopes"
+              ],
+              "correct_answer": "B",
+              "explanation": "Genetic engineering: e.g. human insulin gene inserted into bacteria → bacteria produce human insulin for diabetes treatment.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is translocation in plants?",
+              "options": [
+                "A) Water movement through xylem",
+                "B) Gas exchange through stomata",
+                "C) Transport of sucrose through phloem — from source to sink",
+                "D) Movement of minerals by active transport"
+              ],
+              "correct_answer": "C",
+              "explanation": "Translocation moves organic molecules (sucrose, amino acids) through the phloem — from where they are made (source) to where needed (sink).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is selective breeding?",
+              "options": [
+                "A) Natural selection in the wild",
+                "B) Genetic engineering of crops",
+                "C) Choosing organisms with desired traits to breed — increasing frequency of those traits",
+                "D) Cloning plants"
+              ],
+              "correct_answer": "C",
+              "explanation": "Selective breeding has been used for thousands of years — producing high-yield crops, disease-resistant plants, and domesticated animals.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of xylem?",
+              "options": [
+                "A) Transport of sucrose",
+                "B) Transport of water and minerals from roots to leaves",
+                "C) Gas exchange",
+                "D) Support only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Xylem vessels are dead cells with lignified walls — they transport water by the cohesion-tension mechanism.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the function of phloem?",
+              "options": [
+                "A) Transport of water from roots",
+                "B) Gas exchange",
+                "C) Transport of dissolved sugars from leaves to all parts of the plant",
+                "D) Support and structure"
+              ],
+              "correct_answer": "C",
+              "explanation": "Phloem is made of living cells — it transports sucrose and other organic molecules by translocation.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does it mean when colour blindness is X-linked?",
+              "options": [
+                "A) Only females can be colour blind",
+                "B) The gene is on the X chromosome — males with one copy show the trait",
+                "C) Colour blindness affects X chromosomes",
+                "D) X chromosomes cause colour blindness"
+              ],
+              "correct_answer": "B",
+              "explanation": "X-linked recessive traits: females need two copies to be affected (can be carriers); males only need one copy — more commonly affected.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Transpiration is loss of water vapour through stomata.",
+              "correct_answer": "True",
+              "explanation": "Transpiration drives water movement up through the xylem from roots to leaves.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Guard cells close stomata by becoming turgid.",
+              "correct_answer": "False",
+              "explanation": "Guard cells OPEN stomata when turgid (swell). They CLOSE when flaccid (shrink).",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Codominance means only one allele is expressed.",
+              "correct_answer": "False",
+              "explanation": "Codominance means BOTH alleles are expressed in the heterozygote.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Sex-linked genes are only on the Y chromosome.",
+              "correct_answer": "False",
+              "explanation": "Sex-linked genes are mostly on the X chromosome. Males (XY) only have one X — so recessive traits are more common in males.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Genetic engineering involves selective breeding.",
+              "correct_answer": "False",
+              "explanation": "Genetic engineering inserts genes from one species into another. Selective breeding works within a species.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Translocation moves water through the xylem.",
+              "correct_answer": "False",
+              "explanation": "Translocation moves SUCROSE through the PHLOEM. Water moves through the xylem.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Xylem transports water and minerals from roots to leaves.",
+              "correct_answer": "True",
+              "explanation": "Xylem vessels are dead cells with lignified walls — efficient water transport.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Selective breeding uses genetic engineering techniques.",
+              "correct_answer": "False",
+              "explanation": "Selective breeding is traditional — choosing parents with desired traits. Genetic engineering is modern — directly manipulating DNA.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Phloem transports dissolved sugars from source to sink.",
+              "correct_answer": "True",
+              "explanation": "Translocation through phloem: from leaves (source) to roots, growing tips (sinks).",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Males are more commonly affected by X-linked recessive conditions.",
+              "correct_answer": "True",
+              "explanation": "Males only have one X chromosome — one copy of a recessive allele is enough to show the trait.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is loss of water vapour from leaves through stomata.",
+              "correct_answer": "Transpiration",
+              "explanation": "Creates tension that pulls water up through xylem.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ cells control stomatal opening — open when turgid, close when flaccid.",
+              "correct_answer": "Guard",
+              "explanation": "Stomata control gas exchange and water loss.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is when both alleles are expressed in a heterozygote — e.g. blood group AB.",
+              "correct_answer": "Codominance",
+              "explanation": "Neither allele is dominant — both contribute to phenotype.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ inheritance: genes on sex chromosomes — colour blindness on X chromosome.",
+              "correct_answer": "Sex-linked",
+              "explanation": "Males more commonly affected — only one X chromosome.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ engineering: inserting a gene from one organism into another.",
+              "correct_answer": "Genetic",
+              "explanation": "E.g. human insulin gene in bacteria for diabetes treatment.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is transport of sucrose through phloem — from source to sink.",
+              "correct_answer": "Translocation",
+              "explanation": "Source: leaves. Sinks: roots, growing tips, flowers.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ transports water and minerals from roots to leaves.",
+              "correct_answer": "Xylem",
+              "explanation": "Dead cells with lignified walls — cohesion-tension mechanism.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ transports dissolved sugars from leaves to all parts of the plant.",
+              "correct_answer": "Phloem",
+              "explanation": "Living cells — translocation driven by active loading.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ breeding selects organisms with desired traits to breed — traditional.",
+              "correct_answer": "Selective",
+              "explanation": "Used for thousands of years — dogs, crops, livestock.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "X-linked recessive traits are more common in ________ — they only have one X.",
+              "correct_answer": "males",
+              "explanation": "Females can be carriers with one recessive allele.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "transpiration",
+                  "match": "water vapour loss from stomata — drives xylem flow"
+                },
+                {
+                  "term": "xylem",
+                  "match": "water and mineral transport — root to leaf"
+                },
+                {
+                  "term": "phloem",
+                  "match": "sucrose transport — source to sink — translocation"
+                },
+                {
+                  "term": "codominance",
+                  "match": "both alleles expressed in heterozygote"
+                },
+                {
+                  "term": "genetic engineering",
+                  "match": "gene from one organism inserted into another"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

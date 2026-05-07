@@ -1,0 +1,735 @@
+{
+  "subject": {
+    "name": "Computer Science",
+    "slug": "computer-science",
+    "colour": "#0f172a",
+    "exam_board": "AQA",
+    "emoji": "💻"
+  },
+  "topics": [
+    {
+      "name": "Fundamentals of Algorithms",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Algorithms & Pseudocode",
+          "cards": [
+            {
+              "keyword": "algorithm",
+              "definition": "a set of step-by-step instructions to solve a problem — must be precise, unambiguous, and finite",
+              "display_order": 1
+            },
+            {
+              "keyword": "pseudocode",
+              "definition": "a way of writing algorithms using plain English and simple code-like structures — not a real programming language",
+              "display_order": 2
+            },
+            {
+              "keyword": "flowchart",
+              "definition": "a diagram showing an algorithm using standard shapes — ovals (start/end), rectangles (process), diamonds (decision)",
+              "display_order": 3
+            },
+            {
+              "keyword": "sequence",
+              "definition": "instructions carried out one after another in order — the most basic control structure",
+              "display_order": 4
+            },
+            {
+              "keyword": "selection",
+              "definition": "a decision point in an algorithm — IF...THEN...ELSE — the program chooses which path to take",
+              "display_order": 5
+            },
+            {
+              "keyword": "iteration",
+              "definition": "repetition — a section of code that loops — FOR loops, WHILE loops, DO-UNTIL loops",
+              "display_order": 6
+            },
+            {
+              "keyword": "linear search",
+              "definition": "searching through items one by one from the start — simple but inefficient for large datasets",
+              "display_order": 7
+            },
+            {
+              "keyword": "binary search",
+              "definition": "dividing the sorted dataset in half repeatedly until the item is found — much faster than linear search",
+              "display_order": 8
+            },
+            {
+              "keyword": "bubble sort",
+              "definition": "a sorting algorithm — repeatedly swaps adjacent items if they are in the wrong order — simple but inefficient",
+              "display_order": 9
+            },
+            {
+              "keyword": "merge sort",
+              "definition": "a sorting algorithm — divides the list in half, sorts each half, then merges — more efficient than bubble sort",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is an algorithm?",
+              "options": [
+                "A) A programming language",
+                "B) A set of step-by-step instructions to solve a problem",
+                "C) A type of data structure",
+                "D) A computer program"
+              ],
+              "correct_answer": "B",
+              "explanation": "An algorithm is a precise set of steps that solves a problem. It must be finite, unambiguous, and effective.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between selection and iteration?",
+              "options": [
+                "A) They are the same",
+                "B) Selection is for loops; iteration is for decisions",
+                "C) Selection is a decision (IF); iteration is repetition (loops)",
+                "D) Selection uses FOR loops; iteration uses IF"
+              ],
+              "correct_answer": "C",
+              "explanation": "Selection: IF...THEN...ELSE — the program chooses a path. Iteration: loops (FOR, WHILE, DO-UNTIL) — code repeats.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does a diamond shape represent in a flowchart?",
+              "options": [
+                "A) A process",
+                "B) Start or end",
+                "C) A decision (yes/no)",
+                "D) Input or output"
+              ],
+              "correct_answer": "C",
+              "explanation": "Diamond = decision/condition. Rectangle = process. Oval = start/end. Parallelogram = input/output.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which search algorithm requires the data to be sorted first?",
+              "options": [
+                "A) Linear search",
+                "B) Binary search",
+                "C) Both require sorted data",
+                "D) Neither requires sorted data"
+              ],
+              "correct_answer": "B",
+              "explanation": "Binary search requires a sorted list — it divides the list in half each time, which only works if items are in order.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the time complexity of binary search?",
+              "options": [
+                "A) O(n) — linear",
+                "B) O(n²) — quadratic",
+                "C) O(log n) — logarithmic",
+                "D) O(1) — constant"
+              ],
+              "correct_answer": "C",
+              "explanation": "Binary search is O(log n) — each step halves the search space. Linear search is O(n) — must check each item.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is bubble sort?",
+              "options": [
+                "A) Repeatedly divides the list and merges sorted halves",
+                "B) Repeatedly swaps adjacent items if they are in wrong order",
+                "C) Finds the minimum item and moves it to the front",
+                "D) Searches for an item using a middle value"
+              ],
+              "correct_answer": "B",
+              "explanation": "Bubble sort repeatedly compares and swaps adjacent elements — large values 'bubble' to the end. It is simple but O(n²) — inefficient for large lists.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is merge sort more efficient than bubble sort?",
+              "options": [
+                "A) It uses less memory",
+                "B) It is easier to code",
+                "C) Its time complexity is O(n log n) vs O(n²) for bubble sort",
+                "D) It doesn't need comparisons"
+              ],
+              "correct_answer": "C",
+              "explanation": "Merge sort is O(n log n) — divide and conquer. Bubble sort is O(n²) — very slow for large datasets.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is pseudocode?",
+              "options": [
+                "A) A programming language",
+                "B) Faulty code with bugs",
+                "C) Code written in a specific language",
+                "D) An informal way of writing algorithms using plain English and code-like structures"
+              ],
+              "correct_answer": "D",
+              "explanation": "Pseudocode is a way to plan algorithms without worrying about syntax — it uses plain English combined with code structures like IF, FOR, WHILE.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a linear search?",
+              "options": [
+                "A) Searching by dividing in half",
+                "B) Searching through items one by one from the start",
+                "C) Sorting before searching",
+                "D) Searching by index"
+              ],
+              "correct_answer": "B",
+              "explanation": "Linear search checks each item in sequence. It is simple and works on unsorted data, but is slow for large datasets — O(n).",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are the three basic programming constructs?",
+              "options": [
+                "A) Variables, loops, functions",
+                "B) Input, process, output",
+                "C) Sequence, selection, iteration",
+                "D) Arrays, strings, integers"
+              ],
+              "correct_answer": "C",
+              "explanation": "All programs are built from three constructs: sequence (in order), selection (decisions), and iteration (repetition).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "An algorithm must be finite — it must have an end.",
+              "correct_answer": "True",
+              "explanation": "An infinite algorithm would never solve the problem. Algorithms must terminate.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Binary search works on unsorted data.",
+              "correct_answer": "False",
+              "explanation": "Binary search REQUIRES sorted data — it divides the list in half, which only works if items are ordered.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Selection in programming is represented by IF...THEN...ELSE.",
+              "correct_answer": "True",
+              "explanation": "Selection allows programs to make decisions and follow different paths based on conditions.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Bubble sort is more efficient than merge sort for large datasets.",
+              "correct_answer": "False",
+              "explanation": "Bubble sort is O(n²) — very slow for large lists. Merge sort is O(n log n) — much more efficient.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "A flowchart diamond represents a decision.",
+              "correct_answer": "True",
+              "explanation": "Diamond = yes/no decision. Rectangle = process. Oval = start/end.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Iteration means repeating a section of code.",
+              "correct_answer": "True",
+              "explanation": "Iteration includes FOR loops, WHILE loops, and DO-UNTIL loops.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Linear search can only work on sorted data.",
+              "correct_answer": "False",
+              "explanation": "Linear search works on unsorted data — it checks each item one by one.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Pseudocode is a real programming language.",
+              "correct_answer": "False",
+              "explanation": "Pseudocode is an informal planning tool — it uses English and code-like structures but is not executable.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Merge sort uses a divide and conquer approach.",
+              "correct_answer": "True",
+              "explanation": "Merge sort divides the list in half, recursively sorts each half, then merges — O(n log n).",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Sequence means instructions are carried out one after another.",
+              "correct_answer": "True",
+              "explanation": "Sequence is the most basic construct — instructions execute in order, one at a time.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ is a precise set of step-by-step instructions to solve a problem.",
+              "correct_answer": "algorithm",
+              "explanation": "Algorithms must be finite, unambiguous, and effective.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is an informal way of writing algorithms using plain English.",
+              "correct_answer": "Pseudocode",
+              "explanation": "Pseudocode helps plan code without worrying about specific language syntax.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a decision point — IF...THEN...ELSE.",
+              "correct_answer": "Selection",
+              "explanation": "Selection allows the program to choose different paths based on conditions.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is repetition — FOR, WHILE, or DO-UNTIL loops.",
+              "correct_answer": "Iteration",
+              "explanation": "Iteration repeats a block of code until a condition is met.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ search checks each item one by one — simple but slow for large datasets.",
+              "correct_answer": "Linear",
+              "explanation": "Linear search is O(n) — it may have to check every item.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ search divides a sorted list in half repeatedly — O(log n).",
+              "correct_answer": "Binary",
+              "explanation": "Binary search is much faster than linear search but requires sorted data.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ sort repeatedly swaps adjacent items in the wrong order — O(n²).",
+              "correct_answer": "Bubble",
+              "explanation": "Bubble sort is simple but inefficient for large datasets.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ sort divides the list, sorts each half, and merges — O(n log n).",
+              "correct_answer": "Merge",
+              "explanation": "Merge sort is more efficient than bubble sort for large datasets.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ shape in a flowchart represents a decision.",
+              "correct_answer": "diamond",
+              "explanation": "Diamond = yes/no. Rectangle = process. Oval = start/end.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The three basic constructs are sequence, ________, and iteration.",
+              "correct_answer": "selection",
+              "explanation": "All programs are built from these three constructs.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "algorithm",
+                  "match": "step-by-step instructions to solve a problem"
+                },
+                {
+                  "term": "linear search",
+                  "match": "checks each item one by one — O(n)"
+                },
+                {
+                  "term": "binary search",
+                  "match": "divides sorted list in half — O(log n)"
+                },
+                {
+                  "term": "bubble sort",
+                  "match": "swaps adjacent items — simple but O(n²)"
+                },
+                {
+                  "term": "merge sort",
+                  "match": "divide and conquer — more efficient O(n log n)"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data & Networks",
+      "paper": "Paper 1 & 2",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Binary, Data Representation & Networks",
+          "cards": [
+            {
+              "keyword": "binary",
+              "definition": "a base-2 number system using only 0s and 1s — the fundamental language of computers",
+              "display_order": 1
+            },
+            {
+              "keyword": "bit",
+              "definition": "the smallest unit of data — a single 0 or 1",
+              "display_order": 2
+            },
+            {
+              "keyword": "byte",
+              "definition": "8 bits — the standard unit of data storage",
+              "display_order": 3
+            },
+            {
+              "keyword": "ASCII",
+              "definition": "American Standard Code for Information Interchange — assigns a number to each character",
+              "display_order": 4
+            },
+            {
+              "keyword": "pixel",
+              "definition": "the smallest element of a digital image — each pixel is stored as a binary colour value",
+              "display_order": 5
+            },
+            {
+              "keyword": "sampling rate",
+              "definition": "in audio — the number of samples taken per second — higher = better quality but larger file",
+              "display_order": 6
+            },
+            {
+              "keyword": "bit rate",
+              "definition": "the number of bits transmitted per second — affects sound/video quality and file size",
+              "display_order": 7
+            },
+            {
+              "keyword": "compression",
+              "definition": "reducing file size — lossless (no quality lost) or lossy (quality reduced)",
+              "display_order": 8
+            },
+            {
+              "keyword": "network",
+              "definition": "two or more computers connected to share data and resources",
+              "display_order": 9
+            },
+            {
+              "keyword": "IP address",
+              "definition": "a unique numerical address identifying a device on a network — allows routing of data",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is binary?",
+              "options": [
+                "A) A base-10 number system",
+                "B) A base-2 number system using 0s and 1s",
+                "C) A type of data compression",
+                "D) A type of network protocol"
+              ],
+              "correct_answer": "B",
+              "explanation": "Binary (base-2) uses only 0 and 1 — all data in computers is stored and processed in binary.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How many bits are in a byte?",
+              "options": [
+                "A) 4",
+                "B) 16",
+                "C) 8",
+                "D) 2"
+              ],
+              "correct_answer": "C",
+              "explanation": "1 byte = 8 bits. 1 kilobyte = 1024 bytes. 1 megabyte = 1024 KB.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a pixel?",
+              "options": [
+                "A) A unit of sound quality",
+                "B) The smallest element of a digital image",
+                "C) A type of binary code",
+                "D) A measure of file size"
+              ],
+              "correct_answer": "B",
+              "explanation": "A pixel is the smallest unit of a digital image. Each pixel is stored as binary values for red, green, and blue.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between lossless and lossy compression?",
+              "options": [
+                "A) Lossless reduces quality; lossy doesn't",
+                "B) Lossless preserves all data; lossy permanently removes some data",
+                "C) Lossless is for images only",
+                "D) There is no difference"
+              ],
+              "correct_answer": "B",
+              "explanation": "Lossless: all original data preserved (e.g. PNG, ZIP). Lossy: some data permanently removed for smaller file size (e.g. JPEG, MP3).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does a higher sampling rate mean for audio?",
+              "options": [
+                "A) Smaller file size",
+                "B) Lower quality",
+                "C) Better quality but larger file size",
+                "D) Faster playback"
+              ],
+              "correct_answer": "C",
+              "explanation": "Higher sampling rate = more samples per second = more accurate representation = better quality but larger file size.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an IP address?",
+              "options": [
+                "A) A type of encryption",
+                "B) A unique numerical address identifying a device on a network",
+                "C) A web address",
+                "D) A type of data compression"
+              ],
+              "correct_answer": "B",
+              "explanation": "Every device on a network has a unique IP address — it is used for routing data packets to the correct destination.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is ASCII?",
+              "options": [
+                "A) A type of network",
+                "B) A standard assigning numbers to characters",
+                "C) A compression algorithm",
+                "D) A graphics format"
+              ],
+              "correct_answer": "B",
+              "explanation": "ASCII assigns a number (0–127) to each character (letters, digits, symbols). 'A' = 65, 'a' = 97.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is bit rate?",
+              "options": [
+                "A) Number of bits per byte",
+                "B) Speed of the processor",
+                "C) Number of bits transmitted per second",
+                "D) File size in bits"
+              ],
+              "correct_answer": "C",
+              "explanation": "Bit rate measures data transmission speed — higher bit rate = better quality audio/video but larger file size.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a network?",
+              "options": [
+                "A) A single powerful computer",
+                "B) Two or more computers connected to share data and resources",
+                "C) The internet only",
+                "D) A type of data compression"
+              ],
+              "correct_answer": "B",
+              "explanation": "A network connects two or more devices — allowing sharing of files, hardware (printers), and internet access.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is compression used for?",
+              "options": [
+                "A) Encrypting data",
+                "B) Transmitting data faster by reducing file size",
+                "C) Storing passwords securely",
+                "D) Converting binary to text"
+              ],
+              "correct_answer": "B",
+              "explanation": "Compression reduces file size — making storage more efficient and transmission faster.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Binary is a base-10 number system.",
+              "correct_answer": "False",
+              "explanation": "Binary is a base-2 number system using only 0 and 1.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "One byte equals 8 bits.",
+              "correct_answer": "True",
+              "explanation": "8 bits = 1 byte. 1024 bytes = 1 kilobyte.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Lossy compression permanently removes some data.",
+              "correct_answer": "True",
+              "explanation": "Lossy compression (JPEG, MP3) reduces file size by permanently discarding some data — quality is reduced.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "A higher sampling rate produces smaller audio files.",
+              "correct_answer": "False",
+              "explanation": "Higher sampling rate = more samples = LARGER file size (but better quality).",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "An IP address uniquely identifies a device on a network.",
+              "correct_answer": "True",
+              "explanation": "Every networked device has a unique IP address used for routing data packets.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "ASCII assigns numbers to characters.",
+              "correct_answer": "True",
+              "explanation": "ASCII: 'A' = 65, 'a' = 97, '0' = 48. It allows text to be represented as binary numbers.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Lossless compression reduces quality.",
+              "correct_answer": "False",
+              "explanation": "Lossless compression preserves ALL original data — file is smaller but quality is unchanged.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "A pixel is the smallest unit of a digital image.",
+              "correct_answer": "True",
+              "explanation": "Each pixel stores colour values in binary — more pixels = higher resolution.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Bit rate measures the number of samples taken per second.",
+              "correct_answer": "False",
+              "explanation": "Bit rate = bits per second (transmission speed). Sampling rate = samples per second (audio quality).",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "A network requires at least two connected devices.",
+              "correct_answer": "True",
+              "explanation": "A network connects two or more computers to share data and resources.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a base-2 number system using only 0s and 1s.",
+              "correct_answer": "Binary",
+              "explanation": "All data in computers is ultimately stored and processed as binary.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "1 ________ = 8 bits.",
+              "correct_answer": "byte",
+              "explanation": "1 kilobyte = 1024 bytes. 1 megabyte = 1024 kilobytes.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is the smallest element of a digital image.",
+              "correct_answer": "pixel",
+              "explanation": "Pixels store colour values in binary — three values for red, green, and blue.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ assigns a unique number to each character.",
+              "correct_answer": "ASCII",
+              "explanation": "ASCII allows text to be stored as binary numbers in a computer.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ compression preserves all original data — no quality loss.",
+              "correct_answer": "Lossless",
+              "explanation": "Examples: PNG (images), ZIP (files). Lossless is larger than lossy.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ compression permanently removes some data to reduce file size.",
+              "correct_answer": "Lossy",
+              "explanation": "Examples: JPEG (images), MP3 (audio). Quality is reduced.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ rate measures the number of audio samples per second.",
+              "correct_answer": "Sampling",
+              "explanation": "Higher sampling rate = better audio quality but larger file.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ rate measures bits transmitted per second.",
+              "correct_answer": "Bit",
+              "explanation": "Higher bit rate = better quality audio/video but larger file size.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ address is a unique numerical identifier for a network device.",
+              "correct_answer": "IP",
+              "explanation": "IP addresses allow routers to direct data packets to the correct destination.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ connects two or more computers to share data and resources.",
+              "correct_answer": "network",
+              "explanation": "Networks allow sharing of files, internet access, and hardware like printers.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "binary",
+                  "match": "base-2 number system — only 0s and 1s"
+                },
+                {
+                  "term": "byte",
+                  "match": "8 bits"
+                },
+                {
+                  "term": "compression",
+                  "match": "reducing file size — lossless or lossy"
+                },
+                {
+                  "term": "IP address",
+                  "match": "unique identifier for a device on a network"
+                },
+                {
+                  "term": "sampling rate",
+                  "match": "audio samples per second — higher = better quality, larger file"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

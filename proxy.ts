@@ -1,0 +1,76 @@
+import { createServerClient, type CookieOptions } from '@supabase/ssr';
+import { NextResponse, type NextRequest } from 'next/server';
+
+const PUBLIC_ROUTES = new Set(['/', '/login', '/signup']);
+
+export async function proxy(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+  let supabaseResponse = NextResponse.next({ request });
+
+  const supabase = createServerClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    {
+      cookies: {
+        getAll() {
+          return request.cookies.getAll();
+        },
+        setAll(cookiesToSet: { name: string; value: string; options: CookieOptions }[]) {
+          cookiesToSet.forEach(({ name, value }) => request.cookies.set(name, value));
+          supabaseResponse = NextResponse.next({ request });
+          cookiesToSet.forEach(({ name, value, options }) =>
+            supabaseResponse.cookies.set(name, value, options)
+          );
+        },
+      },
+    }
+  );
+
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  // Unauthenticated user hitting a protected route → send to login
+  if (!user && !PUBLIC_ROUTES.has(pathname)) {
+    return NextResponse.redirect(new URL('/login', request.url));
+  }
+
+  // Authenticated user hitting /login or /signup → redirect based on onboarding status
+  if (user && (pathname === '/login' || pathname === '/signup')) {
+    const { data: profile, error: profileError } = await supabase
+      .from('users')
+      .select('onboarding_complete')
+      .eq('id', user.id)
+      .single();
+    console.log('[proxy] login/signup profile query:', JSON.stringify(profile), 'error:', JSON.stringify(profileError));
+
+    const dest = profile?.onboarding_complete ? '/dashboard' : '/onboarding';
+    return NextResponse.redirect(new URL(dest, request.url));
+  }
+
+  // Authenticated user on a protected route → enforce onboarding gate
+  if (user && !PUBLIC_ROUTES.has(pathname)) {
+    const { data: profile, error: profileError } = await supabase
+      .from('users')
+      .select('onboarding_complete')
+      .eq('id', user.id)
+      .single();
+    console.log('[proxy] onboarding gate profile query:', JSON.stringify(profile), 'error:', JSON.stringify(profileError));
+
+    if (!profile?.onboarding_complete && pathname !== '/onboarding') {
+      return NextResponse.redirect(new URL('/onboarding', request.url));
+    }
+
+    if (profile?.onboarding_complete && pathname === '/onboarding') {
+      return NextResponse.redirect(new URL('/dashboard', request.url));
+    }
+
+    console.log('[proxy] decision - path:', pathname, 'onboarding_complete:', profile?.onboarding_complete, 'action: continuing to page');
+  }
+
+  return supabaseResponse;
+}
+
+export const config = {
+  matcher: ['/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)'],
+};

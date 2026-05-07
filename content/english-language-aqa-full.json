@@ -1,0 +1,1459 @@
+{
+  "subject": {
+    "name": "English Language",
+    "slug": "english-language",
+    "colour": "#7e22ce",
+    "exam_board": "AQA",
+    "emoji": "✍️"
+  },
+  "topics": [
+    {
+      "name": "Reading — Fiction & Literary Non-Fiction",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Reading Skills & Language Analysis",
+          "cards": [
+            {
+              "keyword": "inference",
+              "definition": "reading beyond what is literally stated — working out what is implied by the writer",
+              "display_order": 1
+            },
+            {
+              "keyword": "explicit information",
+              "definition": "ideas stated directly and clearly in the text — facts or details written plainly",
+              "display_order": 2
+            },
+            {
+              "keyword": "implicit information",
+              "definition": "ideas suggested or hinted at rather than stated directly — the reader must infer",
+              "display_order": 3
+            },
+            {
+              "keyword": "language feature",
+              "definition": "a technique a writer uses to achieve a particular effect — e.g. metaphor, alliteration, imagery",
+              "display_order": 4
+            },
+            {
+              "keyword": "structural feature",
+              "definition": "how a text is organised and arranged — e.g. sentence length, paragraph structure, narrative perspective",
+              "display_order": 5
+            },
+            {
+              "keyword": "effect",
+              "definition": "the impact a language or structural choice has on the reader — mood, emotion, understanding",
+              "display_order": 6
+            },
+            {
+              "keyword": "vocabulary choice",
+              "definition": "the specific words selected by a writer — word choice creates tone, mood, and character",
+              "display_order": 7
+            },
+            {
+              "keyword": "imagery",
+              "definition": "language that creates a vivid picture in the reader's mind — includes simile, metaphor, and personification",
+              "display_order": 8
+            },
+            {
+              "keyword": "tone",
+              "definition": "the overall feeling or attitude conveyed by a piece of writing — e.g. menacing, melancholic, humorous",
+              "display_order": 9
+            },
+            {
+              "keyword": "narrative perspective",
+              "definition": "the viewpoint from which a story is told — first person (I), second (you), third (he/she/they)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is inference?",
+              "options": [
+                "A) Quoting directly from a text",
+                "B) Reading beyond what is stated — working out what is implied",
+                "C) Identifying language features",
+                "D) Summarising the text"
+              ],
+              "correct_answer": "B",
+              "explanation": "Inference means reading between the lines — understanding what a writer implies without stating it directly.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between explicit and implicit information?",
+              "options": [
+                "A) Explicit is implied; implicit is stated directly",
+                "B) Explicit is stated directly; implicit is suggested or hinted at",
+                "C) Both mean the same thing",
+                "D) Explicit is about language; implicit is about structure"
+              ],
+              "correct_answer": "B",
+              "explanation": "Explicit information is directly stated ('it was raining heavily'). Implicit information is implied ('he hunched his shoulders against the grey sky' — implying cold, rain, misery).",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a language feature?",
+              "options": [
+                "A) How a text is organised",
+                "B) A technique a writer uses — e.g. metaphor, alliteration",
+                "C) The viewpoint of the narrator",
+                "D) The ending of a text"
+              ],
+              "correct_answer": "B",
+              "explanation": "Language features are the techniques writers use to achieve effects — e.g. similes, metaphors, alliteration, personification, rhetorical questions.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is tone in a text?",
+              "options": [
+                "A) The vocabulary the writer uses",
+                "B) The structural choices made",
+                "C) The overall feeling or attitude conveyed by the writing",
+                "D) The type of narrator used"
+              ],
+              "correct_answer": "C",
+              "explanation": "Tone is the emotional quality of the writing — it might be ominous, nostalgic, humorous, formal, or passionate.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is narrative perspective?",
+              "options": [
+                "A) How the text is structured",
+                "B) The viewpoint from which a story is told",
+                "C) The effect of vocabulary choices",
+                "D) The use of imagery in a text"
+              ],
+              "correct_answer": "B",
+              "explanation": "Narrative perspective is who tells the story: first person (I/we), second person (you), or third person (he/she/they).",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is imagery?",
+              "options": [
+                "A) The structure of a text",
+                "B) Language that creates a vivid picture — e.g. simile, metaphor",
+                "C) The tone of a piece of writing",
+                "D) The ending of a narrative"
+              ],
+              "correct_answer": "B",
+              "explanation": "Imagery helps readers visualise — similes compare using 'like' or 'as', metaphors say one thing IS another, personification gives human qualities to non-human things.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is structural feature?",
+              "options": [
+                "A) A language technique like metaphor",
+                "B) How a text is organised — e.g. sentence length, paragraph structure",
+                "C) The meaning behind vocabulary choices",
+                "D) A type of narrator"
+              ],
+              "correct_answer": "B",
+              "explanation": "Structural features include: sentence length variation, use of dialogue, narrative perspective shifts, short paragraphs for tension, repetition for emphasis.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What should an effective analysis of language include?",
+              "options": [
+                "A) Identify the feature only",
+                "B) Identify feature, quote, and explain the effect on the reader",
+                "C) Quote from the text only",
+                "D) Give a personal opinion about the writing"
+              ],
+              "correct_answer": "B",
+              "explanation": "Effective analysis: identify the technique → embed the quotation → explain the effect it has on the reader (PEE or PEA structure).",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'effect' mean in the context of reading analysis?",
+              "options": [
+                "A) The feature itself",
+                "B) The quotation you use",
+                "C) The impact a technique has on the reader — emotion, mood, understanding",
+                "D) The subject matter of the text"
+              ],
+              "correct_answer": "C",
+              "explanation": "When asked about effect, explain HOW the technique works on the reader — does it create tension, sympathy, shock, unease, humour?",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is first person narrative perspective?",
+              "options": [
+                "A) Written using 'he' or 'she'",
+                "B) Written using 'you'",
+                "C) Written using 'I' — the narrator is a character in the story",
+                "D) Written from no particular viewpoint"
+              ],
+              "correct_answer": "C",
+              "explanation": "First person uses 'I/we' — the narrator is a character. It creates intimacy and subjectivity. Third person (he/she/they) provides more distance.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Inference means reading only what is literally stated.",
+              "correct_answer": "False",
+              "explanation": "Inference means reading BEYOND what is literally stated — working out what is implied or suggested.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Explicit information is directly stated in the text.",
+              "correct_answer": "True",
+              "explanation": "Explicit means clearly and plainly expressed — no interpretation needed.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "A structural feature includes things like metaphor and simile.",
+              "correct_answer": "False",
+              "explanation": "Metaphor and simile are language features. Structural features include sentence length, paragraph breaks, and narrative perspective.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Imagery helps the reader visualise a scene.",
+              "correct_answer": "True",
+              "explanation": "Imagery (simile, metaphor, personification) creates vivid pictures in the reader's mind.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Tone refers to how a text is organised.",
+              "correct_answer": "False",
+              "explanation": "Tone is the emotional quality or attitude of the writing. Organisation and structure are different concepts.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "First person narrative creates a sense of intimacy with the narrator.",
+              "correct_answer": "True",
+              "explanation": "First person (I/we) puts the reader inside the narrator's head — creating closeness and subjectivity.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "An analysis of language should include the feature, a quote, and the effect.",
+              "correct_answer": "True",
+              "explanation": "Effective analysis: name the technique → quote it → explain its effect on the reader.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Vocabulary choice has no impact on the tone of a text.",
+              "correct_answer": "False",
+              "explanation": "Word choice is crucial to tone — a writer using 'crept' instead of 'walked' creates a very different effect.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Implicit information must be inferred by the reader.",
+              "correct_answer": "True",
+              "explanation": "Implicit information is not directly stated — the reader must work out the meaning from clues in the text.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Effect means how a technique impacts the reader — their emotion or understanding.",
+              "correct_answer": "True",
+              "explanation": "Effect is always about the reader's response: tension, sympathy, unease, admiration, humour etc.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ means reading beyond what is stated — understanding what the writer implies.",
+              "correct_answer": "Inference",
+              "explanation": "Inference questions ask you to read between the lines.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ information is directly and clearly stated in the text.",
+              "correct_answer": "Explicit",
+              "explanation": "Explicit means no interpretation needed — it is plainly written.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ feature is a technique like metaphor, simile, or alliteration.",
+              "correct_answer": "language",
+              "explanation": "Language features create specific effects — always explain HOW they work on the reader.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the overall feeling or attitude conveyed by the writing.",
+              "correct_answer": "Tone",
+              "explanation": "Tone can be melancholic, threatening, ironic, nostalgic, or joyful.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is language that creates a vivid picture — e.g. simile, metaphor, personification.",
+              "correct_answer": "Imagery",
+              "explanation": "Imagery appeals to the senses and helps readers visualise.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of a language choice is its impact on the reader's emotions or understanding.",
+              "correct_answer": "effect",
+              "explanation": "Always explain the effect — not just what a technique IS but what it DOES to the reader.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ perspective refers to whether the story is told in first, second, or third person.",
+              "correct_answer": "Narrative",
+              "explanation": "First person (I), second (you), third (he/she/they) — each creates a different relationship with the reader.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ features include sentence length, paragraph structure, and use of dialogue.",
+              "correct_answer": "Structural",
+              "explanation": "Structural analysis looks at HOW a text is built and organised.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ choices are the specific words selected by the writer to create tone and effect.",
+              "correct_answer": "Vocabulary",
+              "explanation": "Single word choices can have huge impact — always analyse the connotations of specific words.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ information is hinted at or suggested — the reader must infer it.",
+              "correct_answer": "Implicit",
+              "explanation": "Implicit information requires the reader to work out meaning from clues.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "inference",
+                  "match": "reading beyond what is stated — understanding what is implied"
+                },
+                {
+                  "term": "explicit",
+                  "match": "directly and clearly stated"
+                },
+                {
+                  "term": "implicit",
+                  "match": "suggested or implied — must be inferred"
+                },
+                {
+                  "term": "tone",
+                  "match": "overall feeling or attitude of the writing"
+                },
+                {
+                  "term": "effect",
+                  "match": "impact of a technique on the reader"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Writing — Creative & Descriptive",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Descriptive & Narrative Writing",
+          "cards": [
+            {
+              "keyword": "descriptive writing",
+              "definition": "writing that creates a vivid picture of a person, place, or scene — focuses on sensory detail",
+              "display_order": 1
+            },
+            {
+              "keyword": "narrative writing",
+              "definition": "writing that tells a story — has a plot, characters, setting, and often a narrative arc",
+              "display_order": 2
+            },
+            {
+              "keyword": "show don't tell",
+              "definition": "conveying emotion or character through action and detail rather than stating it directly",
+              "display_order": 3
+            },
+            {
+              "keyword": "sensory language",
+              "definition": "language that appeals to the five senses — sight, sound, smell, taste, touch",
+              "display_order": 4
+            },
+            {
+              "keyword": "pathetic fallacy",
+              "definition": "giving human emotions to the weather or natural world to reflect a character's mood",
+              "display_order": 5
+            },
+            {
+              "keyword": "figurative language",
+              "definition": "non-literal language used for effect — includes simile, metaphor, and personification",
+              "display_order": 6
+            },
+            {
+              "keyword": "sentence variety",
+              "definition": "using a range of sentence types and lengths for effect — short sentences for impact, complex for detail",
+              "display_order": 7
+            },
+            {
+              "keyword": "opening hook",
+              "definition": "an engaging opening that immediately grabs the reader's attention",
+              "display_order": 8
+            },
+            {
+              "keyword": "narrative arc",
+              "definition": "the shape of a story — typically rising action, climax, and resolution",
+              "display_order": 9
+            },
+            {
+              "keyword": "cyclical structure",
+              "definition": "a narrative that ends where it begins — creates a sense of completeness or inevitability",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is 'show don't tell'?",
+              "options": [
+                "A) Stating emotions directly",
+                "B) Conveying emotion through action and detail rather than stating it",
+                "C) Describing the setting only",
+                "D) Using long sentences to explain character"
+              ],
+              "correct_answer": "B",
+              "explanation": "'Show don't tell': instead of writing 'she was nervous', write 'her hands trembled as she reached for the door'.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is pathetic fallacy?",
+              "options": [
+                "A) A simile comparing a person to nature",
+                "B) A factual description of weather",
+                "C) Using weather or nature to reflect a character's emotional state",
+                "D) An extended metaphor about the environment"
+              ],
+              "correct_answer": "C",
+              "explanation": "Pathetic fallacy: e.g. a stormy sky reflecting a character's rage, or bright sunshine as a character feels hopeful.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is sensory language?",
+              "options": [
+                "A) Technical vocabulary",
+                "B) Language appealing to the five senses — sight, sound, smell, taste, touch",
+                "C) Language used in scientific texts",
+                "D) Very formal, academic language"
+              ],
+              "correct_answer": "B",
+              "explanation": "Sensory language immerses the reader — describing what can be seen, heard, smelled, touched, or tasted makes writing vivid and immediate.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why should you vary sentence length in creative writing?",
+              "options": [
+                "A) To meet word counts",
+                "B) To avoid repetition of vocabulary",
+                "C) To create rhythm, pace, and emphasis — short sentences for impact",
+                "D) Because sentences must alternate long and short"
+              ],
+              "correct_answer": "C",
+              "explanation": "Varied sentence length creates rhythmic interest — short sentences can create tension or emphasis; long, complex sentences can build atmosphere.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an opening hook?",
+              "options": [
+                "A) A summary of the story at the start",
+                "B) An engaging opening that immediately grabs the reader",
+                "C) A question asked by the narrator",
+                "D) A description of the main character"
+              ],
+              "correct_answer": "B",
+              "explanation": "An opening hook engages the reader from the first line — it might be a dramatic action, mysterious statement, vivid description, or provocative question.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is figurative language?",
+              "options": [
+                "A) Literal description of facts",
+                "B) Non-literal language used for effect — e.g. simile, metaphor, personification",
+                "C) Technical vocabulary about structure",
+                "D) Language used in formal writing only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Figurative language is not meant to be taken literally — it creates images, comparisons, and effects. Examples: 'the moon was a cold eye' (metaphor).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a cyclical structure?",
+              "options": [
+                "A) A story with three clear acts",
+                "B) A narrative that ends where it began",
+                "C) Using repetition of sentences",
+                "D) A flashback narrative technique"
+              ],
+              "correct_answer": "B",
+              "explanation": "Cyclical structure creates a sense of completeness — returning to the opening image, setting, or scene. It can suggest inevitability or that nothing has changed.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is descriptive writing's main purpose?",
+              "options": [
+                "A) To argue a viewpoint",
+                "B) To tell a story with a clear plot",
+                "C) To create a vivid impression of a person, place, or scene",
+                "D) To give factual information"
+              ],
+              "correct_answer": "C",
+              "explanation": "Descriptive writing uses sensory detail, imagery, and precise vocabulary to create a vivid picture — it focuses on impression rather than plot.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a narrative arc?",
+              "options": [
+                "A) A circular story structure",
+                "B) A flashback technique",
+                "C) The shape of a story — rising action, climax, resolution",
+                "D) The opening paragraph of a story"
+              ],
+              "correct_answer": "C",
+              "explanation": "Most narratives follow an arc: equilibrium → disruption → rising tension → climax → resolution. This creates satisfying story shape.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the effect of very short sentences in creative writing?",
+              "options": [
+                "A) They make writing seem childish",
+                "B) They create pace, tension, emphasis, or shock",
+                "C) They help meet word limits",
+                "D) They are only used in dialogue"
+              ],
+              "correct_answer": "B",
+              "explanation": "Short sentences create impact — they can speed up pace, create tension before a revelation, or land a dramatic moment with maximum force.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "'Show don't tell' means stating emotions directly.",
+              "correct_answer": "False",
+              "explanation": "'Show don't tell' means revealing emotion through action and detail — not naming the feeling directly.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Pathetic fallacy gives human emotions to the weather or landscape.",
+              "correct_answer": "True",
+              "explanation": "E.g. 'the clouds gathered angrily' or 'rain lashed the windows' reflecting a character's distress.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Figurative language is meant to be taken literally.",
+              "correct_answer": "False",
+              "explanation": "Figurative language is non-literal — it uses comparisons and images to create effects, not factual descriptions.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Varying sentence length can create rhythm and tension.",
+              "correct_answer": "True",
+              "explanation": "Short sentences = pace and impact. Long sentences = detail and atmosphere. Variation creates interest.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Descriptive writing needs a clear plot with beginning, middle, and end.",
+              "correct_answer": "False",
+              "explanation": "Descriptive writing focuses on creating a vivid impression — it does not require a conventional narrative plot.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "An opening hook should immediately engage the reader.",
+              "correct_answer": "True",
+              "explanation": "A strong opening — dramatic action, vivid image, intriguing statement — draws the reader in from the very first line.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Sensory language appeals only to sight and sound.",
+              "correct_answer": "False",
+              "explanation": "Sensory language appeals to all five senses: sight, sound, smell, touch, and taste.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "A cyclical structure ends in the same place the story began.",
+              "correct_answer": "True",
+              "explanation": "Cyclical structure creates a sense of completeness — returning to the opening setting, image, or idea.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Narrative writing must always be told in first person.",
+              "correct_answer": "False",
+              "explanation": "Narratives can be first person (I), third person (he/she/they), or occasionally second person (you).",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Pathetic fallacy is used to reflect a character's emotional state through nature.",
+              "correct_answer": "True",
+              "explanation": "Pathetic fallacy projects human emotions onto the environment — creating mood and atmosphere.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ don't tell — convey emotion through action and detail, not direct statement.",
+              "correct_answer": "Show",
+              "explanation": "'Her eyes filled with tears' shows sadness; 'she was sad' tells it.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ fallacy gives human emotions to the weather or natural world.",
+              "correct_answer": "Pathetic",
+              "explanation": "'The sun smiled down' or 'the storm raged' are examples of pathetic fallacy.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ language appeals to the five senses — sight, sound, smell, taste, touch.",
+              "correct_answer": "Sensory",
+              "explanation": "Immersive sensory detail makes readers feel present in a scene.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ language is non-literal — e.g. simile, metaphor, personification.",
+              "correct_answer": "Figurative",
+              "explanation": "Figurative language creates images and comparisons, not factual descriptions.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Varying ________ length creates rhythm and can control the pace of a narrative.",
+              "correct_answer": "sentence",
+              "explanation": "Short sentences create tension; long, complex sentences build atmosphere.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ hook immediately engages the reader from the very first line.",
+              "correct_answer": "opening",
+              "explanation": "Effective hooks include dramatic action, a mystery, a vivid image, or a provocative question.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ structure ends where the story begins.",
+              "correct_answer": "cyclical",
+              "explanation": "Cyclical structures create a satisfying sense of completeness or suggest inevitability.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ writing creates a vivid impression of a scene, place, or person.",
+              "correct_answer": "Descriptive",
+              "explanation": "Descriptive writing focuses on sensory detail and imagery rather than plot.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ writing tells a story — it includes plot, character, and setting.",
+              "correct_answer": "Narrative",
+              "explanation": "Effective narrative writing uses show-don't-tell, varied structure, and engaging voice.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ arc of a story includes rising action, climax, and resolution.",
+              "correct_answer": "narrative",
+              "explanation": "Most successful stories follow a shape — building tension to a climax before resolving.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "show don't tell",
+                  "match": "convey emotion through action and detail, not direct statement"
+                },
+                {
+                  "term": "pathetic fallacy",
+                  "match": "using weather/nature to reflect a character's emotions"
+                },
+                {
+                  "term": "sensory language",
+                  "match": "appeals to sight, sound, smell, taste, and touch"
+                },
+                {
+                  "term": "figurative language",
+                  "match": "non-literal — simile, metaphor, personification"
+                },
+                {
+                  "term": "cyclical structure",
+                  "match": "ends where the story begins"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Non-Fiction Reading & Writing",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Non-Fiction Texts & Rhetorical Techniques",
+          "cards": [
+            {
+              "keyword": "purpose",
+              "definition": "the reason a text was written — to inform, persuade, entertain, argue, or advise",
+              "display_order": 1
+            },
+            {
+              "keyword": "audience",
+              "definition": "who a text is written for — identified by vocabulary level, tone, and content",
+              "display_order": 2
+            },
+            {
+              "keyword": "rhetoric",
+              "definition": "language used to persuade an audience — includes specific techniques to influence thinking",
+              "display_order": 3
+            },
+            {
+              "keyword": "rhetorical question",
+              "definition": "a question that does not expect an answer — used to make the reader think or feel involved",
+              "display_order": 4
+            },
+            {
+              "keyword": "counter-argument",
+              "definition": "acknowledging the opposing view before dismissing or refuting it — shows fairness and strengthens position",
+              "display_order": 5
+            },
+            {
+              "keyword": "direct address",
+              "definition": "speaking directly to the reader using 'you' — creates personal involvement",
+              "display_order": 6
+            },
+            {
+              "keyword": "anecdote",
+              "definition": "a brief personal story used to illustrate a point — makes abstract ideas relatable",
+              "display_order": 7
+            },
+            {
+              "keyword": "hyperbole",
+              "definition": "deliberate exaggeration for effect — not meant literally",
+              "display_order": 8
+            },
+            {
+              "keyword": "tricolon",
+              "definition": "a group of three items or phrases — creates rhythm and emphasis",
+              "display_order": 9
+            },
+            {
+              "keyword": "AFOREST",
+              "definition": "a mnemonic for persuasive techniques: Alliteration, Facts, Opinions, Rhetorical questions, Emotive language, Statistics, Tricolon",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the purpose of a text?",
+              "options": [
+                "A) The topic it covers",
+                "B) The reason it was written — to inform, persuade, argue, advise",
+                "C) Who it is written for",
+                "D) The techniques it uses"
+              ],
+              "correct_answer": "B",
+              "explanation": "Purpose is WHY the text was written. Common purposes: to inform, persuade, entertain, argue, advise, or a combination.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a rhetorical question?",
+              "options": [
+                "A) A question that expects a specific answer",
+                "B) A question used only in speeches",
+                "C) A question that doesn't expect an answer — makes the reader think",
+                "D) A question answered by statistics"
+              ],
+              "correct_answer": "C",
+              "explanation": "Rhetorical questions engage the reader and make them think — e.g. 'Is this really the world we want?' They imply an obvious answer.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is hyperbole?",
+              "options": [
+                "A) A type of simile",
+                "B) Deliberate exaggeration for effect — not literally true",
+                "C) Understatement for ironic effect",
+                "D) Repetition of a phrase"
+              ],
+              "correct_answer": "B",
+              "explanation": "Hyperbole is intentional exaggeration — e.g. 'I've told you a million times.' It emphasises a point dramatically.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is direct address?",
+              "options": [
+                "A) Naming a specific person",
+                "B) Writing in third person",
+                "C) Speaking to the reader directly using 'you'",
+                "D) Using formal academic language"
+              ],
+              "correct_answer": "C",
+              "explanation": "Direct address (using 'you') makes the reader feel personally involved and implicated — as if the writer is speaking directly to them.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a counter-argument?",
+              "options": [
+                "A) Ignoring opposing views",
+                "B) Presenting only your own view",
+                "C) Acknowledging the opposing view before refuting it",
+                "D) Using statistics to prove a point"
+              ],
+              "correct_answer": "C",
+              "explanation": "Including a counter-argument shows awareness of other perspectives and makes your own argument seem more reasonable and fair.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an anecdote?",
+              "options": [
+                "A) A statistical fact",
+                "B) A brief personal story used to illustrate a point",
+                "C) An extended metaphor",
+                "D) A formal piece of evidence"
+              ],
+              "correct_answer": "B",
+              "explanation": "Anecdotes are short personal stories — they make abstract arguments feel real and relatable to the reader.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a tricolon?",
+              "options": [
+                "A) Three paragraphs",
+                "B) A list of statistics",
+                "C) A group of three phrases or items — creates rhythm and emphasis",
+                "D) A rhetorical question in three parts"
+              ],
+              "correct_answer": "C",
+              "explanation": "Tricolons (groups of three) create a powerful rhythm — e.g. 'We came, we saw, we conquered.' The rule of three is deeply embedded in persuasive writing.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does audience mean?",
+              "options": [
+                "A) The reason a text was written",
+                "B) The people the text is written for",
+                "C) The topic of the text",
+                "D) The genre of the text"
+              ],
+              "correct_answer": "B",
+              "explanation": "Audience is WHO the text is aimed at. Clues: vocabulary level (simple/complex), subject matter, tone (formal/informal), and content.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is emotive language?",
+              "options": [
+                "A) Scientific, factual language",
+                "B) Formal, academic vocabulary",
+                "C) Words chosen to trigger an emotional response in the reader",
+                "D) Language that uses numbers and statistics"
+              ],
+              "correct_answer": "C",
+              "explanation": "Emotive language (e.g. 'innocent victims', 'devastating loss') triggers strong feelings — appealing to the reader's emotions rather than logic.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are facts and statistics used for in persuasive writing?",
+              "options": [
+                "A) To make writing seem longer",
+                "B) To entertain the reader",
+                "C) To give writing credibility and appear objective",
+                "D) To replace opinions"
+              ],
+              "correct_answer": "C",
+              "explanation": "Facts and statistics give persuasive writing authority and credibility — they make arguments seem logical and evidence-based.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Purpose is WHO a text is written for.",
+              "correct_answer": "False",
+              "explanation": "Purpose is WHY a text was written. Audience is WHO it is written for.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Rhetorical questions do not expect a specific answer.",
+              "correct_answer": "True",
+              "explanation": "Rhetorical questions engage the reader and imply an obvious answer — they are not genuine questions.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Hyperbole is an understatement for ironic effect.",
+              "correct_answer": "False",
+              "explanation": "Hyperbole is deliberate EXAGGERATION. Understatement (litotes) is the opposite.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Direct address uses 'you' to personally involve the reader.",
+              "correct_answer": "True",
+              "explanation": "'You should be worried' is more engaging than 'People should be worried' — it makes the reader feel personally addressed.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "A counter-argument weakens a persuasive text.",
+              "correct_answer": "False",
+              "explanation": "A well-handled counter-argument strengthens a persuasive text — it shows fairness and then dismisses the opposing view.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "An anecdote uses statistics to illustrate a point.",
+              "correct_answer": "False",
+              "explanation": "An anecdote is a brief personal story used to make a point relatable. Statistics are facts and figures.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "A tricolon is a group of three phrases used for rhythm and emphasis.",
+              "correct_answer": "True",
+              "explanation": "The rule of three (tricolon) creates a satisfying rhythm — e.g. 'faster, stronger, better'.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Facts and statistics in persuasive writing appeal to emotion.",
+              "correct_answer": "False",
+              "explanation": "Facts and statistics appeal to LOGIC (logos). Emotive language appeals to emotion (pathos).",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Audience can be identified by the vocabulary and tone of a text.",
+              "correct_answer": "True",
+              "explanation": "Simple vocabulary and informal tone suggests a general or younger audience. Complex vocabulary and formal tone suggests a specialist or adult audience.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Emotive language appeals to the reader's emotions.",
+              "correct_answer": "True",
+              "explanation": "Words like 'helpless', 'tragic', or 'outrageous' trigger emotional responses and make readers feel strongly about an issue.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the reason a text was written — to inform, persuade, entertain, or argue.",
+              "correct_answer": "Purpose",
+              "explanation": "Purpose questions ask WHY the text was written and WHAT it is trying to achieve.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is who a text is written for — identified by vocabulary, tone, and content.",
+              "correct_answer": "Audience",
+              "explanation": "Audience analysis considers age, background, knowledge level, and likely views.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ question does not expect an answer — it makes the reader think.",
+              "correct_answer": "rhetorical",
+              "explanation": "Rhetorical questions engage the reader and often imply an obvious answer.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is deliberate exaggeration for dramatic effect.",
+              "correct_answer": "Hyperbole",
+              "explanation": "'I've been waiting forever' is hyperbole — it is not literally true.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ address using 'you' creates personal involvement for the reader.",
+              "correct_answer": "Direct",
+              "explanation": "Direct address makes the reader feel personally implicated or included.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a brief personal story used to illustrate a point.",
+              "correct_answer": "anecdote",
+              "explanation": "Anecdotes make abstract arguments concrete and relatable.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a group of three phrases — 'faster, stronger, better'.",
+              "correct_answer": "tricolon",
+              "explanation": "The rule of three creates rhythm and makes points more memorable.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ argument acknowledges the opposing view before dismissing it.",
+              "correct_answer": "counter",
+              "explanation": "Conceding then refuting a counter-argument strengthens the writer's position.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ language uses words designed to trigger an emotional response.",
+              "correct_answer": "Emotive",
+              "explanation": "E.g. 'innocent victims', 'devastating loss', 'heartbreaking tragedy'.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ FOREST is a mnemonic for persuasive techniques.",
+              "correct_answer": "AF",
+              "explanation": "AFOREST: Alliteration, Facts, Opinions, Rhetorical questions, Emotive language, Statistics, Tricolon.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "purpose",
+                  "match": "why a text was written — inform, persuade, entertain, argue"
+                },
+                {
+                  "term": "audience",
+                  "match": "who a text is written for"
+                },
+                {
+                  "term": "rhetorical question",
+                  "match": "no answer expected — makes reader think"
+                },
+                {
+                  "term": "hyperbole",
+                  "match": "deliberate exaggeration for effect"
+                },
+                {
+                  "term": "tricolon",
+                  "match": "group of three — creates rhythm and emphasis"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spoken Language",
+      "paper": "Endorsement (non-exam)",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Spoken Language Features",
+          "cards": [
+            {
+              "keyword": "Standard English",
+              "definition": "a formal variety of English using correct grammar and vocabulary — used in formal, professional contexts",
+              "display_order": 1
+            },
+            {
+              "keyword": "non-Standard English",
+              "definition": "informal or dialect forms of English — uses regional vocabulary, non-standard grammar",
+              "display_order": 2
+            },
+            {
+              "keyword": "dialect",
+              "definition": "a variety of a language used in a particular region or by a particular social group",
+              "display_order": 3
+            },
+            {
+              "keyword": "accent",
+              "definition": "the way words are pronounced — varies by region or social background",
+              "display_order": 4
+            },
+            {
+              "keyword": "register",
+              "definition": "the level of formality in language — formal, semi-formal, or informal",
+              "display_order": 5
+            },
+            {
+              "keyword": "hedging",
+              "definition": "using cautious language to avoid certainty — e.g. 'maybe', 'perhaps', 'it could be argued'",
+              "display_order": 6
+            },
+            {
+              "keyword": "filler words",
+              "definition": "words or sounds used to fill pauses in speech — e.g. 'um', 'er', 'like', 'you know'",
+              "display_order": 7
+            },
+            {
+              "keyword": "interruption",
+              "definition": "when a speaker breaks in before the other has finished — can show enthusiasm, aggression, or power",
+              "display_order": 8
+            },
+            {
+              "keyword": "prosodic features",
+              "definition": "the features of speech beyond words — including pace, pitch, volume, pause, and intonation",
+              "display_order": 9
+            },
+            {
+              "keyword": "spontaneous speech",
+              "definition": "unplanned speech produced in real time — characterised by fillers, false starts, and repetition",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is Standard English?",
+              "options": [
+                "A) Any variety of English used in Britain",
+                "B) Formal English with correct grammar — used in professional contexts",
+                "C) English as spoken in the USA",
+                "D) Written English only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Standard English uses accepted grammatical rules and vocabulary. It is expected in formal contexts: school, job interviews, professional writing.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is dialect?",
+              "options": [
+                "A) How words are pronounced",
+                "B) The vocabulary and grammar of a particular region or group",
+                "C) The level of formality in speech",
+                "D) The use of filler words"
+              ],
+              "correct_answer": "B",
+              "explanation": "Dialect refers to vocabulary and grammar variations — e.g. 'nowt' (nothing) in Yorkshire dialect, 'bairn' (child) in Scottish/Northern English.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is register?",
+              "options": [
+                "A) A list of vocabulary",
+                "B) The level of formality in language",
+                "C) The accent used by a speaker",
+                "D) Filler words used in speech"
+              ],
+              "correct_answer": "B",
+              "explanation": "Register is the appropriate level of formality for the context — formal for interviews, informal for chatting with friends.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are prosodic features?",
+              "options": [
+                "A) The words used in speech",
+                "B) Features of speech beyond words — pitch, pace, volume, pause, intonation",
+                "C) Filler words and hesitations",
+                "D) The grammar of spoken language"
+              ],
+              "correct_answer": "B",
+              "explanation": "Prosodic features include: pace (speed), pitch (high/low), volume (loud/quiet), pause (strategic silence), and intonation (rising/falling tone).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are filler words?",
+              "options": [
+                "A) Technical vocabulary",
+                "B) Words used in formal speech",
+                "C) Sounds or words used to fill pauses — 'um', 'er', 'like'",
+                "D) Polite phrases used in conversation"
+              ],
+              "correct_answer": "C",
+              "explanation": "Filler words mark thinking time in spontaneous speech — they keep the conversational floor while the speaker formulates their next thought.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is hedging language?",
+              "options": [
+                "A) Exaggerating to make a point",
+                "B) Cautious language avoiding certainty — 'maybe', 'perhaps'",
+                "C) Interrupting another speaker",
+                "D) Using Standard English"
+              ],
+              "correct_answer": "B",
+              "explanation": "Hedging softens claims — 'it could be argued that...' or 'perhaps this suggests...' are hedging phrases. Common in academic and polite speech.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is accent?",
+              "options": [
+                "A) The vocabulary of a dialect",
+                "B) The grammar of a region",
+                "C) How words are pronounced — varies by region or social background",
+                "D) The level of formality"
+              ],
+              "correct_answer": "C",
+              "explanation": "Accent refers to pronunciation patterns — not vocabulary or grammar. Everyone has an accent, including Standard English speakers.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is spontaneous speech?",
+              "options": [
+                "A) Scripted, pre-planned speech",
+                "B) Formal speech in Standard English",
+                "C) Unplanned speech produced in real time — includes fillers and false starts",
+                "D) Speech with no hesitations"
+              ],
+              "correct_answer": "C",
+              "explanation": "Spontaneous speech is produced in real time — it naturally includes fillers ('um', 'er'), repetitions, false starts, and self-corrections.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does an interruption in conversation suggest?",
+              "options": [
+                "A) The speaker is listening carefully",
+                "B) Enthusiasm, dominance, or power — or finishing the other's sentence cooperatively",
+                "C) The speaker has finished their point",
+                "D) Formal, planned speech"
+              ],
+              "correct_answer": "B",
+              "explanation": "Interruptions can be competitive (showing dominance) or cooperative (finishing a sentence or showing enthusiasm). Context determines the meaning.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is non-Standard English?",
+              "options": [
+                "A) Incorrect English that should be avoided",
+                "B) Informal or dialect forms using regional vocabulary or non-standard grammar",
+                "C) English spoken in other countries",
+                "D) English used only in texts and emails"
+              ],
+              "correct_answer": "B",
+              "explanation": "Non-Standard English includes dialect forms and informal grammar — e.g. 'I ain't got none', 'We was going'. It is not 'wrong' — it is appropriate in informal contexts.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Standard English uses correct grammar and is used in formal contexts.",
+              "correct_answer": "True",
+              "explanation": "Standard English is expected in formal writing, job interviews, and academic contexts.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Accent and dialect are the same thing.",
+              "correct_answer": "False",
+              "explanation": "Accent is HOW words are pronounced. Dialect includes regional vocabulary and grammar differences.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Filler words are a sign of poor communication skills.",
+              "correct_answer": "False",
+              "explanation": "Filler words are a natural feature of spontaneous speech — they mark thinking time. Even highly educated speakers use them.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Register is the level of formality appropriate to a context.",
+              "correct_answer": "True",
+              "explanation": "Register shifts based on context: formal for professional settings, informal for social conversation.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Prosodic features include pitch, pace, volume, and pause.",
+              "correct_answer": "True",
+              "explanation": "Prosodic features are the non-word features of speech that carry meaning and emotion.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Hedging language makes claims more certain.",
+              "correct_answer": "False",
+              "explanation": "Hedging language makes claims less certain — 'perhaps', 'possibly', and 'it could be argued' signal caution.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Interruptions are always a sign of rudeness.",
+              "correct_answer": "False",
+              "explanation": "Interruptions can be cooperative (enthusiastically completing a sentence) or competitive (asserting dominance) — context determines meaning.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Non-Standard English is never appropriate.",
+              "correct_answer": "False",
+              "explanation": "Non-Standard English is appropriate in informal and social contexts. It is only inappropriate when Standard English is expected.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Spontaneous speech typically contains fillers and false starts.",
+              "correct_answer": "True",
+              "explanation": "Unplanned speech naturally includes hesitation phenomena — fillers, repetitions, and self-corrections.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Dialect refers to how words are pronounced.",
+              "correct_answer": "False",
+              "explanation": "Dialect refers to vocabulary and grammar variations. Accent refers to pronunciation.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ English uses correct grammar and is appropriate for formal contexts.",
+              "correct_answer": "Standard",
+              "explanation": "Standard English is expected in academic writing, formal speeches, and professional settings.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ refers to the vocabulary and grammar of a particular region or group.",
+              "correct_answer": "Dialect",
+              "explanation": "Dialect features include regional vocabulary ('nowt', 'bairn') and grammar ('I were going').",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is how words are pronounced — varies by region or social background.",
+              "correct_answer": "Accent",
+              "explanation": "Everyone has an accent — including Standard English speakers.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the level of formality appropriate to a context.",
+              "correct_answer": "Register",
+              "explanation": "Shifting register appropriately (formal/informal) shows communicative competence.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ words like 'um' and 'er' fill pauses in spontaneous speech.",
+              "correct_answer": "Filler",
+              "explanation": "Fillers are natural in unplanned speech — they mark thinking time.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ features include pitch, pace, volume, pause, and intonation.",
+              "correct_answer": "Prosodic",
+              "explanation": "Prosodic features carry emotional and attitudinal meaning in speech.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ language uses cautious phrases like 'perhaps' and 'it could be argued'.",
+              "correct_answer": "Hedging",
+              "explanation": "Hedging softens claims and is common in academic and polite speech.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ speech is unplanned and produced in real time.",
+              "correct_answer": "Spontaneous",
+              "explanation": "Spontaneous speech includes fillers, false starts, and repetitions.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are conversational moves where one speaker breaks in before the other finishes.",
+              "correct_answer": "Interruptions",
+              "explanation": "Interruptions can be cooperative or competitive depending on context.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Non-________ English uses regional vocabulary and non-standard grammar.",
+              "correct_answer": "Standard",
+              "explanation": "Non-Standard English is not 'wrong' — it is appropriate in informal contexts.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Standard English",
+                  "match": "formal English with correct grammar — for professional contexts"
+                },
+                {
+                  "term": "dialect",
+                  "match": "regional vocabulary and grammar differences"
+                },
+                {
+                  "term": "accent",
+                  "match": "how words are pronounced — varies by region"
+                },
+                {
+                  "term": "register",
+                  "match": "level of formality appropriate to context"
+                },
+                {
+                  "term": "prosodic features",
+                  "match": "pitch, pace, volume, pause, intonation"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

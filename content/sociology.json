@@ -1,0 +1,317 @@
+{
+  "subject": {
+    "name": "Sociology",
+    "slug": "sociology",
+    "colour": "#be185d"
+  },
+  "topics": [
+    {
+      "name": "Families",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Family Types & Structures",
+          "cards": [
+            {
+              "keyword": "nuclear family",
+              "definition": "a family consisting of two parents and their dependent children living together",
+              "display_order": 1
+            },
+            {
+              "keyword": "extended family",
+              "definition": "a family that includes relatives beyond the nuclear family — e.g. grandparents, aunts, uncles",
+              "display_order": 2
+            },
+            {
+              "keyword": "single-parent family",
+              "definition": "a family with one parent and dependent children — the most common alternative to the nuclear family in the UK",
+              "display_order": 3
+            },
+            {
+              "keyword": "reconstituted (blended) family",
+              "definition": "a family formed when two people with children from previous relationships live together",
+              "display_order": 4
+            },
+            {
+              "keyword": "same-sex family",
+              "definition": "a family with two parents of the same gender",
+              "display_order": 5
+            },
+            {
+              "keyword": "divorce",
+              "definition": "the legal ending of a marriage — divorce rates have risen since the Divorce Reform Act 1969",
+              "display_order": 6
+            },
+            {
+              "keyword": "cohabitation",
+              "definition": "living together as a couple without being married — increasingly common in the UK",
+              "display_order": 7
+            },
+            {
+              "keyword": "the New Right",
+              "definition": "a conservative political perspective that sees the traditional nuclear family as the ideal family structure",
+              "display_order": 8
+            },
+            {
+              "keyword": "feminism",
+              "definition": "a sociological perspective that focuses on gender inequality — argues the family often oppresses women",
+              "display_order": 9
+            },
+            {
+              "keyword": "domestic labour",
+              "definition": "unpaid work done in the home such as cooking, cleaning, and childcare — disproportionately done by women",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Changing Families & Sociological Views",
+          "cards": [
+            {
+              "keyword": "functionalism",
+              "definition": "a sociological perspective that sees society as a system where each part has a function — views the family as essential for stability",
+              "display_order": 1
+            },
+            {
+              "keyword": "Marxism",
+              "definition": "a sociological perspective based on the ideas of Karl Marx — argues society is shaped by economic inequality and class conflict",
+              "display_order": 2
+            },
+            {
+              "keyword": "primary socialisation",
+              "definition": "the first stage of learning society's norms and values — takes place mainly within the family",
+              "display_order": 3
+            },
+            {
+              "keyword": "secondary socialisation",
+              "definition": "learning norms and values from institutions outside the family — e.g. school, media, peer groups",
+              "display_order": 4
+            },
+            {
+              "keyword": "social norms",
+              "definition": "the unwritten rules about behaviour that are considered acceptable in society",
+              "display_order": 5
+            },
+            {
+              "keyword": "social values",
+              "definition": "the beliefs and principles shared by members of a society about what is important or desirable",
+              "display_order": 6
+            },
+            {
+              "keyword": "gender roles",
+              "definition": "the behaviours and expectations society associates with being male or female",
+              "display_order": 7
+            },
+            {
+              "keyword": "symmetrical family",
+              "definition": "Young and Willmott's idea that modern families have more equal sharing of domestic tasks between partners",
+              "display_order": 8
+            },
+            {
+              "keyword": "secularisation",
+              "definition": "the decline of religious influence in society — linked to declining rates of religious marriage",
+              "display_order": 9
+            },
+            {
+              "keyword": "demographic change",
+              "definition": "changes in the size and composition of a population — e.g. an ageing population, falling birth rates",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Education & Society",
+          "cards": [
+            {
+              "keyword": "meritocracy",
+              "definition": "the idea that success is based on ability and effort, not background or privilege",
+              "display_order": 1
+            },
+            {
+              "keyword": "social class",
+              "definition": "a system of social stratification based on economic factors such as income, wealth, and occupation",
+              "display_order": 2
+            },
+            {
+              "keyword": "cultural capital",
+              "definition": "Bourdieu's idea that middle-class children have knowledge, attitudes, and skills that give them an advantage in education",
+              "display_order": 3
+            },
+            {
+              "keyword": "material deprivation",
+              "definition": "lacking the physical resources needed to succeed in education — e.g. no quiet study space, poor diet, inability to afford equipment",
+              "display_order": 4
+            },
+            {
+              "keyword": "labelling theory",
+              "definition": "the idea that teachers label students based on their class, gender, or ethnicity — affecting their self-belief and achievement",
+              "display_order": 5
+            },
+            {
+              "keyword": "self-fulfilling prophecy",
+              "definition": "when a prediction comes true because people act on the label given to them — a key concept in education sociology",
+              "display_order": 6
+            },
+            {
+              "keyword": "streaming / setting",
+              "definition": "grouping students by perceived ability — can reinforce social class inequalities",
+              "display_order": 7
+            },
+            {
+              "keyword": "hidden curriculum",
+              "definition": "the informal lessons schools teach about norms, values, and behaviour — e.g. obedience to authority, punctuality",
+              "display_order": 8
+            },
+            {
+              "keyword": "gender gap in education",
+              "definition": "the difference in educational achievement between boys and girls — girls outperform boys in most subjects at GCSE",
+              "display_order": 9
+            },
+            {
+              "keyword": "ethnicity and achievement",
+              "definition": "differences in educational attainment between ethnic groups — Chinese and Indian students tend to outperform the national average in the UK",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crime & Deviance",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Crime, Deviance & Social Control",
+          "cards": [
+            {
+              "keyword": "crime",
+              "definition": "behaviour that breaks the law of society — defined by the state and can result in punishment",
+              "display_order": 1
+            },
+            {
+              "keyword": "deviance",
+              "definition": "behaviour that breaks social norms but is not necessarily illegal — e.g. unusual dress, rude behaviour",
+              "display_order": 2
+            },
+            {
+              "keyword": "social control",
+              "definition": "the methods used by society to encourage conformity and discourage rule-breaking — formal and informal",
+              "display_order": 3
+            },
+            {
+              "keyword": "formal social control",
+              "definition": "control enforced by official institutions — e.g. police, courts, prison",
+              "display_order": 4
+            },
+            {
+              "keyword": "informal social control",
+              "definition": "control through social pressure and disapproval — e.g. family, peer groups, religion",
+              "display_order": 5
+            },
+            {
+              "keyword": "strain theory (Merton)",
+              "definition": "the idea that crime occurs when people cannot achieve society's goals (e.g. wealth) through legitimate means",
+              "display_order": 6
+            },
+            {
+              "keyword": "subcultural theory",
+              "definition": "the idea that some groups develop alternative values that conflict with mainstream society — leading to delinquency",
+              "display_order": 7
+            },
+            {
+              "keyword": "official crime statistics",
+              "definition": "data on crime collected by police and the Home Office — critics argue they underrepresent the true level of crime",
+              "display_order": 8
+            },
+            {
+              "keyword": "victim surveys",
+              "definition": "surveys asking people about crimes committed against them — the Crime Survey for England and Wales is the main example",
+              "display_order": 9
+            },
+            {
+              "keyword": "white-collar crime",
+              "definition": "crimes committed by people in professional, high-status occupations — e.g. fraud, tax evasion",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research Methods",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Sociological Research Methods",
+          "cards": [
+            {
+              "keyword": "quantitative data",
+              "definition": "data in numerical form — e.g. statistics, percentages, graphs. Associated with positivism",
+              "display_order": 1
+            },
+            {
+              "keyword": "qualitative data",
+              "definition": "data in words, descriptions, or meanings — e.g. interview transcripts, observations. Associated with interpretivism",
+              "display_order": 2
+            },
+            {
+              "keyword": "questionnaire / survey",
+              "definition": "a set of written questions used to collect data from a large number of people",
+              "display_order": 3
+            },
+            {
+              "keyword": "structured interview",
+              "definition": "an interview where questions are fixed in advance — produces comparable data but limits depth of response",
+              "display_order": 4
+            },
+            {
+              "keyword": "unstructured interview",
+              "definition": "a free-flowing interview guided by the participant — produces rich, detailed data but harder to compare",
+              "display_order": 5
+            },
+            {
+              "keyword": "participant observation",
+              "definition": "the researcher joins a group and observes them from the inside — high validity but time-consuming and raises ethical issues",
+              "display_order": 6
+            },
+            {
+              "keyword": "reliability",
+              "definition": "the extent to which a study produces the same results if repeated — quantitative methods tend to have higher reliability",
+              "display_order": 7
+            },
+            {
+              "keyword": "validity",
+              "definition": "the extent to which research measures what it claims to measure — qualitative methods tend to have higher validity",
+              "display_order": 8
+            },
+            {
+              "keyword": "representativeness",
+              "definition": "how well a sample reflects the wider population — affects whether findings can be generalised",
+              "display_order": 9
+            },
+            {
+              "keyword": "ethics in research",
+              "definition": "the moral principles researchers must follow — including informed consent, confidentiality, and avoiding harm to participants",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

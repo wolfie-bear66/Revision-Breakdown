@@ -1,0 +1,2545 @@
+{
+  "subject": {
+    "name": "Physics",
+    "slug": "physics",
+    "colour": "#1e3a5f",
+    "exam_board": "AQA",
+    "emoji": "\u26a1"
+  },
+  "topics": [
+    {
+      "name": "Energy",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Energy Stores & Transfers",
+          "cards": [
+            {
+              "keyword": "kinetic energy",
+              "definition": "energy an object has due to its motion \u2014 KE = \u00bdmv\u00b2",
+              "display_order": 1
+            },
+            {
+              "keyword": "gravitational potential energy",
+              "definition": "energy stored due to height above ground \u2014 GPE = mgh",
+              "display_order": 2
+            },
+            {
+              "keyword": "elastic potential energy",
+              "definition": "energy stored in a stretched or compressed object \u2014 e.g. a spring or elastic band",
+              "display_order": 3
+            },
+            {
+              "keyword": "thermal energy",
+              "definition": "energy stored in the internal energy of an object \u2014 related to temperature and state",
+              "display_order": 4
+            },
+            {
+              "keyword": "conservation of energy",
+              "definition": "energy cannot be created or destroyed \u2014 only transferred from one store to another",
+              "display_order": 5
+            },
+            {
+              "keyword": "efficiency",
+              "definition": "the proportion of input energy usefully transferred \u2014 Efficiency = useful output \u00f7 total input \u00d7 100%",
+              "display_order": 6
+            },
+            {
+              "keyword": "dissipation",
+              "definition": "energy transferred to the surroundings in a less useful form \u2014 usually as heat or sound",
+              "display_order": 7
+            },
+            {
+              "keyword": "power",
+              "definition": "the rate of energy transfer \u2014 Power = Energy \u00f7 Time, measured in watts (W)",
+              "display_order": 8
+            },
+            {
+              "keyword": "specific heat capacity",
+              "definition": "energy needed to raise 1 kg of a substance by 1\u00b0C \u2014 water has a high SHC",
+              "display_order": 9
+            },
+            {
+              "keyword": "energy resource",
+              "definition": "a source of energy for generating electricity \u2014 renewable or non-renewable",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the formula for kinetic energy?",
+              "options": [
+                "A) KE = mv",
+                "B) KE = mgh",
+                "C) KE = \u00bdmv\u00b2",
+                "D) KE = Pt"
+              ],
+              "correct_answer": "C",
+              "explanation": "Kinetic energy = \u00bd \u00d7 mass \u00d7 velocity\u00b2. Doubling speed quadruples KE because velocity is squared.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the conservation of energy?",
+              "options": [
+                "A) Energy increases in every reaction",
+                "B) Energy cannot be created or destroyed \u2014 only transferred",
+                "C) Energy is always lost as heat",
+                "D) Only renewable energy is conserved"
+              ],
+              "correct_answer": "B",
+              "explanation": "The law of conservation of energy: the total energy in a closed system is constant \u2014 it can only be transferred between stores.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is efficiency?",
+              "options": [
+                "A) Total energy input",
+                "B) Energy lost as heat",
+                "C) Useful output energy \u00f7 total input energy \u00d7 100%",
+                "D) Power \u00d7 time"
+              ],
+              "correct_answer": "C",
+              "explanation": "Efficiency measures how well a device converts input energy to useful output. A 100% efficient device wastes no energy.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does power measure?",
+              "options": [
+                "A) The amount of energy stored",
+                "B) The rate of energy transfer",
+                "C) The efficiency of a device",
+                "D) The force applied"
+              ],
+              "correct_answer": "B",
+              "explanation": "Power = Energy \u00f7 Time (P = E/t). Measured in watts (W). A 1W device transfers 1 joule per second.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is gravitational potential energy?",
+              "options": [
+                "A) Energy due to motion",
+                "B) Energy stored in a spring",
+                "C) Energy due to an object's height above the ground",
+                "D) Energy released in combustion"
+              ],
+              "correct_answer": "C",
+              "explanation": "GPE = mass \u00d7 gravitational field strength \u00d7 height (GPE = mgh). An object gains GPE when lifted.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is specific heat capacity?",
+              "options": [
+                "A) The energy needed to melt 1 kg of a substance",
+                "B) The energy needed to raise 1 kg of a substance by 1\u00b0C",
+                "C) The rate of energy transfer",
+                "D) The heat energy released by burning 1 kg of fuel"
+              ],
+              "correct_answer": "B",
+              "explanation": "Specific heat capacity (SHC) tells us how much energy is needed to heat 1 kg of a material by 1\u00b0C. Water's high SHC makes it good for heating systems.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is dissipation of energy?",
+              "options": [
+                "A) Storing energy more efficiently",
+                "B) Transferring energy to a useful output",
+                "C) Energy being wasted to the surroundings \u2014 usually as heat or sound",
+                "D) Converting energy from one store to another usefully"
+              ],
+              "correct_answer": "C",
+              "explanation": "Dissipation is the unwanted transfer of energy to the surroundings. Friction and air resistance are common causes.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A device has 200 J input and 150 J useful output. What is its efficiency?",
+              "options": [
+                "A) 50%",
+                "B) 75%",
+                "C) 25%",
+                "D) 133%"
+              ],
+              "correct_answer": "B",
+              "explanation": "Efficiency = 150 \u00f7 200 \u00d7 100% = 75%. The remaining 25% is wasted (dissipated).",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What form does dissipated energy usually take?",
+              "options": [
+                "A) Kinetic energy",
+                "B) Chemical energy",
+                "C) Gravitational potential energy",
+                "D) Thermal energy (heat)"
+              ],
+              "correct_answer": "D",
+              "explanation": "Dissipated energy is mostly transferred to thermal energy stores \u2014 heating the surroundings. This makes it harder to use.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is a renewable energy resource?",
+              "options": [
+                "A) Coal",
+                "B) Oil",
+                "C) Natural gas",
+                "D) Wind"
+              ],
+              "correct_answer": "D",
+              "explanation": "Wind is a renewable energy resource \u2014 it will not run out. Coal, oil, and natural gas are non-renewable fossil fuels.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Kinetic energy depends on mass and velocity.",
+              "correct_answer": "True",
+              "explanation": "KE = \u00bdmv\u00b2. Both mass and velocity affect kinetic energy \u2014 doubling velocity quadruples KE.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Energy can be created from nothing if the conditions are right.",
+              "correct_answer": "False",
+              "explanation": "The law of conservation of energy states energy cannot be created or destroyed \u2014 only transferred or transformed.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "A 100% efficient device wastes no energy.",
+              "correct_answer": "True",
+              "explanation": "An efficiency of 100% means all input energy is transferred to the useful output \u2014 nothing is wasted.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Power is measured in joules.",
+              "correct_answer": "False",
+              "explanation": "Power is measured in watts (W). Joules measure energy. Power = Energy \u00f7 Time.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Dissipated energy is usually transferred usefully.",
+              "correct_answer": "False",
+              "explanation": "Dissipated energy is wasted \u2014 usually transferred to thermal stores in the surroundings where it is harder to use.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Gravitational potential energy increases when an object is lifted higher.",
+              "correct_answer": "True",
+              "explanation": "GPE = mgh. Increasing height increases GPE. This is stored energy that can be released when the object falls.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Specific heat capacity measures how quickly a substance heats up.",
+              "correct_answer": "False",
+              "explanation": "SHC is the energy needed to raise 1 kg of a substance by 1\u00b0C \u2014 not how quickly it heats. A high SHC means more energy is needed.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Efficiency can be greater than 100%.",
+              "correct_answer": "False",
+              "explanation": "Efficiency cannot exceed 100% \u2014 this would violate conservation of energy. No device can produce more useful energy than it receives.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Wind is a renewable energy resource.",
+              "correct_answer": "True",
+              "explanation": "Wind will not run out \u2014 it is continuously replenished. Coal, gas, and oil are non-renewable.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Elastic potential energy is stored in a compressed spring.",
+              "correct_answer": "True",
+              "explanation": "Elastic potential energy is stored whenever an elastic object is stretched or compressed \u2014 it is released when the object returns to its original shape.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ energy is energy due to motion \u2014 calculated using KE = \u00bdmv\u00b2.",
+              "correct_answer": "Kinetic",
+              "explanation": "Doubling the speed of an object quadruples its kinetic energy because v is squared.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ energy is the rate of energy transfer, measured in watts.",
+              "correct_answer": "Power",
+              "explanation": "Power = Energy \u00f7 Time. A 60W lightbulb transfers 60 joules of energy per second.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = useful output energy \u00f7 total input energy \u00d7 100%.",
+              "correct_answer": "Efficiency",
+              "explanation": "Efficiency tells us the percentage of input energy that is usefully transferred.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Energy that is wasted \u2014 usually as heat \u2014 is said to be ________.",
+              "correct_answer": "dissipated",
+              "explanation": "Dissipated energy spreads out to the surroundings and becomes harder to use.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The law of conservation of energy states energy cannot be ________ or destroyed.",
+              "correct_answer": "created",
+              "explanation": "Energy is always conserved \u2014 it can only be transferred from one store to another.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ potential energy is stored in objects due to their height above the ground.",
+              "correct_answer": "Gravitational",
+              "explanation": "GPE = mgh. An object falling converts GPE to kinetic energy.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ potential energy is stored in stretched or compressed objects.",
+              "correct_answer": "Elastic",
+              "explanation": "When a spring is compressed or stretched, it stores elastic potential energy.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ heat capacity is the energy needed to raise 1 kg by 1\u00b0C.",
+              "correct_answer": "Specific",
+              "explanation": "Water has a high specific heat capacity \u2014 it absorbs a lot of energy before its temperature rises significantly.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ energy resources will not run out \u2014 e.g. solar, wind, tidal.",
+              "correct_answer": "Renewable",
+              "explanation": "Renewable resources are replenished naturally and do not produce greenhouse gases when generating electricity.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ energy is energy stored in an object due to its temperature.",
+              "correct_answer": "Thermal",
+              "explanation": "All objects above absolute zero contain thermal energy in the kinetic energy of their particles.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "kinetic energy",
+                  "match": "energy due to motion \u2014 KE = \u00bdmv\u00b2"
+                },
+                {
+                  "term": "gravitational potential energy",
+                  "match": "energy stored due to height \u2014 GPE = mgh"
+                },
+                {
+                  "term": "efficiency",
+                  "match": "useful output \u00f7 total input \u00d7 100%"
+                },
+                {
+                  "term": "power",
+                  "match": "rate of energy transfer \u2014 measured in watts"
+                },
+                {
+                  "term": "dissipation",
+                  "match": "energy wasted to surroundings, usually as heat"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electricity",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Electric Circuits",
+          "cards": [
+            {
+              "keyword": "current",
+              "definition": "the rate of flow of electric charge \u2014 measured in amperes (A). I = Q/t",
+              "display_order": 1
+            },
+            {
+              "keyword": "potential difference",
+              "definition": "energy transferred per unit charge \u2014 measured in volts (V). V = W/Q",
+              "display_order": 2
+            },
+            {
+              "keyword": "resistance",
+              "definition": "opposition to the flow of current \u2014 measured in ohms (\u03a9). R = V/I",
+              "display_order": 3
+            },
+            {
+              "keyword": "Ohm's Law",
+              "definition": "current through a conductor is proportional to potential difference \u2014 V = IR \u2014 provided temperature is constant",
+              "display_order": 4
+            },
+            {
+              "keyword": "series circuit",
+              "definition": "components connected in a single loop \u2014 same current everywhere, voltages add up",
+              "display_order": 5
+            },
+            {
+              "keyword": "parallel circuit",
+              "definition": "components in separate branches \u2014 same voltage across each, currents add up",
+              "display_order": 6
+            },
+            {
+              "keyword": "power (electrical)",
+              "definition": "rate at which electrical energy is transferred \u2014 P = IV or P = I\u00b2R",
+              "display_order": 7
+            },
+            {
+              "keyword": "direct current (DC)",
+              "definition": "current that flows in one direction only \u2014 e.g. from a battery",
+              "display_order": 8
+            },
+            {
+              "keyword": "alternating current (AC)",
+              "definition": "current that continuously reverses direction \u2014 mains electricity in the UK is 230V, 50 Hz AC",
+              "display_order": 9
+            },
+            {
+              "keyword": "the National Grid",
+              "definition": "the network of cables and transformers distributing electricity across the UK",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is electric current?",
+              "options": [
+                "A) Energy transferred per unit charge",
+                "B) The rate of flow of electric charge",
+                "C) Opposition to charge flow",
+                "D) Energy stored in a battery"
+              ],
+              "correct_answer": "B",
+              "explanation": "Current (I) is the rate at which electric charge flows. Measured in amperes (A). I = Q/t.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Ohm's Law?",
+              "options": [
+                "A) V = P/I",
+                "B) P = IV",
+                "C) V = IR",
+                "D) I = V\u00b2R"
+              ],
+              "correct_answer": "C",
+              "explanation": "Ohm's Law: V = IR. Current is proportional to potential difference at constant temperature for an ohmic conductor.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In a series circuit, what is true about current?",
+              "options": [
+                "A) It is different at each component",
+                "B) It is the same throughout",
+                "C) It is shared between branches",
+                "D) It increases after each component"
+              ],
+              "correct_answer": "B",
+              "explanation": "In a series circuit, components share the same current \u2014 there is only one path for current to flow.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the formula for electrical power?",
+              "options": [
+                "A) P = V/I",
+                "B) P = IV",
+                "C) P = IR",
+                "D) P = V\u00b2/R"
+              ],
+              "correct_answer": "B",
+              "explanation": "Electrical power P = IV (current \u00d7 voltage). Also P = I\u00b2R. Measured in watts (W).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What type of current comes from a battery?",
+              "options": [
+                "A) Alternating current (AC)",
+                "B) Mains current",
+                "C) Direct current (DC)",
+                "D) 50 Hz current"
+              ],
+              "correct_answer": "C",
+              "explanation": "Batteries provide direct current (DC) \u2014 current flows in one direction only. Mains electricity is AC.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is potential difference?",
+              "options": [
+                "A) Rate of charge flow",
+                "B) Energy per unit charge transferred",
+                "C) Opposition to current flow",
+                "D) Total charge in a circuit"
+              ],
+              "correct_answer": "B",
+              "explanation": "Potential difference (voltage) = energy transferred per unit charge. Measured in volts (V = J/C).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In a parallel circuit, what is true about voltage?",
+              "options": [
+                "A) It divides between branches",
+                "B) It is the same across each branch",
+                "C) It is zero at each branch",
+                "D) It adds up across all branches"
+              ],
+              "correct_answer": "B",
+              "explanation": "In a parallel circuit, all branches have the same potential difference across them as the supply voltage.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does resistance measure?",
+              "options": [
+                "A) Rate of energy transfer",
+                "B) Amount of charge flow",
+                "C) Opposition to the flow of current",
+                "D) Energy transferred per second"
+              ],
+              "correct_answer": "C",
+              "explanation": "Resistance (R) is the opposition to current flow. Measured in ohms (\u03a9). R = V/I.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the UK mains supply voltage and frequency?",
+              "options": [
+                "A) 12V, 50 Hz",
+                "B) 110V, 60 Hz",
+                "C) 230V, 50 Hz",
+                "D) 400V, 60 Hz"
+              ],
+              "correct_answer": "C",
+              "explanation": "UK mains electricity is 230V AC at 50 Hz. This is alternating current that reverses direction 50 times per second.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the National Grid?",
+              "options": [
+                "A) A type of circuit",
+                "B) A network distributing electricity across the UK",
+                "C) The power station system",
+                "D) An energy storage system"
+              ],
+              "correct_answer": "B",
+              "explanation": "The National Grid is the system of cables and transformers that distributes electricity from power stations to homes and businesses across the UK.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Current is measured in volts.",
+              "correct_answer": "False",
+              "explanation": "Current is measured in amperes (A). Volts measure potential difference (voltage).",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "In a series circuit, the current is the same throughout.",
+              "correct_answer": "True",
+              "explanation": "There is only one path in a series circuit \u2014 all components carry the same current.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Resistance is measured in ohms.",
+              "correct_answer": "True",
+              "explanation": "Resistance (\u03a9) measures the opposition to current flow. R = V/I.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Ohm's Law states V = IR.",
+              "correct_answer": "True",
+              "explanation": "For ohmic conductors at constant temperature, V = IR \u2014 voltage is proportional to current.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "DC current reverses direction continuously.",
+              "correct_answer": "False",
+              "explanation": "DC (direct current) flows in one direction only. AC (alternating current) reverses direction.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "In a parallel circuit, voltage is the same across each branch.",
+              "correct_answer": "True",
+              "explanation": "Each branch of a parallel circuit has the same potential difference as the supply.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Electrical power is calculated as P = IV.",
+              "correct_answer": "True",
+              "explanation": "Power (W) = Current (A) \u00d7 Voltage (V). Also P = I\u00b2R.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "UK mains electricity is direct current (DC).",
+              "correct_answer": "False",
+              "explanation": "UK mains electricity is alternating current (AC) at 230V and 50 Hz.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Adding more resistors in series decreases total resistance.",
+              "correct_answer": "False",
+              "explanation": "Adding resistors in series increases total resistance \u2014 they all oppose the current in the same path.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The National Grid uses high voltage to reduce energy losses.",
+              "correct_answer": "True",
+              "explanation": "High voltage means lower current for the same power \u2014 lower current means less energy wasted as heat in cables.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Electric ________ is the rate of flow of charge \u2014 measured in amperes.",
+              "correct_answer": "current",
+              "explanation": "Current I = Q/t. More current means more charge flowing per second.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ difference is energy transferred per unit charge \u2014 measured in volts.",
+              "correct_answer": "Potential",
+              "explanation": "Potential difference (voltage) = energy \u00f7 charge. V = W/Q.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is opposition to current flow \u2014 measured in ohms.",
+              "correct_answer": "Resistance",
+              "explanation": "Resistance R = V/I. Higher resistance means less current for a given voltage.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Ohm's Law states: V = ________.",
+              "correct_answer": "IR",
+              "explanation": "This is true for ohmic conductors at constant temperature: voltage equals current times resistance.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "In a ________ circuit, the same current flows through all components.",
+              "correct_answer": "series",
+              "explanation": "Series circuits have one path \u2014 all components share the same current but the voltages add up.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "In a ________ circuit, the same voltage is across each branch.",
+              "correct_answer": "parallel",
+              "explanation": "Parallel circuits have multiple paths \u2014 each branch has the same voltage but the currents add up.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Electrical power P = ________.",
+              "correct_answer": "IV",
+              "explanation": "Power (watts) = current (amps) \u00d7 voltage (volts). Also P = I\u00b2R.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ current (DC) flows in one direction only.",
+              "correct_answer": "Direct",
+              "explanation": "Batteries produce DC. Mains electricity is AC \u2014 it reverses direction 50 times per second in the UK.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "UK mains electricity is ________ V alternating current at 50 Hz.",
+              "correct_answer": "230",
+              "explanation": "All UK mains sockets supply 230V AC. This is stepped up and down by transformers in the National Grid.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The National Grid uses high ________ to reduce energy loss in transmission cables.",
+              "correct_answer": "voltage",
+              "explanation": "High voltage = low current for same power. Less current = less heat wasted in cables (P = I\u00b2R).",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "current",
+                  "match": "rate of flow of electric charge \u2014 measured in amps"
+                },
+                {
+                  "term": "potential difference",
+                  "match": "energy per unit charge \u2014 measured in volts"
+                },
+                {
+                  "term": "resistance",
+                  "match": "opposition to current \u2014 measured in ohms"
+                },
+                {
+                  "term": "series circuit",
+                  "match": "same current throughout \u2014 voltages add up"
+                },
+                {
+                  "term": "parallel circuit",
+                  "match": "same voltage across branches \u2014 currents add up"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Particle Model & Atomic Structure",
+      "paper": "Paper 1",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Particle Model & Changes of State",
+          "cards": [
+            {
+              "keyword": "particle model",
+              "definition": "a model describing matter as made of tiny particles \u2014 explains the properties and behaviour of solids, liquids, and gases",
+              "display_order": 1
+            },
+            {
+              "keyword": "solid",
+              "definition": "a state of matter \u2014 particles closely packed in a regular arrangement, vibrating in fixed positions",
+              "display_order": 2
+            },
+            {
+              "keyword": "liquid",
+              "definition": "a state of matter \u2014 particles close together but able to flow past each other",
+              "display_order": 3
+            },
+            {
+              "keyword": "gas",
+              "definition": "a state of matter \u2014 particles far apart, moving rapidly and randomly, filling their container",
+              "display_order": 4
+            },
+            {
+              "keyword": "melting point",
+              "definition": "the temperature at which a solid changes to a liquid \u2014 particles have enough energy to overcome the forces holding them",
+              "display_order": 5
+            },
+            {
+              "keyword": "boiling point",
+              "definition": "the temperature at which a liquid changes to a gas throughout its volume",
+              "display_order": 6
+            },
+            {
+              "keyword": "density",
+              "definition": "mass per unit volume \u2014 Density = mass \u00f7 volume, measured in kg/m\u00b3",
+              "display_order": 7
+            },
+            {
+              "keyword": "internal energy",
+              "definition": "the total kinetic and potential energy of all the particles in a substance",
+              "display_order": 8
+            },
+            {
+              "keyword": "specific latent heat",
+              "definition": "energy needed to change the state of 1 kg of a substance without changing temperature",
+              "display_order": 9
+            },
+            {
+              "keyword": "pressure (gas)",
+              "definition": "caused by gas particles colliding with the walls of their container \u2014 increases with temperature or decreased volume",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "In a solid, how are particles arranged?",
+              "options": [
+                "A) Far apart and moving randomly",
+                "B) Close together and flowing freely",
+                "C) Closely packed in a regular arrangement, vibrating",
+                "D) In random positions but not moving"
+              ],
+              "correct_answer": "C",
+              "explanation": "In solids, particles are in fixed positions in a regular lattice, vibrating about their positions. They cannot flow.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to particles when a substance melts?",
+              "options": [
+                "A) They gain enough energy to escape the substance",
+                "B) They gain enough energy to overcome the forces holding them in fixed positions",
+                "C) They slow down and stop moving",
+                "D) They break apart chemically"
+              ],
+              "correct_answer": "B",
+              "explanation": "At the melting point, particles gain enough energy to overcome the intermolecular forces keeping them in fixed positions and begin to flow.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What causes gas pressure?",
+              "options": [
+                "A) Gravity pulling particles down",
+                "B) Collisions of gas particles with container walls",
+                "C) Electrical repulsion between particles",
+                "D) Particles sticking to the container walls"
+              ],
+              "correct_answer": "B",
+              "explanation": "Gas pressure is caused by the constant collisions of gas particles with the walls of their container. More collisions = higher pressure.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is density?",
+              "options": [
+                "A) Mass \u00d7 volume",
+                "B) Volume \u00f7 mass",
+                "C) Mass \u00f7 volume",
+                "D) Force \u00f7 area"
+              ],
+              "correct_answer": "C",
+              "explanation": "Density = mass \u00f7 volume (\u03c1 = m/V), measured in kg/m\u00b3. Denser materials have more mass per unit volume.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is specific latent heat?",
+              "options": [
+                "A) Energy to raise temperature by 1\u00b0C",
+                "B) Energy to change state of 1 kg without temperature change",
+                "C) Heat lost to the surroundings",
+                "D) The boiling point of a substance"
+              ],
+              "correct_answer": "B",
+              "explanation": "Specific latent heat is the energy needed to change the state of 1 kg without a temperature change \u2014 temperature is constant during a state change.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is internal energy?",
+              "options": [
+                "A) Energy stored in the nucleus",
+                "B) Total kinetic and potential energy of all particles",
+                "C) Energy transferred by heating only",
+                "D) Electrical energy stored in a substance"
+              ],
+              "correct_answer": "B",
+              "explanation": "Internal energy is the sum of all kinetic energy (movement) and potential energy (position) of particles in a substance.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to gas pressure if temperature increases (volume constant)?",
+              "options": [
+                "A) Pressure decreases",
+                "B) Pressure stays the same",
+                "C) Pressure increases",
+                "D) Pressure first increases then decreases"
+              ],
+              "correct_answer": "C",
+              "explanation": "Higher temperature \u2192 particles move faster \u2192 more frequent and more energetic collisions with walls \u2192 pressure increases.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In which state do particles have the most energy?",
+              "options": [
+                "A) Solid",
+                "B) Liquid",
+                "C) Gas",
+                "D) All states have equal energy"
+              ],
+              "correct_answer": "C",
+              "explanation": "Gas particles have the most energy \u2014 they move rapidly and randomly. Solid particles have the least energy.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the formula for density?",
+              "options": [
+                "A) \u03c1 = mv",
+                "B) \u03c1 = v/m",
+                "C) \u03c1 = m/v",
+                "D) \u03c1 = m \u00d7 v"
+              ],
+              "correct_answer": "C",
+              "explanation": "Density (\u03c1) = mass (m) \u00f7 volume (V). Measured in kg/m\u00b3 or g/cm\u00b3.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "During melting, what happens to temperature?",
+              "options": [
+                "A) It increases rapidly",
+                "B) It decreases",
+                "C) It stays constant",
+                "D) It fluctuates"
+              ],
+              "correct_answer": "C",
+              "explanation": "During a state change (e.g. melting), temperature remains constant. The energy being supplied is used to change state, not increase temperature.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Solid particles vibrate in fixed positions.",
+              "correct_answer": "True",
+              "explanation": "Solid particles are closely packed in a regular lattice and vibrate about fixed positions \u2014 they cannot flow.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Gas particles are closely packed together.",
+              "correct_answer": "False",
+              "explanation": "Gas particles are widely spaced and move rapidly and randomly. They are much further apart than in solids or liquids.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Density = mass \u00d7 volume.",
+              "correct_answer": "False",
+              "explanation": "Density = mass \u00f7 volume (\u03c1 = m/V). Greater density means more mass packed into the same volume.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Gas pressure increases when temperature increases at constant volume.",
+              "correct_answer": "True",
+              "explanation": "Higher temperature \u2192 faster particles \u2192 more frequent, energetic collisions with walls \u2192 higher pressure.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Temperature changes during a change of state.",
+              "correct_answer": "False",
+              "explanation": "Temperature remains constant during a change of state. Energy is used to break/form intermolecular forces, not increase kinetic energy.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Liquid particles can flow past each other.",
+              "correct_answer": "True",
+              "explanation": "In liquids, particles are close together but have enough energy to move past each other \u2014 this gives liquids their fluid properties.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Specific latent heat is the energy to raise 1 kg by 1\u00b0C.",
+              "correct_answer": "False",
+              "explanation": "Specific latent heat is the energy to change the state of 1 kg at constant temperature. Specific heat capacity is energy to raise temperature.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Internal energy is the total kinetic and potential energy of all particles.",
+              "correct_answer": "True",
+              "explanation": "Internal energy = sum of kinetic energy (movement) + potential energy (position) of all particles.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Particles in a gas move slowly and randomly.",
+              "correct_answer": "False",
+              "explanation": "Gas particles move rapidly and randomly \u2014 they have the most kinetic energy of all three states.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Pressure in a gas is caused by particle collisions with container walls.",
+              "correct_answer": "True",
+              "explanation": "Every collision of a gas particle with the container wall exerts a force \u2014 the total of all these forces creates pressure.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "In a ________, particles are closely packed in a regular arrangement and vibrate in fixed positions.",
+              "correct_answer": "solid",
+              "explanation": "Solid particles cannot flow \u2014 they are held in place by strong intermolecular forces.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "In a ________, particles are close but can flow past each other.",
+              "correct_answer": "liquid",
+              "explanation": "Liquids have a fixed volume but no fixed shape \u2014 they take the shape of their container.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "In a ________, particles are far apart and move rapidly in random directions.",
+              "correct_answer": "gas",
+              "explanation": "Gases expand to fill their container and exert pressure through collisions with the walls.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = mass \u00f7 volume.",
+              "correct_answer": "Density",
+              "explanation": "Density (\u03c1 = m/V) is measured in kg/m\u00b3. Materials with high density have lots of mass in a small volume.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Gas ________ is caused by particles colliding with the container walls.",
+              "correct_answer": "pressure",
+              "explanation": "More collisions (higher temperature or smaller volume) means higher pressure.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ latent heat is the energy needed to change the state of 1 kg without a temperature change.",
+              "correct_answer": "Specific",
+              "explanation": "During a state change, energy breaks or forms intermolecular bonds \u2014 temperature stays constant.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ energy is the total kinetic and potential energy of all the particles in a substance.",
+              "correct_answer": "Internal",
+              "explanation": "Adding energy to a substance increases its internal energy \u2014 either by raising temperature or changing state.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "At the ________ point, a solid changes to a liquid.",
+              "correct_answer": "melting",
+              "explanation": "The melting point is the temperature at which particles have enough energy to overcome the forces keeping them in fixed positions.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "When temperature increases at constant volume, gas ________ increases.",
+              "correct_answer": "pressure",
+              "explanation": "Higher temperature \u2192 faster particles \u2192 more frequent and more forceful collisions with walls \u2192 higher pressure.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "During a change of state, ________ remains constant even though energy is being supplied.",
+              "correct_answer": "temperature",
+              "explanation": "The energy supplied during a state change overcomes intermolecular forces \u2014 it doesn't increase kinetic energy or temperature.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "solid",
+                  "match": "particles in regular fixed positions \u2014 vibrate only"
+                },
+                {
+                  "term": "liquid",
+                  "match": "particles close but able to flow"
+                },
+                {
+                  "term": "gas",
+                  "match": "particles far apart, moving rapidly and randomly"
+                },
+                {
+                  "term": "density",
+                  "match": "mass \u00f7 volume"
+                },
+                {
+                  "term": "specific latent heat",
+                  "match": "energy to change state of 1 kg at constant temperature"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Forces",
+      "paper": "Paper 1",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Forces & Motion",
+          "cards": [
+            {
+              "keyword": "Newton's First Law",
+              "definition": "an object remains at rest or moves at constant velocity unless a resultant force acts on it",
+              "display_order": 1
+            },
+            {
+              "keyword": "Newton's Second Law",
+              "definition": "resultant force = mass \u00d7 acceleration \u2014 F = ma",
+              "display_order": 2
+            },
+            {
+              "keyword": "Newton's Third Law",
+              "definition": "every action has an equal and opposite reaction \u2014 forces act in pairs on different objects",
+              "display_order": 3
+            },
+            {
+              "keyword": "resultant force",
+              "definition": "the single force that represents the combined effect of all forces acting on an object",
+              "display_order": 4
+            },
+            {
+              "keyword": "momentum",
+              "definition": "the product of mass and velocity \u2014 p = mv. A vector quantity",
+              "display_order": 5
+            },
+            {
+              "keyword": "conservation of momentum",
+              "definition": "in a closed system, total momentum before a collision equals total momentum after",
+              "display_order": 6
+            },
+            {
+              "keyword": "stopping distance",
+              "definition": "total distance to stop = thinking distance + braking distance",
+              "display_order": 7
+            },
+            {
+              "keyword": "weight",
+              "definition": "the force of gravity on an object \u2014 W = mg",
+              "display_order": 8
+            },
+            {
+              "keyword": "terminal velocity",
+              "definition": "the constant speed reached when driving force equals resistive force \u2014 no acceleration",
+              "display_order": 9
+            },
+            {
+              "keyword": "work done",
+              "definition": "energy transferred by a force \u2014 W = Fd (force \u00d7 distance in direction of force)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does Newton's First Law state?",
+              "options": [
+                "A) F = ma",
+                "B) Force and acceleration are proportional",
+                "C) Objects remain at rest or constant velocity unless a resultant force acts",
+                "D) Every action has an equal and opposite reaction"
+              ],
+              "correct_answer": "C",
+              "explanation": "Newton's First Law: an object continues at rest or constant velocity unless acted on by a resultant (unbalanced) force.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the formula from Newton's Second Law?",
+              "options": [
+                "A) p = mv",
+                "B) W = Fd",
+                "C) F = ma",
+                "D) W = mg"
+              ],
+              "correct_answer": "C",
+              "explanation": "Newton's Second Law: F = ma. Force equals mass times acceleration. More force \u2192 more acceleration for same mass.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is terminal velocity?",
+              "options": [
+                "A) Maximum possible speed in a vacuum",
+                "B) Speed when driving force equals resistive force \u2014 constant speed",
+                "C) Speed at the moment of impact",
+                "D) Minimum speed needed to stay in motion"
+              ],
+              "correct_answer": "B",
+              "explanation": "Terminal velocity is reached when the driving force equals resistive forces (drag). Resultant force is zero \u2014 no more acceleration.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is momentum?",
+              "options": [
+                "A) Mass \u00d7 distance",
+                "B) Force \u00d7 time",
+                "C) Mass \u00d7 velocity",
+                "D) Weight \u00d7 speed"
+              ],
+              "correct_answer": "C",
+              "explanation": "Momentum p = mv (mass \u00d7 velocity). Momentum is a vector \u2014 it has both magnitude and direction.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the stopping distance of a car?",
+              "options": [
+                "A) Distance from braking to stop",
+                "B) Thinking distance + braking distance",
+                "C) Distance covered in the driver's reaction time",
+                "D) Speed \u00d7 time"
+              ],
+              "correct_answer": "B",
+              "explanation": "Stopping distance = thinking distance (driver reacts) + braking distance (car decelerates). Both increase with speed.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is weight?",
+              "options": [
+                "A) The amount of matter in an object",
+                "B) The gravitational force on an object \u2014 W = mg",
+                "C) The size of the normal contact force",
+                "D) Mass \u00d7 speed"
+              ],
+              "correct_answer": "B",
+              "explanation": "Weight = mass \u00d7 gravitational field strength (W = mg). Weight is a force measured in newtons.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Newton's Third Law state?",
+              "options": [
+                "A) F = ma",
+                "B) Objects at rest stay at rest",
+                "C) Every action has an equal and opposite reaction",
+                "D) Momentum is conserved in collisions"
+              ],
+              "correct_answer": "C",
+              "explanation": "Newton's Third Law: for every force (action) there is an equal and opposite force (reaction) on a different object.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is work done?",
+              "options": [
+                "A) Energy transferred = force \u00d7 distance",
+                "B) Power \u00d7 time",
+                "C) Mass \u00d7 acceleration",
+                "D) Momentum \u00d7 velocity"
+              ],
+              "correct_answer": "A",
+              "explanation": "Work done = force \u00d7 distance moved in the direction of the force (W = Fd). Measured in joules.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is conservation of momentum?",
+              "options": [
+                "A) Momentum always increases in collisions",
+                "B) Total momentum before equals total momentum after in a closed system",
+                "C) Momentum is zero after every collision",
+                "D) Only elastic collisions conserve momentum"
+              ],
+              "correct_answer": "B",
+              "explanation": "Conservation of momentum: in a closed system (no external forces), total momentum before = total momentum after a collision.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the resultant force?",
+              "options": [
+                "A) The largest force acting on an object",
+                "B) The single force representing all forces combined",
+                "C) The force of friction only",
+                "D) Weight minus normal force"
+              ],
+              "correct_answer": "B",
+              "explanation": "The resultant force is the vector sum of all forces. If resultant = 0, there is no acceleration (Newton's First Law).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Newton's Second Law is F = ma.",
+              "correct_answer": "True",
+              "explanation": "F = ma: resultant force = mass \u00d7 acceleration. This means greater force \u2192 greater acceleration for the same mass.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Terminal velocity occurs when acceleration is at its maximum.",
+              "correct_answer": "False",
+              "explanation": "Terminal velocity occurs when acceleration is zero \u2014 driving force equals resistive force, so resultant force = 0.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Stopping distance = thinking distance + braking distance.",
+              "correct_answer": "True",
+              "explanation": "Thinking distance is the distance covered during the driver's reaction time. Braking distance is covered while decelerating.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Weight is the same as mass.",
+              "correct_answer": "False",
+              "explanation": "Mass is the amount of matter (measured in kg). Weight is the gravitational force (measured in N). W = mg.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Momentum is a scalar quantity.",
+              "correct_answer": "False",
+              "explanation": "Momentum (p = mv) is a vector \u2014 it has both magnitude and direction. Velocity is also a vector.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Newton's Third Law means forces always cancel out.",
+              "correct_answer": "False",
+              "explanation": "Newton's Third Law pairs act on different objects \u2014 they don't cancel. Cancellation only applies to forces on the same object.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Work done = force \u00d7 distance.",
+              "correct_answer": "True",
+              "explanation": "Work done (J) = force (N) \u00d7 distance moved in the direction of the force (m). W = Fd.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Conservation of momentum applies in closed systems.",
+              "correct_answer": "True",
+              "explanation": "In a closed system with no external forces, total momentum before = total momentum after any collision.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "A resultant force of zero means an object is not moving.",
+              "correct_answer": "False",
+              "explanation": "Zero resultant force means constant velocity \u2014 the object could be stationary OR moving at constant speed.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Increasing speed increases both thinking and braking distance.",
+              "correct_answer": "True",
+              "explanation": "Higher speed \u2192 greater thinking distance (same reaction time, more distance covered) and greater braking distance.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Newton's Second Law: F = ________.",
+              "correct_answer": "ma",
+              "explanation": "Resultant force = mass \u00d7 acceleration. Greater force causes greater acceleration for the same mass.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ velocity is reached when driving force equals resistive force \u2014 no further acceleration.",
+              "correct_answer": "Terminal",
+              "explanation": "At terminal velocity, resultant force = 0 and the object moves at constant speed.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Momentum p = ________.",
+              "correct_answer": "mv",
+              "explanation": "Momentum (kg m/s) = mass (kg) \u00d7 velocity (m/s). It is a vector quantity.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Stopping distance = thinking distance + ________ distance.",
+              "correct_answer": "braking",
+              "explanation": "Both increase with speed. Braking distance also increases with poor road conditions or worn tyres.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Weight W = ________.",
+              "correct_answer": "mg",
+              "explanation": "Weight (N) = mass (kg) \u00d7 gravitational field strength (g = 9.8 N/kg on Earth).",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Newton's Third Law: every action has an equal and ________ reaction.",
+              "correct_answer": "opposite",
+              "explanation": "These force pairs act on different objects \u2014 e.g. rocket pushes gas backward, gas pushes rocket forward.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Work done W = ________.",
+              "correct_answer": "Fd",
+              "explanation": "Work done (J) = force (N) \u00d7 distance (m) in the direction of the force.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ force is the single force representing all forces acting on an object.",
+              "correct_answer": "resultant",
+              "explanation": "If resultant force = 0, the object is in equilibrium (at rest or constant velocity).",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "In a closed system, total ________ before a collision equals total momentum after.",
+              "correct_answer": "momentum",
+              "explanation": "Conservation of momentum: \u03a3p before = \u03a3p after, as long as no external forces act.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Newton's First Law: an object stays at rest or constant velocity unless a ________ force acts.",
+              "correct_answer": "resultant",
+              "explanation": "A resultant force is needed to change the speed or direction of an object.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Newton's First Law",
+                  "match": "no resultant force \u2192 constant velocity or rest"
+                },
+                {
+                  "term": "Newton's Second Law",
+                  "match": "F = ma \u2014 resultant force = mass \u00d7 acceleration"
+                },
+                {
+                  "term": "Newton's Third Law",
+                  "match": "every action has equal and opposite reaction on different object"
+                },
+                {
+                  "term": "momentum",
+                  "match": "p = mv \u2014 vector quantity, conserved in closed systems"
+                },
+                {
+                  "term": "terminal velocity",
+                  "match": "driving force equals resistive force \u2014 constant speed"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Waves & Electromagnetics",
+      "paper": "Paper 2",
+      "display_order": 5,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Waves",
+          "cards": [
+            {
+              "keyword": "transverse wave",
+              "definition": "a wave where oscillation is perpendicular to the direction of energy transfer \u2014 e.g. light, water waves",
+              "display_order": 1
+            },
+            {
+              "keyword": "longitudinal wave",
+              "definition": "a wave where oscillation is parallel to the direction of energy transfer \u2014 e.g. sound",
+              "display_order": 2
+            },
+            {
+              "keyword": "wavelength",
+              "definition": "the distance between two successive wave crests (or compressions) \u2014 measured in metres",
+              "display_order": 3
+            },
+            {
+              "keyword": "frequency",
+              "definition": "the number of complete waves passing a point per second \u2014 measured in hertz (Hz)",
+              "display_order": 4
+            },
+            {
+              "keyword": "amplitude",
+              "definition": "the maximum displacement from the rest position \u2014 related to the energy carried by the wave",
+              "display_order": 5
+            },
+            {
+              "keyword": "wave speed",
+              "definition": "the speed at which a wave travels \u2014 Wave speed = frequency \u00d7 wavelength (v = f\u03bb)",
+              "display_order": 6
+            },
+            {
+              "keyword": "electromagnetic spectrum",
+              "definition": "the family of transverse waves from radio (longest wavelength) to gamma rays (shortest)",
+              "display_order": 7
+            },
+            {
+              "keyword": "refraction",
+              "definition": "the change in direction of a wave as it passes from one medium to another due to a change in speed",
+              "display_order": 8
+            },
+            {
+              "keyword": "total internal reflection",
+              "definition": "when a wave hits a boundary at greater than the critical angle and is fully reflected back",
+              "display_order": 9
+            },
+            {
+              "keyword": "ionising radiation",
+              "definition": "radiation with enough energy to remove electrons from atoms \u2014 gamma, X-rays, and UV. Can cause cancer",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a transverse wave?",
+              "options": [
+                "A) Wave where oscillation is parallel to energy transfer",
+                "B) Wave where oscillation is perpendicular to energy transfer",
+                "C) A wave that cannot travel through a vacuum",
+                "D) A wave that only travels through solids"
+              ],
+              "correct_answer": "B",
+              "explanation": "In transverse waves, particles oscillate at right angles to the direction of energy transfer. Examples: light, water, seismic S-waves.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the formula for wave speed?",
+              "options": [
+                "A) v = f + \u03bb",
+                "B) v = f/\u03bb",
+                "C) v = f\u03bb",
+                "D) v = \u03bb/f"
+              ],
+              "correct_answer": "C",
+              "explanation": "Wave speed v = frequency \u00d7 wavelength (v = f\u03bb). All electromagnetic waves travel at 3 \u00d7 10\u2078 m/s in a vacuum.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is amplitude?",
+              "options": [
+                "A) Distance between two crests",
+                "B) Speed of the wave",
+                "C) Maximum displacement from rest position",
+                "D) Number of waves per second"
+              ],
+              "correct_answer": "C",
+              "explanation": "Amplitude is the maximum displacement from the equilibrium position. Greater amplitude means more energy carried by the wave.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which wave type does sound belong to?",
+              "options": [
+                "A) Transverse",
+                "B) Longitudinal",
+                "C) Electromagnetic",
+                "D) Seismic"
+              ],
+              "correct_answer": "B",
+              "explanation": "Sound is a longitudinal wave \u2014 particles oscillate parallel to the direction of energy transfer through compressions and rarefactions.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is refraction?",
+              "options": [
+                "A) Reflection of a wave at a boundary",
+                "B) Change in direction due to change in speed at a boundary",
+                "C) Absorption of a wave by a medium",
+                "D) Diffraction of a wave through a gap"
+              ],
+              "correct_answer": "B",
+              "explanation": "Refraction occurs when a wave changes speed as it crosses a boundary between two materials \u2014 it bends towards the normal when slowing down.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is total internal reflection?",
+              "options": [
+                "A) All light being absorbed by a material",
+                "B) Reflection occurring inside a transparent object above the critical angle",
+                "C) Light bending as it enters glass",
+                "D) Light being split into colours"
+              ],
+              "correct_answer": "B",
+              "explanation": "TIR occurs when light hits the boundary at an angle greater than the critical angle \u2014 all light is reflected back. Used in optical fibres.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which part of the EM spectrum has the highest frequency?",
+              "options": [
+                "A) Radio waves",
+                "B) Visible light",
+                "C) Microwaves",
+                "D) Gamma rays"
+              ],
+              "correct_answer": "D",
+              "explanation": "Gamma rays have the highest frequency (and shortest wavelength) of all EM waves. They are the most energetic and most ionising.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is ionising radiation?",
+              "options": [
+                "A) Radiation that heats objects",
+                "B) Radiation with enough energy to remove electrons from atoms",
+                "C) Radiation that only affects gases",
+                "D) Radiation used in radio transmission"
+              ],
+              "correct_answer": "B",
+              "explanation": "Ionising radiation (gamma, X-rays, UV) has enough energy to knock electrons from atoms, forming ions. This can damage DNA and cause cancer.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is frequency measured in?",
+              "options": [
+                "A) Metres",
+                "B) Metres per second",
+                "C) Joules",
+                "D) Hertz"
+              ],
+              "correct_answer": "D",
+              "explanation": "Frequency is measured in hertz (Hz) \u2014 1 Hz means one complete wave per second. Higher frequency means more waves per second.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "All EM waves travel at the same speed in what?",
+              "options": [
+                "A) Water",
+                "B) Glass",
+                "C) A vacuum",
+                "D) Air"
+              ],
+              "correct_answer": "C",
+              "explanation": "All electromagnetic waves travel at the speed of light (3 \u00d7 10\u2078 m/s) in a vacuum. They slow down in other media.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "In a longitudinal wave, particles oscillate parallel to the direction of energy transfer.",
+              "correct_answer": "True",
+              "explanation": "Sound is a longitudinal wave \u2014 compressions and rarefactions form parallel to the direction the sound travels.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Amplitude is the distance between two wave crests.",
+              "correct_answer": "False",
+              "explanation": "Amplitude is the maximum displacement from the rest position. The distance between crests is wavelength.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Wave speed = frequency \u00d7 wavelength.",
+              "correct_answer": "True",
+              "explanation": "v = f\u03bb. All EM waves travel at 3 \u00d7 10\u2078 m/s in a vacuum, so higher frequency means shorter wavelength.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Radio waves have the highest frequency in the EM spectrum.",
+              "correct_answer": "False",
+              "explanation": "Gamma rays have the highest frequency. Radio waves have the lowest frequency and longest wavelength.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Refraction is caused by a change in wave speed at a boundary.",
+              "correct_answer": "True",
+              "explanation": "When a wave moves from one medium to another, its speed changes, causing it to change direction (refraction).",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Total internal reflection requires the angle to be less than the critical angle.",
+              "correct_answer": "False",
+              "explanation": "TIR occurs when the angle of incidence is greater than the critical angle \u2014 the wave is completely reflected.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Ionising radiation can cause cancer by damaging DNA.",
+              "correct_answer": "True",
+              "explanation": "Ionising radiation removes electrons from atoms, which can damage DNA in cells, potentially causing mutations and cancer.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Sound waves are transverse waves.",
+              "correct_answer": "False",
+              "explanation": "Sound waves are longitudinal \u2014 particles vibrate parallel to the direction the wave travels.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "All electromagnetic waves travel at the same speed in a vacuum.",
+              "correct_answer": "True",
+              "explanation": "All EM waves travel at 3 \u00d7 10\u2078 m/s (the speed of light) in a vacuum, regardless of frequency.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Higher amplitude means more energy carried by the wave.",
+              "correct_answer": "True",
+              "explanation": "Amplitude is related to the energy of a wave \u2014 a bigger amplitude means more energy is transferred.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ wave has oscillations perpendicular to the direction of energy transfer.",
+              "correct_answer": "transverse",
+              "explanation": "Examples include light, water waves, and seismic S-waves.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ wave has oscillations parallel to the direction of energy transfer.",
+              "correct_answer": "longitudinal",
+              "explanation": "Sound is the most common example of a longitudinal wave.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the distance between two successive wave crests.",
+              "correct_answer": "Wavelength",
+              "explanation": "Wavelength (\u03bb) is measured in metres. Longer wavelength means lower frequency.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Wave speed v = f \u00d7 ________.",
+              "correct_answer": "\u03bb",
+              "explanation": "Wave speed = frequency \u00d7 wavelength. For EM waves in vacuum, v = 3 \u00d7 10\u2078 m/s.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the maximum displacement of particles from their rest position.",
+              "correct_answer": "Amplitude",
+              "explanation": "Greater amplitude means more energy carried by the wave.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ occurs when a wave changes speed at a boundary, causing it to change direction.",
+              "correct_answer": "Refraction",
+              "explanation": "Waves slow down and bend towards the normal when entering a denser medium.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ radiation has enough energy to remove electrons from atoms \u2014 e.g. gamma rays.",
+              "correct_answer": "Ionising",
+              "explanation": "Ionising radiation can damage DNA and cause cancer.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ internal reflection occurs when light hits a boundary above the critical angle.",
+              "correct_answer": "Total",
+              "explanation": "TIR is the basis of optical fibres \u2014 light is trapped inside by repeated reflections.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Frequency is measured in ________.",
+              "correct_answer": "hertz",
+              "explanation": "Hz (hertz) means cycles per second. 1 kHz = 1000 Hz.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ spectrum ranges from radio waves to gamma rays.",
+              "correct_answer": "electromagnetic",
+              "explanation": "All EM waves are transverse and travel at 3 \u00d7 10\u2078 m/s in a vacuum.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "transverse wave",
+                  "match": "oscillation perpendicular to energy transfer \u2014 e.g. light"
+                },
+                {
+                  "term": "longitudinal wave",
+                  "match": "oscillation parallel to energy transfer \u2014 e.g. sound"
+                },
+                {
+                  "term": "wave speed",
+                  "match": "v = f\u03bb \u2014 frequency \u00d7 wavelength"
+                },
+                {
+                  "term": "refraction",
+                  "match": "wave changes direction due to speed change at boundary"
+                },
+                {
+                  "term": "total internal reflection",
+                  "match": "all reflection when angle exceeds critical angle"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Magnetism & Space",
+      "paper": "Paper 2",
+      "display_order": 6,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Magnetism & the Motor Effect",
+          "cards": [
+            {
+              "keyword": "magnetic field",
+              "definition": "the region around a magnet or current-carrying wire where magnetic forces act",
+              "display_order": 1
+            },
+            {
+              "keyword": "electromagnetism",
+              "definition": "magnetism produced by an electric current \u2014 the basis of motors, generators, and transformers",
+              "display_order": 2
+            },
+            {
+              "keyword": "the motor effect",
+              "definition": "a current-carrying conductor in a magnetic field experiences a force \u2014 used in electric motors",
+              "display_order": 3
+            },
+            {
+              "keyword": "Fleming's left-hand rule",
+              "definition": "used to find the direction of force on a current-carrying conductor: thumb=force, index=field, middle=current",
+              "display_order": 4
+            },
+            {
+              "keyword": "electromagnetic induction",
+              "definition": "generating a voltage by changing the magnetic flux through a conductor \u2014 basis of generators and transformers",
+              "display_order": 5
+            },
+            {
+              "keyword": "transformer",
+              "definition": "a device that changes AC voltage using electromagnetic induction \u2014 step-up or step-down",
+              "display_order": 6
+            },
+            {
+              "keyword": "step-up transformer",
+              "definition": "increases voltage and decreases current \u2014 used to transmit electricity at high voltage",
+              "display_order": 7
+            },
+            {
+              "keyword": "step-down transformer",
+              "definition": "decreases voltage and increases current \u2014 used to deliver safe voltages to homes",
+              "display_order": 8
+            },
+            {
+              "keyword": "the Big Bang",
+              "definition": "the scientific theory that the universe began from an extremely hot, dense point ~13.8 billion years ago",
+              "display_order": 9
+            },
+            {
+              "keyword": "red-shift",
+              "definition": "the increase in wavelength of light from distant galaxies \u2014 evidence that the universe is expanding",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the motor effect?",
+              "options": [
+                "A) Generating voltage by moving a magnet",
+                "B) A current-carrying conductor in a magnetic field experiencing a force",
+                "C) Electricity flowing through a transformer",
+                "D) Magnetic field lines repelling each other"
+              ],
+              "correct_answer": "B",
+              "explanation": "The motor effect: a current-carrying conductor in a magnetic field experiences a force. This is the basis of electric motors.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does electromagnetic induction produce?",
+              "options": [
+                "A) Current only",
+                "B) Heat",
+                "C) A voltage",
+                "D) Magnetic field lines"
+              ],
+              "correct_answer": "C",
+              "explanation": "Electromagnetic induction generates a voltage (and current if circuit is complete) when a conductor moves in a magnetic field or the field changes.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a transformer used for?",
+              "options": [
+                "A) Storing electrical energy",
+                "B) Changing AC voltage using electromagnetic induction",
+                "C) Converting AC to DC",
+                "D) Generating electricity"
+              ],
+              "correct_answer": "B",
+              "explanation": "Transformers use electromagnetic induction to change the voltage of an alternating current supply. They only work with AC.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is red-shift evidence for?",
+              "options": [
+                "A) The universe is contracting",
+                "B) Stars are becoming cooler",
+                "C) The universe is expanding",
+                "D) Galaxies are moving towards us"
+              ],
+              "correct_answer": "C",
+              "explanation": "Red-shift shows that galaxies are moving away from us. The further away a galaxy, the greater its red-shift \u2014 evidence the universe is expanding.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Big Bang theory?",
+              "options": [
+                "A) The universe has always existed",
+                "B) The universe began in a single explosion from a dense point",
+                "C) Stars were formed before the universe",
+                "D) All matter was created simultaneously"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Big Bang theory: the universe began from an extremely hot, dense point ~13.8 billion years ago and has been expanding since.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Fleming's left-hand rule predict?",
+              "options": [
+                "A) Direction of current in a transformer",
+                "B) Direction of force on a current-carrying conductor in a magnetic field",
+                "C) Strength of a magnetic field",
+                "D) Voltage output of a generator"
+              ],
+              "correct_answer": "B",
+              "explanation": "Fleming's left-hand rule: point fingers so index = field, middle finger = current \u2014 the thumb points in the direction of the force (motion).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does a step-up transformer do?",
+              "options": [
+                "A) Increases current and decreases voltage",
+                "B) Converts DC to AC",
+                "C) Increases voltage and decreases current",
+                "D) Reduces energy losses in wires"
+              ],
+              "correct_answer": "C",
+              "explanation": "A step-up transformer increases voltage and decreases current. The National Grid uses step-up transformers to reduce energy losses in transmission cables.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What evidence supports the Big Bang theory?",
+              "options": [
+                "A) Stars having fixed positions",
+                "B) Red-shift and cosmic microwave background radiation",
+                "C) The Sun being at the centre of the universe",
+                "D) Galaxies spinning faster over time"
+              ],
+              "correct_answer": "B",
+              "explanation": "Two key pieces of evidence for the Big Bang: red-shift of galaxies (universe expanding) and cosmic microwave background radiation (CMBR) \u2014 the afterglow of the Big Bang.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is electromagnetic induction?",
+              "options": [
+                "A) The force on a wire in a magnetic field",
+                "B) Generating a voltage by changing magnetic flux through a conductor",
+                "C) The flow of current through a coil",
+                "D) Resistance of a wire in a magnetic field"
+              ],
+              "correct_answer": "B",
+              "explanation": "Electromagnetic induction: moving a conductor relative to a magnetic field generates a voltage. This is the basis of generators and transformers.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is cosmic microwave background radiation (CMBR)?",
+              "options": [
+                "A) Radiation from the Sun",
+                "B) Electromagnetic radiation from all stars",
+                "C) Low-level radiation throughout the universe \u2014 evidence for the Big Bang",
+                "D) Radiation emitted by galaxies in the infrared"
+              ],
+              "correct_answer": "C",
+              "explanation": "CMBR is the residual heat radiation from the Big Bang. It is detected uniformly from all directions in space \u2014 strong evidence for the Big Bang theory.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The motor effect causes a force on a current-carrying conductor in a magnetic field.",
+              "correct_answer": "True",
+              "explanation": "The motor effect is used in electric motors \u2014 a current in a magnetic field experiences a force.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Electromagnetic induction generates a current when a conductor is in a static magnetic field.",
+              "correct_answer": "False",
+              "explanation": "Induction requires a changing magnetic flux \u2014 either the conductor must move or the field must change.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Transformers work with direct current (DC).",
+              "correct_answer": "False",
+              "explanation": "Transformers only work with AC \u2014 the continuously changing current creates a continuously changing magnetic field needed for induction.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Red-shift provides evidence that the universe is expanding.",
+              "correct_answer": "True",
+              "explanation": "The red-shift of distant galaxies shows they are moving away \u2014 the greater the red-shift, the faster they recede.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The Big Bang theory states the universe has always existed.",
+              "correct_answer": "False",
+              "explanation": "The Big Bang theory states the universe began from an extremely hot, dense point approximately 13.8 billion years ago.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "A step-up transformer increases voltage and decreases current.",
+              "correct_answer": "True",
+              "explanation": "Step-up transformers increase voltage for efficient long-distance transmission. Lower current means less energy wasted as heat.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Fleming's left-hand rule applies to generators.",
+              "correct_answer": "False",
+              "explanation": "Fleming's left-hand rule applies to motors (motor effect). Fleming's right-hand rule applies to generators.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "CMBR is evidence for the Big Bang theory.",
+              "correct_answer": "True",
+              "explanation": "Cosmic microwave background radiation is the residual heat from the Big Bang, detected uniformly from all directions.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The National Grid uses step-down transformers to transmit electricity.",
+              "correct_answer": "False",
+              "explanation": "The National Grid uses step-up transformers to increase voltage for transmission (reducing current and heat losses). Step-down transformers reduce voltage for safe home use.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Red-shift means the wavelength of light from a galaxy is shorter than expected.",
+              "correct_answer": "False",
+              "explanation": "Red-shift means the wavelength is longer (shifted towards red). A galaxy moving away stretches its light waves.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ effect is the force on a current-carrying conductor in a magnetic field.",
+              "correct_answer": "motor",
+              "explanation": "The motor effect is the basis of all electric motors.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ induction generates a voltage when a conductor experiences a changing magnetic field.",
+              "correct_answer": "Electromagnetic",
+              "explanation": "This is the basis of generators and transformers.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ uses electromagnetic induction to change AC voltage.",
+              "correct_answer": "transformer",
+              "explanation": "Transformers only work with AC \u2014 they need a changing current to create a changing magnetic field.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A step-________ transformer increases voltage for efficient electricity transmission.",
+              "correct_answer": "up",
+              "explanation": "Higher voltage means lower current for same power \u2014 less energy wasted as heat in cables.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ shift is the increase in wavelength of light from distant galaxies \u2014 evidence of expansion.",
+              "correct_answer": "Red",
+              "explanation": "The greater the red-shift, the faster the galaxy is moving away \u2014 and the further it is.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Bang theory states the universe began from an extremely hot, dense point.",
+              "correct_answer": "Big",
+              "explanation": "The Big Bang occurred approximately 13.8 billion years ago.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ microwave background radiation is residual heat from the Big Bang.",
+              "correct_answer": "Cosmic",
+              "explanation": "CMBR is detected uniformly from all directions \u2014 one of the strongest pieces of evidence for the Big Bang.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Fleming's ________ hand rule finds the direction of force on a motor conductor.",
+              "correct_answer": "left",
+              "explanation": "Left hand: index = field, middle = current, thumb = force/motion.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A step-________ transformer reduces voltage for safe delivery to homes.",
+              "correct_answer": "down",
+              "explanation": "Step-down transformers at local substations reduce the high National Grid voltage to 230V for homes.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is produced around a current-carrying conductor.",
+              "correct_answer": "Electromagnetism",
+              "explanation": "The magnetic field around a wire can be increased by forming it into a coil (solenoid).",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "motor effect",
+                  "match": "force on current-carrying conductor in magnetic field"
+                },
+                {
+                  "term": "electromagnetic induction",
+                  "match": "voltage generated by changing magnetic flux"
+                },
+                {
+                  "term": "step-up transformer",
+                  "match": "increases voltage, decreases current"
+                },
+                {
+                  "term": "red-shift",
+                  "match": "wavelength increase \u2014 evidence universe is expanding"
+                },
+                {
+                  "term": "Big Bang",
+                  "match": "universe began from hot, dense point ~13.8 billion years ago"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Separate Science Extra \u2014 Physics AQA",
+      "paper": "Paper 2",
+      "display_order": 7,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Separate Science: Moments, Pressure & Nuclear Physics",
+          "cards": [
+            {
+              "keyword": "moment",
+              "definition": "turning effect of force \u2014 moment = force \u00d7 perpendicular distance from pivot (N\u22c5m)",
+              "display_order": 1
+            },
+            {
+              "keyword": "principle of moments",
+              "definition": "for balance: sum of clockwise moments = sum of anticlockwise moments",
+              "display_order": 2
+            },
+            {
+              "keyword": "hydraulic systems",
+              "definition": "pressure transmitted equally through a liquid \u2014 used to magnify force",
+              "display_order": 3
+            },
+            {
+              "keyword": "pressure in fluids",
+              "definition": "P = F/A. Liquid pressure: P = \u03c1gh",
+              "display_order": 4
+            },
+            {
+              "keyword": "nuclear fission",
+              "definition": "splitting a heavy nucleus \u2014 releases large energy \u2014 used in nuclear power stations",
+              "display_order": 5
+            },
+            {
+              "keyword": "nuclear fusion",
+              "definition": "joining light nuclei \u2014 releases more energy \u2014 occurs in stars \u2014 not yet achieved for power",
+              "display_order": 6
+            },
+            {
+              "keyword": "half-life",
+              "definition": "time for half the radioactive atoms to decay \u2014 constant for each isotope",
+              "display_order": 7
+            },
+            {
+              "keyword": "background radiation",
+              "definition": "low-level radiation from natural sources \u2014 cosmic rays, radon gas, rocks, food",
+              "display_order": 8
+            },
+            {
+              "keyword": "irradiation",
+              "definition": "exposure to radiation without becoming radioactive \u2014 e.g. food irradiation",
+              "display_order": 9
+            },
+            {
+              "keyword": "contamination",
+              "definition": "radioactive material deposited on or inside a person \u2014 source of ongoing exposure",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a moment?",
+              "options": [
+                "A) A unit of time",
+                "B) Turning effect of force \u2014 force \u00d7 perpendicular distance from pivot",
+                "C) A type of force",
+                "D) Centre of mass"
+              ],
+              "correct_answer": "B",
+              "explanation": "Moment (N\u22c5m) = force \u00d7 perpendicular distance from pivot. Longer lever = greater moment.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the principle of moments?",
+              "options": [
+                "A) All forces equal",
+                "B) Clockwise moments = anticlockwise for balance",
+                "C) Centre of mass at pivot",
+                "D) Largest force wins"
+              ],
+              "correct_answer": "B",
+              "explanation": "For rotational equilibrium: \u03a3 clockwise = \u03a3 anticlockwise moments.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do hydraulic systems work?",
+              "options": [
+                "A) Compressing gas in a cylinder",
+                "B) Pressure transmitted equally through a liquid \u2014 small force creates large force",
+                "C) Using pulleys to multiply force",
+                "D) Converting electrical to mechanical energy"
+              ],
+              "correct_answer": "B",
+              "explanation": "Pressure = F/A. Liquid transmits pressure equally \u2014 small piston (small area) \u2192 large piston (large area) \u2192 larger force.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is nuclear fission?",
+              "options": [
+                "A) Joining light nuclei",
+                "B) Radioactive alpha decay",
+                "C) Splitting a heavy nucleus \u2014 releases large energy \u2014 used in power stations",
+                "D) Fusion in stars"
+              ],
+              "correct_answer": "C",
+              "explanation": "U-235 absorbs a neutron \u2192 splits \u2192 smaller nuclei + neutrons + energy. Chain reaction controlled in reactors.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is nuclear fusion?",
+              "options": [
+                "A) Splitting heavy nuclei",
+                "B) Beta decay",
+                "C) Joining light nuclei \u2014 releases very large energy \u2014 powers stars",
+                "D) Chain reactions in reactors"
+              ],
+              "correct_answer": "C",
+              "explanation": "Fusion requires extreme conditions \u2014 not yet achieved sustainably for power generation on Earth.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is half-life?",
+              "options": [
+                "A) Time for all atoms to decay",
+                "B) Time for half the radioactive nuclei to decay \u2014 constant for each isotope",
+                "C) Rate of nuclear fission",
+                "D) Energy per decay"
+              ],
+              "correct_answer": "B",
+              "explanation": "Half-life is constant \u2014 used for carbon dating, medical imaging, nuclear waste management.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is background radiation?",
+              "options": [
+                "A) Radiation only from nuclear power stations",
+                "B) Low-level radiation from natural sources \u2014 cosmic rays, radon, rocks, food",
+                "C) Radiation from X-ray machines only",
+                "D) Only gamma radiation"
+              ],
+              "correct_answer": "B",
+              "explanation": "Background radiation is always present \u2014 mostly natural (radon gas from rocks is the largest source in the UK).",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between irradiation and contamination?",
+              "options": [
+                "A) Same thing",
+                "B) Irradiation: exposure to radiation without becoming radioactive; contamination: radioactive material on/in person",
+                "C) Irradiation is more dangerous always",
+                "D) Contamination is always external"
+              ],
+              "correct_answer": "B",
+              "explanation": "Irradiation stops when source removed. Contamination continues \u2014 the source is with the person.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is liquid pressure?",
+              "options": [
+                "A) P = F only",
+                "B) P = \u03c1gh \u2014 increases with depth and density",
+                "C) P = mgh",
+                "D) Constant throughout a liquid"
+              ],
+              "correct_answer": "B",
+              "explanation": "Liquid pressure depends on density (\u03c1), gravitational field strength (g), and depth (h).",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is nuclear fusion not used for power generation yet?",
+              "options": [
+                "A) It produces too much waste",
+                "B) Fusion requires extremely high temperatures and pressures \u2014 difficult to sustain",
+                "C) It releases too little energy",
+                "D) It produces radioactive waste"
+              ],
+              "correct_answer": "B",
+              "explanation": "Fusion requires temperatures > 100 million \u00b0C \u2014 containing the reaction is the main engineering challenge.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Moment = force \u00d7 perpendicular distance from pivot.",
+              "correct_answer": "True",
+              "explanation": "Units: N\u22c5m.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "For balance, clockwise moments exceed anticlockwise.",
+              "correct_answer": "False",
+              "explanation": "For balance: clockwise = anticlockwise.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Hydraulic systems compress liquids to multiply force.",
+              "correct_answer": "False",
+              "explanation": "Liquids are incompressible \u2014 pressure is TRANSMITTED equally.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Nuclear fission releases energy by joining nuclei.",
+              "correct_answer": "False",
+              "explanation": "FISSION splits nuclei. FUSION joins nuclei.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Half-life is affected by temperature and pressure.",
+              "correct_answer": "False",
+              "explanation": "Half-life is constant \u2014 independent of physical conditions.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Background radiation is only from man-made sources.",
+              "correct_answer": "False",
+              "explanation": "Most background radiation is NATURAL \u2014 radon, cosmic rays, rocks.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Irradiation makes an object radioactive.",
+              "correct_answer": "False",
+              "explanation": "Irradiation is exposure to radiation \u2014 the object does NOT become radioactive.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Nuclear fusion powers the Sun.",
+              "correct_answer": "True",
+              "explanation": "The Sun fuses hydrogen to helium \u2014 releasing vast energy.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Liquid pressure increases with depth.",
+              "correct_answer": "True",
+              "explanation": "P = \u03c1gh \u2014 more depth = more liquid above = more pressure.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Contamination is more dangerous than irradiation because the source stays with the person.",
+              "correct_answer": "True",
+              "explanation": "Contamination: radioactive material on/in body \u2014 ongoing exposure.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = force \u00d7 perpendicular distance from pivot \u2014 turning effect.",
+              "correct_answer": "Moment",
+              "explanation": "N\u22c5m.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Principle of moments: ________ moments = anticlockwise for balance.",
+              "correct_answer": "clockwise",
+              "explanation": "\u03a3 clockwise = \u03a3 anticlockwise.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Hydraulic systems: pressure ________ equally through liquid \u2014 multiplies force.",
+              "correct_answer": "transmitted",
+              "explanation": "Liquids are incompressible \u2014 pressure acts in all directions.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Liquid pressure P = \u03c1g________ \u2014 increases with depth.",
+              "correct_answer": "h",
+              "explanation": "\u03c1 = density, g = gravitational field strength.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Nuclear ________ splits heavy nuclei \u2014 used in power stations.",
+              "correct_answer": "fission",
+              "explanation": "Controlled chain reaction \u2014 U-235.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Nuclear ________ joins light nuclei \u2014 powers the Sun.",
+              "correct_answer": "fusion",
+              "explanation": "Requires extreme temperature/pressure.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the time for half the radioactive nuclei to decay.",
+              "correct_answer": "Half-life",
+              "explanation": "Constant \u2014 used in carbon dating.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ radiation is low-level radiation always present from natural sources.",
+              "correct_answer": "Background",
+              "explanation": "Radon gas is the largest natural source in the UK.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is exposure to radiation without becoming radioactive.",
+              "correct_answer": "Irradiation",
+              "explanation": "Stops when source removed.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ means radioactive material on or inside a person.",
+              "correct_answer": "Contamination",
+              "explanation": "More dangerous \u2014 source stays with person.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "moment",
+                  "match": "force \u00d7 perpendicular distance from pivot"
+                },
+                {
+                  "term": "principle of moments",
+                  "match": "clockwise = anticlockwise for balance"
+                },
+                {
+                  "term": "nuclear fission",
+                  "match": "splits heavy nucleus \u2014 energy \u2014 power stations"
+                },
+                {
+                  "term": "nuclear fusion",
+                  "match": "joins light nuclei \u2014 powers stars"
+                },
+                {
+                  "term": "half-life",
+                  "match": "time for half of nuclei to decay \u2014 constant"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

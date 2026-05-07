@@ -1,0 +1,191 @@
+{
+  "subject": {
+    "name": "Media Studies (Eduqas)",
+    "slug": "media-studies-eduqas",
+    "colour": "#be123c"
+  },
+  "topics": [
+    {
+      "name": "Media Language & Representation",
+      "paper": "Component 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Key Media Concepts",
+          "cards": [
+            {
+              "keyword": "media language",
+              "definition": "the codes and conventions used by media producers to communicate meaning — includes visual, technical, audio, and written codes",
+              "display_order": 1
+            },
+            {
+              "keyword": "representation",
+              "definition": "how people, places, events, and issues are portrayed in the media — involves selection and construction of images and narratives",
+              "display_order": 2
+            },
+            {
+              "keyword": "genre",
+              "definition": "a category of media product defined by shared conventions — e.g. horror film, tabloid newspaper, lifestyle magazine",
+              "display_order": 3
+            },
+            {
+              "keyword": "narrative",
+              "definition": "the way a story is structured and told — includes linear (chronological) and non-linear narratives",
+              "display_order": 4
+            },
+            {
+              "keyword": "ideology",
+              "definition": "a set of values and beliefs — media products often reflect and reinforce the dominant ideology of their producers",
+              "display_order": 5
+            },
+            {
+              "keyword": "stereotype",
+              "definition": "an oversimplified representation of a group of people — media stereotypes can reinforce or challenge social prejudices",
+              "display_order": 6
+            },
+            {
+              "keyword": "dominant reading",
+              "definition": "the interpretation of a media text that the producer intended — the preferred meaning",
+              "display_order": 7
+            },
+            {
+              "keyword": "oppositional reading",
+              "definition": "an interpretation of a media text that rejects the producer's intended meaning",
+              "display_order": 8
+            },
+            {
+              "keyword": "negotiated reading",
+              "definition": "an interpretation that partially accepts and partially rejects the producer's intended meaning",
+              "display_order": 9
+            },
+            {
+              "keyword": "Stuart Hall's encoding/decoding",
+              "definition": "the theory that producers encode meaning into media texts, but audiences decode them differently based on their own context",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Media Industries & Audiences",
+          "cards": [
+            {
+              "keyword": "media institution",
+              "definition": "the organisation responsible for producing a media product — e.g. BBC, News UK, Netflix",
+              "display_order": 1
+            },
+            {
+              "keyword": "public service broadcasting (PSB)",
+              "definition": "broadcasting funded to serve the public interest rather than purely for profit — e.g. the BBC, funded by the licence fee",
+              "display_order": 2
+            },
+            {
+              "keyword": "commercial media",
+              "definition": "media organisations that generate income through advertising, subscriptions, or sales — e.g. ITV, The Sun",
+              "display_order": 3
+            },
+            {
+              "keyword": "convergence",
+              "definition": "the merging of previously separate media technologies and platforms — e.g. smartphones combining phone, camera, TV, and internet",
+              "display_order": 4
+            },
+            {
+              "keyword": "vertical integration",
+              "definition": "when a media company owns different stages of production and distribution — e.g. a studio that also owns cinemas",
+              "display_order": 5
+            },
+            {
+              "keyword": "horizontal integration",
+              "definition": "when a media company acquires other companies at the same stage of production — e.g. buying competing studios",
+              "display_order": 6
+            },
+            {
+              "keyword": "audience demographics",
+              "definition": "measurable characteristics of an audience — e.g. age, gender, ethnicity, income. Used to target media products",
+              "display_order": 7
+            },
+            {
+              "keyword": "psychographics",
+              "definition": "audience classification based on attitudes, values, and lifestyle — used alongside demographics to understand media audiences",
+              "display_order": 8
+            },
+            {
+              "keyword": "user-generated content (UGC)",
+              "definition": "media content created by audiences rather than professional producers — e.g. YouTube videos, social media posts",
+              "display_order": 9
+            },
+            {
+              "keyword": "the digital revolution",
+              "definition": "the shift from analogue to digital media — transformed how media is produced, distributed, and consumed",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Media Products — Set Texts",
+      "paper": "Component 2",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Analysing Media Texts",
+          "cards": [
+            {
+              "keyword": "mise-en-scène",
+              "definition": "everything visible in a film or TV frame — including setting, costume, lighting, props, and character positioning",
+              "display_order": 1
+            },
+            {
+              "keyword": "camera angle",
+              "definition": "the position of the camera relative to the subject — e.g. low angle (makes subject look powerful), high angle (makes subject look weak)",
+              "display_order": 2
+            },
+            {
+              "keyword": "close-up (CU)",
+              "definition": "a shot showing detail of a face or object — used to show emotion or draw attention to something significant",
+              "display_order": 3
+            },
+            {
+              "keyword": "editing",
+              "definition": "the process of selecting and joining shots together — techniques include cuts, fades, and match-on-action",
+              "display_order": 4
+            },
+            {
+              "keyword": "diegetic sound",
+              "definition": "sound that exists within the world of the media text — e.g. dialogue, footsteps, music playing on a radio in a scene",
+              "display_order": 5
+            },
+            {
+              "keyword": "non-diegetic sound",
+              "definition": "sound added to the media text that does not exist in the story world — e.g. a film score, voiceover narration",
+              "display_order": 6
+            },
+            {
+              "keyword": "anchorage",
+              "definition": "text that fixes the meaning of an image — a caption or headline that tells the audience how to interpret a visual",
+              "display_order": 7
+            },
+            {
+              "keyword": "connotation",
+              "definition": "the deeper meaning or association suggested by a word or image — beyond its literal meaning",
+              "display_order": 8
+            },
+            {
+              "keyword": "denotation",
+              "definition": "the literal, surface meaning of a word or image — what you can objectively see or describe",
+              "display_order": 9
+            },
+            {
+              "keyword": "semiotics",
+              "definition": "the study of signs and how they create meaning — a key theoretical framework in media studies (Roland Barthes)",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1459 @@
+{
+  "subject": {
+    "name": "Psychology",
+    "slug": "psychology",
+    "colour": "#831843",
+    "exam_board": "AQA",
+    "emoji": "🧠"
+  },
+  "topics": [
+    {
+      "name": "Social Influence",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Conformity & Obedience",
+          "cards": [
+            {
+              "keyword": "conformity",
+              "definition": "a change in behaviour or beliefs due to real or imagined group pressure",
+              "display_order": 1
+            },
+            {
+              "keyword": "compliance",
+              "definition": "conforming publicly without genuinely changing private views — the shallowest type",
+              "display_order": 2
+            },
+            {
+              "keyword": "internalisation",
+              "definition": "conforming both publicly and privately — genuinely accepting group norms",
+              "display_order": 3
+            },
+            {
+              "keyword": "identification",
+              "definition": "conforming to the views of a group you value — temporary, associated with the role",
+              "display_order": 4
+            },
+            {
+              "keyword": "Asch's conformity study",
+              "definition": "participants gave obviously wrong answers to match the majority — 75% conformed at least once",
+              "display_order": 5
+            },
+            {
+              "keyword": "normative social influence",
+              "definition": "conforming to fit in and be liked — based on the need for social approval",
+              "display_order": 6
+            },
+            {
+              "keyword": "informational social influence",
+              "definition": "conforming because you believe others know better — especially in ambiguous situations",
+              "display_order": 7
+            },
+            {
+              "keyword": "Milgram's obedience study",
+              "definition": "65% of participants administered what they believed were lethal electric shocks when ordered by an authority figure",
+              "display_order": 8
+            },
+            {
+              "keyword": "agency theory",
+              "definition": "Milgram — in an 'agentic state', people see themselves as agents of authority — moral responsibility transferred to the authority",
+              "display_order": 9
+            },
+            {
+              "keyword": "social support",
+              "definition": "the presence of a dissenter reduces conformity and obedience — empowers individuals to resist",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is conformity?",
+              "options": [
+                "A) Changing behaviour due to direct instruction",
+                "B) Changing behaviour or beliefs due to group pressure",
+                "C) Obeying an authority figure",
+                "D) Agreeing with a majority for personal gain"
+              ],
+              "correct_answer": "B",
+              "explanation": "Conformity is yielding to group pressure — it can be public only (compliance) or both public and private (internalisation).",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did Asch's study find?",
+              "options": [
+                "A) Nobody conformed to wrong answers",
+                "B) Only 5% conformed",
+                "C) 75% of participants conformed at least once to obviously wrong answers",
+                "D) All participants refused to conform"
+              ],
+              "correct_answer": "C",
+              "explanation": "Asch's line study: 75% conformed at least once. 5% always conformed. Only 25% never conformed — showing the powerful pull of majority influence.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is normative social influence?",
+              "options": [
+                "A) Conforming because others know better",
+                "B) Conforming to fit in and gain social approval",
+                "C) Obeying an authority figure",
+                "D) Conforming in ambiguous situations"
+              ],
+              "correct_answer": "B",
+              "explanation": "NSI is driven by the need to be liked and accepted — we conform to avoid rejection. Most powerful in social situations where belonging matters.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did Milgram find?",
+              "options": [
+                "A) Nobody administered shocks",
+                "B) Only 5% obeyed",
+                "C) 65% administered what they believed were lethal shocks when ordered",
+                "D) All participants refused after 150V"
+              ],
+              "correct_answer": "C",
+              "explanation": "Milgram found 65% of participants continued to the maximum 450V — demonstrating the power of authority over individual conscience.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is agency theory?",
+              "options": [
+                "A) People are naturally aggressive",
+                "B) In an agentic state, people see themselves as agents of authority — transferring moral responsibility",
+                "C) Conformity is always harmful",
+                "D) People resist authority when they have social support"
+              ],
+              "correct_answer": "B",
+              "explanation": "Agency theory: people shift from autonomous state (own conscience) to agentic state (following orders) — they feel responsibility belongs to the authority.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is internalisation?",
+              "options": [
+                "A) Conforming publicly without changing private beliefs",
+                "B) Conforming both publicly and privately — genuinely accepting the group's view",
+                "C) Conforming to a valued group role",
+                "D) Obeying an authority figure"
+              ],
+              "correct_answer": "B",
+              "explanation": "Internalisation is the deepest form of conformity — the individual genuinely adopts the group's beliefs as their own.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is informational social influence?",
+              "options": [
+                "A) Conforming for social approval",
+                "B) Conforming because you believe others have more knowledge — especially in ambiguous situations",
+                "C) Conforming to an authority figure",
+                "D) Conforming in familiar situations"
+              ],
+              "correct_answer": "B",
+              "explanation": "ISI occurs when we look to others for information — especially in novel or unclear situations. We assume they know better.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is social support in the context of obedience?",
+              "options": [
+                "A) Having friends nearby during an experiment",
+                "B) The presence of a dissenter who empowers others to resist",
+                "C) Being supported by authority",
+                "D) Conforming to support others"
+              ],
+              "correct_answer": "B",
+              "explanation": "When a dissenter disobeys, obedience rates in Milgram's study dropped dramatically — seeing someone else resist makes it easier to do the same.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is compliance?",
+              "options": [
+                "A) Obeying an authority figure",
+                "B) Conforming both publicly and privately",
+                "C) Conforming publicly without genuinely changing private views",
+                "D) Refusing to conform"
+              ],
+              "correct_answer": "C",
+              "explanation": "Compliance is the shallowest form of conformity — going along with the group publicly while privately disagreeing.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is identification in conformity?",
+              "options": [
+                "A) Identifying a deviant in a group",
+                "B) Conforming to the views of a valued group — associated with the role, not permanent",
+                "C) Deep, permanent change in private beliefs",
+                "D) Refusing to obey an authority"
+              ],
+              "correct_answer": "B",
+              "explanation": "Identification — e.g. adopting a nurse's uniform values while training — is temporary. When the role ends, the conformity may cease.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Internalisation is the shallowest form of conformity.",
+              "correct_answer": "False",
+              "explanation": "Compliance is the shallowest form. Internalisation is the deepest — genuine private acceptance of group norms.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Milgram found 65% of participants continued to the maximum 450V.",
+              "correct_answer": "True",
+              "explanation": "65% gave what they believed were lethal shocks — demonstrating the power of legitimate authority.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Normative social influence is based on wanting to be liked.",
+              "correct_answer": "True",
+              "explanation": "NSI is driven by the need for social acceptance — we conform to avoid rejection and gain approval.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Asch's study showed that nobody conforms to obviously wrong answers.",
+              "correct_answer": "False",
+              "explanation": "75% of participants conformed at least once — only 25% never conformed at all.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "In agency theory, the agentic state means acting on your own conscience.",
+              "correct_answer": "False",
+              "explanation": "In the AGENTIC state, people act as agents of authority and transfer responsibility to the authority. Acting on your own conscience is the AUTONOMOUS state.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Informational social influence is most powerful in familiar situations.",
+              "correct_answer": "False",
+              "explanation": "ISI is most powerful in AMBIGUOUS or NEW situations — when people are uncertain, they look to others for information.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Social support from a dissenter reduces obedience.",
+              "correct_answer": "True",
+              "explanation": "When Milgram introduced a disobedient confederate, obedience dropped from 65% to around 10%.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Compliance involves genuinely changing private beliefs.",
+              "correct_answer": "False",
+              "explanation": "Compliance is only public conformity — private beliefs remain unchanged. Internalisation involves genuinely adopting new beliefs.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Identification is a permanent form of conformity.",
+              "correct_answer": "False",
+              "explanation": "Identification is temporary — it lasts while the person values the group or holds the role. It is not as deep as internalisation.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Asch's study demonstrates the power of majority influence.",
+              "correct_answer": "True",
+              "explanation": "Even when the majority was clearly wrong, participants often agreed — showing how powerful group pressure is.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a change in behaviour or beliefs due to real or imagined group pressure.",
+              "correct_answer": "Conformity",
+              "explanation": "Conformity can be compliance (public only), identification (role-based), or internalisation (genuine).",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is conforming publicly without genuinely changing private views — the shallowest form.",
+              "correct_answer": "Compliance",
+              "explanation": "Compliance is surface-level — the person agrees outwardly but privately disagrees.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is conforming both publicly and privately — genuinely accepting group norms.",
+              "correct_answer": "Internalisation",
+              "explanation": "Internalisation is the deepest form of conformity — the belief becomes the person's own.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ social influence is conforming to fit in and be liked.",
+              "correct_answer": "Normative",
+              "explanation": "NSI is driven by the need for social approval and fear of rejection.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ social influence is conforming because others seem to know better.",
+              "correct_answer": "Informational",
+              "explanation": "ISI is most powerful in ambiguous situations where we are uncertain about the correct response.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Milgram found ________ % of participants administered what they believed were lethal shocks.",
+              "correct_answer": "65",
+              "explanation": "This shocking finding demonstrated the power of legitimate authority over individual conscience.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Asch found ________ % of participants conformed at least once to obviously wrong answers.",
+              "correct_answer": "75",
+              "explanation": "Only 25% of participants never conformed — showing the extraordinary power of majority influence.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ theory: in an agentic state, people transfer moral responsibility to an authority figure.",
+              "correct_answer": "Agency",
+              "explanation": "The shift from autonomous to agentic state explains obedience — people feel they are 'just following orders'.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The presence of a ________ reduces conformity and obedience by empowering resistance.",
+              "correct_answer": "dissenter",
+              "explanation": "When someone else resists, it becomes easier to resist yourself — social support is powerful.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is conforming to the views of a valued group — temporary and role-related.",
+              "correct_answer": "Identification",
+              "explanation": "E.g. a new nurse adopts medical values — but these may change when the role ends.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "compliance",
+                  "match": "public conformity without private change — shallowest"
+                },
+                {
+                  "term": "internalisation",
+                  "match": "public and private conformity — deepest, genuine"
+                },
+                {
+                  "term": "normative social influence",
+                  "match": "conforming to fit in and be liked"
+                },
+                {
+                  "term": "informational social influence",
+                  "match": "conforming because others seem to know better"
+                },
+                {
+                  "term": "agency theory",
+                  "match": "agentic state — moral responsibility transferred to authority"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Memory",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Models of Memory",
+          "cards": [
+            {
+              "keyword": "multi-store model",
+              "definition": "Atkinson & Shiffrin — sensory register → short-term memory → long-term memory. Information passes through stores with rehearsal",
+              "display_order": 1
+            },
+            {
+              "keyword": "sensory register",
+              "definition": "the first store — holds all sensory information briefly (< 1 second); most is lost unless attended to",
+              "display_order": 2
+            },
+            {
+              "keyword": "short-term memory (STM)",
+              "definition": "limited capacity (7±2 items), short duration (15–30 seconds), encoded acoustically (by sound)",
+              "display_order": 3
+            },
+            {
+              "keyword": "long-term memory (LTM)",
+              "definition": "unlimited capacity, potentially permanent duration, encoded semantically (by meaning)",
+              "display_order": 4
+            },
+            {
+              "keyword": "rehearsal",
+              "definition": "the repetition of information to transfer it from STM to LTM in the multi-store model",
+              "display_order": 5
+            },
+            {
+              "keyword": "working memory model",
+              "definition": "Baddeley & Hitch — STM has multiple components: central executive, phonological loop, visuospatial sketchpad, episodic buffer",
+              "display_order": 6
+            },
+            {
+              "keyword": "central executive",
+              "definition": "the 'boss' of working memory — coordinates the slave systems and allocates attention",
+              "display_order": 7
+            },
+            {
+              "keyword": "phonological loop",
+              "definition": "processes and stores verbal/acoustic information — includes the phonological store and articulatory process",
+              "display_order": 8
+            },
+            {
+              "keyword": "visuospatial sketchpad",
+              "definition": "processes and stores visual and spatial information — the 'inner eye'",
+              "display_order": 9
+            },
+            {
+              "keyword": "episodic buffer",
+              "definition": "a temporary store integrating information from the other components and LTM",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What are the three stores in the multi-store model?",
+              "options": [
+                "A) Sensory, working, long-term",
+                "B) Sensory register, short-term memory, long-term memory",
+                "C) STM, LTM, rehearsal",
+                "D) Iconic, echoic, semantic"
+              ],
+              "correct_answer": "B",
+              "explanation": "Atkinson & Shiffrin's multi-store model: information flows from sensory register → STM → LTM through attention and rehearsal.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the capacity of short-term memory?",
+              "options": [
+                "A) Unlimited",
+                "B) 1–3 items",
+                "C) 7±2 items",
+                "D) 100+ items"
+              ],
+              "correct_answer": "C",
+              "explanation": "Miller's magic number: STM can hold 7 (plus or minus 2) items. Chunking can increase this.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How is information encoded in long-term memory?",
+              "options": [
+                "A) Acoustically (by sound)",
+                "B) Visually (by sight)",
+                "C) Semantically (by meaning)",
+                "D) Procedurally (by action"
+              ],
+              "correct_answer": "C",
+              "explanation": "LTM is mainly encoded semantically — by the meaning of information. STM uses mainly acoustic encoding.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the central executive in working memory?",
+              "options": [
+                "A) A phonological store",
+                "B) The boss of working memory — allocates attention and coordinates slave systems",
+                "C) A visual processing unit",
+                "D) A rehearsal loop"
+              ],
+              "correct_answer": "B",
+              "explanation": "The central executive is the most important component — it directs attention and coordinates the phonological loop and visuospatial sketchpad.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the phonological loop?",
+              "options": [
+                "A) A visual processing system",
+                "B) A temporary store for spatial information",
+                "C) A component processing and storing verbal/acoustic information",
+                "D) The central attention controller"
+              ],
+              "correct_answer": "C",
+              "explanation": "The phonological loop has two parts: the phonological store (holds sound-based information) and the articulatory process (the 'inner voice' that rehearses information).",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the visuospatial sketchpad?",
+              "options": [
+                "A) Processes verbal information",
+                "B) Coordinates working memory",
+                "C) Processes and stores visual and spatial information",
+                "D) Integrates information from LTM"
+              ],
+              "correct_answer": "C",
+              "explanation": "The visuospatial sketchpad (the 'inner eye') processes visual images and spatial relationships — e.g. imagining a route.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the role of rehearsal in the multi-store model?",
+              "options": [
+                "A) It retrieves information from LTM",
+                "B) It transfers information from STM to LTM",
+                "C) It encodes information semantically",
+                "D) It stores information in the sensory register"
+              ],
+              "correct_answer": "B",
+              "explanation": "In the multi-store model, maintenance rehearsal transfers information from STM to LTM by repetition — without rehearsal, information decays from STM.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the episodic buffer?",
+              "options": [
+                "A) The boss of working memory",
+                "B) A visual spatial store",
+                "C) A temporary store integrating information from other WMM components and LTM",
+                "D) The long-term memory store"
+              ],
+              "correct_answer": "C",
+              "explanation": "Baddeley added the episodic buffer later — it is a temporary, limited-capacity store that integrates information from the phonological loop, visuospatial sketchpad, and LTM.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the duration of short-term memory without rehearsal?",
+              "options": [
+                "A) Unlimited",
+                "B) 30 minutes",
+                "C) 15–30 seconds",
+                "D) 1 minute"
+              ],
+              "correct_answer": "C",
+              "explanation": "Peterson & Peterson found STM duration is 15–30 seconds without rehearsal — information rapidly decays.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the capacity of long-term memory?",
+              "options": [
+                "A) 7±2 items",
+                "B) Limited to recent memories",
+                "C) Unlimited",
+                "D) Around 100 items"
+              ],
+              "correct_answer": "C",
+              "explanation": "LTM has unlimited capacity and potentially permanent duration — though retrieval may fail.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The multi-store model was proposed by Atkinson and Shiffrin.",
+              "correct_answer": "True",
+              "explanation": "Atkinson & Shiffrin (1968) proposed the three-store model: sensory register → STM → LTM.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Short-term memory has unlimited capacity.",
+              "correct_answer": "False",
+              "explanation": "STM has limited capacity — 7±2 items (Miller). LTM has unlimited capacity.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "LTM is encoded mainly acoustically.",
+              "correct_answer": "False",
+              "explanation": "LTM is encoded mainly semantically (by meaning). STM is encoded mainly acoustically (by sound).",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The central executive is a slave system in the working memory model.",
+              "correct_answer": "False",
+              "explanation": "The central executive is the BOSS — it controls the slave systems (phonological loop and visuospatial sketchpad).",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The phonological loop processes visual and spatial information.",
+              "correct_answer": "False",
+              "explanation": "The phonological loop processes VERBAL/ACOUSTIC information. The visuospatial sketchpad processes visual and spatial information.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Rehearsal transfers information from STM to LTM in the multi-store model.",
+              "correct_answer": "True",
+              "explanation": "Without rehearsal, information in STM decays within 15–30 seconds.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The visuospatial sketchpad is sometimes called the inner eye.",
+              "correct_answer": "True",
+              "explanation": "The visuospatial sketchpad processes visual images and spatial information — like an inner eye.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The episodic buffer integrates information from all working memory components and LTM.",
+              "correct_answer": "True",
+              "explanation": "The episodic buffer links working memory to LTM — it was added by Baddeley in 2000.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "STM duration without rehearsal is about 15–30 seconds.",
+              "correct_answer": "True",
+              "explanation": "Peterson & Peterson demonstrated rapid decay of STM without rehearsal.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "LTM has limited duration, lasting about one week.",
+              "correct_answer": "False",
+              "explanation": "LTM has potentially permanent duration — though retrieval can fail. There is no inherent time limit.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The multi-store model has three stores: sensory register, ________, and LTM.",
+              "correct_answer": "STM",
+              "explanation": "Atkinson & Shiffrin proposed information flows through these stores via attention and rehearsal.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "STM has a capacity of ________ (±2) items.",
+              "correct_answer": "7",
+              "explanation": "Miller's magic number — chunking can increase effective capacity by grouping items.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "STM is encoded mainly ________ (by sound).",
+              "correct_answer": "acoustically",
+              "explanation": "Conrad showed STM confuses acoustically similar letters — evidence for acoustic encoding.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "LTM is encoded mainly ________ (by meaning).",
+              "correct_answer": "semantically",
+              "explanation": "Baddeley showed LTM confuses semantically similar words — evidence for semantic encoding.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "In the working memory model, the ________ executive coordinates all other components.",
+              "correct_answer": "central",
+              "explanation": "The central executive is the most important but least understood component of working memory.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ loop processes and stores verbal and acoustic information.",
+              "correct_answer": "phonological",
+              "explanation": "The phonological loop has the phonological store and articulatory process (inner voice).",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ sketchpad processes visual and spatial information.",
+              "correct_answer": "visuospatial",
+              "explanation": "Also called the 'inner eye' — it handles imagery and spatial reasoning.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ buffer integrates information from WMM components and LTM.",
+              "correct_answer": "episodic",
+              "explanation": "Baddeley added the episodic buffer in 2000 to explain how WMM links to LTM.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Without ________, information in STM decays within 15–30 seconds.",
+              "correct_answer": "rehearsal",
+              "explanation": "Rehearsal maintains information in STM and can transfer it to LTM.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "LTM has ________ capacity and potentially permanent duration.",
+              "correct_answer": "unlimited",
+              "explanation": "Unlike STM, LTM appears to have no limits on how much can be stored.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "multi-store model",
+                  "match": "sensory register → STM → LTM via attention and rehearsal"
+                },
+                {
+                  "term": "STM",
+                  "match": "capacity 7±2, duration 15–30s, acoustic encoding"
+                },
+                {
+                  "term": "LTM",
+                  "match": "unlimited capacity, permanent, semantic encoding"
+                },
+                {
+                  "term": "central executive",
+                  "match": "boss of working memory — allocates attention"
+                },
+                {
+                  "term": "phonological loop",
+                  "match": "processes verbal/acoustic information"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Psychopathology",
+      "paper": "Paper 2",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Definitions & Treatments",
+          "cards": [
+            {
+              "keyword": "statistical infrequency",
+              "definition": "defining abnormality as behaviour that is rare or statistically unusual — e.g. an IQ below 70",
+              "display_order": 1
+            },
+            {
+              "keyword": "deviation from social norms",
+              "definition": "behaviour that violates the implicit rules of society — what is 'normal' varies by culture and era",
+              "display_order": 2
+            },
+            {
+              "keyword": "failure to function adequately",
+              "definition": "abnormality defined as inability to maintain normal day-to-day functioning — Rosenhan & Seligman criteria",
+              "display_order": 3
+            },
+            {
+              "keyword": "deviation from ideal mental health",
+              "definition": "Jahoda — abnormality is the absence of positive mental health criteria, e.g. self-actualisation, autonomy",
+              "display_order": 4
+            },
+            {
+              "keyword": "cognitive behavioural therapy (CBT)",
+              "definition": "a talking therapy targeting faulty thinking patterns (cognitions) and their effects on behaviour",
+              "display_order": 5
+            },
+            {
+              "keyword": "systematic desensitisation",
+              "definition": "a behavioural therapy for phobias — gradual exposure to feared stimuli while maintaining relaxation",
+              "display_order": 6
+            },
+            {
+              "keyword": "flooding",
+              "definition": "a behavioural therapy — immediate, prolonged exposure to a feared stimulus — extinction of fear response",
+              "display_order": 7
+            },
+            {
+              "keyword": "psychoanalysis",
+              "definition": "Freud — treating mental illness by uncovering unconscious conflicts through techniques like free association",
+              "display_order": 8
+            },
+            {
+              "keyword": "drug therapy",
+              "definition": "using medication to treat mental illness — e.g. SSRIs for depression, antipsychotics for schizophrenia",
+              "display_order": 9
+            },
+            {
+              "keyword": "the behavioural approach",
+              "definition": "explains abnormality as learnt behaviour — phobias acquired through classical conditioning",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is statistical infrequency as a definition of abnormality?",
+              "options": [
+                "A) Any behaviour that breaks social rules",
+                "B) Behaviour that is statistically rare or unusual",
+                "C) Failure to cope with daily life",
+                "D) Absence of positive mental health"
+              ],
+              "correct_answer": "B",
+              "explanation": "Statistical infrequency defines abnormality as anything rare — e.g. IQ below 70 or above 130. Problem: some rare behaviours are desirable (high IQ).",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is CBT?",
+              "options": [
+                "A) A drug treatment for anxiety",
+                "B) A talking therapy targeting faulty thinking and its effect on behaviour",
+                "C) Gradual exposure to feared stimuli",
+                "D) Psychoanalytic treatment of unconscious conflict"
+              ],
+              "correct_answer": "B",
+              "explanation": "CBT identifies and challenges negative automatic thoughts — replacing faulty cognitions with more realistic thinking patterns.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is systematic desensitisation?",
+              "options": [
+                "A) Immediate flooding with the feared stimulus",
+                "B) A drug therapy for phobias",
+                "C) Gradual exposure to feared stimuli combined with relaxation",
+                "D) Exploring unconscious fears through hypnosis"
+              ],
+              "correct_answer": "C",
+              "explanation": "SD works by pairing the feared stimulus with relaxation — gradually working up a hierarchy of anxiety from least to most feared.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the behavioural explanation of phobias?",
+              "options": [
+                "A) Phobias are caused by unconscious conflict",
+                "B) Phobias are irrational thought patterns",
+                "C) Phobias are learnt through classical conditioning — e.g. a frightening experience with a dog",
+                "D) Phobias are inherited genetically"
+              ],
+              "correct_answer": "C",
+              "explanation": "The two-process model (Mowrer): phobias are acquired through classical conditioning and maintained through operant conditioning (avoidance reduces fear).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is deviation from social norms?",
+              "options": [
+                "A) Statistically rare behaviour",
+                "B) Behaviour violating the implicit social rules of society",
+                "C) Failure to cope with daily tasks",
+                "D) Absence of self-actualisation"
+              ],
+              "correct_answer": "B",
+              "explanation": "Deviation from social norms defines abnormality as violating unwritten rules — but what is normal varies by culture and time period.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is flooding as a therapy?",
+              "options": [
+                "A) Gradual, calm exposure to a feared stimulus",
+                "B) Immediate, prolonged exposure to a feared stimulus until anxiety reduces",
+                "C) Using medication to reduce anxiety",
+                "D) Talking through fears in a therapeutic setting"
+              ],
+              "correct_answer": "B",
+              "explanation": "Flooding exposes patients to the maximum feared stimulus immediately — anxiety peaks then decreases (extinction) as the CS-fear association breaks down.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is drug therapy in psychology?",
+              "options": [
+                "A) A type of talking therapy",
+                "B) Behavioural techniques to change abnormal behaviour",
+                "C) Medication to treat mental illness — e.g. SSRIs for depression",
+                "D) Exposure therapy for phobias"
+              ],
+              "correct_answer": "C",
+              "explanation": "Drug therapies target neurochemical imbalances — SSRIs increase serotonin for depression; antipsychotics reduce dopamine for schizophrenia.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'failure to function adequately'?",
+              "options": [
+                "A) Having an IQ below 70",
+                "B) Breaking social norms",
+                "C) Inability to maintain normal day-to-day functioning",
+                "D) Absence of positive mental health criteria"
+              ],
+              "correct_answer": "C",
+              "explanation": "Rosenhan & Seligman proposed criteria including: personal distress, unpredictability, maladaptive behaviour, and inability to function normally.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Jahoda's deviation from ideal mental health?",
+              "options": [
+                "A) Statistical rarity",
+                "B) Breaking social norms",
+                "C) Absence of positive health criteria — e.g. self-actualisation, autonomy, accurate self-perception",
+                "D) Failure to maintain relationships"
+              ],
+              "correct_answer": "C",
+              "explanation": "Jahoda defined abnormality as the absence of positive mental health — including criteria like self-actualisation, autonomy, and resistance to stress.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main aim of psychoanalysis?",
+              "options": [
+                "A) To change faulty thinking patterns",
+                "B) To gradually expose patients to feared stimuli",
+                "C) To uncover and resolve unconscious conflicts",
+                "D) To alter neurochemical imbalances"
+              ],
+              "correct_answer": "C",
+              "explanation": "Psychoanalysis (Freud) uses techniques like free association, dream analysis, and transference to bring unconscious conflicts into consciousness and resolve them.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Statistical infrequency means any unusual behaviour is abnormal.",
+              "correct_answer": "False",
+              "explanation": "Statistical infrequency defines abnormality as rare behaviour — but some rare behaviours are desirable (e.g. exceptional talent).",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "CBT targets faulty thinking patterns and their effect on behaviour.",
+              "correct_answer": "True",
+              "explanation": "CBT identifies negative automatic thoughts and challenges them — replacing faulty cognitions with realistic alternatives.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Systematic desensitisation involves immediate, prolonged exposure to a feared stimulus.",
+              "correct_answer": "False",
+              "explanation": "Systematic desensitisation uses GRADUAL exposure combined with relaxation. FLOODING involves immediate, prolonged exposure.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Phobias are explained by the behavioural approach as learnt through classical conditioning.",
+              "correct_answer": "True",
+              "explanation": "The two-process model: phobias are acquired via classical conditioning and maintained via operant conditioning (avoidance).",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Deviation from social norms is the same across all cultures.",
+              "correct_answer": "False",
+              "explanation": "What counts as 'normal' varies by culture and historical era — this is a significant limitation of this definition.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Drug therapy targets neurochemical imbalances in the brain.",
+              "correct_answer": "True",
+              "explanation": "E.g. SSRIs increase serotonin availability for depression; antipsychotics reduce excess dopamine in schizophrenia.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Failure to function adequately focuses on statistical rarity.",
+              "correct_answer": "False",
+              "explanation": "Failure to function adequately focuses on inability to maintain normal daily life — personal distress, maladaptive behaviour, etc.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Psychoanalysis aims to uncover unconscious conflicts.",
+              "correct_answer": "True",
+              "explanation": "Freudian psychoanalysis uses free association and dream analysis to bring unconscious material to conscious awareness.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Jahoda's ideal mental health requires the absence of all problems.",
+              "correct_answer": "False",
+              "explanation": "Jahoda's criteria are POSITIVE — self-actualisation, autonomy, accurate perception, resistance to stress. It is the ABSENCE of these that defines abnormality.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Flooding extinguishes fear through prolonged exposure — anxiety peaks then reduces.",
+              "correct_answer": "True",
+              "explanation": "During flooding, the conditioned anxiety response peaks then extinguishes as the patient realises the stimulus is harmless.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ infrequency defines abnormality as statistically rare behaviour.",
+              "correct_answer": "Statistical",
+              "explanation": "Problem: some rare traits are positive (genius) and some common ones are undesirable (depression).",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ from social norms defines abnormality as violating society's implicit rules.",
+              "correct_answer": "Deviation",
+              "explanation": "What is considered normal varies by culture and era — a key limitation.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ to function adequately: inability to maintain normal day-to-day activities.",
+              "correct_answer": "Failure",
+              "explanation": "Criteria include personal distress, unpredictability, and maladaptive behaviour.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Jahoda's deviation from ________ mental health: abnormality as absence of positive criteria.",
+              "correct_answer": "ideal",
+              "explanation": "Positive criteria include self-actualisation, autonomy, and accurate self-perception.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ therapy targets faulty thinking and its effect on behaviour.",
+              "correct_answer": "Cognitive behavioural",
+              "explanation": "CBT is used for depression, anxiety, and phobias — challenging negative automatic thoughts.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Systematic ________ pairs gradual exposure to feared stimuli with relaxation.",
+              "correct_answer": "desensitisation",
+              "explanation": "Starting with least feared stimuli, patients work up an anxiety hierarchy.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ exposes patients immediately to the maximum feared stimulus.",
+              "correct_answer": "Flooding",
+              "explanation": "Prolonged exposure causes anxiety to peak then extinguish — the fear response is removed.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ therapy uses medication — e.g. SSRIs for depression.",
+              "correct_answer": "Drug",
+              "explanation": "SSRIs increase serotonin availability, improving mood in depression.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ analysis uncovers unconscious conflicts through free association and dream analysis.",
+              "correct_answer": "Psycho",
+              "explanation": "Psychoanalysis is Freud's approach — bringing repressed material to conscious awareness.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ approach explains phobias as learnt through classical conditioning.",
+              "correct_answer": "behavioural",
+              "explanation": "Classical conditioning: neutral stimulus paired with frightening event → becomes conditioned fear stimulus.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "CBT",
+                  "match": "targets faulty thinking patterns — replaces with realistic cognitions"
+                },
+                {
+                  "term": "systematic desensitisation",
+                  "match": "gradual exposure + relaxation — treats phobias"
+                },
+                {
+                  "term": "flooding",
+                  "match": "immediate prolonged exposure — extinguishes fear"
+                },
+                {
+                  "term": "statistical infrequency",
+                  "match": "abnormality = statistically rare behaviour"
+                },
+                {
+                  "term": "deviation from social norms",
+                  "match": "abnormality = violating society's implicit rules"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research Methods",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Research Methods Basics",
+          "cards": [
+            {
+              "keyword": "hypothesis",
+              "definition": "a clear, testable prediction of what is expected to happen in a study",
+              "display_order": 1
+            },
+            {
+              "keyword": "independent variable (IV)",
+              "definition": "the variable manipulated by the researcher to see its effect",
+              "display_order": 2
+            },
+            {
+              "keyword": "dependent variable (DV)",
+              "definition": "the variable measured by the researcher — what is affected by the IV",
+              "display_order": 3
+            },
+            {
+              "keyword": "extraneous variable",
+              "definition": "any variable other than the IV that might affect the DV — must be controlled",
+              "display_order": 4
+            },
+            {
+              "keyword": "operationalisation",
+              "definition": "defining variables in a measurable way — e.g. 'stress' operationalised as 'heart rate'",
+              "display_order": 5
+            },
+            {
+              "keyword": "laboratory experiment",
+              "definition": "takes place in a controlled environment — high internal validity but low ecological validity",
+              "display_order": 6
+            },
+            {
+              "keyword": "field experiment",
+              "definition": "takes place in a natural setting — higher ecological validity but less control",
+              "display_order": 7
+            },
+            {
+              "keyword": "natural experiment",
+              "definition": "IV is naturally occurring rather than manipulated — researcher cannot randomly allocate participants",
+              "display_order": 8
+            },
+            {
+              "keyword": "correlation",
+              "definition": "a measure of the relationship between two variables — does not establish causation",
+              "display_order": 9
+            },
+            {
+              "keyword": "ethical guidelines",
+              "definition": "rules protecting participants — informed consent, deception, right to withdraw, confidentiality, debriefing",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is an independent variable?",
+              "options": [
+                "A) The variable being measured",
+                "B) The variable manipulated by the researcher",
+                "C) Any uncontrolled variable",
+                "D) The hypothesis being tested"
+              ],
+              "correct_answer": "B",
+              "explanation": "The IV is what the researcher changes. The DV is what changes as a result. E.g. IV = amount of sleep, DV = reaction time.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is operationalisation?",
+              "options": [
+                "A) Writing a hypothesis",
+                "B) Defining variables in a measurable, testable way",
+                "C) Choosing which participants to study",
+                "D) Conducting an experiment in a laboratory"
+              ],
+              "correct_answer": "B",
+              "explanation": "Operationalisation makes abstract concepts measurable — e.g. 'aggression' operationalised as 'number of times a child hits another per hour'.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a strength of laboratory experiments?",
+              "options": [
+                "A) High ecological validity",
+                "B) High mundane realism",
+                "C) High internal validity — good control over extraneous variables",
+                "D) Cannot be replicated"
+              ],
+              "correct_answer": "C",
+              "explanation": "Lab experiments offer tight control — allowing cause-and-effect conclusions. Weakness: artificial setting reduces ecological validity.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a correlation?",
+              "options": [
+                "A) An experiment showing cause and effect",
+                "B) A measure of the relationship between two variables — not causation",
+                "C) A research method using interviews",
+                "D) A type of experimental design"
+              ],
+              "correct_answer": "B",
+              "explanation": "Correlation shows whether two variables are related (positive, negative, or zero) — but cannot establish which causes the other.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a field experiment?",
+              "options": [
+                "A) An experiment in a controlled lab",
+                "B) An experiment in a natural setting with IV manipulation",
+                "C) Naturally occurring IV with no manipulation",
+                "D) A questionnaire study"
+              ],
+              "correct_answer": "B",
+              "explanation": "Field experiments manipulate the IV in a real-world setting — higher ecological validity than lab experiments but less control over extraneous variables.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are ethical guidelines designed to protect?",
+              "options": [
+                "A) The researcher's reputation",
+                "B) The validity of findings",
+                "C) Participants from harm — including psychological harm",
+                "D) The confidentiality of data only"
+              ],
+              "correct_answer": "C",
+              "explanation": "BPS ethical guidelines protect participants — covering informed consent, deception, right to withdraw, protection from harm, confidentiality, and debriefing.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a natural experiment?",
+              "options": [
+                "A) An experiment conducted outdoors",
+                "B) An experiment where the IV occurs naturally — researcher does not manipulate it",
+                "C) A correlational study",
+                "D) An experiment with no hypothesis"
+              ],
+              "correct_answer": "B",
+              "explanation": "Natural experiments use naturally occurring variations in the IV — e.g. studying effects of a natural disaster on stress. Higher ecological validity but cannot establish causation.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the dependent variable?",
+              "options": [
+                "A) The variable manipulated by the researcher",
+                "B) Any variable that interferes with results",
+                "C) The variable measured to assess the effect of the IV",
+                "D) The baseline measure before the experiment"
+              ],
+              "correct_answer": "C",
+              "explanation": "The DV is what is measured — it is expected to change as a result of the IV. E.g. if IV = caffeine dose, DV = reaction time.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an extraneous variable?",
+              "options": [
+                "A) The variable being measured",
+                "B) The variable being manipulated",
+                "C) Any variable other than the IV that could affect the DV",
+                "D) A variable deliberately introduced by the researcher"
+              ],
+              "correct_answer": "C",
+              "explanation": "Extraneous variables are controlled in well-designed studies — if they systematically affect results they become confounding variables.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the right to withdraw?",
+              "options": [
+                "A) Researchers can stop the study early",
+                "B) Participants can leave a study at any time without penalty",
+                "C) Participants must complete the full study",
+                "D) Researchers can withhold some data"
+              ],
+              "correct_answer": "B",
+              "explanation": "The right to withdraw is a key ethical guideline — participants must be free to leave at any time without pressure or penalty.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The independent variable is the variable measured in a study.",
+              "correct_answer": "False",
+              "explanation": "The IV is MANIPULATED by the researcher. The DV (dependent variable) is MEASURED.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Operationalisation means defining variables in a measurable way.",
+              "correct_answer": "True",
+              "explanation": "Variables must be operationalised to make them testable — e.g. 'memory' measured as 'number of words recalled'.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Laboratory experiments have high ecological validity.",
+              "correct_answer": "False",
+              "explanation": "Lab experiments have high INTERNAL validity (control) but low ECOLOGICAL validity — the artificial setting lacks mundane realism.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "A correlation can establish cause and effect.",
+              "correct_answer": "False",
+              "explanation": "Correlation shows a relationship but cannot establish causation — a third variable may explain both.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Field experiments take place in natural settings.",
+              "correct_answer": "True",
+              "explanation": "Field experiments manipulate the IV in real-world settings — more ecological validity than lab experiments.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Participants must be fully debriefed after a study involving deception.",
+              "correct_answer": "True",
+              "explanation": "Debriefing informs participants of the study's true purpose and allows them to withdraw their data.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "In a natural experiment, the researcher manipulates the IV.",
+              "correct_answer": "False",
+              "explanation": "In a natural experiment, the IV occurs naturally — the researcher does not control it.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Extraneous variables must be controlled to maintain internal validity.",
+              "correct_answer": "True",
+              "explanation": "Uncontrolled extraneous variables can confound results — making it impossible to conclude the IV caused changes in the DV.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Informed consent means participants must know the full hypothesis before taking part.",
+              "correct_answer": "False",
+              "explanation": "Informed consent means participants are given enough information to decide whether to take part — but full hypotheses are not always disclosed (to avoid demand characteristics).",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Higher ecological validity means findings are more generalisable to real life.",
+              "correct_answer": "True",
+              "explanation": "Ecological validity refers to how well findings apply to real-world settings — field experiments have higher ecological validity than lab experiments.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a clear, testable prediction of what will happen in a study.",
+              "correct_answer": "hypothesis",
+              "explanation": "Hypotheses must be operationalised — variables defined in measurable terms.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ variable is manipulated by the researcher.",
+              "correct_answer": "independent",
+              "explanation": "The IV is what is changed. The DV is what is measured.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ variable is measured by the researcher — affected by the IV.",
+              "correct_answer": "dependent",
+              "explanation": "The DV shows the effect of the IV manipulation.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is defining variables in a measurable way.",
+              "correct_answer": "Operationalisation",
+              "explanation": "E.g. 'anxiety' operationalised as 'score on a validated anxiety questionnaire'.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Lab experiments have high ________ validity but low ecological validity.",
+              "correct_answer": "internal",
+              "explanation": "Tight control in labs allows cause-and-effect conclusions but limits real-world generalisability.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ shows a relationship between two variables but not causation.",
+              "correct_answer": "correlation",
+              "explanation": "Correlation coefficient ranges from −1 (perfect negative) to +1 (perfect positive).",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ experiments take place in natural settings with the IV manipulated.",
+              "correct_answer": "Field",
+              "explanation": "Higher ecological validity than labs — but less control over extraneous variables.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ experiments use naturally occurring IV changes — researcher does not manipulate.",
+              "correct_answer": "Natural",
+              "explanation": "Natural experiments have high ecological validity but cannot establish causation.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ variables must be controlled to prevent them confounding results.",
+              "correct_answer": "Extraneous",
+              "explanation": "If extraneous variables are not controlled, they become confounding variables.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The right to ________ means participants can leave a study at any time without penalty.",
+              "correct_answer": "withdraw",
+              "explanation": "This is a key ethical guideline protecting participant autonomy.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "independent variable",
+                  "match": "the variable manipulated by the researcher"
+                },
+                {
+                  "term": "dependent variable",
+                  "match": "the variable measured — affected by the IV"
+                },
+                {
+                  "term": "operationalisation",
+                  "match": "defining variables in measurable terms"
+                },
+                {
+                  "term": "laboratory experiment",
+                  "match": "controlled setting — high internal, low ecological validity"
+                },
+                {
+                  "term": "correlation",
+                  "match": "measures relationship between variables — not causation"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

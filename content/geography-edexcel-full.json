@@ -1,0 +1,373 @@
+{
+  "subject": {
+    "name": "Geography",
+    "slug": "geography",
+    "colour": "#065f46",
+    "exam_board": "Edexcel",
+    "emoji": "🌍"
+  },
+  "topics": [
+    {
+      "name": "Hazardous Earth",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Tectonic Hazards",
+          "cards": [
+            {
+              "keyword": "tectonic plate",
+              "definition": "a large section of Earth's crust that moves slowly on the mantle — plates carry continents and ocean floor",
+              "display_order": 1
+            },
+            {
+              "keyword": "plate boundary",
+              "definition": "where two tectonic plates meet — three types: constructive, destructive, conservative",
+              "display_order": 2
+            },
+            {
+              "keyword": "constructive boundary",
+              "definition": "plates move apart — magma rises to fill the gap — new crust formed — e.g. Mid-Atlantic Ridge",
+              "display_order": 3
+            },
+            {
+              "keyword": "destructive boundary",
+              "definition": "plates move together — one plate (denser oceanic) subducts under the other — volcanoes and earthquakes",
+              "display_order": 4
+            },
+            {
+              "keyword": "conservative boundary",
+              "definition": "plates slide past each other — crust neither created nor destroyed — major earthquakes e.g. San Andreas Fault",
+              "display_order": 5
+            },
+            {
+              "keyword": "earthquake",
+              "definition": "vibrations through the Earth's crust caused by sudden movement of tectonic plates",
+              "display_order": 6
+            },
+            {
+              "keyword": "focus",
+              "definition": "the point underground where an earthquake originates — directly below the epicentre",
+              "display_order": 7
+            },
+            {
+              "keyword": "epicentre",
+              "definition": "the point on the surface directly above the earthquake's focus — experiences most damage",
+              "display_order": 8
+            },
+            {
+              "keyword": "volcano",
+              "definition": "an opening in the Earth's crust where magma, gases, and ash erupt — associated with destructive and constructive boundaries",
+              "display_order": 9
+            },
+            {
+              "keyword": "Richter scale",
+              "definition": "a logarithmic scale measuring earthquake magnitude — each step is 10 times greater than the previous",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a tectonic plate?",
+              "options": [
+                "A) A section of Earth's mantle",
+                "B) A large section of Earth's crust moving slowly on the mantle",
+                "C) An underwater mountain range",
+                "D) A type of rock formation"
+              ],
+              "correct_answer": "B",
+              "explanation": "Tectonic plates are the large sections of Earth's lithosphere (crust + upper mantle) that float and move on the semi-molten asthenosphere.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens at a constructive plate boundary?",
+              "options": [
+                "A) Plates collide and subduct",
+                "B) Plates slide past each other",
+                "C) Plates move apart — magma rises to create new crust",
+                "D) One plate goes under another"
+              ],
+              "correct_answer": "C",
+              "explanation": "At constructive boundaries, plates diverge — magma rises through the gap, creating new oceanic crust. E.g. Mid-Atlantic Ridge.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a destructive plate boundary?",
+              "options": [
+                "A) Plates slide past each other",
+                "B) Plates move apart",
+                "C) Plates converge — denser oceanic plate subducts — volcanoes and earthquakes result",
+                "D) No tectonic activity occurs"
+              ],
+              "correct_answer": "C",
+              "explanation": "At destructive boundaries, the denser oceanic plate is forced under the less dense continental plate — creating volcanoes, earthquakes, and deep ocean trenches.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the epicentre?",
+              "options": [
+                "A) The point underground where an earthquake begins",
+                "B) The point on the surface directly above the focus",
+                "C) The edge of a tectonic plate",
+                "D) The centre of a volcano"
+              ],
+              "correct_answer": "B",
+              "explanation": "The epicentre is on the Earth's surface directly above the focus — it experiences the greatest shaking and damage.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a conservative plate boundary?",
+              "options": [
+                "A) Plates move apart",
+                "B) One plate subducts under another",
+                "C) Plates slide past each other — no crust created or destroyed",
+                "D) Plates are stationary"
+              ],
+              "correct_answer": "C",
+              "explanation": "Conservative boundaries: plates slide horizontally past each other. The San Andreas Fault (California) is the most famous example — it causes major earthquakes.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the Richter scale measure?",
+              "options": [
+                "A) Volcanic eruption intensity",
+                "B) Earthquake depth",
+                "C) Earthquake magnitude on a logarithmic scale",
+                "D) Tectonic plate speed"
+              ],
+              "correct_answer": "C",
+              "explanation": "The Richter scale measures earthquake magnitude — it is logarithmic, meaning a magnitude 7 earthquake is 10 times more powerful than a magnitude 6.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the focus of an earthquake?",
+              "options": [
+                "A) The surface point of maximum damage",
+                "B) The point underground where the earthquake originates",
+                "C) The scale used to measure earthquakes",
+                "D) The type of plate boundary"
+              ],
+              "correct_answer": "B",
+              "explanation": "The focus (hypocentre) is the underground point of origin — where rocks suddenly slip. Seismic waves radiate outward from the focus.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What type of boundary is the Mid-Atlantic Ridge?",
+              "options": [
+                "A) Destructive",
+                "B) Conservative",
+                "C) Constructive",
+                "D) Collision"
+              ],
+              "correct_answer": "C",
+              "explanation": "The Mid-Atlantic Ridge is a constructive boundary — North American and Eurasian plates diverge, creating new oceanic crust.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why do volcanoes form at destructive boundaries?",
+              "options": [
+                "A) Plates move apart — magma fills the gap",
+                "B) Subducted oceanic plate melts — magma rises through the crust",
+                "C) Plates slide past each other — friction melts rock",
+                "D) Tectonic plates fold to create mountains"
+              ],
+              "correct_answer": "B",
+              "explanation": "The subducted oceanic plate melts as it enters the mantle — the magma is less dense and rises through the overriding plate, forming volcanoes.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a tectonic hazard?",
+              "options": [
+                "A) Any natural disaster",
+                "B) A hazard caused by tectonic plate movement — earthquakes, volcanoes, tsunamis",
+                "C) A hazard caused by weather",
+                "D) A hazard only in developing countries"
+              ],
+              "correct_answer": "B",
+              "explanation": "Tectonic hazards include earthquakes, volcanic eruptions, and tsunamis — all caused by movement of tectonic plates.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Tectonic plates move on the mantle.",
+              "correct_answer": "True",
+              "explanation": "Plates float and move on the semi-molten asthenosphere — driven by convection currents in the mantle.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "New crust is created at destructive plate boundaries.",
+              "correct_answer": "False",
+              "explanation": "New crust is created at CONSTRUCTIVE boundaries. At destructive boundaries, crust is DESTROYED (subducted).",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The epicentre is underground where the earthquake originates.",
+              "correct_answer": "False",
+              "explanation": "The FOCUS is underground. The EPICENTRE is on the surface directly above the focus.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The Richter scale is logarithmic — each step is 10 times greater.",
+              "correct_answer": "True",
+              "explanation": "A magnitude 8 earthquake is 10 times more powerful than a magnitude 7.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Conservative boundaries produce volcanoes.",
+              "correct_answer": "False",
+              "explanation": "Conservative boundaries produce EARTHQUAKES — plates slide past each other. Volcanoes form at constructive and destructive boundaries.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Destructive boundaries form where oceanic plates subduct under continental plates.",
+              "correct_answer": "True",
+              "explanation": "The denser oceanic plate is forced beneath the less dense continental plate — melting and creating volcanoes.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The San Andreas Fault is a constructive boundary.",
+              "correct_answer": "False",
+              "explanation": "The San Andreas Fault is a CONSERVATIVE boundary — the North American and Pacific plates slide past each other.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Earthquakes occur at all three types of plate boundary.",
+              "correct_answer": "True",
+              "explanation": "Earthquakes occur at constructive (rifting), destructive (subduction), and conservative (sliding) boundaries.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The focus is on Earth's surface directly above where an earthquake originates.",
+              "correct_answer": "False",
+              "explanation": "The EPICENTRE is on the surface. The FOCUS is underground.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Volcanoes form where magma rises to the surface.",
+              "correct_answer": "True",
+              "explanation": "Magma rises through weaknesses in the crust at constructive and destructive boundaries.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ plate is a large section of Earth's crust moving on the mantle.",
+              "correct_answer": "tectonic",
+              "explanation": "Plate movement drives earthquakes, volcanoes, and mountain building.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "At a ________ boundary, plates move apart and new crust forms.",
+              "correct_answer": "constructive",
+              "explanation": "The Mid-Atlantic Ridge is a constructive boundary.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "At a ________ boundary, the oceanic plate subducts — causing volcanoes and earthquakes.",
+              "correct_answer": "destructive",
+              "explanation": "The subducted plate melts, producing magma that rises as volcanoes.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "At a ________ boundary, plates slide past each other — earthquakes, no volcanoes.",
+              "correct_answer": "conservative",
+              "explanation": "The San Andreas Fault is the most famous conservative boundary.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is on the surface directly above where an earthquake originates.",
+              "correct_answer": "epicentre",
+              "explanation": "The epicentre experiences the most severe shaking.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is underground where an earthquake originates.",
+              "correct_answer": "focus",
+              "explanation": "Seismic waves radiate outward from the focus.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ scale measures earthquake magnitude — it is logarithmic.",
+              "correct_answer": "Richter",
+              "explanation": "Each step = 10 times greater energy release.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ hazards include earthquakes, volcanoes, and tsunamis.",
+              "correct_answer": "Tectonic",
+              "explanation": "All caused by movement of tectonic plates.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Subducted oceanic plates ________ as they enter the mantle — producing magma.",
+              "correct_answer": "melt",
+              "explanation": "This magma rises through the overriding plate to form volcanoes.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "At constructive boundaries, ________ rises to create new crust.",
+              "correct_answer": "magma",
+              "explanation": "Magma fills the gap between diverging plates.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "constructive boundary",
+                  "match": "plates move apart — new crust forms — e.g. Mid-Atlantic Ridge"
+                },
+                {
+                  "term": "destructive boundary",
+                  "match": "plates converge — subduction — volcanoes and earthquakes"
+                },
+                {
+                  "term": "conservative boundary",
+                  "match": "plates slide past — earthquakes only — e.g. San Andreas"
+                },
+                {
+                  "term": "focus",
+                  "match": "underground origin of earthquake"
+                },
+                {
+                  "term": "epicentre",
+                  "match": "surface point above focus — maximum damage"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

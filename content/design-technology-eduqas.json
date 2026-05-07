@@ -1,0 +1,128 @@
+{
+  "subject": {
+    "name": "Design & Technology (Eduqas/WJEC)",
+    "slug": "design-technology-eduqas",
+    "colour": "#92400e"
+  },
+  "topics": [
+    {
+      "name": "Designing & Making — Eduqas",
+      "paper": "Component 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Eduqas D&T Core Concepts",
+          "cards": [
+            {
+              "keyword": "design context",
+              "definition": "the situation or problem that a designer is responding to — Eduqas NEA starts with a design context issued by the board",
+              "display_order": 1
+            },
+            {
+              "keyword": "NEA (Non-Examined Assessment)",
+              "definition": "the Eduqas D&T coursework component — worth 50% of the GCSE. Students design and make a product in response to a brief",
+              "display_order": 2
+            },
+            {
+              "keyword": "iterative design process",
+              "definition": "a cycle of designing, making, testing, and improving — used throughout the NEA",
+              "display_order": 3
+            },
+            {
+              "keyword": "user needs",
+              "definition": "the requirements of the intended user — research into user needs informs the design specification",
+              "display_order": 4
+            },
+            {
+              "keyword": "primary research",
+              "definition": "first-hand data gathered directly — e.g. questionnaires, interviews, observations of users",
+              "display_order": 5
+            },
+            {
+              "keyword": "secondary research",
+              "definition": "existing data gathered by others — e.g. websites, books, existing products (analysis)",
+              "display_order": 6
+            },
+            {
+              "keyword": "design specification",
+              "definition": "a detailed list of criteria the final product must meet — based on research findings",
+              "display_order": 7
+            },
+            {
+              "keyword": "prototype / model",
+              "definition": "a physical model used to test and evaluate a design idea — helps identify improvements before final making",
+              "display_order": 8
+            },
+            {
+              "keyword": "evaluation against specification",
+              "definition": "testing the final product against each point in the design specification — identifies how well it meets user needs",
+              "display_order": 9
+            },
+            {
+              "keyword": "systems thinking",
+              "definition": "understanding a product as a system with inputs, processes, and outputs — used in electronic and mechanical design",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Eduqas — Materials & Sustainability",
+          "cards": [
+            {
+              "keyword": "lifecycle assessment (LCA)",
+              "definition": "evaluating the environmental impact of a product from raw material extraction to end of life — used to justify sustainable design decisions",
+              "display_order": 1
+            },
+            {
+              "keyword": "planned obsolescence",
+              "definition": "designing products to have a limited lifespan so consumers replace them — criticised for creating unnecessary waste",
+              "display_order": 2
+            },
+            {
+              "keyword": "sustainability",
+              "definition": "designing and making in ways that meet current needs without damaging the ability of future generations to meet their needs",
+              "display_order": 3
+            },
+            {
+              "keyword": "the 6Rs",
+              "definition": "a framework for sustainable design: Rethink, Refuse, Reduce, Reuse, Repair, Recycle",
+              "display_order": 4
+            },
+            {
+              "keyword": "finite resources",
+              "definition": "materials that will eventually run out — e.g. oil, metals, hardwoods. Designers should minimise their use",
+              "display_order": 5
+            },
+            {
+              "keyword": "renewable resources",
+              "definition": "materials that can be replenished naturally — e.g. timber from managed forests, plant-based plastics",
+              "display_order": 6
+            },
+            {
+              "keyword": "fair trade",
+              "definition": "ensuring producers in developing countries receive fair wages and safe conditions — an ethical consideration in material sourcing",
+              "display_order": 7
+            },
+            {
+              "keyword": "carbon footprint",
+              "definition": "the total greenhouse gas emissions caused by a product or activity — reducing carbon footprint is a key sustainability goal",
+              "display_order": 8
+            },
+            {
+              "keyword": "upcycling",
+              "definition": "creatively reusing waste materials to create products of higher value — a sustainable making strategy",
+              "display_order": 9
+            },
+            {
+              "keyword": "Design for Disassembly",
+              "definition": "designing products so components can be easily separated at end of life for recycling or reuse",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

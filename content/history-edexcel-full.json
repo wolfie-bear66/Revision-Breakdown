@@ -1,0 +1,735 @@
+{
+  "subject": {
+    "name": "History",
+    "slug": "history",
+    "colour": "#7c2d12",
+    "exam_board": "Edexcel",
+    "emoji": "📜"
+  },
+  "topics": [
+    {
+      "name": "Medicine in Britain",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Medicine Through Time",
+          "cards": [
+            {
+              "keyword": "Hippocrates",
+              "definition": "Ancient Greek physician — developed the Theory of the Four Humours and importance of observation in diagnosis",
+              "display_order": 1
+            },
+            {
+              "keyword": "Four Humours",
+              "definition": "Hippocrates's theory — illness caused by imbalance of blood, phlegm, yellow bile, black bile",
+              "display_order": 2
+            },
+            {
+              "keyword": "Galen",
+              "definition": "Roman physician — extended Hippocrates's ideas. His ideas dominated medicine for 1500 years",
+              "display_order": 3
+            },
+            {
+              "keyword": "miasma theory",
+              "definition": "the belief that disease was caused by bad air — dominated thinking until germ theory",
+              "display_order": 4
+            },
+            {
+              "keyword": "Renaissance",
+              "definition": "c.1350–1600 — renewed interest in classical learning; Vesalius challenged Galen using dissection",
+              "display_order": 5
+            },
+            {
+              "keyword": "Vesalius",
+              "definition": "1543 — published detailed anatomical drawings; challenged Galen's errors through human dissection",
+              "display_order": 6
+            },
+            {
+              "keyword": "Harvey",
+              "definition": "1628 — proved blood circulates continuously — overturned Galen's ideas about blood",
+              "display_order": 7
+            },
+            {
+              "keyword": "germ theory",
+              "definition": "Pasteur 1861 — proved microorganisms cause disease. Koch identified specific bacteria causing specific diseases",
+              "display_order": 8
+            },
+            {
+              "keyword": "Pasteur",
+              "definition": "developed germ theory (1861) and pasteurisation — opened the door to vaccinations and antiseptics",
+              "display_order": 9
+            },
+            {
+              "keyword": "Koch",
+              "definition": "identified specific bacteria causing TB and cholera — developed techniques for growing and staining bacteria",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What was the Theory of the Four Humours?",
+              "options": [
+                "A) A theory about the planets",
+                "B) Illness is caused by imbalance of blood, phlegm, yellow bile, and black bile",
+                "C) A theory about diet",
+                "D) A Roman theory about exercise"
+              ],
+              "correct_answer": "B",
+              "explanation": "Hippocrates argued the body contained four humours — illness resulted from their imbalance. Treatment aimed to restore balance (bleeding, purging).",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who was Vesalius and what did he contribute?",
+              "options": [
+                "A) A Roman who developed germ theory",
+                "B) A medieval physician who supported Galen",
+                "C) A Renaissance anatomist who corrected Galen's errors through human dissection",
+                "D) A 19th century scientist who discovered bacteria"
+              ],
+              "correct_answer": "C",
+              "explanation": "Vesalius (1543) published 'De Humani Corporis Fabrica' — detailed anatomical illustrations based on dissection, correcting over 200 of Galen's errors.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did Harvey discover?",
+              "options": [
+                "A) That the body contained four humours",
+                "B) The germ theory of disease",
+                "C) That blood circulates continuously around the body",
+                "D) That bacteria cause specific diseases"
+              ],
+              "correct_answer": "C",
+              "explanation": "Harvey (1628) proved blood circulates continuously, pumped by the heart — overturning Galen's incorrect idea that blood was made in the liver and consumed.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is germ theory?",
+              "options": [
+                "A) The idea that bad air causes disease",
+                "B) Pasteur's proof that microorganisms cause disease",
+                "C) The theory of the four humours",
+                "D) Galen's theory about the body"
+              ],
+              "correct_answer": "B",
+              "explanation": "Pasteur (1861) used the swan-neck flask experiment to prove microorganisms cause disease — fundamentally changing medicine.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did Koch contribute to medicine?",
+              "options": [
+                "A) Proving blood circulates",
+                "B) Publishing anatomical drawings",
+                "C) Identifying specific bacteria causing specific diseases — TB and cholera",
+                "D) Developing pasteurisation"
+              ],
+              "correct_answer": "C",
+              "explanation": "Koch identified the bacteria causing TB (1882) and cholera (1883) — developing techniques for growing bacteria in petri dishes and staining them to see under microscopes.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was miasma theory?",
+              "options": [
+                "A) The correct explanation of how disease spreads",
+                "B) The theory that bacteria cause disease",
+                "C) The belief that bad air caused disease",
+                "D) A Roman theory about diet"
+              ],
+              "correct_answer": "C",
+              "explanation": "Miasma theory dominated medicine from ancient times until Pasteur's germ theory — people believed foul-smelling air from sewage and rotting matter caused disease.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Hippocrates famous for?",
+              "options": [
+                "A) Discovering blood circulation",
+                "B) Proving germ theory",
+                "C) Developing the Theory of Four Humours and the importance of observation",
+                "D) Publishing detailed anatomical drawings"
+              ],
+              "correct_answer": "C",
+              "explanation": "Hippocrates (Ancient Greece) emphasised careful observation of patients — his Four Humours theory was the basis of medical thinking for centuries.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How long did Galen's ideas dominate medicine?",
+              "options": [
+                "A) About 50 years",
+                "B) About 200 years",
+                "C) Approximately 1500 years",
+                "D) Until Hippocrates"
+              ],
+              "correct_answer": "C",
+              "explanation": "Galen's ideas (c.AD 130–200) dominated medicine for about 1500 years — partly because the Church supported them and dissection was forbidden.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was significant about the Renaissance for medicine?",
+              "options": [
+                "A) It ended all medical progress",
+                "B) It saw renewed interest in learning — Vesalius challenged Galen using dissection",
+                "C) Pasteur developed germ theory",
+                "D) Harvey discovered blood circulation"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Renaissance (c.1350–1600) saw renewed interest in classical learning AND willingness to challenge it — Vesalius's dissections are the key example.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was Pasteur's key experiment?",
+              "options": [
+                "A) The circulation experiment",
+                "B) The TB bacteria experiment",
+                "C) The swan-neck flask experiment — proving microorganisms cause decay",
+                "D) The dissection of corpses"
+              ],
+              "correct_answer": "C",
+              "explanation": "Pasteur's swan-neck flask experiment (1861) showed that broth only putrefied when microorganisms could reach it — disproving spontaneous generation.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Hippocrates developed the Theory of the Four Humours.",
+              "correct_answer": "True",
+              "explanation": "Hippocrates argued illness resulted from imbalance of blood, phlegm, yellow bile, and black bile.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Galen's ideas were quickly replaced after his death.",
+              "correct_answer": "False",
+              "explanation": "Galen's ideas dominated medicine for approximately 1500 years — supported by the Church.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Vesalius corrected Galen's anatomical errors through human dissection.",
+              "correct_answer": "True",
+              "explanation": "Vesalius published 'De Humani Corporis Fabrica' (1543) — correcting over 200 of Galen's errors.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Harvey proved that blood is consumed by muscles.",
+              "correct_answer": "False",
+              "explanation": "Harvey proved blood CIRCULATES continuously — it is not consumed.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Germ theory was developed by Pasteur in 1861.",
+              "correct_answer": "True",
+              "explanation": "Pasteur's swan-neck flask experiment proved microorganisms cause disease.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Miasma theory correctly explained how disease spread.",
+              "correct_answer": "False",
+              "explanation": "Miasma theory was WRONG — disease is caused by microorganisms (germ theory), not bad air.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Koch identified specific bacteria causing specific diseases.",
+              "correct_answer": "True",
+              "explanation": "Koch identified the bacteria causing TB (1882) and cholera (1883).",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The Church's support of Galen helped preserve his ideas.",
+              "correct_answer": "True",
+              "explanation": "The Church controlled education and supported Galen's works — challenging them was considered heretical.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Pasteur developed germ theory before Vesalius challenged Galen.",
+              "correct_answer": "False",
+              "explanation": "Vesalius challenged Galen in 1543 (Renaissance). Pasteur developed germ theory in 1861 (19th century).",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Hippocrates emphasised careful observation of patients.",
+              "correct_answer": "True",
+              "explanation": "Observation and recording of symptoms were central to Hippocrates's approach.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ developed the Theory of the Four Humours — illness from imbalance.",
+              "correct_answer": "Hippocrates",
+              "explanation": "Blood, phlegm, yellow bile, black bile — the four humours.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ extended Hippocrates's ideas — dominated medicine for 1500 years.",
+              "correct_answer": "Galen",
+              "explanation": "The Church's support helped preserve Galen's ideas.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ published detailed anatomical drawings correcting Galen (1543).",
+              "correct_answer": "Vesalius",
+              "explanation": "Vesalius used human dissection to produce accurate anatomical illustrations.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ proved blood circulates continuously (1628).",
+              "correct_answer": "Harvey",
+              "explanation": "Harvey's discovery overturned Galen's incorrect idea about blood.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ proved microorganisms cause disease (1861) — germ theory.",
+              "correct_answer": "Pasteur",
+              "explanation": "The swan-neck flask experiment was the key proof.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ identified specific bacteria causing TB and cholera.",
+              "correct_answer": "Koch",
+              "explanation": "Koch developed methods for growing and staining bacteria.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ theory: disease was caused by bad air — miasma.",
+              "correct_answer": "Miasma",
+              "explanation": "Miasma theory was replaced by germ theory in the 19th century.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ saw renewed interest in learning — Vesalius challenged Galen.",
+              "correct_answer": "Renaissance",
+              "explanation": "c.1350–1600 — a period of renewed classical scholarship and scientific enquiry.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Galen's ideas dominated medicine for approximately ________ years.",
+              "correct_answer": "1500",
+              "explanation": "Church support of Galen's works preserved them despite their errors.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Pasteur's ________ flask experiment proved microorganisms cause decay.",
+              "correct_answer": "swan-neck",
+              "explanation": "Broth only putrefied when microorganisms could reach it through the curved neck.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Hippocrates",
+                  "match": "Four Humours — illness from imbalance"
+                },
+                {
+                  "term": "Galen",
+                  "match": "extended Hippocrates — dominated medicine 1500 years"
+                },
+                {
+                  "term": "Vesalius",
+                  "match": "corrected Galen through dissection — 1543"
+                },
+                {
+                  "term": "Harvey",
+                  "match": "proved blood circulates — 1628"
+                },
+                {
+                  "term": "germ theory",
+                  "match": "Pasteur 1861 — microorganisms cause disease"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The American West",
+      "paper": "Paper 2",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Plains Indians & Early Settlement",
+          "cards": [
+            {
+              "keyword": "Plains Indians",
+              "definition": "Native American tribes who lived on the Great Plains — including Sioux, Cheyenne, Comanche",
+              "display_order": 1
+            },
+            {
+              "keyword": "buffalo",
+              "definition": "central to Plains Indian life — provided food, clothing, shelter, tools, and had spiritual significance",
+              "display_order": 2
+            },
+            {
+              "keyword": "tipi",
+              "definition": "a portable home made from buffalo hides and wooden poles — suited to nomadic lifestyle",
+              "display_order": 3
+            },
+            {
+              "keyword": "nomadic lifestyle",
+              "definition": "moving regularly to follow buffalo herds — governed by seasonal patterns",
+              "display_order": 4
+            },
+            {
+              "keyword": "reservations",
+              "definition": "areas of land set aside for Native Americans — often infertile, far from homelands",
+              "display_order": 5
+            },
+            {
+              "keyword": "Manifest Destiny",
+              "definition": "the belief that American settlers had a God-given right to expand westward across the continent",
+              "display_order": 6
+            },
+            {
+              "keyword": "Homestead Act 1862",
+              "definition": "provided 160 acres of land free to settlers willing to farm it for 5 years — encouraged migration west",
+              "display_order": 7
+            },
+            {
+              "keyword": "Transcontinental Railroad",
+              "definition": "completed 1869 — linked east and west coasts, bringing settlers and destroying buffalo herds",
+              "display_order": 8
+            },
+            {
+              "keyword": "Indian Wars",
+              "definition": "conflicts between US Army and Native Americans — e.g. Battle of Little Bighorn (1876)",
+              "display_order": 9
+            },
+            {
+              "keyword": "Dawes Act 1887",
+              "definition": "broke up reservation land into individual allotments — destroyed tribal structure and land ownership",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Why was the buffalo so important to Plains Indians?",
+              "options": [
+                "A) It was only a food source",
+                "B) It provided food, clothing, shelter, tools, and had spiritual significance",
+                "C) It was used only for trade",
+                "D) It was only important for warmth"
+              ],
+              "correct_answer": "B",
+              "explanation": "The buffalo was central to every aspect of Plains Indian life — nothing was wasted. Its decline destroyed the basis of their way of life.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the Homestead Act 1862?",
+              "options": [
+                "A) A law removing Native Americans from their land",
+                "B) A law providing 160 acres free to settlers willing to farm for 5 years",
+                "C) A law completing the transcontinental railroad",
+                "D) A law creating reservations"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Homestead Act encouraged migration west by offering free land — bringing thousands of settlers ('homesteaders') to the Plains.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was Manifest Destiny?",
+              "options": [
+                "A) A law about westward expansion",
+                "B) The belief that settlers had a God-given right to expand across the continent",
+                "C) A Native American religious belief",
+                "D) A government policy about reservations"
+              ],
+              "correct_answer": "B",
+              "explanation": "Manifest Destiny was an ideological justification for westward expansion — many Americans believed it was their divine right and duty to settle the continent.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why was the transcontinental railroad significant?",
+              "options": [
+                "A) It helped Plains Indians travel",
+                "B) It had no effect on the West",
+                "C) It brought settlers west and contributed to the destruction of buffalo herds",
+                "D) It connected Canada and Mexico"
+              ],
+              "correct_answer": "C",
+              "explanation": "Completed 1869 — it brought millions of settlers, disrupted buffalo migrations, and enabled the US Army to move troops quickly against Native Americans.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was a reservation?",
+              "options": [
+                "A) A type of homestead",
+                "B) An area of land set aside for Native Americans — often poor quality",
+                "C) A Native American spiritual site",
+                "D) A law about land ownership"
+              ],
+              "correct_answer": "B",
+              "explanation": "Reservations confined Native Americans to limited, often infertile land — far from their traditional homelands, destroying their nomadic way of life.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the Dawes Act 1887?",
+              "options": [
+                "A) A law protecting reservation land",
+                "B) A law completing the railroad",
+                "C) A law breaking up reservation land into individual allotments — destroying tribal structure",
+                "D) A law ending the Indian Wars"
+              ],
+              "correct_answer": "C",
+              "explanation": "The Dawes Act allocated 160 acres to each Native American family — surplus land was sold to settlers. It destroyed communal land ownership and tribal identity.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why was the tipi suited to Plains Indian lifestyle?",
+              "options": [
+                "A) It was permanent and large",
+                "B) It was portable — suited to nomadic life following buffalo",
+                "C) It was made from stone for warmth",
+                "D) It was used only in winter"
+              ],
+              "correct_answer": "B",
+              "explanation": "The tipi was made of buffalo hide and poles — it could be assembled and dismantled quickly, making it ideal for a nomadic people following buffalo herds.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the Battle of Little Bighorn (1876)?",
+              "options": [
+                "A) A US Army victory over the Sioux",
+                "B) A decisive Plains Indian victory — Custer and his men were killed",
+                "C) The final battle ending the Indian Wars",
+                "D) A battle over railroad construction"
+              ],
+              "correct_answer": "B",
+              "explanation": "The Battle of Little Bighorn: Sioux and Cheyenne warriors under Sitting Bull and Crazy Horse defeated and killed Lt Colonel Custer and his 7th Cavalry.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why was the buffalo's decline catastrophic for Plains Indians?",
+              "options": [
+                "A) They could find other food sources",
+                "B) The buffalo was the foundation of every aspect of their life — its loss destroyed their way of life",
+                "C) It only affected their diet",
+                "D) It only happened after reservations were established"
+              ],
+              "correct_answer": "B",
+              "explanation": "Systematic hunting of buffalo (reduced from 13 million to near-extinction by 1890) destroyed the material and spiritual foundation of Plains Indian life.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the significance of the nomadic lifestyle?",
+              "options": [
+                "A) It caused conflict between tribes only",
+                "B) It was central to Plains Indian culture — seasonal movement following buffalo herds",
+                "C) It was adopted from European settlers",
+                "D) It was only practised by the Sioux"
+              ],
+              "correct_answer": "B",
+              "explanation": "Plains Indian nomadism was not random — it followed buffalo migrations, seasonal patterns, and spiritual beliefs. Reservations made this impossible.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The buffalo provided food, clothing, and shelter for Plains Indians.",
+              "correct_answer": "True",
+              "explanation": "Plains Indians used every part of the buffalo — nothing was wasted. It was also central to their spiritual life.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Manifest Destiny was a Plains Indian belief.",
+              "correct_answer": "False",
+              "explanation": "Manifest Destiny was an AMERICAN SETTLER belief — that they had a God-given right to expand westward.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The Homestead Act encouraged westward migration by offering free land.",
+              "correct_answer": "True",
+              "explanation": "160 acres free to settlers willing to farm for 5 years — it brought thousands of homesteaders to the Plains.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The transcontinental railroad helped preserve buffalo herds.",
+              "correct_answer": "False",
+              "explanation": "The railroad DISRUPTED buffalo migrations and brought hunters who nearly drove buffalo to extinction.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Reservations were usually fertile, valuable land.",
+              "correct_answer": "False",
+              "explanation": "Reservations were typically POOR QUALITY, infertile land far from tribes' traditional homelands.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The Dawes Act strengthened tribal communal land ownership.",
+              "correct_answer": "False",
+              "explanation": "The Dawes Act DESTROYED communal land ownership by dividing reservation land into individual allotments.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The Battle of Little Bighorn was a US Army victory.",
+              "correct_answer": "False",
+              "explanation": "Little Bighorn (1876) was a decisive Native American victory — Custer and his 7th Cavalry were wiped out.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The tipi was a permanent structure used only in summer.",
+              "correct_answer": "False",
+              "explanation": "The tipi was PORTABLE — it could be assembled and dismantled quickly, suited to nomadic life.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The buffalo declined from 13 million to near-extinction by 1890.",
+              "correct_answer": "True",
+              "explanation": "Systematic hunting (sport and commercial) devastated buffalo populations, destroying the basis of Plains Indian life.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Nomadic lifestyle followed buffalo migrations and seasonal patterns.",
+              "correct_answer": "True",
+              "explanation": "Plains Indian movement was systematic — following buffalo herds and seasonal patterns, not random wandering.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was central to Plains Indian life — food, clothing, shelter, and spiritual significance.",
+              "correct_answer": "buffalo",
+              "explanation": "Every part of the buffalo was used — its decline was catastrophic for Plains Indians.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ Destiny was the belief that settlers had a God-given right to expand westward.",
+              "correct_answer": "Manifest",
+              "explanation": "This ideology justified the displacement of Native Americans.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Homestead Act 1862 provided ________ acres free to settlers willing to farm for 5 years.",
+              "correct_answer": "160",
+              "explanation": "The Act encouraged massive westward migration — transforming the Plains.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Railroad (completed 1869) brought settlers west and disrupted buffalo migrations.",
+              "correct_answer": "Transcontinental",
+              "explanation": "The railroad was key to the transformation of the West.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ confined Native Americans to limited, often poor-quality land.",
+              "correct_answer": "Reservations",
+              "explanation": "Reservations destroyed the nomadic lifestyle and tribal identity.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Act 1887 broke up reservation land into individual allotments.",
+              "correct_answer": "Dawes",
+              "explanation": "It destroyed communal land ownership — fundamental to Plains Indian culture.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was a portable buffalo-hide home — ideal for nomadic lifestyle.",
+              "correct_answer": "tipi",
+              "explanation": "Tipis could be assembled and dismantled quickly as tribes followed buffalo.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Battle of Little ________ (1876) was a major Native American victory over Custer.",
+              "correct_answer": "Bighorn",
+              "explanation": "Sitting Bull and Crazy Horse led the Sioux and Cheyenne to victory.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Plains Indians' ________ lifestyle followed buffalo herds and seasonal patterns.",
+              "correct_answer": "nomadic",
+              "explanation": "Reservations made nomadism impossible — destroying their way of life.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The systematic hunting of buffalo reduced numbers from 13 million to near-________ by 1890.",
+              "correct_answer": "extinction",
+              "explanation": "Without buffalo, Plains Indian culture collapsed.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "buffalo",
+                  "match": "central to Plains Indian life — food, shelter, clothing, spiritual"
+                },
+                {
+                  "term": "Manifest Destiny",
+                  "match": "God-given right to expand westward — justifies displacement"
+                },
+                {
+                  "term": "Homestead Act 1862",
+                  "match": "160 acres free — encouraged westward migration"
+                },
+                {
+                  "term": "Transcontinental Railroad",
+                  "match": "completed 1869 — brought settlers, disrupted buffalo"
+                },
+                {
+                  "term": "Dawes Act 1887",
+                  "match": "broke up reservation land — destroyed tribal structure"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

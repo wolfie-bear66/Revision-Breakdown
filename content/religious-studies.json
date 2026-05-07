@@ -1,0 +1,429 @@
+{
+  "subject": {
+    "name": "Religious Studies",
+    "slug": "religious-studies",
+    "colour": "#8b5cf6"
+  },
+  "topics": [
+    {
+      "name": "Christianity — Beliefs & Teachings",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Core Christian Beliefs",
+          "cards": [
+            {
+              "keyword": "monotheism",
+              "definition": "the belief in one God — a core belief of Christianity",
+              "display_order": 1
+            },
+            {
+              "keyword": "the Trinity",
+              "definition": "the Christian belief that God exists as three persons in one: Father, Son, and Holy Spirit",
+              "display_order": 2
+            },
+            {
+              "keyword": "incarnation",
+              "definition": "the belief that God became human in the form of Jesus Christ",
+              "display_order": 3
+            },
+            {
+              "keyword": "crucifixion",
+              "definition": "the execution of Jesus on the cross — Christians believe this was a sacrifice to save humanity from sin",
+              "display_order": 4
+            },
+            {
+              "keyword": "resurrection",
+              "definition": "the belief that Jesus rose from the dead three days after the crucifixion — central to Christian faith",
+              "display_order": 5
+            },
+            {
+              "keyword": "ascension",
+              "definition": "the belief that Jesus rose bodily into heaven 40 days after his resurrection",
+              "display_order": 6
+            },
+            {
+              "keyword": "salvation",
+              "definition": "being saved from sin and its consequences — Christians believe salvation comes through faith in Jesus",
+              "display_order": 7
+            },
+            {
+              "keyword": "atonement",
+              "definition": "the idea that Jesus's death repaired the broken relationship between God and humanity caused by sin",
+              "display_order": 8
+            },
+            {
+              "keyword": "original sin",
+              "definition": "the Christian belief that all humans are born with a tendency to sin, inherited from Adam and Eve",
+              "display_order": 9
+            },
+            {
+              "keyword": "grace",
+              "definition": "God's undeserved love and favour towards humans — Christians believe salvation is given through grace, not earned",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "God, Jesus & the Afterlife",
+          "cards": [
+            {
+              "keyword": "omnipotent",
+              "definition": "all-powerful — God has unlimited power and can do anything",
+              "display_order": 1
+            },
+            {
+              "keyword": "omniscient",
+              "definition": "all-knowing — God knows everything, including the past, present and future",
+              "display_order": 2
+            },
+            {
+              "keyword": "omnibenevolent",
+              "definition": "all-loving and all-good — God's nature is perfectly good",
+              "display_order": 3
+            },
+            {
+              "keyword": "the Holy Spirit",
+              "definition": "the third person of the Trinity — believed to guide, comfort, and empower Christians",
+              "display_order": 4
+            },
+            {
+              "keyword": "heaven",
+              "definition": "in Christianity, the place or state of eternal life with God after death, for those who are saved",
+              "display_order": 5
+            },
+            {
+              "keyword": "hell",
+              "definition": "in Christianity, the place or state of eternal separation from God — the consequence of rejecting salvation",
+              "display_order": 6
+            },
+            {
+              "keyword": "purgatory",
+              "definition": "in Catholic belief, a state after death where souls are purified before entering heaven",
+              "display_order": 7
+            },
+            {
+              "keyword": "judgement",
+              "definition": "the belief that after death, God will judge each person's life and determine their eternal fate",
+              "display_order": 8
+            },
+            {
+              "keyword": "the Bible",
+              "definition": "the Christian holy scripture — believed by Christians to be the inspired word of God",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Apostles' Creed",
+              "definition": "a summary of core Christian beliefs used in worship — covers beliefs about God, Jesus, and the Holy Spirit",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Christianity — Practices",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Worship & Sacraments",
+          "cards": [
+            {
+              "keyword": "liturgical worship",
+              "definition": "structured, formal worship following a set order of service — used by Catholic and Anglican churches",
+              "display_order": 1
+            },
+            {
+              "keyword": "non-liturgical worship",
+              "definition": "informal, flexible worship without a fixed order — common in evangelical and charismatic churches",
+              "display_order": 2
+            },
+            {
+              "keyword": "sacrament",
+              "definition": "a religious ceremony believed to be a visible sign of God's grace — Catholics recognise seven, Protestants usually two",
+              "display_order": 3
+            },
+            {
+              "keyword": "baptism",
+              "definition": "a sacrament using water to symbolise cleansing from sin and entry into the Christian community",
+              "display_order": 4
+            },
+            {
+              "keyword": "Eucharist / Holy Communion",
+              "definition": "a sacrament commemorating the Last Supper — sharing bread and wine in memory of Jesus",
+              "display_order": 5
+            },
+            {
+              "keyword": "prayer",
+              "definition": "communicating with God — can be formal or informal, private or collective",
+              "display_order": 6
+            },
+            {
+              "keyword": "the Lord's Prayer",
+              "definition": "the model prayer taught by Jesus to his disciples — used widely in Christian worship",
+              "display_order": 7
+            },
+            {
+              "keyword": "pilgrimage",
+              "definition": "a journey to a sacred place for religious purposes — e.g. Christians visiting Lourdes or Jerusalem",
+              "display_order": 8
+            },
+            {
+              "keyword": "evangelism",
+              "definition": "spreading the Christian faith to others — seen by many Christians as a duty",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Church",
+              "definition": "the worldwide community of Christians — also refers to the building used for Christian worship",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Islam — Beliefs & Teachings",
+      "paper": "Paper 1",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Core Islamic Beliefs",
+          "cards": [
+            {
+              "keyword": "Tawhid",
+              "definition": "the oneness and unity of Allah — the most fundamental belief in Islam",
+              "display_order": 1
+            },
+            {
+              "keyword": "Allah",
+              "definition": "the Arabic word for God — Muslims believe Allah is the one, eternal, all-powerful creator",
+              "display_order": 2
+            },
+            {
+              "keyword": "the Six Articles of Faith (Sunni)",
+              "definition": "core Sunni Muslim beliefs: Allah, angels, holy books, prophets, the Day of Judgement, and predestination",
+              "display_order": 3
+            },
+            {
+              "keyword": "the Five Roots (Shia)",
+              "definition": "core Shia Muslim beliefs: Tawhid, Adalat, Nubuwwah, Imamah, and Mi'ad",
+              "display_order": 4
+            },
+            {
+              "keyword": "prophethood (Nubuwwah)",
+              "definition": "the belief that Allah sent prophets to guide humanity — Muhammad is the final prophet",
+              "display_order": 5
+            },
+            {
+              "keyword": "Muhammad (pbuh)",
+              "definition": "the final prophet of Islam who received the Qur'an from Allah through the angel Jibril",
+              "display_order": 6
+            },
+            {
+              "keyword": "the Qur'an",
+              "definition": "the holy book of Islam — believed by Muslims to be the direct word of Allah revealed to Muhammad",
+              "display_order": 7
+            },
+            {
+              "keyword": "angels (Mala'ikah)",
+              "definition": "spiritual beings created from light who carry out Allah's will — including Jibril (Gabriel) who revealed the Qur'an",
+              "display_order": 8
+            },
+            {
+              "keyword": "predestination (Al-Qadr)",
+              "definition": "the belief that Allah has knowledge of and control over everything that happens",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Day of Judgement (Akhirah)",
+              "definition": "the belief that after death, all people will be judged by Allah and sent to paradise (Jannah) or hell (Jahannam)",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "The Five Pillars of Islam",
+          "cards": [
+            {
+              "keyword": "the Five Pillars",
+              "definition": "the five core duties of Sunni Muslims: Shahadah, Salah, Sawm, Zakah, and Hajj",
+              "display_order": 1
+            },
+            {
+              "keyword": "Shahadah",
+              "definition": "the declaration of faith: 'There is no God but Allah and Muhammad is his messenger' — the first pillar",
+              "display_order": 2
+            },
+            {
+              "keyword": "Salah",
+              "definition": "the five daily prayers performed at set times — the second pillar",
+              "display_order": 3
+            },
+            {
+              "keyword": "Sawm",
+              "definition": "fasting during the month of Ramadan — the fourth pillar",
+              "display_order": 4
+            },
+            {
+              "keyword": "Zakah",
+              "definition": "giving 2.5% of surplus wealth to those in need — the third pillar, an act of charity and worship",
+              "display_order": 5
+            },
+            {
+              "keyword": "Hajj",
+              "definition": "the annual pilgrimage to Makkah — the fifth pillar, required once in a lifetime if able",
+              "display_order": 6
+            },
+            {
+              "keyword": "Ramadan",
+              "definition": "the Islamic holy month of fasting — commemorating the revelation of the Qur'an to Muhammad",
+              "display_order": 7
+            },
+            {
+              "keyword": "Jumu'ah",
+              "definition": "Friday congregational prayer — an important weekly act of collective worship for Muslims",
+              "display_order": 8
+            },
+            {
+              "keyword": "the mosque (masjid)",
+              "definition": "a Muslim place of worship — also used for community events, education, and charitable activities",
+              "display_order": 9
+            },
+            {
+              "keyword": "Ummah",
+              "definition": "the worldwide community of Muslims — the sense of brotherhood and sisterhood among all Muslims",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thematic Studies — Ethics & Society",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Theme B — Religion & Life",
+          "cards": [
+            {
+              "keyword": "sanctity of life",
+              "definition": "the belief that all human life is sacred and has special value — used in arguments against abortion and euthanasia",
+              "display_order": 1
+            },
+            {
+              "keyword": "abortion",
+              "definition": "the deliberate termination of a pregnancy — a key ethical issue in religious studies",
+              "display_order": 2
+            },
+            {
+              "keyword": "euthanasia",
+              "definition": "deliberately ending a life to relieve suffering — can be voluntary (requested by patient) or non-voluntary",
+              "display_order": 3
+            },
+            {
+              "keyword": "quality of life",
+              "definition": "how good or fulfilling a person's life is — sometimes used to argue in favour of euthanasia",
+              "display_order": 4
+            },
+            {
+              "keyword": "the environment",
+              "definition": "religious teachings about caring for the natural world — linked to ideas of stewardship and creation",
+              "display_order": 5
+            },
+            {
+              "keyword": "stewardship",
+              "definition": "the idea that humans are caretakers of the earth on God's behalf — responsible for protecting it",
+              "display_order": 6
+            },
+            {
+              "keyword": "dominion",
+              "definition": "the idea from Genesis that humans have authority over the natural world — debated in environmental ethics",
+              "display_order": 7
+            },
+            {
+              "keyword": "animal rights",
+              "definition": "the debate over whether animals deserve moral consideration — linked to religious views on creation",
+              "display_order": 8
+            },
+            {
+              "keyword": "origins of the universe",
+              "definition": "religious and scientific explanations for how the universe began — includes Big Bang and creationism",
+              "display_order": 9
+            },
+            {
+              "keyword": "evolution",
+              "definition": "the scientific theory that species change over time through natural selection — some religious groups see this as conflicting with creation accounts",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Theme D — Peace & Conflict",
+          "cards": [
+            {
+              "keyword": "just war theory",
+              "definition": "criteria that must be met for a war to be morally justified — e.g. just cause, last resort, proportional force",
+              "display_order": 1
+            },
+            {
+              "keyword": "pacifism",
+              "definition": "the belief that violence and war are never justified — held by Quakers and some other Christian groups",
+              "display_order": 2
+            },
+            {
+              "keyword": "holy war",
+              "definition": "a war fought for religious reasons or in the name of God — e.g. the Crusades; debated in both Christianity and Islam",
+              "display_order": 3
+            },
+            {
+              "keyword": "Jihad",
+              "definition": "an Arabic word meaning 'struggle' — greater Jihad is the inner spiritual struggle; lesser Jihad is physical defence of Islam",
+              "display_order": 4
+            },
+            {
+              "keyword": "forgiveness",
+              "definition": "the act of pardoning someone for a wrong done — a key teaching in both Christianity and Islam",
+              "display_order": 5
+            },
+            {
+              "keyword": "reconciliation",
+              "definition": "restoring a broken relationship after conflict — promoted by both Christian and Muslim teaching",
+              "display_order": 6
+            },
+            {
+              "keyword": "terrorism",
+              "definition": "using violence and fear against civilians to achieve political or ideological goals — condemned by mainstream Christianity and Islam",
+              "display_order": 7
+            },
+            {
+              "keyword": "nuclear weapons",
+              "definition": "weapons of mass destruction — most religious groups oppose their use due to indiscriminate killing",
+              "display_order": 8
+            },
+            {
+              "keyword": "weapons of mass destruction (WMD)",
+              "definition": "weapons capable of killing large numbers of people — chemical, biological, and nuclear weapons",
+              "display_order": 9
+            },
+            {
+              "keyword": "peacemaking",
+              "definition": "active efforts to resolve conflict and restore peace — both Christianity and Islam have teachings promoting this",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

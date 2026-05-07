@@ -1,0 +1,261 @@
+{
+  "subject": {
+    "name": "Psychology",
+    "slug": "psychology",
+    "colour": "#0d9488"
+  },
+  "topics": [
+    {
+      "name": "Memory",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Memory Models & Types",
+          "cards": [
+            {
+              "keyword": "short-term memory (STM)",
+              "definition": "a temporary store of limited capacity — holds around 7 items for up to 30 seconds",
+              "display_order": 1
+            },
+            {
+              "keyword": "long-term memory (LTM)",
+              "definition": "a permanent store of unlimited capacity and duration — holds memories for a lifetime",
+              "display_order": 2
+            },
+            {
+              "keyword": "encoding",
+              "definition": "converting information into a form that can be stored in memory — e.g. acoustic (sound), visual (image), semantic (meaning)",
+              "display_order": 3
+            },
+            {
+              "keyword": "capacity",
+              "definition": "the amount of information a memory store can hold — STM: ~7 items; LTM: unlimited",
+              "display_order": 4
+            },
+            {
+              "keyword": "duration",
+              "definition": "how long a memory store retains information — STM: up to 30 seconds; LTM: lifetime",
+              "display_order": 5
+            },
+            {
+              "keyword": "the multi-store model (Atkinson & Shiffrin)",
+              "definition": "a model proposing memory flows through three stores: sensory register, STM, and LTM",
+              "display_order": 6
+            },
+            {
+              "keyword": "rehearsal",
+              "definition": "repeating information to keep it in STM or transfer it to LTM — maintenance or elaborative rehearsal",
+              "display_order": 7
+            },
+            {
+              "keyword": "retrieval",
+              "definition": "accessing and bringing stored information back into conscious awareness",
+              "display_order": 8
+            },
+            {
+              "keyword": "forgetting",
+              "definition": "the inability to recall stored information — causes include interference, decay, and lack of retrieval cues",
+              "display_order": 9
+            },
+            {
+              "keyword": "interference",
+              "definition": "forgetting caused by other memories disrupting recall — proactive (old memories) or retroactive (new memories)",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perception",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Visual Perception",
+          "cards": [
+            {
+              "keyword": "perception",
+              "definition": "the process of interpreting sensory information to make sense of the world",
+              "display_order": 1
+            },
+            {
+              "keyword": "sensation",
+              "definition": "raw sensory data received by the sense organs before it is interpreted",
+              "display_order": 2
+            },
+            {
+              "keyword": "depth cues",
+              "definition": "visual signals that help us perceive distance and depth — e.g. size, overlap, linear perspective",
+              "display_order": 3
+            },
+            {
+              "keyword": "monocular depth cues",
+              "definition": "cues that can be seen with one eye — e.g. relative size, texture gradient, linear perspective",
+              "display_order": 4
+            },
+            {
+              "keyword": "binocular depth cues",
+              "definition": "cues that require both eyes — e.g. binocular disparity (slightly different images from each eye)",
+              "display_order": 5
+            },
+            {
+              "keyword": "perceptual set",
+              "definition": "the tendency to perceive things in a particular way based on past experience, emotion, or motivation",
+              "display_order": 6
+            },
+            {
+              "keyword": "visual illusion",
+              "definition": "when perception does not match physical reality — e.g. the Müller-Lyer illusion",
+              "display_order": 7
+            },
+            {
+              "keyword": "nature vs nurture (perception)",
+              "definition": "debate over whether perception is innate (nature) or shaped by experience and culture (nurture)",
+              "display_order": 8
+            },
+            {
+              "keyword": "Gibson's direct theory",
+              "definition": "the theory that perception is based directly on information in the environment — no prior knowledge needed (nature)",
+              "display_order": 9
+            },
+            {
+              "keyword": "Gregory's constructivist theory",
+              "definition": "the theory that perception is an active process using prior knowledge and experience to interpret sensory data (nurture)",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Development",
+      "paper": "Paper 1",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Cognitive & Social Development",
+          "cards": [
+            {
+              "keyword": "Piaget's stages of development",
+              "definition": "four stages: sensorimotor (0–2), preoperational (2–7), concrete operational (7–11), formal operational (11+)",
+              "display_order": 1
+            },
+            {
+              "keyword": "schema",
+              "definition": "a mental framework or category used to organise and interpret information — updated through assimilation and accommodation",
+              "display_order": 2
+            },
+            {
+              "keyword": "assimilation",
+              "definition": "fitting new information into an existing schema",
+              "display_order": 3
+            },
+            {
+              "keyword": "accommodation",
+              "definition": "changing an existing schema to fit new information that doesn't match it",
+              "display_order": 4
+            },
+            {
+              "keyword": "object permanence",
+              "definition": "the understanding that objects continue to exist even when they cannot be seen — develops in the sensorimotor stage",
+              "display_order": 5
+            },
+            {
+              "keyword": "egocentrism",
+              "definition": "the inability to see things from another person's point of view — characteristic of the preoperational stage",
+              "display_order": 6
+            },
+            {
+              "keyword": "conservation",
+              "definition": "the understanding that quantity stays the same even if its appearance changes — develops in the concrete operational stage",
+              "display_order": 7
+            },
+            {
+              "keyword": "Willingham's learning theory",
+              "definition": "the idea that students learn best when new information is connected to things they already know",
+              "display_order": 8
+            },
+            {
+              "keyword": "attachment",
+              "definition": "a strong emotional bond between a child and caregiver — important for emotional development",
+              "display_order": 9
+            },
+            {
+              "keyword": "Bowlby's theory of attachment",
+              "definition": "the theory that children have an innate need to form one primary attachment — the caregiver provides a secure base",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research Methods in Psychology",
+      "paper": "Paper 2",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Psychological Research Methods",
+          "cards": [
+            {
+              "keyword": "experiment",
+              "definition": "a research method where one variable is changed to see its effect on another, while other variables are controlled",
+              "display_order": 1
+            },
+            {
+              "keyword": "independent variable (IV)",
+              "definition": "the variable that is deliberately changed by the researcher in an experiment",
+              "display_order": 2
+            },
+            {
+              "keyword": "dependent variable (DV)",
+              "definition": "the variable that is measured to see if it has been affected by the IV",
+              "display_order": 3
+            },
+            {
+              "keyword": "control variable",
+              "definition": "a variable that is kept the same to ensure a fair test",
+              "display_order": 4
+            },
+            {
+              "keyword": "hypothesis",
+              "definition": "a clear, testable prediction about what will happen in a study",
+              "display_order": 5
+            },
+            {
+              "keyword": "laboratory experiment",
+              "definition": "an experiment conducted in a controlled environment — high control but low ecological validity",
+              "display_order": 6
+            },
+            {
+              "keyword": "field experiment",
+              "definition": "an experiment conducted in a real-world setting — higher ecological validity but less control",
+              "display_order": 7
+            },
+            {
+              "keyword": "case study",
+              "definition": "an in-depth investigation of a single individual, group, or event — produces rich data but hard to generalise",
+              "display_order": 8
+            },
+            {
+              "keyword": "ethical guidelines (BPS)",
+              "definition": "rules from the British Psychological Society governing research — including informed consent, right to withdraw, and debriefing",
+              "display_order": 9
+            },
+            {
+              "keyword": "ecological validity",
+              "definition": "the extent to which research findings can be applied to real-world situations",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "subject": {
+    "name": "German",
+    "slug": "german",
+    "colour": "#1f2937",
+    "exam_board": "AQA",
+    "emoji": "🇩🇪"
+  },
+  "topics": [
+    {
+      "name": "Identity & Culture",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Family, Relationships & Daily Life",
+          "cards": [
+            {
+              "keyword": "die Familie",
+              "definition": "family — die Eltern (parents), die Geschwister (siblings), die Großeltern (grandparents)",
+              "display_order": 1
+            },
+            {
+              "keyword": "die Hochzeit",
+              "definition": "wedding — heiraten (to get married), der Ehemann/die Ehefrau (husband/wife)",
+              "display_order": 2
+            },
+            {
+              "keyword": "die Scheidung",
+              "definition": "divorce — sich scheiden lassen (to get divorced), getrennt (separated)",
+              "display_order": 3
+            },
+            {
+              "keyword": "die Freundschaft",
+              "definition": "friendship — ein Freund/eine Freundin (a friend), sich gut verstehen mit (to get on well with)",
+              "display_order": 4
+            },
+            {
+              "keyword": "die Beziehung",
+              "definition": "relationship — ausgehen mit (to go out with), sich verlieben in (to fall in love with)",
+              "display_order": 5
+            },
+            {
+              "keyword": "die Hausarbeit",
+              "definition": "housework — das Geschirr spülen (do the dishes), staubsaugen (vacuum), das Bett machen (make the bed)",
+              "display_order": 6
+            },
+            {
+              "keyword": "das Frühstück",
+              "definition": "breakfast — in Germany often bread, cold meats, cheese, and coffee",
+              "display_order": 7
+            },
+            {
+              "keyword": "das Mittagessen",
+              "definition": "lunch — midday meal — can be the main meal of the day in Germany",
+              "display_order": 8
+            },
+            {
+              "keyword": "das Abendessen",
+              "definition": "dinner — in Germany often a lighter meal — Abendbrot (bread and cold cuts)",
+              "display_order": 9
+            },
+            {
+              "keyword": "die Tagesroutine",
+              "definition": "daily routine — aufstehen (get up), ins Bett gehen (go to bed), duschen (have a shower)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does 'die Eltern' mean?",
+              "options": [
+                "A) Grandparents",
+                "B) Children",
+                "C) Parents",
+                "D) Relatives"
+              ],
+              "correct_answer": "C",
+              "explanation": "Die Eltern = parents. Die Großeltern = grandparents. Die Geschwister = siblings.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'heiraten' mean?",
+              "options": [
+                "A) To get divorced",
+                "B) To get engaged",
+                "C) To get married",
+                "D) To move house"
+              ],
+              "correct_answer": "C",
+              "explanation": "Heiraten = to get married. Ich heirate nächstes Jahr = I am getting married next year.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'sich gut verstehen mit' mean?",
+              "options": [
+                "A) To argue with",
+                "B) To understand someone",
+                "C) To get on well with",
+                "D) To live with"
+              ],
+              "correct_answer": "C",
+              "explanation": "Sich gut verstehen mit = to get on well with. Ich verstehe mich gut mit meiner Schwester = I get on well with my sister.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'das Geschirr spülen' mean?",
+              "options": [
+                "A) To make the bed",
+                "B) To vacuum",
+                "C) To cook",
+                "D) To do the dishes"
+              ],
+              "correct_answer": "D",
+              "explanation": "Das Geschirr spülen = to do the dishes. Die Hausarbeit = housework.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'das Mittagessen'?",
+              "options": [
+                "A) Breakfast",
+                "B) Dinner",
+                "C) Lunch",
+                "D) A snack"
+              ],
+              "correct_answer": "C",
+              "explanation": "Das Mittagessen = lunch (midday meal). Das Frühstück = breakfast. Das Abendessen = dinner.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'aufstehen' mean?",
+              "options": [
+                "A) To go to bed",
+                "B) To get dressed",
+                "C) To get up",
+                "D) To go to school"
+              ],
+              "correct_answer": "C",
+              "explanation": "Aufstehen = to get up. Ins Bett gehen = to go to bed.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'die Freundschaft'?",
+              "options": [
+                "A) Love",
+                "B) Family",
+                "C) Friendship",
+                "D) Marriage"
+              ],
+              "correct_answer": "C",
+              "explanation": "Die Freundschaft = friendship. Ein Freund/eine Freundin = a friend. Mein bester Freund = my best friend.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'ausgehen mit' mean?",
+              "options": [
+                "A) To go out of a building",
+                "B) To go out with (in a relationship)",
+                "C) To leave school",
+                "D) To go shopping"
+              ],
+              "correct_answer": "B",
+              "explanation": "Ausgehen mit = to go out with (in a relationship). Ich gehe mit jemandem aus = I am going out with someone.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'das Abendessen' in Germany?",
+              "options": [
+                "A) Breakfast",
+                "B) Lunch",
+                "C) Dinner — often Abendbrot (bread and cold cuts)",
+                "D) Afternoon snack"
+              ],
+              "correct_answer": "C",
+              "explanation": "Das Abendessen = dinner. Traditional German Abendessen is often Abendbrot — bread with cold meats and cheese.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'duschen' mean?",
+              "options": [
+                "A) To have a bath",
+                "B) To get dressed",
+                "C) To have a shower",
+                "D) To brush teeth"
+              ],
+              "correct_answer": "C",
+              "explanation": "Duschen = to have a shower. Baden = to have a bath.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Die Eltern means grandparents in German.",
+              "correct_answer": "False",
+              "explanation": "Die Eltern = parents. Die Großeltern = grandparents.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Heiraten means to get married.",
+              "correct_answer": "True",
+              "explanation": "Ich möchte eines Tages heiraten = I would like to get married one day.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Sich gut verstehen mit means to get on well with.",
+              "correct_answer": "True",
+              "explanation": "Ich verstehe mich gut mit meinen Geschwistern = I get on well with my siblings.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Das Mittagessen is dinner in Germany.",
+              "correct_answer": "False",
+              "explanation": "Das Mittagessen = lunch. Das Abendessen = dinner.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Das Geschirr spülen means to do the dishes.",
+              "correct_answer": "True",
+              "explanation": "Das Geschirr spülen is a common household chore.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Aufstehen means to go to bed.",
+              "correct_answer": "False",
+              "explanation": "Aufstehen = to get up. Ins Bett gehen = to go to bed.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Die Freundschaft means friendship.",
+              "correct_answer": "True",
+              "explanation": "Die Freundschaft ist sehr wichtig für mich = Friendship is very important to me.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Ausgehen mit means to go shopping.",
+              "correct_answer": "False",
+              "explanation": "Ausgehen mit = to go out with (in a relationship). Einkaufen gehen = to go shopping.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Traditional German dinner (Abendessen) is often bread with cold cuts.",
+              "correct_answer": "True",
+              "explanation": "Abendbrot (literally 'evening bread') is a traditional lighter German dinner.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Duschen means to have a bath.",
+              "correct_answer": "False",
+              "explanation": "Duschen = to have a shower. Baden = to have a bath.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Die ________ = family.",
+              "correct_answer": "Familie",
+              "explanation": "Die Familie besteht aus Eltern, Geschwistern und Großeltern.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = to get married.",
+              "correct_answer": "Heiraten",
+              "explanation": "Ich möchte heiraten = I would like to get married.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Sich gut ________ mit = to get on well with.",
+              "correct_answer": "verstehen",
+              "explanation": "Ich verstehe mich gut mit meinen Eltern = I get on well with my parents.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Das Geschirr ________ = to do the dishes.",
+              "correct_answer": "spülen",
+              "explanation": "Die Hausarbeit = housework. Das Geschirr spülen is a common chore.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Das ________ = lunch (midday meal).",
+              "correct_answer": "Mittagessen",
+              "explanation": "Das Mittagessen kann in Deutschland die Hauptmahlzeit sein.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = to get up.",
+              "correct_answer": "Aufstehen",
+              "explanation": "Ich stehe um sieben Uhr auf = I get up at seven o'clock.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Die ________ = friendship.",
+              "correct_answer": "Freundschaft",
+              "explanation": "Die Freundschaft ist sehr wichtig = Friendship is very important.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ mit = to go out with (in a relationship).",
+              "correct_answer": "Ausgehen",
+              "explanation": "Ich gehe mit jemandem aus = I am going out with someone.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Das ________ = dinner.",
+              "correct_answer": "Abendessen",
+              "explanation": "Das Abendessen in Deutschland ist oft leichter als das Mittagessen.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = to have a shower.",
+              "correct_answer": "Duschen",
+              "explanation": "Ich dusche jeden Morgen = I shower every morning.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "die Familie",
+                  "match": "family — Eltern, Geschwister, Großeltern"
+                },
+                {
+                  "term": "heiraten",
+                  "match": "to get married"
+                },
+                {
+                  "term": "sich gut verstehen mit",
+                  "match": "to get on well with"
+                },
+                {
+                  "term": "das Geschirr spülen",
+                  "match": "to do the dishes"
+                },
+                {
+                  "term": "aufstehen",
+                  "match": "to get up"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "German Grammar Essentials",
+      "paper": "All papers",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Key Grammar — Cases, Tenses & Structures",
+          "cards": [
+            {
+              "keyword": "Präsens",
+              "definition": "the present tense — ich spreche, du sprichst, er spricht, wir sprechen",
+              "display_order": 1
+            },
+            {
+              "keyword": "Perfekt",
+              "definition": "the perfect tense — used for completed past actions in spoken German — ich habe gegessen, ich bin gegangen",
+              "display_order": 2
+            },
+            {
+              "keyword": "Imperfekt",
+              "definition": "the imperfect tense — used in written German for the past — ich sprach, ich aß, es war",
+              "display_order": 3
+            },
+            {
+              "keyword": "Futur I",
+              "definition": "the future tense — werden + infinitive — ich werde sprechen (I will speak)",
+              "display_order": 4
+            },
+            {
+              "keyword": "Konjunktiv II",
+              "definition": "the conditional — würde + infinitive — ich würde gern (I would like)",
+              "display_order": 5
+            },
+            {
+              "keyword": "der Nominativ",
+              "definition": "the nominative case — the subject of the sentence — der/die/das/die",
+              "display_order": 6
+            },
+            {
+              "keyword": "der Akkusativ",
+              "definition": "the accusative case — the direct object — den/die/das/die",
+              "display_order": 7
+            },
+            {
+              "keyword": "der Dativ",
+              "definition": "the dative case — the indirect object — dem/der/dem/den",
+              "display_order": 8
+            },
+            {
+              "keyword": "Adjektivdeklination",
+              "definition": "adjective endings change depending on case, gender, and whether a definite or indefinite article is used",
+              "display_order": 9
+            },
+            {
+              "keyword": "Wortstellung",
+              "definition": "word order — verb second in main clauses; verb at the end in subordinate clauses",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "How do you form Futur I in German?",
+              "options": [
+                "A) Haben + past participle",
+                "B) Sein + past participle",
+                "C) Werden + infinitive",
+                "D) Modal verb + infinitive"
+              ],
+              "correct_answer": "C",
+              "explanation": "Futur I = werden + infinitive. Ich werde morgen kommen = I will come tomorrow.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which auxiliary is used with movement verbs in the Perfekt?",
+              "options": [
+                "A) Haben",
+                "B) Werden",
+                "C) Sein",
+                "D) Modal verbs"
+              ],
+              "correct_answer": "C",
+              "explanation": "Movement and change-of-state verbs use sein in the Perfekt: Ich bin gegangen = I went. Ich bin gefahren = I drove.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the accusative case used for?",
+              "options": [
+                "A) The subject of the sentence",
+                "B) The indirect object",
+                "C) The direct object",
+                "D) After prepositions always"
+              ],
+              "correct_answer": "C",
+              "explanation": "The accusative (den/die/das/die) is used for the direct object — the thing directly affected by the verb.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'ich würde gern' mean?",
+              "options": [
+                "A) I like",
+                "B) I would like",
+                "C) I will like",
+                "D) I liked"
+              ],
+              "correct_answer": "B",
+              "explanation": "Ich würde gern = I would like. Ich würde gern nach Deutschland fahren = I would like to go to Germany.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Where does the verb go in a German main clause?",
+              "options": [
+                "A) First",
+                "B) Second",
+                "C) At the end",
+                "D) Before the subject"
+              ],
+              "correct_answer": "B",
+              "explanation": "Verb second (V2) rule: in main clauses the verb is always in second position. Morgen fahre ich nach Berlin.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Where does the verb go in a German subordinate clause?",
+              "options": [
+                "A) Second position",
+                "B) First",
+                "C) At the end",
+                "D) After the subject only"
+              ],
+              "correct_answer": "C",
+              "explanation": "In subordinate clauses (introduced by weil, dass, obwohl, etc.), the verb goes to the END. Weil ich müde bin, gehe ich ins Bett.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the nominative case used for?",
+              "options": [
+                "A) The direct object",
+                "B) The indirect object",
+                "C) The subject of the sentence",
+                "D) After two-way prepositions"
+              ],
+              "correct_answer": "C",
+              "explanation": "The nominative is for the subject — the person or thing doing the action. Der Mann kauft das Buch.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the dative case used for?",
+              "options": [
+                "A) The subject",
+                "B) The direct object",
+                "C) The indirect object",
+                "D) Adjective endings only"
+              ],
+              "correct_answer": "C",
+              "explanation": "The dative (dem/der/dem/den) is for the indirect object — e.g. Ich gebe dem Mann das Buch (I give the man the book).",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Konjunktiv II used for in German?",
+              "options": [
+                "A) Completed past actions",
+                "B) Future plans",
+                "C) Polite requests and hypothetical situations — 'would'",
+                "D) Questions only"
+              ],
+              "correct_answer": "C",
+              "explanation": "Konjunktiv II expresses wishes, polite requests, and hypothetical situations: ich würde, ich könnte, ich hätte.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which case does German use after most prepositions of location (at rest)?",
+              "options": [
+                "A) Nominative",
+                "B) Accusative",
+                "C) Dative",
+                "D) Genitive"
+              ],
+              "correct_answer": "C",
+              "explanation": "Two-way prepositions (in, an, auf, etc.) use dative for location (at rest): Ich bin in dem Haus. Accusative for movement: Ich gehe in das Haus.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Futur I uses werden + infinitive.",
+              "correct_answer": "True",
+              "explanation": "Ich werde morgen lernen = I will study tomorrow.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Movement verbs use haben in the Perfekt.",
+              "correct_answer": "False",
+              "explanation": "Movement and change-of-state verbs use SEIN in the Perfekt: Ich bin gegangen, ich bin gefahren.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The verb is always second in a German main clause.",
+              "correct_answer": "True",
+              "explanation": "V2 word order: even when a time expression starts the sentence — Gestern bin ich ins Kino gegangen.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The accusative case is used for the subject.",
+              "correct_answer": "False",
+              "explanation": "The nominative is for the subject. The accusative is for the direct object.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "In subordinate clauses the verb goes to the end.",
+              "correct_answer": "True",
+              "explanation": "Weil ich hungrig bin, esse ich jetzt = Because I am hungry, I am eating now.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Konjunktiv II expresses completed past actions.",
+              "correct_answer": "False",
+              "explanation": "Konjunktiv II expresses hypothetical situations and polite requests — 'would'. Ich würde gern = I would like.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The dative case is used for the indirect object.",
+              "correct_answer": "True",
+              "explanation": "Ich gebe meiner Mutter ein Geschenk = I give my mother a present. (Meiner Mutter = dative.)",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "German adjective endings never change.",
+              "correct_answer": "False",
+              "explanation": "German adjective endings change based on case, gender, and whether definite or indefinite article is used.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Ich bin gegangen uses sein because gehen is a movement verb.",
+              "correct_answer": "True",
+              "explanation": "Movement and change-of-state verbs take sein in the Perfekt.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The Imperfekt is mainly used in spoken German.",
+              "correct_answer": "False",
+              "explanation": "The Imperfekt is mainly used in WRITTEN German. Spoken German prefers the Perfekt for past events.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Futur I = ________ + infinitive.",
+              "correct_answer": "werden",
+              "explanation": "Ich werde kommen = I will come. Sie werden fahren = They will travel.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Movement verbs use ________ in the Perfekt.",
+              "correct_answer": "sein",
+              "explanation": "Ich bin gegangen = I went. Ich bin gefahren = I drove.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "In main clauses the verb is always in ________ position.",
+              "correct_answer": "second",
+              "explanation": "V2 rule: subject + VERB + rest. Or time/place + VERB + subject + rest.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "In subordinate clauses (weil, dass, obwohl) the verb goes to the ________.",
+              "correct_answer": "end",
+              "explanation": "Ich gehe ins Bett, weil ich müde bin = I go to bed because I am tired.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ case is used for the subject of the sentence.",
+              "correct_answer": "nominative",
+              "explanation": "Der Mann (nominative) kauft das Buch = The man buys the book.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ case (den/die/das/die) is used for the direct object.",
+              "correct_answer": "accusative",
+              "explanation": "Ich kaufe den Mantel = I buy the coat. (Den = masculine accusative.)",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ case (dem/der/dem/den) is used for the indirect object.",
+              "correct_answer": "dative",
+              "explanation": "Ich gebe dem Kind das Buch = I give the child the book. (Dem Kind = dative.)",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Ich ________ gern = I would like (Konjunktiv II).",
+              "correct_answer": "würde",
+              "explanation": "Ich würde gern nach Deutschland fahren = I would like to go to Germany.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Two-way prepositions use ________ for location (at rest).",
+              "correct_answer": "dative",
+              "explanation": "Ich bin in dem (im) Haus = I am in the house. (Dative — at rest.)",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ endings change depending on case, gender, and article type.",
+              "correct_answer": "Adjective",
+              "explanation": "Ein großer Mann / der große Mann — the article affects the adjective ending.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "Futur I",
+                  "match": "werden + infinitive — I will"
+                },
+                {
+                  "term": "Perfekt",
+                  "match": "haben/sein + past participle — completed past (spoken)"
+                },
+                {
+                  "term": "Konjunktiv II",
+                  "match": "würde + infinitive — I would"
+                },
+                {
+                  "term": "V2 word order",
+                  "match": "verb second in main clauses"
+                },
+                {
+                  "term": "verb at end",
+                  "match": "subordinate clauses — weil, dass, obwohl"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

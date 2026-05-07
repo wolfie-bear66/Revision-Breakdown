@@ -1,0 +1,1024 @@
+{
+  "subject": {
+    "name": "Computer Science",
+    "slug": "computer-science",
+    "colour": "#6366f1"
+  },
+  "topics": [
+    {
+      "name": "Systems Architecture",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "CPU & Architecture Basics",
+          "cards": [
+            {
+              "keyword": "CPU (Central Processing Unit)",
+              "definition": "the main component of a computer that carries out instructions and processes data",
+              "display_order": 1
+            },
+            {
+              "keyword": "fetch-decode-execute cycle",
+              "definition": "the process the CPU repeats continuously: fetch an instruction from memory, decode it, then execute it",
+              "display_order": 2
+            },
+            {
+              "keyword": "ALU (Arithmetic Logic Unit)",
+              "definition": "the part of the CPU that performs calculations and logical comparisons",
+              "display_order": 3
+            },
+            {
+              "keyword": "control unit",
+              "definition": "the part of the CPU that coordinates all activities, directing the fetch-decode-execute cycle",
+              "display_order": 4
+            },
+            {
+              "keyword": "registers",
+              "definition": "tiny, very fast memory locations inside the CPU that temporarily store data being processed",
+              "display_order": 5
+            },
+            {
+              "keyword": "cache",
+              "definition": "a small, fast memory store inside or close to the CPU that holds frequently used data to speed up processing",
+              "display_order": 6
+            },
+            {
+              "keyword": "clock speed",
+              "definition": "the number of cycles the CPU performs per second, measured in GHz — higher means faster processing",
+              "display_order": 7
+            },
+            {
+              "keyword": "cores",
+              "definition": "individual processing units within a CPU — more cores allow more tasks to be processed simultaneously",
+              "display_order": 8
+            },
+            {
+              "keyword": "von Neumann architecture",
+              "definition": "a computer design where the CPU, memory, and input/output share a single bus to transfer data",
+              "display_order": 9
+            },
+            {
+              "keyword": "bus",
+              "definition": "a set of wires that transfers data between components of a computer",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Memory & Storage",
+      "paper": "Paper 1",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Primary Memory",
+          "cards": [
+            {
+              "keyword": "RAM (Random Access Memory)",
+              "definition": "temporary, volatile memory that stores data and programs currently in use — contents lost when power is off",
+              "display_order": 1
+            },
+            {
+              "keyword": "ROM (Read Only Memory)",
+              "definition": "permanent, non-volatile memory that stores the boot instructions — cannot be changed and is not lost when power is off",
+              "display_order": 2
+            },
+            {
+              "keyword": "volatile memory",
+              "definition": "memory that loses its contents when the power is switched off (e.g. RAM)",
+              "display_order": 3
+            },
+            {
+              "keyword": "non-volatile memory",
+              "definition": "memory that keeps its contents when the power is switched off (e.g. ROM, SSD)",
+              "display_order": 4
+            },
+            {
+              "keyword": "virtual memory",
+              "definition": "a section of secondary storage used as extra RAM when RAM is full — slower than real RAM",
+              "display_order": 5
+            },
+            {
+              "keyword": "flash memory",
+              "definition": "a type of non-volatile memory used in USB drives, SSDs, and memory cards — can be erased and rewritten",
+              "display_order": 6
+            },
+            {
+              "keyword": "BIOS / boot sequence",
+              "definition": "the program stored in ROM that runs when a computer starts up, checking hardware and loading the OS",
+              "display_order": 7
+            },
+            {
+              "keyword": "address bus",
+              "definition": "carries the memory address of where data should be read from or written to",
+              "display_order": 8
+            },
+            {
+              "keyword": "data bus",
+              "definition": "carries the actual data being transferred between the CPU and memory",
+              "display_order": 9
+            },
+            {
+              "keyword": "buffer",
+              "definition": "a temporary storage area that holds data while it is being transferred between two components at different speeds",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Secondary Storage",
+          "cards": [
+            {
+              "keyword": "secondary storage",
+              "definition": "permanent storage used to save data long-term, separate from RAM (e.g. HDD, SSD, optical disc)",
+              "display_order": 1
+            },
+            {
+              "keyword": "HDD (Hard Disk Drive)",
+              "definition": "a magnetic storage device that uses spinning platters to read and write data — high capacity, slower than SSD",
+              "display_order": 2
+            },
+            {
+              "keyword": "SSD (Solid State Drive)",
+              "definition": "a storage device with no moving parts that uses flash memory — faster and more durable than HDD but more expensive",
+              "display_order": 3
+            },
+            {
+              "keyword": "optical storage",
+              "definition": "storage that uses laser light to read/write data on discs (e.g. CD, DVD, Blu-ray)",
+              "display_order": 4
+            },
+            {
+              "keyword": "magnetic storage",
+              "definition": "storage that uses magnetism to store data (e.g. HDD, magnetic tape)",
+              "display_order": 5
+            },
+            {
+              "keyword": "cloud storage",
+              "definition": "storing data on remote servers accessed via the internet — accessible from anywhere but requires internet connection",
+              "display_order": 6
+            },
+            {
+              "keyword": "capacity",
+              "definition": "the maximum amount of data a storage device can hold, measured in GB or TB",
+              "display_order": 7
+            },
+            {
+              "keyword": "read/write speed",
+              "definition": "how quickly data can be saved to or retrieved from a storage device",
+              "display_order": 8
+            },
+            {
+              "keyword": "durability",
+              "definition": "how resistant a storage device is to physical damage — SSDs are more durable than HDDs as they have no moving parts",
+              "display_order": 9
+            },
+            {
+              "keyword": "latency",
+              "definition": "the delay between requesting data and receiving it — lower latency means faster access",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Networks & the Internet",
+      "paper": "Paper 1",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Network Types & Concepts",
+          "cards": [
+            {
+              "keyword": "LAN (Local Area Network)",
+              "definition": "a network connecting devices within a small geographical area such as a school or office building",
+              "display_order": 1
+            },
+            {
+              "keyword": "WAN (Wide Area Network)",
+              "definition": "a network connecting devices over a large geographical area — the internet is the largest WAN",
+              "display_order": 2
+            },
+            {
+              "keyword": "client-server network",
+              "definition": "a network where a central server provides services and resources to client devices",
+              "display_order": 3
+            },
+            {
+              "keyword": "peer-to-peer network",
+              "definition": "a network where all devices are equal and share resources directly with each other, with no central server",
+              "display_order": 4
+            },
+            {
+              "keyword": "bandwidth",
+              "definition": "the maximum amount of data that can be transmitted over a network connection per second, measured in Mbps",
+              "display_order": 5
+            },
+            {
+              "keyword": "packet",
+              "definition": "a small chunk of data that is sent across a network — large files are split into many packets",
+              "display_order": 6
+            },
+            {
+              "keyword": "packet switching",
+              "definition": "the method of sending data by breaking it into packets that can take different routes across a network",
+              "display_order": 7
+            },
+            {
+              "keyword": "IP address",
+              "definition": "a unique numerical label assigned to every device on a network, used to identify and locate it",
+              "display_order": 8
+            },
+            {
+              "keyword": "MAC address",
+              "definition": "a unique hardware address permanently assigned to a network interface card — used to identify devices on a LAN",
+              "display_order": 9
+            },
+            {
+              "keyword": "protocol",
+              "definition": "a set of agreed rules that determine how data is transmitted and received across a network",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Network Hardware & Topology",
+          "cards": [
+            {
+              "keyword": "router",
+              "definition": "a device that forwards data packets between networks and connects a LAN to the internet",
+              "display_order": 1
+            },
+            {
+              "keyword": "switch",
+              "definition": "a device that connects multiple devices on a LAN and forwards data only to the intended recipient device",
+              "display_order": 2
+            },
+            {
+              "keyword": "hub",
+              "definition": "an older device that connects devices on a LAN and sends data to all devices — less efficient than a switch",
+              "display_order": 3
+            },
+            {
+              "keyword": "NIC (Network Interface Card)",
+              "definition": "hardware that allows a device to connect to a network, either wired or wireless",
+              "display_order": 4
+            },
+            {
+              "keyword": "star topology",
+              "definition": "a network layout where all devices connect to a central switch or hub — most common in schools and offices",
+              "display_order": 5
+            },
+            {
+              "keyword": "bus topology",
+              "definition": "a network layout where all devices connect to a single central cable — failure of the cable breaks the whole network",
+              "display_order": 6
+            },
+            {
+              "keyword": "mesh topology",
+              "definition": "a network layout where every device connects to every other device — very reliable but expensive to set up",
+              "display_order": 7
+            },
+            {
+              "keyword": "wired connection (Ethernet)",
+              "definition": "a network connection using physical cables — faster and more secure than wireless",
+              "display_order": 8
+            },
+            {
+              "keyword": "wireless connection (Wi-Fi)",
+              "definition": "a network connection using radio waves — convenient and flexible but slower and less secure than wired",
+              "display_order": 9
+            },
+            {
+              "keyword": "DNS (Domain Name System)",
+              "definition": "a system that translates human-readable domain names (e.g. google.com) into IP addresses",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Internet Protocols",
+          "cards": [
+            {
+              "keyword": "HTTP (HyperText Transfer Protocol)",
+              "definition": "the protocol used to transfer web pages over the internet",
+              "display_order": 1
+            },
+            {
+              "keyword": "HTTPS",
+              "definition": "a secure version of HTTP that encrypts data sent between a browser and a website",
+              "display_order": 2
+            },
+            {
+              "keyword": "TCP/IP",
+              "definition": "the set of protocols that governs how data is sent and received across the internet",
+              "display_order": 3
+            },
+            {
+              "keyword": "FTP (File Transfer Protocol)",
+              "definition": "a protocol used to transfer files between computers over a network",
+              "display_order": 4
+            },
+            {
+              "keyword": "email protocols (SMTP/IMAP/POP)",
+              "definition": "protocols used to send (SMTP) and receive (IMAP/POP) emails across networks",
+              "display_order": 5
+            },
+            {
+              "keyword": "URL (Uniform Resource Locator)",
+              "definition": "the full web address used to locate a resource on the internet (e.g. https://www.bbc.co.uk)",
+              "display_order": 6
+            },
+            {
+              "keyword": "HTML (HyperText Markup Language)",
+              "definition": "the language used to structure and display content on web pages",
+              "display_order": 7
+            },
+            {
+              "keyword": "the World Wide Web (WWW)",
+              "definition": "a system of interlinked web pages and resources accessed via the internet using HTTP",
+              "display_order": 8
+            },
+            {
+              "keyword": "the internet",
+              "definition": "the global network of computers and servers connected together — the WWW runs on top of the internet",
+              "display_order": 9
+            },
+            {
+              "keyword": "hosting",
+              "definition": "storing a website or application on a server so it can be accessed over the internet",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Network Security",
+      "paper": "Paper 1",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Threats & Attacks",
+          "cards": [
+            {
+              "keyword": "malware",
+              "definition": "any software designed to damage, disrupt, or gain unauthorised access to a computer system",
+              "display_order": 1
+            },
+            {
+              "keyword": "virus",
+              "definition": "malware that attaches itself to files and spreads to other files, often causing damage",
+              "display_order": 2
+            },
+            {
+              "keyword": "worm",
+              "definition": "malware that replicates itself across a network without needing to attach to a file",
+              "display_order": 3
+            },
+            {
+              "keyword": "trojan",
+              "definition": "malware disguised as legitimate software that gives an attacker access to a system",
+              "display_order": 4
+            },
+            {
+              "keyword": "ransomware",
+              "definition": "malware that encrypts a victim's files and demands payment to restore access",
+              "display_order": 5
+            },
+            {
+              "keyword": "phishing",
+              "definition": "a social engineering attack using fake emails or websites to trick users into revealing sensitive information",
+              "display_order": 6
+            },
+            {
+              "keyword": "brute force attack",
+              "definition": "an attack that systematically tries every possible password combination until the correct one is found",
+              "display_order": 7
+            },
+            {
+              "keyword": "SQL injection",
+              "definition": "an attack where malicious SQL code is inserted into a web form to access or manipulate a database",
+              "display_order": 8
+            },
+            {
+              "keyword": "DoS attack (Denial of Service)",
+              "definition": "an attack that floods a server with traffic to make it unavailable to legitimate users",
+              "display_order": 9
+            },
+            {
+              "keyword": "social engineering",
+              "definition": "manipulating people into revealing confidential information or performing actions that compromise security",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Security Measures",
+          "cards": [
+            {
+              "keyword": "firewall",
+              "definition": "software or hardware that monitors and controls incoming and outgoing network traffic based on security rules",
+              "display_order": 1
+            },
+            {
+              "keyword": "encryption",
+              "definition": "the process of converting data into a coded form so only authorised parties can read it",
+              "display_order": 2
+            },
+            {
+              "keyword": "authentication",
+              "definition": "the process of verifying a user's identity before granting access to a system",
+              "display_order": 3
+            },
+            {
+              "keyword": "two-factor authentication (2FA)",
+              "definition": "a security process requiring two different forms of verification (e.g. password + SMS code)",
+              "display_order": 4
+            },
+            {
+              "keyword": "anti-malware software",
+              "definition": "software that detects, quarantines, and removes malicious programs from a computer",
+              "display_order": 5
+            },
+            {
+              "keyword": "penetration testing",
+              "definition": "an authorised simulated attack on a system to find and fix security vulnerabilities before real attackers do",
+              "display_order": 6
+            },
+            {
+              "keyword": "access control",
+              "definition": "restricting who can access certain data or systems, using usernames, passwords, and permission levels",
+              "display_order": 7
+            },
+            {
+              "keyword": "HTTPS / SSL / TLS",
+              "definition": "protocols that encrypt data between a browser and a server, shown by the padlock icon in a browser",
+              "display_order": 8
+            },
+            {
+              "keyword": "network policy",
+              "definition": "a set of rules governing acceptable use of a network — e.g. not sharing passwords, not installing unauthorised software",
+              "display_order": 9
+            },
+            {
+              "keyword": "physical security",
+              "definition": "protecting hardware from physical access — e.g. locked server rooms, CCTV, cable locks",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Systems Software",
+      "paper": "Paper 1",
+      "display_order": 5,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Operating Systems",
+          "cards": [
+            {
+              "keyword": "operating system (OS)",
+              "definition": "software that manages hardware resources and provides an interface between the user and the computer (e.g. Windows, macOS, Linux)",
+              "display_order": 1
+            },
+            {
+              "keyword": "process management",
+              "definition": "the OS task of allocating CPU time to running programs and managing their execution",
+              "display_order": 2
+            },
+            {
+              "keyword": "memory management",
+              "definition": "the OS task of allocating and tracking RAM usage between programs to prevent conflicts",
+              "display_order": 3
+            },
+            {
+              "keyword": "file management",
+              "definition": "the OS task of organising, naming, storing, and retrieving files on storage devices",
+              "display_order": 4
+            },
+            {
+              "keyword": "user interface (UI)",
+              "definition": "the way a user interacts with a computer — either a GUI (graphical) or CLI (command line)",
+              "display_order": 5
+            },
+            {
+              "keyword": "GUI (Graphical User Interface)",
+              "definition": "an interface using windows, icons, menus, and pointers — easier to use than a CLI",
+              "display_order": 6
+            },
+            {
+              "keyword": "CLI (Command Line Interface)",
+              "definition": "an interface where users type text commands directly — harder to learn but more powerful than a GUI",
+              "display_order": 7
+            },
+            {
+              "keyword": "multitasking",
+              "definition": "the ability of an OS to run multiple programs at the same time by rapidly switching between them",
+              "display_order": 8
+            },
+            {
+              "keyword": "driver",
+              "definition": "software that allows the OS to communicate with a hardware device (e.g. printer driver)",
+              "display_order": 9
+            },
+            {
+              "keyword": "utility software",
+              "definition": "programs that help maintain and manage a computer system (e.g. antivirus, disk defragmenter, backup tools)",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ethical, Legal & Cultural Issues",
+      "paper": "Paper 1",
+      "display_order": 6,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Legal & Ethical Issues",
+          "cards": [
+            {
+              "keyword": "Computer Misuse Act 1990",
+              "definition": "a UK law making it illegal to access computer systems without permission, spread malware, or commit fraud using computers",
+              "display_order": 1
+            },
+            {
+              "keyword": "Data Protection Act 2018 / UK GDPR",
+              "definition": "a UK law controlling how personal data is collected, stored, and used by organisations",
+              "display_order": 2
+            },
+            {
+              "keyword": "Copyright, Designs and Patents Act 1988",
+              "definition": "a UK law protecting the intellectual property of creators — making illegal copies is an offence",
+              "display_order": 3
+            },
+            {
+              "keyword": "intellectual property (IP)",
+              "definition": "creations of the mind (software, music, writing) that are legally protected from copying or theft",
+              "display_order": 4
+            },
+            {
+              "keyword": "open source software",
+              "definition": "software whose source code is freely available for anyone to view, use, and modify",
+              "display_order": 5
+            },
+            {
+              "keyword": "proprietary software",
+              "definition": "software owned by a company whose source code is not publicly available — users must pay a licence fee",
+              "display_order": 6
+            },
+            {
+              "keyword": "freeware",
+              "definition": "software that is free to use but whose source code is not available (unlike open source)",
+              "display_order": 7
+            },
+            {
+              "keyword": "digital divide",
+              "definition": "the gap between people who have access to technology and the internet and those who do not",
+              "display_order": 8
+            },
+            {
+              "keyword": "environmental impact",
+              "definition": "the effect of technology on the environment — including energy use, e-waste, and carbon emissions from data centres",
+              "display_order": 9
+            },
+            {
+              "keyword": "AI and ethical concerns",
+              "definition": "issues raised by artificial intelligence including bias, job displacement, privacy, and accountability",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algorithms",
+      "paper": "Paper 2",
+      "display_order": 7,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Algorithm Concepts",
+          "cards": [
+            {
+              "keyword": "algorithm",
+              "definition": "a precise, step-by-step set of instructions to solve a problem or complete a task",
+              "display_order": 1
+            },
+            {
+              "keyword": "flowchart",
+              "definition": "a diagram using shapes to represent the steps of an algorithm — ovals for start/end, rectangles for processes, diamonds for decisions",
+              "display_order": 2
+            },
+            {
+              "keyword": "pseudocode",
+              "definition": "an informal way of describing an algorithm using plain English and programming-like structure, without exact syntax",
+              "display_order": 3
+            },
+            {
+              "keyword": "decomposition",
+              "definition": "breaking a large, complex problem down into smaller, more manageable sub-problems",
+              "display_order": 4
+            },
+            {
+              "keyword": "abstraction",
+              "definition": "removing unnecessary detail from a problem to focus only on the essential information needed to solve it",
+              "display_order": 5
+            },
+            {
+              "keyword": "pattern recognition",
+              "definition": "identifying similarities or common features in problems to help find solutions more efficiently",
+              "display_order": 6
+            },
+            {
+              "keyword": "computational thinking",
+              "definition": "an approach to problem-solving that involves decomposition, abstraction, pattern recognition, and algorithm design",
+              "display_order": 7
+            },
+            {
+              "keyword": "input-process-output (IPO)",
+              "definition": "a basic model of computing: data goes in (input), something happens to it (process), and a result comes out (output)",
+              "display_order": 8
+            },
+            {
+              "keyword": "efficiency",
+              "definition": "how well an algorithm uses time and memory — a more efficient algorithm solves the same problem faster or using less memory",
+              "display_order": 9
+            },
+            {
+              "keyword": "trace table",
+              "definition": "a table used to manually track the values of variables as an algorithm runs, step by step — used to test and debug",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Searching & Sorting Algorithms",
+          "cards": [
+            {
+              "keyword": "linear search",
+              "definition": "a search algorithm that checks each item in a list one by one from the start until the target is found or the list ends",
+              "display_order": 1
+            },
+            {
+              "keyword": "binary search",
+              "definition": "a fast search algorithm that repeatedly halves a sorted list to find a target — much faster than linear search on large lists",
+              "display_order": 2
+            },
+            {
+              "keyword": "bubble sort",
+              "definition": "a sorting algorithm that repeatedly compares adjacent items and swaps them if in the wrong order — simple but slow on large lists",
+              "display_order": 3
+            },
+            {
+              "keyword": "merge sort",
+              "definition": "a sorting algorithm that splits a list in half repeatedly, sorts each half, then merges them back together — efficient on large lists",
+              "display_order": 4
+            },
+            {
+              "keyword": "insertion sort",
+              "definition": "a sorting algorithm that builds a sorted list one item at a time by inserting each new item in the correct position",
+              "display_order": 5
+            },
+            {
+              "keyword": "time complexity",
+              "definition": "a measure of how the running time of an algorithm grows as the size of the input increases",
+              "display_order": 6
+            },
+            {
+              "keyword": "Big O notation",
+              "definition": "a way of expressing how the time or space requirements of an algorithm scale with input size (e.g. O(n), O(n²))",
+              "display_order": 7
+            },
+            {
+              "keyword": "divide and conquer",
+              "definition": "an algorithm strategy that splits a problem into smaller sub-problems, solves them, then combines the results",
+              "display_order": 8
+            },
+            {
+              "keyword": "pre-condition",
+              "definition": "a condition that must be true before an algorithm can run correctly — e.g. binary search requires a sorted list",
+              "display_order": 9
+            },
+            {
+              "keyword": "dry run",
+              "definition": "manually stepping through an algorithm on paper to check it works correctly before running it on a computer",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Programming Concepts",
+      "paper": "Paper 2",
+      "display_order": 8,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Core Programming Concepts",
+          "cards": [
+            {
+              "keyword": "variable",
+              "definition": "a named storage location in a program that holds a value which can change during execution",
+              "display_order": 1
+            },
+            {
+              "keyword": "constant",
+              "definition": "a named value in a program that is set once and cannot be changed during execution",
+              "display_order": 2
+            },
+            {
+              "keyword": "data type",
+              "definition": "the type of value a variable holds — e.g. integer (whole number), float (decimal), string (text), boolean (true/false)",
+              "display_order": 3
+            },
+            {
+              "keyword": "sequence",
+              "definition": "instructions executed one after another in order — the most basic programming construct",
+              "display_order": 4
+            },
+            {
+              "keyword": "selection (if/else)",
+              "definition": "a programming construct that allows different code to run depending on whether a condition is true or false",
+              "display_order": 5
+            },
+            {
+              "keyword": "iteration (loops)",
+              "definition": "a programming construct that repeats a block of code — either a set number of times (for loop) or while a condition is true (while loop)",
+              "display_order": 6
+            },
+            {
+              "keyword": "for loop",
+              "definition": "a loop that repeats a set number of times — used when you know in advance how many repetitions are needed",
+              "display_order": 7
+            },
+            {
+              "keyword": "while loop",
+              "definition": "a loop that continues repeating as long as a condition remains true — used when the number of repetitions is not known in advance",
+              "display_order": 8
+            },
+            {
+              "keyword": "function / subroutine",
+              "definition": "a named, reusable block of code that performs a specific task — can be called multiple times from different parts of a program",
+              "display_order": 9
+            },
+            {
+              "keyword": "parameter",
+              "definition": "a value passed into a function when it is called, allowing the function to work with different data each time",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Data Structures & File Handling",
+          "cards": [
+            {
+              "keyword": "array",
+              "definition": "a data structure that stores multiple values of the same type in a single named list, accessed by an index number",
+              "display_order": 1
+            },
+            {
+              "keyword": "index",
+              "definition": "the position number used to access an item in an array — in most languages, indexing starts at 0",
+              "display_order": 2
+            },
+            {
+              "keyword": "string",
+              "definition": "a sequence of characters (letters, numbers, symbols) stored as text",
+              "display_order": 3
+            },
+            {
+              "keyword": "string operations",
+              "definition": "built-in functions to manipulate strings — e.g. length, substring, upper/lower case, concatenation",
+              "display_order": 4
+            },
+            {
+              "keyword": "record",
+              "definition": "a data structure that stores related data of different types together (like a row in a database)",
+              "display_order": 5
+            },
+            {
+              "keyword": "file handling (read/write)",
+              "definition": "the ability of a program to open, read data from, write data to, and close files stored on a computer",
+              "display_order": 6
+            },
+            {
+              "keyword": "local variable",
+              "definition": "a variable declared inside a function — only accessible within that function",
+              "display_order": 7
+            },
+            {
+              "keyword": "global variable",
+              "definition": "a variable declared outside functions — accessible from anywhere in the program but can cause errors if misused",
+              "display_order": 8
+            },
+            {
+              "keyword": "casting",
+              "definition": "converting a value from one data type to another — e.g. converting a string '5' to an integer 5",
+              "display_order": 9
+            },
+            {
+              "keyword": "concatenation",
+              "definition": "joining two or more strings together end-to-end (e.g. 'Hello' + ' ' + 'World' = 'Hello World')",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Testing & Debugging",
+          "cards": [
+            {
+              "keyword": "syntax error",
+              "definition": "an error caused by code that breaks the rules of the programming language — the program will not run",
+              "display_order": 1
+            },
+            {
+              "keyword": "logic error",
+              "definition": "an error where the program runs but produces the wrong output — the code is valid but the logic is incorrect",
+              "display_order": 2
+            },
+            {
+              "keyword": "runtime error",
+              "definition": "an error that causes a program to crash while it is running — e.g. dividing by zero or accessing an invalid array index",
+              "display_order": 3
+            },
+            {
+              "keyword": "debugging",
+              "definition": "the process of finding and fixing errors in a program",
+              "display_order": 4
+            },
+            {
+              "keyword": "test data",
+              "definition": "data used to test whether a program produces the correct output — should include normal, boundary, and erroneous values",
+              "display_order": 5
+            },
+            {
+              "keyword": "normal test data",
+              "definition": "typical valid inputs that the program should handle correctly",
+              "display_order": 6
+            },
+            {
+              "keyword": "boundary test data",
+              "definition": "values at the edges of acceptable input ranges — used to test if the program handles limits correctly",
+              "display_order": 7
+            },
+            {
+              "keyword": "erroneous test data",
+              "definition": "invalid inputs that the program should reject — used to test error handling",
+              "display_order": 8
+            },
+            {
+              "keyword": "iterative testing",
+              "definition": "testing a program repeatedly throughout development, fixing errors as they are found",
+              "display_order": 9
+            },
+            {
+              "keyword": "final / acceptance testing",
+              "definition": "testing a completed program to check it meets the original requirements before it is released",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Representation",
+      "paper": "Paper 2",
+      "display_order": 9,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Number Systems & Binary",
+          "cards": [
+            {
+              "keyword": "bit",
+              "definition": "the smallest unit of data in a computer — a single binary digit, either 0 or 1",
+              "display_order": 1
+            },
+            {
+              "keyword": "byte",
+              "definition": "a group of 8 bits — the standard unit of data storage",
+              "display_order": 2
+            },
+            {
+              "keyword": "binary (base 2)",
+              "definition": "a number system using only 0s and 1s — the language computers use to store and process all data",
+              "display_order": 3
+            },
+            {
+              "keyword": "denary / decimal (base 10)",
+              "definition": "the standard number system humans use, with digits 0–9",
+              "display_order": 4
+            },
+            {
+              "keyword": "hexadecimal (base 16)",
+              "definition": "a number system using digits 0–9 and letters A–F — used as a compact way to represent binary data",
+              "display_order": 5
+            },
+            {
+              "keyword": "binary addition",
+              "definition": "adding binary numbers together — key rule: 1 + 1 = 10 in binary (carry the 1)",
+              "display_order": 6
+            },
+            {
+              "keyword": "binary shift",
+              "definition": "moving all bits left or right — a left shift multiplies by 2, a right shift divides by 2",
+              "display_order": 7
+            },
+            {
+              "keyword": "two's complement",
+              "definition": "a method of representing negative numbers in binary — invert all bits then add 1",
+              "display_order": 8
+            },
+            {
+              "keyword": "overflow",
+              "definition": "an error that occurs when a calculation produces a result too large to be stored in the available number of bits",
+              "display_order": 9
+            },
+            {
+              "keyword": "ASCII",
+              "definition": "a standard that assigns a unique binary code to each character (letters, numbers, symbols) so text can be stored digitally",
+              "display_order": 10
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Images, Sound & Compression",
+          "cards": [
+            {
+              "keyword": "pixel",
+              "definition": "the smallest element of a digital image — each pixel stores a colour value",
+              "display_order": 1
+            },
+            {
+              "keyword": "resolution",
+              "definition": "the number of pixels in an image — higher resolution means more detail but larger file size",
+              "display_order": 2
+            },
+            {
+              "keyword": "colour depth",
+              "definition": "the number of bits used to represent each pixel's colour — more bits = more possible colours",
+              "display_order": 3
+            },
+            {
+              "keyword": "image file size",
+              "definition": "calculated as: image width × image height × colour depth (in bits), then divided by 8 for bytes",
+              "display_order": 4
+            },
+            {
+              "keyword": "sample rate",
+              "definition": "the number of times per second a sound wave is measured when recording digital audio — higher rate = better quality",
+              "display_order": 5
+            },
+            {
+              "keyword": "bit depth (audio)",
+              "definition": "the number of bits used to record each audio sample — higher bit depth = more accurate sound reproduction",
+              "display_order": 6
+            },
+            {
+              "keyword": "lossless compression",
+              "definition": "compression that reduces file size without losing any data — the original file can be perfectly restored (e.g. PNG, ZIP)",
+              "display_order": 7
+            },
+            {
+              "keyword": "lossy compression",
+              "definition": "compression that reduces file size by permanently removing some data — smaller files but lower quality (e.g. MP3, JPEG)",
+              "display_order": 8
+            },
+            {
+              "keyword": "run-length encoding (RLE)",
+              "definition": "a lossless compression technique that replaces repeated data with a count and value (e.g. AAAA → 4A)",
+              "display_order": 9
+            },
+            {
+              "keyword": "Unicode",
+              "definition": "a character encoding standard that covers characters from all world languages — an extension of ASCII",
+              "display_order": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

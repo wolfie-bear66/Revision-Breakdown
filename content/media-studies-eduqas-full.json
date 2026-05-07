@@ -1,0 +1,735 @@
+{
+  "subject": {
+    "name": "Media Studies",
+    "slug": "media-studies",
+    "colour": "#9333ea",
+    "exam_board": "Eduqas",
+    "emoji": "📺"
+  },
+  "topics": [
+    {
+      "name": "Media Language & Representation",
+      "paper": "Paper 1",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Media Concepts",
+          "cards": [
+            {
+              "keyword": "media language",
+              "definition": "the technical and symbolic codes used to communicate meaning in media texts",
+              "display_order": 1
+            },
+            {
+              "keyword": "representation",
+              "definition": "how the media portrays groups, issues, or ideas — always constructed and selective",
+              "display_order": 2
+            },
+            {
+              "keyword": "stereotype",
+              "definition": "an oversimplified, generalised representation of a group — can reinforce prejudice",
+              "display_order": 3
+            },
+            {
+              "keyword": "narrative",
+              "definition": "the story structure of a media text — Todorov's equilibrium theory, Propp's character types",
+              "display_order": 4
+            },
+            {
+              "keyword": "genre",
+              "definition": "a category of media text with shared conventions — e.g. horror, documentary, rom-com",
+              "display_order": 5
+            },
+            {
+              "keyword": "genre conventions",
+              "definition": "the expected features of a genre — e.g. horror: darkness, tension, monster/villain",
+              "display_order": 6
+            },
+            {
+              "keyword": "audience",
+              "definition": "the people who consume a media text — primary, secondary, or niche audiences",
+              "display_order": 7
+            },
+            {
+              "keyword": "audience theory",
+              "definition": "how audiences receive and interpret media — passive (hypodermic needle) or active (uses and gratifications)",
+              "display_order": 8
+            },
+            {
+              "keyword": "media institution",
+              "definition": "the organisation that produces, distributes, or regulates media — e.g. BBC, Netflix, Ofcom",
+              "display_order": 9
+            },
+            {
+              "keyword": "hegemony",
+              "definition": "Gramsci — dominant groups maintain power partly by controlling what ideas are considered 'normal' in media",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is representation in media?",
+              "options": [
+                "A) The technical codes used in a media text",
+                "B) How the media portrays groups, issues, or ideas — always constructed",
+                "C) The genre of a media text",
+                "D) The audience for a media text"
+              ],
+              "correct_answer": "B",
+              "explanation": "Representation is always constructed and selective — choices about what to include, exclude, and how to frame subjects shape how audiences perceive groups.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a stereotype?",
+              "options": [
+                "A) A complex, realistic character",
+                "B) An oversimplified, generalised representation of a group",
+                "C) A genre convention",
+                "D) A type of narrative structure"
+              ],
+              "correct_answer": "B",
+              "explanation": "Stereotypes are simplified, repeated representations — they can be harmful by reducing complex groups to a few exaggerated traits.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the hypodermic needle theory?",
+              "options": [
+                "A) Audiences actively choose how to interpret media",
+                "B) Media audiences are passive — media 'injects' messages directly into them",
+                "C) Audiences use media to meet personal needs",
+                "D) Media institutions control all meaning"
+              ],
+              "correct_answer": "B",
+              "explanation": "The hypodermic needle (passive audience) model: media has a direct, powerful effect on a passive audience. Now largely discredited in favour of active audience models.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is uses and gratifications theory?",
+              "options": [
+                "A) Audiences are passive and absorb messages",
+                "B) Audiences actively use media to gratify personal needs — information, entertainment, identity, social interaction",
+                "C) Media controls all representations",
+                "D) Genres are fixed and unchanging"
+              ],
+              "correct_answer": "B",
+              "explanation": "Blumler and Katz: audiences actively choose media to meet needs — surveillance (news), personal identity, entertainment, and social interaction.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is narrative in media?",
+              "options": [
+                "A) The technical codes used",
+                "B) The category of a media text",
+                "C) The story structure — how events are organised and told",
+                "D) The audience for a text"
+              ],
+              "correct_answer": "C",
+              "explanation": "Narrative structure: Todorov's equilibrium theory (equilibrium → disruption → new equilibrium). Propp identified recurring character types in narratives.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is genre in media?",
+              "options": [
+                "A) How a media text represents groups",
+                "B) The audience for a media text",
+                "C) A category of media text with shared conventions",
+                "D) A technical code"
+              ],
+              "correct_answer": "C",
+              "explanation": "Genre categories media texts sharing similar features — horror, documentary, romance, thriller. Genre conventions are the expected features audiences recognise.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is hegemony?",
+              "options": [
+                "A) A media institution",
+                "B) A type of representation",
+                "C) Dominant groups maintaining power by controlling what is 'normal' in media",
+                "D) A genre convention"
+              ],
+              "correct_answer": "C",
+              "explanation": "Gramsci's hegemony: ruling classes maintain power not just through force but by shaping what ideas, values, and representations are considered natural and normal.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a media institution?",
+              "options": [
+                "A) A type of audience",
+                "B) The narrative structure of a text",
+                "C) An organisation producing, distributing, or regulating media — e.g. BBC, Netflix",
+                "D) A type of genre"
+              ],
+              "correct_answer": "C",
+              "explanation": "Media institutions include producers (BBC, ITV, Netflix), distributors (cinemas, streaming platforms), and regulators (Ofcom, BBFC).",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is media language?",
+              "options": [
+                "A) The words used in a media text",
+                "B) The technical and symbolic codes communicating meaning in a media text",
+                "C) The genre of a text",
+                "D) The audience for a text"
+              ],
+              "correct_answer": "B",
+              "explanation": "Media language includes: technical codes (camera angles, lighting, editing), symbolic codes (colour, costume, mise-en-scène), and written codes (headlines, captions).",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Todorov's equilibrium theory?",
+              "options": [
+                "A) Media texts have fixed genres",
+                "B) Narratives begin with equilibrium, which is disrupted, then resolved into a new equilibrium",
+                "C) Characters in narratives always have fixed roles",
+                "D) Audiences passively receive media messages"
+              ],
+              "correct_answer": "B",
+              "explanation": "Todorov: all narratives follow a pattern — initial equilibrium (normality) → disruption → struggle → new equilibrium (resolution).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Representation in media is objective and neutral.",
+              "correct_answer": "False",
+              "explanation": "Representation is always CONSTRUCTED — choices about framing, inclusion, and emphasis shape how groups are perceived.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The hypodermic needle model sees audiences as active.",
+              "correct_answer": "False",
+              "explanation": "The hypodermic needle model sees audiences as PASSIVE — media injects messages directly. Uses and gratifications sees audiences as active.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Genre conventions are the features audiences expect from a particular type of text.",
+              "correct_answer": "True",
+              "explanation": "Genre conventions (e.g. horror: darkness, jump scares, monster) help audiences quickly categorise and understand texts.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Stereotypes always reflect reality accurately.",
+              "correct_answer": "False",
+              "explanation": "Stereotypes are oversimplified generalisations — they reduce complex groups to a few traits and can reinforce prejudice.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Uses and gratifications theory views audiences as active.",
+              "correct_answer": "True",
+              "explanation": "Audiences actively choose media to meet personal needs — information, entertainment, identity, and social interaction.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Hegemony is about how dominant groups maintain power through media representation.",
+              "correct_answer": "True",
+              "explanation": "Gramsci: hegemony operates through cultural and ideological means — controlling what seems 'normal' or 'natural' in media.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Media institutions only include television broadcasters.",
+              "correct_answer": "False",
+              "explanation": "Media institutions include producers, distributors, and regulators across all platforms — film, TV, online, print, radio.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Todorov's theory argues narratives move from equilibrium to disruption to new equilibrium.",
+              "correct_answer": "True",
+              "explanation": "Todorov's equilibrium theory describes the basic shape of most narratives.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Media language only refers to written words in a text.",
+              "correct_answer": "False",
+              "explanation": "Media language encompasses ALL codes communicating meaning — technical (camera), symbolic (colour, costume), and written codes.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Propp identified recurring character types in narratives.",
+              "correct_answer": "True",
+              "explanation": "Propp identified 8 character types: hero, villain, princess, donor, helper, dispatcher, false hero, and father.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is how the media portrays groups, issues, or ideas — always constructed.",
+              "correct_answer": "Representation",
+              "explanation": "Choices about what to include and how to frame subjects shape audience perception.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is an oversimplified, generalised representation of a group.",
+              "correct_answer": "stereotype",
+              "explanation": "Stereotypes reduce complex groups to a few exaggerated traits.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ needle theory sees audiences as passive recipients of media messages.",
+              "correct_answer": "hypodermic",
+              "explanation": "This model is largely discredited — uses and gratifications offers a more active model.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ and gratifications: audiences actively use media to meet personal needs.",
+              "correct_answer": "Uses",
+              "explanation": "Blumler and Katz identified four needs: surveillance, personal identity, entertainment, social interaction.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a category of media text with shared conventions.",
+              "correct_answer": "Genre",
+              "explanation": "Genre conventions help audiences quickly identify and understand texts.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ structure: equilibrium → disruption → new equilibrium (Todorov).",
+              "correct_answer": "Narrative",
+              "explanation": "Todorov's theory describes the basic shape of most media narratives.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the technical and symbolic codes communicating meaning in media texts.",
+              "correct_answer": "Media language",
+              "explanation": "Media language includes camera angles, lighting, colour, costume, and editing.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is when dominant groups maintain power by shaping what is 'normal' in media.",
+              "correct_answer": "Hegemony",
+              "explanation": "Gramsci's concept — hegemony operates through ideology, not just force.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ includes organisations producing, distributing, and regulating media.",
+              "correct_answer": "Media institution",
+              "explanation": "E.g. BBC (producer/broadcaster), Netflix (distributor), Ofcom (regulator).",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Propp identified recurring ________ types in narratives — including hero, villain, and donor.",
+              "correct_answer": "character",
+              "explanation": "Propp's 8 character types appear across many narrative forms.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "representation",
+                  "match": "how media portrays groups — always constructed and selective"
+                },
+                {
+                  "term": "stereotype",
+                  "match": "oversimplified generalisation — can reinforce prejudice"
+                },
+                {
+                  "term": "hypodermic needle",
+                  "match": "passive audience — media injects messages directly"
+                },
+                {
+                  "term": "uses and gratifications",
+                  "match": "active audience — media meets personal needs"
+                },
+                {
+                  "term": "hegemony",
+                  "match": "dominant groups maintain power by shaping 'normal' ideas"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Media Industries & Contexts",
+      "paper": "Paper 2",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Industry, Regulation & Contexts",
+          "cards": [
+            {
+              "keyword": "convergence",
+              "definition": "the merging of different media platforms and technologies — e.g. watching TV on a phone",
+              "display_order": 1
+            },
+            {
+              "keyword": "vertical integration",
+              "definition": "a media company owning all stages of production, distribution, and exhibition",
+              "display_order": 2
+            },
+            {
+              "keyword": "horizontal integration",
+              "definition": "a media company buying other companies in the same stage of production",
+              "display_order": 3
+            },
+            {
+              "keyword": "public service broadcasting (PSB)",
+              "definition": "broadcast media with a remit to inform, educate, and entertain — e.g. BBC",
+              "display_order": 4
+            },
+            {
+              "keyword": "Ofcom",
+              "definition": "the UK's communications regulator — regulates TV, radio, and telecommunications",
+              "display_order": 5
+            },
+            {
+              "keyword": "BBFC",
+              "definition": "British Board of Film Classification — classifies films and video content with age ratings",
+              "display_order": 6
+            },
+            {
+              "keyword": "regulation",
+              "definition": "rules and oversight governing media industries — protects audiences, especially children",
+              "display_order": 7
+            },
+            {
+              "keyword": "digital media",
+              "definition": "media produced, distributed, or consumed digitally — e.g. streaming, social media, podcasts",
+              "display_order": 8
+            },
+            {
+              "keyword": "user-generated content (UGC)",
+              "definition": "media created by audiences rather than professional producers — e.g. YouTube, TikTok, blogs",
+              "display_order": 9
+            },
+            {
+              "keyword": "globalisation (media)",
+              "definition": "media products and industries crossing national boundaries — cultural homogenisation vs diversity",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is media convergence?",
+              "options": [
+                "A) Two media companies merging",
+                "B) The merging of different media platforms — watching TV on a phone",
+                "C) A type of representation",
+                "D) A genre convention"
+              ],
+              "correct_answer": "B",
+              "explanation": "Convergence: technological convergence means devices perform multiple media functions. Platform convergence means content is available across devices.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is vertical integration?",
+              "options": [
+                "A) A company buying rivals in the same market",
+                "B) A company owning all stages of production, distribution, and exhibition",
+                "C) Two companies merging horizontally",
+                "D) A government regulation of media"
+              ],
+              "correct_answer": "B",
+              "explanation": "E.g. Disney owns studios (production), cinemas (exhibition), and streaming (distribution) — controlling the entire supply chain.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is public service broadcasting?",
+              "options": [
+                "A) Broadcast media funded by advertising only",
+                "B) Private commercial television",
+                "C) Broadcast media with a remit to inform, educate, and entertain — e.g. BBC",
+                "D) Government-controlled propaganda"
+              ],
+              "correct_answer": "C",
+              "explanation": "PSBs (BBC, ITV, Channel 4) have a public service remit — they must serve all parts of society, not just commercially profitable audiences.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Ofcom do?",
+              "options": [
+                "A) Produces BBC programmes",
+                "B) Classifies film content",
+                "C) Regulates TV, radio, and telecommunications in the UK",
+                "D) Funds independent cinema"
+              ],
+              "correct_answer": "C",
+              "explanation": "Ofcom is the independent regulator — it enforces broadcasting codes, investigates complaints, and issues licences to broadcasters.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is user-generated content (UGC)?",
+              "options": [
+                "A) Content made by professional studios",
+                "B) Content created by audiences — e.g. YouTube videos, TikTok, blogs",
+                "C) Content funded by the BBC",
+                "D) Regulated broadcast content"
+              ],
+              "correct_answer": "B",
+              "explanation": "UGC has transformed media — audiences are now also producers. YouTube, TikTok, and podcasting have blurred the line between professional and amateur media.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the BBFC?",
+              "options": [
+                "A) The UK's broadcasting regulator",
+                "B) The British Board of Film Classification — applies age ratings",
+                "C) A public service broadcaster",
+                "D) A media production company"
+              ],
+              "correct_answer": "B",
+              "explanation": "The BBFC classifies films and videos — applying U, PG, 12, 12A, 15, 18, and R18 ratings to protect audiences from unsuitable content.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is horizontal integration?",
+              "options": [
+                "A) Owning all stages of production",
+                "B) A media company buying other companies at the same stage — e.g. buying a rival studio",
+                "C) Regulatory oversight of media",
+                "D) Convergence of media platforms"
+              ],
+              "correct_answer": "B",
+              "explanation": "Horizontal integration: a production company buying other production companies — reducing competition and increasing market share.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is media globalisation?",
+              "options": [
+                "A) Media companies becoming smaller",
+                "B) Media products and industries crossing national boundaries",
+                "C) A type of audience theory",
+                "D) A regulation of digital media"
+              ],
+              "correct_answer": "B",
+              "explanation": "Media globalisation: Hollywood films, global streaming platforms, and social media have spread Western media culture worldwide — raising concerns about cultural homogenisation.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is digital media?",
+              "options": [
+                "A) Only social media platforms",
+                "B) Media produced, distributed, or consumed digitally — streaming, social media, podcasts",
+                "C) Traditional broadcast television",
+                "D) Print media in digital format only"
+              ],
+              "correct_answer": "B",
+              "explanation": "Digital media encompasses all media using digital technology — streaming (Netflix), social media (Instagram), podcasts, websites, and online news.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is media regulation?",
+              "options": [
+                "A) Production of media content",
+                "B) The promotion of media products",
+                "C) Rules and oversight governing media — protecting audiences, especially children",
+                "D) Media ownership by companies"
+              ],
+              "correct_answer": "C",
+              "explanation": "Regulation ensures media operates within legal and ethical guidelines — Ofcom, BBFC, and ASA (Advertising Standards Authority) all play regulatory roles.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Convergence means media technologies are becoming more separate.",
+              "correct_answer": "False",
+              "explanation": "Convergence means different media platforms and technologies are MERGING — one device can perform many media functions.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Vertical integration means owning all stages of production, distribution, and exhibition.",
+              "correct_answer": "True",
+              "explanation": "E.g. Disney owns studios, streaming platforms, and merchandise — controlling the complete supply chain.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The BBC is an example of public service broadcasting.",
+              "correct_answer": "True",
+              "explanation": "The BBC has a public service remit — to inform, educate, and entertain all parts of society.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Ofcom classifies films with age ratings.",
+              "correct_answer": "False",
+              "explanation": "Ofcom regulates BROADCASTING. The BBFC classifies films with age ratings.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "User-generated content is produced by professional studios.",
+              "correct_answer": "False",
+              "explanation": "UGC is created by AUDIENCES — YouTube videos, TikToks, and blogs are examples.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Media globalisation raises concerns about cultural homogenisation.",
+              "correct_answer": "True",
+              "explanation": "The spread of global media (Hollywood, streaming platforms) can reduce cultural diversity — promoting Western values worldwide.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Horizontal integration involves owning companies at the same stage of production.",
+              "correct_answer": "True",
+              "explanation": "Horizontal integration: a studio buying another studio — reducing competition.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Digital media only includes social media platforms.",
+              "correct_answer": "False",
+              "explanation": "Digital media encompasses all digitally produced or consumed media — streaming, podcasts, websites, apps, and social media.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The BBFC applies age ratings to protect audiences.",
+              "correct_answer": "True",
+              "explanation": "BBFC ratings (U, PG, 12, 15, 18) help audiences make informed choices about content suitability.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "PSBs like the BBC are funded primarily by advertising.",
+              "correct_answer": "False",
+              "explanation": "The BBC is funded by the TV licence fee — it is a public service broadcaster without advertising.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the merging of different media platforms — watching TV on a mobile device.",
+              "correct_answer": "Convergence",
+              "explanation": "Technological convergence means one device can perform many media functions.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ integration: owning all stages of production, distribution, and exhibition.",
+              "correct_answer": "Vertical",
+              "explanation": "Disney owning studios, cinemas, and streaming is an example of vertical integration.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ integration: buying rival companies at the same stage of production.",
+              "correct_answer": "Horizontal",
+              "explanation": "Horizontal integration reduces competition and increases market share.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ broadcasting has a remit to inform, educate, and entertain — e.g. BBC.",
+              "correct_answer": "Public service",
+              "explanation": "PSBs serve all parts of society, not just commercially profitable audiences.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ regulates TV, radio, and telecommunications in the UK.",
+              "correct_answer": "Ofcom",
+              "explanation": "Ofcom enforces broadcasting codes and investigates complaints.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ classifies films with age ratings — U, PG, 12, 15, 18.",
+              "correct_answer": "BBFC",
+              "explanation": "BBFC stands for British Board of Film Classification.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ content is created by audiences — YouTube videos, TikToks, blogs.",
+              "correct_answer": "User-generated",
+              "explanation": "UGC has blurred the line between professional producers and audiences.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Media ________ raises concerns about cultural homogenisation as Western media spreads globally.",
+              "correct_answer": "globalisation",
+              "explanation": "Global media products may reduce cultural diversity — promoting dominant Western values.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ media is produced, distributed, or consumed digitally.",
+              "correct_answer": "Digital",
+              "explanation": "Digital media includes streaming, social media, podcasts, websites, and apps.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Media ________ rules govern the industry — protecting audiences, especially children.",
+              "correct_answer": "regulation",
+              "explanation": "Regulators like Ofcom and the BBFC ensure media operates within legal and ethical guidelines.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "instruction": "Match each term to its correct description.",
+              "pairs": [
+                {
+                  "term": "convergence",
+                  "match": "merging of media platforms — watch TV on phone"
+                },
+                {
+                  "term": "vertical integration",
+                  "match": "owning all stages — production, distribution, exhibition"
+                },
+                {
+                  "term": "public service broadcasting",
+                  "match": "inform, educate, entertain — e.g. BBC"
+                },
+                {
+                  "term": "Ofcom",
+                  "match": "UK communications regulator"
+                },
+                {
+                  "term": "user-generated content",
+                  "match": "media created by audiences — YouTube, TikTok"
+                }
+              ],
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
