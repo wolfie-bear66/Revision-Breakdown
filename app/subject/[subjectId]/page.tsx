@@ -17,8 +17,8 @@ export default async function SubjectPage({ params }: PageProps) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  // Fetch subject details, user enrolment, and subscription status in parallel
-  const [{ data: subject }, { data: userSubject }, { data: userData }] = await Promise.all([
+  // Fetch subject details and user enrolment in parallel
+  const [{ data: subject }, { data: userSubject }] = await Promise.all([
     supabase
       .from('subjects')
       .select('name, exam_board')
@@ -32,16 +32,9 @@ export default async function SubjectPage({ params }: PageProps) {
           .eq('subject_id', subjectId)
           .maybeSingle()
       : Promise.resolve({ data: null, error: null }),
-    user
-      ? supabase
-          .from('users')
-          .select('subscription_status')
-          .eq('id', user.id)
-          .single()
-      : Promise.resolve({ data: null, error: null }),
   ]);
 
-  const isFree = !userData || userData.subscription_status !== 'active';
+  const isFree = !user;
 
   if (!subject) redirect('/dashboard');
 

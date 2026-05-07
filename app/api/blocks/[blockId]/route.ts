@@ -49,21 +49,9 @@ export async function GET(
     );
   }
 
-  // 3. Subscription gate — locked topics require an active subscription
-  if (!FREE_TOPIC_IDS.includes(topic.id)) {
-    if (!user) {
-      return NextResponse.json({ error: 'locked' }, { status: 403 });
-    }
-
-    const { data: userData } = await supabase
-      .from('users')
-      .select('subscription_status')
-      .eq('id', user.id)
-      .single();
-
-    if (userData?.subscription_status !== 'active') {
-      return NextResponse.json({ error: 'locked' }, { status: 403 });
-    }
+  // 3. Auth gate — non-free topics require a signed-in user
+  if (!FREE_TOPIC_IDS.includes(topic.id) && !user) {
+    return NextResponse.json({ error: 'locked' }, { status: 403 });
   }
 
   // 4. Shape the response

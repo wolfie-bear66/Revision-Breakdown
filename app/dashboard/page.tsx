@@ -15,7 +15,7 @@ export default async function DashboardPage() {
     data: { user },
   } = await supabase.auth.getUser();
 
-  const [{ data: progress }, { data: lastSession }, { data: userSessions }, { data: userData }] = user
+  const [{ data: progress }, { data: lastSession }, { data: userSessions }] = user
     ? await Promise.all([
         supabase
           .from('user_subject_progress')
@@ -32,15 +32,10 @@ export default async function DashboardPage() {
           .from('sessions')
           .select('id, blocks(topics(subject_id))')
           .eq('user_id', user.id),
-        supabase
-          .from('users')
-          .select('subscription_status')
-          .eq('id', user.id)
-          .single(),
       ])
-    : [{ data: null }, { data: null }, { data: null }, { data: null }];
+    : [{ data: null }, { data: null }, { data: null }];
 
-  const isFree = !userData || userData.subscription_status !== 'active';
+  const isFree = !user;
 
   // Build session → subject_id map
   const sessionToSubject: Record<string, string> = {};
