@@ -1,16 +1,15 @@
-import { createRouteHandlerClient } from '@supabase/auth-helpers-nextjs';
-import { cookies } from 'next/headers';
+import { createClient } from '@/utils/supabase/server';
 import { NextResponse } from 'next/server';
 import Stripe from 'stripe';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2025-04-30.basil',
+  apiVersion: '2026-04-22.dahlia',
 });
 
 export async function POST(request: Request) {
   const { priceId } = await request.json();
 
-  const supabase = createRouteHandlerClient({ cookies });
+  const supabase = await createClient();
   const { data: { session } } = await supabase.auth.getSession();
 
   if (!session) {
@@ -27,7 +26,8 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'User not found' }, { status: 404 });
   }
 
-  let billingUser = currentUser;
+  type BillingUser = { id: string; stripe_customer_id: string | null; email: string };
+  let billingUser: BillingUser = currentUser;
 
   if (currentUser.role === 'student' && currentUser.parent_id) {
     const { data: parentUser, error: parentError } = await supabase
@@ -59,7 +59,7 @@ export async function POST(request: Request) {
   }
 
   const is6MonthPrice = priceId === process.env.STRIPE_PRICE_6MONTH;
-  const mode: Stripe.Checkout.SessionCreateParams.Mode = is6MonthPrice
+  const mode: 'payment' | 'subscription' = is6MonthPrice
     ? 'subscription'
     : 'payment';
 
