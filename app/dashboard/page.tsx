@@ -6,6 +6,7 @@ import { SignOutButton } from './SignOutButton';
 import { buttonVariants } from '@/components/ui/button';
 import { BookOpen } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { FREE_SUBJECT_IDS } from '@/lib/free-topics';
 
 export default async function DashboardPage() {
   const supabase = await createClient();
@@ -16,7 +17,7 @@ export default async function DashboardPage() {
 
   if (!user) redirect('/login');
 
-  const [{ data: progress }, { data: lastSession }, { data: userSessions }] = await Promise.all([
+  const [{ data: progress }, { data: lastSession }, { data: userSessions }, { data: userData }] = await Promise.all([
     supabase
       .from('user_subject_progress')
       .select('user_id, subject_id, subject_name, exam_board, total_blocks, completed_blocks')
@@ -32,7 +33,14 @@ export default async function DashboardPage() {
       .from('sessions')
       .select('id, blocks(topics(subject_id))')
       .eq('user_id', user.id),
+    supabase
+      .from('users')
+      .select('subscription_status')
+      .eq('id', user.id)
+      .single(),
   ]);
+
+  const isFree = !userData || userData.subscription_status !== 'active';
 
   // Build session → subject_id map
   const sessionToSubject: Record<string, string> = {};
@@ -110,6 +118,8 @@ export default async function DashboardPage() {
                 total_blocks={s.total_blocks}
                 completed_blocks={s.completed_blocks}
                 attemptCount={attemptsBySubject[s.subject_id] ?? 0}
+                isFreeUser={isFree}
+                isFreeTopic={FREE_SUBJECT_IDS.includes(s.subject_id)}
               />
             ))}
           </div>

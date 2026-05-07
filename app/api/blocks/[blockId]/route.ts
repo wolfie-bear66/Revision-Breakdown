@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@/utils/supabase/server';
+import { FREE_TOPIC_IDS } from '@/lib/free-topics';
 
 export async function GET(
   _request: NextRequest,
@@ -55,7 +56,20 @@ export async function GET(
     );
   }
 
-  // 3. Shape the response
+  // 3. Subscription gate — locked topics require an active subscription
+  if (!FREE_TOPIC_IDS.includes(topic.id)) {
+    const { data: userData } = await supabase
+      .from('users')
+      .select('subscription_status')
+      .eq('id', user.id)
+      .single();
+
+    if (userData?.subscription_status !== 'active') {
+      return NextResponse.json({ error: 'locked' }, { status: 403 });
+    }
+  }
+
+  // 4. Shape the response
   const subject = Array.isArray(topic.subjects) ? topic.subjects[0] : topic.subjects;
 
   const questions = ((block.questions ?? []) as any[]).sort(

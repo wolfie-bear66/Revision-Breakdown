@@ -24,6 +24,8 @@ export interface Topic {
 
 interface TopicAccordionProps {
   topics: Topic[];
+  isFree: boolean;
+  freeTopicIds: string[];
 }
 
 const MODES = [
@@ -34,7 +36,7 @@ const MODES = [
   { label: 'Match-Up',          slug: 'matchup',        className: 'bg-pink-500   hover:bg-pink-600   text-white' },
 ] as const;
 
-export function TopicAccordion({ topics }: TopicAccordionProps) {
+export function TopicAccordion({ topics, isFree, freeTopicIds }: TopicAccordionProps) {
   if (topics.length === 0) {
     return (
       <p className="text-sm text-muted-foreground">
@@ -48,53 +50,83 @@ export function TopicAccordion({ topics }: TopicAccordionProps) {
       defaultValue={[topics[0].id]}
       className="divide-y divide-border rounded-xl border border-border"
     >
-      {topics.map((topic) => (
-        <AccordionItem key={topic.id} value={topic.id} className="px-4">
-          <AccordionTrigger className="py-4 text-base font-semibold hover:no-underline">
-            {topic.name}
-          </AccordionTrigger>
+      {topics.map((topic) => {
+        const isFreeTopic = freeTopicIds.includes(topic.id);
+        const locked = isFree && !isFreeTopic;
 
-          <AccordionContent>
-            <ul className="flex flex-col gap-4 pb-4">
-              {topic.blocks.length === 0 ? (
-                <li className="text-sm text-muted-foreground">No blocks in this topic.</li>
-              ) : (
-                topic.blocks.map((block) => (
-                  <li key={block.id} className="flex flex-col gap-2">
-                    {/* Block header */}
-                    <div className="flex items-center gap-2">
-                      <span className="text-sm font-medium">{block.block_name}</span>
-                      {block.completed && (
-                        <CheckCircle2
-                          className="h-4 w-4 shrink-0 text-green-500"
-                          aria-label="Completed"
-                        />
-                      )}
-                    </div>
+        return (
+          <AccordionItem
+            key={topic.id}
+            value={topic.id}
+            className={cn('px-4', locked && 'opacity-40')}
+          >
+            <AccordionTrigger className="py-4 text-base font-semibold hover:no-underline">
+              <div className="flex items-center gap-2">
+                {locked && <span>🔒</span>}
+                <span>{topic.name}</span>
+                {isFreeTopic && (
+                  <span className="rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">
+                    Free
+                  </span>
+                )}
+              </div>
+            </AccordionTrigger>
 
-                    {/* Mode buttons */}
-                    <div className="flex flex-wrap gap-1.5">
-                      {MODES.map((mode) => (
-                        <Link
-                          key={mode.slug}
-                          href={`/block/${block.id}/${mode.slug}`}
-                          className={cn(
-                            'inline-flex items-center rounded-md px-2.5 py-1 text-xs font-medium',
-                            'transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring',
-                            mode.className
-                          )}
-                        >
-                          {mode.label}
-                        </Link>
-                      ))}
-                    </div>
-                  </li>
-                ))
-              )}
-            </ul>
-          </AccordionContent>
-        </AccordionItem>
-      ))}
+            <AccordionContent>
+              <ul className="flex flex-col gap-4 pb-4">
+                {topic.blocks.length === 0 ? (
+                  <li className="text-sm text-muted-foreground">No blocks in this topic.</li>
+                ) : (
+                  topic.blocks.map((block) => (
+                    <li key={block.id} className="flex flex-col gap-2">
+                      {/* Block header */}
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm font-medium">{block.block_name}</span>
+                        {block.completed && (
+                          <CheckCircle2
+                            className="h-4 w-4 shrink-0 text-green-500"
+                            aria-label="Completed"
+                          />
+                        )}
+                      </div>
+
+                      {/* Mode buttons */}
+                      <div className="flex flex-wrap gap-1.5">
+                        {MODES.map((mode) =>
+                          locked ? (
+                            <span
+                              key={mode.slug}
+                              className={cn(
+                                'inline-flex items-center rounded-md px-2.5 py-1 text-xs font-medium',
+                                mode.className,
+                                'cursor-not-allowed'
+                              )}
+                            >
+                              {mode.label}
+                            </span>
+                          ) : (
+                            <Link
+                              key={mode.slug}
+                              href={`/block/${block.id}/${mode.slug}`}
+                              className={cn(
+                                'inline-flex items-center rounded-md px-2.5 py-1 text-xs font-medium',
+                                'transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring',
+                                mode.className
+                              )}
+                            >
+                              {mode.label}
+                            </Link>
+                          )
+                        )}
+                      </div>
+                    </li>
+                  ))
+                )}
+              </ul>
+            </AccordionContent>
+          </AccordionItem>
+        );
+      })}
     </Accordion>
   );
 }

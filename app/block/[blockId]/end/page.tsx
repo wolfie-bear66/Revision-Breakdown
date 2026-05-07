@@ -48,6 +48,14 @@ export default async function EndPage({ params, searchParams }: PageProps) {
 
   const subjectId = result.data.subject.id ?? null;
 
+  const { data: userData } = await supabase
+    .from('users')
+    .select('subscription_status')
+    .eq('id', user.id)
+    .single();
+
+  const isFree = !userData || userData.subscription_status !== 'active';
+
   const correct = parseInt(correctParam ?? '0', 10);
   const total   = parseInt(totalParam   ?? '1', 10);
   const pct     = total > 0 ? Math.round((correct / total) * 100) : 0;
@@ -91,23 +99,45 @@ export default async function EndPage({ params, searchParams }: PageProps) {
             Try again
           </Link>
 
-          {subjectId && (
-            <Link
-              href={`/subject/${subjectId}`}
-              className={cn(buttonVariants({ variant: 'outline' }), 'w-full justify-center gap-2 py-3 text-sm')}
-            >
-              <LayoutGrid className="h-4 w-4" />
-              Choose another mode
-            </Link>
+          {isFree ? (
+            <div className="rounded-xl border border-border bg-muted p-5 flex flex-col gap-3 text-center">
+              <p className="text-base font-bold text-foreground">Want to keep going?</p>
+              <p className="text-sm text-muted-foreground">
+                Unlock all 33 subjects and 113 topics for £5 — one payment, no subscription.
+              </p>
+              <Link
+                href="/upgrade"
+                className={cn(buttonVariants({ variant: 'default' }), 'w-full justify-center gap-2 py-3 text-sm')}
+              >
+                Unlock everything — £5
+              </Link>
+              <Link
+                href="/dashboard"
+                className={cn(buttonVariants({ variant: 'ghost' }), 'w-full justify-center gap-2 py-3 text-sm')}
+              >
+                Continue for free
+              </Link>
+            </div>
+          ) : (
+            <>
+              {subjectId && (
+                <Link
+                  href={`/subject/${subjectId}`}
+                  className={cn(buttonVariants({ variant: 'outline' }), 'w-full justify-center gap-2 py-3 text-sm')}
+                >
+                  <LayoutGrid className="h-4 w-4" />
+                  Choose another mode
+                </Link>
+              )}
+              <Link
+                href="/dashboard"
+                className={cn(buttonVariants({ variant: 'ghost' }), 'w-full justify-center gap-2 py-3 text-sm')}
+              >
+                <ArrowLeft className="h-4 w-4" />
+                Back to dashboard
+              </Link>
+            </>
           )}
-
-          <Link
-            href="/dashboard"
-            className={cn(buttonVariants({ variant: 'ghost' }), 'w-full justify-center gap-2 py-3 text-sm')}
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Back to dashboard
-          </Link>
         </div>
       </div>
     </main>

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { createClient } from '@/utils/supabase/server';
 import { TopicAccordion, type Topic } from './TopicAccordion';
 import { ArrowLeft } from 'lucide-react';
+import { FREE_TOPIC_IDS } from '@/lib/free-topics';
 
 interface PageProps {
   params: Promise<{ subjectId: string }>;
@@ -18,8 +19,8 @@ export default async function SubjectPage({ params }: PageProps) {
 
   if (!user) redirect('/login');
 
-  // Fetch subject details + user enrolment in parallel
-  const [{ data: subject }, { data: userSubject }] = await Promise.all([
+  // Fetch subject details, user enrolment, and subscription status in parallel
+  const [{ data: subject }, { data: userSubject }, { data: userData }] = await Promise.all([
     supabase
       .from('subjects')
       .select('name, exam_board')
@@ -31,7 +32,14 @@ export default async function SubjectPage({ params }: PageProps) {
       .eq('user_id', user.id)
       .eq('subject_id', subjectId)
       .maybeSingle(),
+    supabase
+      .from('users')
+      .select('subscription_status')
+      .eq('id', user.id)
+      .single(),
   ]);
+
+  const isFree = !userData || userData.subscription_status !== 'active';
 
   if (!subject) redirect('/dashboard');
 
@@ -113,7 +121,7 @@ export default async function SubjectPage({ params }: PageProps) {
         </div>
 
         {/* Topics */}
-        <TopicAccordion topics={topics} />
+        <TopicAccordion topics={topics} isFree={isFree} freeTopicIds={FREE_TOPIC_IDS} />
       </div>
     </main>
   );
