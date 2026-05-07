@@ -14,13 +14,6 @@ export async function GET(
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user) {
-    return NextResponse.json(
-      { error: 'unauthorized', message: 'No session' },
-      { status: 401 },
-    );
-  }
-
   // 2. Fetch block with topic → subject, cards, and questions in one round-trip
   const { data: block, error: blockError } = await supabase
     .from('blocks')
@@ -58,6 +51,10 @@ export async function GET(
 
   // 3. Subscription gate — locked topics require an active subscription
   if (!FREE_TOPIC_IDS.includes(topic.id)) {
+    if (!user) {
+      return NextResponse.json({ error: 'locked' }, { status: 403 });
+    }
+
     const { data: userData } = await supabase
       .from('users')
       .select('subscription_status')

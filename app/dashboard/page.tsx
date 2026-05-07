@@ -15,30 +15,30 @@ export default async function DashboardPage() {
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user) redirect('/login');
-
-  const [{ data: progress }, { data: lastSession }, { data: userSessions }, { data: userData }] = await Promise.all([
-    supabase
-      .from('user_subject_progress')
-      .select('user_id, subject_id, subject_name, exam_board, total_blocks, completed_blocks')
-      .eq('user_id', user.id),
-    supabase
-      .from('sessions')
-      .select('block_id')
-      .eq('user_id', user.id)
-      .order('updated_at', { ascending: false })
-      .limit(1)
-      .maybeSingle(),
-    supabase
-      .from('sessions')
-      .select('id, blocks(topics(subject_id))')
-      .eq('user_id', user.id),
-    supabase
-      .from('users')
-      .select('subscription_status')
-      .eq('id', user.id)
-      .single(),
-  ]);
+  const [{ data: progress }, { data: lastSession }, { data: userSessions }, { data: userData }] = user
+    ? await Promise.all([
+        supabase
+          .from('user_subject_progress')
+          .select('user_id, subject_id, subject_name, exam_board, total_blocks, completed_blocks')
+          .eq('user_id', user.id),
+        supabase
+          .from('sessions')
+          .select('block_id')
+          .eq('user_id', user.id)
+          .order('updated_at', { ascending: false })
+          .limit(1)
+          .maybeSingle(),
+        supabase
+          .from('sessions')
+          .select('id, blocks(topics(subject_id))')
+          .eq('user_id', user.id),
+        supabase
+          .from('users')
+          .select('subscription_status')
+          .eq('id', user.id)
+          .single(),
+      ])
+    : [{ data: null }, { data: null }, { data: null }, { data: null }];
 
   const isFree = !userData || userData.subscription_status !== 'active';
 

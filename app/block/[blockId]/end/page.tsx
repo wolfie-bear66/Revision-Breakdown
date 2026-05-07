@@ -36,8 +36,6 @@ export default async function EndPage({ params, searchParams }: PageProps) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user) redirect('/login');
-
   const result = await fetchBlockData(blockId);
 
   if (!result.ok) {
@@ -48,11 +46,13 @@ export default async function EndPage({ params, searchParams }: PageProps) {
 
   const subjectId = result.data.subject.id ?? null;
 
-  const { data: userData } = await supabase
-    .from('users')
-    .select('subscription_status')
-    .eq('id', user.id)
-    .single();
+  const { data: userData } = user
+    ? await supabase
+        .from('users')
+        .select('subscription_status')
+        .eq('id', user.id)
+        .single()
+    : { data: null };
 
   const isFree = !userData || userData.subscription_status !== 'active';
 

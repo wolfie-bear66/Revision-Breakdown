@@ -17,8 +17,6 @@ export default async function SubjectPage({ params }: PageProps) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user) redirect('/login');
-
   // Fetch subject details, user enrolment, and subscription status in parallel
   const [{ data: subject }, { data: userSubject }, { data: userData }] = await Promise.all([
     supabase
@@ -26,17 +24,21 @@ export default async function SubjectPage({ params }: PageProps) {
       .select('name, exam_board')
       .eq('id', subjectId)
       .single(),
-    supabase
-      .from('user_subjects')
-      .select('id')
-      .eq('user_id', user.id)
-      .eq('subject_id', subjectId)
-      .maybeSingle(),
-    supabase
-      .from('users')
-      .select('subscription_status')
-      .eq('id', user.id)
-      .single(),
+    user
+      ? supabase
+          .from('user_subjects')
+          .select('id')
+          .eq('user_id', user.id)
+          .eq('subject_id', subjectId)
+          .maybeSingle()
+      : Promise.resolve({ data: null, error: null }),
+    user
+      ? supabase
+          .from('users')
+          .select('subscription_status')
+          .eq('id', user.id)
+          .single()
+      : Promise.resolve({ data: null, error: null }),
   ]);
 
   const isFree = !userData || userData.subscription_status !== 'active';
@@ -46,7 +48,7 @@ export default async function SubjectPage({ params }: PageProps) {
   // Build topics list — empty if the user isn't enrolled
   let topics: Topic[] = [];
 
-  if (userSubject) {
+  if (user && userSubject) {
     // 1. Enrolled topic IDs for this subject
     const { data: userTopics } = await supabase
       .from('user_topics')
