@@ -55,26 +55,7 @@ export async function GET(
     );
   }
 
-  // 3. Access gate — check subscription status directly
-  const { data: profile } = await supabase
-    .from('users')
-    .select('subscription_status, subscription_expires_at')
-    .eq('id', user.id)
-    .single();
-
-  const isActive =
-    profile?.subscription_status === 'active' &&
-    (profile.subscription_expires_at === null ||
-      new Date(profile.subscription_expires_at) > new Date());
-
-  if (!isActive) {
-    return NextResponse.json(
-      { error: 'locked', message: 'Upgrade to access this content' },
-      { status: 403 },
-    );
-  }
-
-  // 4. Shape the response
+  // 3. Shape the response
   const subject = Array.isArray(topic.subjects) ? topic.subjects[0] : topic.subjects;
 
   const questions = ((block.questions ?? []) as any[]).sort(
