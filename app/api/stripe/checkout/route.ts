@@ -10,16 +10,16 @@ export async function POST(request: Request) {
   const { priceId } = await request.json();
 
   const supabase = await createClient();
-  const { data: { session } } = await supabase.auth.getSession();
+  const { data: { user } } = await supabase.auth.getUser();
 
-  if (!session) {
+  if (!user) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
   const { data: currentUser, error: userError } = await supabase
     .from('users')
     .select('id, role, parent_id, stripe_customer_id, email')
-    .eq('id', session.user.id)
+    .eq('id', user.id)
     .single();
 
   if (userError || !currentUser) {
