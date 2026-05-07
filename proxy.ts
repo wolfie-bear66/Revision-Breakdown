@@ -1,7 +1,7 @@
 import { createServerClient, type CookieOptions } from '@supabase/ssr';
 import { NextResponse, type NextRequest } from 'next/server';
 
-const PUBLIC_ROUTES = new Set(['/', '/login', '/signup', '/upgrade', '/upgrade/success', '/api/stripe/webhook']);
+const PUBLIC_ROUTES = new Set(['/', '/login', '/signup', '/upgrade', '/upgrade/success', '/api/stripe/webhook', '/free', '/block', '/api/blocks']);
 
 function isPublic(pathname: string): boolean {
   if (PUBLIC_ROUTES.has(pathname)) return true;
