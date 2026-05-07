@@ -66,23 +66,13 @@ export default async function FlashcardsPage({ params }: PageProps) {
   return (
     <main className="flex min-h-dvh flex-col bg-background">
       <header className="flex items-center gap-3 border-b border-border px-4 py-3">
-        {subjectId ? (
-          <Link
-            href={`/subject/${subjectId}`}
-            className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            {blockName}
-          </Link>
-        ) : (
-          <Link
-            href="/dashboard"
-            className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Dashboard
-          </Link>
-        )}
+        <Link
+          href={sessionId ? (subjectId ? `/subject/${subjectId}` : '/dashboard') : '/free'}
+          className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          {sessionId ? blockName : 'Free Topics'}
+        </Link>
         <span className="ml-auto rounded-full bg-muted px-3 py-1 text-xs font-medium text-muted-foreground">
           Flashcards
         </span>
