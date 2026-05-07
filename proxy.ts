@@ -1,7 +1,15 @@
 import { createServerClient, type CookieOptions } from '@supabase/ssr';
 import { NextResponse, type NextRequest } from 'next/server';
 
-const PUBLIC_ROUTES = new Set(['/', '/login', '/signup']);
+const PUBLIC_ROUTES = new Set(['/', '/login', '/signup', '/upgrade', '/upgrade/success', '/api/stripe/webhook']);
+
+function isPublic(pathname: string): boolean {
+  if (isPublic(pathname)) return true;
+  for (const route of PUBLIC_ROUTES) {
+    if (route !== '/' && pathname.startsWith(route + '/')) return true;
+  }
+  return false;
+}
 
 export async function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
@@ -31,7 +39,7 @@ export async function proxy(request: NextRequest) {
   } = await supabase.auth.getUser();
 
   // Unauthenticated user hitting a protected route → send to login
-  if (!user && !PUBLIC_ROUTES.has(pathname)) {
+  if (!user && !isPublic(pathname)) {
     return NextResponse.redirect(new URL('/login', request.url));
   }
 
@@ -49,7 +57,7 @@ export async function proxy(request: NextRequest) {
   }
 
   // Authenticated user on a protected route → enforce onboarding gate
-  if (user && !PUBLIC_ROUTES.has(pathname)) {
+  if (user && !isPublic(pathname)) {
     const { data: profile, error: profileError } = await supabase
       .from('users')
       .select('onboarding_complete')
