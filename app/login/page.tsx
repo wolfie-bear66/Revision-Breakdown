@@ -60,8 +60,21 @@ export default function LoginPage() {
         return
       }
 
-      // Supabase magic link handles the session — redirect to it
-      window.location.href = data.loginUrl
+      // Set the session directly in the browser — no redirect chain through Supabase
+      const supabase = createClient()
+      const { error: sessionError } = await supabase.auth.setSession({
+        access_token: data.accessToken,
+        refresh_token: data.refreshToken,
+      })
+
+      if (sessionError) {
+        setCodeError('Failed to log in. Please try again.')
+        setCodeLoading(false)
+        return
+      }
+
+      // Full navigation so middleware sees the new session cookies
+      window.location.href = '/dashboard'
     } catch {
       setCodeError('Something went wrong. Please try again.')
       setCodeLoading(false)

@@ -12,7 +12,7 @@ export async function POST(req: Request) {
     const { email } = await req.json()
     if (!email) return NextResponse.json({ error: 'No email' }, { status: 400 })
 
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+    const { origin: siteUrl } = new URL(req.url)
 
     // Generate a fresh set-password link
     const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
