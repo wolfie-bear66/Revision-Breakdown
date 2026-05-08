@@ -10,6 +10,7 @@ const PUBLIC_ROUTES = new Set([
   '/upgrade/success',
   '/payment-success',
   '/set-password',
+  '/auth',          // covers /auth/callback and any other Supabase auth redirects
   '/free',
   '/api/stripe/webhook',
   '/api/create-checkout-session',

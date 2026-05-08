@@ -52,7 +52,9 @@ export async function POST(req: Request) {
       const { data: inviteData, error: inviteError } = await supabase.auth.admin.generateLink({
         type: 'invite',
         email: parentEmail,
-        options: { redirectTo: `${siteUrl}/set-password` },
+        // Supabase PKCE flow: redirect to /auth/callback which exchanges the code,
+        // then forwards to /set-password
+        options: { redirectTo: `${siteUrl}/auth/callback?next=/set-password` },
       })
 
       if (inviteError) {
