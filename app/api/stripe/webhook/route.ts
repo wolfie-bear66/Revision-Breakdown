@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import Stripe from 'stripe'
 import { createClient } from '@supabase/supabase-js'
+import { Resend } from 'resend'
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2026-04-22.dahlia',
@@ -46,14 +47,13 @@ export async function POST(req: Request) {
       const supabase = createAdminClient()
       const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
 
-      // 1. Create parent auth account via invite link (auto-sends invite email with set-password link)
+      // 1. Create parent auth account and generate set-password link
       let parentAuthId: string
+      let setPasswordLink: string | null = null
 
       const { data: inviteData, error: inviteError } = await supabase.auth.admin.generateLink({
         type: 'invite',
         email: parentEmail,
-        // Supabase PKCE flow: redirect to /auth/callback which exchanges the code,
-        // then forwards to /set-password
         options: { redirectTo: `${siteUrl}/auth/callback?next=/set-password` },
       })
 
@@ -70,8 +70,17 @@ export async function POST(req: Request) {
           throw new Error(`Cannot create or find parent account: ${inviteError.message}`)
         }
         parentAuthId = existingParent.id
+
+        // Generate a recovery link for the existing account
+        const { data: recoveryData } = await supabase.auth.admin.generateLink({
+          type: 'recovery',
+          email: parentEmail,
+          options: { redirectTo: `${siteUrl}/auth/callback?next=/set-password` },
+        })
+        setPasswordLink = recoveryData?.properties?.action_link ?? null
       } else {
         parentAuthId = inviteData.user.id
+        setPasswordLink = inviteData.properties?.action_link ?? null
       }
 
       // 2. Upsert parent row in public.users
@@ -128,6 +137,48 @@ export async function POST(req: Request) {
         parent_user_id: parentAuthId,
         stripe_session_id: session.id,
       })
+
+      // 7. Send welcome email with student code and set-password link
+      if (setPasswordLink) {
+        try {
+          const resend = new Resend(process.env.RESEND_API_KEY)
+          await resend.emails.send({
+            from: 'Revision Breakdown <onboarding@resend.dev>',
+            to: parentEmail,
+            subject: 'Your Revision Breakdown access is ready',
+            html: `
+              <div style="font-family: sans-serif; max-width: 520px; margin: 0 auto; padding: 32px 24px;">
+                <h1 style="font-size: 24px; color: #111; margin-bottom: 8px;">You're in! 🎉</h1>
+                <p style="color: #555; margin-bottom: 24px;">
+                  Thanks for getting Revision Breakdown. Here's everything you need.
+                </p>
+
+                <div style="background: #f4f4f0; border-radius: 12px; padding: 20px 24px; margin-bottom: 24px;">
+                  <p style="font-size: 13px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 8px;">Your child's access code</p>
+                  <p style="font-size: 28px; font-weight: 700; color: #111; letter-spacing: 0.05em; margin: 0;">${studentCode}</p>
+                  <p style="font-size: 13px; color: #888; margin: 8px 0 0;">Give this to your child. They enter it at the login page.</p>
+                </div>
+
+                <p style="color: #555; margin-bottom: 20px;">
+                  To set your own password and view the code any time, click below:
+                </p>
+
+                <a href="${setPasswordLink}" style="display: inline-block; background: #3dd9a4; color: #0e0e0e; font-weight: 700; padding: 14px 28px; border-radius: 99px; text-decoration: none; font-size: 16px;">
+                  Set my password →
+                </a>
+
+                <p style="font-size: 13px; color: #aaa; margin-top: 32px;">
+                  If you didn't purchase this, you can ignore this email.
+                </p>
+              </div>
+            `,
+          })
+          console.log(`✓ Welcome email sent to ${parentEmail}`)
+        } catch (emailErr) {
+          // Don't fail fulfilment if email fails — log and continue
+          console.error('Failed to send welcome email:', emailErr)
+        }
+      }
 
       console.log(`✓ Fulfilment complete for ${parentEmail}, student code: ${studentCode}`)
       return NextResponse.json({ success: true })

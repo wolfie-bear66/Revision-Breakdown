@@ -12,8 +12,12 @@ function PaymentSuccessContent() {
   const sessionId = searchParams.get('session_id')
 
   const [code, setCode] = useState<string | null>(null)
+  const [parentEmail, setParentEmail] = useState<string | null>(null)
   const [loading, setLoading] = useState(true)
   const [copied, setCopied] = useState(false)
+  const [resendLoading, setResendLoading] = useState(false)
+  const [resendSent, setResendSent] = useState(false)
+  const [resendError, setResendError] = useState('')
 
   useEffect(() => {
     if (!sessionId) { setLoading(false); return }
@@ -27,6 +31,7 @@ function PaymentSuccessContent() {
         if (res.ok) {
           const data = await res.json()
           setCode(data.code)
+          setParentEmail(data.parentEmail ?? null)
           setLoading(false)
           // Sign out any auto-created session so parent reaches /login cleanly
           await createClient().auth.signOut()
@@ -44,6 +49,29 @@ function PaymentSuccessContent() {
 
     poll()
   }, [sessionId])
+
+  async function handleResendEmail() {
+    if (!parentEmail) return
+    setResendLoading(true)
+    setResendError('')
+    try {
+      const res = await fetch('/api/resend-parent-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: parentEmail }),
+      })
+      if (!res.ok) {
+        const d = await res.json()
+        setResendError(d.error || 'Failed to send. Please try again.')
+      } else {
+        setResendSent(true)
+      }
+    } catch {
+      setResendError('Failed to send. Please try again.')
+    } finally {
+      setResendLoading(false)
+    }
+  }
 
   function handleCopy() {
     if (!code) return
@@ -95,6 +123,27 @@ function PaymentSuccessContent() {
             <p className="text-xs text-muted-foreground text-center">
               You can also find this code any time on your parent dashboard after setting your password.
             </p>
+
+            {parentEmail && (
+              <div className="rounded-lg border p-4 text-sm space-y-2">
+                <p className="font-medium">Set up your account</p>
+                <p className="text-muted-foreground">
+                  We&apos;ve sent a link to <strong>{parentEmail}</strong> to set your password.
+                </p>
+                {resendSent ? (
+                  <p className="text-sm text-green-600 font-medium">Email sent! Check your inbox.</p>
+                ) : (
+                  <button
+                    onClick={handleResendEmail}
+                    disabled={resendLoading}
+                    className="text-primary underline underline-offset-4 hover:opacity-75 disabled:opacity-50"
+                  >
+                    {resendLoading ? 'Sending…' : "Didn't get it? Resend email"}
+                  </button>
+                )}
+                {resendError && <p className="text-sm text-destructive">{resendError}</p>}
+              </div>
+            )}
 
             <Link
               href="/login"

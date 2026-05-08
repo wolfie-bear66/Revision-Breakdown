@@ -16,7 +16,7 @@ export async function GET(req: Request) {
 
   const { data, error } = await supabase
     .from('student_codes')
-    .select('code')
+    .select('code, parent_user_id')
     .eq('stripe_session_id', sessionId)
     .single()
 
@@ -24,5 +24,12 @@ export async function GET(req: Request) {
     return NextResponse.json({ error: 'Code not found' }, { status: 404 })
   }
 
-  return NextResponse.json({ code: data.code })
+  // Look up parent email for the resend-email UI
+  const { data: parentRow } = await supabase
+    .from('users')
+    .select('email')
+    .eq('id', data.parent_user_id)
+    .single()
+
+  return NextResponse.json({ code: data.code, parentEmail: parentRow?.email ?? null })
 }

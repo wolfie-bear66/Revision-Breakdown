@@ -15,11 +15,18 @@ export async function POST(req: Request) {
 
   const normalised = code.trim().toUpperCase()
 
+  // Derive the internal email from the code (must match what the webhook set)
+  const studentFakeEmail = `student-${normalised.toLowerCase().replace(/-/g, '')}@rb-internal.app`
+
+  console.log('Student login attempt:', { normalised, studentFakeEmail })
+
   const { data: codeRow, error } = await supabase
     .from('student_codes')
     .select('code, student_user_id')
     .eq('code', normalised)
     .single()
+
+  console.log('Code lookup result:', { codeRow, error })
 
   if (error || !codeRow) {
     return NextResponse.json(
@@ -28,15 +35,13 @@ export async function POST(req: Request) {
     )
   }
 
-  // Derive the internal email from the code (must match what the webhook set)
-  const studentFakeEmail = `student-${normalised.toLowerCase().replace(/-/g, '')}@rb-internal.app`
-
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
 
   const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
     type: 'magiclink',
     email: studentFakeEmail,
-    options: { redirectTo: `${siteUrl}/dashboard` },
+    // Must go through /auth/callback for PKCE session exchange, then forward to /dashboard
+    options: { redirectTo: `${siteUrl}/auth/callback?next=/dashboard` },
   })
 
   if (linkError || !linkData?.properties?.action_link) {
