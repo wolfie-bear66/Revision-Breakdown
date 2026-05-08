@@ -22,6 +22,8 @@ function generateStudentCode(): string {
 }
 
 export async function POST(req: Request) {
+  console.log('RESEND_API_KEY present:', !!process.env.RESEND_API_KEY)
+
   const body = await req.text()
   const sig = req.headers.get('stripe-signature')!
 
@@ -47,18 +49,18 @@ export async function POST(req: Request) {
       const supabase = createAdminClient()
       const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
 
-      // 1. Create parent auth account and generate set-password link
+      // 1. Create parent auth account (email_confirm: true suppresses Supabase's own email)
+      console.log('1. Creating parent account for:', parentEmail)
       let parentAuthId: string
-      let setPasswordLink: string | null = null
 
-      const { data: inviteData, error: inviteError } = await supabase.auth.admin.generateLink({
-        type: 'invite',
+      const { data: parentData, error: parentError } = await supabase.auth.admin.createUser({
         email: parentEmail,
-        options: { redirectTo: `${siteUrl}/auth/callback?next=/set-password` },
+        email_confirm: true,
+        user_metadata: { role: 'parent' },
       })
 
-      if (inviteError) {
-        // Account already exists — look it up from our users table by email
+      if (parentError) {
+        // Account already exists — look it up
         const { data: existingParent, error: lookupError } = await supabase
           .from('users')
           .select('id')
@@ -67,21 +69,14 @@ export async function POST(req: Request) {
           .single()
 
         if (lookupError || !existingParent) {
-          throw new Error(`Cannot create or find parent account: ${inviteError.message}`)
+          throw new Error(`Cannot create or find parent account: ${parentError.message}`)
         }
         parentAuthId = existingParent.id
-
-        // Generate a recovery link for the existing account
-        const { data: recoveryData } = await supabase.auth.admin.generateLink({
-          type: 'recovery',
-          email: parentEmail,
-          options: { redirectTo: `${siteUrl}/auth/callback?next=/set-password` },
-        })
-        setPasswordLink = recoveryData?.properties?.action_link ?? null
       } else {
-        parentAuthId = inviteData.user.id
-        setPasswordLink = inviteData.properties?.action_link ?? null
+        parentAuthId = parentData.user.id
       }
+
+      console.log('2. Parent created, id:', parentAuthId)
 
       // 2. Upsert parent row in public.users
       await supabase.from('users').upsert({
@@ -105,7 +100,9 @@ export async function POST(req: Request) {
         studentCode = generateStudentCode()
       }
 
-      // 4. Create student auth account with a generated internal email (students never see this)
+      console.log('3. Student code generated:', studentCode)
+
+      // 4. Create student auth account with generated internal email
       const studentFakeEmail = `student-${studentCode.toLowerCase().replace(/-/g, '')}@rb-internal.app`
       const studentPassword = crypto.randomUUID()
 
@@ -120,6 +117,8 @@ export async function POST(req: Request) {
       if (studentAuthError) throw studentAuthError
       const studentAuthId = studentAuthData.user.id
 
+      console.log('4. Student account created')
+
       // 5. Create student row in public.users
       await supabase.from('users').insert({
         id: studentAuthId,
@@ -130,7 +129,7 @@ export async function POST(req: Request) {
         onboarding_complete: false,
       })
 
-      // 6. Store code in lookup table (keyed to stripe session so /payment-success can retrieve it)
+      // 6. Store code in lookup table (keyed to stripe session for /payment-success)
       await supabase.from('student_codes').insert({
         code: studentCode,
         student_user_id: studentAuthId,
@@ -138,49 +137,60 @@ export async function POST(req: Request) {
         stripe_session_id: session.id,
       })
 
-      // 7. Send welcome email with student code and set-password link
-      if (setPasswordLink) {
-        try {
-          const resend = new Resend(process.env.RESEND_API_KEY)
-          await resend.emails.send({
-            from: 'Revision Breakdown <onboarding@resend.dev>',
-            to: parentEmail,
-            subject: 'Your Revision Breakdown access is ready',
-            html: `
-              <div style="font-family: sans-serif; max-width: 520px; margin: 0 auto; padding: 32px 24px;">
-                <h1 style="font-size: 24px; color: #111; margin-bottom: 8px;">You're in! 🎉</h1>
-                <p style="color: #555; margin-bottom: 24px;">
-                  Thanks for getting Revision Breakdown. Here's everything you need.
-                </p>
+      // 7. Generate set-password recovery link (type: 'recovery' does NOT auto-send email)
+      const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
+        type: 'recovery',
+        email: parentEmail,
+        options: { redirectTo: `${siteUrl}/auth/callback?next=/set-password` },
+      })
 
-                <div style="background: #f4f4f0; border-radius: 12px; padding: 20px 24px; margin-bottom: 24px;">
-                  <p style="font-size: 13px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 8px;">Your child's access code</p>
-                  <p style="font-size: 28px; font-weight: 700; color: #111; letter-spacing: 0.05em; margin: 0;">${studentCode}</p>
-                  <p style="font-size: 13px; color: #888; margin: 8px 0 0;">Give this to your child. They enter it at the login page.</p>
-                </div>
-
-                <p style="color: #555; margin-bottom: 20px;">
-                  To set your own password and view the code any time, click below:
-                </p>
-
-                <a href="${setPasswordLink}" style="display: inline-block; background: #3dd9a4; color: #0e0e0e; font-weight: 700; padding: 14px 28px; border-radius: 99px; text-decoration: none; font-size: 16px;">
-                  Set my password →
-                </a>
-
-                <p style="font-size: 13px; color: #aaa; margin-top: 32px;">
-                  If you didn't purchase this, you can ignore this email.
-                </p>
-              </div>
-            `,
-          })
-          console.log(`✓ Welcome email sent to ${parentEmail}`)
-        } catch (emailErr) {
-          // Don't fail fulfilment if email fails — log and continue
-          console.error('Failed to send welcome email:', emailErr)
-        }
+      if (linkError || !linkData?.properties?.action_link) {
+        console.error('Recovery link error:', linkError)
+        // Don't throw — fulfilment is done, email failure shouldn't block Stripe
       }
 
-      console.log(`✓ Fulfilment complete for ${parentEmail}, student code: ${studentCode}`)
+      const setPasswordLink = linkData?.properties?.action_link ?? null
+
+      // 8. Send welcome email via Resend (the only email — Supabase never sent one)
+      console.log('5. Sending email via Resend to:', parentEmail)
+      const resend = new Resend(process.env.RESEND_API_KEY)
+      const emailResult = await resend.emails.send({
+        from: 'Revision Breakdown <onboarding@resend.dev>',
+        to: parentEmail,
+        subject: 'Your Revision Breakdown access is ready',
+        html: `
+          <div style="font-family: sans-serif; max-width: 520px; margin: 0 auto; padding: 32px 24px;">
+            <h1 style="font-size: 24px; color: #111; margin-bottom: 8px;">You're in!</h1>
+            <p style="color: #555; margin-bottom: 24px;">
+              Thanks for getting Revision Breakdown. Here's everything you need.
+            </p>
+
+            <div style="background: #f4f4f0; border-radius: 12px; padding: 20px 24px; margin-bottom: 24px;">
+              <p style="font-size: 13px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 8px;">Your child's access code</p>
+              <p style="font-size: 28px; font-weight: 700; color: #111; letter-spacing: 0.05em; margin: 0;">${studentCode}</p>
+              <p style="font-size: 13px; color: #888; margin: 8px 0 0;">Give this to your child. They enter it at the login page.</p>
+            </div>
+
+            <p style="color: #555; margin-bottom: 20px;">
+              To set your own password and view the code any time, click below:
+            </p>
+
+            ${setPasswordLink ? `
+            <a href="${setPasswordLink}" style="display: inline-block; background: #3dd9a4; color: #0e0e0e; font-weight: 700; padding: 14px 28px; border-radius: 99px; text-decoration: none; font-size: 16px;">
+              Set my password →
+            </a>
+            ` : `<p style="color: #888; font-size: 14px;">Visit revision-breakdown.vercel.app/login to access your account.</p>`}
+
+            <p style="font-size: 13px; color: #aaa; margin-top: 32px;">
+              If you didn't purchase this, you can ignore this email.
+            </p>
+          </div>
+        `,
+      })
+
+      console.log('6. Resend response:', JSON.stringify(emailResult))
+      console.log('7. Fulfilment complete for', parentEmail)
+
       return NextResponse.json({ success: true })
     } catch (err: any) {
       console.error('Webhook fulfilment error:', err)
