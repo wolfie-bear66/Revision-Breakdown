@@ -22,6 +22,13 @@ export default function LoginPage() {
   const [codeError, setCodeError] = useState('')
   const [codeLoading, setCodeLoading] = useState(false)
 
+  function formatCode(raw: string): string {
+    const clean = raw.replace(/[^a-zA-Z0-9]/g, '').toUpperCase().slice(0, 10)
+    if (clean.length <= 2) return clean
+    if (clean.length <= 6) return `${clean.slice(0, 2)}-${clean.slice(2)}`
+    return `${clean.slice(0, 2)}-${clean.slice(2, 6)}-${clean.slice(6)}`
+  }
+
   async function handlePasswordLogin(e: React.FormEvent) {
     e.preventDefault()
     setError('')
@@ -49,7 +56,7 @@ export default function LoginPage() {
       const res = await fetch('/api/student-login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ code: accessCode }),
+        body: JSON.stringify({ code: accessCode.replace(/[^a-zA-Z0-9]/g, '').toUpperCase() }),
       })
 
       const data = await res.json()
@@ -157,10 +164,11 @@ export default function LoginPage() {
                     type="text"
                     placeholder="RB-XXXX-XXXX"
                     value={accessCode}
-                    onChange={(e) => setAccessCode(e.target.value.toUpperCase())}
+                    onChange={(e) => setAccessCode(formatCode(e.target.value))}
+                    maxLength={11}
                     required
                     autoComplete="off"
-                    className="font-mono tracking-widest"
+                    className="font-mono tracking-widest uppercase"
                   />
                 </div>
 

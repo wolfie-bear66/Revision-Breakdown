@@ -16,6 +16,7 @@ const PUBLIC_ROUTES = new Set([
   '/api/create-checkout-session',
   '/api/get-session-code',
   '/api/student-login',
+  '/api/resend-parent-email',
   '/api/blocks',
   '/block',
 ])
@@ -104,8 +105,8 @@ export async function proxy(request: NextRequest) {
       return NextResponse.redirect(new URL('/parent', request.url))
     }
 
-    // Onboarding gate for students
-    if (!profile?.onboarding_complete && pathname !== '/onboarding' && !pathname.startsWith('/onboarding/')) {
+    // Onboarding gate — students only, never parents
+    if (profile?.role === 'student' && !profile?.onboarding_complete && pathname !== '/onboarding' && !pathname.startsWith('/onboarding/')) {
       return NextResponse.redirect(new URL('/onboarding', request.url))
     }
     if (profile?.onboarding_complete && (pathname === '/onboarding' || pathname.startsWith('/onboarding/'))) {
