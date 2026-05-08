@@ -66,8 +66,11 @@ export async function proxy(request: NextRequest) {
       if (profile?.role === 'parent') {
         return NextResponse.redirect(new URL('/parent', request.url))
       }
-      const dest = profile?.onboarding_complete ? '/dashboard' : '/onboarding'
-      return NextResponse.redirect(new URL(dest, request.url))
+      if (profile?.role === 'student') {
+        const dest = profile?.onboarding_complete ? '/dashboard' : '/onboarding'
+        return NextResponse.redirect(new URL(dest, request.url))
+      }
+      // No profile or unknown role — let them reach /login
     }
 
     return supabaseResponse

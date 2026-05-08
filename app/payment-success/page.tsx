@@ -5,6 +5,7 @@ import { useSearchParams } from 'next/navigation'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
+import { createClient } from '@/utils/supabase/client'
 
 function PaymentSuccessContent() {
   const searchParams = useSearchParams()
@@ -27,6 +28,8 @@ function PaymentSuccessContent() {
           const data = await res.json()
           setCode(data.code)
           setLoading(false)
+          // Sign out any auto-created session so parent reaches /login cleanly
+          await createClient().auth.signOut()
           return
         }
       } catch {}
