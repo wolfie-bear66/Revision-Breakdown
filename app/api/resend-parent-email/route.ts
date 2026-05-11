@@ -47,7 +47,7 @@ export async function POST(req: Request) {
 
     const resend = new Resend(process.env.RESEND_API_KEY)
     await resend.emails.send({
-      from: 'Revision Breakdown <onboarding@resend.dev>',
+      from: `Revision Breakdown <noreply@${process.env.RESEND_FROM_DOMAIN || 'resend.dev'}>`,
       to: email,
       subject: 'Your Revision Breakdown access — set your password',
       html: `

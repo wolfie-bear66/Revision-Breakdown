@@ -130,12 +130,13 @@ export async function POST(req: Request) {
       })
 
       // 6. Store code in lookup table (keyed to stripe session for /payment-success)
-      await supabase.from('student_codes').insert({
+      const { error: insertCodeError } = await supabase.from('student_codes').insert({
         code: studentCode,
         student_user_id: studentAuthId,
         parent_user_id: parentAuthId,
         stripe_session_id: session.id,
       })
+      if (insertCodeError) throw new Error(`student_codes insert failed: ${insertCodeError.message}`)
 
       // 7. Generate set-password recovery link (type: 'recovery' does NOT auto-send email)
       const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
@@ -155,7 +156,7 @@ export async function POST(req: Request) {
       console.log('5. Sending email via Resend to:', parentEmail)
       const resend = new Resend(process.env.RESEND_API_KEY)
       const emailResult = await resend.emails.send({
-        from: 'Revision Breakdown <onboarding@resend.dev>',
+        from: `Revision Breakdown <noreply@${process.env.RESEND_FROM_DOMAIN || 'resend.dev'}>`,
         to: parentEmail,
         subject: 'Your Revision Breakdown access is ready',
         html: `
