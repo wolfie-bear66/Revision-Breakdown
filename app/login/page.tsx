@@ -26,7 +26,7 @@ export default function LoginPage() {
     const clean = raw.replace(/[^a-zA-Z0-9]/g, '').toUpperCase().slice(0, 10)
     if (clean.length <= 2) return clean
     if (clean.length <= 6) return `${clean.slice(0, 2)}-${clean.slice(2)}`
-    return `${clean.slice(0, 2)}-${clean.slice(2, 6)}-${clean.slice(6)}`
+    return `${clean.slice(0, 2)}-${clean.slice(2, 6)}-${clean.slice(6, 10)}`
   }
 
   async function handlePasswordLogin(e: React.FormEvent) {
@@ -56,7 +56,7 @@ export default function LoginPage() {
       const res = await fetch('/api/student-login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ code: accessCode.replace(/[^a-zA-Z0-9]/g, '').toUpperCase() }),
+        body: JSON.stringify({ code: accessCode }),
       })
 
       const data = await res.json()
@@ -165,7 +165,7 @@ export default function LoginPage() {
                     placeholder="RB-XXXX-XXXX"
                     value={accessCode}
                     onChange={(e) => setAccessCode(formatCode(e.target.value))}
-                    maxLength={11}
+                    maxLength={12}
                     required
                     autoComplete="off"
                     className="font-mono tracking-widest uppercase"

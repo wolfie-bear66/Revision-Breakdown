@@ -13,10 +13,13 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'No code provided' }, { status: 400 })
   }
 
+  // Keep dashes for the DB lookup — codes are stored as RB-XXXX-XXXX
   const normalised = code.trim().toUpperCase()
-  const studentFakeEmail = `student-${normalised.toLowerCase().replace(/-/g, '')}@rb-internal.app`
+  // Strip dashes only for the internal fake email
+  const codeNoDashes = normalised.replace(/-/g, '')
+  const studentFakeEmail = `student-${codeNoDashes.toLowerCase()}@rb-internal.app`
 
-  console.log('Student login attempt:', { normalised, studentFakeEmail })
+  console.log('Student login attempt:', { normalised, codeNoDashes, studentFakeEmail })
 
   // 1. Verify the code exists
   const { data: codeRow, error: codeError } = await supabaseAdmin
