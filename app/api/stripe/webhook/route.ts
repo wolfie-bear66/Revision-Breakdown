@@ -121,33 +121,33 @@ export async function POST(req: Request) {
       console.log('4. Student account created')
 
       // 5. Create student row in public.users
-      const { error: studentInsertError } = await supabase.from('users').insert({
+      const { error: studentInsertError } = await supabase.from('users').upsert({
         id: studentAuthId,
         role: 'student',
         subscription_status: 'active',
         parent_id: parentAuthId,
         student_code: studentCode,
         onboarding_complete: false,
-      })
+      }, { onConflict: 'id' })
 
       if (studentInsertError) {
         console.error('Student users insert error:', studentInsertError)
         throw new Error(`Failed to insert student user: ${studentInsertError.message}`)
       }
-      console.log('4b. Student row inserted into public.users ✓')
+      console.log('4b. Student row upserted ✓', { studentAuthId, parentAuthId })
 
       // 6. Store code in lookup table (keyed to stripe session for /payment-success)
-      const { error: insertCodeError } = await supabase.from('student_codes').insert({
+      const { error: insertCodeError } = await supabase.from('student_codes').upsert({
         code: studentCode,
         student_user_id: studentAuthId,
         parent_user_id: parentAuthId,
         stripe_session_id: session.id,
-      })
+      }, { onConflict: 'code' })
       if (insertCodeError) {
         console.error('Student codes insert error:', insertCodeError)
         throw new Error(`Failed to insert student code: ${insertCodeError.message}`)
       }
-      console.log('4c. Student code inserted into student_codes')
+      console.log('4c. Student code upserted ✓', { studentCode })
 
       // 7. Generate set-password recovery link (type: 'recovery' does NOT auto-send email)
       const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
