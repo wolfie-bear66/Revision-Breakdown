@@ -77,7 +77,6 @@ export async function POST(req: Request) {
       // 2. Upsert parent row in public.users
       const { error: parentInsertError } = await supabase.from('users').upsert({
         id: parentAuthId,
-        email: parentEmail,
         role: 'parent',
         subscription_status: 'active',
         stripe_customer_id: stripeCustomerId,
@@ -88,7 +87,7 @@ export async function POST(req: Request) {
         console.error('Parent users insert error:', parentInsertError)
         throw new Error(`Failed to insert parent user: ${parentInsertError.message}`)
       }
-      console.log('2b. Parent row inserted into public.users')
+      console.log('2b. Parent row inserted into public.users ✓')
 
       // 3. Generate unique student access code
       let studentCode = generateStudentCode()
@@ -135,7 +134,7 @@ export async function POST(req: Request) {
         console.error('Student users insert error:', studentInsertError)
         throw new Error(`Failed to insert student user: ${studentInsertError.message}`)
       }
-      console.log('4b. Student row inserted into public.users')
+      console.log('4b. Student row inserted into public.users ✓')
 
       // 6. Store code in lookup table (keyed to stripe session for /payment-success)
       const { error: insertCodeError } = await supabase.from('student_codes').insert({
