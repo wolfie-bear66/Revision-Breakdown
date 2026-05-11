@@ -1,27 +1,42 @@
 'use client'
 
 import { useState } from 'react'
-import { createClient } from '@/utils/supabase/client'
 import { Button } from '@/components/ui/button'
 
 export function ResendPasswordButton({ email }: { email: string }) {
   const [sent, setSent] = useState(false)
   const [loading, setLoading] = useState(false)
+  const [error, setError] = useState('')
 
   async function handleResend() {
     setLoading(true)
-    const supabase = createClient()
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || window.location.origin
-    await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: `${siteUrl}/set-password`,
-    })
-    setSent(true)
-    setLoading(false)
+    setError('')
+    try {
+      const res = await fetch('/api/resend-parent-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      })
+      if (!res.ok) {
+        const d = await res.json()
+        setError(d.error || 'Failed to send. Please try again.')
+      } else {
+        setSent(true)
+        setTimeout(() => setSent(false), 3000)
+      }
+    } catch {
+      setError('Failed to send. Please try again.')
+    } finally {
+      setLoading(false)
+    }
   }
 
   return (
-    <Button variant="outline" className="w-full" onClick={handleResend} disabled={loading || sent}>
-      {sent ? 'Email sent — check your inbox' : loading ? 'Sending…' : 'Resend login link to myself'}
-    </Button>
+    <div className="space-y-2">
+      <Button variant="outline" className="w-full" onClick={handleResend} disabled={loading || sent}>
+        {sent ? 'Email sent! Check your inbox' : loading ? 'Sending…' : 'Resend login link'}
+      </Button>
+      {error && <p className="text-sm text-destructive">{error}</p>}
+    </div>
   )
 }

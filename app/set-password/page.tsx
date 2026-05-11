@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { createClient } from '@/utils/supabase/client'
 import { Button } from '@/components/ui/button'
@@ -15,6 +15,14 @@ export default function SetPasswordPage() {
   const [confirm, setConfirm] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (!session) {
+        setError('This link has expired. Please request a new one from your account email.')
+      }
+    })
+  }, [])
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -78,7 +86,14 @@ export default function SetPasswordPage() {
               />
             </div>
 
-            {error && <p className="text-sm text-destructive">{error}</p>}
+            {error && (
+              <p className="text-sm text-destructive">
+                {error}{' '}
+                {error.includes('expired') && (
+                  <a href="/login" className="underline underline-offset-2">Go to login</a>
+                )}
+              </p>
+            )}
 
             <Button type="submit" className="w-full" disabled={loading}>
               {loading ? 'Saving…' : 'Set password & continue'}
