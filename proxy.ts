@@ -90,7 +90,13 @@ export async function proxy(request: NextRequest) {
     .eq('id', user.id)
     .single()
 
-  const role = profile?.role
+  // Safety: authenticated user with no profile row causes a redirect loop — break it
+  if (!profile) {
+    console.error('No profile found for authenticated user:', user.id)
+    return NextResponse.redirect(new URL('/login?error=no_profile', request.url))
+  }
+
+  const role = profile.role
 
   // /parent requires parent role
   if (pathname.startsWith('/parent')) {
