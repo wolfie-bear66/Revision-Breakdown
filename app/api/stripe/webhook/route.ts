@@ -60,18 +60,14 @@ export async function POST(req: Request) {
       })
 
       if (parentError) {
-        // Account already exists — look it up
-        const { data: existingParent, error: lookupError } = await supabase
-          .from('users')
-          .select('id')
-          .eq('email', parentEmail)
-          .eq('role', 'parent')
-          .single()
-
-        if (lookupError || !existingParent) {
-          throw new Error(`Cannot create or find parent account: ${parentError.message}`)
+        if (!parentError.message.includes('already been registered')) {
+          throw parentError
         }
-        parentAuthId = existingParent.id
+        // Account already exists — look it up directly from Supabase auth
+        const { data: { users } } = await supabase.auth.admin.listUsers()
+        const existing = users.find(u => u.email === parentEmail)
+        if (!existing) throw new Error(`Could not find existing parent user: ${parentEmail}`)
+        parentAuthId = existing.id
       } else {
         parentAuthId = parentData.user.id
       }
@@ -146,11 +142,10 @@ export async function POST(req: Request) {
       })
 
       if (linkError || !linkData?.properties?.action_link) {
-        console.error('Recovery link error:', linkError)
-        // Don't throw — fulfilment is done, email failure shouldn't block Stripe
+        throw new Error(`Recovery link generation failed: ${linkError?.message ?? 'no action_link returned'}`)
       }
 
-      const setPasswordLink = linkData?.properties?.action_link ?? null
+      const setPasswordLink = linkData.properties.action_link
 
       // 8. Send welcome email via Resend (the only email — Supabase never sent one)
       console.log('5. Sending email via Resend to:', parentEmail)
@@ -176,11 +171,9 @@ export async function POST(req: Request) {
               To set your own password and view the code any time, click below:
             </p>
 
-            ${setPasswordLink ? `
             <a href="${setPasswordLink}" style="display: inline-block; background: #3dd9a4; color: #0e0e0e; font-weight: 700; padding: 14px 28px; border-radius: 99px; text-decoration: none; font-size: 16px;">
               Set my password →
             </a>
-            ` : `<p style="color: #888; font-size: 14px;">Visit revision-breakdown.vercel.app/login to access your account.</p>`}
 
             <p style="font-size: 13px; color: #aaa; margin-top: 32px;">
               If you didn't purchase this, you can ignore this email.
@@ -189,7 +182,9 @@ export async function POST(req: Request) {
         `,
       })
 
+      console.log('5. Resend email sent to:', parentEmail)
       console.log('6. Resend response:', JSON.stringify(emailResult))
+      console.log('NOTE: Supabase recovery email should be blank/suppressed via template settings')
       console.log('7. Fulfilment complete for', parentEmail)
 
       return NextResponse.json({ success: true })
