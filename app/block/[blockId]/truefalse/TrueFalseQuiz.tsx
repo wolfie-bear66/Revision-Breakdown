@@ -63,7 +63,7 @@ export function TrueFalseQuiz({ blockId, sessionId, questions, subjectId }: True
               <div key={q.id} className="rounded-xl border-2 border-border bg-card px-4 py-3">
                 <p className="font-semibold text-card-foreground">{q.question}</p>
                 <p className="text-sm text-muted-foreground mt-0.5">
-                  Answer: {q.correct_answer === 'true' ? 'True' : 'False'}
+                  Answer: {q.correct_answer.toLowerCase() === 'true' ? 'True' : 'False'}
                 </p>
               </div>
             ))}
@@ -108,7 +108,7 @@ export function TrueFalseQuiz({ blockId, sessionId, questions, subjectId }: True
     setSubmitting(true);
     setSelected(answer);
 
-    const correct = answer === question.correct_answer;
+    const correct = answer.toLowerCase() === question.correct_answer.toLowerCase();
     setAnswerState(correct ? 'correct' : 'incorrect');
 
     if (!correct) {
@@ -160,7 +160,7 @@ export function TrueFalseQuiz({ blockId, sessionId, questions, subjectId }: True
 
     if (answerState === 'idle') return baseColour.idle;
 
-    const isCorrectAnswer = value === question.correct_answer;
+    const isCorrectAnswer = value === question.correct_answer.toLowerCase();
     const isSelected = value === selected;
 
     if (isCorrectAnswer) return baseColour.active;
@@ -222,7 +222,7 @@ export function TrueFalseQuiz({ blockId, sessionId, questions, subjectId }: True
           >
             {answerState === 'correct'
               ? '✓ Correct!'
-              : `✗ The answer was: ${question.correct_answer === 'true' ? 'True' : 'False'}`}
+              : `✗ The answer was: ${question.correct_answer.toLowerCase() === 'true' ? 'True' : 'False'}`}
           </p>
           <button
             onClick={handleNext}

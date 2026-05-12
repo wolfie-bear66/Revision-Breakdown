@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { createClient } from '@/utils/supabase/client';
 import { cn } from '@/lib/utils';
@@ -21,8 +21,33 @@ interface MCQQuizProps {
 
 type AnswerState = 'idle' | 'correct' | 'incorrect';
 
+function stripPrefix(option: string): string {
+  return option.replace(/^[A-D]\)\s*/, '');
+}
+
+function fisherYates<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 export function MCQQuiz({ blockId, sessionId, questions, subjectId }: MCQQuizProps) {
-  const [activeQuestions, setActiveQuestions] = useState<Question[]>(questions);
+  const processedQuestions = useMemo<Question[]>(() =>
+    questions.map((q) => {
+      const correctOption = q.options.find((o) => o.match(new RegExp(`^${q.correct_answer}\\)`)));
+      const correctText = correctOption ? stripPrefix(correctOption) : q.correct_answer;
+      return {
+        ...q,
+        options: fisherYates(q.options.map(stripPrefix)),
+        correct_answer: correctText,
+      };
+    }),
+  [questions]);
+
+  const [activeQuestions, setActiveQuestions] = useState<Question[]>(processedQuestions);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [answerState, setAnswerState] = useState<AnswerState>('idle');
@@ -79,7 +104,7 @@ export function MCQQuiz({ blockId, sessionId, questions, subjectId }: MCQQuizPro
             </button>
           ) : (
             <button
-              onClick={() => startRetry(questions)}
+              onClick={() => startRetry(processedQuestions)}
               className="w-full rounded-xl border-2 border-primary bg-primary py-4 text-base font-semibold text-primary-foreground transition-opacity hover:opacity-90 active:opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             >
               Retry
@@ -191,7 +216,7 @@ export function MCQQuiz({ blockId, sessionId, questions, subjectId }: MCQQuizPro
 
       {/* Options */}
       <div className="flex flex-col gap-3">
-        {(question.options as string[]).map((option, i) => (
+        {question.options.map((option, i) => (
           <button
             key={i}
             onClick={() => handleSelect(option)}

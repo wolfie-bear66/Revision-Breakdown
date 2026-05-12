@@ -22,6 +22,7 @@ export function FlashcardDeck({ blockId, sessionId, cards, subjectId }: Flashcar
   const [activeCards, setActiveCards] = useState<Card[]>(cards);
   const [index, setIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  const [definitionFirst, setDefinitionFirst] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [wrongCards, setWrongCards] = useState<Card[]>([]);
@@ -166,7 +167,15 @@ export function FlashcardDeck({ blockId, sessionId, cards, subjectId }: Flashcar
           <span>
             Card {index + 1} of {total}
           </span>
-          <span>{Math.round((index / total) * 100)}% done</span>
+          <div className="flex items-center gap-2">
+            <span>{Math.round((index / total) * 100)}% done</span>
+            <button
+              onClick={() => { setDefinitionFirst((d) => !d); setIsFlipped(false); }}
+              className="flex items-center gap-1 rounded-full border border-border bg-card px-2 py-0.5 text-xs font-medium text-muted-foreground hover:bg-muted transition-colors"
+            >
+              ⇄ Flip direction
+            </button>
+          </div>
         </div>
         <div className="h-1.5 w-full overflow-hidden rounded-full bg-muted">
           <div
@@ -182,7 +191,11 @@ export function FlashcardDeck({ blockId, sessionId, cards, subjectId }: Flashcar
         style={{ perspective: '1200px' }}
         onClick={() => !submitting && setIsFlipped((f) => !f)}
         role="button"
-        aria-label={isFlipped ? 'Showing definition — click to flip back' : 'Showing term — click to reveal definition'}
+        aria-label={
+          definitionFirst
+            ? (isFlipped ? 'Showing keyword — click to flip back' : 'Showing definition — click to reveal keyword')
+            : (isFlipped ? 'Showing definition — click to flip back' : 'Showing keyword — click to reveal definition')
+        }
       >
         <div
           className={cn(
@@ -201,10 +214,10 @@ export function FlashcardDeck({ blockId, sessionId, cards, subjectId }: Flashcar
             )}
           >
             <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-              Keyword
+              {definitionFirst ? 'Definition' : 'Keyword'}
             </span>
             <p className="text-center text-2xl font-bold leading-snug text-card-foreground sm:text-3xl">
-              {card.keyword}
+              {definitionFirst ? card.definition : card.keyword}
             </p>
             <span className="mt-2 text-xs text-muted-foreground">tap to reveal</span>
           </div>
@@ -218,10 +231,10 @@ export function FlashcardDeck({ blockId, sessionId, cards, subjectId }: Flashcar
             )}
           >
             <span className="text-xs font-semibold uppercase tracking-widest text-primary-foreground/60">
-              Definition
+              {definitionFirst ? 'Keyword' : 'Definition'}
             </span>
             <p className="text-center text-2xl font-bold leading-snug text-primary-foreground sm:text-3xl">
-              {card.definition}
+              {definitionFirst ? card.keyword : card.definition}
             </p>
           </div>
         </div>
