@@ -16,7 +16,7 @@ export default async function DashboardPage() {
     data: { user },
   } = await supabase.auth.getUser();
 
-  const [{ data: progress }, { data: lastSession }, { data: userSessions }] = user
+  const [{ data: progress }, { data: lastSession }] = user
     ? await Promise.all([
         supabase
           .from('user_subject_progress')
@@ -29,36 +29,10 @@ export default async function DashboardPage() {
           .order('updated_at', { ascending: false })
           .limit(1)
           .maybeSingle(),
-        supabase
-          .from('sessions')
-          .select('id, blocks(topics(subject_id))')
-          .eq('user_id', user.id),
       ])
-    : [{ data: null }, { data: null }, { data: null }];
+    : [{ data: null }, { data: null }];
 
   const isFree = !user;
-
-  // Build session → subject_id map
-  const sessionToSubject: Record<string, string> = {};
-  for (const s of userSessions ?? []) {
-    const block = Array.isArray(s.blocks) ? s.blocks[0] : s.blocks;
-    const topic = block ? (Array.isArray((block as any).topics) ? (block as any).topics[0] : (block as any).topics) : null;
-    const subjectId = topic?.subject_id;
-    if (subjectId) sessionToSubject[s.id] = subjectId;
-  }
-
-  // Fetch attempt counts for all sessions in one query
-  const sessionIds = Object.keys(sessionToSubject);
-  const { data: attempts } = sessionIds.length > 0
-    ? await supabase.from('card_attempts').select('session_id').in('session_id', sessionIds)
-    : { data: [] };
-
-  const attemptsBySubject: Record<string, number> = {};
-  for (const a of attempts ?? []) {
-    const subjectId = sessionToSubject[a.session_id];
-    if (subjectId) attemptsBySubject[subjectId] = (attemptsBySubject[subjectId] ?? 0) + 1;
-  }
-
   const subjects = progress ?? [];
   const continueBlockId = lastSession?.block_id ?? null;
 
@@ -113,7 +87,6 @@ export default async function DashboardPage() {
                 exam_board={s.exam_board}
                 total_blocks={s.total_blocks}
                 completed_blocks={s.completed_blocks}
-                attemptCount={attemptsBySubject[s.subject_id] ?? 0}
                 isFreeUser={isFree}
                 isFreeTopic={FREE_SUBJECT_IDS.includes(s.subject_id)}
               />
