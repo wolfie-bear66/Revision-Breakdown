@@ -19,7 +19,7 @@ const PUBLIC_ROUTES = new Set([
   '/api/resend-parent-email',
   '/api/blocks',
   '/block',
-  '/api/test-reset-link',
+  '/reset-password',
 ])
 
 function isPublic(pathname: string): boolean {

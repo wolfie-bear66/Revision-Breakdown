@@ -27,6 +27,12 @@ export default async function FreePage() {
     <main className="min-h-screen bg-background">
       <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
         <div className="mb-8">
+          <Link
+            href="/"
+            className="mb-6 inline-flex items-center gap-2 font-bold text-[17px] no-underline text-foreground"
+          >
+            Revision <span className="text-[#f5a623]">Breakdown</span>
+          </Link>
           <h1 className="text-3xl font-bold tracking-tight">Free Topics</h1>
           <p className="mt-3 text-muted-foreground">
             Try a full topic from each of these subjects — no account needed.

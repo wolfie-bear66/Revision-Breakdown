@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { createClient } from '@/utils/supabase/server';
 import { SubjectCard } from './SubjectCard';
 import { SignOutButton } from './SignOutButton';
+import { ResetTopicsButton } from './ResetTopicsButton';
 import { buttonVariants } from '@/components/ui/button';
 import { BookOpen } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -119,6 +120,9 @@ export default async function DashboardPage() {
             ))}
           </div>
         )}
+        <div className="mt-10 flex justify-center">
+          <ResetTopicsButton />
+        </div>
       </div>
     </main>
   );

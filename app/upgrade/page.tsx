@@ -53,6 +53,13 @@ export default function UpgradePage() {
           </button>
         </div>
 
+        <p className="text-center text-sm text-gray-400">
+          Already have an account?{' '}
+          <a href="/login" className="font-bold text-[#3dd9a4]">
+            Sign in →
+          </a>
+        </p>
+
       </div>
     </main>
   )

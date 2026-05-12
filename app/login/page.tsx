@@ -123,6 +123,12 @@ export default function LoginPage() {
                 />
               </div>
 
+              <div className="text-right -mt-1">
+                <Link href="/reset-password" className="text-xs text-muted-foreground hover:text-primary underline underline-offset-4">
+                  Forgot password?
+                </Link>
+              </div>
+
               {error && <p className="text-sm text-destructive">{error}</p>}
 
               <Button type="submit" className="w-full" disabled={loading}>
