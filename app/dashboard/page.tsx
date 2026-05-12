@@ -16,7 +16,7 @@ export default async function DashboardPage() {
     data: { user },
   } = await supabase.auth.getUser();
 
-  const [{ data: progress }, { data: lastSession }] = user
+  const [{ data: progress }, { data: lastSession }, { data: sessionRows }] = user
     ? await Promise.all([
         supabase
           .from('user_subject_progress')
@@ -29,8 +29,19 @@ export default async function DashboardPage() {
           .order('updated_at', { ascending: false })
           .limit(1)
           .maybeSingle(),
+        supabase
+          .from('sessions')
+          .select('block_id, blocks(topics(subject_id))')
+          .eq('user_id', user.id)
+          .not('completed_at', 'is', null),
       ])
-    : [{ data: null }, { data: null }];
+    : [{ data: null }, { data: null }, { data: null }];
+
+  const sessionCountBySubject: Record<string, number> = {};
+  for (const session of sessionRows ?? []) {
+    const subjectId = (session.blocks as any)?.topics?.subject_id;
+    if (subjectId) sessionCountBySubject[subjectId] = (sessionCountBySubject[subjectId] ?? 0) + 1;
+  }
 
   const isFree = !user;
   const subjects = progress ?? [];
@@ -87,6 +98,7 @@ export default async function DashboardPage() {
                 exam_board={s.exam_board}
                 total_blocks={s.total_blocks}
                 completed_blocks={s.completed_blocks}
+                session_count={sessionCountBySubject[s.subject_id] ?? 0}
                 isFreeUser={isFree}
                 isFreeTopic={FREE_SUBJECT_IDS.includes(s.subject_id)}
               />

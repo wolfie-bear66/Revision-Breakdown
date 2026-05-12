@@ -10,6 +10,7 @@ interface SubjectCardProps {
   exam_board: string;
   total_blocks: number;
   completed_blocks: number;
+  session_count: number;
   isFreeUser: boolean;
   isFreeTopic: boolean;
 }
@@ -20,16 +21,12 @@ export function SubjectCard({
   exam_board,
   total_blocks,
   completed_blocks,
+  session_count,
   isFreeUser,
   isFreeTopic,
 }: SubjectCardProps) {
   const router = useRouter();
   const locked = isFreeUser && !isFreeTopic;
-
-  const pct = total_blocks > 0 ? Math.round((completed_blocks / total_blocks) * 100) : 0;
-  const radius = 32;
-  const circumference = 2 * Math.PI * radius;
-  const dashOffset = circumference - (pct / 100) * circumference;
 
   const cardInner = (
     <Card className={cn('h-full transition-shadow', locked ? 'opacity-40 cursor-not-allowed' : 'hover:shadow-md cursor-pointer')}>
@@ -52,37 +49,23 @@ export function SubjectCard({
       </CardHeader>
 
       <CardContent className="flex flex-col items-center gap-3 pt-2 pb-2">
-        {/* Circular progress ring */}
+        {/* Session count ring */}
         <div
           className="relative flex items-center justify-center"
-          aria-label={`${completed_blocks} of ${total_blocks} blocks done`}
+          aria-label={`${session_count} sessions completed, ${completed_blocks} of ${total_blocks} blocks done`}
         >
-          <svg width="80" height="80" viewBox="0 0 80 80" className="-rotate-90">
-            {/* Track */}
+          <svg width="80" height="80" viewBox="0 0 80 80">
             <circle
               cx="40"
               cy="40"
-              r={radius}
+              r="32"
               fill="none"
               stroke="currentColor"
               strokeWidth="8"
-              className="text-muted/30"
-            />
-            {/* Progress */}
-            <circle
-              cx="40"
-              cy="40"
-              r={radius}
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="8"
-              strokeLinecap="round"
-              strokeDasharray={circumference}
-              strokeDashoffset={dashOffset}
-              className="text-primary transition-all duration-500"
+              className={session_count > 0 ? 'text-primary' : 'text-muted/30'}
             />
           </svg>
-          <span className="absolute text-sm font-semibold tabular-nums">{completed_blocks}/{total_blocks}</span>
+          <span className="absolute text-sm font-semibold tabular-nums">{session_count}</span>
         </div>
 
         <p className="text-xs text-muted-foreground text-center">
