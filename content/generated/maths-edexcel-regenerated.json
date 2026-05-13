@@ -1,0 +1,732 @@
+{
+  "subject": {
+    "name": "Maths",
+    "exam_board": "Edexcel",
+    "category": "Maths",
+    "colour": "#1d4ed8",
+    "emoji": "📐",
+    "slug": "maths-edexcel"
+  },
+  "topics": [
+    {
+      "name": "Edexcel-Specific Topics & Formula Sheet",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Key Formulas & Edexcel Differences",
+          "cards": [
+            {
+              "keyword": "quadratic formula",
+              "definition": "x = (−b ± √(b²−4ac)) / 2a — given on the Edexcel formula sheet. Used to solve any quadratic equation ax² + bx + c = 0",
+              "display_order": 1
+            },
+            {
+              "keyword": "area of a trapezium",
+              "definition": "A = ½(a + b)h — given on the Edexcel formula sheet. a and b are the parallel sides, h is the perpendicular height",
+              "display_order": 2
+            },
+            {
+              "keyword": "volume of a prism",
+              "definition": "V = area of cross-section × length — given on the Edexcel formula sheet",
+              "display_order": 3
+            },
+            {
+              "keyword": "volume of a sphere",
+              "definition": "V = (4/3)πr³ — given on the Edexcel formula sheet",
+              "display_order": 4
+            },
+            {
+              "keyword": "volume of a cone",
+              "definition": "V = (1/3)πr²h — given on the Edexcel formula sheet",
+              "display_order": 5
+            },
+            {
+              "keyword": "curved surface area of a cone",
+              "definition": "A = πrl — given on the Edexcel formula sheet. l is the slant height",
+              "display_order": 6
+            },
+            {
+              "keyword": "surface area of a sphere",
+              "definition": "A = 4πr² — given on the Edexcel formula sheet",
+              "display_order": 7
+            },
+            {
+              "keyword": "the sine rule",
+              "definition": "a/sinA = b/sinB = c/sinC — given on the Edexcel formula sheet. Used in non-right-angled triangles",
+              "display_order": 8
+            },
+            {
+              "keyword": "the cosine rule",
+              "definition": "a² = b² + c² − 2bc cosA — given on the Edexcel formula sheet. Used in non-right-angled triangles",
+              "display_order": 9
+            },
+            {
+              "keyword": "area of a triangle",
+              "definition": "Area = ½ab sinC — given on the Edexcel formula sheet. Used when two sides and the included angle are known",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which formula would you use to find the volume inside a ball-shaped object?",
+              "options": [
+                "The formula that uses the radius and gives you a cubic measurement",
+                "The formula for the curved surface area of a cone",
+                "The formula that uses two parallel sides and a height",
+                "The formula for the area of a trapezium"
+              ],
+              "correct_answer": "The formula that uses the radius and gives you a cubic measurement",
+              "explanation": "Volume of a sphere uses only the radius to find how much space is inside a sphere. The other options are for different shapes or measurements.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You need to solve the equation: x squared plus five x plus six equals zero. Which Edexcel formula sheet formula would help you find x?",
+              "options": [
+                "The quadratic formula",
+                "The sine rule",
+                "The cosine rule",
+                "The area of a triangle formula"
+              ],
+              "correct_answer": "The quadratic formula",
+              "explanation": "The quadratic formula is specifically designed to solve any quadratic equation. The other formulas are for triangles or trigonometry.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You know the lengths of all three sides of a triangle. Which formula from the Edexcel sheet would help you find one of the angles?",
+              "options": [
+                "The cosine rule",
+                "The sine rule",
+                "The area of a triangle using two sides and the included angle",
+                "The area of a trapezium"
+              ],
+              "correct_answer": "The cosine rule",
+              "explanation": "The cosine rule is used when you know all three sides of a non-right-angled triangle and want to find an angle. The sine rule needs an angle and opposite side, not all three sides.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the area of a trapezium formula need as input information?",
+              "options": [
+                "The two parallel sides and the perpendicular height",
+                "The radius of the shape",
+                "All three sides of the trapezium",
+                "The radius and the slant height"
+              ],
+              "correct_answer": "The two parallel sides and the perpendicular height",
+              "explanation": "The trapezium formula on the Edexcel sheet requires the lengths of the two parallel sides and the perpendicular distance between them.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You want to find the volume of a cylinder. Which formula structure from the Edexcel sheet would you use?",
+              "options": [
+                "The volume of a prism formula, using the circular cross-section area times the length",
+                "The volume of a cone formula",
+                "The volume of a sphere formula",
+                "The surface area of a sphere formula"
+              ],
+              "correct_answer": "The volume of a prism formula, using the circular cross-section area times the length",
+              "explanation": "A cylinder is a prism, so you use the prism formula: cross-sectional area multiplied by length. The other options are for different shapes.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which measurement do you need to find the curved surface area of a cone?",
+              "options": [
+                "The radius and the slant height",
+                "The radius and the perpendicular height of the cone",
+                "Only the radius",
+                "The two parallel sides"
+              ],
+              "correct_answer": "The radius and the slant height",
+              "explanation": "The curved surface area of a cone formula uses the radius and the slant height (the distance along the slope from the apex to the edge of the base).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You know one angle and the side opposite to it in a non-right-angled triangle. Which formula would let you find another unknown side?",
+              "options": [
+                "The sine rule",
+                "The cosine rule",
+                "The area of a triangle using two sides and the included angle",
+                "The area of a trapezium"
+              ],
+              "correct_answer": "The sine rule",
+              "explanation": "The sine rule is perfect when you have an angle and the side opposite to it, and you want to find another side or angle. The cosine rule needs either all three sides or two sides and the angle between them.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main difference between the cone volume formula and the sphere volume formula?",
+              "options": [
+                "The cone formula uses radius and height, while the sphere formula uses only radius",
+                "The sphere formula uses radius and height, while the cone formula uses only radius",
+                "The cone formula uses two radii, while the sphere formula uses one",
+                "They both use exactly the same measurements"
+              ],
+              "correct_answer": "The cone formula uses radius and height, while the sphere formula uses only radius",
+              "explanation": "Volume of a cone needs the radius and the perpendicular height of the cone. Volume of a sphere needs only the radius. This is why they are different formulas.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You know two sides of a triangle and the angle between those two sides. Which formula gives you the area?",
+              "options": [
+                "The area of a triangle using two sides and the included angle",
+                "The sine rule",
+                "The cosine rule",
+                "The area of a trapezium"
+              ],
+              "correct_answer": "The area of a triangle using two sides and the included angle",
+              "explanation": "This specific triangle area formula on the Edexcel sheet is designed for when you have two sides and the angle between them (the included angle).",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A prism has a pentagon-shaped cross-section with area forty square centimetres and length eight centimetres. Which Edexcel formula would find its volume?",
+              "options": [
+                "Multiply the cross-sectional area by the length",
+                "Use the volume of a sphere formula",
+                "Use the volume of a cone formula",
+                "Use the trapezium area formula"
+              ],
+              "correct_answer": "Multiply the cross-sectional area by the length",
+              "explanation": "The volume of a prism formula works for any prism shape: take the area of the cross-section and multiply by the length. The shape of the cross-section does not matter.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The quadratic formula can be used to solve any equation, including those without an x squared term.",
+              "correct_answer": "False",
+              "explanation": "The quadratic formula specifically solves quadratic equations, which must have an x squared term. Linear equations do not need this formula.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The sine rule can be used when you know one angle of a triangle and the side opposite to it.",
+              "correct_answer": "True",
+              "explanation": "The sine rule requires an angle and its opposite side, making it perfect for this situation. You can then find other unknown angles and sides.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The curved surface area of a cone uses the perpendicular height of the cone, not the slant height.",
+              "correct_answer": "False",
+              "explanation": "The curved surface area of a cone specifically uses the slant height (the distance along the sloped edge), not the perpendicular height from the base to the apex.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The area of a trapezium formula needs the perpendicular height between the parallel sides.",
+              "correct_answer": "True",
+              "explanation": "The trapezium formula on the Edexcel sheet requires the two parallel side lengths and the perpendicular distance (at right angles) between them.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "You can use the cosine rule when you know two sides of a triangle and the angle between them.",
+              "correct_answer": "True",
+              "explanation": "The cosine rule works perfectly when you have two sides and the included angle (the angle between those two sides). It can find the third side.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The volume of a sphere formula needs both the radius and the height of the sphere.",
+              "correct_answer": "False",
+              "explanation": "The volume of a sphere formula uses only the radius. A sphere has no height measurement like other shapes do.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The surface area of a sphere formula and the volume of a sphere formula use the same measurements.",
+              "correct_answer": "True",
+              "explanation": "Both the surface area and volume of a sphere formulas use only the radius. They just calculate different things (area versus volume).",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The volume of a prism formula works the same way regardless of what shape the cross-section is.",
+              "correct_answer": "True",
+              "explanation": "The prism volume formula is always: cross-sectional area multiplied by length. This works for circular, triangular, pentagon, or any prism cross-section.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The area of a triangle using two sides and the included angle is the same as half times base times height.",
+              "correct_answer": "False",
+              "explanation": "The half base times height formula is the standard triangle area formula. The two-sides-and-included-angle formula is a different way to find area when you have different information.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The cosine rule can find a missing side when you know all three sides of a triangle.",
+              "correct_answer": "True",
+              "explanation": "Although the cosine rule is often used to find a missing side, it can also be rearranged to find angles when all three sides are known.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The formula for the volume of a cone uses the radius of the base and the ________ height of the cone.",
+              "correct_answer": "perpendicular",
+              "explanation": "The cone volume formula needs the perpendicular (vertical) height from the apex down to the centre of the circular base, not the slant height.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "To find the area of a trapezium, you need the lengths of the two ________ sides and the height between them.",
+              "correct_answer": "parallel",
+              "explanation": "A trapezium has two parallel sides (sides that never meet). The formula uses the lengths of these two sides and the perpendicular distance between them.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The curved surface area of a cone is calculated using the radius and the ________ height, which goes along the sloped edge.",
+              "correct_answer": "slant",
+              "explanation": "Slant height is the distance measured along the sloped side of the cone from the apex to the edge of the circular base.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ formula is used to solve any quadratic equation and appears on the Edexcel formula sheet.",
+              "correct_answer": "quadratic",
+              "explanation": "The quadratic formula is given on the Edexcel sheet and solves equations with an x squared term.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The sine rule is most useful when you know an angle and the side ________ to it.",
+              "correct_answer": "opposite",
+              "explanation": "The sine rule requires an angle and the side opposite (across from) that angle to work properly for finding other sides or angles.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "To find the volume of a prism, multiply the area of the ________ by the length of the prism.",
+              "correct_answer": "cross-section",
+              "explanation": "A prism's volume depends on what shape it is. The cross-section is the face at the end, and you multiply its area by how long the prism is.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The surface area of a sphere formula needs only the ________ of the sphere.",
+              "correct_answer": "radius",
+              "explanation": "Unlike some other shapes, you only need the radius to calculate the surface area of a sphere. You do not need the height or any other measurement.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The cosine rule is useful when you know two sides and the ________ angle between them.",
+              "correct_answer": "included",
+              "explanation": "The included angle is the angle between the two sides you know. This is different from the sine rule, which needs an angle and its opposite side.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The area of a triangle using two sides and the included angle is a useful formula when you do not know the ________ of the triangle.",
+              "correct_answer": "height",
+              "explanation": "The standard triangle area formula needs the base and height, but this formula works when you have two sides and the angle between them instead.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Both the volume and surface area of a sphere use the ________ as the only input measurement.",
+              "correct_answer": "radius",
+              "explanation": "The radius is all you need for both the volume and surface area formulas for a sphere. Different formulas, but the same input measurement.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each formula to what it is used for.",
+              "options": [
+                {
+                  "term": "Volume of a cone",
+                  "match": "Uses radius and perpendicular height to find the space inside a cone shape"
+                },
+                {
+                  "term": "Sine rule",
+                  "match": "Uses an angle and its opposite side to find other unknown sides or angles in a non-right-angled triangle"
+                },
+                {
+                  "term": "Curved surface area of a cone",
+                  "match": "Uses radius and slant height to find the area of the sloped side only"
+                },
+                {
+                  "term": "Area of a trapezium",
+                  "match": "Uses the two parallel sides and the perpendicular height to find the area"
+                },
+                {
+                  "term": "Volume of a prism",
+                  "match": "Uses the cross-sectional area multiplied by the length to find the volume of any prism"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Higher Tier — Edexcel Topics",
+          "cards": [
+            {
+              "keyword": "iteration",
+              "definition": "a method of solving equations by repeatedly substituting values into a formula to get closer to the solution",
+              "display_order": 1
+            },
+            {
+              "keyword": "function notation f(x)",
+              "definition": "a way of writing a rule: f(x) = 2x + 1 means the function f applied to x gives 2x + 1",
+              "display_order": 2
+            },
+            {
+              "keyword": "composite function fg(x)",
+              "definition": "applying one function then another: fg(x) means apply g first, then f to the result",
+              "display_order": 3
+            },
+            {
+              "keyword": "inverse function f⁻¹(x)",
+              "definition": "the function that reverses f — if f(3) = 7 then f⁻¹(7) = 3",
+              "display_order": 4
+            },
+            {
+              "keyword": "proof",
+              "definition": "a logical argument showing a statement must always be true — used in Edexcel Higher. Must use algebra, not just examples",
+              "display_order": 5
+            },
+            {
+              "keyword": "algebraic fraction",
+              "definition": "a fraction with algebraic expressions in the numerator and/or denominator — can be simplified, added, subtracted, multiplied",
+              "display_order": 6
+            },
+            {
+              "keyword": "completing the square",
+              "definition": "rewriting a quadratic in the form (x + p)² + q — used to find the vertex of a parabola or solve quadratics",
+              "display_order": 7
+            },
+            {
+              "keyword": "vectors",
+              "definition": "quantities with both magnitude and direction — represented as column vectors or with letters. Used to describe translations and geometric proofs",
+              "display_order": 8
+            },
+            {
+              "keyword": "conditional probability",
+              "definition": "the probability of an event given that another event has already occurred — used with tree diagrams and two-way tables",
+              "display_order": 9
+            },
+            {
+              "keyword": "Venn diagrams",
+              "definition": "diagrams using overlapping circles to show relationships between sets — used in probability questions on the Edexcel paper",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does the term 'iteration' mean in maths?",
+              "options": [
+                "A method of solving equations by repeatedly substituting values into a formula to get closer to the solution",
+                "A single calculation performed once to find an exact answer",
+                "A way of drawing graphs using coordinates",
+                "A rule for rearranging algebraic fractions"
+              ],
+              "correct_answer": "A method of solving equations by repeatedly substituting values into a formula to get closer to the solution",
+              "explanation": "Iteration means repeating a process step by step, getting closer to the answer each time. It is not a one-step method.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "If f(x) = 3x − 2, what does the notation f(x) tell you?",
+              "options": [
+                "The output when you multiply f and x together",
+                "A rule for what the function f does to the input x",
+                "That x is always equal to 3",
+                "The inverse of the function"
+              ],
+              "correct_answer": "A rule for what the function f does to the input x",
+              "explanation": "Function notation f(x) describes the operation the function performs on an input x. It is a way to write the rule or rule.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a composite function?",
+              "options": [
+                "A function that has been simplified",
+                "Two or more functions applied in sequence, where you apply one function then apply another to the result",
+                "A function written as a fraction",
+                "A function that has an inverse"
+              ],
+              "correct_answer": "Two or more functions applied in sequence, where you apply one function then apply another to the result",
+              "explanation": "A composite function means you do one function first, then use that output as the input for the next function.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the inverse function f⁻¹(x)?",
+              "options": [
+                "The function that reverses what f does — if f(3) = 7, then f⁻¹(7) = 3",
+                "The function divided by x",
+                "The function written as a composite",
+                "The negative version of the function"
+              ],
+              "correct_answer": "The function that reverses what f does — if f(3) = 7, then f⁻¹(7) = 3",
+              "explanation": "An inverse function undoes the original function. It swaps inputs and outputs.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In a GCSE maths proof, what must you do to show a statement is true?",
+              "options": [
+                "Give five numerical examples",
+                "Use a logical algebraic argument that works for all cases, not just examples",
+                "Draw a diagram",
+                "State it clearly in words"
+              ],
+              "correct_answer": "Use a logical algebraic argument that works for all cases, not just examples",
+              "explanation": "A proof must be a logical argument using algebra that proves the statement is always true. Examples alone are not sufficient.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an algebraic fraction?",
+              "options": [
+                "Any fraction that appears in an algebra question",
+                "A fraction with algebraic expressions such as x or y in the numerator and/or denominator",
+                "A fraction that can be solved using iteration",
+                "A fraction written in function notation"
+              ],
+              "correct_answer": "A fraction with algebraic expressions such as x or y in the numerator and/or denominator",
+              "explanation": "An algebraic fraction has variables like x in it, rather than just numbers. Examples include 3x/2 or (x+1)/(x−2).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'completing the square' mean?",
+              "options": [
+                "Filling in a missing number in a sequence",
+                "Drawing a square on a coordinate grid",
+                "Rewriting a quadratic in the form (x + p)² + q",
+                "Dividing both sides of an equation by a square number"
+              ],
+              "correct_answer": "Rewriting a quadratic in the form (x + p)² + q",
+              "explanation": "Completing the square transforms a quadratic expression into a perfect square bracket plus a constant. This helps find the vertex of a parabola.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are vectors?",
+              "options": [
+                "Angles measured in degrees",
+                "Quantities that have both magnitude and direction, shown as column vectors or letters",
+                "A type of proof in geometry",
+                "Functions written in inverse notation"
+              ],
+              "correct_answer": "Quantities that have both magnitude and direction, shown as column vectors or letters",
+              "explanation": "Vectors describe both how far and in which direction. They are used to show translations and in geometric proofs.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is conditional probability?",
+              "options": [
+                "The probability of all events in a sample space",
+                "The probability of an event given that another event has already occurred",
+                "The probability shown using only a Venn diagram",
+                "The probability of an impossible event"
+              ],
+              "correct_answer": "The probability of an event given that another event has already occurred",
+              "explanation": "Conditional probability asks: 'What is the chance of B happening, if we know A has already happened?' It is often shown in tree diagrams and two-way tables.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do Venn diagrams show?",
+              "options": [
+                "The relationship between y and x on a number line",
+                "Overlapping circles that show relationships between sets",
+                "A sequence of numbers",
+                "The steps in an iteration"
+              ],
+              "correct_answer": "Overlapping circles that show relationships between sets",
+              "explanation": "Venn diagrams use overlapping circles to display which elements belong to which sets and where sets overlap. They are useful for probability questions.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Iteration always finds the exact answer in one step.",
+              "correct_answer": "False",
+              "explanation": "Iteration is a repeated process that gets closer and closer to the answer. It takes multiple steps, not one.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Function notation f(x) = 2x + 1 means that f is a rule that multiplies the input x by 2 and adds 1.",
+              "correct_answer": "True",
+              "explanation": "Function notation describes what operation the function performs on its input.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "In a composite function fg(x), you apply f first and then apply g to the result.",
+              "correct_answer": "False",
+              "explanation": "In fg(x), you apply g first, then apply f to the result. The function on the right is done first.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "If f(5) = 10, then f⁻¹(10) = 5.",
+              "correct_answer": "True",
+              "explanation": "The inverse function reverses the mapping. If f maps 5 to 10, then f⁻¹ maps 10 back to 5.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "A proof in GCSE maths can be completed by providing several numerical examples.",
+              "correct_answer": "False",
+              "explanation": "A proof must use logical algebra that works for all cases. Examples alone are not sufficient for a mathematical proof.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "An algebraic fraction can have variables like x in the numerator or denominator.",
+              "correct_answer": "True",
+              "explanation": "Algebraic fractions contain variables. Examples include (x+2)/3 or 5/(x−1).",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Completing the square changes a quadratic into the form (x + p)² + q.",
+              "correct_answer": "True",
+              "explanation": "Completing the square rewrites a quadratic as a perfect square plus a constant, which shows the vertex of the parabola.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Vectors only show magnitude, not direction.",
+              "correct_answer": "False",
+              "explanation": "Vectors have both magnitude and direction. A vector describes how far to go and in which direction.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Conditional probability is the probability of an event given that another event has already occurred.",
+              "correct_answer": "True",
+              "explanation": "Conditional probability finds the chance of one event happening when we know another event has already happened.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "A Venn diagram can only show two overlapping sets.",
+              "correct_answer": "False",
+              "explanation": "Venn diagrams can show two, three or more overlapping sets to display relationships between different groups.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "When you repeat a process step by step to get closer to a solution, this is called ________.",
+              "correct_answer": "iteration",
+              "explanation": null,
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The notation f(x) is called ________ notation.",
+              "correct_answer": "function",
+              "explanation": null,
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ function is the result of applying one function and then another to the result.",
+              "correct_answer": "composite",
+              "explanation": null,
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ function f⁻¹(x) reverses what the original function f(x) does.",
+              "correct_answer": "inverse",
+              "explanation": null,
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a logical argument using algebra that shows a statement must always be true.",
+              "correct_answer": "proof",
+              "explanation": null,
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ fraction contains variables like x in the numerator or denominator.",
+              "correct_answer": "algebraic",
+              "explanation": null,
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ the square means rewriting a quadratic in the form (x + p)² + q.",
+              "correct_answer": "Completing",
+              "explanation": null,
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are quantities with both magnitude and direction, shown as column vectors or letters.",
+              "correct_answer": "Vectors",
+              "explanation": null,
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ probability is the probability of an event given that another event has already occurred.",
+              "correct_answer": "Conditional",
+              "explanation": null,
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ diagram uses overlapping circles to show relationships between sets.",
+              "correct_answer": "Venn",
+              "explanation": null,
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Iteration",
+                  "match": "A method of solving equations by repeating a formula to get closer to the solution"
+                },
+                {
+                  "term": "Composite function",
+                  "match": "Applying one function and then another to the result"
+                },
+                {
+                  "term": "Completing the square",
+                  "match": "Rewriting a quadratic in the form (x + p)² + q"
+                },
+                {
+                  "term": "Conditional probability",
+                  "match": "The probability of an event given that another event has already occurred"
+                },
+                {
+                  "term": "Algebraic fraction",
+                  "match": "A fraction with algebraic expressions in the numerator and/or denominator"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

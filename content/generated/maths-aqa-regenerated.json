@@ -1,0 +1,2178 @@
+{
+  "subject": {
+    "name": "Maths",
+    "exam_board": "AQA",
+    "category": "Maths",
+    "colour": "#1d4ed8",
+    "emoji": "📐",
+    "slug": "maths-aqa"
+  },
+  "topics": [
+    {
+      "name": "Number",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Number Basics & Fractions",
+          "cards": [
+            {
+              "keyword": "integer",
+              "definition": "a whole number — can be positive, negative, or zero. E.g. −3, 0, 7",
+              "display_order": 1
+            },
+            {
+              "keyword": "factor",
+              "definition": "a whole number that divides exactly into another — e.g. factors of 12 are 1, 2, 3, 4, 6, 12",
+              "display_order": 2
+            },
+            {
+              "keyword": "multiple",
+              "definition": "the result of multiplying a number by a positive integer — e.g. multiples of 4: 4, 8, 12, 16...",
+              "display_order": 3
+            },
+            {
+              "keyword": "prime number",
+              "definition": "a number with exactly two factors: 1 and itself — e.g. 2, 3, 5, 7, 11, 13",
+              "display_order": 4
+            },
+            {
+              "keyword": "HCF (Highest Common Factor)",
+              "definition": "the largest factor shared by two or more numbers",
+              "display_order": 5
+            },
+            {
+              "keyword": "LCM (Lowest Common Multiple)",
+              "definition": "the smallest multiple shared by two or more numbers",
+              "display_order": 6
+            },
+            {
+              "keyword": "fraction",
+              "definition": "a way of expressing part of a whole — written as numerator ÷ denominator",
+              "display_order": 7
+            },
+            {
+              "keyword": "percentage",
+              "definition": "a fraction expressed out of 100 — e.g. 45% = 45/100",
+              "display_order": 8
+            },
+            {
+              "keyword": "ratio",
+              "definition": "a comparison of two or more quantities — e.g. 3:2 means 3 parts to 2 parts",
+              "display_order": 9
+            },
+            {
+              "keyword": "standard form",
+              "definition": "a way of writing very large or small numbers — A × 10ⁿ where 1 ≤ A < 10",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an integer?",
+              "options": [
+                "3.5",
+                "-7",
+                "2/3",
+                "√5"
+              ],
+              "correct_answer": "-7",
+              "explanation": "An integer is a whole number — it can be positive, negative, or zero. -7 is a whole number, so it's an integer.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'factor' mean?",
+              "options": [
+                "A number you multiply another number by to get a result",
+                "A whole number that divides exactly into another number",
+                "A number that appears in a sequence",
+                "The answer you get when you divide two numbers"
+              ],
+              "correct_answer": "A whole number that divides exactly into another number",
+              "explanation": "A factor is a whole number that divides exactly into another with no remainder. For example, 3 is a factor of 12 because 12 ÷ 3 = 4.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which number is a multiple of 6?",
+              "options": [
+                "24",
+                "23",
+                "25",
+                "22"
+              ],
+              "correct_answer": "24",
+              "explanation": "A multiple of 6 is a number you get when you multiply 6 by a positive integer. 24 = 6 × 4, so 24 is a multiple of 6.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a prime number?",
+              "options": [
+                "Any odd number",
+                "A number with exactly two factors: 1 and itself",
+                "A number bigger than 10",
+                "A number that can be divided by 2"
+              ],
+              "correct_answer": "A number with exactly two factors: 1 and itself",
+              "explanation": "A prime number has exactly two factors: 1 and itself. For example, 5 is prime because only 1 and 5 divide into it exactly.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which is a prime number?",
+              "options": [
+                "15",
+                "1",
+                "13",
+                "21"
+              ],
+              "correct_answer": "13",
+              "explanation": "13 is prime because only 1 and 13 divide into it exactly. The others are composite (have more than two factors).",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does HCF stand for?",
+              "options": [
+                "Highest Common Factor",
+                "High Count Fraction",
+                "How to Calculate Factors",
+                "Highest Counted Figures"
+              ],
+              "correct_answer": "Highest Common Factor",
+              "explanation": "HCF means Highest Common Factor — it's the largest number that divides exactly into two or more numbers.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does LCM stand for?",
+              "options": [
+                "Large Common Multiple",
+                "Lowest Common Multiple",
+                "List of Common Measures",
+                "Long Counting Method"
+              ],
+              "correct_answer": "Lowest Common Multiple",
+              "explanation": "LCM means Lowest Common Multiple — it's the smallest number that is a multiple of two or more numbers.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A fraction shows a part of a whole. Which is a fraction?",
+              "options": [
+                "3.5",
+                "45%",
+                "3/8",
+                "1.25"
+              ],
+              "correct_answer": "3/8",
+              "explanation": "A fraction is written as numerator ÷ denominator. 3/8 means 3 parts out of 8 equal parts.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A percentage is a fraction out of 100. What does 30% mean?",
+              "options": [
+                "30 parts out of 50",
+                "30 parts out of 100",
+                "30 parts out of 1000",
+                "30 out of every 10"
+              ],
+              "correct_answer": "30 parts out of 100",
+              "explanation": "A percentage always means parts out of 100. So 30% = 30/100.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In the ratio 5:2, what does this tell you?",
+              "options": [
+                "There are 5 and 2 of something in total",
+                "One thing is 5 and another is 2",
+                "For every 5 parts of one thing, there are 2 parts of another",
+                "You divide 5 by 2"
+              ],
+              "correct_answer": "For every 5 parts of one thing, there are 2 parts of another",
+              "explanation": "A ratio compares quantities. 5:2 means for every 5 parts of one thing, there are 2 parts of another thing.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: −5 is an integer.",
+              "correct_answer": "True",
+              "explanation": "An integer is any whole number, positive, negative, or zero. −5 is a whole number, so it is an integer.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: All factors of a number are smaller than the number itself.",
+              "correct_answer": "False",
+              "explanation": "Factors can be smaller or equal to the number. For example, 12 is a factor of 12 because 12 ÷ 12 = 1.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: 18 is a multiple of 3.",
+              "correct_answer": "True",
+              "explanation": "18 is a multiple of 3 because 18 = 3 × 6. Multiples of 3 are 3, 6, 9, 12, 15, 18...",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: 2 is the only even prime number.",
+              "correct_answer": "True",
+              "explanation": "2 is prime because it has exactly two factors: 1 and 2. All other even numbers have more than two factors, so they're not prime.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: The HCF of two numbers is always smaller than both numbers.",
+              "correct_answer": "False",
+              "explanation": "The HCF can equal one of the numbers if that number is a factor of the other. For example, the HCF of 5 and 10 is 5.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: The LCM of two numbers is always larger than both numbers.",
+              "correct_answer": "False",
+              "explanation": "The LCM can equal one of the numbers if one number is a multiple of the other. For example, the LCM of 4 and 8 is 8.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: 1/2 and 50% represent the same amount.",
+              "correct_answer": "True",
+              "explanation": "1/2 means half, and 50% also means half (50 out of 100). They are the same.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: The ratio 3:6 is the same as the ratio 1:2.",
+              "correct_answer": "True",
+              "explanation": "Both ratios represent the same comparison. 3:6 simplifies to 1:2 when you divide both sides by 3.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: 0.5 is an integer.",
+              "correct_answer": "False",
+              "explanation": "An integer is a whole number. 0.5 is not a whole number, so it is not an integer.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: 9 is a factor of 3.",
+              "correct_answer": "False",
+              "explanation": "A factor divides exactly into a number. 9 does not divide exactly into 3, so 9 is not a factor of 3. (3 is a factor of 9, though.)",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A number that divides exactly into another number is called a ________.",
+              "correct_answer": "factor",
+              "explanation": null,
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The number 7 is an example of a ________ number because it only has two factors.",
+              "correct_answer": "prime",
+              "explanation": null,
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The numbers 4, 8, 12, and 16 are all ________ of 4.",
+              "correct_answer": "multiples",
+              "explanation": null,
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of 12 and 18 is 6.",
+              "correct_answer": "HCF",
+              "explanation": null,
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of 4 and 6 is 12.",
+              "correct_answer": "LCM",
+              "explanation": null,
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "In the fraction 3/5, the number 3 is called the ________.",
+              "correct_answer": "numerator",
+              "explanation": null,
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "25% is the same as the ________ 1/4.",
+              "correct_answer": "fraction",
+              "explanation": null,
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "In the ratio 2:5, there are 2 parts to ________ parts.",
+              "correct_answer": "5",
+              "explanation": null,
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Any whole number, whether positive or negative, is called an ________.",
+              "correct_answer": "integer",
+              "explanation": null,
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The number 45,000 can be written in ________ form as 4.5 × 10⁴.",
+              "correct_answer": "standard",
+              "explanation": null,
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Integer",
+                  "match": "A whole number — can be positive, negative, or zero"
+                },
+                {
+                  "term": "Prime number",
+                  "match": "A number with exactly two factors: 1 and itself"
+                },
+                {
+                  "term": "HCF",
+                  "match": "The largest factor shared by two or more numbers"
+                },
+                {
+                  "term": "Percentage",
+                  "match": "A fraction expressed out of 100"
+                },
+                {
+                  "term": "Ratio",
+                  "match": "A comparison of two or more quantities"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Percentages & Proportional Reasoning",
+          "cards": [
+            {
+              "keyword": "percentage increase",
+              "definition": "finding the new value after adding a percentage: New = Original × (1 + r/100)",
+              "display_order": 1
+            },
+            {
+              "keyword": "percentage decrease",
+              "definition": "finding the new value after removing a percentage: New = Original × (1 − r/100)",
+              "display_order": 2
+            },
+            {
+              "keyword": "percentage change",
+              "definition": "change as a percentage of original: % change = (change ÷ original) × 100",
+              "display_order": 3
+            },
+            {
+              "keyword": "reverse percentage",
+              "definition": "finding the original value before a percentage change was applied",
+              "display_order": 4
+            },
+            {
+              "keyword": "simple interest",
+              "definition": "interest calculated on the original principal only — I = PRT/100",
+              "display_order": 5
+            },
+            {
+              "keyword": "compound interest",
+              "definition": "interest calculated on the principal plus previously earned interest — A = P(1 + r/100)ⁿ",
+              "display_order": 6
+            },
+            {
+              "keyword": "direct proportion",
+              "definition": "two quantities increase or decrease together at the same rate — y = kx",
+              "display_order": 7
+            },
+            {
+              "keyword": "inverse proportion",
+              "definition": "as one quantity increases, the other decreases proportionally — y = k/x",
+              "display_order": 8
+            },
+            {
+              "keyword": "multiplier",
+              "definition": "a single number used to calculate a percentage change — e.g. a 20% increase uses multiplier 1.2",
+              "display_order": 9
+            },
+            {
+              "keyword": "best buy",
+              "definition": "comparing unit prices or quantities to find the best value for money",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "A pair of trainers costs £80. In a sale, there's a 25% increase in price by mistake. Which calculation shows the new price?",
+              "options": [
+                "£80 × 1.25",
+                "£80 × 0.75",
+                "£80 + 25",
+                "£80 ÷ 1.25"
+              ],
+              "correct_answer": "£80 × 1.25",
+              "explanation": "A percentage increase uses the multiplier (1 + r/100). For 25%, that's 1.25.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A phone normally costs £200. It's reduced by 15% in a flash sale. What does the multiplier 0.85 represent?",
+              "options": [
+                "A 15% increase",
+                "A 15% decrease",
+                "85% of the original price",
+                "The amount taken off the price"
+              ],
+              "correct_answer": "A 15% decrease",
+              "explanation": "The multiplier 0.85 = 1 − 0.15, which represents a 15% decrease (or paying 85% of the original).",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You earned £50 last week and £60 this week. What does the term 'percentage change' mean in this situation?",
+              "options": [
+                "The new amount you earned",
+                "How much more you earned in pounds",
+                "The difference expressed as a percentage of what you earned last week",
+                "The total amount you earned over two weeks"
+              ],
+              "correct_answer": "The difference expressed as a percentage of what you earned last week",
+              "explanation": "Percentage change = (change ÷ original) × 100. It shows the increase or decrease as a percentage of the starting amount.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A jumper is on sale for £45 after a 10% discount. What does 'reverse percentage' mean in this context?",
+              "options": [
+                "Working out what the original price was before the discount",
+                "Calculating 10% of £45",
+                "Applying the discount a second time",
+                "Adding 10% back onto £45"
+              ],
+              "correct_answer": "Working out what the original price was before the discount",
+              "explanation": "Reverse percentage means finding the original value before a percentage change was applied.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You put £500 in a savings account earning simple interest at 3% per year for 2 years. Which formula would you use?",
+              "options": [
+                "A = P(1 + r/100)ⁿ",
+                "I = PRT/100",
+                "y = k/x",
+                "% change = (change ÷ original) × 100"
+              ],
+              "correct_answer": "I = PRT/100",
+              "explanation": "Simple interest only calculates interest on the original amount using the formula I = PRT/100.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You invest £1000 at 5% compound interest for 3 years. What makes compound interest different from simple interest?",
+              "options": [
+                "You earn less money overall",
+                "Interest is calculated on the principal plus previously earned interest each year",
+                "You have to calculate it three times separately",
+                "The percentage rate changes each year"
+              ],
+              "correct_answer": "Interest is calculated on the principal plus previously earned interest each year",
+              "explanation": "Compound interest earns 'interest on interest' — each year you earn interest on a larger amount.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A recipe says 'the amount of flour is directly proportional to the number of cakes.' What does this mean?",
+              "options": [
+                "You need more flour than any other ingredient",
+                "The more cakes you make, the more flour you need, at the same rate",
+                "The amount of flour stays the same no matter how many cakes",
+                "You always need exactly 500g of flour"
+              ],
+              "correct_answer": "The more cakes you make, the more flour you need, at the same rate",
+              "explanation": "Direct proportion means two quantities increase together at the same rate — if you double the cakes, you double the flour.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "If 5 workers can build a wall in 10 days, and 10 workers can build it in 5 days, which type of proportion is this?",
+              "options": [
+                "Direct proportion",
+                "Inverse proportion",
+                "Percentage increase",
+                "Simple interest"
+              ],
+              "correct_answer": "Inverse proportion",
+              "explanation": "Inverse proportion means as one quantity increases (workers), the other decreases (days needed) at the same rate.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A shirt is £25 and increases by 20% in price. Instead of calculating £25 × 0.20 + £25, you can use a multiplier. What is it?",
+              "options": [
+                "1.20",
+                "0.20",
+                "20",
+                "2.0"
+              ],
+              "correct_answer": "1.20",
+              "explanation": "A multiplier combines the original amount and the increase in one step: 1.20 means 100% of the original plus 20% extra.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You're buying cereal. Box A is £2.40 for 600g. Box B is £2.10 for 500g. What does 'best buy' help you decide?",
+              "options": [
+                "Which box weighs the most",
+                "Which box costs the most",
+                "Which box gives you better value for money based on unit price",
+                "Which box is the newest"
+              ],
+              "correct_answer": "Which box gives you better value for money based on unit price",
+              "explanation": "Best buy means comparing unit prices (cost per gram, cost per item, etc.) to find the best value for money.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: A 20% increase and a 20% decrease on the same original amount will give you back the original amount.",
+              "correct_answer": "False",
+              "explanation": "A 20% increase uses multiplier 1.2, and a 20% decrease uses 0.8. Multiplying these together gives 0.96, not 1.0 — you end up with less.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: Simple interest means the amount of interest stays the same each year.",
+              "correct_answer": "True",
+              "explanation": "Simple interest calculates interest only on the original principal, so you earn the same amount every year.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: In inverse proportion, if one quantity doubles, the other quantity also doubles.",
+              "correct_answer": "False",
+              "explanation": "In inverse proportion, if one quantity doubles, the other halves. They change in opposite directions.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: A multiplier of 0.95 represents a 5% decrease.",
+              "correct_answer": "True",
+              "explanation": "0.95 = 1 − 0.05, which means you're paying 95% of the original price — a 5% decrease.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: Compound interest always gives you more money than simple interest over the same time period.",
+              "correct_answer": "True",
+              "explanation": "Compound interest earns interest on interest, so it grows faster than simple interest, which only earns on the original amount.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: In direct proportion, y = kx means the two quantities are linked by a constant multiplier.",
+              "correct_answer": "True",
+              "explanation": "The constant k is the multiplier that links the two quantities — if you know k, you can find y for any value of x.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: To find a reverse percentage, you divide by the original multiplier.",
+              "correct_answer": "True",
+              "explanation": "If a 30% discount used multiplier 0.7, you divide the sale price by 0.7 to find the original price.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: Percentage change can be negative.",
+              "correct_answer": "True",
+              "explanation": "If something decreases, the percentage change is negative. For example, going from 100 to 80 is a −20% change.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: When comparing best buy prices, you should always choose the item that weighs the most.",
+              "correct_answer": "False",
+              "explanation": "You should compare unit prices, not just weight or size. A heavier item can be worse value if it costs a lot more.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "True or false: A 50% increase multiplier is 1.5.",
+              "correct_answer": "True",
+              "explanation": "A 50% increase means adding 50% to the original: 1 + 0.5 = 1.5.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "When you buy something for less because the shop is offering a lower price, you use a ________ that is less than 1.",
+              "correct_answer": "multiplier",
+              "explanation": "A multiplier less than 1 (like 0.8 for a 20% decrease) reduces the original amount.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The formula for compound interest is A = P(1 + r/100)ⁿ. The letter 'n' represents the ________.",
+              "correct_answer": "time period or number of years",
+              "explanation": "The 'n' shows how many times interest is calculated — usually the number of years.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "If the cost of petrol goes from £1.20 to £1.32 per litre, the ________ is 10%.",
+              "correct_answer": "percentage increase",
+              "explanation": "Percentage increase shows how much more something costs as a percentage of the original price.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "In the formula y = kx for direct proportion, k is called the ________.",
+              "correct_answer": "constant of proportionality",
+              "explanation": "The constant k stays the same and links the two quantities together in direct proportion.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "If a T-shirt costs £12 after a 40% discount, finding the original price is called a ________ problem.",
+              "correct_answer": "reverse percentage",
+              "explanation": "Reverse percentage means working backwards from the final price to find the starting price.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "In the formula I = PRT/100, the 'P' stands for the ________.",
+              "correct_answer": "principal",
+              "explanation": "The principal is the original amount of money invested or borrowed.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "If the time taken to paint a room is inversely proportional to the number of painters, using the formula y = k/x, this means more painters equals ________ time.",
+              "correct_answer": "less",
+              "explanation": "In inverse proportion y = k/x, as x increases, y decreases.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "When you compare the cost per 100g of different products to find the cheapest option, you're calculating the ________.",
+              "correct_answer": "unit price",
+              "explanation": "Unit price breaks down the total cost into a standard amount (like per 100g or per item) to compare fairly.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A 15% reduction from £200 can be calculated in one step using the multiplier ________.",
+              "correct_answer": "0.85",
+              "explanation": "A 15% reduction means paying 85% of the original price: 1 − 0.15 = 0.85.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The formula ________ = (change ÷ original) × 100 calculates how much something has increased or decreased as a percentage.",
+              "correct_answer": "percentage change",
+              "explanation": "This formula shows the change as a percentage of the starting amount.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Direct proportion",
+                  "match": "Two quantities increase together at the same rate"
+                },
+                {
+                  "term": "Compound interest",
+                  "match": "Interest calculated on the principal plus previously earned interest"
+                },
+                {
+                  "term": "Best buy",
+                  "match": "Comparing unit prices to find the best value for money"
+                },
+                {
+                  "term": "Inverse proportion",
+                  "match": "As one quantity increases, the other decreases proportionally"
+                },
+                {
+                  "term": "Multiplier",
+                  "match": "A single number used to calculate a percentage change in one step"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algebra",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Algebra Fundamentals",
+          "cards": [
+            {
+              "keyword": "expression",
+              "definition": "a mathematical phrase containing numbers and variables but no equals sign — e.g. 3x + 2",
+              "display_order": 1
+            },
+            {
+              "keyword": "equation",
+              "definition": "a mathematical statement showing two expressions are equal — e.g. 3x + 2 = 11",
+              "display_order": 2
+            },
+            {
+              "keyword": "formula",
+              "definition": "a rule showing the relationship between variables — e.g. A = πr²",
+              "display_order": 3
+            },
+            {
+              "keyword": "expanding brackets",
+              "definition": "multiplying out brackets — e.g. 3(x + 4) = 3x + 12",
+              "display_order": 4
+            },
+            {
+              "keyword": "factorising",
+              "definition": "writing an expression as a product of its factors — the reverse of expanding",
+              "display_order": 5
+            },
+            {
+              "keyword": "solving equations",
+              "definition": "finding the value of the unknown that makes the equation true",
+              "display_order": 6
+            },
+            {
+              "keyword": "simultaneous equations",
+              "definition": "two equations with two unknowns — solve by elimination or substitution",
+              "display_order": 7
+            },
+            {
+              "keyword": "quadratic equation",
+              "definition": "an equation of the form ax² + bx + c = 0 — solved by factorising, formula, or completing the square",
+              "display_order": 8
+            },
+            {
+              "keyword": "gradient",
+              "definition": "the steepness of a straight line — rise ÷ run, or m in y = mx + c",
+              "display_order": 9
+            },
+            {
+              "keyword": "y-intercept",
+              "definition": "the point where a line crosses the y-axis — c in y = mx + c",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an expression?",
+              "options": [
+                "3x + 5 = 11",
+                "3x + 5",
+                "x = 7",
+                "2y - 3 = 9"
+              ],
+              "correct_answer": "3x + 5",
+              "explanation": "An expression is a mathematical phrase without an equals sign. The other options all have equals signs, making them equations.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A recipe says: \"multiply the number of eggs by 2, then add 1\". Which of these shows that rule?",
+              "options": [
+                "2e + 1 = 5",
+                "2e + 1",
+                "e + 2 + 1",
+                "2 + e + 1"
+              ],
+              "correct_answer": "2e + 1",
+              "explanation": "This is an expression (no equals sign) that represents the rule. The other options either have an equals sign or don't follow the correct order of operations.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do we call a mathematical rule that links two or more variables together?",
+              "options": [
+                "An equation",
+                "A formula",
+                "An expression",
+                "A solution"
+              ],
+              "correct_answer": "A formula",
+              "explanation": "A formula is a rule showing relationships between variables, like how distance relates to speed and time. Equations show two expressions are equal, but formulas are rules used repeatedly.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You're working out the cost of a party. Each pizza costs £12, and you add £5 for delivery. You need to find the total cost. Is this an equation or an expression?",
+              "options": [
+                "An expression, because you haven't written an equals sign",
+                "An equation, because you're finding a total",
+                "A formula, because it involves money",
+                "Neither, because it's not in algebra"
+              ],
+              "correct_answer": "An expression, because you haven't written an equals sign",
+              "explanation": "Without an equals sign, 12p + 5 is an expression. It becomes an equation only when you set it equal to something, like 12p + 5 = 29.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "When we expand 4(x + 3), what does that mean?",
+              "options": [
+                "We add 4 to x and 3",
+                "We multiply 4 by everything inside the brackets",
+                "We divide x and 3 by 4",
+                "We remove the brackets but keep x and 3 separate"
+              ],
+              "correct_answer": "We multiply 4 by everything inside the brackets",
+              "explanation": "Expanding brackets means multiplying the number outside by each term inside. So 4(x + 3) becomes 4x + 12.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "The expression 6x + 12 can be written as 6(x + 2). What is this process called?",
+              "options": [
+                "Expanding",
+                "Factorising",
+                "Solving",
+                "Substituting"
+              ],
+              "correct_answer": "Factorising",
+              "explanation": "Factorising means pulling out common factors and writing the expression as a product. It's the opposite of expanding brackets.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You need to find the value of x that makes this true: 2x + 3 = 11. What are you doing?",
+              "options": [
+                "Expanding the equation",
+                "Solving the equation",
+                "Factorising",
+                "Substituting"
+              ],
+              "correct_answer": "Solving the equation",
+              "explanation": "Solving an equation means finding the value of the unknown (x) that makes both sides equal.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You have two equations: y = 2x + 1 and y = x + 4. What is this pair called?",
+              "options": [
+                "A formula",
+                "An expression",
+                "Simultaneous equations",
+                "A quadratic"
+              ],
+              "correct_answer": "Simultaneous equations",
+              "explanation": "Simultaneous equations are two equations with two unknowns that we need to solve at the same time to find x and y.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is a quadratic equation?",
+              "options": [
+                "3x + 5 = 0",
+                "x² + 4x + 3 = 0",
+                "2x = 10",
+                "y = 2x + 1"
+              ],
+              "correct_answer": "x² + 4x + 3 = 0",
+              "explanation": "A quadratic equation has an x² term (and is in the form ax² + bx + c = 0). The other options are linear equations.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In the equation y = 3x + 2, the number 2 tells us something special about the line. What is it?",
+              "options": [
+                "How steep the line is",
+                "Where the line crosses the y-axis",
+                "The value of x",
+                "The gradient of the line"
+              ],
+              "correct_answer": "Where the line crosses the y-axis",
+              "explanation": "The number at the end (2) is the y-intercept — the point where the line crosses the y-axis. The 3 is the gradient (steepness).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "An expression and an equation are the same thing.",
+              "correct_answer": "False",
+              "explanation": "An expression has no equals sign (3x + 2), while an equation does (3x + 2 = 11). They are different.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "When you expand 5(a + 2), you get 5a + 10.",
+              "correct_answer": "True",
+              "explanation": "Expanding means multiplying everything inside the brackets by 5: (5 × a) + (5 × 2) = 5a + 10.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Factorising and expanding are the same process.",
+              "correct_answer": "False",
+              "explanation": "Factorising is the reverse of expanding. Expanding means multiplying out brackets; factorising means pulling out common factors.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "When you solve an equation, you are finding the value of the unknown that makes both sides equal.",
+              "correct_answer": "True",
+              "explanation": "Solving an equation means finding the value of the variable (like x) that makes the equation true.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "A formula always contains an equals sign.",
+              "correct_answer": "True",
+              "explanation": "A formula shows a relationship using an equals sign, like A = πr² or C = 2πr.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Simultaneous equations have one unknown that we need to find.",
+              "correct_answer": "False",
+              "explanation": "Simultaneous equations have two unknowns (usually x and y) and two equations that we solve together.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The equation x² + 2x + 1 = 0 is a quadratic equation.",
+              "correct_answer": "True",
+              "explanation": "It has an x² term and is in the form ax² + bx + c = 0, which makes it quadratic.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "In the equation y = mx + c, the letter m represents the y-intercept.",
+              "correct_answer": "False",
+              "explanation": "In y = mx + c, m is the gradient (steepness) and c is the y-intercept (where it crosses the y-axis).",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The gradient of a line tells us how steep it is.",
+              "correct_answer": "True",
+              "explanation": "Gradient measures steepness using rise ÷ run. A larger gradient means a steeper line.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "An expression like 2x + 5 can be solved to find the value of x.",
+              "correct_answer": "False",
+              "explanation": "An expression cannot be solved because it has no equals sign. Only equations can be solved.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A mathematical phrase containing numbers and variables but no equals sign is called an ________.",
+              "correct_answer": "expression",
+              "explanation": null,
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "When we multiply out brackets, we are ________ them.",
+              "correct_answer": "expanding",
+              "explanation": null,
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The reverse of expanding brackets is called ________.",
+              "correct_answer": "factorising",
+              "explanation": null,
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "When you ________ an equation, you find the value of the unknown that makes it true.",
+              "correct_answer": "solve",
+              "explanation": null,
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A rule showing the relationship between variables is called a ________.",
+              "correct_answer": "formula",
+              "explanation": null,
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Two equations with two unknowns are called ________ equations.",
+              "correct_answer": "simultaneous",
+              "explanation": null,
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "An equation with an x² term is called a ________ equation.",
+              "correct_answer": "quadratic",
+              "explanation": null,
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The steepness of a line is measured by its ________.",
+              "correct_answer": "gradient",
+              "explanation": null,
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "In the equation y = 2x + 5, the number 5 is the ________.",
+              "correct_answer": "y-intercept",
+              "explanation": null,
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A mathematical statement showing two expressions are equal is called an ________.",
+              "correct_answer": "equation",
+              "explanation": null,
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Expression",
+                  "match": "A mathematical phrase with no equals sign"
+                },
+                {
+                  "term": "Equation",
+                  "match": "A statement showing two expressions are equal"
+                },
+                {
+                  "term": "Formula",
+                  "match": "A rule showing relationships between variables"
+                },
+                {
+                  "term": "Gradient",
+                  "match": "The steepness of a line"
+                },
+                {
+                  "term": "Y-intercept",
+                  "match": "Where a line crosses the y-axis"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geometry & Measures",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Angles, Shapes & Trigonometry",
+          "cards": [
+            {
+              "keyword": "angles on a straight line",
+              "definition": "angles on a straight line add up to 180°",
+              "display_order": 1
+            },
+            {
+              "keyword": "angles in a triangle",
+              "definition": "angles in any triangle add up to 180°",
+              "display_order": 2
+            },
+            {
+              "keyword": "angles in a quadrilateral",
+              "definition": "angles in any quadrilateral add up to 360°",
+              "display_order": 3
+            },
+            {
+              "keyword": "alternate angles",
+              "definition": "equal angles formed between parallel lines on opposite sides of a transversal — Z angles",
+              "display_order": 4
+            },
+            {
+              "keyword": "corresponding angles",
+              "definition": "equal angles formed on the same side of a transversal crossing parallel lines — F angles",
+              "display_order": 5
+            },
+            {
+              "keyword": "Pythagoras' theorem",
+              "definition": "in a right-angled triangle, a² + b² = c² where c is the hypotenuse",
+              "display_order": 6
+            },
+            {
+              "keyword": "hypotenuse",
+              "definition": "the longest side of a right-angled triangle — always opposite the right angle",
+              "display_order": 7
+            },
+            {
+              "keyword": "SOH CAH TOA",
+              "definition": "memory aid for trigonometry: Sin = Opp/Hyp, Cos = Adj/Hyp, Tan = Opp/Adj",
+              "display_order": 8
+            },
+            {
+              "keyword": "interior angle (polygon)",
+              "definition": "the angle inside a polygon — sum of interior angles = (n − 2) × 180°",
+              "display_order": 9
+            },
+            {
+              "keyword": "exterior angle (polygon)",
+              "definition": "the angle outside a polygon — exterior angles always add up to 360°",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "You're looking at a straight line with two angles marked on it. What do these two angles add up to?",
+              "options": [
+                "90°",
+                "180°",
+                "270°",
+                "360°"
+              ],
+              "correct_answer": "180°",
+              "explanation": "Angles on a straight line always add up to 180°. This is one of the most useful facts in geometry.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A triangle has three angles. If two of them are 50° and 70°, what must the third angle be?",
+              "options": [
+                "60°",
+                "50°",
+                "70°",
+                "This information isn't enough to work it out"
+              ],
+              "correct_answer": "60°",
+              "explanation": "All angles in a triangle add up to 180°. So 180° − 50° − 70° = 60°.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A quadrilateral (a four-sided shape) has angles of 90°, 95°, and 100°. What is the fourth angle?",
+              "options": [
+                "75°",
+                "285°",
+                "95°",
+                "It cannot be calculated"
+              ],
+              "correct_answer": "75°",
+              "explanation": "All angles in any quadrilateral add up to 360°. So 360° − 90° − 95° − 100° = 75°.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Two parallel lines are crossed by another line. On opposite sides of that crossing line, two equal angles are formed. What are these angles called?",
+              "options": [
+                "Corresponding angles",
+                "Alternate angles",
+                "Vertically opposite angles",
+                "Angles on a straight line"
+              ],
+              "correct_answer": "Alternate angles",
+              "explanation": "Alternate angles (also called Z angles because of their shape) are equal angles on opposite sides of a transversal crossing parallel lines.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Two parallel railway tracks are crossed by a footbridge. Angles form on the same side of the bridge at each crossing point, and they are equal. What type of angles are these?",
+              "options": [
+                "Alternate angles",
+                "Exterior angles",
+                "Corresponding angles",
+                "Interior angles"
+              ],
+              "correct_answer": "Corresponding angles",
+              "explanation": "Corresponding angles (F angles) are formed on the same side of a transversal crossing parallel lines, and they are always equal.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In a right-angled triangle, the side opposite the right angle is called the...",
+              "options": [
+                "Adjacent side",
+                "Opposite side",
+                "Hypotenuse",
+                "Height"
+              ],
+              "correct_answer": "Hypotenuse",
+              "explanation": "The hypotenuse is always the longest side of a right-angled triangle and sits directly opposite the right angle.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which formula connects the three sides of a right-angled triangle?",
+              "options": [
+                "a + b = c",
+                "a² + b² = c²",
+                "a² − b² = c²",
+                "a × b = c"
+              ],
+              "correct_answer": "a² + b² = c²",
+              "explanation": "This is Pythagoras' theorem. It only works for right-angled triangles, where c is always the hypotenuse.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In trigonometry, if you know the opposite side and the hypotenuse of a right-angled triangle, which ratio would you use?",
+              "options": [
+                "Tangent",
+                "Cosine",
+                "Sine",
+                "Pythagoras"
+              ],
+              "correct_answer": "Sine",
+              "explanation": "Sine = Opposite ÷ Hypotenuse. This is the first part of SOH CAH TOA.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A regular pentagon (five-sided shape) has interior angles that all look the same. Which formula would you use to find the total of all five interior angles?",
+              "options": [
+                "(5 − 2) × 180°",
+                "(5 + 2) × 180°",
+                "5 × 180°",
+                "5 × 360°"
+              ],
+              "correct_answer": "(5 − 2) × 180°",
+              "explanation": "The sum of interior angles in any polygon is (n − 2) × 180°, where n is the number of sides. For a pentagon: (5 − 2) × 180° = 540°.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You walk around the outside of a building and measure all the exterior angles (the angles you turn through at each corner). What will these angles add up to?",
+              "options": [
+                "180°",
+                "270°",
+                "360°",
+                "It depends on the shape"
+              ],
+              "correct_answer": "360°",
+              "explanation": "Exterior angles of any polygon always add up to 360°, no matter how many sides it has.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Angles on a straight line add up to 180°.",
+              "correct_answer": "True",
+              "explanation": "This is correct. A straight line always measures 180°.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "All angles inside any triangle add up to 360°.",
+              "correct_answer": "False",
+              "explanation": "Angles in a triangle add up to 180°, not 360°. You might be thinking of a quadrilateral or full rotation.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Alternate angles are always equal when two parallel lines are crossed by a transversal.",
+              "correct_answer": "True",
+              "explanation": "This is correct. Alternate (Z) angles formed by parallel lines and a transversal are always equal.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The hypotenuse is the shortest side in a right-angled triangle.",
+              "correct_answer": "False",
+              "explanation": "The hypotenuse is the longest side in a right-angled triangle, always opposite the right angle.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Pythagoras' theorem can be used for any triangle, not just right-angled ones.",
+              "correct_answer": "False",
+              "explanation": "Pythagoras' theorem only works for right-angled triangles. For other triangles, you need different methods.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "In SOH CAH TOA, the 'O' stands for opposite.",
+              "correct_answer": "True",
+              "explanation": "This is correct. SOH CAH TOA helps you remember: Sine uses Opposite and Hypotenuse, Cosine uses Adjacent and Hypotenuse, Tangent uses Opposite and Adjacent.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The sum of interior angles in a hexagon (six-sided shape) is 720°.",
+              "correct_answer": "True",
+              "explanation": "Using (n − 2) × 180° where n = 6: (6 − 2) × 180° = 4 × 180° = 720°.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Corresponding angles are on opposite sides of a transversal crossing parallel lines.",
+              "correct_answer": "False",
+              "explanation": "Corresponding angles are on the same side of a transversal. Angles on opposite sides are called alternate angles.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Exterior angles of any quadrilateral add up to 360°.",
+              "correct_answer": "True",
+              "explanation": "This is correct. Exterior angles of any polygon always sum to 360°, regardless of the number of sides.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "If you know the adjacent side and the hypotenuse, you would use tangent in trigonometry.",
+              "correct_answer": "False",
+              "explanation": "If you know adjacent and hypotenuse, you use cosine (Cos = Adjacent ÷ Hypotenuse). Tangent uses opposite and adjacent.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Angles on a straight line always add up to ________.",
+              "correct_answer": "180°",
+              "explanation": "A fundamental angle fact that appears in many geometry problems.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The three angles inside any triangle add up to ________.",
+              "correct_answer": "180°",
+              "explanation": "This is true for all triangles, whether they are right-angled, acute, or obtuse.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A four-sided shape is called a ________, and its angles add up to 360°.",
+              "correct_answer": "quadrilateral",
+              "explanation": "Examples include squares, rectangles, parallelograms, and trapeziums.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "When two parallel lines are crossed by another line, equal angles are formed on opposite sides. These are called ________ angles.",
+              "correct_answer": "alternate",
+              "explanation": "They're also called Z angles because of the shape they make.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the longest side of a right-angled triangle.",
+              "correct_answer": "hypotenuse",
+              "explanation": "It always sits opposite the right angle and is labeled as 'c' in Pythagoras' theorem.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "In a right-angled triangle, a² + b² = c². This is called ________' theorem.",
+              "correct_answer": "Pythagoras",
+              "explanation": "One of the most famous formulas in maths, used to find missing side lengths in right-angled triangles.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The memory aid ________ helps you remember which trigonometry ratio to use.",
+              "correct_answer": "SOH CAH TOA",
+              "explanation": "It stands for Sine = Opposite/Hypotenuse, Cosine = Adjacent/Hypotenuse, Tangent = Opposite/Adjacent.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "To find the sum of all interior angles in a polygon with n sides, use the formula (n − 2) × ________.",
+              "correct_answer": "180°",
+              "explanation": "This formula works for any polygon, from triangles to pentagons to circles' worth of sides.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The angles outside a polygon are called ________ angles, and they always add up to 360°.",
+              "correct_answer": "exterior",
+              "explanation": "You measure these by extending each side of the polygon outwards.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "When two parallel lines are crossed by another line, equal angles on the same side form ________ angles.",
+              "correct_answer": "corresponding",
+              "explanation": "They're also called F angles because of the shape they make.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Hypotenuse",
+                  "match": "The longest side of a right-angled triangle, opposite the right angle"
+                },
+                {
+                  "term": "Alternate angles",
+                  "match": "Equal angles on opposite sides of a transversal crossing parallel lines"
+                },
+                {
+                  "term": "Interior angle",
+                  "match": "An angle inside a polygon"
+                },
+                {
+                  "term": "Exterior angle",
+                  "match": "An angle outside a polygon"
+                },
+                {
+                  "term": "Pythagoras' theorem",
+                  "match": "The rule that a² + b² = c² for right-angled triangles"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Statistics & Probability",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Statistics",
+          "cards": [
+            {
+              "keyword": "mean",
+              "definition": "the average — total of all values ÷ number of values",
+              "display_order": 1
+            },
+            {
+              "keyword": "median",
+              "definition": "the middle value when data is arranged in order — if even number, average the two middle values",
+              "display_order": 2
+            },
+            {
+              "keyword": "mode",
+              "definition": "the most frequently occurring value in a data set",
+              "display_order": 3
+            },
+            {
+              "keyword": "range",
+              "definition": "the difference between the highest and lowest values — a measure of spread",
+              "display_order": 4
+            },
+            {
+              "keyword": "frequency table",
+              "definition": "a table showing how often each value appears in a data set",
+              "display_order": 5
+            },
+            {
+              "keyword": "cumulative frequency",
+              "definition": "a running total of frequencies — used to find the median and quartiles",
+              "display_order": 6
+            },
+            {
+              "keyword": "interquartile range (IQR)",
+              "definition": "the range of the middle 50% of data — Upper Quartile minus Lower Quartile",
+              "display_order": 7
+            },
+            {
+              "keyword": "scatter diagram",
+              "definition": "a graph plotting two variables to show correlation between them",
+              "display_order": 8
+            },
+            {
+              "keyword": "correlation",
+              "definition": "the relationship between two variables — positive, negative, or no correlation",
+              "display_order": 9
+            },
+            {
+              "keyword": "line of best fit",
+              "definition": "a straight line drawn through the middle of a scatter diagram — used to estimate values",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "A shop sells 5 apples on Monday, 3 apples on Tuesday, 8 apples on Wednesday, 5 apples on Thursday, and 4 apples on Friday. What is the mode number of apples sold?",
+              "options": [
+                "5",
+                "4",
+                "6",
+                "8"
+              ],
+              "correct_answer": "5",
+              "explanation": "The mode is the value that appears most often. The number 5 appears twice (Monday and Thursday), while all other numbers appear only once.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which measure of average is best described as 'the middle value when all data is arranged in order'?",
+              "options": [
+                "Mean",
+                "Range",
+                "Median",
+                "Mode"
+              ],
+              "correct_answer": "Median",
+              "explanation": "The median is found by putting all values in order and finding the middle one. This makes it the middle value by definition.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A student's test scores are: 4, 7, 6, 9, 5. To find the mean, what should you do?",
+              "options": [
+                "Find the most common score",
+                "Add all scores and divide by how many scores there are",
+                "Arrange them in order and pick the middle one",
+                "Subtract the lowest from the highest"
+              ],
+              "correct_answer": "Add all scores and divide by how many scores there are",
+              "explanation": "The mean is the average, which is calculated by adding all values together and dividing by the total number of values.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'range' tell you about a set of data?",
+              "options": [
+                "The most common value",
+                "The average value",
+                "How spread out the data is",
+                "The middle value"
+              ],
+              "correct_answer": "How spread out the data is",
+              "explanation": "The range shows the difference between the highest and lowest values, which tells you how much variation there is in your data.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You have a frequency table showing how many students chose each lunch option. What does the frequency column tell you?",
+              "options": [
+                "The average number of students",
+                "How often each lunch option was chosen",
+                "The price of each lunch",
+                "The order in which lunches were chosen"
+              ],
+              "correct_answer": "How often each lunch option was chosen",
+              "explanation": "A frequency table shows how many times (how often) each value appears in a data set.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A scatter diagram is used to show the relationship between two variables. What is this relationship called?",
+              "options": [
+                "Frequency",
+                "Correlation",
+                "Range",
+                "Mode"
+              ],
+              "correct_answer": "Correlation",
+              "explanation": "Correlation describes the relationship between two variables shown on a scatter diagram — it can be positive, negative, or no correlation.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A line of best fit is drawn through a scatter diagram. What is it mainly used for?",
+              "options": [
+                "To count the total number of points",
+                "To estimate values that aren't plotted",
+                "To find the mode of the data",
+                "To calculate the range"
+              ],
+              "correct_answer": "To estimate values that aren't plotted",
+              "explanation": "The line of best fit passes through the middle of the scatter diagram and allows you to estimate or predict values that aren't shown as actual data points.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does cumulative frequency mean?",
+              "options": [
+                "The most common frequency",
+                "A running total of frequencies added together",
+                "The difference between two frequencies",
+                "The average of all frequencies"
+              ],
+              "correct_answer": "A running total of frequencies added together",
+              "explanation": "Cumulative frequency is a running total — you add each frequency to all the previous ones to get an ever-increasing total.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "The interquartile range (IQR) tells you about which part of your data?",
+              "options": [
+                "The lowest quarter only",
+                "The highest quarter only",
+                "The middle 50% of the data",
+                "All 100% of the data"
+              ],
+              "correct_answer": "The middle 50% of the data",
+              "explanation": "The interquartile range is the range of the middle 50% of data, calculated as the Upper Quartile minus the Lower Quartile.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "If you plot 'hours of revision' against 'exam score' on a scatter diagram, what might you expect to see?",
+              "options": [
+                "No correlation at all",
+                "A negative correlation (as revision increases, score decreases)",
+                "A positive correlation (as revision increases, score increases)",
+                "The points forming a perfect circle"
+              ],
+              "correct_answer": "A positive correlation (as revision increases, score increases)",
+              "explanation": "More revision time generally leads to higher exam scores, so you'd expect to see a positive correlation on the scatter diagram.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The mean is always the same as the median.",
+              "correct_answer": "False",
+              "explanation": "The mean (average) and median (middle value) are different calculations and often give different results, especially if there are extreme values in your data.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "To find the range, you subtract the smallest value from the largest value.",
+              "correct_answer": "True",
+              "explanation": "The range is always calculated as the highest value minus the lowest value, which shows how spread out the data is.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "A frequency table can only be used for numbers.",
+              "correct_answer": "False",
+              "explanation": "Frequency tables can show how often any value appears — this could be colours, names, categories, or any other type of data.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Cumulative frequency always goes up as you move down the table.",
+              "correct_answer": "True",
+              "explanation": "Because cumulative frequency is a running total, it either stays the same or increases — it never decreases.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "A strong positive correlation means that as one variable increases, the other always increases by the same amount.",
+              "correct_answer": "False",
+              "explanation": "Positive correlation means both variables tend to increase together, but not necessarily by the same amount — there will be scatter around the line of best fit.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The mode is the only average that can appear more than once in a data set.",
+              "correct_answer": "False",
+              "explanation": "Data can have multiple modes (called bimodal or multimodal), or it might have no mode at all if all values appear equally often.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The interquartile range is always smaller than the full range.",
+              "correct_answer": "True",
+              "explanation": "The IQR only measures the middle 50% of data, while the range includes all data from lowest to highest, so the IQR is always smaller.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "If two variables show no correlation, it means they are not connected at all.",
+              "correct_answer": "True",
+              "explanation": "No correlation means there is no relationship between the two variables on the scatter diagram — knowing one tells you nothing about the other.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "When data has an even number of values, the median is always one of those values.",
+              "correct_answer": "False",
+              "explanation": "With an even number of values, the median is the average of the two middle values, which might not be one of your actual data values.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "A line of best fit must pass through every single data point on a scatter diagram.",
+              "correct_answer": "False",
+              "explanation": "The line of best fit goes through the middle of the scatter diagram in a way that best represents the overall trend — it won't touch every point.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the average of all the values in a data set.",
+              "correct_answer": "mean",
+              "explanation": null,
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "When there is an even number of values, you find the median by averaging the two ________ values.",
+              "correct_answer": "middle",
+              "explanation": null,
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the value that appears most often in a data set.",
+              "correct_answer": "mode",
+              "explanation": null,
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ table shows how many times each value appears in a data set.",
+              "correct_answer": "frequency",
+              "explanation": null,
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The difference between the highest and lowest values in a data set is called the ________.",
+              "correct_answer": "range",
+              "explanation": null,
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ frequency is a running total of frequencies added together.",
+              "correct_answer": "Cumulative",
+              "explanation": null,
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ diagram shows the relationship between two variables plotted on a graph.",
+              "correct_answer": "scatter",
+              "explanation": null,
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the range of the middle 50% of data, calculated as Upper Quartile minus Lower Quartile.",
+              "correct_answer": "interquartile range",
+              "explanation": null,
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ describes whether two variables have a positive, negative, or no relationship.",
+              "correct_answer": "correlation",
+              "explanation": null,
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ of best fit is a straight line drawn through the middle of a scatter diagram to estimate values.",
+              "correct_answer": "line",
+              "explanation": null,
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Mean",
+                  "match": "The average of all values"
+                },
+                {
+                  "term": "Median",
+                  "match": "The middle value when arranged in order"
+                },
+                {
+                  "term": "Mode",
+                  "match": "The most frequently occurring value"
+                },
+                {
+                  "term": "Range",
+                  "match": "The difference between highest and lowest values"
+                },
+                {
+                  "term": "Correlation",
+                  "match": "The relationship between two variables"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Probability",
+          "cards": [
+            {
+              "keyword": "probability",
+              "definition": "a measure of how likely an event is — written as a fraction, decimal, or percentage between 0 and 1",
+              "display_order": 1
+            },
+            {
+              "keyword": "theoretical probability",
+              "definition": "probability calculated from equally likely outcomes — P(event) = favourable outcomes ÷ total outcomes",
+              "display_order": 2
+            },
+            {
+              "keyword": "experimental probability",
+              "definition": "probability estimated from the results of an experiment — relative frequency = frequency ÷ total trials",
+              "display_order": 3
+            },
+            {
+              "keyword": "mutually exclusive events",
+              "definition": "events that cannot both happen at the same time — P(A or B) = P(A) + P(B)",
+              "display_order": 4
+            },
+            {
+              "keyword": "independent events",
+              "definition": "events where the outcome of one does not affect the other — P(A and B) = P(A) × P(B)",
+              "display_order": 5
+            },
+            {
+              "keyword": "tree diagram",
+              "definition": "a diagram showing all possible outcomes of two or more events and their probabilities",
+              "display_order": 6
+            },
+            {
+              "keyword": "sample space",
+              "definition": "all possible outcomes of an experiment — often shown in a two-way table or list",
+              "display_order": 7
+            },
+            {
+              "keyword": "complement",
+              "definition": "the probability of an event NOT happening — P(not A) = 1 − P(A)",
+              "display_order": 8
+            },
+            {
+              "keyword": "Venn diagram",
+              "definition": "a diagram using overlapping circles to show the relationship between sets",
+              "display_order": 9
+            },
+            {
+              "keyword": "expected frequency",
+              "definition": "the number of times an outcome is expected to occur — P(event) × number of trials",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "A bag contains 3 red balls and 7 blue balls. What does the probability of picking a red ball tell us?",
+              "options": [
+                "How likely it is that you will pick a red ball",
+                "That you will definitely pick a red ball next",
+                "How many red balls are in the bag",
+                "That you have already picked a red ball"
+              ],
+              "correct_answer": "How likely it is that you will pick a red ball",
+              "explanation": "Probability measures how likely an event is to happen, shown as a number between 0 and 1.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You roll a fair dice once. Which calculation shows theoretical probability?",
+              "options": [
+                "You rolled a 4 five times out of 20 rolls",
+                "Number of ways to get a 4 divided by total number of sides",
+                "The number of sixes you expect to get in 100 rolls",
+                "How many times a 3 came up in an experiment"
+              ],
+              "correct_answer": "Number of ways to get a 4 divided by total number of sides",
+              "explanation": "Theoretical probability is calculated from equally likely outcomes using the formula: favourable outcomes ÷ total outcomes.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A student flips a coin 50 times and gets 28 heads. What does this tell us?",
+              "options": [
+                "The theoretical probability of heads is 0.56",
+                "The experimental probability of heads from this experiment is 0.56",
+                "The coin is definitely unfair",
+                "The next flip will definitely be tails"
+              ],
+              "correct_answer": "The experimental probability of heads from this experiment is 0.56",
+              "explanation": "Experimental probability is calculated from actual results of an experiment, using the formula: frequency ÷ total trials.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You're picking a card from a deck. Which pair of events are mutually exclusive?",
+              "options": [
+                "Picking a red card and picking a heart",
+                "Picking a King and picking a Queen",
+                "Picking a spade and picking a black card",
+                "Picking a number card and picking a face card"
+              ],
+              "correct_answer": "Picking a King and picking a Queen",
+              "explanation": "Mutually exclusive events cannot both happen at the same time — a card cannot be both a King and a Queen.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You roll a dice and flip a coin at the same time. What type of events are these?",
+              "options": [
+                "Mutually exclusive events",
+                "Independent events",
+                "Complementary events",
+                "Dependent events"
+              ],
+              "correct_answer": "Independent events",
+              "explanation": "Independent events are where the outcome of one does not affect the other — the dice result does not affect the coin result.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main purpose of a tree diagram in probability?",
+              "options": [
+                "To show what happened in an experiment",
+                "To display all possible outcomes of events and their probabilities",
+                "To calculate the mean of some numbers",
+                "To prove that two events are independent"
+              ],
+              "correct_answer": "To display all possible outcomes of events and their probabilities",
+              "explanation": "A tree diagram maps out all possible outcomes from two or more events, helping you see every possibility and their probabilities.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A menu has 3 starters, 4 main courses, and 2 desserts. What does the sample space represent?",
+              "options": [
+                "Just the number of starters available",
+                "All possible three-course meal combinations you could choose",
+                "The probability of choosing a dessert",
+                "How many people will order each meal"
+              ],
+              "correct_answer": "All possible three-course meal combinations you could choose",
+              "explanation": "The sample space is all possible outcomes of an experiment — in this case, every different meal combination available.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "The probability of it raining tomorrow is 0.3. What is the probability of it NOT raining?",
+              "options": [
+                "0.7",
+                "0.3",
+                "Cannot be worked out from this information",
+                "1.0"
+              ],
+              "correct_answer": "0.7",
+              "explanation": "The complement is the probability of an event NOT happening — P(not A) = 1 − P(A), so 1 − 0.3 = 0.7.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which diagram would be best for showing how many students like football, basketball, or both?",
+              "options": [
+                "A tree diagram",
+                "A bar chart",
+                "A Venn diagram",
+                "A scatter graph"
+              ],
+              "correct_answer": "A Venn diagram",
+              "explanation": "A Venn diagram uses overlapping circles to show relationships between different sets — perfect for showing who likes each sport and who likes both.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "You expect a coin to land on heads 25 times in 50 flips. What is this number called?",
+              "options": [
+                "Theoretical probability",
+                "Experimental probability",
+                "Expected frequency",
+                "Sample space"
+              ],
+              "correct_answer": "Expected frequency",
+              "explanation": "Expected frequency is how many times you expect an outcome to occur, calculated by P(event) × number of trials.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Probability is always written as a number between 0 and 1.",
+              "correct_answer": "True",
+              "explanation": "Probability can be written as a fraction, decimal, or percentage, but always represents a value between 0 (impossible) and 1 (certain).",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Theoretical probability must be found by doing an experiment.",
+              "correct_answer": "False",
+              "explanation": "Theoretical probability is calculated using logic and equally likely outcomes — you don't need to do an experiment.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Experimental probability can change depending on what results you actually get.",
+              "correct_answer": "True",
+              "explanation": "Experimental probability depends on your actual results, so different experiments will give different probabilities.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Two mutually exclusive events can happen at the same time.",
+              "correct_answer": "False",
+              "explanation": "Mutually exclusive events cannot both happen at the same time — they are impossible together.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Whether you pass a test and whether you eat breakfast are independent events.",
+              "correct_answer": "True",
+              "explanation": "One event does not affect the other — eating breakfast does not change your probability of passing a test.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "A tree diagram can only show two events.",
+              "correct_answer": "False",
+              "explanation": "A tree diagram can show two or more events — you can add as many branches as you need.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The sample space for rolling a dice is {1, 2, 3, 4, 5, 6}.",
+              "correct_answer": "True",
+              "explanation": "The sample space lists all possible outcomes, and a fair dice can land on 1, 2, 3, 4, 5, or 6.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "If P(A) = 0.4, then P(not A) = 0.6.",
+              "correct_answer": "True",
+              "explanation": "The complement of an event is P(not A) = 1 − P(A), so 1 − 0.4 = 0.6.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "A Venn diagram with two non-overlapping circles means those events are mutually exclusive.",
+              "correct_answer": "True",
+              "explanation": "Non-overlapping circles in a Venn diagram show that events cannot happen together, which is what mutually exclusive means.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Expected frequency is always exactly equal to experimental frequency.",
+              "correct_answer": "False",
+              "explanation": "Expected frequency is what you predict, but experimental frequency is what actually happens — they are often different.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a number between 0 and 1 that measures how likely an event is.",
+              "correct_answer": "probability",
+              "explanation": null,
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ probability is worked out using equally likely outcomes without needing to do an experiment.",
+              "correct_answer": "Theoretical",
+              "explanation": null,
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ probability is found by doing an experiment and counting the actual results.",
+              "correct_answer": "Experimental",
+              "explanation": null,
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Events that cannot both happen at the same time are called ________ events.",
+              "correct_answer": "mutually exclusive",
+              "explanation": null,
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Events where the outcome of one does not affect the other are called ________ events.",
+              "correct_answer": "independent",
+              "explanation": null,
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ diagram shows all possible outcomes of two or more events using branches.",
+              "correct_answer": "tree",
+              "explanation": null,
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the set of all possible outcomes of an experiment.",
+              "correct_answer": "sample space",
+              "explanation": null,
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of an event is the probability of it NOT happening.",
+              "correct_answer": "complement",
+              "explanation": null,
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ diagram uses overlapping circles to show relationships between sets.",
+              "correct_answer": "Venn",
+              "explanation": null,
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ frequency is the number of times an outcome is expected to happen based on probability.",
+              "correct_answer": "Expected",
+              "explanation": null,
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Mutually exclusive",
+                  "match": "Events that cannot both happen at the same time"
+                },
+                {
+                  "term": "Independent events",
+                  "match": "Events where the outcome of one does not affect the other"
+                },
+                {
+                  "term": "Tree diagram",
+                  "match": "A diagram showing all possible outcomes of two or more events"
+                },
+                {
+                  "term": "Complement",
+                  "match": "The probability of an event NOT happening"
+                },
+                {
+                  "term": "Expected frequency",
+                  "match": "The number of times an outcome is expected to occur"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
