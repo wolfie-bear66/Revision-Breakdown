@@ -25,7 +25,7 @@ export interface Topic {
 interface TopicAccordionProps {
   topics: Topic[];
   isFree: boolean;
-  freeTopicIds: string[];
+  freeTopicIds: Set<string>;
 }
 
 const MODES = [
@@ -51,7 +51,7 @@ export function TopicAccordion({ topics, isFree, freeTopicIds }: TopicAccordionP
       className="divide-y divide-border rounded-xl border border-border"
     >
       {topics.map((topic) => {
-        const isFreeTopic = freeTopicIds.includes(topic.id);
+        const isFreeTopic = freeTopicIds.has(topic.id);
         const locked = isFree && !isFreeTopic;
 
         return (

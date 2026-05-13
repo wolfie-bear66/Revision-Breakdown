@@ -100,7 +100,7 @@ export default async function DashboardPage() {
                 completed_blocks={s.completed_blocks}
                 session_count={sessionCountBySubject[s.subject_id] ?? 0}
                 isFreeUser={isFree}
-                isFreeTopic={FREE_SUBJECT_IDS.includes(s.subject_id)}
+                isFreeTopic={FREE_SUBJECT_IDS.has(s.subject_id)}
               />
             ))}
           </div>

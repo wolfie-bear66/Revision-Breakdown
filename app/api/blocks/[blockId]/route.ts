@@ -50,7 +50,7 @@ export async function GET(
   }
 
   // 3. Auth gate — non-free topics require a signed-in user
-  if (!FREE_TOPIC_IDS.includes(topic.id) && !user) {
+  if (!FREE_TOPIC_IDS.has(topic.id) && !user) {
     return NextResponse.json({ error: 'locked' }, { status: 403 });
   }
 
