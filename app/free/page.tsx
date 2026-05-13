@@ -2,11 +2,10 @@ import Link from 'next/link';
 import { createClient } from '@/utils/supabase/server';
 
 const FREE_SUBJECTS = [
-  { subjectId: '15232b38-e5ee-4b12-a5ae-c2427daa81fc', name: 'Maths', topicId: 'aaf5de10-fb13-400a-8528-0177b3808f5f', topicName: 'Number' },
+  { subjectId: '15232b38-e5ee-4b12-a5ae-c2427daa81fc', name: 'Maths', topicId: '22d99733-055f-41ee-b022-4fe4d5863953', topicName: 'Number' },
   { subjectId: '813b5fdc-8020-4978-81f2-e9d498bed54f', name: 'English Language', topicId: 'f4289169-82b1-41c1-8b6d-cc8f61e9aaa8', topicName: 'Reading — Fiction & Literary Non-Fiction' },
-  { subjectId: '1f37d924-d678-46ec-b3a4-5d973455e0eb', name: 'English Literature', topicId: '59283ba2-7862-4daf-a6d4-a3cf694132f5', topicName: 'An Inspector Calls — Priestley' },
   { subjectId: '83bd5f93-be55-4ed6-8208-2007897e1b44', name: 'Biology', topicId: '8a9b7e5d-c3b7-4493-91f1-c8ff10cb0b72', topicName: 'Cell Biology' },
-  { subjectId: 'abf947ff-1638-4e14-bb7b-b319e4eb7675', name: 'Geography', topicId: '9405f0d2-cf38-462a-9d05-d50b06882105', topicName: 'Hazardous Earth' },
+  { subjectId: 'abf947ff-1638-4e14-bb7b-b319e4eb7675', name: 'Geography', topicId: '50bda264-e8cb-4d44-bb0c-d03c56b11338', topicName: 'Natural Hazards' },
   { subjectId: 'db3d132d-bcc3-40c0-9c8a-2f8aceb450aa', name: 'Music', topicId: '01620aaa-38d7-454b-8d1a-d82a64d2e13e', topicName: 'Musical Elements & Concepts' },
 ];
 
@@ -53,14 +52,15 @@ export default async function FreePage() {
                 ) : (
                   <ul className="mt-1 space-y-1">
                     {blocks.map((block) => (
-                      <li key={block.id}>
-                        <Link
-                          href={`/block/${block.id}/flashcards`}
-                          className="flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
-                        >
-                          <span className="text-muted-foreground text-xs w-5 shrink-0">{block.block_number}</span>
-                          {block.block_name}
-                        </Link>
+                      <li key={block.id} className="flex flex-col gap-2 py-2">
+                        <span className="text-sm font-medium">{block.block_name}</span>
+                        <div className="flex flex-wrap gap-1.5">
+                          <Link href={`/block/${block.id}/flashcards`}     className="inline-flex items-center rounded-md px-2.5 py-1 text-xs font-medium bg-blue-500   hover:bg-blue-600   text-white transition-colors">Flashcards</Link>
+                          <Link href={`/block/${block.id}/mcq`}            className="inline-flex items-center rounded-md px-2.5 py-1 text-xs font-medium bg-purple-500 hover:bg-purple-600 text-white transition-colors">MCQ</Link>
+                          <Link href={`/block/${block.id}/truefalse`}      className="inline-flex items-center rounded-md px-2.5 py-1 text-xs font-medium bg-green-500  hover:bg-green-600  text-white transition-colors">True / False</Link>
+                          <Link href={`/block/${block.id}/fillintheblank`} className="inline-flex items-center rounded-md px-2.5 py-1 text-xs font-medium bg-orange-500 hover:bg-orange-600 text-white transition-colors">Fill in the Blank</Link>
+                          <Link href={`/block/${block.id}/matchup`}        className="inline-flex items-center rounded-md px-2.5 py-1 text-xs font-medium bg-pink-500   hover:bg-pink-600   text-white transition-colors">Match-Up</Link>
+                        </div>
                       </li>
                     ))}
                   </ul>

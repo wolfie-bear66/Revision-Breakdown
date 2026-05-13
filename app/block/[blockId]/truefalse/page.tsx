@@ -17,8 +17,6 @@ export default async function TrueFalsePage({ params }: PageProps) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user) redirect('/login');
-
   const result = await fetchBlockData(blockId);
 
   if (!result.ok) {
@@ -56,18 +54,21 @@ export default async function TrueFalsePage({ params }: PageProps) {
     );
   }
 
-  const { data: session } = await supabase
-    .from('sessions')
-    .insert({
-      user_id: user.id,
-      block_id: blockId,
-      mode: 'truefalse',
-      started_at: new Date().toISOString(),
-    })
-    .select('id')
-    .single();
-
-  if (!session) redirect('/dashboard');
+  let sessionId: string | null = null;
+  if (user) {
+    const { data: session } = await supabase
+      .from('sessions')
+      .insert({
+        user_id: user.id,
+        block_id: blockId,
+        mode: 'truefalse',
+        started_at: new Date().toISOString(),
+      })
+      .select('id')
+      .single();
+    if (!session) redirect('/dashboard');
+    sessionId = session.id;
+  }
 
   return (
     <main className="flex min-h-dvh flex-col bg-background">
@@ -96,7 +97,7 @@ export default async function TrueFalsePage({ params }: PageProps) {
 
       <TrueFalseQuiz
         blockId={blockId}
-        sessionId={session.id}
+        sessionId={sessionId}
         questions={questions}
         subjectId={subjectId}
       />

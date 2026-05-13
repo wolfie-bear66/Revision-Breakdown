@@ -17,8 +17,6 @@ export default async function MatchUpPage({ params }: PageProps) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user) redirect('/login');
-
   const result = await fetchBlockData(blockId);
 
   if (!result.ok) {
@@ -50,18 +48,21 @@ export default async function MatchUpPage({ params }: PageProps) {
     );
   }
 
-  const { data: session } = await supabase
-    .from('sessions')
-    .insert({
-      user_id: user.id,
-      block_id: blockId,
-      mode: 'matchup',
-      started_at: new Date().toISOString(),
-    })
-    .select('id')
-    .single();
-
-  if (!session) redirect('/dashboard');
+  let sessionId: string | null = null;
+  if (user) {
+    const { data: session } = await supabase
+      .from('sessions')
+      .insert({
+        user_id: user.id,
+        block_id: blockId,
+        mode: 'matchup',
+        started_at: new Date().toISOString(),
+      })
+      .select('id')
+      .single();
+    if (!session) redirect('/dashboard');
+    sessionId = session.id;
+  }
 
   const pairs = (question.options as Array<{ term: string; match: string }>).map((p) => ({
     term: p.term,
@@ -95,7 +96,7 @@ export default async function MatchUpPage({ params }: PageProps) {
 
       <MatchUpGame
         blockId={blockId}
-        sessionId={session.id}
+        sessionId={sessionId}
         questionId={question.id}
         instruction={question.question}
         pairs={pairs}

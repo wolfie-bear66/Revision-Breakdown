@@ -13,7 +13,7 @@ interface Question {
 
 interface FillBlankQuizProps {
   blockId: string;
-  sessionId: string;
+  sessionId: string | null;
   questions: Question[];
   subjectId: string | null;
 }
@@ -138,14 +138,16 @@ export function FillBlankQuiz({ blockId, sessionId, questions, subjectId }: Fill
       setWrongQuestions((prev) => [...prev, question]);
     }
 
-    const supabase = createClient();
-    await supabase.from('card_attempts').insert({
-      session_id: sessionId,
-      question_id: question.id,
-      correct,
-      score: correct ? 1 : 0,
-      answered_at: new Date().toISOString(),
-    });
+    if (sessionId) {
+      const supabase = createClient();
+      await supabase.from('card_attempts').insert({
+        session_id: sessionId,
+        question_id: question.id,
+        correct,
+        score: correct ? 1 : 0,
+        answered_at: new Date().toISOString(),
+      });
+    }
 
     setCorrectCount((c) => c + (correct ? 1 : 0));
     setSubmitting(false);
@@ -155,15 +157,17 @@ export function FillBlankQuiz({ blockId, sessionId, questions, subjectId }: Fill
     const newCorrect = correctCount + (answerState === 'correct' ? 1 : 0);
 
     if (isLast) {
-      const supabase = createClient();
-      await supabase
-        .from('sessions')
-        .update({
-          completed_at: new Date().toISOString(),
-          score: newCorrect,
-          total,
-        })
-        .eq('id', sessionId);
+      if (sessionId) {
+        const supabase = createClient();
+        await supabase
+          .from('sessions')
+          .update({
+            completed_at: new Date().toISOString(),
+            score: newCorrect,
+            total,
+          })
+          .eq('id', sessionId);
+      }
 
       setFinalScore({ correct: newCorrect, total });
       setGameOver(true);

@@ -12,7 +12,7 @@ interface Pair {
 
 interface MatchUpGameProps {
   blockId: string;
-  sessionId: string;
+  sessionId: string | null;
   questionId: string;
   instruction: string;
   pairs: Pair[];
@@ -140,24 +140,25 @@ export function MatchUpGame({
     setSubmitting(true);
 
     const correct = errorCount === 0;
-    const supabase = createClient();
 
-    await supabase.from('card_attempts').insert({
-      session_id: sessionId,
-      question_id: questionId,
-      correct,
-      score: correct ? 1 : 0,
-      answered_at: new Date().toISOString(),
-    });
-
-    await supabase
-      .from('sessions')
-      .update({
-        completed_at: new Date().toISOString(),
+    if (sessionId) {
+      const supabase = createClient();
+      await supabase.from('card_attempts').insert({
+        session_id: sessionId,
+        question_id: questionId,
+        correct,
         score: correct ? 1 : 0,
-        total: 1,
-      })
-      .eq('id', sessionId);
+        answered_at: new Date().toISOString(),
+      });
+      await supabase
+        .from('sessions')
+        .update({
+          completed_at: new Date().toISOString(),
+          score: correct ? 1 : 0,
+          total: 1,
+        })
+        .eq('id', sessionId);
+    }
 
     setFinalErrors(errorCount);
     setGameOver(true);
