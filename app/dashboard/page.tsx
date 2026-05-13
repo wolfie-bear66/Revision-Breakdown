@@ -5,7 +5,7 @@ import { SubjectCard } from './SubjectCard';
 import { SignOutButton } from './SignOutButton';
 import { ResetTopicsButton } from './ResetTopicsButton';
 import { buttonVariants } from '@/components/ui/button';
-import { BookOpen } from 'lucide-react';
+import { BookOpen, Trophy } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { FREE_SUBJECT_IDS } from '@/lib/free-topics';
 
@@ -77,7 +77,16 @@ export default async function DashboardPage() {
             )}
           </div>
 
-          <SignOutButton />
+          <div className="flex items-center gap-2">
+            <Link
+              href="/trophy-cabinet"
+              className={cn(buttonVariants({ variant: 'outline' }), 'gap-2')}
+            >
+              <Trophy className="h-4 w-4" />
+              Trophy Cabinet
+            </Link>
+            <SignOutButton />
+          </div>
         </div>
 
         {/* Subject grid */}
