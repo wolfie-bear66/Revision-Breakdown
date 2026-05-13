@@ -1,0 +1,385 @@
+{
+  "subject": {
+    "name": "Design & Technology",
+    "exam_board": "OCR",
+    "category": "Technology & Applied",
+    "colour": "#92400e",
+    "emoji": "🔧",
+    "slug": "design-technology-ocr"
+  },
+  "topics": [
+    {
+      "name": "OCR D&T — Technical Principles",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Electronic & Mechanical Systems (OCR)",
+          "cards": [
+            {
+              "keyword": "input → process → output",
+              "definition": "the systems model for electronic and mechanical products — input triggers a process that produces an output",
+              "display_order": 1
+            },
+            {
+              "keyword": "sensor",
+              "definition": "an input device that detects a change in the environment — e.g. LDR (light), thermistor (temperature), microphone (sound)",
+              "display_order": 2
+            },
+            {
+              "keyword": "LDR (light dependent resistor)",
+              "definition": "a component whose resistance decreases as light intensity increases — used in light-sensitive circuits",
+              "display_order": 3
+            },
+            {
+              "keyword": "thermistor",
+              "definition": "a component whose resistance changes with temperature — used in temperature-sensing circuits",
+              "display_order": 4
+            },
+            {
+              "keyword": "transistor",
+              "definition": "an electronic component used as a switch or amplifier — turns a circuit on when the base current reaches a threshold",
+              "display_order": 5
+            },
+            {
+              "keyword": "microcontroller",
+              "definition": "a programmable chip that can control electronic systems — e.g. Arduino. Takes inputs and controls outputs based on programmed logic",
+              "display_order": 6
+            },
+            {
+              "keyword": "CAD/CAM in D&T",
+              "definition": "Computer-Aided Design software is used to create designs, which are then manufactured using Computer-Aided Manufacture machines like laser cutters and CNC routers",
+              "display_order": 7
+            },
+            {
+              "keyword": "laser cutter",
+              "definition": "a CAM machine that cuts or engraves materials using a focused laser beam — precise and quick for sheet materials",
+              "display_order": 8
+            },
+            {
+              "keyword": "3D printer",
+              "definition": "a CAM machine that builds objects layer by layer from a digital design — used for prototyping and small batch production",
+              "display_order": 9
+            },
+            {
+              "keyword": "vacuum forming",
+              "definition": "a process where a heated thermoplastic sheet is stretched over a mould and a vacuum pulls it tight — used for packaging and trays",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What are the three main stages of the systems model for electronic products?",
+              "options": [
+                "Design, build, test",
+                "Input, process, output",
+                "Start, middle, end",
+                "Power, control, display"
+              ],
+              "correct_answer": "Input, process, output",
+              "explanation": "The systems model consists of input (data from sensors or users), process (logic or computation), and output (visible result or action).",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which component detects changes in light intensity?",
+              "options": [
+                "Thermistor",
+                "Transistor",
+                "LDR",
+                "Microphone"
+              ],
+              "correct_answer": "LDR",
+              "explanation": "An LDR (light dependent resistor) has resistance that decreases as light intensity increases, making it ideal for light-sensing circuits.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main function of a sensor in an electronic system?",
+              "options": [
+                "To amplify electrical signals",
+                "To detect changes in the environment",
+                "To store data permanently",
+                "To convert digital signals to analogue"
+              ],
+              "correct_answer": "To detect changes in the environment",
+              "explanation": "Sensors are input devices that detect environmental changes such as light, temperature, or sound and convert them into electrical signals.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which device would you use to measure and respond to temperature changes?",
+              "options": [
+                "A transistor",
+                "A thermistor",
+                "A laser cutter",
+                "A 3D printer"
+              ],
+              "correct_answer": "A thermistor",
+              "explanation": "A thermistor is a temperature-sensing component whose resistance changes with temperature, making it perfect for temperature-control circuits.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a transistor primarily used for in electronic circuits?",
+              "options": [
+                "Storing electrical charge",
+                "Measuring voltage",
+                "Switching or amplifying circuits",
+                "Converting light to electricity"
+              ],
+              "correct_answer": "Switching or amplifying circuits",
+              "explanation": "Transistors act as electronic switches that turn circuits on when base current reaches a threshold, or as amplifiers to boost signals.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What can a microcontroller do that a simple circuit cannot?",
+              "options": [
+                "Generate its own power",
+                "Be programmed with logic to make decisions",
+                "Last longer without a battery",
+                "Work without a power supply"
+              ],
+              "correct_answer": "Be programmed with logic to make decisions",
+              "explanation": "Microcontrollers like Arduino are programmable chips that can take inputs and control outputs based on custom programmed logic.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which CAM machine uses a focused laser beam to cut or engrave materials?",
+              "options": [
+                "3D printer",
+                "Vacuum former",
+                "Laser cutter",
+                "CNC router"
+              ],
+              "correct_answer": "Laser cutter",
+              "explanation": "A laser cutter uses a focused laser beam to cut or engrave sheet materials with high precision and speed.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does CAD stand for in Design & Technology?",
+              "options": [
+                "Computer-Aided Design",
+                "Computer-Assisted Drawing",
+                "Computer-Automated Device",
+                "Computer-Aided Development"
+              ],
+              "correct_answer": "Computer-Aided Design",
+              "explanation": "CAD software allows designers to create detailed digital designs which can then be manufactured using CAM machines.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which manufacturing process builds objects layer by layer from a digital file?",
+              "options": [
+                "Vacuum forming",
+                "Injection moulding",
+                "3D printing",
+                "Laser engraving"
+              ],
+              "correct_answer": "3D printing",
+              "explanation": "3D printers build objects layer by layer from a digital design file, making them ideal for prototyping and small batch production.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In vacuum forming, what pulls the heated thermoplastic sheet over the mould?",
+              "options": [
+                "Compressed air",
+                "A vacuum",
+                "Gravity",
+                "Water pressure"
+              ],
+              "correct_answer": "A vacuum",
+              "explanation": "Vacuum forming heats a plastic sheet and then uses a vacuum to pull it tightly over a mould, creating the final shape.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "A sensor is an output device that produces a visible result.",
+              "correct_answer": "False",
+              "explanation": "A sensor is an input device that detects environmental changes. Output devices produce results like lights or speakers.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "As light intensity increases, the resistance of an LDR decreases.",
+              "correct_answer": "True",
+              "explanation": "This is the key characteristic of an LDR (light dependent resistor) — it allows more current through when it is brighter.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "A microcontroller cannot be programmed.",
+              "correct_answer": "False",
+              "explanation": "Microcontrollers are specifically designed to be programmable chips that can be coded with custom logic.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "CAM stands for Computer-Aided Manufacture and includes machines like laser cutters.",
+              "correct_answer": "True",
+              "explanation": "CAM refers to manufacturing machines controlled by computers, such as laser cutters, CNC routers, and 3D printers.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "A 3D printer is used to cut and engrave sheet materials.",
+              "correct_answer": "False",
+              "explanation": "A 3D printer builds objects layer by layer; a laser cutter cuts and engraves sheet materials.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Vacuum forming uses a vacuum to pull heated plastic over a mould.",
+              "correct_answer": "True",
+              "explanation": "This is the core principle of vacuum forming — the vacuum creates the pressure difference that shapes the plastic.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "A transistor can only amplify signals; it cannot switch circuits on and off.",
+              "correct_answer": "False",
+              "explanation": "Transistors have dual roles — they can both amplify signals and act as electronic switches.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "A thermistor's resistance remains constant regardless of temperature.",
+              "correct_answer": "False",
+              "explanation": "A thermistor's defining characteristic is that its resistance changes with temperature, which is why it is used in temperature-sensing circuits.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "CAD designs can be sent directly to CAM machines for manufacturing.",
+              "correct_answer": "True",
+              "explanation": "Digital designs created in CAD software can be converted to file formats that CAM machines (like laser cutters) can read and execute.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "A laser cutter is less precise than a hand-cutting tool.",
+              "correct_answer": "False",
+              "explanation": "Laser cutters are highly precise and quick, making them much more accurate than manual cutting methods.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is an input device that detects changes in the environment.",
+              "options": null,
+              "correct_answer": "sensor",
+              "explanation": "Sensors detect environmental changes such as light, temperature, or sound and send signals to the processing stage.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The resistance of an ________ decreases as light intensity increases.",
+              "options": null,
+              "correct_answer": "LDR",
+              "explanation": "An LDR (light dependent resistor) is used in light-sensitive circuits and its resistance is inversely related to light intensity.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is an electronic component used as a switch or amplifier in circuits.",
+              "options": null,
+              "correct_answer": "transistor",
+              "explanation": "Transistors are key components that can turn circuits on when base current reaches a threshold, or boost signal strength.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a programmable chip like Arduino that can control electronic systems based on programmed logic.",
+              "options": null,
+              "correct_answer": "microcontroller",
+              "explanation": "Microcontrollers take input from sensors and control outputs based on programmed instructions.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ software is used to create digital designs before manufacturing.",
+              "options": null,
+              "correct_answer": "CAD",
+              "explanation": "CAD (Computer-Aided Design) allows designers to create precise digital models that can be sent to CAM machines.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a CAM machine that uses a focused laser beam to cut or engrave sheet materials.",
+              "options": null,
+              "correct_answer": "laser cutter",
+              "explanation": "Laser cutters are precise CAM machines that can quickly cut and engrave materials like wood, acrylic, and paper.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ builds objects layer by layer from a digital design file.",
+              "options": null,
+              "correct_answer": "3D printer",
+              "explanation": "3D printers are ideal for prototyping and small batch production as they create objects gradually from digital files.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "In ________ forming, a heated thermoplastic sheet is pulled over a mould using a vacuum.",
+              "options": null,
+              "correct_answer": "vacuum",
+              "explanation": "Vacuum forming uses pressure difference to shape heated plastic sheets and is commonly used for packaging and trays.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a component whose resistance changes with temperature.",
+              "options": null,
+              "correct_answer": "thermistor",
+              "explanation": "Thermistors are temperature-sensing components used in circuits that need to respond to temperature changes.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The systems model for electronic products follows the sequence: input, ________, output.",
+              "options": null,
+              "correct_answer": "process",
+              "explanation": "The process stage is where the input is analysed and logic is applied to determine what output should be produced.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Sensor",
+                  "match": "An input device that detects environmental changes"
+                },
+                {
+                  "term": "Transistor",
+                  "match": "An electronic component used as a switch or amplifier"
+                },
+                {
+                  "term": "Microcontroller",
+                  "match": "A programmable chip that controls electronic systems"
+                },
+                {
+                  "term": "Laser cutter",
+                  "match": "A CAM machine that cuts materials using a focused laser beam"
+                },
+                {
+                  "term": "Vacuum forming",
+                  "match": "A process where a heated thermoplastic sheet is pulled over a mould"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

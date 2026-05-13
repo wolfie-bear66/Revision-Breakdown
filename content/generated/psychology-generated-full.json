@@ -1,0 +1,1524 @@
+{
+  "subject": {
+    "name": "Psychology",
+    "exam_board": "AQA",
+    "category": "Humanities",
+    "colour": "#7c3aed",
+    "emoji": "🧠",
+    "slug": "psychology-aqa"
+  },
+  "topics": [
+    {
+      "name": "Memory",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Memory Models & Types",
+          "cards": [
+            {
+              "keyword": "short-term memory (STM)",
+              "definition": "a temporary store of limited capacity — holds around 7 items for up to 30 seconds",
+              "display_order": 1
+            },
+            {
+              "keyword": "long-term memory (LTM)",
+              "definition": "a permanent store of unlimited capacity and duration — holds memories for a lifetime",
+              "display_order": 2
+            },
+            {
+              "keyword": "encoding",
+              "definition": "converting information into a form that can be stored in memory — e.g. acoustic (sound), visual (image), semantic (meaning)",
+              "display_order": 3
+            },
+            {
+              "keyword": "capacity",
+              "definition": "the amount of information a memory store can hold — STM: ~7 items; LTM: unlimited",
+              "display_order": 4
+            },
+            {
+              "keyword": "duration",
+              "definition": "how long a memory store retains information — STM: up to 30 seconds; LTM: lifetime",
+              "display_order": 5
+            },
+            {
+              "keyword": "the multi-store model (Atkinson & Shiffrin)",
+              "definition": "a model proposing memory flows through three stores: sensory register, STM, and LTM",
+              "display_order": 6
+            },
+            {
+              "keyword": "rehearsal",
+              "definition": "repeating information to keep it in STM or transfer it to LTM — maintenance or elaborative rehearsal",
+              "display_order": 7
+            },
+            {
+              "keyword": "retrieval",
+              "definition": "accessing and bringing stored information back into conscious awareness",
+              "display_order": 8
+            },
+            {
+              "keyword": "forgetting",
+              "definition": "the inability to recall stored information — causes include interference, decay, and lack of retrieval cues",
+              "display_order": 9
+            },
+            {
+              "keyword": "interference",
+              "definition": "forgetting caused by other memories disrupting recall — proactive (old memories) or retroactive (new memories)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the main difference between short-term memory and long-term memory?",
+              "options": [
+                "STM holds information permanently, while LTM holds it temporarily",
+                "STM has limited capacity and duration, while LTM has unlimited capacity and can last a lifetime",
+                "STM uses semantic encoding, while LTM uses acoustic encoding",
+                "STM is only used for visual information, while LTM stores everything"
+              ],
+              "correct_answer": "STM has limited capacity and duration, while LTM has unlimited capacity and can last a lifetime",
+              "explanation": "Short-term memory is temporary and limited (around 7 items for up to 30 seconds), whereas long-term memory is permanent and can store unlimited information.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How many items can short-term memory typically hold?",
+              "options": [
+                "Around 3 items",
+                "Around 15 items",
+                "Around 7 items",
+                "Around 20 items"
+              ],
+              "correct_answer": "Around 7 items",
+              "explanation": "Research shows that short-term memory has a limited capacity of approximately 7 items, plus or minus 2.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does encoding mean in memory?",
+              "options": [
+                "Forgetting information over time",
+                "Converting information into a form that can be stored in memory",
+                "Retrieving memories from long-term storage",
+                "The physical location where memories are stored in the brain"
+              ],
+              "correct_answer": "Converting information into a form that can be stored in memory",
+              "explanation": "Encoding is the process of transforming information (such as sounds, images, or meanings) into a format that memory can store and process.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is NOT a type of encoding?",
+              "options": [
+                "Acoustic encoding",
+                "Visual encoding",
+                "Semantic encoding",
+                "Physical encoding"
+              ],
+              "correct_answer": "Physical encoding",
+              "explanation": "The three main types of encoding are acoustic (sound), visual (image), and semantic (meaning). Physical encoding is not recognized as a standard memory encoding type.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "According to the multi-store model, how many memory stores are there?",
+              "options": [
+                "Two: sensory register and long-term memory",
+                "Three: sensory register, short-term memory, and long-term memory",
+                "Four: sensory register, short-term memory, working memory, and long-term memory",
+                "One: a single unified memory store"
+              ],
+              "correct_answer": "Three: sensory register, short-term memory, and long-term memory",
+              "explanation": "The multi-store model proposed by Atkinson and Shiffrin suggests that memory flows through three separate stores: the sensory register, short-term memory, and long-term memory.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is rehearsal in memory?",
+              "options": [
+                "The process of dreaming about information",
+                "Repeating information to keep it in STM or transfer it to LTM",
+                "The speed at which you read new information",
+                "Forgetting information intentionally"
+              ],
+              "correct_answer": "Repeating information to keep it in STM or transfer it to LTM",
+              "explanation": "Rehearsal involves repeating or mentally practicing information, which can maintain it in short-term memory or help transfer it into long-term memory.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How long can information typically stay in short-term memory?",
+              "options": [
+                "Up to 5 minutes",
+                "Up to 30 seconds",
+                "Up to 2 hours",
+                "Permanently"
+              ],
+              "correct_answer": "Up to 30 seconds",
+              "explanation": "Short-term memory has a limited duration of approximately 30 seconds unless the information is rehearsed or transferred to long-term memory.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does retrieval mean in memory?",
+              "options": [
+                "Storing new information in memory",
+                "Encoding information into the brain",
+                "Accessing and bringing stored information back into conscious awareness",
+                "The capacity of memory stores"
+              ],
+              "correct_answer": "Accessing and bringing stored information back into conscious awareness",
+              "explanation": "Retrieval is the process of accessing memories that have been stored and bringing them back into conscious thought so they can be used.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is a cause of forgetting?",
+              "options": [
+                "Using rehearsal strategies",
+                "Encoding information semantically",
+                "Interference from other memories",
+                "Transferring information to long-term memory"
+              ],
+              "correct_answer": "Interference from other memories",
+              "explanation": "Interference occurs when other memories disrupt the recall of a target memory. This is one of the main causes of forgetting, along with decay and lack of retrieval cues.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between proactive and retroactive interference?",
+              "options": [
+                "Proactive interference is forgetting due to new memories; retroactive is forgetting due to old memories",
+                "Proactive interference is forgetting due to old memories; retroactive is forgetting due to new memories",
+                "They are the same thing with different names",
+                "Proactive interference affects STM; retroactive interference affects LTM"
+              ],
+              "correct_answer": "Proactive interference is forgetting due to old memories; retroactive is forgetting due to new memories",
+              "explanation": "Proactive interference occurs when old memories interfere with learning new information, while retroactive interference occurs when new memories disrupt the recall of old memories.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Long-term memory has unlimited capacity.",
+              "correct_answer": "True",
+              "explanation": "Long-term memory is considered to have virtually unlimited capacity and can store vast amounts of information over a lifetime.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Short-term memory can hold information for several hours without rehearsal.",
+              "correct_answer": "False",
+              "explanation": "Short-term memory only holds information for up to about 30 seconds without rehearsal or other strategies to maintain it.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Semantic encoding involves storing information based on its meaning.",
+              "correct_answer": "True",
+              "explanation": "Semantic encoding is one of the three main types of encoding and involves processing information based on its meaning rather than its sound or appearance.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The multi-store model was developed by Rogers and Shiffrin.",
+              "correct_answer": "False",
+              "explanation": "The multi-store model was developed by Atkinson and Shiffrin, not Rogers and Shiffrin.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Maintenance rehearsal and elaborative rehearsal are two different types of rehearsal.",
+              "correct_answer": "True",
+              "explanation": "Maintenance rehearsal involves simple repetition to keep information in STM, while elaborative rehearsal involves processing information more deeply to transfer it to LTM.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Capacity refers to how long information can be stored in memory.",
+              "correct_answer": "False",
+              "explanation": "Capacity refers to the amount of information a memory store can hold. Duration refers to how long information is retained.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Visual encoding means storing information as sounds.",
+              "correct_answer": "False",
+              "explanation": "Visual encoding involves storing information as images or pictures. Acoustic encoding involves storing information as sounds.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Forgetting can be caused by decay or lack of retrieval cues.",
+              "correct_answer": "True",
+              "explanation": "Forgetting has multiple causes, including decay (information fading over time) and lack of retrieval cues (not having the right triggers to access memories).",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The sensory register is part of the multi-store model of memory.",
+              "correct_answer": "True",
+              "explanation": "The sensory register is the first of the three stores in the multi-store model, where sensory information is briefly held before passing to short-term memory.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Short-term memory has the same capacity as long-term memory.",
+              "correct_answer": "False",
+              "explanation": "Short-term memory has a limited capacity of about 7 items, while long-term memory has unlimited capacity.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Short-term memory can hold information for approximately ________ seconds without rehearsal.",
+              "options": null,
+              "correct_answer": "30",
+              "explanation": "Research on short-term memory shows that information is typically retained for up to about 30 seconds unless it is actively rehearsed or transferred to long-term memory.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ model proposes that memory flows through three separate stores: sensory register, STM, and LTM.",
+              "options": null,
+              "correct_answer": "multi-store",
+              "explanation": "The multi-store model, developed by Atkinson and Shiffrin, is a foundational theory of memory that describes how information passes through these three sequential stores.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "_________ is the process of converting information into a form that can be stored in memory.",
+              "options": null,
+              "correct_answer": "Encoding",
+              "explanation": "Encoding is the critical first step in memory formation, where sensory information is transformed into a format that the memory system can process and store.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Short-term memory can typically hold around ________ items.",
+              "options": null,
+              "correct_answer": "7",
+              "explanation": "The magic number seven, plus or minus two, is a well-established finding about the limited capacity of short-term memory.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "_________ is the inability to recall stored information.",
+              "options": null,
+              "correct_answer": "Forgetting",
+              "explanation": "Forgetting occurs when stored memories cannot be successfully retrieved or recalled, and can result from various causes such as interference, decay, or absence of retrieval cues.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Repeating information to keep it in STM or transfer it to LTM is called __________.",
+              "options": null,
+              "correct_answer": "rehearsal",
+              "explanation": "Rehearsal is an active maintenance strategy that can sustain information in short-term memory or strengthen encoding for transfer to long-term memory.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "_________ refers to the amount of information a memory store can hold.",
+              "options": null,
+              "correct_answer": "Capacity",
+              "explanation": "Capacity is a key characteristic of memory stores, with STM having limited capacity (about 7 items) and LTM having unlimited capacity.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "_________ is when old memories interfere with the learning of new information.",
+              "options": null,
+              "correct_answer": "Proactive interference",
+              "explanation": "Proactive interference occurs when previously learned information disrupts the recall or learning of new information, as opposed to retroactive interference.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "_________ refers to how long a memory store retains information.",
+              "options": null,
+              "correct_answer": "Duration",
+              "explanation": "Duration is a key characteristic of memory stores that distinguishes them, with STM having a duration of about 30 seconds and LTM lasting a lifetime.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The process of accessing and bringing stored information back into conscious awareness is called __________.",
+              "options": null,
+              "correct_answer": "retrieval",
+              "explanation": "Retrieval is the final stage of memory use, allowing us to access information that has been previously encoded and stored.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Short-term memory",
+                  "match": "A temporary store of limited capacity — holds around 7 items for up to 30 seconds"
+                },
+                {
+                  "term": "Long-term memory",
+                  "match": "A permanent store of unlimited capacity and duration — holds memories for a lifetime"
+                },
+                {
+                  "term": "Encoding",
+                  "match": "Converting information into a form that can be stored in memory"
+                },
+                {
+                  "term": "Retrieval",
+                  "match": "Accessing and bringing stored information back into conscious awareness"
+                },
+                {
+                  "term": "Interference",
+                  "match": "Forgetting caused by other memories disrupting recall"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perception",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Visual Perception",
+          "cards": [
+            {
+              "keyword": "perception",
+              "definition": "the process of interpreting sensory information to make sense of the world",
+              "display_order": 1
+            },
+            {
+              "keyword": "sensation",
+              "definition": "raw sensory data received by the sense organs before it is interpreted",
+              "display_order": 2
+            },
+            {
+              "keyword": "depth cues",
+              "definition": "visual signals that help us perceive distance and depth — e.g. size, overlap, linear perspective",
+              "display_order": 3
+            },
+            {
+              "keyword": "monocular depth cues",
+              "definition": "cues that can be seen with one eye — e.g. relative size, texture gradient, linear perspective",
+              "display_order": 4
+            },
+            {
+              "keyword": "binocular depth cues",
+              "definition": "cues that require both eyes — e.g. binocular disparity (slightly different images from each eye)",
+              "display_order": 5
+            },
+            {
+              "keyword": "perceptual set",
+              "definition": "the tendency to perceive things in a particular way based on past experience, emotion, or motivation",
+              "display_order": 6
+            },
+            {
+              "keyword": "visual illusion",
+              "definition": "when perception does not match physical reality — e.g. the Müller-Lyer illusion",
+              "display_order": 7
+            },
+            {
+              "keyword": "nature vs nurture (perception)",
+              "definition": "debate over whether perception is innate (nature) or shaped by experience and culture (nurture)",
+              "display_order": 8
+            },
+            {
+              "keyword": "Gibson's direct theory",
+              "definition": "the theory that perception is based directly on information in the environment — no prior knowledge needed (nature)",
+              "display_order": 9
+            },
+            {
+              "keyword": "Gregory's constructivist theory",
+              "definition": "the theory that perception is an active process using prior knowledge and experience to interpret sensory data (nurture)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the main difference between sensation and perception?",
+              "options": [
+                "Sensation is the interpretation of sensory information, while perception is the raw data received",
+                "Perception is the interpretation of sensory information, while sensation is the raw data received",
+                "Sensation and perception are the same thing",
+                "Sensation happens in the brain, while perception happens in the sense organs"
+              ],
+              "correct_answer": "Perception is the interpretation of sensory information, while sensation is the raw data received",
+              "explanation": "Sensation refers to raw sensory data from the sense organs, while perception is when the brain interprets this information to make sense of it.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of a monocular depth cue?",
+              "options": [
+                "Binocular disparity",
+                "Linear perspective",
+                "Convergence",
+                "Stereopsis"
+              ],
+              "correct_answer": "Linear perspective",
+              "explanation": "Linear perspective is a monocular depth cue that works with one eye. Binocular disparity, convergence, and stereopsis all require both eyes.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does perceptual set refer to?",
+              "options": [
+                "The physical ability of your eyes to focus on objects",
+                "The tendency to perceive things in a particular way based on past experience, emotion, or motivation",
+                "The distance at which you can see clearly",
+                "The speed at which your eyes move across a scene"
+              ],
+              "correct_answer": "The tendency to perceive things in a particular way based on past experience, emotion, or motivation",
+              "explanation": "Perceptual set is how our expectations and prior knowledge influence what we perceive, shaped by our experiences and emotions.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which theory suggests that perception is based directly on information in the environment without needing prior knowledge?",
+              "options": [
+                "Gregory's constructivist theory",
+                "Gibson's direct theory",
+                "Cognitive theory of perception",
+                "Gestalt theory of perception"
+              ],
+              "correct_answer": "Gibson's direct theory",
+              "explanation": "Gibson's direct theory proposes that we perceive information directly from the environment without needing to use prior knowledge or interpret the data.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a visual illusion?",
+              "options": [
+                "When your eyes are physically damaged and cannot see properly",
+                "When perception does not match physical reality",
+                "When you see something that is too far away to identify",
+                "When light reflects off a shiny surface"
+              ],
+              "correct_answer": "When perception does not match physical reality",
+              "explanation": "A visual illusion occurs when what we perceive doesn't match what is actually there in the environment, like the Müller-Lyer illusion.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is a binocular depth cue?",
+              "options": [
+                "Texture gradient",
+                "Relative size",
+                "Binocular disparity",
+                "Overlap"
+              ],
+              "correct_answer": "Binocular disparity",
+              "explanation": "Binocular disparity is a binocular depth cue because it relies on the slightly different images each eye receives. The other options are monocular cues.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Gregory's constructivist theory emphasize about perception?",
+              "options": [
+                "Perception is a passive process that requires no thinking",
+                "Perception only uses information directly from the environment",
+                "Perception is an active process that uses prior knowledge and experience to interpret sensory data",
+                "Perception is entirely determined by genetics"
+              ],
+              "correct_answer": "Perception is an active process that uses prior knowledge and experience to interpret sensory data",
+              "explanation": "Gregory's constructivist theory emphasizes that perception is active and involves the brain using prior knowledge and past experiences to interpret sensory information.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which debate in perception psychology questions whether perception is inborn or learned?",
+              "options": [
+                "Light vs dark perception",
+                "Colour vs black and white perception",
+                "Nature vs nurture",
+                "Fast vs slow perception"
+              ],
+              "correct_answer": "Nature vs nurture",
+              "explanation": "The nature vs nurture debate discusses whether perception is innate (nature) or shaped by experience and learning (nurture).",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is a depth cue?",
+              "options": [
+                "Sound quality",
+                "Relative size",
+                "Temperature",
+                "Smell intensity"
+              ],
+              "correct_answer": "Relative size",
+              "explanation": "Relative size is a depth cue because objects that are closer appear larger than objects that are far away, helping us perceive distance.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "According to Gibson's direct theory, what is NOT needed for perception to occur?",
+              "options": [
+                "Information from the environment",
+                "Functioning sense organs",
+                "Prior knowledge and experience",
+                "Light and visual receptors"
+              ],
+              "correct_answer": "Prior knowledge and experience",
+              "explanation": "Gibson's direct theory proposes that perception comes directly from environmental information without needing prior knowledge or experience to interpret it.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Sensation and perception are the same process.",
+              "correct_answer": "False",
+              "explanation": "Sensation is the raw sensory input, while perception is the interpretation of that input by the brain. They are different processes.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Binocular depth cues require the use of both eyes.",
+              "correct_answer": "True",
+              "explanation": "Binocular depth cues like binocular disparity require both eyes working together to perceive depth.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Perceptual set means that past experience cannot influence how we perceive things.",
+              "correct_answer": "False",
+              "explanation": "Perceptual set is specifically the tendency to perceive things based on past experience, emotion, and motivation, so it is heavily influenced by experience.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The Müller-Lyer illusion is an example of a visual illusion.",
+              "correct_answer": "True",
+              "explanation": "The Müller-Lyer illusion is a classic example where perception does not match physical reality, making it a true visual illusion.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Gibson's direct theory suggests that we need prior knowledge to perceive the world accurately.",
+              "correct_answer": "False",
+              "explanation": "Gibson's direct theory proposes the opposite: that perception is direct and does not require prior knowledge or interpretation.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Relative size is a monocular depth cue.",
+              "correct_answer": "True",
+              "explanation": "Relative size is a monocular depth cue because you can use it to judge depth with just one eye.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Gregory's constructivist theory emphasizes that perception is a passive process.",
+              "correct_answer": "False",
+              "explanation": "Gregory's constructivist theory emphasizes that perception is an active process where the brain uses prior knowledge to interpret sensory information.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Visual illusions prove that our perception always matches physical reality.",
+              "correct_answer": "False",
+              "explanation": "Visual illusions demonstrate the opposite—they show cases where perception does not match physical reality.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Emotion can affect perceptual set.",
+              "correct_answer": "True",
+              "explanation": "Emotion is one of the factors that influences perceptual set, along with past experience and motivation.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Binocular disparity and linear perspective are both binocular depth cues.",
+              "correct_answer": "False",
+              "explanation": "Binocular disparity is a binocular depth cue, but linear perspective is a monocular depth cue that works with one eye.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the raw sensory data received by the sense organs before it is interpreted by the brain.",
+              "options": null,
+              "correct_answer": "Sensation",
+              "explanation": "Sensation refers to the raw, unprocessed sensory information received by the sense organs, which is then interpreted as perception.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are visual signals like size, overlap, and linear perspective that help us perceive distance and depth.",
+              "options": null,
+              "correct_answer": "Depth cues",
+              "explanation": "Depth cues are visual signals that provide information about distance and depth in our environment.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The slight difference between the images seen by each eye is called ________.",
+              "options": null,
+              "correct_answer": "binocular disparity",
+              "explanation": "Binocular disparity is the difference in the images received by each eye, which helps us perceive depth and is a binocular depth cue.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ suggests that perception is an active process using prior knowledge and experience to interpret sensory data.",
+              "options": null,
+              "correct_answer": "Gregory's constructivist theory",
+              "explanation": "Gregory's constructivist theory emphasizes the active role of the brain and prior knowledge in perception.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Cues that can be seen with only one eye, such as relative size and texture gradient, are called ________ depth cues.",
+              "options": null,
+              "correct_answer": "monocular",
+              "explanation": "Monocular depth cues work with one eye and include relative size, texture gradient, and linear perspective.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the process of interpreting sensory information to make sense of the world.",
+              "options": null,
+              "correct_answer": "perception",
+              "explanation": "Perception is the brain's interpretation and organization of sensory information to create meaningful understanding.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The tendency to perceive things in a particular way based on past experience, emotion, or motivation is called ________.",
+              "options": null,
+              "correct_answer": "perceptual set",
+              "explanation": "Perceptual set describes how our expectations, experiences, and emotions influence what and how we perceive.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is when perception does not match physical reality, such as the Müller-Lyer illusion.",
+              "options": null,
+              "correct_answer": "Visual illusion",
+              "explanation": "A visual illusion is a mismatch between what we perceive and what actually exists in the physical world.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ theory proposes that perception is based directly on information in the environment without needing prior knowledge.",
+              "options": null,
+              "correct_answer": "Gibson's direct",
+              "explanation": "Gibson's direct theory suggests that environmental information is rich enough for perception to occur directly without interpretation.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ debate questions whether perception is innate or shaped by experience and culture.",
+              "options": null,
+              "correct_answer": "nature vs nurture",
+              "explanation": "This debate explores whether perception abilities are inherited (nature) or developed through learning and experience (nurture).",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Perception",
+                  "match": "The process of interpreting sensory information to make sense of the world"
+                },
+                {
+                  "term": "Monocular depth cue",
+                  "match": "A visual signal that can be seen with one eye, such as linear perspective"
+                },
+                {
+                  "term": "Perceptual set",
+                  "match": "The tendency to perceive things in a particular way based on past experience, emotion, or motivation"
+                },
+                {
+                  "term": "Visual illusion",
+                  "match": "When perception does not match physical reality"
+                },
+                {
+                  "term": "Binocular disparity",
+                  "match": "The slight difference between the images seen by each eye"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Development",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Cognitive & Social Development",
+          "cards": [
+            {
+              "keyword": "Piaget's stages of development",
+              "definition": "four stages: sensorimotor (0–2), preoperational (2–7), concrete operational (7–11), formal operational (11+)",
+              "display_order": 1
+            },
+            {
+              "keyword": "schema",
+              "definition": "a mental framework or category used to organise and interpret information — updated through assimilation and accommodation",
+              "display_order": 2
+            },
+            {
+              "keyword": "assimilation",
+              "definition": "fitting new information into an existing schema",
+              "display_order": 3
+            },
+            {
+              "keyword": "accommodation",
+              "definition": "changing an existing schema to fit new information that doesn't match it",
+              "display_order": 4
+            },
+            {
+              "keyword": "object permanence",
+              "definition": "the understanding that objects continue to exist even when they cannot be seen — develops in the sensorimotor stage",
+              "display_order": 5
+            },
+            {
+              "keyword": "egocentrism",
+              "definition": "the inability to see things from another person's point of view — characteristic of the preoperational stage",
+              "display_order": 6
+            },
+            {
+              "keyword": "conservation",
+              "definition": "the understanding that quantity stays the same even if its appearance changes — develops in the concrete operational stage",
+              "display_order": 7
+            },
+            {
+              "keyword": "Willingham's learning theory",
+              "definition": "the idea that students learn best when new information is connected to things they already know",
+              "display_order": 8
+            },
+            {
+              "keyword": "attachment",
+              "definition": "a strong emotional bond between a child and caregiver — important for emotional development",
+              "display_order": 9
+            },
+            {
+              "keyword": "Bowlby's theory of attachment",
+              "definition": "the theory that children have an innate need to form one primary attachment — the caregiver provides a secure base",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is NOT one of Piaget's four stages of development?",
+              "options": [
+                "Sensorimotor stage",
+                "Preoperational stage",
+                "Analytical stage",
+                "Formal operational stage"
+              ],
+              "correct_answer": "Analytical stage",
+              "explanation": "Piaget's four stages are sensorimotor, preoperational, concrete operational, and formal operational. The analytical stage is not part of Piaget's theory.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "At what age does the concrete operational stage typically begin according to Piaget?",
+              "options": [
+                "Around age 2",
+                "Around age 7",
+                "Around age 11",
+                "Around age 5"
+              ],
+              "correct_answer": "Around age 7",
+              "explanation": "The concrete operational stage begins at approximately 7 years old and lasts until around age 11, according to Piaget's theory.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a schema in cognitive development?",
+              "options": [
+                "A type of behaviour that only appears in teenagers",
+                "A mental framework used to organise and interpret information",
+                "A physical movement that babies make",
+                "A way of punishing incorrect behaviour"
+              ],
+              "correct_answer": "A mental framework used to organise and interpret information",
+              "explanation": "A schema is a mental framework or category that helps us organise and understand the world around us. It develops and changes as we learn new information.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which process describes fitting new information into an existing schema?",
+              "options": [
+                "Accommodation",
+                "Assimilation",
+                "Conservation",
+                "Attachment"
+              ],
+              "correct_answer": "Assimilation",
+              "explanation": "Assimilation is when new information fits into an existing schema without needing to change it. For example, seeing a new type of dog and calling it 'dog' without changing your understanding of what a dog is.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens during accommodation in Piaget's theory?",
+              "options": [
+                "Information is ignored if it doesn't fit existing knowledge",
+                "A child changes an existing schema to fit new information",
+                "A child repeats the same behaviour multiple times",
+                "An adult teaches a child facts directly"
+              ],
+              "correct_answer": "A child changes an existing schema to fit new information",
+              "explanation": "Accommodation involves modifying or changing an existing schema when new information doesn't fit it. For example, learning that whales are not fish requires you to change your understanding of what makes something a fish.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In which stage of Piaget's development does object permanence develop?",
+              "options": [
+                "Preoperational stage",
+                "Formal operational stage",
+                "Sensorimotor stage",
+                "Concrete operational stage"
+              ],
+              "correct_answer": "Sensorimotor stage",
+              "explanation": "Object permanence develops during the sensorimotor stage (0-2 years). This is when babies learn that objects continue to exist even when they cannot see or touch them.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is egocentrism in the preoperational stage?",
+              "options": [
+                "Being self-confident and proud",
+                "The inability to see things from another person's point of view",
+                "Being lazy and not wanting to help others",
+                "Being competitive with other children"
+              ],
+              "correct_answer": "The inability to see things from another person's point of view",
+              "explanation": "Egocentrism in the preoperational stage means children struggle to understand that other people have different perspectives, beliefs, or knowledge than they do. They see the world mainly from their own viewpoint.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which concept describes understanding that quantity remains the same even when appearance changes?",
+              "options": [
+                "Object permanence",
+                "Egocentrism",
+                "Conservation",
+                "Attachment"
+              ],
+              "correct_answer": "Conservation",
+              "explanation": "Conservation is the understanding that the amount of something stays the same even if it looks different. For example, water poured from a short wide glass into a tall thin glass is still the same amount of water.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "According to Willingham's learning theory, how do students learn best?",
+              "options": [
+                "By memorising facts without understanding them",
+                "By learning in complete silence with no distractions",
+                "When new information is connected to things they already know",
+                "By learning the same thing repeatedly in the same way"
+              ],
+              "correct_answer": "When new information is connected to things they already know",
+              "explanation": "Willingham's theory suggests that students learn more effectively when new information links to their existing knowledge. This helps them build understanding rather than just memorise isolated facts.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Bowlby's theory of attachment suggest about the primary caregiver?",
+              "options": [
+                "The primary caregiver is less important than teachers",
+                "Children can form equal attachments to many different people",
+                "The caregiver provides a secure base for the child to explore the world",
+                "Children don't need a specific primary caregiver"
+              ],
+              "correct_answer": "The caregiver provides a secure base for the child to explore the world",
+              "explanation": "According to Bowlby's attachment theory, the primary caregiver provides a secure base from which a child can explore and interact with the world. This attachment is crucial for emotional development and security.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "In Piaget's sensorimotor stage, babies understand that objects continue to exist when hidden from view.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Object permanence develops gradually during the sensorimotor stage, but very young babies (under 6-8 months) do not have this understanding. If an object is hidden, they act as if it has ceased to exist.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Conservation is a skill that typically develops during the preoperational stage.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Conservation develops during the concrete operational stage (around age 7), not the preoperational stage. Children in the preoperational stage typically fail conservation tasks.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Accommodation involves changing your existing knowledge to fit new information.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Accommodation is when you modify or change an existing schema because new information doesn't fit the old way of thinking. This is a key part of Piaget's theory of cognitive development.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "According to Bowlby, children naturally develop a need to form a single primary attachment.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Bowlby's theory states that children have an innate need to form one primary attachment, usually with the main caregiver. This attachment is crucial for healthy emotional and social development.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Egocentrism means a child is selfish and unwilling to share with others.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Egocentrism in Piaget's theory refers to the inability to see things from another's perspective, not selfishness. It's a cognitive characteristic of the preoperational stage, not a personality trait or behaviour problem.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The formal operational stage typically begins around age 11.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "According to Piaget, the formal operational stage begins at approximately 11 years old and continues into adulthood. During this stage, children develop abstract thinking abilities.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "A schema is a permanent and unchanging way of understanding the world.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Schemas are not permanent; they change and develop throughout life through the processes of assimilation and accommodation as we encounter new information.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Attachment is an emotional bond between a child and caregiver that is important for development.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Attachment is defined as a strong emotional bond between a child and caregiver, and research shows it is crucial for healthy emotional, social, and cognitive development.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Willingham's theory suggests that connecting new learning to existing knowledge improves understanding.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Willingham's learning theory emphasises that students learn best when new information is connected to things they already know, helping them build deeper understanding.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "During the concrete operational stage, children can solve conservation problems.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "A key development in the concrete operational stage (around age 7) is the ability to understand conservation—that quantity remains the same despite changes in appearance.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Piaget's ________ stage is when children aged 0-2 learn about the world through their senses and actions.",
+              "options": null,
+              "correct_answer": "sensorimotor",
+              "explanation": "The sensorimotor stage (0-2 years) is the first stage of Piaget's theory, during which babies explore and learn about their world through sensory experiences and physical actions.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "When a child sees a new animal and calls it 'dog' because they have a 'dog' schema, they are using ________.",
+              "options": null,
+              "correct_answer": "assimilation",
+              "explanation": "The child is fitting the new information (a new animal) into an existing schema (the concept of 'dog') without changing the schema, which is the definition of assimilation.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The understanding that objects continue to exist even when out of sight is called ________.",
+              "options": null,
+              "correct_answer": "object permanence",
+              "explanation": "Object permanence is a key cognitive development that typically emerges during the sensorimotor stage, allowing babies to understand that hidden objects still exist.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "In the ________ stage, children are unable to see things from another person's point of view due to egocentrism.",
+              "options": null,
+              "correct_answer": "preoperational",
+              "explanation": "Egocentrism is a characteristic feature of the preoperational stage (2-7 years), where children struggle to understand perspectives other than their own.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "When a child changes their understanding of 'fish' after learning that whales are not fish, they are using ________.",
+              "options": null,
+              "correct_answer": "accommodation",
+              "explanation": "Accommodation is the process of modifying an existing schema when new information doesn't fit the old understanding. Learning that whales are not fish requires changing the 'fish' schema.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a mental framework that helps organise and interpret information about the world.",
+              "options": null,
+              "correct_answer": "schema",
+              "explanation": "A schema is the term Piaget used to describe the mental structures we use to organise knowledge and make sense of our experiences.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "In the ________ stage (around age 7-11), children can understand conservation and think logically about concrete objects.",
+              "options": null,
+              "correct_answer": "concrete operational",
+              "explanation": "The concrete operational stage is when children develop the ability to solve conservation problems and think more logically, though their thinking is still tied to concrete, visible things.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "According to Willingham, students learn best when new information is ________ to what they already know.",
+              "options": null,
+              "correct_answer": "connected",
+              "explanation": "Willingham's theory emphasises that learning is more effective when teachers link new material to students' existing knowledge and experiences.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ is a strong emotional bond between a child and caregiver that is important for development.",
+              "options": null,
+              "correct_answer": "attachment",
+              "explanation": "Attachment is defined as the strong emotional bond that develops between a child and their primary caregiver, which research shows is crucial for healthy development.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Bowlby believed that the primary caregiver provides a ________ from which children can safely explore the world.",
+              "options": null,
+              "correct_answer": "secure base",
+              "explanation": "According to Bowlby's attachment theory, a securely attached child uses their primary caregiver as a secure base to explore and interact with the environment.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Conservation",
+                  "match": "Understanding that quantity remains the same despite changes in appearance"
+                },
+                {
+                  "term": "Egocentrism",
+                  "match": "The inability to see things from another person's point of view"
+                },
+                {
+                  "term": "Accommodation",
+                  "match": "Changing an existing schema to fit new information"
+                },
+                {
+                  "term": "Object permanence",
+                  "match": "The understanding that objects exist even when they cannot be seen"
+                },
+                {
+                  "term": "Attachment",
+                  "match": "A strong emotional bond between a child and caregiver"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research Methods in Psychology",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Psychological Research Methods",
+          "cards": [
+            {
+              "keyword": "experiment",
+              "definition": "a research method where one variable is changed to see its effect on another, while other variables are controlled",
+              "display_order": 1
+            },
+            {
+              "keyword": "independent variable (IV)",
+              "definition": "the variable that is deliberately changed by the researcher in an experiment",
+              "display_order": 2
+            },
+            {
+              "keyword": "dependent variable (DV)",
+              "definition": "the variable that is measured to see if it has been affected by the IV",
+              "display_order": 3
+            },
+            {
+              "keyword": "control variable",
+              "definition": "a variable that is kept the same to ensure a fair test",
+              "display_order": 4
+            },
+            {
+              "keyword": "hypothesis",
+              "definition": "a clear, testable prediction about what will happen in a study",
+              "display_order": 5
+            },
+            {
+              "keyword": "laboratory experiment",
+              "definition": "an experiment conducted in a controlled environment — high control but low ecological validity",
+              "display_order": 6
+            },
+            {
+              "keyword": "field experiment",
+              "definition": "an experiment conducted in a real-world setting — higher ecological validity but less control",
+              "display_order": 7
+            },
+            {
+              "keyword": "case study",
+              "definition": "an in-depth investigation of a single individual, group, or event — produces rich data but hard to generalise",
+              "display_order": 8
+            },
+            {
+              "keyword": "ethical guidelines (BPS)",
+              "definition": "rules from the British Psychological Society governing research — including informed consent, right to withdraw, and debriefing",
+              "display_order": 9
+            },
+            {
+              "keyword": "ecological validity",
+              "definition": "the extent to which research findings can be applied to real-world situations",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is an experiment in psychology?",
+              "options": [
+                "A research method where one variable is changed to see its effect on another, while other variables are controlled",
+                "A way of asking people questions about their opinions",
+                "An observation of people in their natural environment without any changes",
+                "A detailed study of one person's life history"
+              ],
+              "correct_answer": "A research method where one variable is changed to see its effect on another, while other variables are controlled",
+              "explanation": "An experiment is defined by deliberately changing one variable to test its effect while keeping other things the same. This distinguishes it from other research methods like surveys or observations.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which variable is deliberately changed by the researcher in an experiment?",
+              "options": [
+                "The dependent variable",
+                "The independent variable",
+                "The control variable",
+                "The ecological variable"
+              ],
+              "correct_answer": "The independent variable",
+              "explanation": "The independent variable (IV) is what the researcher manipulates or changes on purpose. The dependent variable is what gets measured as a result.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the dependent variable in an experiment?",
+              "options": [
+                "The variable that the researcher changes",
+                "The variable that is measured to see if it has been affected by changes",
+                "The variable that is kept the same throughout the study",
+                "The variable that cannot be measured"
+              ],
+              "correct_answer": "The variable that is measured to see if it has been affected by changes",
+              "explanation": "The dependent variable (DV) is what researchers measure or observe as the outcome. It 'depends on' the changes made to the independent variable.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In an experiment testing whether music affects concentration, what would be the independent variable?",
+              "options": [
+                "The type of music played",
+                "The concentration level measured by test scores",
+                "The age of the participants",
+                "The time of day the experiment is conducted"
+              ],
+              "correct_answer": "The type of music played",
+              "explanation": "The independent variable is what the researcher changes — in this case, the music. The concentration level (measured by test scores) would be the dependent variable.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a control variable?",
+              "options": [
+                "A variable that is deliberately changed by the researcher",
+                "A variable that is measured in the experiment",
+                "A variable that is kept the same to ensure a fair test",
+                "A variable that cannot be studied"
+              ],
+              "correct_answer": "A variable that is kept the same to ensure a fair test",
+              "explanation": "Control variables are kept constant so they don't affect the results. This ensures any changes in the dependent variable are due to the independent variable, not other factors.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a hypothesis in psychology research?",
+              "options": [
+                "A guess made without any reasoning",
+                "A clear, testable prediction about what will happen in a study",
+                "A conclusion drawn after the experiment is finished",
+                "A way to avoid bias in research"
+              ],
+              "correct_answer": "A clear, testable prediction about what will happen in a study",
+              "explanation": "A hypothesis is a specific, measurable prediction made before the study starts, based on theory or previous research. It must be testable to be useful.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a key advantage of a laboratory experiment?",
+              "options": [
+                "It is always cheaper than other methods",
+                "It has high control over variables",
+                "It always gives results that can be applied to real life",
+                "It doesn't require an independent variable"
+              ],
+              "correct_answer": "It has high control over variables",
+              "explanation": "Laboratory experiments are conducted in controlled environments where researchers can carefully manipulate variables and reduce the impact of confounding factors, leading to more reliable cause-and-effect conclusions.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a weakness of laboratory experiments compared to field experiments?",
+              "options": [
+                "They cannot test hypotheses",
+                "They have lower ecological validity",
+                "They are always more expensive",
+                "They cannot measure the dependent variable"
+              ],
+              "correct_answer": "They have lower ecological validity",
+              "explanation": "Laboratory experiments take place in artificial settings, so the findings may not apply well to real-world situations. Field experiments, conducted in natural settings, have higher ecological validity.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What type of research method is a case study?",
+              "options": [
+                "An experiment with large groups of people",
+                "An in-depth investigation of a single individual, group, or event",
+                "A quick survey of many people's opinions",
+                "A test of a hypothesis using control variables"
+              ],
+              "correct_answer": "An in-depth investigation of a single individual, group, or event",
+              "explanation": "A case study involves detailed, in-depth examination of one person, group, or situation, producing rich detailed data. However, it can be hard to generalise findings to other people or situations.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is one important ethical guideline from the British Psychological Society (BPS)?",
+              "options": [
+                "Researchers should lie to participants about the study's purpose",
+                "Participants should be given informed consent before taking part",
+                "Researchers should keep personal information about participants public",
+                "Participants should never be allowed to withdraw from a study"
+              ],
+              "correct_answer": "Participants should be given informed consent before taking part",
+              "explanation": "Informed consent means participants must be told what the study involves and agree to take part. This is a key BPS ethical guideline designed to protect participants' rights.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The independent variable is the variable that researchers measure as the outcome of the study.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The independent variable is what the researcher changes. The dependent variable is what they measure. Students often confuse these two terms.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "A hypothesis must be clear and testable.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "A good hypothesis is always specific and measurable so that researchers can actually test it in their study.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Laboratory experiments always have higher ecological validity than field experiments.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Laboratory experiments have lower ecological validity because they take place in artificial settings. Field experiments, conducted in real-world settings, have higher ecological validity.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Control variables should be kept the same in an experiment to ensure a fair test.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "By keeping control variables constant, researchers can be more confident that any changes in the dependent variable are caused by the independent variable, not other factors.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "A case study can easily be generalised to the whole population.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Case studies involve detailed study of one person or group, making it difficult to generalise findings to other people or situations. This is a major limitation of this method.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Right to withdraw is an important ethical guideline in psychology research.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Participants should always have the right to stop taking part in a study at any time without penalty. This is a key BPS ethical guideline.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Ecological validity refers to whether findings can be applied to real-world situations.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Ecological validity is about how well research findings transfer to real-life settings and situations outside the research environment.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "In a laboratory experiment, the researcher has more control over variables than in a field experiment.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Laboratory settings allow researchers to control many variables precisely, whereas field experiments in real-world settings have less control due to many unpredictable factors.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Debriefing is an ethical requirement that should happen before a study begins.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Debriefing happens after the study ends and involves explaining the study's purpose and answering any questions. Informed consent happens before the study begins.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The dependent variable is what the researcher deliberately changes in an experiment.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The dependent variable is measured, not changed. The independent variable is the one that the researcher deliberately changes.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "In an experiment, the ________ is the variable that is deliberately changed by the researcher.",
+              "options": null,
+              "correct_answer": "independent variable",
+              "explanation": "The independent variable (IV) is manipulated or changed by the researcher to test its effect on the dependent variable.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a clear, testable prediction about what will happen in a study.",
+              "options": null,
+              "correct_answer": "hypothesis",
+              "explanation": "A hypothesis is the predicted outcome of research, stated in a way that can be tested and measured.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ experiment is conducted in a controlled laboratory environment with high control but lower ecological validity.",
+              "options": null,
+              "correct_answer": "laboratory",
+              "explanation": "Laboratory experiments take place in artificial settings where the researcher can control variables precisely, but this may reduce how applicable findings are to real life.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ experiment is conducted in a real-world setting, providing higher ecological validity but less control over variables.",
+              "options": null,
+              "correct_answer": "field",
+              "explanation": "Field experiments happen in natural environments, so findings are more relevant to real life, but researchers have less control over confounding variables.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is an in-depth investigation of a single individual, group, or event that produces rich, detailed data.",
+              "options": null,
+              "correct_answer": "case study",
+              "explanation": "Case studies provide detailed information about one person or situation but may be difficult to generalise to other populations.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the variable that is measured to see if it has been affected by the independent variable.",
+              "options": null,
+              "correct_answer": "dependent variable",
+              "explanation": "The dependent variable (DV) is the outcome or result that researchers measure, which hopefully depends on changes to the independent variable.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ guidelines from the British Psychological Society govern research, including informed consent and right to withdraw.",
+              "options": null,
+              "correct_answer": "Ethical",
+              "explanation": "Ethical guidelines are rules that protect participants' safety, privacy, and well-being during psychological research.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ validity refers to the extent to which research findings can be applied to real-world situations.",
+              "options": null,
+              "correct_answer": "Ecological",
+              "explanation": "Ecological validity measures how well findings from a study transfer to real-life settings and everyday situations.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ variable is a variable that is kept the same throughout an experiment to ensure a fair test.",
+              "options": null,
+              "correct_answer": "control",
+              "explanation": "Control variables must remain constant so they don't interfere with the relationship between the independent and dependent variables.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is an important BPS ethical guideline that means participants must be informed about what the study involves before they agree to take part.",
+              "options": null,
+              "correct_answer": "Informed consent",
+              "explanation": "Informed consent ensures that participants understand what they are agreeing to and have made a voluntary decision to participate.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Independent variable",
+                  "match": "The variable that is deliberately changed by the researcher"
+                },
+                {
+                  "term": "Dependent variable",
+                  "match": "The variable that is measured to see if it has been affected"
+                },
+                {
+                  "term": "Control variable",
+                  "match": "A variable that is kept the same to ensure a fair test"
+                },
+                {
+                  "term": "Hypothesis",
+                  "match": "A clear, testable prediction about what will happen in a study"
+                },
+                {
+                  "term": "Ecological validity",
+                  "match": "The extent to which findings can be applied to real-world situations"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2238 @@
+{
+  "subject": {
+    "name": "English Literature",
+    "exam_board": "Edexcel",
+    "category": "English",
+    "colour": "#dc2626",
+    "emoji": "📚",
+    "slug": "english-literature-edexcel"
+  },
+  "topics": [
+    {
+      "name": "Romeo & Juliet — Shakespeare",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Romeo & Juliet — Characters",
+          "cards": [
+            {
+              "keyword": "Romeo",
+              "definition": "the male protagonist — impulsive, passionate, and idealistic. His hasty decisions (killing Tybalt, suicide) drive the tragedy",
+              "display_order": 1
+            },
+            {
+              "keyword": "Juliet",
+              "definition": "the female protagonist — initially obedient but grows independent. More practical than Romeo; she questions the speed of their love",
+              "display_order": 2
+            },
+            {
+              "keyword": "Friar Lawrence",
+              "definition": "a well-meaning friar who secretly marries Romeo and Juliet and devises the sleeping potion plan — his good intentions lead to tragedy",
+              "display_order": 3
+            },
+            {
+              "keyword": "the Nurse",
+              "definition": "Juliet's loyal confidante and go-between — comic and warm, but she abandons Juliet when she advises her to marry Paris",
+              "display_order": 4
+            },
+            {
+              "keyword": "Tybalt",
+              "definition": "Juliet's hot-headed cousin who despises the Montagues — his killing of Mercutio and death at Romeo's hands is the play's turning point",
+              "display_order": 5
+            },
+            {
+              "keyword": "Mercutio",
+              "definition": "Romeo's witty, irreverent friend — his death transforms the play from comedy to tragedy. His 'plague on both your houses' is key",
+              "display_order": 6
+            },
+            {
+              "keyword": "Lord Capulet",
+              "definition": "Juliet's father — initially seems caring but becomes controlling and threatens to disown her when she refuses to marry Paris",
+              "display_order": 7
+            },
+            {
+              "keyword": "Paris",
+              "definition": "a nobleman who wishes to marry Juliet — represents the socially acceptable match Juliet is expected to make",
+              "display_order": 8
+            },
+            {
+              "keyword": "Prince Escalus",
+              "definition": "the ruler of Verona who tries to end the feud — his authority represents social order that the families' hatred threatens",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Montagues and Capulets",
+              "definition": "the two feuding families — the ancient rivalry between them is the root cause of all the tragedy in the play",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is Romeo's main character flaw that drives the tragedy forward?",
+              "options": [
+                "His inability to fight in battle",
+                "His impulsiveness and hasty decisions",
+                "His lack of love for Juliet",
+                "His refusal to obey his parents"
+              ],
+              "correct_answer": "His impulsiveness and hasty decisions",
+              "explanation": "Romeo acts without thinking, leading to major consequences such as killing Tybalt and taking his own life based on false information.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does Juliet differ from Romeo in her approach to their love?",
+              "options": [
+                "She is more practical and questions the speed of their relationship",
+                "She is less intelligent than Romeo",
+                "She does not truly love him",
+                "She refuses to marry him at all"
+              ],
+              "correct_answer": "She is more practical and questions the speed of their relationship",
+              "explanation": "Juliet is more cautious and pragmatic, while Romeo is completely swept up in passion. She worries about how quickly they are moving.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What role does Friar Lawrence play in the tragedy?",
+              "options": [
+                "He deliberately plans to harm Romeo and Juliet",
+                "He refuses to help the young couple in any way",
+                "He secretly marries them and devises the sleeping potion plan with good intentions",
+                "He tells the Prince about their secret marriage"
+              ],
+              "correct_answer": "He secretly marries them and devises the sleeping potion plan with good intentions",
+              "explanation": "Friar Lawrence wants to help and end the feud, but his well-meaning actions ultimately lead to disaster when the plan goes wrong.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which character's death marks the turning point of the play from comedy to tragedy?",
+              "options": [
+                "Romeo",
+                "Mercutio",
+                "Tybalt",
+                "Paris"
+              ],
+              "correct_answer": "Mercutio",
+              "explanation": "Mercutio's death is the pivotal moment that changes the tone of the play and sets in motion the final tragic events.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Mercutio say about the feud between the families?",
+              "options": [
+                "He hopes it will last forever",
+                "He says 'plague on both your houses'",
+                "He blames only the Montagues",
+                "He thinks it is a good thing"
+              ],
+              "correct_answer": "He says 'plague on both your houses'",
+              "explanation": "This famous line shows Mercutio's anger at both families for their pointless hatred, which he believes has destroyed him and will destroy others.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does the Nurse abandon Juliet at a crucial moment?",
+              "options": [
+                "She dies before she can help",
+                "She advises Juliet to marry Paris instead of staying loyal to Romeo",
+                "Romeo tells her to leave Juliet",
+                "She runs away to another city"
+              ],
+              "correct_answer": "She advises Juliet to marry Paris instead of staying loyal to Romeo",
+              "explanation": "After Romeo is banished, the Nurse suggests Juliet should forget him and marry Paris, which deeply hurts Juliet when she needs support most.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Lord Capulet do when Juliet refuses to marry Paris?",
+              "options": [
+                "He gives her his blessing to marry Romeo",
+                "He threatens to disown her",
+                "He agrees to delay the wedding",
+                "He arranges for her to flee Verona"
+              ],
+              "correct_answer": "He threatens to disown her",
+              "explanation": "Lord Capulet becomes controlling and angry when Juliet refuses Paris, showing he cares more about the match than his daughter's happiness.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who is Tybalt and what is his most significant action?",
+              "options": [
+                "He is Romeo's best friend and helps him hide",
+                "He is Juliet's hot-headed cousin who kills Mercutio and is killed by Romeo",
+                "He is a kind nobleman who supports the lovers",
+                "He is the Prince's advisor"
+              ],
+              "correct_answer": "He is Juliet's hot-headed cousin who kills Mercutio and is killed by Romeo",
+              "explanation": "Tybalt's actions are crucial to the tragedy: he kills Mercutio, which causes Romeo to kill him in revenge, leading to Romeo's banishment.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Paris represent in the play?",
+              "options": [
+                "The enemy of the Montague family",
+                "The socially acceptable match Juliet is expected to make",
+                "A close friend of Romeo",
+                "The Prince's son"
+              ],
+              "correct_answer": "The socially acceptable match Juliet is expected to make",
+              "explanation": "Paris is a nobleman who represents what Juliet's family and society think is the right choice, in contrast to her secret love for Romeo.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does Prince Escalus try to end the feud between the families?",
+              "options": [
+                "He is related to both families",
+                "His authority represents social order that the feud threatens",
+                "He is friends with Friar Lawrence",
+                "He wants to marry Juliet"
+              ],
+              "correct_answer": "His authority represents social order that the feud threatens",
+              "explanation": "The Prince is the ruler of Verona and sees the feud as a threat to peace and order in the city, so he tries to stop it.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Romeo is a calm, thoughtful character who carefully considers the consequences of his actions.",
+              "correct_answer": "False",
+              "explanation": "Romeo is impulsive and passionate, acting without thinking through the results of what he does, which leads directly to the tragedy.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Juliet shows growth and independence throughout the play, moving away from her initial obedience.",
+              "correct_answer": "True",
+              "explanation": "Juliet becomes more independent and willing to make her own choices, especially when she stands up to her father about marrying Paris.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Friar Lawrence's plan to reunite the families works perfectly without any problems.",
+              "correct_answer": "False",
+              "explanation": "The Friar's sleeping potion plan fails because Romeo does not receive the message explaining it, leading to tragic misunderstandings.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The Nurse is always completely loyal to Juliet and never lets her down.",
+              "correct_answer": "False",
+              "explanation": "The Nurse abandons Juliet when she advises her to marry Paris instead of Romeo, failing her at a critical moment.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Mercutio is a main character who is deeply involved in the feud between the families.",
+              "correct_answer": "False",
+              "explanation": "Mercutio is Romeo's friend but not a member of either family. He becomes involved in the feud only when Tybalt challenges him and Romeo.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Tybalt's death is less important to the plot than Mercutio's death.",
+              "correct_answer": "False",
+              "explanation": "Both deaths are crucial; Mercutio's death triggers Romeo's revenge killing of Tybalt, which causes Romeo's banishment and the final tragedy.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Lord Capulet supports Juliet's decision to marry Romeo rather than Paris.",
+              "correct_answer": "False",
+              "explanation": "Lord Capulet is controlling and wants Juliet to marry Paris. He threatens to disown her when she refuses, showing no support for her true love.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Paris understands that Juliet is in love with Romeo and steps aside for them.",
+              "correct_answer": "False",
+              "explanation": "Paris has no idea that Juliet loves Romeo. He believes she will marry him and is unaware of her secret marriage to Romeo.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Prince Escalus's authority helps prevent most of the violence in the play.",
+              "correct_answer": "False",
+              "explanation": "Despite the Prince's efforts to maintain order and threaten punishment, the family feud and the lovers' secret actions lead to continued violence and death.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The ancient feud between the Montagues and Capulets is the root cause of all the tragedy in the play.",
+              "correct_answer": "True",
+              "explanation": "The ongoing hatred between the families creates the dangerous situation in which Romeo and Juliet must hide their love, leading to the tragic ending.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Romeo's decision to kill ________ in revenge for Mercutio's death is the moment that seals his fate.",
+              "options": null,
+              "correct_answer": "Tybalt",
+              "explanation": "This act causes Romeo to be banished from Verona, which prevents him from being with Juliet and sets up the final tragedy.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the character who secretly marries Romeo and Juliet in an attempt to end the feud.",
+              "options": null,
+              "correct_answer": "Friar Lawrence",
+              "explanation": "The Friar believes that their secret marriage might bring peace between the families, but it ultimately contributes to the tragedy.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Juliet's nurse becomes her loyal ________ and helps carry messages between the young lovers.",
+              "options": null,
+              "correct_answer": "confidante",
+              "explanation": "The Nurse is Juliet's trusted confidante and acts as a go-between for Romeo and Juliet, though she later abandons her support.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a witty, irreverent friend of Romeo whose death changes the play from comedy to tragedy.",
+              "options": null,
+              "correct_answer": "Mercutio",
+              "explanation": "Mercutio's death is the pivotal turning point that transforms the light tone of the early play into dark and serious tragedy.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ despises the Montagues and is killed by Romeo in an act of revenge.",
+              "options": null,
+              "correct_answer": "Tybalt",
+              "explanation": "Tybalt, Juliet's hot-headed cousin, is the one who kills Mercutio, prompting Romeo to kill him in return.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ represents the socially acceptable match that Juliet's family wants her to make.",
+              "options": null,
+              "correct_answer": "Paris",
+              "explanation": "Paris is a nobleman who is seen as an ideal match by Juliet's parents, in contrast to Romeo who is from the rival family.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Lord Capulet threatens to ________ Juliet when she refuses to marry Paris.",
+              "options": null,
+              "correct_answer": "disown",
+              "explanation": "This threat shows how controlling Lord Capulet becomes when his will is challenged, prioritizing the Paris match over his daughter's happiness.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Prince Escalus, the ________ of Verona, tries to end the ancient feud between the families.",
+              "options": null,
+              "correct_answer": "ruler",
+              "explanation": "As the ruler or prince of the city, Escalus represents law and order and wants to stop the violence caused by the family rivalry.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ questions the speed of Romeo and Juliet's love, showing she is more practical than her lover.",
+              "options": null,
+              "correct_answer": "Juliet",
+              "explanation": "Juliet demonstrates more caution and logical thinking than Romeo, while he is completely swept up in passion and acts recklessly.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ancient ________ between the Montagues and Capulets is the root cause of all the tragedy in the play.",
+              "options": null,
+              "correct_answer": "feud",
+              "explanation": "This long-standing hatred between the two families creates the dangerous context in which Romeo and Juliet's love becomes impossible.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each character to their correct description.",
+              "options": [
+                {
+                  "term": "Romeo",
+                  "match": "Impulsive and passionate male protagonist whose hasty decisions drive the tragedy"
+                },
+                {
+                  "term": "Mercutio",
+                  "match": "Witty friend whose death transforms the play from comedy to tragedy"
+                },
+                {
+                  "term": "Friar Lawrence",
+                  "match": "Well-meaning friar who secretly marries the couple and creates the sleeping potion plan"
+                },
+                {
+                  "term": "The Nurse",
+                  "match": "Warm and comic confidante of Juliet who abandons her when she suggests marrying Paris"
+                },
+                {
+                  "term": "Prince Escalus",
+                  "match": "Ruler of Verona who represents social order and tries to end the feud"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Romeo & Juliet — Themes & Context",
+          "cards": [
+            {
+              "keyword": "love and desire",
+              "definition": "the play explores different types of love — Romeo's romantic idealism, the Nurse's bawdy humour, Paris's formal courtship, and the deep bond between Romeo and Juliet",
+              "display_order": 1
+            },
+            {
+              "keyword": "fate and free will",
+              "definition": "the play raises questions about whether the lovers are 'star-crossed' (fated to die) or whether their own choices seal their doom",
+              "display_order": 2
+            },
+            {
+              "keyword": "conflict and violence",
+              "definition": "the feud creates a culture of violence in Verona — public brawls, duels, and ultimately suicide",
+              "display_order": 3
+            },
+            {
+              "keyword": "family and duty",
+              "definition": "both Romeo and Juliet feel the tension between their love and their duties to their families",
+              "display_order": 4
+            },
+            {
+              "keyword": "gender and patriarchy",
+              "definition": "Elizabethan society expected women to be obedient — Juliet's defiance of her father reflects the play's questioning of patriarchal control",
+              "display_order": 5
+            },
+            {
+              "keyword": "light and dark imagery",
+              "definition": "Shakespeare uses light (day, stars, fire) to represent love and hope, and darkness to represent death and danger — a key motif throughout",
+              "display_order": 6
+            },
+            {
+              "keyword": "haste and impulsiveness",
+              "definition": "many of the play's tragedies result from characters acting too quickly — Romeo and Juliet's relationship moves from meeting to marriage in 24 hours",
+              "display_order": 7
+            },
+            {
+              "keyword": "Elizabethan context",
+              "definition": "in Shakespeare's era, women had little say in marriage, family honour was paramount, and young people were expected to obey their parents",
+              "display_order": 8
+            },
+            {
+              "keyword": "dramatic irony",
+              "definition": "when the audience knows something a character does not — used extensively in Act 5 as the audience knows Juliet is not really dead",
+              "display_order": 9
+            },
+            {
+              "keyword": "the prologue",
+              "definition": "a 14-line sonnet that opens the play and reveals the outcome — the 'star-crossed lovers' will die, making the whole play a tragedy from the start",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does the Prologue tell us will happen to Romeo and Juliet?",
+              "options": [
+                "They will fall in love and get married happily",
+                "They will die because they are 'star-crossed lovers'",
+                "They will run away together and live in exile",
+                "They will convince their families to end the feud"
+              ],
+              "correct_answer": "They will die because they are 'star-crossed lovers'",
+              "explanation": "The Prologue is a 14-line sonnet that reveals the tragic outcome from the start, telling the audience the lovers are 'star-crossed' and will die.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which type of love is NOT explored in Romeo and Juliet?",
+              "options": [
+                "The Nurse's bawdy humour and crude jokes about love",
+                "Romeo's romantic idealism when he first sees Juliet",
+                "Brotherly love between Romeo and Benvolio",
+                "Paris's formal and dutiful courtship of Juliet"
+              ],
+              "correct_answer": "Brotherly love between Romeo and Benvolio",
+              "explanation": "The play explores romantic idealism, bawdy humour, and formal courtship, but does not focus on fraternal love as a central theme.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main question the play raises about fate and free will?",
+              "options": [
+                "Whether the characters are entirely controlled by destiny or by their own choices",
+                "Whether fate is stronger than weapons",
+                "Whether the Friar can change the future",
+                "Whether the feud is written in the stars"
+              ],
+              "correct_answer": "Whether the characters are entirely controlled by destiny or by their own choices",
+              "explanation": "The play explores whether Romeo and Juliet are 'star-crossed' (destined to die) or whether their own impulsive decisions cause their tragedy.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does the feud between the families affect Verona?",
+              "options": [
+                "It creates a culture of violence including public brawls, duels, and suicide",
+                "It improves the economy through increased weapon sales",
+                "It helps the Prince maintain control of the city",
+                "It only affects the two families privately"
+              ],
+              "correct_answer": "It creates a culture of violence including public brawls, duels, and suicide",
+              "explanation": "The conflict and violence theme shows how the feud spreads violence throughout Verona and ultimately leads to tragedy.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What tension do both Romeo and Juliet experience?",
+              "options": [
+                "The conflict between their romantic love and their duties to their feuding families",
+                "The disagreement about where to meet",
+                "The worry that they are too young to marry",
+                "The fear that the Nurse will tell their secret"
+              ],
+              "correct_answer": "The conflict between their romantic love and their duties to their feuding families",
+              "explanation": "Family and duty is a key theme: both lovers struggle between their love for each other and their loyalty to their opposing families.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does Juliet's defiance of her father reflect the play's themes?",
+              "options": [
+                "Because it shows how patriarchal society expected women to obey, and she questions this control",
+                "Because it proves that children always know better than parents",
+                "Because it shows that Juliet is cruel and disrespectful",
+                "Because it is based on Elizabethan law"
+              ],
+              "correct_answer": "Because it shows how patriarchal society expected women to obey, and she questions this control",
+              "explanation": "Gender and patriarchy is explored through Juliet's refusal to obey her father, challenging the Elizabethan expectation of female obedience.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In the play, what does light imagery typically represent?",
+              "options": [
+                "Death and danger",
+                "Love and hope",
+                "The Montague family",
+                "Confusion and chaos"
+              ],
+              "correct_answer": "Love and hope",
+              "explanation": "Light and dark imagery is used throughout: light (day, stars, fire) symbolises love and hope, while darkness represents death and danger.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How long does Romeo and Juliet's relationship move from meeting to marriage?",
+              "options": [
+                "One week",
+                "Three days",
+                "24 hours",
+                "One month"
+              ],
+              "correct_answer": "24 hours",
+              "explanation": "The theme of haste and impulsiveness shows how Romeo and Juliet rush into marriage in just 24 hours, which contributes to the tragic ending.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In Elizabethan times, what was expected of young people regarding their parents?",
+              "options": [
+                "They could choose their own marriages freely",
+                "They were expected to obey and show loyalty to their families",
+                "They could question all parental decisions",
+                "They were allowed to leave home at any age"
+              ],
+              "correct_answer": "They were expected to obey and show loyalty to their families",
+              "explanation": "Elizabethan context shows that women had little say in marriage and family honour was paramount, so obedience to parents was essential.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which moment in Act 5 is the best example of dramatic irony in this play?",
+              "options": [
+                "When Romeo kills Tybalt in the street",
+                "When Romeo does not know that Juliet is not really dead, but the audience does",
+                "When Juliet first meets Romeo at the party",
+                "When the Prince banishes Romeo from Verona"
+              ],
+              "correct_answer": "When Romeo does not know that Juliet is not really dead, but the audience does",
+              "explanation": "Dramatic irony occurs when the audience knows something a character does not — in Act 5, we know Juliet will wake but Romeo believes she is truly dead.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The Prologue is written as a sonnet with 14 lines.",
+              "correct_answer": "True",
+              "explanation": "The Prologue is a 14-line sonnet that opens the play and immediately reveals the tragic outcome.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Romeo and Juliet's love is the only type of love explored in the play.",
+              "correct_answer": "False",
+              "explanation": "The play explores multiple types of love including the Nurse's bawdy humour, Paris's formal courtship, and the romantic idealism of Romeo.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The play suggests that the lovers have complete control over their fate.",
+              "correct_answer": "False",
+              "explanation": "The play raises questions about whether they are truly 'star-crossed' (fated to die) or whether their own choices seal their doom — it is ambiguous.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The feud between the Montagues and Capulets only affects the two families.",
+              "correct_answer": "False",
+              "explanation": "The conflict and violence theme shows that the feud creates violence throughout Verona, affecting the whole city through public brawls and deaths.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "In Elizabethan society, women had significant freedom in choosing their own husbands.",
+              "correct_answer": "False",
+              "explanation": "Elizabethan context shows that women had little say in marriage; their fathers made the decisions and family honour was paramount.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Darkness in the play is used to represent love and hope.",
+              "correct_answer": "False",
+              "explanation": "Light and dark imagery shows that darkness represents death and danger, while light (day, stars, fire) represents love and hope.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Romeo and Juliet's decision to marry after knowing each other for a few hours demonstrates haste and impulsiveness.",
+              "correct_answer": "True",
+              "explanation": "The theme of haste and impulsiveness is central to the play — many tragedies result from characters acting too quickly, including the lovers' rushed marriage.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Juliet's defiance of her father is presented as wrong and shameful in the play.",
+              "correct_answer": "False",
+              "explanation": "Through gender and patriarchy themes, the play questions and challenges patriarchal control, suggesting Juliet's defiance raises important questions about women's rights.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The audience knows from the Prologue that Romeo and Juliet will die.",
+              "correct_answer": "True",
+              "explanation": "The Prologue reveals that the 'star-crossed lovers' will die, making the whole play a tragedy from the start.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Dramatic irony is used extensively in the final act of the play.",
+              "correct_answer": "True",
+              "explanation": "Dramatic irony is used throughout Act 5, particularly when the audience knows Juliet is not really dead but Romeo does not.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Prologue describes Romeo and Juliet as '________ lovers' who will die.",
+              "options": null,
+              "correct_answer": "star-crossed",
+              "explanation": "The Prologue uses the phrase 'star-crossed lovers' to indicate that they are fated or destined to die, creating the tragic atmosphere of the play.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The theme of ________ and impulsiveness shows how Romeo and Juliet rush into marriage within 24 hours.",
+              "options": null,
+              "correct_answer": "haste",
+              "explanation": "Haste and impulsiveness is a key theme that explains why Romeo and Juliet's relationship moves so quickly from meeting to marriage.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Shakespeare uses ________ imagery to represent love and hope in the play.",
+              "options": null,
+              "correct_answer": "light",
+              "explanation": "Light and dark imagery is a motif throughout the play where light (day, stars, fire) represents love and hope.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ between the two families creates a culture of violence in Verona.",
+              "options": null,
+              "correct_answer": "feud",
+              "explanation": "The conflict and violence theme explores how the feud creates public brawls, duels, and ultimately leads to death and suicide.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Both Romeo and Juliet experience tension between their love and their ________ to their families.",
+              "options": null,
+              "correct_answer": "duty",
+              "explanation": "Family and duty is a central theme as both lovers struggle between their romantic love and their loyalty to their opposing families.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Juliet's defiance of her father reflects the play's exploration of ________ and patriarchal control.",
+              "options": null,
+              "correct_answer": "gender",
+              "explanation": "Gender and patriarchy is a key theme that questions Elizabethan expectations of women's obedience to male authority.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "In Elizabethan times, ________ had little say in choosing their own marriages.",
+              "options": null,
+              "correct_answer": "women",
+              "explanation": "Elizabethan context shows that women had little control over marriage decisions; their fathers and family honour determined who they would marry.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The play uses ________ irony extensively in Act 5 when the audience knows Juliet is not dead but Romeo does not.",
+              "options": null,
+              "correct_answer": "dramatic",
+              "explanation": "Dramatic irony occurs when the audience knows something a character does not, creating tension and tragedy in the final act.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The play raises questions about whether Romeo and Juliet are controlled by ________ or by their own choices.",
+              "options": null,
+              "correct_answer": "fate",
+              "explanation": "The theme of fate and free will questions whether the lovers are 'star-crossed' (destined) or whether their impulsive decisions cause their tragedy.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Nurse's crude jokes and humorous comments about love demonstrate a ________ type of love in the play.",
+              "options": null,
+              "correct_answer": "bawdy",
+              "explanation": "Love and desire explores different types of love including the Nurse's bawdy humour, which contrasts with Romeo's romantic idealism.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Dramatic irony",
+                  "match": "When the audience knows something a character does not, used extensively in Act 5"
+                },
+                {
+                  "term": "Light imagery",
+                  "match": "Used to represent love and hope throughout the play"
+                },
+                {
+                  "term": "Star-crossed lovers",
+                  "match": "A phrase from the Prologue describing Romeo and Juliet as fated to die"
+                },
+                {
+                  "term": "Patriarchy",
+                  "match": "Male-dominated system of power that Juliet defies by choosing her own love"
+                },
+                {
+                  "term": "Haste",
+                  "match": "The impulsive speed at which Romeo and Juliet move from meeting to marriage in 24 hours"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Strange Case of Dr Jekyll & Mr Hyde",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Jekyll & Hyde — Characters & Plot",
+          "cards": [
+            {
+              "keyword": "Dr Henry Jekyll",
+              "definition": "a respected scientist who creates a potion to separate his good and evil natures — his experiment spirals out of control",
+              "display_order": 1
+            },
+            {
+              "keyword": "Mr Edward Hyde",
+              "definition": "Jekyll's evil alter ego — small, deformed, and violent. He represents the repressed dark side of human nature",
+              "display_order": 2
+            },
+            {
+              "keyword": "Mr Utterson",
+              "definition": "a lawyer and close friend of Jekyll who narrates much of the story — represents Victorian rationalism and loyalty",
+              "display_order": 3
+            },
+            {
+              "keyword": "Dr Lanyon",
+              "definition": "a scientist and friend of Jekyll who dies of shock after witnessing Hyde's transformation — represents the danger of going against nature",
+              "display_order": 4
+            },
+            {
+              "keyword": "Mr Enfield",
+              "definition": "Utterson's cousin who first tells him about Hyde trampling a child — provides an early impression of Hyde's evil",
+              "display_order": 5
+            },
+            {
+              "keyword": "the transformation",
+              "definition": "Jekyll's potion allows him to physically transform into Hyde — over time Hyde begins to appear without the potion, suggesting evil is taking over",
+              "display_order": 6
+            },
+            {
+              "keyword": "duality",
+              "definition": "the idea that humans have both good and evil within them — the central theme of the novel",
+              "display_order": 7
+            },
+            {
+              "keyword": "reputation",
+              "definition": "Victorian society was obsessed with respectability — Jekyll creates Hyde partly to indulge desires he cannot pursue as a respected gentleman",
+              "display_order": 8
+            },
+            {
+              "keyword": "the door / cabinet",
+              "definition": "key symbols in the novel — Hyde's door represents secrecy and the hidden side of respectable society; the cabinet is where Jekyll's experiments take place",
+              "display_order": 9
+            },
+            {
+              "keyword": "Stevenson's context",
+              "definition": "written in 1886 during the Victorian era — reflects anxieties about evolution, degeneration, and the hidden 'savage' side of humanity",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does Dr Jekyll create in his laboratory?",
+              "options": [
+                "A cure for evil",
+                "A potion to separate his good and evil natures",
+                "A formula to become invisible",
+                "A medicine to extend his life"
+              ],
+              "correct_answer": "A potion to separate his good and evil natures",
+              "explanation": "Jekyll's experiment is designed to physically separate the good and evil parts of himself into two different bodies, allowing him to indulge his darker desires without damaging his reputation.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Mr Hyde described as being?",
+              "options": [
+                "Tall, handsome, and charming",
+                "Small, deformed, and violent",
+                "Old, wise, and mysterious",
+                "Well-dressed and sophisticated"
+              ],
+              "correct_answer": "Small, deformed, and violent",
+              "explanation": "Hyde is physically described as small and deformed, and his violent behaviour—such as trampling a child and murdering Carew—shows his evil nature through his actions.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who is the lawyer and close friend of Jekyll that narrates much of the story?",
+              "options": [
+                "Mr Enfield",
+                "Dr Lanyon",
+                "Mr Utterson",
+                "Mr Hyde"
+              ],
+              "correct_answer": "Mr Utterson",
+              "explanation": "Utterson is the main narrator of the novel and represents Victorian rationalism and loyalty as he tries to uncover the mystery of Jekyll and Hyde's relationship.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to Dr Lanyon in the novel?",
+              "options": [
+                "He becomes friends with Hyde",
+                "He dies of shock after witnessing Hyde's transformation",
+                "He helps Jekyll escape from London",
+                "He becomes a criminal alongside Hyde"
+              ],
+              "correct_answer": "He dies of shock after witnessing Hyde's transformation",
+              "explanation": "Lanyon witnesses Jekyll transform into Hyde, which horrifies him so much that he dies shortly after, representing the danger of going against nature.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What crime does Mr Enfield first tell Utterson about Hyde committing?",
+              "options": [
+                "Robbing a bank",
+                "Murdering a woman",
+                "Trampling a child",
+                "Burning a building"
+              ],
+              "correct_answer": "Trampling a child",
+              "explanation": "Enfield's account of Hyde trampling a child gives the first clear impression of Hyde's evil nature and kicks off Utterson's investigation into the mystery.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the central theme of duality in the novel suggest?",
+              "options": [
+                "Humans are either completely good or completely evil",
+                "Humans have both good and evil within them",
+                "Evil people cannot be changed",
+                "Society is divided into two separate classes"
+              ],
+              "correct_answer": "Humans have both good and evil within them",
+              "explanation": "The duality theme is the core idea of the novel—Jekyll and Hyde represent the good and evil sides of human nature that exist together in all people.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does Jekyll create Hyde partly as a way to indulge forbidden desires?",
+              "options": [
+                "Because he wants to become a criminal",
+                "Because Victorian society was obsessed with respectability and he had to hide his darker side",
+                "Because he wanted to test his scientific skills",
+                "Because he was bored with being a good person"
+              ],
+              "correct_answer": "Because Victorian society was obsessed with respectability and he had to hide his darker side",
+              "explanation": "Jekyll is a respected gentleman and scientist who cannot openly pursue his darker desires, so he creates Hyde as a way to indulge them without damaging his reputation.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do the door and cabinet represent in the novel?",
+              "options": [
+                "Jekyll's wealth and expensive possessions",
+                "Symbols of key locations in London",
+                "Secrecy and the hidden side of respectable society",
+                "The different rooms in Jekyll's house"
+              ],
+              "correct_answer": "Secrecy and the hidden side of respectable society",
+              "explanation": "Hyde's door and Jekyll's cabinet are key symbols showing how evil is hidden behind respectable appearances and locked away from public view.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "When was 'The Strange Case of Dr Jekyll & Mr Hyde' written?",
+              "options": [
+                "1776",
+                "1876",
+                "1886",
+                "1896"
+              ],
+              "correct_answer": "1886",
+              "explanation": "Stevenson wrote the novella in 1886 during the Victorian era, when anxieties about evolution and degeneration were common in society.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do the anxieties reflected in Stevenson's context suggest about Victorian attitudes?",
+              "options": [
+                "People were concerned about religion and church attendance",
+                "People feared the 'savage' side of humanity and anxieties about evolution",
+                "People wanted to travel to distant countries",
+                "People were excited about new scientific discoveries with no concerns"
+              ],
+              "correct_answer": "People feared the 'savage' side of humanity and anxieties about evolution",
+              "explanation": "The novel reflects Victorian anxieties about evolution and degeneration, showing concerns that humans had a hidden 'savage' nature within them.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Mr Hyde is physically larger and more attractive than Dr Jekyll.",
+              "correct_answer": "False",
+              "explanation": "Hyde is described as small and deformed, representing the ugliness of evil, whereas Jekyll is a respectable and normal-looking gentleman.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Mr Utterson is a lawyer who becomes obsessed with uncovering the truth about Jekyll and Hyde.",
+              "correct_answer": "True",
+              "explanation": "Utterson is indeed a lawyer and represents Victorian rationalism as he investigates the mysterious relationship between Jekyll and Hyde throughout the novel.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Dr Lanyon supports Jekyll's scientific experiments and helps him conduct them.",
+              "correct_answer": "False",
+              "explanation": "Lanyon actually opposes Jekyll's methods and does not help with the experiments; he dies of shock when he witnesses the truth about Hyde.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "According to the novel, over time Hyde begins to appear without the potion, suggesting evil is taking over.",
+              "correct_answer": "True",
+              "explanation": "As the story progresses, Hyde becomes more powerful and starts to appear without the potion, showing that the evil side is dominating Jekyll's personality.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Mr Enfield enjoys spending time with Mr Hyde and considers him a friend.",
+              "correct_answer": "False",
+              "explanation": "Enfield is horrified by Hyde's violence when he witnesses him trampling a child, and he tells Utterson about this crime because of how evil Hyde appears.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The transformation between Jekyll and Hyde is a gradual change that takes several hours.",
+              "correct_answer": "False",
+              "explanation": "The transformation is depicted as happening through the potion very quickly, though over time Hyde appears without the potion being used.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Victorian society's obsession with reputation directly influences Jekyll's decision to create Hyde.",
+              "correct_answer": "True",
+              "explanation": "Jekyll cannot pursue his darker desires openly as a respected gentleman, so he uses Hyde as a secret outlet for his evil side without damaging his public image.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The door and cabinet in the novel are simply described as ordinary architectural features with no symbolic meaning.",
+              "correct_answer": "False",
+              "explanation": "The door and cabinet are key symbols representing secrecy and the hidden side of respectable Victorian society.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Stevenson wrote the novel during the Victorian era when people had anxieties about evolution and degeneration.",
+              "correct_answer": "True",
+              "explanation": "Written in 1886, the novel reflects contemporary Victorian fears about evolution and the idea of a hidden 'savage' nature within humanity.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Dr Jekyll is completely evil and has no good qualities at all.",
+              "correct_answer": "False",
+              "explanation": "The entire point of the duality theme is that Jekyll has both good and evil within him—he is respected and capable of kindness, but also harbours darker desires.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Dr Jekyll creates a ________ to separate his good and evil natures.",
+              "options": null,
+              "correct_answer": "potion",
+              "explanation": "The potion is the central device of the experiment that allows Jekyll to physically transform into Hyde.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Mr Hyde is described as ________, deformed, and violent.",
+              "options": null,
+              "correct_answer": "small",
+              "explanation": "Hyde's physical description as small and deformed contrasts with Jekyll's normal appearance and symbolizes the ugliness of evil.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Mr ________ is a lawyer and close friend of Jekyll who represents Victorian rationalism.",
+              "options": null,
+              "correct_answer": "Utterson",
+              "explanation": "Utterson is the main character who narrates the story and tries to uncover the truth through logic and investigation.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Dr Lanyon dies of ________ after witnessing Hyde's transformation.",
+              "options": null,
+              "correct_answer": "shock",
+              "explanation": "The horror of seeing Jekyll transform into Hyde is so overwhelming that Lanyon dies from the emotional and psychological shock.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Mr Enfield first tells Utterson about Hyde ________ a child in the street.",
+              "options": null,
+              "correct_answer": "trampling",
+              "explanation": "This violent act is the first crime mentioned in the novel and begins Utterson's investigation into who Hyde really is.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Over time, Hyde begins to appear without the ________, suggesting evil is taking over Jekyll's body.",
+              "options": null,
+              "correct_answer": "potion",
+              "explanation": "This shows that Hyde is becoming more powerful and dominant, and Jekyll is losing control of the transformation.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The central theme of ________ suggests that humans have both good and evil within them.",
+              "options": null,
+              "correct_answer": "duality",
+              "explanation": "Duality is the key theme of the novel, represented by Jekyll and Hyde being two sides of the same person.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Victorian society was obsessed with ________, which partly motivates Jekyll to create Hyde.",
+              "options": null,
+              "correct_answer": "respectability",
+              "explanation": "Jekyll must maintain his reputation as a respectable gentleman, so he uses Hyde to secretly indulge his darker desires.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Hyde's ________ represents secrecy and the hidden side of respectable Victorian society.",
+              "options": null,
+              "correct_answer": "door",
+              "explanation": "The door is a key symbol showing how evil is kept hidden behind locked doors and respectable appearances.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Stevenson's novel was written in ________, during the Victorian era when anxieties about evolution were common.",
+              "options": null,
+              "correct_answer": "1886",
+              "explanation": "The date reflects the historical context of Victorian anxieties about degeneration and the 'savage' side of human nature.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Dr Jekyll",
+                  "match": "A respected scientist whose experiment spirals out of control"
+                },
+                {
+                  "term": "Mr Hyde",
+                  "match": "Jekyll's evil alter ego who represents repressed dark desires"
+                },
+                {
+                  "term": "Mr Utterson",
+                  "match": "A lawyer who narrates the story and investigates the mystery"
+                },
+                {
+                  "term": "The transformation",
+                  "match": "The physical change caused by Jekyll's potion that eventually happens without it"
+                },
+                {
+                  "term": "Reputation",
+                  "match": "Victorian obsession that drives Jekyll to hide his darker side"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Jekyll & Hyde — Themes",
+          "cards": [
+            {
+              "keyword": "duality of human nature",
+              "definition": "Stevenson's central argument that all humans contain both good and evil — society forces us to suppress the evil, but it cannot be eliminated",
+              "display_order": 1
+            },
+            {
+              "keyword": "science vs religion",
+              "definition": "the novel reflects Victorian anxieties about scientific progress overstepping moral boundaries — Jekyll plays God and suffers for it",
+              "display_order": 2
+            },
+            {
+              "keyword": "repression",
+              "definition": "Victorian society demanded strict moral behaviour — Jekyll's creation of Hyde represents the dangerous consequences of suppressing desires",
+              "display_order": 3
+            },
+            {
+              "keyword": "secrecy and deception",
+              "definition": "the characters in the novel conceal truths — Utterson avoids looking at uncomfortable facts; Jekyll hides his experiments from society",
+              "display_order": 4
+            },
+            {
+              "keyword": "hypocrisy",
+              "definition": "Jekyll publicly upholds Victorian respectability while secretly conducting dangerous experiments and committing immoral acts through Hyde",
+              "display_order": 5
+            },
+            {
+              "keyword": "evolution and degeneration",
+              "definition": "Hyde is described as ape-like and degenerate — reflecting Victorian fears that humans could evolve backwards into a more primitive, savage state",
+              "display_order": 6
+            },
+            {
+              "keyword": "the Gothic genre",
+              "definition": "a literary tradition using dark settings, supernatural events, and psychological horror — Jekyll & Hyde uses Gothic conventions to explore the dark side of human nature",
+              "display_order": 7
+            },
+            {
+              "keyword": "urban London as a setting",
+              "definition": "the foggy, dark streets of Victorian London create an atmosphere of mystery and danger — the city has both respectable and seedy areas, like Jekyll/Hyde",
+              "display_order": 8
+            },
+            {
+              "keyword": "the unreliable narrator",
+              "definition": "different perspectives are given through multiple narrators — Utterson, Lanyon's letter, Jekyll's statement — each withholding information",
+              "display_order": 9
+            },
+            {
+              "keyword": "loss of control",
+              "definition": "Jekyll loses control of his Hyde persona — eventually unable to stay as Jekyll without the potion. Represents the danger of unleashing suppressed desires",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does Stevenson suggest about the duality of human nature in Jekyll and Hyde?",
+              "options": [
+                "All humans contain both good and evil within them",
+                "Only evil people are born with a dark side",
+                "Society creates evil but does not contain it naturally",
+                "Good and evil cannot exist in the same person"
+              ],
+              "correct_answer": "All humans contain both good and evil within them",
+              "explanation": "Stevenson's central argument is that every human contains both good and evil — society simply forces us to suppress the evil side, but it cannot be completely eliminated.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does the novel reflect Victorian anxieties about science and religion?",
+              "options": [
+                "It shows that science and religion should never work together",
+                "It suggests scientific progress can overstep moral boundaries when it plays God",
+                "It proves that religion is more important than science",
+                "It demonstrates that Victorian scientists were always honest"
+              ],
+              "correct_answer": "It suggests scientific progress can overstep moral boundaries when it plays God",
+              "explanation": "Jekyll's scientific experiment crosses moral lines by attempting to separate good from evil — this represents Victorian fears that scientific ambition could go too far and ignore moral responsibility.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Jekyll's creation of Hyde represent in terms of Victorian society?",
+              "options": [
+                "The success of scientific medicine in the Victorian era",
+                "The dangerous consequences of suppressing natural human desires",
+                "The importance of following all social rules without question",
+                "The way Victorian society eliminated crime completely"
+              ],
+              "correct_answer": "The dangerous consequences of suppressing natural human desires",
+              "explanation": "Victorian society demanded strict moral behaviour and the repression of desires — Jekyll's transformation into Hyde shows what happens when these desires are forced down rather than addressed openly.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What role does secrecy play in Jekyll and Hyde?",
+              "options": [
+                "It helps the characters build stronger friendships",
+                "Characters conceal truths, and this leads to isolation and danger",
+                "It has no real impact on the plot or characters",
+                "Secrecy is used to protect innocent people from harm"
+              ],
+              "correct_answer": "Characters conceal truths, and this leads to isolation and danger",
+              "explanation": "Utterson avoids confronting uncomfortable facts, and Jekyll hides his experiments from society — these secrets ultimately lead to tragedy and prevent people from helping each other.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How is hypocrisy shown through Jekyll's character?",
+              "options": [
+                "He is honest about his immoral experiments with everyone he meets",
+                "He publicly appears respectable while secretly conducting dangerous experiments",
+                "He treats Hyde with kindness and sympathy",
+                "He warns society about the dangers of his work before conducting it"
+              ],
+              "correct_answer": "He publicly appears respectable while secretly conducting dangerous experiments",
+              "explanation": "Jekyll maintains a respectable public reputation while secretly experimenting with forbidden science and allowing Hyde to commit immoral acts — this is the definition of hypocrisy.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What Victorian fear is represented by Hyde's ape-like appearance?",
+              "options": [
+                "That humans could evolve forward into more intelligent beings",
+                "That primates could develop human intelligence",
+                "That humans could degenerate backwards into a more primitive, savage state",
+                "That Victorian medicine could make people stronger"
+              ],
+              "correct_answer": "That humans could degenerate backwards into a more primitive, savage state",
+              "explanation": "Hyde is described in animalistic, primitive terms — this reflects Victorian anxieties about evolution and the fear that humans could devolve back to a savage, uncontrolled state.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which Gothic conventions are used in Jekyll and Hyde?",
+              "options": [
+                "Bright, sunny settings and happy endings",
+                "Dark settings, supernatural events, and psychological horror",
+                "Romantic love stories and beautiful nature descriptions",
+                "Realistic, modern-day city life with no mystery"
+              ],
+              "correct_answer": "Dark settings, supernatural events, and psychological horror",
+              "explanation": "The novel uses Gothic traditions including shadowy London streets, the supernatural transformation, and the psychological terror of Jekyll losing control — all classic Gothic elements.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does the setting of Victorian London reflect the Jekyll and Hyde theme?",
+              "options": [
+                "The city is completely safe and unified",
+                "Foggy, dark streets create mystery, and the city has both respectable and seedy areas like Jekyll's dual nature",
+                "London is purely a place of evil and corruption",
+                "The setting has no connection to the themes of the novel"
+              ],
+              "correct_answer": "Foggy, dark streets create mystery, and the city has both respectable and seedy areas like Jekyll's dual nature",
+              "explanation": "Victorian London's contrast between respectable streets and dangerous slums mirrors Jekyll and Hyde's duality — the city itself is split between good and evil.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is the use of multiple narrators important in Jekyll and Hyde?",
+              "options": [
+                "It makes the story easier to read and understand",
+                "It allows different perspectives to be given while each narrator withholds information, creating an unreliable narrative",
+                "It proves that Utterson is the most trustworthy character",
+                "It demonstrates that all characters see events in exactly the same way"
+              ],
+              "correct_answer": "It allows different perspectives to be given while each narrator withholds information, creating an unreliable narrative",
+              "explanation": "Utterson, Lanyon, and Jekyll each tell parts of the story but hide uncomfortable truths — this means readers cannot trust any single perspective and must piece together the full truth themselves.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Jekyll's loss of control over Hyde represent thematically?",
+              "options": [
+                "That science is always beneficial and safe",
+                "That humans can perfectly control their desires once they acknowledge them",
+                "The danger of unleashing suppressed desires — they become uncontrollable",
+                "That evil can be completely eliminated through medicine"
+              ],
+              "correct_answer": "The danger of unleashing suppressed desires — they become uncontrollable",
+              "explanation": "Jekyll eventually cannot maintain his Jekyll identity without the potion and becomes trapped as Hyde — showing that suppressed desires, once released, become dangerous and unmanageable.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Stevenson believed that evil is only present in certain people, not in all humans.",
+              "correct_answer": "False",
+              "explanation": "Stevenson's central theme is that all humans contain both good and evil — the difference is that society forces people to suppress their evil side.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The novel suggests that Victorian science was always used responsibly and safely.",
+              "correct_answer": "False",
+              "explanation": "The novel presents science vs religion as a theme, showing that Jekyll's scientific ambition crosses moral boundaries and reflects anxieties about science overstepping ethical limits.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Repression of desires in Victorian society had negative consequences in the novel.",
+              "correct_answer": "True",
+              "explanation": "Jekyll's attempt to suppress his darker desires through strict moral behaviour leads to his dangerous experiments and eventual destruction — showing that repression is harmful.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Utterson fully investigates and openly discusses all the mysterious events he discovers.",
+              "correct_answer": "False",
+              "explanation": "Utterson avoids looking at uncomfortable facts and withholds information rather than confronting the truth directly — demonstrating the theme of secrecy and deception.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Hyde's appearance is described as primitive and ape-like to reflect fears about human degeneration.",
+              "correct_answer": "True",
+              "explanation": "Hyde is presented with animalistic, savage characteristics that reflect Victorian anxieties about evolution — the fear that humans could devolve backwards.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Jekyll and Hyde uses conventions from the Gothic literary tradition.",
+              "correct_answer": "True",
+              "explanation": "The novel includes dark settings, supernatural elements, and psychological horror — all key features of Gothic literature.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The foggy streets of London have no connection to the main themes of the novel.",
+              "correct_answer": "False",
+              "explanation": "The dark, mysterious urban setting mirrors Jekyll's hidden life and the duality of the city itself — respectable and seedy areas exist side by side.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "All narrators in the novel give us complete and reliable information about events.",
+              "correct_answer": "False",
+              "explanation": "The multiple narrators are unreliable — each withholds information and gives only partial perspectives, making it impossible to trust any single account.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Jekyll is able to maintain perfect control over Hyde throughout the novel.",
+              "correct_answer": "False",
+              "explanation": "Jekyll gradually loses control of his Hyde persona and eventually cannot return to being Jekyll without the potion — showing the danger of unleashed desires.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The theme of hypocrisy is shown through Jekyll's public reputation versus his secret behaviour.",
+              "correct_answer": "True",
+              "explanation": "Jekyll is publicly respectable while secretly conducting immoral experiments and allowing Hyde to commit terrible acts — this is the essence of hypocrisy.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Stevenson suggests that all humans contain both ________ and evil within them.",
+              "options": null,
+              "correct_answer": "good",
+              "explanation": "The duality of human nature is central to the novel — everyone has both good and evil sides, though society forces us to suppress the evil.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Jekyll's scientific experiments reflect Victorian anxieties about science overstepping ________ boundaries.",
+              "options": null,
+              "correct_answer": "moral",
+              "explanation": "The theme of science vs religion shows concerns that scientific ambition could ignore ethical limits, as Jekyll does when he plays God.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Victorian society demanded strict moral behaviour, leading to the ________ of desires that Jekyll tries to suppress.",
+              "options": null,
+              "correct_answer": "repression",
+              "explanation": "Repression is the forced suppression of desires — Jekyll's creation of Hyde represents what happens when these suppressed urges are finally released.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The characters in Jekyll and Hyde conceal truths about themselves and each other, demonstrating the theme of ________ and deception.",
+              "options": null,
+              "correct_answer": "secrecy",
+              "explanation": "Both Jekyll and Utterson keep secrets, which leads to isolation and tragedy — showing how concealment prevents understanding and help.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Jekyll publicly maintains a respectable reputation while secretly conducting immoral acts — this is called ________.",
+              "options": null,
+              "correct_answer": "hypocrisy",
+              "explanation": "Hypocrisy is the practice of pretending to have moral standards you do not actually follow — Jekyll's public respectability hides his secret experiments.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Hyde is described with ________ features to reflect Victorian fears about human evolution going backwards.",
+              "options": null,
+              "correct_answer": "ape-like",
+              "explanation": "Hyde's primitive, animalistic appearance represents the theme of evolution and degeneration — the fear that humans could devolve into savagery.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Jekyll and Hyde uses conventions from the ________ literary tradition, including dark settings and psychological horror.",
+              "options": null,
+              "correct_answer": "Gothic",
+              "explanation": "The Gothic genre features supernatural elements, dark atmospheres, and psychological terror — all present in this novel.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The foggy, dark streets of Victorian ________ create an atmosphere of mystery and mirror Jekyll's duality.",
+              "options": null,
+              "correct_answer": "London",
+              "explanation": "London's contrast between respectable and seedy areas parallels Jekyll's split nature — the setting itself reflects the main theme.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The use of multiple ________ in the novel, each withholding information, creates an unreliable narrative.",
+              "options": null,
+              "correct_answer": "narrators",
+              "explanation": "Different perspectives from Utterson, Lanyon, and Jekyll mean readers cannot trust any single account — each character hides uncomfortable truths.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Jekyll's inability to control Hyde represents the danger of unleashing ________ desires that were previously suppressed.",
+              "options": null,
+              "correct_answer": "suppressed",
+              "explanation": "Once Jekyll releases his darker urges through the potion, he loses control of them — showing that repressed desires become dangerous when unleashed.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Duality of human nature",
+                  "match": "The idea that all humans contain both good and evil"
+                },
+                {
+                  "term": "Evolution and degeneration",
+                  "match": "Victorian fears that humans could devolve into a primitive, savage state"
+                },
+                {
+                  "term": "The Gothic genre",
+                  "match": "A literary tradition using dark settings, supernatural events, and psychological horror"
+                },
+                {
+                  "term": "Secrecy and deception",
+                  "match": "When characters conceal truths, leading to isolation and danger"
+                },
+                {
+                  "term": "Loss of control",
+                  "match": "When Jekyll can no longer manage his Hyde persona and becomes trapped as it"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A Christmas Carol — Dickens",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "A Christmas Carol — Characters",
+          "cards": [
+            {
+              "keyword": "Ebenezer Scrooge",
+              "definition": "the miserly protagonist who undergoes a moral transformation after being visited by three spirits — represents greed and its redemption",
+              "display_order": 1
+            },
+            {
+              "keyword": "Jacob Marley",
+              "definition": "Scrooge's dead business partner whose ghost appears in chains — a warning of the fate awaiting those who prioritise money over humanity",
+              "display_order": 2
+            },
+            {
+              "keyword": "the Ghost of Christmas Past",
+              "definition": "the first spirit who shows Scrooge scenes from his past — reveals how he became cold and helps explain his character",
+              "display_order": 3
+            },
+            {
+              "keyword": "the Ghost of Christmas Present",
+              "definition": "the second spirit who shows Scrooge how others celebrate Christmas — including the Cratchit family and Fred's party",
+              "display_order": 4
+            },
+            {
+              "keyword": "the Ghost of Christmas Yet to Come",
+              "definition": "a dark, silent spirit showing Scrooge his own death and its indifferent reception — the most frightening spirit",
+              "display_order": 5
+            },
+            {
+              "keyword": "Bob Cratchit",
+              "definition": "Scrooge's poorly paid but cheerful clerk — represents the working poor. His loyalty and good nature contrast with Scrooge's meanness",
+              "display_order": 6
+            },
+            {
+              "keyword": "Tiny Tim",
+              "definition": "Bob Cratchit's disabled son — used by Dickens to evoke sympathy and highlight the suffering of the poor. 'God bless us, every one!'",
+              "display_order": 7
+            },
+            {
+              "keyword": "Fred",
+              "definition": "Scrooge's cheerful nephew who invites him to Christmas dinner — represents warmth, generosity, and the true spirit of Christmas",
+              "display_order": 8
+            },
+            {
+              "keyword": "Fezziwig",
+              "definition": "Scrooge's kind former employer shown in the Christmas Past scenes — represents how employers should treat workers",
+              "display_order": 9
+            },
+            {
+              "keyword": "Belle",
+              "definition": "Scrooge's former fiancée who breaks off their engagement because his love of money has replaced his love for her",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is Ebenezer Scrooge's main character flaw at the beginning of the novel?",
+              "options": [
+                "His love of Christmas",
+                "His greed and obsession with money",
+                "His kindness to his workers",
+                "His close family relationships"
+              ],
+              "correct_answer": "His greed and obsession with money",
+              "explanation": "Scrooge is defined by his miserliness and prioritisation of money over everything else. This is the central character trait that the spirits help him overcome.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who is Jacob Marley?",
+              "options": [
+                "Scrooge's nephew",
+                "Scrooge's former business partner who is now dead",
+                "Scrooge's current employee",
+                "Scrooge's doctor"
+              ],
+              "correct_answer": "Scrooge's former business partner who is now dead",
+              "explanation": "Jacob Marley was Scrooge's business partner and appears as a ghost wearing chains, warning Scrooge about his fate if he doesn't change.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does the Ghost of Christmas Past visit Scrooge?",
+              "options": [
+                "To punish him for his crimes",
+                "To show him scenes from his past and explain how he became cold",
+                "To take him to Fred's Christmas party",
+                "To introduce him to the Cratchit family"
+              ],
+              "correct_answer": "To show him scenes from his past and explain how he became cold",
+              "explanation": "The Ghost of Christmas Past reveals formative moments from Scrooge's life, helping the reader understand why he became so miserly and emotionally hardened.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the Ghost of Christmas Present show Scrooge?",
+              "options": [
+                "His own death and funeral",
+                "How people celebrate Christmas now, including the Cratchit family and Fred's party",
+                "A graveyard and a coffin",
+                "Scenes from his childhood with his sister"
+              ],
+              "correct_answer": "How people celebrate Christmas now, including the Cratchit family and Fred's party",
+              "explanation": "This spirit shows Scrooge the present-day celebrations, particularly focusing on how others find joy and meaning despite poverty or hardship.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which spirit is described as the most frightening?",
+              "options": [
+                "The Ghost of Christmas Past",
+                "Jacob Marley's ghost",
+                "The Ghost of Christmas Yet to Come",
+                "The Ghost of Christmas Present"
+              ],
+              "correct_answer": "The Ghost of Christmas Yet to Come",
+              "explanation": "The final spirit is dark and silent, showing Scrooge a future in which he dies and is barely mourned—a terrifying vision that finally shocks him into change.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Bob Cratchit represent in the novel?",
+              "options": [
+                "The wealthy middle class",
+                "The working poor—underpaid but loyal and good-natured",
+                "Greed and selfishness",
+                "The criminal underworld"
+              ],
+              "correct_answer": "The working poor—underpaid but loyal and good-natured",
+              "explanation": "Bob Cratchit is Scrooge's clerk who works for low wages but remains cheerful and devoted to his family, contrasting sharply with Scrooge's meanness.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is significant about Tiny Tim's character?",
+              "options": [
+                "He is Scrooge's illegitimate son",
+                "He is disabled and used to evoke sympathy and highlight the suffering of the poor",
+                "He is a successful businessman",
+                "He is Fred's best friend"
+              ],
+              "correct_answer": "He is disabled and used to evoke sympathy and highlight the suffering of the poor",
+              "explanation": "Tiny Tim's disability and poverty make him a symbolic figure representing how Scrooge's refusal to care for the vulnerable harms real people.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does Fred respond to Scrooge's rejection of his Christmas invitation?",
+              "options": [
+                "He becomes angry and stops visiting",
+                "He shows warmth, generosity, and embodies the true spirit of Christmas",
+                "He tries to take legal action against Scrooge",
+                "He spreads rumours about Scrooge in town"
+              ],
+              "correct_answer": "He shows warmth, generosity, and embodies the true spirit of Christmas",
+              "explanation": "Despite Scrooge's rudeness, Fred remains cheerful and kind, representing what Christmas should truly be about rather than money.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who was Fezziwig?",
+              "options": [
+                "A wealthy moneylender",
+                "Scrooge's kind former employer shown in the Christmas Past scenes",
+                "The Mayor of London",
+                "A criminal Scrooge knew as a young man"
+              ],
+              "correct_answer": "Scrooge's kind former employer shown in the Christmas Past scenes",
+              "explanation": "Fezziwig is shown as a model employer who treats his workers generously, demonstrating how different Scrooge's treatment of Bob Cratchit is.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why does Belle break off her engagement to Scrooge?",
+              "options": [
+                "She falls in love with someone else",
+                "Her family forbids the marriage",
+                "His love of money has replaced his love for her",
+                "She discovers he is dishonest"
+              ],
+              "correct_answer": "His love of money has replaced his love for her",
+              "explanation": "Belle realises that Scrooge's obsession with wealth and ambition has made him lose his capacity for love and human connection, so she ends their engagement.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Scrooge was always wealthy and never experienced hardship.",
+              "correct_answer": "False",
+              "explanation": "The Ghost of Christmas Past shows that Scrooge had difficult experiences in his past, including being lonely at school and working hard as a young man.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Jacob Marley appears wearing chains as a symbol of his misdeeds in life.",
+              "correct_answer": "True",
+              "explanation": "Marley's chains represent the consequences of prioritising money over humanity, and serve as a warning to Scrooge about his own fate.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The Ghost of Christmas Present is described as a dark and silent figure.",
+              "correct_answer": "False",
+              "explanation": "The Ghost of Christmas Present is depicted as a jolly, generous figure who brings warmth and light. The Ghost of Christmas Yet to Come is dark and silent.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Bob Cratchit is wealthy but pretends to be poor to gain Scrooge's sympathy.",
+              "correct_answer": "False",
+              "explanation": "Bob Cratchit is genuinely poor and underpaid by Scrooge, but he remains cheerful despite his genuine hardship.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Tiny Tim dies in the future that the final spirit shows Scrooge.",
+              "correct_answer": "True",
+              "explanation": "The Ghost of Christmas Yet to Come shows that Tiny Tim will die because the Cratchit family cannot afford proper care for him, which motivates Scrooge's final transformation.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Fred is hostile towards Scrooge because of his previous rejections.",
+              "correct_answer": "False",
+              "explanation": "Despite being rejected by Scrooge, Fred remains warm and generous, continually inviting him and showing the spirit of Christmas forgiveness.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Fezziwig treated his employees badly, which influenced Scrooge's later management style.",
+              "correct_answer": "False",
+              "explanation": "Fezziwig was actually a kind and generous employer. Scrooge chose to become harsh and miserly despite having a good example of how to treat workers.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Belle married Scrooge and had children with him.",
+              "correct_answer": "False",
+              "explanation": "Belle ended her engagement to Scrooge because she recognised his love of money had replaced his love for her, so they never married.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Scrooge's transformation happens gradually over several months.",
+              "correct_answer": "False",
+              "explanation": "Scrooge's transformation occurs in a single night as he is visited by the three spirits, leading to a complete change by Christmas morning.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The Ghost of Christmas Past helps Scrooge understand why he became cold and miserly.",
+              "correct_answer": "True",
+              "explanation": "By showing Scrooge key moments from his past, the first spirit helps explain how his character was formed and why he lost his capacity for warmth.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Jacob Marley appears as a ghost wearing ________ as symbols of his misdeeds.",
+              "options": null,
+              "correct_answer": "chains",
+              "explanation": "Marley's chains represent the spiritual consequences of his greed and lack of compassion during his lifetime.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Tiny Tim's famous line is '________ us, every one!'",
+              "options": null,
+              "correct_answer": "God bless",
+              "explanation": "This memorable quote encapsulates Tiny Tim's innocent kindness and goodness despite his suffering, and becomes the moral lesson of the story.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of Christmas Present shows Scrooge how others celebrate Christmas in the present day.",
+              "options": null,
+              "correct_answer": "Ghost",
+              "explanation": "This spirit is the second of the three visitors and focuses on showing Scrooge the current celebrations of Christmas among various people.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Bob Cratchit works as Scrooge's ________, despite being paid very little.",
+              "options": null,
+              "correct_answer": "clerk",
+              "explanation": "Bob Cratchit is Scrooge's employee who works in a counting house and earns minimal wages for his labour.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Fred is Scrooge's cheerful ________ who invites him to Christmas dinner.",
+              "options": null,
+              "correct_answer": "nephew",
+              "explanation": "Fred is Scrooge's younger relative who represents warmth, generosity, and the true spirit of Christmas.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Fezziwig was Scrooge's kind former ________ shown in the Christmas Past scenes.",
+              "options": null,
+              "correct_answer": "employer",
+              "explanation": "Fezziwig represents how an employer should treat workers with generosity and kindness, contrasting with Scrooge's later miserliness.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ was Scrooge's former fiancée who breaks off their engagement because his love of money replaces his love for her.",
+              "options": null,
+              "correct_answer": "Belle",
+              "explanation": "Belle's departure from Scrooge's life represents the human relationships he sacrificed for the pursuit of wealth.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of Christmas Yet to Come shows Scrooge his own death and how it is received with indifference.",
+              "options": null,
+              "correct_answer": "Ghost",
+              "explanation": "This final spirit is dark and silent, showing Scrooge the terrifying future that awaits if he does not change.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Scrooge is the miserly ________ who undergoes a moral transformation after being visited by three spirits.",
+              "options": null,
+              "correct_answer": "protagonist",
+              "explanation": "As the main character, Scrooge's journey from greed to redemption forms the central narrative of the novel.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Cratchit family represents the ________, particularly through their loyal service to Scrooge despite his meanness.",
+              "options": null,
+              "correct_answer": "working poor",
+              "explanation": "The Cratchits embody the struggle of working-class people who labour hard but receive little reward, making them symbols of those Scrooge has neglected.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Ebenezer Scrooge",
+                  "match": "The miserly protagonist who undergoes moral transformation"
+                },
+                {
+                  "term": "Jacob Marley",
+                  "match": "A ghost appearing in chains as a warning about prioritising money over humanity"
+                },
+                {
+                  "term": "Bob Cratchit",
+                  "match": "Scrooge's poorly paid but cheerful clerk representing the working poor"
+                },
+                {
+                  "term": "Tiny Tim",
+                  "match": "A disabled child whose suffering highlights the plight of the poor"
+                },
+                {
+                  "term": "Belle",
+                  "match": "Scrooge's former fiancée who breaks their engagement because of his love of money"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unseen Poetry & Poetry Anthology",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Poetry Analysis Terminology",
+          "cards": [
+            {
+              "keyword": "imagery",
+              "definition": "language that creates a picture or sensory experience in the reader's mind — includes simile, metaphor, and personification",
+              "display_order": 1
+            },
+            {
+              "keyword": "simile",
+              "definition": "a comparison using 'like' or 'as' — e.g. 'He fought like a lion'",
+              "display_order": 2
+            },
+            {
+              "keyword": "metaphor",
+              "definition": "a direct comparison saying one thing IS another — e.g. 'Life is a journey'",
+              "display_order": 3
+            },
+            {
+              "keyword": "personification",
+              "definition": "giving human qualities to non-human things — e.g. 'The wind whispered through the trees'",
+              "display_order": 4
+            },
+            {
+              "keyword": "alliteration",
+              "definition": "repetition of the same consonant sound at the start of words close together — creates rhythm and emphasis",
+              "display_order": 5
+            },
+            {
+              "keyword": "sibilance",
+              "definition": "repetition of 's' sounds — can create a hissing, whispering, or sinister effect",
+              "display_order": 6
+            },
+            {
+              "keyword": "enjambment",
+              "definition": "when a sentence or phrase runs over a line break without a pause — creates a sense of flow, urgency, or breathlessness",
+              "display_order": 7
+            },
+            {
+              "keyword": "caesura",
+              "definition": "a pause in the middle of a line of poetry — created by punctuation. Can suggest hesitation, shock, or a change in thought",
+              "display_order": 8
+            },
+            {
+              "keyword": "volta",
+              "definition": "a turning point in a poem where the argument, tone, or perspective shifts — common in sonnets",
+              "display_order": 9
+            },
+            {
+              "keyword": "tone",
+              "definition": "the emotional quality or attitude expressed in a poem — e.g. melancholic, celebratory, angry, reflective",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is imagery in poetry?",
+              "options": [
+                "A rhyming pattern used at the end of lines",
+                "Language that creates a picture or sensory experience in the reader's mind",
+                "The main character's journey through a story",
+                "A repeated word used for emphasis"
+              ],
+              "correct_answer": "Language that creates a picture or sensory experience in the reader's mind",
+              "explanation": "Imagery uses descriptive language to help readers visualize or feel what the poet is describing. It includes techniques like simile, metaphor, and personification.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which technique is being used in the phrase 'as brave as a lion'?",
+              "options": [
+                "Metaphor",
+                "Personification",
+                "Simile",
+                "Alliteration"
+              ],
+              "correct_answer": "Simile",
+              "explanation": "A simile makes a comparison between two things using 'like' or 'as'. In this phrase, 'as...as' is used to compare bravery to a lion.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a metaphor?",
+              "options": [
+                "A comparison using the words 'like' or 'as'",
+                "A direct comparison saying one thing IS another",
+                "Repetition of consonant sounds",
+                "A pause in the middle of a line"
+              ],
+              "correct_answer": "A direct comparison saying one thing IS another",
+              "explanation": "A metaphor states that something IS something else, without using 'like' or 'as'. For example, 'The world is a stage' directly compares the world to a stage.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an example of personification?",
+              "options": [
+                "The rain fell like tears",
+                "The wind whispered through the trees",
+                "Stars are bright in the sky",
+                "Time moves quickly forward"
+              ],
+              "correct_answer": "The wind whispered through the trees",
+              "explanation": "Personification gives human qualities to non-human things. Here, the wind is described as 'whispering,' which is a human action, making the wind seem alive.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What effect does alliteration create in poetry?",
+              "options": [
+                "It makes the poem rhyme at the end of each line",
+                "It creates a sense of flow and urgency",
+                "It creates rhythm and emphasis through repeated consonant sounds",
+                "It makes the poem shorter and more concise"
+              ],
+              "correct_answer": "It creates rhythm and emphasis through repeated consonant sounds",
+              "explanation": "Alliteration is the repetition of consonant sounds at the start of nearby words. This repetition gives the poem a musical quality and draws attention to certain words.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is sibilance?",
+              "options": [
+                "The repetition of vowel sounds in a line",
+                "A pause created by punctuation in the middle of a line",
+                "The repetition of 's' sounds that can create a hissing or whispering effect",
+                "A turning point where the poem's tone changes"
+              ],
+              "correct_answer": "The repetition of 's' sounds that can create a hissing or whispering effect",
+              "explanation": "Sibilance specifically refers to repeated 's' sounds. This can make the poem sound soft and whispering or, depending on context, sinister or unsettling.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does enjambment do in a poem?",
+              "options": [
+                "It creates a rhyme scheme between consecutive lines",
+                "It gives human qualities to objects",
+                "It creates a sense of flow, urgency, or breathlessness by running over a line break",
+                "It marks the turning point of the poem's argument"
+              ],
+              "correct_answer": "It creates a sense of flow, urgency, or breathlessness by running over a line break",
+              "explanation": "Enjambment occurs when a sentence or phrase continues onto the next line without stopping. This technique keeps the reader moving forward and can make the poem feel urgent or continuous.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a caesura?",
+              "options": [
+                "The repetition of the same consonant sound",
+                "A pause in the middle of a line created by punctuation",
+                "A comparison between two different things",
+                "The main theme of a poem"
+              ],
+              "correct_answer": "A pause in the middle of a line created by punctuation",
+              "explanation": "A caesura is a deliberate pause, usually shown by punctuation like a comma, dash, or full stop in the middle of a line. It can suggest hesitation, shock, or a sudden change in thought.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a volta in poetry?",
+              "options": [
+                "A repeated word used for emphasis",
+                "A turning point where the argument, tone, or perspective shifts",
+                "A comparison using the word 'like'",
+                "The rhythm pattern of a poem"
+              ],
+              "correct_answer": "A turning point where the argument, tone, or perspective shifts",
+              "explanation": "A volta is a significant shift in a poem. It's especially common in sonnets, where the volta marks a change in the poem's direction—perhaps the poet changes their mind or reveals something new.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'tone' mean when analyzing a poem?",
+              "options": [
+                "The number of syllables in each line",
+                "The rhyme pattern at the end of lines",
+                "The emotional quality or attitude expressed in a poem",
+                "The main character's personality"
+              ],
+              "correct_answer": "The emotional quality or attitude expressed in a poem",
+              "explanation": "Tone refers to the poet's emotional attitude toward the subject. Examples include melancholic, celebratory, angry, or reflective. Tone helps us understand how the poet feels about what they're describing.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "A simile always uses the words 'like' or 'as' to make a comparison.",
+              "correct_answer": "True",
+              "explanation": "Similes require the use of 'like' or 'as' to compare two things. Without these words, it would be a metaphor instead.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Personification can only be used to describe animals.",
+              "correct_answer": "False",
+              "explanation": "Personification gives human qualities to any non-human thing—this includes nature, objects, emotions, and abstract ideas, not just animals.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Alliteration is the repetition of vowel sounds at the start of words.",
+              "correct_answer": "False",
+              "explanation": "Alliteration is the repetition of consonant sounds, not vowels. Sibilance is a specific type of alliteration that uses the 's' sound.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Enjambment always makes a poem feel rushed or urgent.",
+              "correct_answer": "False",
+              "explanation": "While enjambment can create a sense of urgency or breathlessness, it can also create other effects depending on the context, such as a sense of flowing movement or connection between ideas.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "A caesura is always marked by a full stop or comma.",
+              "correct_answer": "True",
+              "explanation": "A caesura is created by punctuation, which can include a comma, dash, or full stop in the middle of a line. The punctuation marks where the pause occurs.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Every poem has a volta in it.",
+              "correct_answer": "False",
+              "explanation": "While a volta is common in sonnets and many poems, not all poems have a clear turning point. Some poems maintain the same argument or tone throughout.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Tone and mood are exactly the same thing in poetry.",
+              "correct_answer": "False",
+              "explanation": "Tone is the poet's attitude toward the subject, while mood is the emotional atmosphere created for the reader. They are related but distinct concepts.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Imagery includes simile, metaphor, and personification.",
+              "correct_answer": "True",
+              "explanation": "Imagery is created through language that makes sensory pictures, and simile, metaphor, and personification are all techniques used to build imagery.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Sibilance can create a sinister effect in a poem.",
+              "correct_answer": "True",
+              "explanation": "Depending on the context, repeated 's' sounds can create a hissing, whispering, or sinister effect, making the poem feel unsettling or threatening.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Metaphors use the word 'like' to make comparisons.",
+              "correct_answer": "False",
+              "explanation": "Metaphors make direct comparisons without using 'like' or 'as'. If 'like' or 'as' is used, it's a simile instead.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a comparison between two things using 'like' or 'as'.",
+              "options": null,
+              "correct_answer": "simile",
+              "explanation": "A simile always uses 'like' or 'as' to make a comparison between two things.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is giving human qualities to non-human things, such as describing the wind as 'whispering'.",
+              "options": null,
+              "correct_answer": "Personification",
+              "explanation": "Personification makes non-human things seem alive by giving them human actions or qualities.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the repetition of consonant sounds at the start of words close together.",
+              "options": null,
+              "correct_answer": "Alliteration",
+              "explanation": "Alliteration creates rhythm and emphasis through the repetition of consonant sounds at the beginning of nearby words.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "When a sentence or phrase runs over a line break without a pause, this technique is called ________.",
+              "options": null,
+              "correct_answer": "enjambment",
+              "explanation": "Enjambment allows a sentence to continue across line breaks, creating flow and sometimes a sense of urgency.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a pause in the middle of a line of poetry, created by punctuation.",
+              "options": null,
+              "correct_answer": "caesura",
+              "explanation": "A caesura is marked by punctuation and creates a deliberate break in the middle of a line.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of a poem is the emotional quality or attitude expressed, such as melancholic or celebratory.",
+              "options": null,
+              "correct_answer": "tone",
+              "explanation": "Tone describes the emotional attitude or mood that the poet conveys through their writing.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a direct comparison saying one thing IS another, without using 'like' or 'as'.",
+              "options": null,
+              "correct_answer": "metaphor",
+              "explanation": "A metaphor directly equates two things to create a comparison and convey meaning through that connection.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the repetition of 's' sounds that can create a hissing or whispering effect.",
+              "options": null,
+              "correct_answer": "Sibilance",
+              "explanation": "Sibilance is a specific type of sound repetition focusing on the 's' sound, which creates particular acoustic effects.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is language that creates a picture or sensory experience in the reader's mind.",
+              "options": null,
+              "correct_answer": "Imagery",
+              "explanation": "Imagery uses descriptive language and figurative techniques to appeal to the reader's senses and imagination.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a turning point in a poem where the argument, tone, or perspective shifts.",
+              "options": null,
+              "correct_answer": "volta",
+              "explanation": "A volta marks a significant change in direction within a poem, commonly found in sonnets.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Metaphor",
+                  "match": "A direct comparison saying one thing IS another"
+                },
+                {
+                  "term": "Sibilance",
+                  "match": "Repetition of 's' sounds that can create a hissing effect"
+                },
+                {
+                  "term": "Caesura",
+                  "match": "A pause in the middle of a line created by punctuation"
+                },
+                {
+                  "term": "Enjambment",
+                  "match": "When a sentence runs over a line break without a pause"
+                },
+                {
+                  "term": "Volta",
+                  "match": "A turning point where the poem's argument or tone shifts"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1871 @@
+{
+  "subject": {
+    "name": "Physical Education",
+    "exam_board": "AQA",
+    "category": "Technology & Applied",
+    "colour": "#16a34a",
+    "emoji": "⚽",
+    "slug": "pe-aqa"
+  },
+  "topics": [
+    {
+      "name": "Applied Anatomy & Physiology",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "The Skeletal & Muscular System",
+          "cards": [
+            {
+              "keyword": "skeletal system",
+              "definition": "the framework of bones that supports the body, protects organs, and provides attachment points for muscles",
+              "display_order": 1
+            },
+            {
+              "keyword": "cartilage",
+              "definition": "smooth connective tissue covering the ends of bones at joints — reduces friction and absorbs shock",
+              "display_order": 2
+            },
+            {
+              "keyword": "ligament",
+              "definition": "a tough band of connective tissue that joins bone to bone at a joint, providing stability",
+              "display_order": 3
+            },
+            {
+              "keyword": "tendon",
+              "definition": "a tough band of connective tissue that joins muscle to bone, transmitting the force of muscle contractions",
+              "display_order": 4
+            },
+            {
+              "keyword": "synovial joint",
+              "definition": "a freely movable joint lubricated by synovial fluid — e.g. knee (hinge), shoulder (ball and socket)",
+              "display_order": 5
+            },
+            {
+              "keyword": "hinge joint",
+              "definition": "a synovial joint that allows movement in one plane only — e.g. knee, elbow, ankle",
+              "display_order": 6
+            },
+            {
+              "keyword": "ball and socket joint",
+              "definition": "a synovial joint allowing movement in all directions — e.g. shoulder, hip",
+              "display_order": 7
+            },
+            {
+              "keyword": "flexion",
+              "definition": "a movement that decreases the angle at a joint — e.g. bending the arm at the elbow",
+              "display_order": 8
+            },
+            {
+              "keyword": "extension",
+              "definition": "a movement that increases the angle at a joint — e.g. straightening the arm at the elbow",
+              "display_order": 9
+            },
+            {
+              "keyword": "antagonistic muscle pairs",
+              "definition": "pairs of muscles that work against each other — one contracts (agonist) while the other relaxes (antagonist)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the main function of the skeletal system?",
+              "options": [
+                "To pump blood around the body",
+                "To support the body, protect organs, and provide attachment points for muscles",
+                "To digest food and absorb nutrients",
+                "To filter waste from the blood"
+              ],
+              "correct_answer": "To support the body, protect organs, and provide attachment points for muscles",
+              "explanation": "The skeletal system forms the framework of the body, protects vital organs like the heart and lungs, and allows muscles to attach so we can move.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which tissue covers the ends of bones at joints and helps reduce friction?",
+              "options": [
+                "Ligament",
+                "Tendon",
+                "Cartilage",
+                "Bone marrow"
+              ],
+              "correct_answer": "Cartilage",
+              "explanation": "Cartilage is a smooth connective tissue that covers bone ends, reduces friction between bones, and absorbs shock during movement.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What connects a muscle to a bone?",
+              "options": [
+                "A ligament",
+                "A tendon",
+                "Synovial fluid",
+                "Cartilage"
+              ],
+              "correct_answer": "A tendon",
+              "explanation": "Tendons are tough bands of connective tissue that attach muscles to bones and transmit the force of muscle contractions to create movement.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following best describes a ligament?",
+              "options": [
+                "A tissue that joins muscle to bone",
+                "A smooth tissue that covers bone ends",
+                "A tough band of connective tissue that joins bone to bone at a joint",
+                "A fluid that lubricates joints"
+              ],
+              "correct_answer": "A tough band of connective tissue that joins bone to bone at a joint",
+              "explanation": "Ligaments provide stability by connecting bones together at joints, whereas tendons connect muscles to bones.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "The knee is an example of which type of joint?",
+              "options": [
+                "Ball and socket joint",
+                "Fixed joint",
+                "Hinge joint",
+                "Pivot joint"
+              ],
+              "correct_answer": "Hinge joint",
+              "explanation": "The knee is a hinge joint because it allows movement in one plane only, like a door hinge opening and closing.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which joint allows movement in all directions?",
+              "options": [
+                "Hinge joint",
+                "Ball and socket joint",
+                "Fixed joint",
+                "Gliding joint"
+              ],
+              "correct_answer": "Ball and socket joint",
+              "explanation": "Ball and socket joints, like the shoulder and hip, allow movement in multiple directions because the rounded head of one bone fits into the cup-shaped socket of another.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does a synovial joint contain that allows smooth movement?",
+              "options": [
+                "Bone marrow",
+                "Synovial fluid",
+                "Cartilage only",
+                "Air pockets"
+              ],
+              "correct_answer": "Synovial fluid",
+              "explanation": "Synovial fluid lubricates synovial joints, allowing smooth, frictionless movement between bones.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "When you bend your arm at the elbow, which movement is occurring?",
+              "options": [
+                "Extension",
+                "Flexion",
+                "Abduction",
+                "Rotation"
+              ],
+              "correct_answer": "Flexion",
+              "explanation": "Flexion decreases the angle at a joint, such as bending the arm at the elbow to bring the hand closer to the shoulder.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to the angle at a joint during extension?",
+              "options": [
+                "The angle stays the same",
+                "The angle decreases",
+                "The angle increases",
+                "The joint becomes locked"
+              ],
+              "correct_answer": "The angle increases",
+              "explanation": "Extension increases the angle at a joint, such as straightening the arm at the elbow to move the hand away from the shoulder.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In an antagonistic muscle pair, what happens while the agonist contracts?",
+              "options": [
+                "Both muscles contract together",
+                "The antagonist also contracts",
+                "The antagonist relaxes",
+                "The joint becomes immobilized"
+              ],
+              "correct_answer": "The antagonist relaxes",
+              "explanation": "In antagonistic muscle pairs, when the agonist (prime mover) contracts to create movement, the antagonist relaxes to allow that movement to occur.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Cartilage is a type of bone.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Cartilage is a smooth connective tissue that is separate from bone; it covers bone ends and reduces friction at joints.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Tendons connect muscle to bone.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Tendons are tough bands of connective tissue that transmit muscle contractions to bones, enabling movement.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Ligaments join muscle to bone.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Ligaments join bone to bone and provide joint stability. Tendons join muscle to bone.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "A synovial joint is a freely movable joint.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Synovial joints are freely movable joints lubricated by synovial fluid, allowing smooth movement between bones.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The hip is an example of a hinge joint.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The hip is a ball and socket joint that allows movement in all directions. The knee is an example of a hinge joint.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Flexion is a movement that increases the angle at a joint.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Flexion decreases the angle at a joint, such as bending. Extension increases the angle at a joint.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The elbow and knee are both examples of hinge joints.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Both the elbow and knee are hinge joints that allow movement in one plane only.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Antagonistic muscle pairs work together to create the same movement.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Antagonistic muscle pairs work against each other; one contracts while the other relaxes to create opposite movements.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The shoulder is a ball and socket joint.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The shoulder is a ball and socket joint that allows movement in multiple directions.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Synovial fluid reduces friction in joints.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Synovial fluid lubricates synovial joints, allowing smooth movement and reducing friction between bones.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The framework of bones that supports the body and provides attachment points for muscles is called the ________.",
+              "options": null,
+              "correct_answer": "skeletal system",
+              "explanation": "The skeletal system is the body's bony framework that supports the body, protects organs, and provides attachment points for muscles.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a tough band of connective tissue that joins bone to bone at a joint.",
+              "options": null,
+              "correct_answer": "ligament",
+              "explanation": "Ligaments are tough connective tissues that provide stability by joining bones together at joints.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "When you straighten your arm at the elbow, you are performing ________.",
+              "options": null,
+              "correct_answer": "extension",
+              "explanation": "Extension is the movement that increases the angle at a joint, such as straightening the arm.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The smooth connective tissue that covers the ends of bones and reduces friction is called ________.",
+              "options": null,
+              "correct_answer": "cartilage",
+              "explanation": "Cartilage is a smooth tissue covering bone ends that reduces friction and absorbs shock at joints.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a movement that decreases the angle at a joint, such as bending the arm.",
+              "options": null,
+              "correct_answer": "flexion",
+              "explanation": "Flexion is any movement that decreases the angle at a joint, bringing bones closer together.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is a synovial joint that allows movement in all directions, such as the shoulder.",
+              "options": null,
+              "correct_answer": "ball and socket joint",
+              "explanation": "Ball and socket joints allow movement in multiple directions because the rounded head of one bone fits into a cup-shaped socket.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a tough band of connective tissue that joins muscle to bone.",
+              "options": null,
+              "correct_answer": "tendon",
+              "explanation": "Tendons transmit the force of muscle contractions to bones, allowing muscles to pull on bones and create movement.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is a synovial joint that allows movement in one plane only, like the knee.",
+              "options": null,
+              "correct_answer": "hinge joint",
+              "explanation": "Hinge joints allow movement in one plane only, similar to how a door hinge opens and closes.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The fluid that lubricates synovial joints and allows smooth movement is called ________.",
+              "options": null,
+              "correct_answer": "synovial fluid",
+              "explanation": "Synovial fluid is a lubricant contained within synovial joints that reduces friction and enables smooth movement.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are pairs of muscles that work against each other, with one contracting while the other relaxes.",
+              "options": null,
+              "correct_answer": "Antagonistic muscle pairs",
+              "explanation": "Antagonistic muscle pairs work in opposition; the agonist contracts to create movement while the antagonist relaxes.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Flexion",
+                  "match": "A movement that decreases the angle at a joint"
+                },
+                {
+                  "term": "Ball and socket joint",
+                  "match": "A synovial joint allowing movement in all directions"
+                },
+                {
+                  "term": "Cartilage",
+                  "match": "Smooth connective tissue covering bone ends that reduces friction"
+                },
+                {
+                  "term": "Tendon",
+                  "match": "A tough band of connective tissue that joins muscle to bone"
+                },
+                {
+                  "term": "Ligament",
+                  "match": "A tough band of connective tissue that joins bone to bone"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "The Cardiorespiratory System",
+          "cards": [
+            {
+              "keyword": "heart rate",
+              "definition": "the number of times the heart beats per minute (bpm) — resting heart rate is typically 60–80 bpm",
+              "display_order": 1
+            },
+            {
+              "keyword": "stroke volume",
+              "definition": "the volume of blood pumped out of the heart with each beat",
+              "display_order": 2
+            },
+            {
+              "keyword": "cardiac output",
+              "definition": "the total volume of blood pumped by the heart per minute (Cardiac Output = Heart Rate × Stroke Volume)",
+              "display_order": 3
+            },
+            {
+              "keyword": "aerobic respiration",
+              "definition": "energy production using oxygen — produces more ATP than anaerobic, used in sustained exercise",
+              "display_order": 4
+            },
+            {
+              "keyword": "anaerobic respiration",
+              "definition": "energy production without oxygen — produces lactic acid, used in short bursts of intense exercise",
+              "display_order": 5
+            },
+            {
+              "keyword": "lactic acid",
+              "definition": "a waste product of anaerobic respiration that causes muscle fatigue and the burning sensation during intense exercise",
+              "display_order": 6
+            },
+            {
+              "keyword": "tidal volume",
+              "definition": "the volume of air breathed in or out in a single breath",
+              "display_order": 7
+            },
+            {
+              "keyword": "breathing rate",
+              "definition": "the number of breaths taken per minute — increases during exercise to supply more oxygen",
+              "display_order": 8
+            },
+            {
+              "keyword": "gaseous exchange",
+              "definition": "the process of oxygen moving from the lungs into the blood, and carbon dioxide moving from the blood into the lungs",
+              "display_order": 9
+            },
+            {
+              "keyword": "VO2 max",
+              "definition": "the maximum amount of oxygen a person can use during intense exercise — a key measure of aerobic fitness",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the typical resting heart rate for a healthy person?",
+              "options": [
+                "40–50 bpm",
+                "60–80 bpm",
+                "100–120 bpm",
+                "130–150 bpm"
+              ],
+              "correct_answer": "60–80 bpm",
+              "explanation": "The resting heart rate for a healthy adult is typically between 60 and 80 beats per minute. Athletes may have lower resting heart rates due to improved cardiovascular fitness.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which formula correctly calculates cardiac output?",
+              "options": [
+                "Cardiac Output = Heart Rate + Stroke Volume",
+                "Cardiac Output = Heart Rate ÷ Stroke Volume",
+                "Cardiac Output = Heart Rate × Stroke Volume",
+                "Cardiac Output = Stroke Volume − Heart Rate"
+              ],
+              "correct_answer": "Cardiac Output = Heart Rate × Stroke Volume",
+              "explanation": "Cardiac output is the total volume of blood pumped by the heart per minute, calculated by multiplying heart rate by stroke volume.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is stroke volume?",
+              "options": [
+                "The number of breaths taken per minute",
+                "The maximum oxygen a person can use during exercise",
+                "The volume of blood pumped out of the heart with each beat",
+                "The amount of lactic acid produced during exercise"
+              ],
+              "correct_answer": "The volume of blood pumped out of the heart with each beat",
+              "explanation": "Stroke volume is the amount of blood ejected from the heart during each contraction, measured in millilitres.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which type of respiration produces more ATP?",
+              "options": [
+                "Anaerobic respiration",
+                "Aerobic respiration",
+                "Both produce equal amounts",
+                "Neither produces ATP"
+              ],
+              "correct_answer": "Aerobic respiration",
+              "explanation": "Aerobic respiration uses oxygen and produces significantly more ATP than anaerobic respiration, making it more efficient for sustained exercise.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a waste product of anaerobic respiration?",
+              "options": [
+                "Carbon dioxide only",
+                "Oxygen",
+                "Lactic acid",
+                "Glucose"
+              ],
+              "correct_answer": "Lactic acid",
+              "explanation": "Lactic acid is produced during anaerobic respiration and accumulates in muscles during intense exercise, causing fatigue and a burning sensation.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to breathing rate during exercise?",
+              "options": [
+                "It decreases to conserve energy",
+                "It stays the same",
+                "It increases to supply more oxygen",
+                "It stops completely"
+              ],
+              "correct_answer": "It increases to supply more oxygen",
+              "explanation": "During exercise, breathing rate increases to meet the body's higher oxygen demands and remove more carbon dioxide.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is the best definition of tidal volume?",
+              "options": [
+                "The maximum amount of air the lungs can hold",
+                "The volume of air breathed in or out in a single breath",
+                "The number of breaths per minute",
+                "The amount of oxygen dissolved in blood"
+              ],
+              "correct_answer": "The volume of air breathed in or out in a single breath",
+              "explanation": "Tidal volume is the amount of air that moves in and out of the lungs with each normal breath, typically around 500 ml.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is VO2 max used to measure?",
+              "options": [
+                "The amount of lactic acid produced",
+                "The maximum amount of oxygen a person can use during intense exercise",
+                "The resting heart rate",
+                "The breathing rate at rest"
+              ],
+              "correct_answer": "The maximum amount of oxygen a person can use during intense exercise",
+              "explanation": "VO2 max is a key indicator of aerobic fitness, showing the maximum volume of oxygen the body can utilise per kilogram of body weight per minute.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is gaseous exchange?",
+              "options": [
+                "The breakdown of glucose in the muscles",
+                "The process of oxygen moving from the lungs into the blood and carbon dioxide moving from the blood into the lungs",
+                "The pumping of blood around the body",
+                "The production of lactic acid during exercise"
+              ],
+              "correct_answer": "The process of oxygen moving from the lungs into the blood and carbon dioxide moving from the blood into the lungs",
+              "explanation": "Gaseous exchange occurs in the lungs and allows oxygen to enter the bloodstream while carbon dioxide is removed from the body.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which type of respiration is used during short bursts of intense exercise?",
+              "options": [
+                "Aerobic respiration",
+                "Anaerobic respiration",
+                "Both equally",
+                "Neither"
+              ],
+              "correct_answer": "Anaerobic respiration",
+              "explanation": "Anaerobic respiration is used during short bursts of high-intensity exercise when oxygen supply cannot meet demand, such as in sprinting.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Heart rate and stroke volume together determine cardiac output.",
+              "correct_answer": "True",
+              "explanation": "Cardiac output is directly calculated by multiplying heart rate by stroke volume, so both factors determine the total blood volume pumped per minute.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Anaerobic respiration produces more ATP than aerobic respiration.",
+              "correct_answer": "False",
+              "explanation": "Aerobic respiration is much more efficient and produces significantly more ATP (around 30–32 molecules) compared to anaerobic respiration (2 molecules).",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Lactic acid causes the burning sensation felt during intense exercise.",
+              "correct_answer": "True",
+              "explanation": "Lactic acid accumulates in muscles during anaerobic respiration and contributes to the burning sensation and muscle fatigue experienced during intense activity.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Tidal volume is the number of breaths taken per minute.",
+              "correct_answer": "False",
+              "explanation": "Tidal volume is the volume of air breathed in or out per breath. The number of breaths per minute is the breathing rate.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Gaseous exchange occurs in the alveoli of the lungs.",
+              "correct_answer": "True",
+              "explanation": "Gaseous exchange takes place in the alveoli, where oxygen diffuses into the blood and carbon dioxide diffuses out.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "VO2 max increases during sustained aerobic training.",
+              "correct_answer": "True",
+              "explanation": "VO2 max can be improved through regular aerobic exercise, which increases the body's ability to utilise oxygen efficiently.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Resting heart rate typically increases with cardiovascular fitness.",
+              "correct_answer": "False",
+              "explanation": "A lower resting heart rate indicates better cardiovascular fitness, as the heart is more efficient and pumps more blood with each beat.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Aerobic respiration requires oxygen to produce energy.",
+              "correct_answer": "True",
+              "explanation": "By definition, aerobic respiration uses oxygen to break down glucose and produce ATP, making it dependent on oxygen availability.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Breathing rate and heart rate respond similarly during exercise.",
+              "correct_answer": "True",
+              "explanation": "Both heart rate and breathing rate increase during exercise to meet the body's increased oxygen demands and remove carbon dioxide.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Stroke volume remains constant regardless of fitness level.",
+              "correct_answer": "False",
+              "explanation": "Trained athletes develop larger stroke volumes due to cardiac adaptations, allowing them to pump more blood per beat.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the number of times the heart beats per minute.",
+              "options": null,
+              "correct_answer": "heart rate",
+              "explanation": "Heart rate is measured in beats per minute (bpm) and typically ranges from 60–80 bpm at rest in healthy adults.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is energy production that uses oxygen and produces more ATP than anaerobic respiration.",
+              "options": null,
+              "correct_answer": "Aerobic respiration",
+              "explanation": "Aerobic respiration is the primary energy system used during sustained, moderate-intensity exercise.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The total volume of blood pumped by the heart per minute is called ________.",
+              "options": null,
+              "correct_answer": "cardiac output",
+              "explanation": "Cardiac output is calculated by multiplying heart rate by stroke volume and is measured in litres per minute.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a waste product of anaerobic respiration that causes muscle fatigue.",
+              "options": null,
+              "correct_answer": "Lactic acid",
+              "explanation": "Lactic acid accumulates during intense anaerobic exercise and contributes to the burning sensation and reduced muscle performance.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The process of oxygen moving from the lungs into the blood is called ________.",
+              "options": null,
+              "correct_answer": "gaseous exchange",
+              "explanation": "Gaseous exchange allows the body to absorb oxygen and remove carbon dioxide through the lungs.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The volume of air breathed in or out in a single breath is known as ________.",
+              "options": null,
+              "correct_answer": "tidal volume",
+              "explanation": "Tidal volume typically measures around 500 ml in healthy adults at rest.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is energy production without oxygen and is used during short bursts of intense exercise.",
+              "options": null,
+              "correct_answer": "Anaerobic respiration",
+              "explanation": "Anaerobic respiration allows the body to produce energy quickly when oxygen supply is insufficient, such as in sprinting.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The maximum amount of oxygen a person can use during intense exercise is called ________.",
+              "options": null,
+              "correct_answer": "VO2 max",
+              "explanation": "VO2 max is measured in millilitres of oxygen per kilogram of body weight per minute and indicates aerobic fitness.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "During exercise, the ________ increases to supply more oxygen to the body.",
+              "options": null,
+              "correct_answer": "breathing rate",
+              "explanation": "Breathing rate increases during exercise to meet increased oxygen demands and remove excess carbon dioxide.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The volume of blood pumped out of the heart with each beat is called ________.",
+              "options": null,
+              "correct_answer": "stroke volume",
+              "explanation": "Stroke volume can be improved through cardiovascular training and is a key factor in determining cardiac output.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Heart rate",
+                  "match": "The number of times the heart beats per minute"
+                },
+                {
+                  "term": "Cardiac output",
+                  "match": "The total volume of blood pumped by the heart per minute"
+                },
+                {
+                  "term": "Lactic acid",
+                  "match": "A waste product of anaerobic respiration that causes muscle fatigue"
+                },
+                {
+                  "term": "VO2 max",
+                  "match": "The maximum amount of oxygen a person can use during intense exercise"
+                },
+                {
+                  "term": "Gaseous exchange",
+                  "match": "The process of oxygen moving from the lungs into the blood"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Physical Training & Fitness",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Principles of Training",
+          "cards": [
+            {
+              "keyword": "FITT principles",
+              "definition": "Frequency, Intensity, Time, Type — the four variables that can be adjusted in a training programme",
+              "display_order": 1
+            },
+            {
+              "keyword": "progressive overload",
+              "definition": "gradually increasing the demands of training so the body continues to adapt and improve",
+              "display_order": 2
+            },
+            {
+              "keyword": "specificity",
+              "definition": "training should be relevant to the sport or skill being developed",
+              "display_order": 3
+            },
+            {
+              "keyword": "reversibility",
+              "definition": "fitness gains are lost if training stops — 'use it or lose it'",
+              "display_order": 4
+            },
+            {
+              "keyword": "rest and recovery",
+              "definition": "time for the body to repair and adapt after training — essential to prevent injury and overtraining",
+              "display_order": 5
+            },
+            {
+              "keyword": "aerobic training",
+              "definition": "continuous, moderate-intensity exercise that improves cardiovascular endurance — e.g. long-distance running",
+              "display_order": 6
+            },
+            {
+              "keyword": "interval training",
+              "definition": "alternating periods of high-intensity exercise with rest or low-intensity activity",
+              "display_order": 7
+            },
+            {
+              "keyword": "circuit training",
+              "definition": "a series of exercises performed at different stations, targeting different muscle groups",
+              "display_order": 8
+            },
+            {
+              "keyword": "strength training",
+              "definition": "resistance exercises designed to increase muscle strength and size — e.g. weight training",
+              "display_order": 9
+            },
+            {
+              "keyword": "flexibility training",
+              "definition": "stretching exercises designed to increase the range of movement at joints — e.g. yoga, static stretching",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does the letter 'I' represent in the FITT principles?",
+              "options": [
+                "Intensity",
+                "Interval",
+                "Improvement",
+                "Inclusion"
+              ],
+              "correct_answer": "Intensity",
+              "explanation": "FITT stands for Frequency, Intensity, Time, and Type. Intensity refers to how hard you work during training.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which principle describes gradually increasing the demands of training?",
+              "options": [
+                "Specificity",
+                "Progressive overload",
+                "Reversibility",
+                "Rest and recovery"
+              ],
+              "correct_answer": "Progressive overload",
+              "explanation": "Progressive overload is essential for continued improvement as the body adapts to training demands and needs new challenges.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What type of training involves alternating between hard work and easy periods?",
+              "options": [
+                "Aerobic training",
+                "Strength training",
+                "Interval training",
+                "Flexibility training"
+              ],
+              "correct_answer": "Interval training",
+              "explanation": "Interval training alternates between high-intensity exercise and rest or low-intensity activity, making it very effective for building fitness.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which training method uses different stations to work different muscle groups?",
+              "options": [
+                "Circuit training",
+                "Aerobic training",
+                "Strength training",
+                "Flexibility training"
+              ],
+              "correct_answer": "Circuit training",
+              "explanation": "Circuit training involves moving between different exercise stations, each targeting different areas of the body.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main purpose of flexibility training?",
+              "options": [
+                "To build muscle strength",
+                "To increase heart rate",
+                "To increase the range of movement at joints",
+                "To improve endurance"
+              ],
+              "correct_answer": "To increase the range of movement at joints",
+              "explanation": "Flexibility training, such as stretching and yoga, is designed to improve how far joints can move.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which principle states that training should match the needs of your sport?",
+              "options": [
+                "Reversibility",
+                "Specificity",
+                "Progressive overload",
+                "Rest and recovery"
+              ],
+              "correct_answer": "Specificity",
+              "explanation": "Specificity means your training should be relevant and tailored to the sport or skill you want to improve.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What type of training is long-distance running an example of?",
+              "options": [
+                "Strength training",
+                "Circuit training",
+                "Aerobic training",
+                "Interval training"
+              ],
+              "correct_answer": "Aerobic training",
+              "explanation": "Long-distance running is continuous, moderate-intensity exercise that improves cardiovascular endurance, which is aerobic training.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens to fitness if you stop training?",
+              "options": [
+                "It stays the same forever",
+                "It improves without training",
+                "It is lost gradually",
+                "It only affects your muscles"
+              ],
+              "correct_answer": "It is lost gradually",
+              "explanation": "Reversibility means fitness gains are lost if training stops — the principle of 'use it or lose it' applies to all fitness components.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of strength training?",
+              "options": [
+                "Yoga",
+                "Long-distance running",
+                "Weight training",
+                "Sprinting with rest periods"
+              ],
+              "correct_answer": "Weight training",
+              "explanation": "Strength training uses resistance exercises, such as weight training, to increase muscle strength and size.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is rest and recovery important in a training programme?",
+              "options": [
+                "It wastes time and reduces fitness",
+                "It allows the body to repair and adapt, preventing injury and overtraining",
+                "It has no effect on performance",
+                "It should only happen after competitions"
+              ],
+              "correct_answer": "It allows the body to repair and adapt, preventing injury and overtraining",
+              "explanation": "Rest and recovery is essential because the body needs time to adapt to training stress and prevent injury and fatigue.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Progressive overload means doing the same training routine every week.",
+              "correct_answer": "False",
+              "explanation": "Progressive overload requires gradually increasing training demands so the body continues to improve and adapt.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Specificity means training should be relevant to the sport you play.",
+              "correct_answer": "True",
+              "explanation": "Specificity principle states that training must be tailored to the demands of your particular sport or activity.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Aerobic training is always high intensity and very short.",
+              "correct_answer": "False",
+              "explanation": "Aerobic training is continuous and moderate intensity, not high intensity. High-intensity with rest periods describes interval training.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The FITT principles include Frequency, Intensity, Time, and Type.",
+              "correct_answer": "True",
+              "explanation": "FITT is an acronym for the four key variables that can be adjusted in training programmes.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "If you stop training, your fitness improvements will last forever.",
+              "correct_answer": "False",
+              "explanation": "Reversibility means fitness is lost if training stops — this is the 'use it or lose it' principle.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Circuit training works only one muscle group at a time.",
+              "correct_answer": "False",
+              "explanation": "Circuit training uses multiple stations that target different muscle groups throughout the body.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Flexibility training includes activities like yoga and static stretching.",
+              "correct_answer": "True",
+              "explanation": "Flexibility training uses stretching exercises and activities like yoga to increase joint range of movement.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Rest and recovery is when the body repairs and adapts after training.",
+              "correct_answer": "True",
+              "explanation": "Rest and recovery is essential time for the body to repair muscle tissue and adapt to training, preventing injury and overtraining.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Strength training only uses body weight and never uses equipment.",
+              "correct_answer": "False",
+              "explanation": "Strength training uses resistance exercises, which can include weight training, resistance bands, and other equipment.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Interval training alternates between high-intensity exercise and rest or low-intensity activity.",
+              "correct_answer": "True",
+              "explanation": "Interval training is specifically designed to alternate between periods of hard work and easier recovery periods.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The principle of ________ means training should be tailored to your specific sport or skill.",
+              "options": null,
+              "correct_answer": "specificity",
+              "explanation": "Specificity ensures that training is directly relevant to the demands of your particular sport or activity.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ training uses continuous, moderate-intensity exercise to build heart and lung fitness.",
+              "options": null,
+              "correct_answer": "Aerobic",
+              "explanation": "Aerobic training improves cardiovascular endurance through sustained, moderate-intensity activity like long-distance running.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "To prevent fitness loss, you must follow the principle of 'use it or ________'.",
+              "options": null,
+              "correct_answer": "lose it",
+              "explanation": "This describes reversibility — fitness improvements will disappear if training is not continued.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ training involves performing different exercises at various stations around a space.",
+              "options": null,
+              "correct_answer": "Circuit",
+              "explanation": "Circuit training moves between multiple stations, each targeting different muscle groups in sequence.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The FITT principles are Frequency, Intensity, Time, and ________.",
+              "options": null,
+              "correct_answer": "Type",
+              "explanation": "FITT is the acronym for the four variables that should be adjusted in any training programme.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ training uses resistance exercises like weights to build muscle strength and size.",
+              "options": null,
+              "correct_answer": "Strength",
+              "explanation": "Strength training involves resistance-based exercises designed to increase muscle power and mass.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ and recovery time allows your body to repair damage and adapt to training stress.",
+              "options": null,
+              "correct_answer": "Rest",
+              "explanation": "Rest and recovery is essential to prevent injury, fatigue, and overtraining while allowing the body to adapt.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ overload means gradually increasing the difficulty or demands of your training programme.",
+              "options": null,
+              "correct_answer": "Progressive",
+              "explanation": "Progressive overload ensures the body continues to be challenged and improves over time.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ training involves short bursts of maximum effort followed by recovery periods.",
+              "options": null,
+              "correct_answer": "Interval",
+              "explanation": "Interval training alternates between high-intensity work and rest or low-intensity activity.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ training includes stretching and yoga to improve your range of movement at joints.",
+              "options": null,
+              "correct_answer": "Flexibility",
+              "explanation": "Flexibility training uses stretching and similar activities to increase how far joints can move.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Progressive overload",
+                  "match": "Gradually increasing training demands so the body continues to improve"
+                },
+                {
+                  "term": "Reversibility",
+                  "match": "Fitness gains are lost if training stops"
+                },
+                {
+                  "term": "Specificity",
+                  "match": "Training should be relevant to the sport or skill being developed"
+                },
+                {
+                  "term": "Rest and recovery",
+                  "match": "Time for the body to repair and adapt after training"
+                },
+                {
+                  "term": "FITT principles",
+                  "match": "Frequency, Intensity, Time, Type — the four variables in a training programme"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sports Psychology",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Mental Aspects of Sport",
+          "cards": [
+            {
+              "keyword": "motivation",
+              "definition": "the drive to achieve a goal — intrinsic motivation comes from within; extrinsic motivation comes from external rewards",
+              "display_order": 1
+            },
+            {
+              "keyword": "arousal",
+              "definition": "a state of mental and physical alertness — optimal arousal improves performance; too much or too little hinders it",
+              "display_order": 2
+            },
+            {
+              "keyword": "anxiety",
+              "definition": "feelings of worry and nervousness that can negatively affect performance — cognitive (mental) or somatic (physical)",
+              "display_order": 3
+            },
+            {
+              "keyword": "inverted U theory",
+              "definition": "the theory that performance improves as arousal increases up to an optimal point, then declines if arousal becomes too high",
+              "display_order": 4
+            },
+            {
+              "keyword": "goal setting",
+              "definition": "setting targets to focus effort and improve performance — SMART goals are Specific, Measurable, Achievable, Realistic, Time-bound",
+              "display_order": 5
+            },
+            {
+              "keyword": "mental rehearsal / visualisation",
+              "definition": "mentally practising a skill or performance before doing it — helps build confidence and improve technique",
+              "display_order": 6
+            },
+            {
+              "keyword": "self-confidence",
+              "definition": "belief in one's ability to perform well — linked to better performance outcomes",
+              "display_order": 7
+            },
+            {
+              "keyword": "aggression in sport",
+              "definition": "hostile behaviour intended to harm — channelled aggression can aid performance but direct aggression is unacceptable",
+              "display_order": 8
+            },
+            {
+              "keyword": "team cohesion",
+              "definition": "the degree to which team members work together effectively — social and task cohesion",
+              "display_order": 9
+            },
+            {
+              "keyword": "leadership in sport",
+              "definition": "guiding and influencing team members — autocratic (directive) vs democratic (collaborative) leadership styles",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between intrinsic and extrinsic motivation?",
+              "options": [
+                "Intrinsic motivation comes from external rewards like money or trophies",
+                "Intrinsic motivation comes from within yourself, while extrinsic motivation comes from external rewards",
+                "Extrinsic motivation is always stronger than intrinsic motivation",
+                "There is no difference between the two types of motivation"
+              ],
+              "correct_answer": "Intrinsic motivation comes from within yourself, while extrinsic motivation comes from external rewards",
+              "explanation": "Intrinsic motivation is driven by personal satisfaction and enjoyment, while extrinsic motivation relies on external rewards such as medals, money, or praise.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does optimal arousal mean?",
+              "options": [
+                "The highest possible level of mental alertness you can achieve",
+                "The level of mental and physical alertness that improves performance the most",
+                "Being completely relaxed with no tension",
+                "Having very low levels of concentration"
+              ],
+              "correct_answer": "The level of mental and physical alertness that improves performance the most",
+              "explanation": "Optimal arousal is the ideal state of readiness where an athlete performs best. Too little arousal (being under-prepared) or too much (being overly nervous) both reduce performance.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of cognitive anxiety?",
+              "options": [
+                "Sweating before a competition",
+                "Shaking hands during a performance",
+                "Worrying about making mistakes",
+                "Increased heart rate"
+              ],
+              "correct_answer": "Worrying about making mistakes",
+              "explanation": "Cognitive anxiety is mental worry and negative thoughts. Physical symptoms like sweating, shaking, and increased heart rate are somatic anxiety.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "According to the inverted U theory, what happens to performance when arousal becomes too high?",
+              "options": [
+                "Performance continues to improve",
+                "Performance stays at the same level",
+                "Performance declines",
+                "Arousal has no effect on performance"
+              ],
+              "correct_answer": "Performance declines",
+              "explanation": "The inverted U theory shows that performance improves as arousal increases to an optimal point, but if arousal goes too high, the athlete becomes over-anxious and performance decreases.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does SMART in goal setting stand for?",
+              "options": [
+                "Simple, Memorable, Accurate, Reliable, Tough",
+                "Specific, Measurable, Achievable, Realistic, Time-bound",
+                "Strong, Mental, Active, Rapid, Technical",
+                "Skill, Motivation, Ability, Results, Training"
+              ],
+              "correct_answer": "Specific, Measurable, Achievable, Realistic, Time-bound",
+              "explanation": "SMART goals help athletes set clear, focused targets that are challenging but achievable. Each letter represents a key quality that makes goals effective for improving performance.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is another name for mental rehearsal?",
+              "options": [
+                "Physical training",
+                "Visualisation",
+                "Relaxation",
+                "Meditation"
+              ],
+              "correct_answer": "Visualisation",
+              "explanation": "Mental rehearsal and visualisation are the same thing — the practice of mentally imagining yourself performing a skill successfully before actually doing it.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does self-confidence affect sports performance?",
+              "options": [
+                "It has no effect on how well you perform",
+                "It always leads to overconfidence and mistakes",
+                "It is linked to better performance outcomes",
+                "It only matters in team sports"
+              ],
+              "correct_answer": "It is linked to better performance outcomes",
+              "explanation": "Athletes with stronger self-confidence tend to perform better because they believe in their ability and are more likely to push themselves and stay focused under pressure.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In sport, what is the difference between channelled aggression and direct aggression?",
+              "options": [
+                "They are exactly the same thing",
+                "Channelled aggression can aid performance while direct aggression is unacceptable and intended to harm",
+                "Direct aggression helps improve technique better than channelled aggression",
+                "Channelled aggression is only used by individual athletes"
+              ],
+              "correct_answer": "Channelled aggression can aid performance while direct aggression is unacceptable and intended to harm",
+              "explanation": "Channelled aggression is using competitive energy positively to perform better. Direct aggression is hostile and intended to harm opponents, which is unacceptable in sport.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are the two types of team cohesion?",
+              "options": [
+                "Mental and physical cohesion",
+                "Individual and group cohesion",
+                "Social and task cohesion",
+                "Offensive and defensive cohesion"
+              ],
+              "correct_answer": "Social and task cohesion",
+              "explanation": "Social cohesion is how well team members get along personally, while task cohesion is how well they work together to achieve team goals.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main difference between autocratic and democratic leadership styles?",
+              "options": [
+                "Autocratic leaders are always better than democratic leaders",
+                "Autocratic leadership is directive, while democratic leadership is collaborative",
+                "Democratic leaders make all the decisions without consulting the team",
+                "Autocratic and democratic leadership are the same thing"
+              ],
+              "correct_answer": "Autocratic leadership is directive, while democratic leadership is collaborative",
+              "explanation": "Autocratic leaders make decisions and give instructions without much input from others. Democratic leaders involve team members in decision-making and encourage collaboration.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Extrinsic motivation always produces better performance results than intrinsic motivation.",
+              "correct_answer": "False",
+              "explanation": "While extrinsic rewards can boost performance short-term, intrinsic motivation (enjoyment and personal satisfaction) often leads to better long-term performance and commitment.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Arousal is only about mental alertness, not physical readiness.",
+              "correct_answer": "False",
+              "explanation": "Arousal includes both mental and physical alertness. It involves the body's preparation to respond, including increased heart rate and muscle tension.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Somatic anxiety includes physical symptoms like sweating and shaking.",
+              "correct_answer": "True",
+              "explanation": "Somatic anxiety refers to the physical symptoms of nervousness and worry, including trembling, increased heart rate, and sweating.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "According to the inverted U theory, a small amount of arousal is better for performance than optimal arousal.",
+              "correct_answer": "False",
+              "explanation": "The inverted U theory states that optimal arousal (the peak of the curve) produces the best performance, not low arousal levels.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "SMART goals must be achievable and realistic.",
+              "correct_answer": "True",
+              "explanation": "Two key aspects of SMART goals are that they should be Achievable (possible to accomplish) and Realistic (practical and sensible).",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Mental rehearsal can help build confidence and improve technique.",
+              "correct_answer": "True",
+              "explanation": "Visualising yourself performing a skill successfully helps reinforce muscle memory and builds confidence for actual performance.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Self-confidence has very little connection to how well an athlete performs.",
+              "correct_answer": "False",
+              "explanation": "Self-confidence is strongly linked to better performance outcomes. Athletes who believe in themselves tend to perform better under pressure.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "All forms of aggression in sport are unacceptable and harmful to performance.",
+              "correct_answer": "False",
+              "explanation": "Channelled aggression (using competitive energy positively) can aid performance. Only direct, hostile aggression intended to harm is unacceptable.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Team cohesion only refers to how well players physically move together.",
+              "correct_answer": "False",
+              "explanation": "Team cohesion includes both social cohesion (how well members get along) and task cohesion (how well they work together toward goals).",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Democratic leaders involve team members in decision-making processes.",
+              "correct_answer": "True",
+              "explanation": "Democratic leadership is collaborative and involves seeking input and opinions from team members before making decisions.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the drive to achieve a goal and can be intrinsic or extrinsic.",
+              "correct_answer": "Motivation",
+              "explanation": "Motivation is the fundamental concept that drives athletes to pursue goals, whether from internal (intrinsic) or external (extrinsic) sources.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A state of mental and physical alertness is called ________.",
+              "correct_answer": "arousal",
+              "explanation": "Arousal describes the level of readiness and alertness an athlete experiences, which affects their performance.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Feelings of worry and nervousness that can negatively affect performance are called ________.",
+              "correct_answer": "anxiety",
+              "explanation": "Anxiety is the negative emotional response to stress, which can manifest as cognitive (mental) or somatic (physical) symptoms.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ theory suggests that performance improves as arousal increases up to an optimal point, then declines.",
+              "correct_answer": "inverted U",
+              "explanation": "This theory explains the relationship between arousal levels and performance, showing that too little or too much arousal both harm performance.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Setting ________ goals helps athletes focus their efforts — these should be Specific, Measurable, Achievable, Realistic, and Time-bound.",
+              "correct_answer": "SMART",
+              "explanation": "SMART is the acronym for an effective goal-setting framework that helps athletes create clear, achievable targets.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Mentally practising a skill or performance before doing it is called ________ or visualisation.",
+              "correct_answer": "mental rehearsal",
+              "explanation": "Mental rehearsal is the process of imagining yourself successfully performing a skill, which helps improve confidence and technique.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "An athlete's ________ is their belief in their ability to perform well.",
+              "correct_answer": "self-confidence",
+              "explanation": "Self-confidence is crucial for sports performance because athletes who believe in themselves tend to perform better and stay focused.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "In sport, ________ is hostile behaviour intended to harm, but channelled aggression can aid performance.",
+              "correct_answer": "aggression",
+              "explanation": "Aggression can be destructive (direct, intended to harm) or productive (channelled into competitive energy), and only the latter is acceptable in sport.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The degree to which team members work together effectively is called ________.",
+              "correct_answer": "team cohesion",
+              "explanation": "Team cohesion measures how united and effective a team is, including both personal relationships and shared goal focus.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ in sport involves guiding and influencing team members through different styles like autocratic or democratic approaches.",
+              "correct_answer": "Leadership",
+              "explanation": "Leadership is the ability to direct and motivate team members, with different styles producing different effects on team performance.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Arousal",
+                  "match": "A state of mental and physical alertness that affects performance"
+                },
+                {
+                  "term": "Anxiety",
+                  "match": "Feelings of worry and nervousness that can harm performance"
+                },
+                {
+                  "term": "Mental rehearsal",
+                  "match": "Mentally practising a skill before actually doing it"
+                },
+                {
+                  "term": "Team cohesion",
+                  "match": "How well team members work together effectively"
+                },
+                {
+                  "term": "Motivation",
+                  "match": "The drive to achieve a goal from internal or external sources"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Socio-cultural Influences & Health",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Sport, Society & Health",
+          "cards": [
+            {
+              "keyword": "participation in sport",
+              "definition": "taking part in physical activity — barriers include cost, access, time, discrimination, and lack of role models",
+              "display_order": 1
+            },
+            {
+              "keyword": "social influences on participation",
+              "definition": "factors such as family, peers, culture, media, and role models that affect whether people take part in sport",
+              "display_order": 2
+            },
+            {
+              "keyword": "discrimination in sport",
+              "definition": "unfair treatment based on characteristics such as gender, race, disability, or age — remains a significant issue in sport",
+              "display_order": 3
+            },
+            {
+              "keyword": "media and sport",
+              "definition": "the relationship between sport and television, social media, sponsorship — media increases participation and funding but can create negative pressures",
+              "display_order": 4
+            },
+            {
+              "keyword": "commercialisation",
+              "definition": "the influence of money and business on sport — through sponsorship, TV rights, and merchandise",
+              "display_order": 5
+            },
+            {
+              "keyword": "performance-enhancing drugs (PEDs)",
+              "definition": "substances taken to improve sports performance — banned by sporting bodies for health and fairness reasons",
+              "display_order": 6
+            },
+            {
+              "keyword": "sportsmanship",
+              "definition": "fair, respectful, and ethical behaviour in sport — playing by the rules and respecting opponents",
+              "display_order": 7
+            },
+            {
+              "keyword": "gamesmanship",
+              "definition": "bending the rules or using psychological tactics to gain an advantage — legal but often seen as unsporting",
+              "display_order": 8
+            },
+            {
+              "keyword": "health",
+              "definition": "a state of complete physical, mental, and social wellbeing — not just the absence of illness (WHO definition)",
+              "display_order": 9
+            },
+            {
+              "keyword": "fitness",
+              "definition": "the ability to meet the demands of the environment — being fit enough to perform daily tasks and sport",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is one of the main barriers that stops people from participating in sport?",
+              "options": [
+                "Having too many friends",
+                "Cost of equipment and membership fees",
+                "Watching too much television",
+                "Being too popular at school"
+              ],
+              "correct_answer": "Cost of equipment and membership fees",
+              "explanation": "Cost is identified as a major barrier to participation in sport, along with access, time, discrimination, and lack of role models.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of a social influence on sport participation?",
+              "options": [
+                "The colour of your school uniform",
+                "Your family encouraging you to play football",
+                "The temperature outside",
+                "Your shoe size"
+              ],
+              "correct_answer": "Your family encouraging you to play football",
+              "explanation": "Family, peers, culture, media, and role models are all social influences that affect whether people take part in sport.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Discrimination in sport means:",
+              "options": [
+                "Choosing the best players for your team",
+                "Unfair treatment based on characteristics like gender, race, disability, or age",
+                "Training harder than other athletes",
+                "Following the rules of the game"
+              ],
+              "correct_answer": "Unfair treatment based on characteristics like gender, race, disability, or age",
+              "explanation": "Discrimination in sport is unfair treatment based on personal characteristics, and it remains a significant issue in sport today.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does media influence sport?",
+              "options": [
+                "It has no effect on sport at all",
+                "It only shows negative aspects of sport",
+                "It increases participation and funding but can create negative pressures",
+                "It prevents people from playing sport"
+              ],
+              "correct_answer": "It increases participation and funding but can create negative pressures",
+              "explanation": "The media has a complex relationship with sport—it can promote participation and bring sponsorship money, but it can also create unhealthy pressures on athletes.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is commercialisation in sport?",
+              "options": [
+                "Training every day of the week",
+                "The influence of money and business through sponsorship, TV rights, and merchandise",
+                "Playing fairly and respectfully",
+                "Following sports news on social media"
+              ],
+              "correct_answer": "The influence of money and business through sponsorship, TV rights, and merchandise",
+              "explanation": "Commercialisation refers to how money and business interests shape sport, including sponsorship deals, television rights, and selling merchandise.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Performance-enhancing drugs are banned in sport because:",
+              "options": [
+                "They taste bad",
+                "They are expensive",
+                "They harm health and create unfair advantages",
+                "Athletes don't know how to use them"
+              ],
+              "correct_answer": "They harm health and create unfair advantages",
+              "explanation": "PEDs are banned by sporting bodies for two main reasons: they pose serious health risks to athletes and they give some competitors an unfair advantage.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does sportsmanship mean?",
+              "options": [
+                "Winning at any cost",
+                "Fair, respectful, and ethical behaviour in sport",
+                "Being the strongest player",
+                "Arguing with the referee"
+              ],
+              "correct_answer": "Fair, respectful, and ethical behaviour in sport",
+              "explanation": "Sportsmanship is about playing by the rules, respecting your opponents, and behaving ethically in sport.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "The difference between sportsmanship and gamesmanship is:",
+              "options": [
+                "Sportsmanship is illegal while gamesmanship is legal",
+                "Sportsmanship is fair and ethical while gamesmanship bends the rules using psychology",
+                "Gamesmanship is more important than sportsmanship",
+                "There is no difference between them"
+              ],
+              "correct_answer": "Sportsmanship is fair and ethical while gamesmanship bends the rules using psychology",
+              "explanation": "Sportsmanship involves fair and respectful play, while gamesmanship uses psychological tactics and bends rules but stays within the law.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "According to the WHO definition, health is:",
+              "options": [
+                "Just the absence of illness",
+                "Only physical fitness",
+                "A state of complete physical, mental, and social wellbeing",
+                "Having strong muscles"
+              ],
+              "correct_answer": "A state of complete physical, mental, and social wellbeing",
+              "explanation": "The WHO definition of health goes beyond just not being ill—it includes physical, mental, and social wellbeing.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Fitness is best described as:",
+              "options": [
+                "Being able to run very fast",
+                "Having big muscles",
+                "The ability to meet the demands of the environment",
+                "Exercising every single day"
+              ],
+              "correct_answer": "The ability to meet the demands of the environment",
+              "explanation": "Fitness is the ability to meet the demands of your environment, meaning you can perform daily tasks and sport effectively.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Access to sports facilities is a barrier that prevents some people from participating in sport.",
+              "correct_answer": "True",
+              "explanation": "Access is listed as one of the main barriers to sports participation, alongside cost, time, discrimination, and lack of role models.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Peers and culture have no influence on whether someone participates in sport.",
+              "correct_answer": "False",
+              "explanation": "Peers and culture are key social influences that significantly affect whether people take part in sport.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Role models can be a positive social influence on sport participation.",
+              "correct_answer": "True",
+              "explanation": "Role models are identified as an important social influence that can encourage people to participate in sport.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Discrimination in sport is no longer a problem in modern times.",
+              "correct_answer": "False",
+              "explanation": "Discrimination based on gender, race, disability, and age remains a significant issue in sport today.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Television sponsorship is an example of commercialisation in sport.",
+              "correct_answer": "True",
+              "explanation": "TV rights are specifically mentioned as one of the ways that money and business influence sport through commercialisation.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "All performance-enhancing drugs are legal in professional sport.",
+              "correct_answer": "False",
+              "explanation": "PEDs are banned by sporting bodies for health and fairness reasons, so they are not legal in professional sport.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Gamesmanship is always illegal in sport.",
+              "correct_answer": "False",
+              "explanation": "Gamesmanship is legal but often seen as unsporting—it bends the rules but doesn't actually break them.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Mental wellbeing is included in the WHO definition of health.",
+              "correct_answer": "True",
+              "explanation": "The WHO definition includes physical, mental, and social wellbeing as part of complete health.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Fitness and health mean exactly the same thing.",
+              "correct_answer": "False",
+              "explanation": "While related, fitness is the ability to meet environmental demands, while health is a broader state of physical, mental, and social wellbeing.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Media can negatively affect athletes by creating pressure and unrealistic expectations.",
+              "correct_answer": "True",
+              "explanation": "The media relationship with sport can increase participation and funding but also creates negative pressures on athletes.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is taking part in physical activity, but barriers include cost, access, and discrimination.",
+              "options": null,
+              "correct_answer": "Participation in sport",
+              "explanation": "This is the definition of participation in sport as a key concept in this topic.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Your ________, peers, and culture all have a social influence on whether you play sport.",
+              "options": null,
+              "correct_answer": "family",
+              "explanation": "Family is one of the main social influences identified that affect sports participation.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Unfair treatment based on gender, race, or disability in sport is called ________.",
+              "options": null,
+              "correct_answer": "discrimination",
+              "explanation": "Discrimination in sport is unfair treatment based on personal characteristics.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The relationship between sport and television, social media, and sponsorship is called ________ and sport.",
+              "options": null,
+              "correct_answer": "media",
+              "explanation": "Media and sport have a complex relationship that affects participation, funding, and pressures on athletes.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The influence of money and business on sport through sponsorship and TV rights is called ________.",
+              "options": null,
+              "correct_answer": "commercialisation",
+              "explanation": "Commercialisation describes how money and business interests shape modern sport.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Substances taken to improve sports performance that are banned by sporting bodies are called ________.",
+              "options": null,
+              "correct_answer": "performance-enhancing drugs",
+              "explanation": "PEDs are banned for health and fairness reasons in sport.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Playing by the rules and respecting your opponents is an example of ________.",
+              "options": null,
+              "correct_answer": "sportsmanship",
+              "explanation": "Sportsmanship is fair, respectful, and ethical behaviour in sport.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Using psychological tactics to gain an advantage while staying within the law is called ________.",
+              "options": null,
+              "correct_answer": "gamesmanship",
+              "explanation": "Gamesmanship is bending the rules using psychology but remaining legal, though often unsporting.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "According to the WHO, ________ is a state of complete physical, mental, and social wellbeing.",
+              "options": null,
+              "correct_answer": "health",
+              "explanation": "This is the WHO definition of health that goes beyond just the absence of illness.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the ability to meet the demands of the environment and perform daily tasks and sport.",
+              "options": null,
+              "correct_answer": "Fitness",
+              "explanation": "Fitness is defined as the ability to meet environmental demands effectively.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Discrimination",
+                  "match": "Unfair treatment based on gender, race, disability, or age"
+                },
+                {
+                  "term": "Commercialisation",
+                  "match": "The influence of money and business on sport through sponsorship and TV rights"
+                },
+                {
+                  "term": "Gamesmanship",
+                  "match": "Bending the rules using psychological tactics to gain an advantage"
+                },
+                {
+                  "term": "Sportsmanship",
+                  "match": "Fair, respectful, and ethical behaviour in sport"
+                },
+                {
+                  "term": "Health",
+                  "match": "A state of complete physical, mental, and social wellbeing"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,762 @@
+{
+  "subject": {
+    "name": "Film Studies",
+    "exam_board": "Eduqas",
+    "category": "Arts & Creative",
+    "colour": "#7c3aed",
+    "emoji": "🎬",
+    "slug": "film-studies-eduqas"
+  },
+  "topics": [
+    {
+      "name": "Film Form & Language",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Film Techniques & Analysis",
+          "cards": [
+            {
+              "keyword": "cinematography",
+              "definition": "the art of capturing moving images on film — includes camera shots, angles, movement, and lighting",
+              "display_order": 1
+            },
+            {
+              "keyword": "mise-en-scène (film)",
+              "definition": "all visual elements placed before the camera — setting, costume, lighting, performance, and composition",
+              "display_order": 2
+            },
+            {
+              "keyword": "editing (film)",
+              "definition": "assembling film shots into a sequence — creates pace, rhythm, meaning, and narrative continuity",
+              "display_order": 3
+            },
+            {
+              "keyword": "sound design (film)",
+              "definition": "all sound elements in a film — dialogue, sound effects, foley, and music (score and soundtrack)",
+              "display_order": 4
+            },
+            {
+              "keyword": "genre conventions",
+              "definition": "the typical features audiences expect from a genre — e.g. horror uses dark lighting, jump scares, isolated settings",
+              "display_order": 5
+            },
+            {
+              "keyword": "auteur theory",
+              "definition": "the idea that a film director is the primary creative force behind a film — their recurring themes and style are the 'signature' of the work",
+              "display_order": 6
+            },
+            {
+              "keyword": "narrative structure",
+              "definition": "the shape of a film's story — often follows Todorov's equilibrium model: equilibrium → disruption → new equilibrium",
+              "display_order": 7
+            },
+            {
+              "keyword": "Todorov's narrative theory",
+              "definition": "a model suggesting stories follow a pattern: initial equilibrium, disruption, recognition, repair, new equilibrium",
+              "display_order": 8
+            },
+            {
+              "keyword": "character archetypes (Propp)",
+              "definition": "Vladimir Propp identified recurring character types in stories — hero, villain, helper, princess, false hero etc.",
+              "display_order": 9
+            },
+            {
+              "keyword": "representation (film)",
+              "definition": "how groups of people and social issues are portrayed — films can reinforce or challenge stereotypes and ideologies",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is NOT part of cinematography?",
+              "options": [
+                "Camera angles",
+                "Lighting",
+                "Dialogue delivery",
+                "Camera movement"
+              ],
+              "correct_answer": "Dialogue delivery",
+              "explanation": "Cinematography focuses on visual elements like shots, angles, movement, and lighting. Dialogue delivery is part of sound design and performance, not cinematography.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does mise-en-scène refer to in film?",
+              "options": [
+                "The editing techniques used to create pace",
+                "All visual elements placed before the camera",
+                "The music and sound effects in a film",
+                "The director's recurring themes and style"
+              ],
+              "correct_answer": "All visual elements placed before the camera",
+              "explanation": "Mise-en-scène includes everything visible in the frame: setting, costume, lighting, performance, and composition.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does editing contribute to a film?",
+              "options": [
+                "It writes the dialogue for characters",
+                "It creates pace, rhythm, meaning, and narrative continuity",
+                "It designs the costumes and sets",
+                "It records all the sound effects"
+              ],
+              "correct_answer": "It creates pace, rhythm, meaning, and narrative continuity",
+              "explanation": "Editing is the process of assembling shots into sequences, which directly affects how fast or slow the story feels and how meaning is created.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an example of sound design?",
+              "options": [
+                "Camera positioning",
+                "Actor's costume choice",
+                "Foley sounds like footsteps",
+                "Shot composition"
+              ],
+              "correct_answer": "Foley sounds like footsteps",
+              "explanation": "Sound design includes all audio elements: dialogue, sound effects, foley, and music. Foley is the creation of everyday sound effects.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are genre conventions?",
+              "options": [
+                "The rules about how many actors a film can have",
+                "The typical features audiences expect from a genre",
+                "The equipment used to film a movie",
+                "The process of editing a film together"
+              ],
+              "correct_answer": "The typical features audiences expect from a genre",
+              "explanation": "Genre conventions are the recognizable patterns and features that define a genre, like dark lighting and jump scares in horror films.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does auteur theory suggest?",
+              "options": [
+                "The camera operator is the most important person on set",
+                "The director is the primary creative force behind a film",
+                "The audience creates the meaning of a film",
+                "Actors should have final say over the script"
+              ],
+              "correct_answer": "The director is the primary creative force behind a film",
+              "explanation": "Auteur theory argues that the director's recurring themes and style act as a signature across their films, making them the primary creative force.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which best describes narrative structure?",
+              "options": [
+                "The type of camera used to film scenes",
+                "The shape of a film's story",
+                "The way sound is mixed in a film",
+                "The costumes worn by characters"
+              ],
+              "correct_answer": "The shape of a film's story",
+              "explanation": "Narrative structure refers to how a story is shaped and organized, often following patterns like the equilibrium model.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "According to Todorov's theory, what comes after the disruption in a story?",
+              "options": [
+                "A new equilibrium immediately",
+                "Another disruption",
+                "Recognition and repair",
+                "The end credits"
+              ],
+              "correct_answer": "Recognition and repair",
+              "explanation": "Todorov's model includes five stages: equilibrium, disruption, recognition, repair, and new equilibrium. Recognition and repair come after the disruption.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which character archetype did Vladimir Propp identify in his theory?",
+              "options": [
+                "The comedic sidekick",
+                "The romantic lead",
+                "The helper",
+                "The wise mentor"
+              ],
+              "correct_answer": "The helper",
+              "explanation": "Propp identified several character archetypes including the hero, villain, helper, princess, and false hero among others.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does representation in film mean?",
+              "options": [
+                "How many times a character appears on screen",
+                "How groups of people and social issues are portrayed",
+                "The number of cameras used in filming",
+                "How loud the music is in a scene"
+              ],
+              "correct_answer": "How groups of people and social issues are portrayed",
+              "explanation": "Representation refers to how films portray different groups of people and social issues, either reinforcing or challenging stereotypes.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Cinematography only involves camera shots and does not include lighting.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Cinematography includes both camera shots AND lighting, along with camera angles and movement.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Mise-en-scène includes the actor's performance and costume choices.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Mise-en-scène includes all visual elements before the camera, which includes setting, costume, lighting, and performance.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Editing happens during the filming of a movie, not after.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Editing is the process of assembling shots after filming is complete. It happens in post-production, not during filming.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Sound design includes both dialogue and music.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Sound design encompasses all audio elements including dialogue, sound effects, foley, and music (both score and soundtrack).",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Horror films typically use bright, cheerful lighting as a genre convention.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Horror films typically use dark lighting as a genre convention, along with jump scares and isolated settings to create fear.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Auteur theory focuses on the importance of the film's producer.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Auteur theory focuses on the director as the primary creative force, not the producer.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Todorov's equilibrium model starts with a disruption to the normal state.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Todorov's model begins with an initial equilibrium (normal state), which is then disrupted.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Propp's character archetypes are fixed types that appear in many stories.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Propp identified recurring character types like the hero, villain, and helper that appear repeatedly across different stories.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Films can only reinforce stereotypes and cannot challenge them.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Films can either reinforce OR challenge stereotypes and ideologies, depending on how they represent groups of people.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Genre conventions are the unexpected features that surprise audiences.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Genre conventions are the typical, expected features of a genre that audiences anticipate, not unexpected elements.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The art of capturing moving images on film, including camera shots and lighting, is called ________.",
+              "options": null,
+              "correct_answer": "cinematography",
+              "explanation": "Cinematography is the technique of capturing visual images using cameras and lighting to create the visual language of a film.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the process of assembling film shots into a sequence to create pace and meaning.",
+              "options": null,
+              "correct_answer": "editing",
+              "explanation": "Editing involves putting shots together in a specific order to control the rhythm and create meaning in a film.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The recurring themes and style of a director that mark their work as their own is central to ________ theory.",
+              "options": null,
+              "correct_answer": "auteur",
+              "explanation": "Auteur theory emphasizes the director's distinctive style and recurring themes as their creative signature.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "According to ________ narrative theory, a story moves through equilibrium, disruption, recognition, repair, and new equilibrium.",
+              "options": null,
+              "correct_answer": "Todorov's",
+              "explanation": "Todorov's narrative theory provides a five-stage model for understanding how stories are structured.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Vladimir Propp identified recurring ________ types such as the hero, villain, and helper in stories.",
+              "options": null,
+              "correct_answer": "character",
+              "explanation": "Propp's theory identifies recurring character archetypes that appear across different narratives.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The typical features and patterns that audiences expect from a particular film ________ are called genre conventions.",
+              "options": null,
+              "correct_answer": "genre",
+              "explanation": "Genre conventions refer to the recognizable patterns specific to each film genre, like horror, comedy, or action.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "All visual elements placed before the camera, including setting and costume, are part of ________.",
+              "options": null,
+              "correct_answer": "mise-en-scène",
+              "explanation": "Mise-en-scène is a French term for all the visual elements that the camera captures in a scene.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The creation of everyday sounds like footsteps or door slams in film is called ________ sound.",
+              "options": null,
+              "correct_answer": "foley",
+              "explanation": "Foley is the technique of recording and creating everyday sound effects that are added during post-production.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "How groups of people and social issues are shown in films is referred to as ________ in media studies.",
+              "options": null,
+              "correct_answer": "representation",
+              "explanation": "Representation examines how films portray different groups and whether they reinforce or challenge stereotypes.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "All sound elements in a film, including dialogue, music, and sound effects, are collectively called ________.",
+              "options": null,
+              "correct_answer": "sound design",
+              "explanation": "Sound design is the comprehensive term for all audio elements that contribute to a film's sensory experience.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Cinematography",
+                  "match": "The art of capturing moving images using camera shots, angles, movement, and lighting"
+                },
+                {
+                  "term": "Mise-en-scène",
+                  "match": "All visual elements placed before the camera including setting, costume, lighting, and performance"
+                },
+                {
+                  "term": "Sound Design",
+                  "match": "All sound elements in a film including dialogue, music, sound effects, and foley"
+                },
+                {
+                  "term": "Genre Conventions",
+                  "match": "The typical features audiences expect from a particular film genre"
+                },
+                {
+                  "term": "Representation",
+                  "match": "How groups of people and social issues are portrayed in films"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Film Industry & Context",
+          "cards": [
+            {
+              "keyword": "Hollywood / mainstream cinema",
+              "definition": "high-budget films produced by major studios for mass global audiences — uses stars, high production values, and generic formulas",
+              "display_order": 1
+            },
+            {
+              "keyword": "independent film",
+              "definition": "films produced outside the major studio system with lower budgets — often more experimental or socially conscious",
+              "display_order": 2
+            },
+            {
+              "keyword": "British cinema",
+              "definition": "films produced in the UK — often address specifically British social issues and have a distinct cultural identity",
+              "display_order": 3
+            },
+            {
+              "keyword": "film distribution",
+              "definition": "getting a film to audiences — through cinema release, streaming, DVD, or broadcast. Studios spend heavily on marketing",
+              "display_order": 4
+            },
+            {
+              "keyword": "film rating / certification",
+              "definition": "a classification indicating the suitability of a film for different ages — in the UK set by the BBFC (U, PG, 12A, 15, 18)",
+              "display_order": 5
+            },
+            {
+              "keyword": "social and historical context",
+              "definition": "the circumstances in which a film was made and received — understanding context helps explain the film's themes and messages",
+              "display_order": 6
+            },
+            {
+              "keyword": "set text films (Eduqas)",
+              "definition": "Eduqas specifies films for study — typically including one Hollywood film, one British film, and one global film from outside the English-speaking world",
+              "display_order": 7
+            },
+            {
+              "keyword": "global/world cinema",
+              "definition": "films produced outside Hollywood and the English-speaking world — Eduqas requires study of at least one global film",
+              "display_order": 8
+            },
+            {
+              "keyword": "documentary film",
+              "definition": "a non-fiction film representing reality — can be observational, expository, or participatory in style",
+              "display_order": 9
+            },
+            {
+              "keyword": "film movements",
+              "definition": "groups of filmmakers sharing a style or philosophy — e.g. French New Wave, Italian Neorealism, British Kitchen Sink realism",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a key feature of Hollywood or mainstream cinema?",
+              "options": [
+                "It uses low budgets and unknown actors",
+                "It is produced by major studios with high production values and famous stars",
+                "It only focuses on documentaries",
+                "It avoids using generic formulas"
+              ],
+              "correct_answer": "It is produced by major studios with high production values and famous stars",
+              "explanation": "Hollywood mainstream cinema is defined by high budgets, major studios, well-known stars, and broad appeal to global audiences.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is independent film usually characterized by?",
+              "options": [
+                "Large budgets and major studio backing",
+                "Lower budgets and production outside the major studio system",
+                "Only being made in the United States",
+                "Always being commercial successes"
+              ],
+              "correct_answer": "Lower budgets and production outside the major studio system",
+              "explanation": "Independent films are made outside major studios with smaller budgets and often take more creative risks or explore social issues.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following best describes British cinema?",
+              "options": [
+                "Films that must be made in Hollywood",
+                "Films produced in the UK that often explore British social issues",
+                "Films that only use American actors",
+                "Films that avoid cultural themes"
+              ],
+              "correct_answer": "Films produced in the UK that often explore British social issues",
+              "explanation": "British cinema refers to films made in the UK with a distinct cultural identity and focus on specifically British concerns and society.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does film distribution involve?",
+              "options": [
+                "Only showing films in cinemas",
+                "Getting a film to audiences through various platforms like cinemas, streaming, DVD, and broadcast",
+                "Making the film's budget",
+                "Choosing the film's actors"
+              ],
+              "correct_answer": "Getting a film to audiences through various platforms like cinemas, streaming, DVD, and broadcast",
+              "explanation": "Film distribution is the process of making a film available to viewers through multiple channels, with studios investing heavily in marketing.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the BBFC film rating system do in the UK?",
+              "options": [
+                "It decides how much money a film should cost",
+                "It classifies films by suitability for different ages",
+                "It decides which films get distributed",
+                "It determines how long a film should be"
+              ],
+              "correct_answer": "It classifies films by suitability for different ages",
+              "explanation": "The BBFC (British Board of Film Classification) gives films ratings such as U, PG, 12A, 15, and 18 to indicate appropriate age groups.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is understanding social and historical context important when studying a film?",
+              "options": [
+                "It helps explain the film's themes and messages",
+                "It makes the film longer",
+                "It changes the rating of the film",
+                "It determines the film's budget"
+              ],
+              "correct_answer": "It helps explain the film's themes and messages",
+              "explanation": "Context—the circumstances when a film was made and received—helps viewers understand why certain themes and messages appear in the film.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a set text film in Eduqas Film Studies?",
+              "options": [
+                "A film that is always from Hollywood",
+                "A film specified by Eduqas for study, typically including Hollywood, British, and global cinema examples",
+                "A film that has no budget",
+                "A film made only in black and white"
+              ],
+              "correct_answer": "A film specified by Eduqas for study, typically including Hollywood, British, and global cinema examples",
+              "explanation": "Eduqas set texts are specific films chosen for study that represent different types of cinema from different regions and industries.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is global or world cinema?",
+              "options": [
+                "Films made only in America",
+                "Films produced outside Hollywood and the English-speaking world",
+                "Films that have no budget",
+                "Films that are only shown in one country"
+              ],
+              "correct_answer": "Films produced outside Hollywood and the English-speaking world",
+              "explanation": "Global cinema refers to films made in non-English-speaking countries and outside the Hollywood studio system, which Eduqas requires students to study.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a documentary film?",
+              "options": [
+                "A fictional story with actors",
+                "A non-fiction film that represents reality",
+                "A film that only uses animation",
+                "A film made only for entertainment"
+              ],
+              "correct_answer": "A non-fiction film that represents reality",
+              "explanation": "Documentary films are non-fiction and can be observational, expository, or participatory in style, presenting real people and events.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of a film movement?",
+              "options": [
+                "A type of camera equipment",
+                "A group of filmmakers sharing a style or philosophy like French New Wave or Italian Neorealism",
+                "A method of distributing films",
+                "A rating system for films"
+              ],
+              "correct_answer": "A group of filmmakers sharing a style or philosophy like French New Wave or Italian Neorealism",
+              "explanation": "Film movements are groups of filmmakers who share similar styles, philosophies, or approaches to filmmaking during a particular time period.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Hollywood mainstream cinema is designed for mass global audiences and uses high production values.",
+              "correct_answer": "True",
+              "explanation": "Hollywood films are indeed created by major studios with high budgets specifically to appeal to wide, global audiences.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Independent films always have the same budgets as Hollywood films.",
+              "correct_answer": "False",
+              "explanation": "Independent films are characterized by lower budgets and production outside the major studio system, unlike big-budget Hollywood films.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "British cinema often addresses specifically British social issues and cultural identity.",
+              "correct_answer": "True",
+              "explanation": "British cinema is defined by its focus on British themes and society, reflecting the country's distinct cultural concerns.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Film distribution only happens through cinema screenings.",
+              "correct_answer": "False",
+              "explanation": "Film distribution includes multiple platforms: cinemas, streaming services, DVDs, and broadcast television.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The BBFC rating system in the UK includes classifications like U, PG, 12A, 15, and 18.",
+              "correct_answer": "True",
+              "explanation": "These are the actual BBFC film certifications used to indicate age suitability for different audiences.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Understanding a film's historical context has no impact on interpreting its themes and messages.",
+              "correct_answer": "False",
+              "explanation": "Context is essential to understanding why films contain certain themes and messages, as it reflects the time and circumstances of their creation.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Eduqas requires students to study films from Hollywood, British cinema, and global cinema.",
+              "correct_answer": "True",
+              "explanation": "The Eduqas specification includes set texts from different regions and film industries to provide a broad understanding of cinema.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Global cinema is another term for Hollywood cinema.",
+              "correct_answer": "False",
+              "explanation": "Global cinema refers to films made outside Hollywood and the English-speaking world, representing different film industries and cultures.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Documentary films are always fiction stories with actors.",
+              "correct_answer": "False",
+              "explanation": "Documentary films are non-fiction and represent reality, unlike fictional narrative films with actors.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The French New Wave is an example of a film movement.",
+              "correct_answer": "True",
+              "explanation": "The French New Wave was a group of filmmakers who shared a distinctive style and philosophy during a particular period.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "__________ cinema refers to films produced by major studios with high budgets for mass global audiences.",
+              "options": null,
+              "correct_answer": "Hollywood",
+              "explanation": "Hollywood mainstream cinema is the dominant form of commercial film production from major studios.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "__________ film is produced outside the major studio system with lower budgets and often more experimental approaches.",
+              "options": null,
+              "correct_answer": "Independent",
+              "explanation": "Independent films are characterized by their separation from major studios and creative freedom with limited resources.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The __________ is the UK organization that classifies films with ratings like U, PG, 12A, 15, and 18.",
+              "options": null,
+              "correct_answer": "BBFC",
+              "explanation": "The British Board of Film Classification (BBFC) is responsible for rating films by age suitability in the UK.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The process of getting a film to audiences through cinemas, streaming, DVD, and broadcast is called film __________.",
+              "options": null,
+              "correct_answer": "distribution",
+              "explanation": "Film distribution is the method by which completed films reach their audiences through various platforms.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "__________ and historical context helps explain why a film contains certain themes and messages.",
+              "options": null,
+              "correct_answer": "Social",
+              "explanation": "Understanding the social and historical circumstances when a film was made is crucial for interpreting its meaning.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Films produced in the UK that address British social issues are examples of __________.",
+              "options": null,
+              "correct_answer": "British cinema",
+              "explanation": "British cinema is characterized by its production in the UK and focus on British cultural themes and social concerns.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Films produced outside Hollywood and the English-speaking world are part of __________ cinema.",
+              "options": null,
+              "correct_answer": "global",
+              "explanation": "Global or world cinema encompasses films from non-English-speaking countries and outside major Hollywood studios.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A __________ film is a non-fiction work that represents reality rather than telling a fictional story.",
+              "options": null,
+              "correct_answer": "documentary",
+              "explanation": "Documentary films are characterized by their presentation of factual, real-world content rather than fiction.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The __________ New Wave is a famous film movement of filmmakers who shared a distinctive style and philosophy.",
+              "options": null,
+              "correct_answer": "French",
+              "explanation": "The French New Wave was an influential film movement that emerged in France with innovative filmmaking techniques.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Eduqas specifies certain __________ texts for study, typically including Hollywood, British, and global cinema examples.",
+              "options": null,
+              "correct_answer": "set",
+              "explanation": "Set texts are the specific films chosen by Eduqas for students to study as part of the Film Studies specification.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Film distribution",
+                  "match": "Getting a film to audiences through cinemas, streaming, DVD, or broadcast"
+                },
+                {
+                  "term": "BBFC",
+                  "match": "The UK organization that classifies films by age suitability with ratings like U, PG, 12A, 15, 18"
+                },
+                {
+                  "term": "Documentary film",
+                  "match": "A non-fiction film that represents reality"
+                },
+                {
+                  "term": "Global cinema",
+                  "match": "Films produced outside Hollywood and the English-speaking world"
+                },
+                {
+                  "term": "Film movement",
+                  "match": "A group of filmmakers sharing a style or philosophy"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

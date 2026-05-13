@@ -1,0 +1,2665 @@
+{
+  "subject": {
+    "name": "Religious Studies",
+    "exam_board": "AQA",
+    "category": "Humanities",
+    "colour": "#92400e",
+    "emoji": "✝️",
+    "slug": "religious-studies-aqa"
+  },
+  "topics": [
+    {
+      "name": "Christianity — Beliefs & Teachings",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Core Christian Beliefs",
+          "cards": [
+            {
+              "keyword": "monotheism",
+              "definition": "the belief in one God — a core belief of Christianity",
+              "display_order": 1
+            },
+            {
+              "keyword": "the Trinity",
+              "definition": "the Christian belief that God exists as three persons in one: Father, Son, and Holy Spirit",
+              "display_order": 2
+            },
+            {
+              "keyword": "incarnation",
+              "definition": "the belief that God became human in the form of Jesus Christ",
+              "display_order": 3
+            },
+            {
+              "keyword": "crucifixion",
+              "definition": "the execution of Jesus on the cross — Christians believe this was a sacrifice to save humanity from sin",
+              "display_order": 4
+            },
+            {
+              "keyword": "resurrection",
+              "definition": "the belief that Jesus rose from the dead three days after the crucifixion — central to Christian faith",
+              "display_order": 5
+            },
+            {
+              "keyword": "ascension",
+              "definition": "the belief that Jesus rose bodily into heaven 40 days after his resurrection",
+              "display_order": 6
+            },
+            {
+              "keyword": "salvation",
+              "definition": "being saved from sin and its consequences — Christians believe salvation comes through faith in Jesus",
+              "display_order": 7
+            },
+            {
+              "keyword": "atonement",
+              "definition": "the idea that Jesus's death repaired the broken relationship between God and humanity caused by sin",
+              "display_order": 8
+            },
+            {
+              "keyword": "original sin",
+              "definition": "the Christian belief that all humans are born with a tendency to sin, inherited from Adam and Eve",
+              "display_order": 9
+            },
+            {
+              "keyword": "grace",
+              "definition": "God's undeserved love and favour towards humans — Christians believe salvation is given through grace, not earned",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does the term 'monotheism' mean?",
+              "options": [
+                "The belief in many gods",
+                "The belief in one God",
+                "The belief that God has multiple forms",
+                "The rejection of all religious beliefs"
+              ],
+              "correct_answer": "The belief in one God",
+              "explanation": "Monotheism is a core Christian belief that there is only one God. This distinguishes Christianity from polytheistic religions that believe in multiple gods.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following best explains the Trinity?",
+              "options": [
+                "God exists as the Father alone",
+                "God exists as three separate gods",
+                "God exists as three persons in one: Father, Son, and Holy Spirit",
+                "Jesus and God are completely different beings"
+              ],
+              "correct_answer": "God exists as three persons in one: Father, Son, and Holy Spirit",
+              "explanation": "The Trinity is the unique Christian belief that God exists as three persons (Father, Son, and Holy Spirit) within one God. This is a distinctive Christian doctrine.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the incarnation?",
+              "options": [
+                "The moment Jesus died on the cross",
+                "The belief that God became human in the form of Jesus Christ",
+                "The return of Jesus to heaven",
+                "The punishment of humanity for sin"
+              ],
+              "correct_answer": "The belief that God became human in the form of Jesus Christ",
+              "explanation": "The incarnation is a central Christian belief that God became human in Jesus Christ. This shows God's love for humanity and makes Jesus both fully divine and fully human.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the crucifixion refer to?",
+              "options": [
+                "Jesus's birth in Bethlehem",
+                "The execution of Jesus on the cross",
+                "Jesus's teaching in the Temple",
+                "The arrest of Jesus by Roman soldiers"
+              ],
+              "correct_answer": "The execution of Jesus on the cross",
+              "explanation": "The crucifixion is the execution of Jesus on the cross. Christians believe this was a sacrifice to save humanity from sin, making it the most important event in Christian history.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is the resurrection important in Christianity?",
+              "options": [
+                "It proves Jesus was a good teacher",
+                "It shows Jesus had magical powers",
+                "It is the belief that Jesus rose from the dead three days after the crucifixion and is central to Christian faith",
+                "It demonstrates that death is not real"
+              ],
+              "correct_answer": "It is the belief that Jesus rose from the dead three days after the crucifixion and is central to Christian faith",
+              "explanation": "The resurrection—Jesus rising from the dead three days after crucifixion—is absolutely central to Christian faith and hope. It proves Jesus's power over death and offers Christians hope for eternal life.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the ascension?",
+              "options": [
+                "Jesus rising from the dead after crucifixion",
+                "The belief that Jesus rose bodily into heaven 40 days after his resurrection",
+                "Jesus teaching his disciples",
+                "The baptism of Jesus by John the Baptist"
+              ],
+              "correct_answer": "The belief that Jesus rose bodily into heaven 40 days after his resurrection",
+              "explanation": "The ascension is the belief that Jesus rose bodily into heaven 40 days after his resurrection. This marks Jesus's return to God the Father and completes the events of salvation.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do Christians mean by 'salvation'?",
+              "options": [
+                "Physical healing from illness",
+                "Being saved from sin and its consequences through faith in Jesus",
+                "Living a long and happy life",
+                "Becoming rich and successful"
+              ],
+              "correct_answer": "Being saved from sin and its consequences through faith in Jesus",
+              "explanation": "Salvation means being saved from sin and its consequences. Christians believe that salvation comes through faith in Jesus Christ, who died and rose again for humanity.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the atonement?",
+              "options": [
+                "The punishment God gives to sinners",
+                "The idea that Jesus's death repaired the broken relationship between God and humanity caused by sin",
+                "The moment when Jesus was baptized",
+                "God's anger towards human beings"
+              ],
+              "correct_answer": "The idea that Jesus's death repaired the broken relationship between God and humanity caused by sin",
+              "explanation": "The atonement is the Christian belief that Jesus's death repaired the broken relationship between God and humanity. Through the cross, Jesus made it possible for humans to be reconciled with God.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is original sin in Christian belief?",
+              "options": [
+                "The worst sin anyone can commit",
+                "The sin of Adam and Eve alone",
+                "The belief that all humans are born with a tendency to sin, inherited from Adam and Eve",
+                "The sin of not believing in God"
+              ],
+              "correct_answer": "The belief that all humans are born with a tendency to sin, inherited from Adam and Eve",
+              "explanation": "Original sin is the Christian belief that all humans are born with a tendency to sin because of the sin of Adam and Eve in the Garden of Eden. This explains why humans naturally struggle with sin.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do Christians understand grace?",
+              "options": [
+                "A prayer said before eating",
+                "God's undeserved love and favour towards humans—salvation is given through grace, not earned",
+                "A special talent or ability",
+                "A punishment from God"
+              ],
+              "correct_answer": "God's undeserved love and favour towards humans—salvation is given through grace, not earned",
+              "explanation": "Grace is God's undeserved love and favour. Christians believe they cannot earn salvation through their own efforts; it is a free gift from God given through grace.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Christians believe in monotheism, which means belief in one God.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Monotheism is indeed a core Christian belief—Christians believe in only one God, which is a defining characteristic of Christianity.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The Trinity teaches that God is three separate and different gods.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The Trinity teaches that God is three persons (Father, Son, Holy Spirit) within one God, not three separate gods. This is an important distinction.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The incarnation refers to God becoming human in Jesus Christ.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The incarnation is exactly this—the belief that God became human in the form of Jesus Christ. This is central to Christian theology.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Christians believe the crucifixion was a punishment that Jesus had to suffer for his own sins.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Christians believe the crucifixion was a sacrifice by Jesus to save humanity from sin, not punishment for his own sins. Jesus was sinless according to Christian teaching.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The resurrection is the belief that Jesus rose from the dead three days after the crucifixion.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "This is the core Christian belief about the resurrection—that Jesus rose from the dead three days after being crucified, which is central to Christian faith.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The ascension happened immediately after Jesus rose from the dead.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The ascension occurred 40 days after the resurrection, not immediately. This period was when Jesus appeared to his disciples after rising from the dead.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Salvation in Christianity means being freed from sin and its consequences through faith in Jesus.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "This is exactly what salvation means in Christian belief—being saved from sin and its consequences through faith in Jesus Christ.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The atonement teaches that humans can repair their own relationship with God through good works.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The atonement teaches that Jesus's death repaired the broken relationship between God and humanity. Humans cannot do this themselves; it is Jesus's sacrifice that makes atonement possible.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Original sin means that babies are born with actual sins they have personally committed.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Original sin means humans are born with a tendency or inclination to sin inherited from Adam and Eve, not that babies have committed actual sins themselves.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Grace means that Christians must earn their salvation through hard work and good behaviour.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Grace is the opposite—it means salvation is given as an undeserved gift from God, not something that must be earned through human effort or behaviour.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Christians believe in ________, which is the belief in one God.",
+              "options": null,
+              "correct_answer": "monotheism",
+              "explanation": "Monotheism is the technical term for belief in one God, and it is a core Christian belief that distinguishes Christianity from polytheistic religions.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the Christian belief that God exists as three persons in one: Father, Son, and Holy Spirit.",
+              "options": null,
+              "correct_answer": "Trinity",
+              "explanation": "The Trinity is the distinctive Christian doctrine that explains how God can be three persons within one God. It is one of Christianity's most important and unique beliefs.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the belief that God became human in the form of Jesus Christ.",
+              "options": null,
+              "correct_answer": "incarnation",
+              "explanation": "The incarnation explains how God took on human form in Jesus. This is fundamental to Christian belief and shows God's love for humanity.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Christians believe that the ________ of Jesus on the cross was a sacrifice to save humanity from sin.",
+              "options": null,
+              "correct_answer": "crucifixion",
+              "explanation": "The crucifixion is Jesus's execution on the cross, which Christians see as a sacrificial death that provides salvation for all humanity.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the central Christian belief that Jesus rose from the dead three days after the crucifixion.",
+              "options": null,
+              "correct_answer": "resurrection",
+              "explanation": "The resurrection is absolutely central to Christian faith and gives Christians hope for eternal life. It proves Jesus's power over death.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the belief that Jesus rose bodily into heaven 40 days after his resurrection.",
+              "options": null,
+              "correct_answer": "ascension",
+              "explanation": "The ascension marks Jesus's return to God the Father and completes the events of salvation. It shows Jesus returning to heaven after his earthly ministry.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Christians believe in ________, which means being saved from sin and its consequences through faith in Jesus.",
+              "options": null,
+              "correct_answer": "salvation",
+              "explanation": "Salvation is the central Christian concept of being saved from sin. Christians believe this comes through faith in Jesus Christ and his sacrifice.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the idea that Jesus's death repaired the broken relationship between God and humanity caused by sin.",
+              "options": null,
+              "correct_answer": "atonement",
+              "explanation": "The atonement explains how Jesus's death on the cross made reconciliation between God and humans possible. It is central to understanding Jesus's purpose.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ ________ is the Christian belief that all humans are born with a tendency to sin, inherited from Adam and Eve.",
+              "options": null,
+              "correct_answer": "original sin",
+              "explanation": "Original sin explains why humans naturally struggle with sin. It is not about individual sins but about a tendency to sin passed down from humanity's first ancestors.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is God's undeserved love and favour towards humans—Christians believe salvation is given through grace, not earned.",
+              "options": null,
+              "correct_answer": "grace",
+              "explanation": "Grace is a fundamental Christian concept meaning God's free, undeserved gift. It emphasizes that salvation cannot be earned but is freely given by God.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Incarnation",
+                  "match": "God became human in the form of Jesus Christ"
+                },
+                {
+                  "term": "Resurrection",
+                  "match": "Jesus rose from the dead three days after the crucifixion"
+                },
+                {
+                  "term": "Atonement",
+                  "match": "Jesus's death repaired the broken relationship between God and humanity"
+                },
+                {
+                  "term": "Grace",
+                  "match": "God's undeserved love and favour given freely to humans"
+                },
+                {
+                  "term": "Salvation",
+                  "match": "Being saved from sin and its consequences through faith in Jesus"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "God, Jesus & the Afterlife",
+          "cards": [
+            {
+              "keyword": "omnipotent",
+              "definition": "all-powerful — God has unlimited power and can do anything",
+              "display_order": 1
+            },
+            {
+              "keyword": "omniscient",
+              "definition": "all-knowing — God knows everything, including the past, present and future",
+              "display_order": 2
+            },
+            {
+              "keyword": "omnibenevolent",
+              "definition": "all-loving and all-good — God's nature is perfectly good",
+              "display_order": 3
+            },
+            {
+              "keyword": "the Holy Spirit",
+              "definition": "the third person of the Trinity — believed to guide, comfort, and empower Christians",
+              "display_order": 4
+            },
+            {
+              "keyword": "heaven",
+              "definition": "in Christianity, the place or state of eternal life with God after death, for those who are saved",
+              "display_order": 5
+            },
+            {
+              "keyword": "hell",
+              "definition": "in Christianity, the place or state of eternal separation from God — the consequence of rejecting salvation",
+              "display_order": 6
+            },
+            {
+              "keyword": "purgatory",
+              "definition": "in Catholic belief, a state after death where souls are purified before entering heaven",
+              "display_order": 7
+            },
+            {
+              "keyword": "judgement",
+              "definition": "the belief that after death, God will judge each person's life and determine their eternal fate",
+              "display_order": 8
+            },
+            {
+              "keyword": "the Bible",
+              "definition": "the Christian holy scripture — believed by Christians to be the inspired word of God",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Apostles' Creed",
+              "definition": "a summary of core Christian beliefs used in worship — covers beliefs about God, Jesus, and the Holy Spirit",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does the word 'omnipotent' mean?",
+              "options": [
+                "All-knowing",
+                "All-powerful and can do anything",
+                "All-loving and all-good",
+                "All-seeing"
+              ],
+              "correct_answer": "All-powerful and can do anything",
+              "explanation": "Omnipotent comes from Latin meaning 'all-powerful'. It describes God's unlimited power in Christian belief.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which attribute of God means He knows everything, including past, present and future?",
+              "options": [
+                "Omnipotent",
+                "Omnibenevolent",
+                "Omniscient",
+                "Eternal"
+              ],
+              "correct_answer": "Omniscient",
+              "explanation": "Omniscient means all-knowing. This is one of the three main attributes Christians believe God possesses.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does omnibenevolent mean?",
+              "options": [
+                "Having great power and strength",
+                "Being all-knowing and wise",
+                "All-loving and all-good",
+                "Being eternal and unchanging"
+              ],
+              "correct_answer": "All-loving and all-good",
+              "explanation": "Omnibenevolent describes God's perfectly good and loving nature, central to Christian belief about God's character.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In Christianity, what is the Holy Spirit?",
+              "options": [
+                "The physical body of Jesus Christ",
+                "The third person of the Trinity who guides and comforts Christians",
+                "An angel sent by God to protect believers",
+                "A supernatural force from another religion"
+              ],
+              "correct_answer": "The third person of the Trinity who guides and comforts Christians",
+              "explanation": "The Holy Spirit is the third person of the Trinity in Christian theology, believed to empower and guide Christians in their faith.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "According to Christian belief, what is heaven?",
+              "options": [
+                "A temporary place where people rest after death",
+                "A physical location somewhere in space",
+                "The place or state of eternal life with God after death for the saved",
+                "A reward given only to priests and religious leaders"
+              ],
+              "correct_answer": "The place or state of eternal life with God after death for the saved",
+              "explanation": "In Christianity, heaven is understood as the eternal reward for those who are saved and maintain a relationship with God.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is hell in Christian belief?",
+              "options": [
+                "A temporary punishment for minor sins",
+                "The eternal separation from God for those who reject salvation",
+                "A place only for the worst criminals",
+                "A state of confusion after death"
+              ],
+              "correct_answer": "The eternal separation from God for those who reject salvation",
+              "explanation": "Hell is believed by Christians to be the consequence of rejecting God's offer of salvation, resulting in eternal separation from Him.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which Christian group believes in purgatory?",
+              "options": [
+                "All Christian denominations equally",
+                "Protestants mainly",
+                "Catholics",
+                "Only Orthodox Christians"
+              ],
+              "correct_answer": "Catholics",
+              "explanation": "Purgatory is a distinctive Catholic belief in a state after death where souls are purified before entering heaven. Most Protestants do not believe in purgatory.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does judgement mean in the context of Christian afterlife beliefs?",
+              "options": [
+                "Being criticized by other people for your mistakes",
+                "God will judge each person's life and determine their eternal fate after death",
+                "Making decisions about right and wrong",
+                "Being punished immediately for every sin"
+              ],
+              "correct_answer": "God will judge each person's life and determine their eternal fate after death",
+              "explanation": "In Christian theology, judgement refers to God's assessment of how a person has lived their life and the consequences for their eternal destiny.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Bible in Christianity?",
+              "options": [
+                "A book of stories with no religious significance",
+                "A guide written by the Pope for all Catholics",
+                "The Christian holy scripture believed to be the inspired word of God",
+                "A historical record of the Roman Empire"
+              ],
+              "correct_answer": "The Christian holy scripture believed to be the inspired word of God",
+              "explanation": "The Bible is the holy text of Christianity, containing the Old and New Testaments, and is believed by Christians to contain God's revelation and guidance.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Apostles' Creed used for?",
+              "options": [
+                "As a prayer before meals in churches",
+                "As a summary of core Christian beliefs used in worship",
+                "As a punishment for sinners",
+                "As a list of rules Christians must follow"
+              ],
+              "correct_answer": "As a summary of core Christian beliefs used in worship",
+              "explanation": "The Apostles' Creed is an ancient statement of Christian belief covering God, Jesus, and the Holy Spirit, and is recited in many Christian worship services.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Omnipotent means God is all-knowing.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Omnipotent means all-powerful. Omniscient is the word that means all-knowing. These are two different attributes of God.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The Holy Spirit is believed to guide and empower Christians.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Christians believe the Holy Spirit guides, comforts, and empowers them in their daily lives and spiritual growth.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "All Christian denominations believe in purgatory.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Purgatory is a specifically Catholic belief. Most Protestant churches do not accept the concept of purgatory.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "According to Christian belief, heaven is eternal life with God for those who are saved.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Heaven is understood in Christianity as the reward of eternal communion with God for those who have accepted salvation.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Hell represents temporary separation from God.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "In Christian belief, hell is eternal separation from God, not temporary. It is a permanent consequence of rejecting salvation.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The Bible is considered the holy scripture in Christianity.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The Bible is the sacred text of Christianity, believed to contain God's word and is central to Christian faith and practice.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The Apostles' Creed is a list of sins that Christians must avoid.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The Apostles' Creed is a statement of core Christian beliefs about God, Jesus, and the Holy Spirit, not a list of sins to avoid.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Omnibenevolent means God is perfectly good and all-loving.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Omnibenevolent describes God's perfect goodness and all-encompassing love, which is fundamental to Christian understanding of God's nature.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Omniscient means God can do anything.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Omniscient means all-knowing. Omnipotent is the word meaning God can do anything. These are different attributes.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Judgement in Christianity refers to God assessing a person's life after death.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Christians believe that after death, God will judge each person's life and determine their eternal fate based on their beliefs and actions.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "God's ________ means He is all-powerful and can do anything.",
+              "options": null,
+              "correct_answer": "omnipotence",
+              "explanation": "Omnipotence is the noun form of omnipotent, describing God's unlimited power.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the Christian holy scripture believed to contain the word of God.",
+              "options": null,
+              "correct_answer": "Bible",
+              "explanation": "The Bible is the sacred text of Christianity containing the Old and New Testaments.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "In Christianity, ________ is understood as the eternal reward of life with God for the saved.",
+              "options": null,
+              "correct_answer": "heaven",
+              "explanation": "Heaven represents eternal communion with God and is the ultimate goal for many Christians.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the third person of the Trinity who guides and comforts Christians.",
+              "options": null,
+              "correct_answer": "Holy Spirit",
+              "explanation": "The Holy Spirit is one of the three persons in the Christian Trinity alongside God the Father and Jesus the Son.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Catholics believe in ________, a state after death where souls are purified before entering heaven.",
+              "options": null,
+              "correct_answer": "purgatory",
+              "explanation": "Purgatory is a distinctive Catholic doctrine not accepted by most Protestant denominations.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Christians believe that ________ after death means God will determine each person's eternal fate.",
+              "options": null,
+              "correct_answer": "judgement",
+              "explanation": "Judgement is the Christian belief that God will assess how a person has lived and decide their eternal destiny.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "God being ________ means He is all-knowing and knows everything including the past, present and future.",
+              "options": null,
+              "correct_answer": "omniscient",
+              "explanation": "Omniscience is one of the key attributes of God in Christian theology, meaning complete knowledge.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is an ancient summary of core Christian beliefs used in worship that covers God, Jesus and the Holy Spirit.",
+              "options": null,
+              "correct_answer": "Apostles' Creed",
+              "explanation": "The Apostles' Creed is a traditional statement of Christian faith recited in many churches during worship.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "In Christian belief, ________ represents eternal separation from God as a consequence of rejecting salvation.",
+              "options": null,
+              "correct_answer": "hell",
+              "explanation": "Hell is understood as the opposite of heaven, representing the eternal consequence of rejecting God's salvation.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "God being ________ means He is all-loving and all-good in nature.",
+              "options": null,
+              "correct_answer": "omnibenevolent",
+              "explanation": "Omnibenevolence describes God's perfect goodness and universal love, central to Christian theology.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Omnipotent",
+                  "match": "All-powerful and can do anything"
+                },
+                {
+                  "term": "The Holy Spirit",
+                  "match": "The third person of the Trinity who guides and comforts Christians"
+                },
+                {
+                  "term": "Purgatory",
+                  "match": "In Catholic belief, a state after death where souls are purified before entering heaven"
+                },
+                {
+                  "term": "Hell",
+                  "match": "The place or state of eternal separation from God"
+                },
+                {
+                  "term": "Judgement",
+                  "match": "The belief that after death, God will judge each person's life and determine their eternal fate"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Christianity — Practices",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Worship & Sacraments",
+          "cards": [
+            {
+              "keyword": "liturgical worship",
+              "definition": "structured, formal worship following a set order of service — used by Catholic and Anglican churches",
+              "display_order": 1
+            },
+            {
+              "keyword": "non-liturgical worship",
+              "definition": "informal, flexible worship without a fixed order — common in evangelical and charismatic churches",
+              "display_order": 2
+            },
+            {
+              "keyword": "sacrament",
+              "definition": "a religious ceremony believed to be a visible sign of God's grace — Catholics recognise seven, Protestants usually two",
+              "display_order": 3
+            },
+            {
+              "keyword": "baptism",
+              "definition": "a sacrament using water to symbolise cleansing from sin and entry into the Christian community",
+              "display_order": 4
+            },
+            {
+              "keyword": "Eucharist / Holy Communion",
+              "definition": "a sacrament commemorating the Last Supper — sharing bread and wine in memory of Jesus",
+              "display_order": 5
+            },
+            {
+              "keyword": "prayer",
+              "definition": "communicating with God — can be formal or informal, private or collective",
+              "display_order": 6
+            },
+            {
+              "keyword": "the Lord's Prayer",
+              "definition": "the model prayer taught by Jesus to his disciples — used widely in Christian worship",
+              "display_order": 7
+            },
+            {
+              "keyword": "pilgrimage",
+              "definition": "a journey to a sacred place for religious purposes — e.g. Christians visiting Lourdes or Jerusalem",
+              "display_order": 8
+            },
+            {
+              "keyword": "evangelism",
+              "definition": "spreading the Christian faith to others — seen by many Christians as a duty",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Church",
+              "definition": "the worldwide community of Christians — also refers to the building used for Christian worship",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which type of worship uses a set order of service that is followed in the same way each time?",
+              "options": [
+                "Non-liturgical worship",
+                "Liturgical worship",
+                "Evangelical worship",
+                "Charismatic worship"
+              ],
+              "correct_answer": "Liturgical worship",
+              "explanation": "Liturgical worship is structured and formal, following a fixed order of service, commonly used in Catholic and Anglican churches.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a sacrament?",
+              "options": [
+                "A book of Bible readings used in church",
+                "A religious ceremony believed to be a visible sign of God's grace",
+                "A type of prayer sung during worship",
+                "A special piece of clothing worn by priests"
+              ],
+              "correct_answer": "A religious ceremony believed to be a visible sign of God's grace",
+              "explanation": "A sacrament is a religious ceremony that Christians believe shows God's grace in a visible or physical way.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How many sacraments do Catholics recognise?",
+              "options": [
+                "Two",
+                "Three",
+                "Five",
+                "Seven"
+              ],
+              "correct_answer": "Seven",
+              "explanation": "Catholics recognise seven sacraments, while most Protestant churches recognise only two: baptism and the Eucharist.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which sacrament uses water to symbolise cleansing from sin and entry into the Christian community?",
+              "options": [
+                "The Eucharist",
+                "Confirmation",
+                "Baptism",
+                "Marriage"
+              ],
+              "correct_answer": "Baptism",
+              "explanation": "Baptism is a sacrament where water is used as a symbol of washing away sin and welcoming a person into the Christian faith.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the Eucharist commemorate?",
+              "options": [
+                "The birth of Jesus",
+                "The resurrection of Jesus",
+                "The Last Supper",
+                "The ascension of Jesus"
+              ],
+              "correct_answer": "The Last Supper",
+              "explanation": "The Eucharist, also called Holy Communion, commemorates the Last Supper when Jesus shared bread and wine with his disciples before his death.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which church types commonly use non-liturgical worship?",
+              "options": [
+                "Catholic and Orthodox churches",
+                "Anglican and Methodist churches",
+                "Evangelical and charismatic churches",
+                "Lutheran and Presbyterian churches"
+              ],
+              "correct_answer": "Evangelical and charismatic churches",
+              "explanation": "Non-liturgical worship is informal and flexible without a fixed order, and is common in evangelical and charismatic churches.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is prayer?",
+              "options": [
+                "Reading the Bible aloud in church",
+                "Communicating with God",
+                "Singing hymns during worship",
+                "Listening to a sermon"
+              ],
+              "correct_answer": "Communicating with God",
+              "explanation": "Prayer is the way Christians communicate with God, and it can be formal or informal, private or done with others.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which prayer did Jesus teach to his disciples and is widely used in Christian worship?",
+              "options": [
+                "The Prayer of Confession",
+                "The Hail Mary",
+                "The Lord's Prayer",
+                "The Prayer of Thanksgiving"
+              ],
+              "correct_answer": "The Lord's Prayer",
+              "explanation": "The Lord's Prayer is the model prayer taught by Jesus to his disciples and is used in almost all Christian worship services.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a pilgrimage?",
+              "options": [
+                "A religious celebration held in church",
+                "A journey to a sacred place for religious purposes",
+                "A type of sermon preached by a priest",
+                "A weekly meeting of Christians"
+              ],
+              "correct_answer": "A journey to a sacred place for religious purposes",
+              "explanation": "A pilgrimage is a journey to a sacred or holy place undertaken for religious reasons, such as Christians visiting Lourdes or Jerusalem.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is evangelism?",
+              "options": [
+                "The study of the Gospel",
+                "A type of Christian music",
+                "Spreading the Christian faith to others",
+                "A method of biblical interpretation"
+              ],
+              "correct_answer": "Spreading the Christian faith to others",
+              "explanation": "Evangelism is the activity of spreading the Christian faith to others, and many Christians see it as an important duty.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Non-liturgical worship follows a strict, fixed order of service.",
+              "correct_answer": "False",
+              "explanation": "Non-liturgical worship is informal and flexible, without a fixed order of service. Liturgical worship is the type that follows a strict, set order.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Baptism and the Eucharist are recognised as sacraments by most Christian churches.",
+              "correct_answer": "True",
+              "explanation": "Both baptism and the Eucharist are widely recognised as sacraments across Catholic, Protestant, and Orthodox Christianity.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The Eucharist involves sharing bread and wine in memory of Jesus.",
+              "correct_answer": "True",
+              "explanation": "The Eucharist, also called Holy Communion, commemorates the Last Supper by sharing bread and wine as Jesus instructed.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Prayer must always be done out loud and in a church building.",
+              "correct_answer": "False",
+              "explanation": "Prayer can be formal or informal, and can be done privately or collectively in any location, not just in churches.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The Lord's Prayer is a model prayer that Jesus taught his disciples.",
+              "correct_answer": "True",
+              "explanation": "Jesus taught the Lord's Prayer to his disciples, and it is now used widely in Christian worship across many denominations.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Lourdes and Jerusalem are examples of pilgrimage destinations for Christians.",
+              "correct_answer": "True",
+              "explanation": "Both Lourdes in France and Jerusalem are important sacred places that Christians visit on pilgrimage for religious purposes.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Evangelism is forbidden in all Christian churches.",
+              "correct_answer": "False",
+              "explanation": "Evangelism is not forbidden; in fact, many Christians see spreading the Christian faith to others as an important duty.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The Church refers only to the building where Christians worship.",
+              "correct_answer": "False",
+              "explanation": "The Church refers to the worldwide community of Christians, though the term also refers to the physical building used for worship.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Catholics recognise the same number of sacraments as most Protestant churches.",
+              "correct_answer": "False",
+              "explanation": "Catholics recognise seven sacraments, while most Protestant churches recognise only two: baptism and the Eucharist.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Liturgical worship is used by Catholic and Anglican churches.",
+              "correct_answer": "True",
+              "explanation": "Liturgical worship, with its structured and formal set order, is characteristic of Catholic and Anglican church services.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a sacrament using water to symbolise cleansing from sin and entry into the Christian community.",
+              "options": null,
+              "correct_answer": "Baptism",
+              "explanation": "Baptism is the sacrament where water is used as a symbol of washing away sin and welcoming someone into Christianity.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the model prayer taught by Jesus to his disciples and is used widely in Christian worship.",
+              "options": null,
+              "correct_answer": "Lord's Prayer",
+              "explanation": "The Lord's Prayer is the specific prayer that Jesus taught his disciples and it remains central to Christian worship.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ worship is informal, flexible worship without a fixed order, common in evangelical and charismatic churches.",
+              "options": null,
+              "correct_answer": "Non-liturgical",
+              "explanation": "Non-liturgical worship allows flexibility and spontaneity, contrasting with the formal structure of liturgical worship.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the worldwide community of Christians.",
+              "options": null,
+              "correct_answer": "Church",
+              "explanation": "The Church refers to all Christians everywhere, though it also refers to the physical building where Christians gather.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a religious ceremony believed to be a visible sign of God's grace.",
+              "options": null,
+              "correct_answer": "sacrament",
+              "explanation": "Sacraments are special religious ceremonies through which Christians believe God's grace is made visible and real.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is a sacrament that commemorates the Last Supper through sharing bread and wine.",
+              "options": null,
+              "correct_answer": "Eucharist",
+              "explanation": "The Eucharist, also called Holy Communion, is the sacrament where bread and wine are shared in memory of Jesus.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is spreading the Christian faith to others, seen by many Christians as a duty.",
+              "options": null,
+              "correct_answer": "Evangelism",
+              "explanation": "Evangelism is the practice of sharing the Christian faith with others, which many denominations encourage as part of faith.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a journey to a sacred place for religious purposes, such as visiting Lourdes or Jerusalem.",
+              "options": null,
+              "correct_answer": "pilgrimage",
+              "explanation": "A pilgrimage is a religious journey undertaken by Christians to visit holy sites and deepen their faith.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is communicating with God and can be formal or informal, private or collective.",
+              "options": null,
+              "correct_answer": "Prayer",
+              "explanation": "Prayer is the primary way Christians communicate with God, taking many different forms and styles.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ worship is structured, formal worship following a set order of service, used by Catholic and Anglican churches.",
+              "options": null,
+              "correct_answer": "Liturgical",
+              "explanation": "Liturgical worship uses a fixed, formal order of service that is followed consistently in each worship service.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Sacrament",
+                  "match": "A religious ceremony believed to be a visible sign of God's grace"
+                },
+                {
+                  "term": "Pilgrimage",
+                  "match": "A journey to a sacred place for religious purposes"
+                },
+                {
+                  "term": "Liturgical worship",
+                  "match": "Structured, formal worship following a set order of service"
+                },
+                {
+                  "term": "Evangelism",
+                  "match": "Spreading the Christian faith to others"
+                },
+                {
+                  "term": "The Lord's Prayer",
+                  "match": "The model prayer taught by Jesus to his disciples"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Islam — Beliefs & Teachings",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Core Islamic Beliefs",
+          "cards": [
+            {
+              "keyword": "Tawhid",
+              "definition": "the oneness and unity of Allah — the most fundamental belief in Islam",
+              "display_order": 1
+            },
+            {
+              "keyword": "Allah",
+              "definition": "the Arabic word for God — Muslims believe Allah is the one, eternal, all-powerful creator",
+              "display_order": 2
+            },
+            {
+              "keyword": "the Six Articles of Faith (Sunni)",
+              "definition": "core Sunni Muslim beliefs: Allah, angels, holy books, prophets, the Day of Judgement, and predestination",
+              "display_order": 3
+            },
+            {
+              "keyword": "the Five Roots (Shia)",
+              "definition": "core Shia Muslim beliefs: Tawhid, Adalat, Nubuwwah, Imamah, and Mi'ad",
+              "display_order": 4
+            },
+            {
+              "keyword": "prophethood (Nubuwwah)",
+              "definition": "the belief that Allah sent prophets to guide humanity — Muhammad is the final prophet",
+              "display_order": 5
+            },
+            {
+              "keyword": "Muhammad (pbuh)",
+              "definition": "the final prophet of Islam who received the Qur'an from Allah through the angel Jibril",
+              "display_order": 6
+            },
+            {
+              "keyword": "the Qur'an",
+              "definition": "the holy book of Islam — believed by Muslims to be the direct word of Allah revealed to Muhammad",
+              "display_order": 7
+            },
+            {
+              "keyword": "angels (Mala'ikah)",
+              "definition": "spiritual beings created from light who carry out Allah's will — including Jibril (Gabriel) who revealed the Qur'an",
+              "display_order": 8
+            },
+            {
+              "keyword": "predestination (Al-Qadr)",
+              "definition": "the belief that Allah has knowledge of and control over everything that happens",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Day of Judgement (Akhirah)",
+              "definition": "the belief that after death, all people will be judged by Allah and sent to paradise (Jannah) or hell (Jahannam)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does the word 'Tawhid' mean in Islam?",
+              "options": [
+                "The five daily prayers",
+                "The oneness and unity of Allah",
+                "The pilgrimage to Mecca",
+                "The Islamic law code"
+              ],
+              "correct_answer": "The oneness and unity of Allah",
+              "explanation": "Tawhid is the most fundamental belief in Islam, expressing that Allah is one and unique. It is the core principle that distinguishes Islamic monotheism.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who is Muhammad (pbuh) in Islam?",
+              "options": [
+                "The first human created by Allah",
+                "A companion of the Prophet Ibrahim",
+                "The final prophet who received the Qur'an from Allah",
+                "An angel sent to guide believers"
+              ],
+              "correct_answer": "The final prophet who received the Qur'an from Allah",
+              "explanation": "Muhammad (pbuh) is believed by Muslims to be the final prophet in a long line of prophets, and he received the Qur'an through the angel Jibril.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are the Six Articles of Faith in Sunni Islam?",
+              "options": [
+                "Prayer, Charity, Fasting, Pilgrimage, and Witnessing",
+                "Allah, angels, holy books, prophets, the Day of Judgement, and predestination",
+                "The five pillars and belief in Muhammad",
+                "Belief in the Qur'an, angels, and heaven only"
+              ],
+              "correct_answer": "Allah, angels, holy books, prophets, the Day of Judgement, and predestination",
+              "explanation": "The Six Articles of Faith are the core beliefs that all Sunni Muslims accept as essential to their faith.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which angel is known for revealing the Qur'an to Muhammad?",
+              "options": [
+                "Mikail",
+                "Israfil",
+                "Jibril (Gabriel)",
+                "Azrail"
+              ],
+              "correct_answer": "Jibril (Gabriel)",
+              "explanation": "Jibril, also known as Gabriel in English, is the angel responsible for delivering Allah's message to Muhammad over many years.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'Allah' mean?",
+              "options": [
+                "The name of Muhammad's father",
+                "A type of Islamic prayer",
+                "The Arabic word for God — the one, eternal, all-powerful creator",
+                "The capital city of Saudi Arabia"
+              ],
+              "correct_answer": "The Arabic word for God — the one, eternal, all-powerful creator",
+              "explanation": "Allah is the Islamic term for God, emphasising that God is singular, eternal, and all-powerful. Muslims use this name to refer to the one true God.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'Nubuwwah' in Islamic belief?",
+              "options": [
+                "The belief that Allah controls all events",
+                "The belief that Allah sent prophets to guide humanity",
+                "The belief in paradise and hell",
+                "The belief in the unity of Allah"
+              ],
+              "correct_answer": "The belief that Allah sent prophets to guide humanity",
+              "explanation": "Nubuwwah is the Islamic concept of prophethood — the belief that Allah has sent prophets throughout history to guide people, with Muhammad being the final prophet.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is a core belief in Shia Islam?",
+              "options": [
+                "Only the Six Articles of Faith",
+                "The Five Roots, including Tawhid, Adalat, Nubuwwah, Imamah, and Mi'ad",
+                "Belief in reincarnation",
+                "Only belief in Muhammad as the final messenger"
+              ],
+              "correct_answer": "The Five Roots, including Tawhid, Adalat, Nubuwwah, Imamah, and Mi'ad",
+              "explanation": "The Five Roots are the core doctrines of Shia Islam, similar to but distinct from the Sunni Six Articles of Faith.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Qur'an believed to be by Muslims?",
+              "options": [
+                "A collection of stories written by Muslim scholars",
+                "A guide written by Muhammad based on his own thoughts",
+                "The direct word of Allah revealed to Muhammad",
+                "A historical record of Islamic battles"
+              ],
+              "correct_answer": "The direct word of Allah revealed to Muhammad",
+              "explanation": "Muslims believe the Qur'an is the literal word of Allah, revealed to Muhammad over approximately 23 years through the angel Jibril.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'Al-Qadr' (predestination) mean in Islam?",
+              "options": [
+                "The duty to pray five times daily",
+                "The belief that Allah has knowledge of and control over everything that happens",
+                "The obligation to give to charity",
+                "The promise of eternal life in heaven"
+              ],
+              "correct_answer": "The belief that Allah has knowledge of and control over everything that happens",
+              "explanation": "Al-Qadr is the Islamic doctrine of predestination, affirming that Allah has full knowledge and control over all events, past, present, and future.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the 'Day of Judgement' (Akhirah) in Islamic belief?",
+              "options": [
+                "The day Muhammad received the Qur'an",
+                "A day when Muslims must make pilgrimage to Mecca",
+                "The day when all people will be judged by Allah and sent to paradise or hell",
+                "The anniversary of the Islamic calendar"
+              ],
+              "correct_answer": "The day when all people will be judged by Allah and sent to paradise or hell",
+              "explanation": "The Day of Judgement is a fundamental Islamic belief that after death, Allah will judge every person and determine their eternal destination — either Jannah (paradise) or Jahannam (hell).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Tawhid is the belief that there are multiple gods in Islam.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Tawhid means the oneness and unity of Allah — it is the belief that there is only one God, not multiple gods.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Muslims believe that Muhammad is the final prophet sent by Allah.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "This is a core belief in Islam: that Muhammad (pbuh) is the last and final prophet in a succession of prophets sent by Allah.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Angels in Islam are created from fire according to Islamic teachings.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Muslims believe that angels (Mala'ikah) are spiritual beings created from light, not from fire. The Qur'an describes them as being made from light.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The Six Articles of Faith are beliefs held by both Sunni and Shia Muslims.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The Six Articles of Faith are specific to Sunni Islam. Shia Muslims follow the Five Roots instead, which differ in some respects.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The Qur'an was revealed to Muhammad over a period of approximately 23 years.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The revelation of the Qur'an to Muhammad took place gradually over about 23 years through the angel Jibril.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Predestination (Al-Qadr) means that humans have no free will in Islam.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "While Allah has knowledge and control over all events, Islamic teaching also emphasizes human responsibility and choice; it is not a denial of free will.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Muslims believe that angels carry out the will of Allah.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "In Islamic belief, angels are obedient servants of Allah who carry out His commands and will.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Jannah and Jahannam refer to the Islamic concepts of paradise and hell.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Jannah is the Islamic paradise and Jahannam is the Islamic hell; these are the two possible destinations for people after the Day of Judgement.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The Five Roots of Shia Islam include the same beliefs as the Six Articles of Sunni Islam.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "While both share some core beliefs like prophethood and belief in God, the Five Roots and Six Articles are distinct formulations with different emphases.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "In Islam, holy books were revealed to various prophets before the Qur'an.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Islamic belief includes the Torah, Psalms, and Gospel as holy books revealed to earlier prophets, though Muslims believe the Qur'an is the final revelation.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The most fundamental belief in Islam is ________, which means the oneness and unity of Allah.",
+              "options": null,
+              "correct_answer": "Tawhid",
+              "explanation": "Tawhid is the central principle of Islamic monotheism and the foundation of all Muslim beliefs.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the angel who revealed the Qur'an to Muhammad over 23 years.",
+              "options": null,
+              "correct_answer": "Jibril",
+              "explanation": "Jibril (Gabriel) is the specific angel who delivered Allah's message to Muhammad throughout the revelation of the Qur'an.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Muslims believe that ________ is the final prophet sent by Allah to guide humanity.",
+              "options": null,
+              "correct_answer": "Muhammad",
+              "explanation": "Muhammad (pbuh) holds a unique and final position in Islamic prophethood, completing the line of prophets sent by Allah.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Islamic holy book is called the ________, which Muslims believe is the direct word of Allah.",
+              "options": null,
+              "correct_answer": "Qur'an",
+              "explanation": "The Qur'an is the primary religious text of Islam and is believed to contain Allah's exact words as revealed to Muhammad.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Islamic concept of ________ refers to the belief that Allah has knowledge of and control over all events.",
+              "options": null,
+              "correct_answer": "predestination",
+              "explanation": "Predestination (Al-Qadr) is the Islamic belief that Allah has foreknowledge and control over everything that occurs.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Sunni Muslims believe in the ________ Articles of Faith as the core principles of their religion.",
+              "options": null,
+              "correct_answer": "Six",
+              "explanation": "The Six Articles of Faith are the fundamental beliefs specific to Sunni Islam.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "In Islamic belief, ________ (Mala'ikah) are spiritual beings created from light who carry out Allah's will.",
+              "options": null,
+              "correct_answer": "angels",
+              "explanation": "Angels are important figures in Islamic theology, serving as messengers and servants of Allah.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Shia Muslim tradition emphasizes the ________ Roots as core beliefs instead of the Sunni Six Articles.",
+              "options": null,
+              "correct_answer": "Five",
+              "explanation": "The Five Roots form the doctrinal foundation of Shia Islam, reflecting their distinct theological emphasis.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Muslims believe that after death, all people will face the ________ where they will be judged by Allah.",
+              "options": null,
+              "correct_answer": "Day of Judgement",
+              "explanation": "The Day of Judgement (Akhirah) is a central Islamic belief about the final judgment of all souls by Allah.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________is the Arabic word for God, and Muslims believe Allah is eternal, all-powerful, and the one creator.",
+              "options": null,
+              "correct_answer": "Allah",
+              "explanation": "Allah is the Islamic name for God, emphasising His uniqueness and supreme power over all creation.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Tawhid",
+                  "match": "The oneness and unity of Allah"
+                },
+                {
+                  "term": "Nubuwwah",
+                  "match": "The belief that Allah sent prophets to guide humanity"
+                },
+                {
+                  "term": "Al-Qadr",
+                  "match": "The belief that Allah has knowledge of and control over everything"
+                },
+                {
+                  "term": "Akhirah",
+                  "match": "The Day of Judgement when all people will be judged by Allah"
+                },
+                {
+                  "term": "Mala'ikah",
+                  "match": "Spiritual beings created from light who carry out Allah's will"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "The Five Pillars of Islam",
+          "cards": [
+            {
+              "keyword": "the Five Pillars",
+              "definition": "the five core duties of Sunni Muslims: Shahadah, Salah, Sawm, Zakah, and Hajj",
+              "display_order": 1
+            },
+            {
+              "keyword": "Shahadah",
+              "definition": "the declaration of faith: 'There is no God but Allah and Muhammad is his messenger' — the first pillar",
+              "display_order": 2
+            },
+            {
+              "keyword": "Salah",
+              "definition": "the five daily prayers performed at set times — the second pillar",
+              "display_order": 3
+            },
+            {
+              "keyword": "Sawm",
+              "definition": "fasting during the month of Ramadan — the fourth pillar",
+              "display_order": 4
+            },
+            {
+              "keyword": "Zakah",
+              "definition": "giving 2.5% of surplus wealth to those in need — the third pillar, an act of charity and worship",
+              "display_order": 5
+            },
+            {
+              "keyword": "Hajj",
+              "definition": "the annual pilgrimage to Makkah — the fifth pillar, required once in a lifetime if able",
+              "display_order": 6
+            },
+            {
+              "keyword": "Ramadan",
+              "definition": "the Islamic holy month of fasting — commemorating the revelation of the Qur'an to Muhammad",
+              "display_order": 7
+            },
+            {
+              "keyword": "Jumu'ah",
+              "definition": "Friday congregational prayer — an important weekly act of collective worship for Muslims",
+              "display_order": 8
+            },
+            {
+              "keyword": "the mosque (masjid)",
+              "definition": "a Muslim place of worship — also used for community events, education, and charitable activities",
+              "display_order": 9
+            },
+            {
+              "keyword": "Ummah",
+              "definition": "the worldwide community of Muslims — the sense of brotherhood and sisterhood among all Muslims",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the Shahadah?",
+              "options": [
+                "The five daily prayers performed at set times",
+                "The declaration of faith: 'There is no God but Allah and Muhammad is his messenger'",
+                "Fasting during the month of Ramadan",
+                "Giving charity to those in need"
+              ],
+              "correct_answer": "The declaration of faith: 'There is no God but Allah and Muhammad is his messenger'",
+              "explanation": "The Shahadah is the first pillar of Islam and is the Islamic statement of faith that Muslims must declare and believe.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How many times per day do Muslims perform Salah?",
+              "options": [
+                "Three times",
+                "Six times",
+                "Five times",
+                "Seven times"
+              ],
+              "correct_answer": "Five times",
+              "explanation": "Salah is the second pillar and consists of five daily prayers performed at set times throughout the day.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What percentage of surplus wealth must Muslims give as Zakah?",
+              "options": [
+                "5%",
+                "10%",
+                "2.5%",
+                "15%"
+              ],
+              "correct_answer": "2.5%",
+              "explanation": "Zakah is the third pillar and requires Muslims to give 2.5% of their surplus wealth to those in need as an act of charity and worship.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which month of the Islamic calendar is when Muslims fast?",
+              "options": [
+                "Muharram",
+                "Ramadan",
+                "Dhul-Hijjah",
+                "Safar"
+              ],
+              "correct_answer": "Ramadan",
+              "explanation": "Ramadan is the Islamic holy month of fasting, during which Muslims abstain from food and drink from dawn to sunset to commemorate the revelation of the Qur'an to Muhammad.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Hajj?",
+              "options": [
+                "Weekly congregational prayer on a Friday",
+                "The annual pilgrimage to Makkah required once in a lifetime if able",
+                "Fasting during Ramadan",
+                "The declaration of faith in Allah"
+              ],
+              "correct_answer": "The annual pilgrimage to Makkah required once in a lifetime if able",
+              "explanation": "The Hajj is the fifth pillar of Islam and is one of the most important duties for Muslims who are able to undertake it.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the worldwide community of Muslims called?",
+              "options": [
+                "Jumu'ah",
+                "Masjid",
+                "Ummah",
+                "Zakah"
+              ],
+              "correct_answer": "Ummah",
+              "explanation": "The Ummah refers to the worldwide community of Muslims and represents the sense of brotherhood and sisterhood among all Muslims regardless of nationality or ethnicity.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which pillar comes immediately after Zakah?",
+              "options": [
+                "Hajj",
+                "Sawm",
+                "Salah",
+                "Shahadah"
+              ],
+              "correct_answer": "Sawm",
+              "explanation": "The five pillars in order are: Shahadah, Salah, Zakah, Sawm, and Hajj. Therefore, Sawm (fasting) is the fourth pillar that comes after Zakah.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is Jumu'ah?",
+              "options": [
+                "A place of Muslim worship",
+                "Friday congregational prayer",
+                "The Islamic calendar",
+                "A charitable donation"
+              ],
+              "correct_answer": "Friday congregational prayer",
+              "explanation": "Jumu'ah is the Friday congregational prayer, which is an important weekly act of collective worship for Muslims performed in the mosque.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a mosque also known as?",
+              "options": [
+                "Ummah",
+                "Hajj",
+                "Masjid",
+                "Ramadan"
+              ],
+              "correct_answer": "Masjid",
+              "explanation": "A mosque is a Muslim place of worship and is also called a masjid. It serves not only as a place for prayer but also for community events, education, and charitable activities.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is NOT one of the Five Pillars?",
+              "options": [
+                "Hajj",
+                "Jumu'ah",
+                "Sawm",
+                "Salah"
+              ],
+              "correct_answer": "Jumu'ah",
+              "explanation": "Jumu'ah (Friday congregational prayer) is an important act of worship but is not one of the five core pillars. The Five Pillars are Shahadah, Salah, Zakah, Sawm, and Hajj.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The Shahadah is the first pillar of Islam.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The Shahadah is indeed the first pillar and is the declaration of faith that forms the foundation of Islamic belief.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Zakah requires Muslims to give 10% of their wealth to charity.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Zakah requires Muslims to give 2.5% of their surplus wealth, not 10%. This is the specific percentage set out in Islamic teaching.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The Hajj must be performed five times in a lifetime.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The Hajj must be performed once in a lifetime if a Muslim is physically and financially able, not five times. Performing it multiple times is optional.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Ramadan commemorates the revelation of the Qur'an to Muhammad.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Ramadan is the Islamic holy month during which Muslims fast to commemorate the revelation of the Qur'an to the Prophet Muhammad.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Salah is performed seven times per day.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Salah consists of five daily prayers performed at set times throughout the day, not seven times.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The mosque is used only for prayer and no other activities.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Although the mosque is primarily a place of worship, it is also used for community events, education, and charitable activities.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The Ummah refers to the worldwide community of Muslims.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The Ummah is the term for the global community of Muslims and represents the unity and brotherhood/sisterhood among all believers.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Jumu'ah is performed on a Saturday.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Jumu'ah is the Friday congregational prayer, not Saturday. Friday holds special significance in Islam as the day of gathering.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Sawm is the practice of giving charity to those in need.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Sawm is fasting during Ramadan. The practice of giving charity to the poor is Zakah, the third pillar.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "All Five Pillars are equally important in Islamic practice.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "All five pillars are core duties of Islam and are considered essential practices for Sunni Muslims.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the declaration of faith and the first pillar of Islam.",
+              "options": null,
+              "correct_answer": "Shahadah",
+              "explanation": "The Shahadah is the Islamic statement of belief that 'There is no God but Allah and Muhammad is his messenger'.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ refers to the five daily prayers performed by Muslims at set times.",
+              "options": null,
+              "correct_answer": "Salah",
+              "explanation": "Salah is the second pillar of Islam and is one of the most important duties performed by Muslims throughout the day.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Muslims must give ________ percent of their surplus wealth as Zakah.",
+              "options": null,
+              "correct_answer": "2.5",
+              "explanation": "Zakah requires the giving of 2.5% of surplus wealth as an act of charity and worship, the third pillar of Islam.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the Islamic holy month during which Muslims fast from dawn to sunset.",
+              "options": null,
+              "correct_answer": "Ramadan",
+              "explanation": "Ramadan is the month in which the Qur'an was revealed to Muhammad, making it a sacred time for fasting and prayer.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the pilgrimage to Makkah that Muslims must perform once in their lifetime if able.",
+              "options": null,
+              "correct_answer": "Hajj",
+              "explanation": "The Hajj is the fifth pillar and one of the most significant religious journeys a Muslim can undertake.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the Friday congregational prayer that brings Muslims together for collective worship.",
+              "options": null,
+              "correct_answer": "Jumu'ah",
+              "explanation": "Jumu'ah is an important weekly gathering of Muslims at the mosque for Friday prayers, emphasizing community and unity.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a Muslim place of worship that also serves as a centre for community, education, and charity.",
+              "options": null,
+              "correct_answer": "mosque",
+              "explanation": "The mosque (or masjid) is the central place of worship in Islam and plays an important role in the Muslim community.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the worldwide community of Muslims united by their faith.",
+              "options": null,
+              "correct_answer": "Ummah",
+              "explanation": "The Ummah represents the global brotherhood and sisterhood of all Muslims regardless of their nationality or background.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Five Pillars are: Shahadah, Salah, Zakah, ________, and Hajj.",
+              "options": null,
+              "correct_answer": "Sawm",
+              "explanation": "Sawm (fasting during Ramadan) is the fourth pillar, completing the five core duties required of Sunni Muslims.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is an act of charity and worship where Muslims give 2.5% of their surplus wealth.",
+              "options": null,
+              "correct_answer": "Zakah",
+              "explanation": "Zakah is the third pillar of Islam and is both a religious duty and a practical way to support those in need within the Muslim community.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Shahadah",
+                  "match": "The declaration of faith: 'There is no God but Allah and Muhammad is his messenger'"
+                },
+                {
+                  "term": "Salah",
+                  "match": "The five daily prayers performed at set times"
+                },
+                {
+                  "term": "Zakah",
+                  "match": "Giving 2.5% of surplus wealth to those in need"
+                },
+                {
+                  "term": "Sawm",
+                  "match": "Fasting during the month of Ramadan"
+                },
+                {
+                  "term": "Hajj",
+                  "match": "The annual pilgrimage to Makkah required once in a lifetime if able"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thematic Studies — Ethics & Society",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Theme B — Religion & Life",
+          "cards": [
+            {
+              "keyword": "sanctity of life",
+              "definition": "the belief that all human life is sacred and has special value — used in arguments against abortion and euthanasia",
+              "display_order": 1
+            },
+            {
+              "keyword": "abortion",
+              "definition": "the deliberate termination of a pregnancy — a key ethical issue in religious studies",
+              "display_order": 2
+            },
+            {
+              "keyword": "euthanasia",
+              "definition": "deliberately ending a life to relieve suffering — can be voluntary (requested by patient) or non-voluntary",
+              "display_order": 3
+            },
+            {
+              "keyword": "quality of life",
+              "definition": "how good or fulfilling a person's life is — sometimes used to argue in favour of euthanasia",
+              "display_order": 4
+            },
+            {
+              "keyword": "the environment",
+              "definition": "religious teachings about caring for the natural world — linked to ideas of stewardship and creation",
+              "display_order": 5
+            },
+            {
+              "keyword": "stewardship",
+              "definition": "the idea that humans are caretakers of the earth on God's behalf — responsible for protecting it",
+              "display_order": 6
+            },
+            {
+              "keyword": "dominion",
+              "definition": "the idea from Genesis that humans have authority over the natural world — debated in environmental ethics",
+              "display_order": 7
+            },
+            {
+              "keyword": "animal rights",
+              "definition": "the debate over whether animals deserve moral consideration — linked to religious views on creation",
+              "display_order": 8
+            },
+            {
+              "keyword": "origins of the universe",
+              "definition": "religious and scientific explanations for how the universe began — includes Big Bang and creationism",
+              "display_order": 9
+            },
+            {
+              "keyword": "evolution",
+              "definition": "the scientific theory that species change over time through natural selection — some religious groups see this as conflicting with creation accounts",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does 'sanctity of life' mean?",
+              "options": [
+                "The belief that all human life is sacred and has special value",
+                "The idea that life can only be ended by natural causes",
+                "A medical term for keeping someone alive using machines",
+                "The right to choose when to end your own life"
+              ],
+              "correct_answer": "The belief that all human life is sacred and has special value",
+              "explanation": "Sanctity of life is a religious principle that all human life is sacred. This belief is central to arguments against abortion and euthanasia in many religions.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is abortion?",
+              "options": [
+                "The natural loss of a pregnancy before birth",
+                "The deliberate termination of a pregnancy",
+                "A medical procedure to treat infertility",
+                "A delay in the birth of a baby"
+              ],
+              "correct_answer": "The deliberate termination of a pregnancy",
+              "explanation": "Abortion is the deliberate ending of a pregnancy. It is a key ethical issue in religious studies because different religions and individuals have different moral views about it.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following best describes euthanasia?",
+              "options": [
+                "Keeping someone alive against their wishes",
+                "Refusing medical treatment when seriously ill",
+                "Deliberately ending a life to relieve suffering",
+                "Allowing someone to die naturally without treatment"
+              ],
+              "correct_answer": "Deliberately ending a life to relieve suffering",
+              "explanation": "Euthanasia involves deliberately ending someone's life to stop their suffering. It can be voluntary (when the patient asks for it) or non-voluntary (when they cannot ask).",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'quality of life'?",
+              "options": [
+                "How long someone is expected to live",
+                "The amount of money someone has",
+                "How good or fulfilling a person's life is",
+                "The level of medical care someone receives"
+              ],
+              "correct_answer": "How good or fulfilling a person's life is",
+              "explanation": "Quality of life refers to how good or fulfilling someone's life is. Some people use this concept to argue in favour of euthanasia if someone's quality of life becomes very poor.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'stewardship' mean in religious teaching?",
+              "options": [
+                "The right to use the environment however we want",
+                "The idea that humans are caretakers of the earth on God's behalf",
+                "A job working for a religious organization",
+                "The belief that nature is more important than humans"
+              ],
+              "correct_answer": "The idea that humans are caretakers of the earth on God's behalf",
+              "explanation": "Stewardship is the idea that humans are responsible for looking after the environment as caretakers on God's behalf. This means we should protect and care for the natural world.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is meant by 'dominion' in the context of environmental ethics?",
+              "options": [
+                "The right to destroy nature for profit",
+                "The idea from Genesis that humans have authority over the natural world",
+                "Religious rules about protecting animals",
+                "The belief that humans are equal to animals"
+              ],
+              "correct_answer": "The idea from Genesis that humans have authority over the natural world",
+              "explanation": "Dominion, mentioned in the book of Genesis, refers to humanity's authority over nature. This concept is debated in environmental ethics because it can be interpreted as giving humans permission to use nature, or as a responsibility to use it wisely.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main focus of 'animal rights' debates?",
+              "options": [
+                "Whether animals should be allowed to vote",
+                "Whether animals deserve moral consideration",
+                "How to increase the speed of animal farming",
+                "The best ways to train wild animals"
+              ],
+              "correct_answer": "Whether animals deserve moral consideration",
+              "explanation": "Animal rights debates focus on whether animals deserve moral consideration and protection. This is linked to religious views about creation and whether animals have value in their own right.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is a scientific explanation for the origins of the universe?",
+              "options": [
+                "The Big Bang",
+                "Creation by God in six days",
+                "Spontaneous generation",
+                "Eternal existence without a beginning"
+              ],
+              "correct_answer": "The Big Bang",
+              "explanation": "The Big Bang is a scientific theory explaining how the universe began from an extremely hot, dense point that expanded rapidly. This differs from religious creation accounts but both are studied in the 'origins of the universe' topic.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is evolution?",
+              "options": [
+                "The changing of humans into animals over their lifetime",
+                "A scientific theory that species change over time through natural selection",
+                "A religious belief that God made the world perfect",
+                "The idea that life always improves and gets better"
+              ],
+              "correct_answer": "A scientific theory that species change over time through natural selection",
+              "explanation": "Evolution is the scientific theory that species gradually change and develop over long periods through natural selection. Some religious groups see evolution as conflicting with their creation accounts.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'the environment' in the context of religious teaching?",
+              "options": [
+                "The buildings and structures humans create",
+                "Religious teachings about caring for the natural world",
+                "Pollution caused by industry",
+                "The weather and climate patterns"
+              ],
+              "correct_answer": "Religious teachings about caring for the natural world",
+              "explanation": "In religious studies, 'the environment' refers to religious teachings about caring for the natural world. This is linked to ideas of stewardship and creation.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The sanctity of life principle is used to argue in favour of abortion.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The sanctity of life principle is used to argue AGAINST abortion, because it emphasizes that all human life is sacred and has special value.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Euthanasia can be either voluntary or non-voluntary.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Euthanasia can be voluntary (when the patient requests it) or non-voluntary (when the patient cannot ask for it themselves). Both types raise different ethical questions.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Quality of life arguments are always used against euthanasia.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Quality of life arguments are sometimes used IN FAVOUR of euthanasia, to suggest that if someone's quality of life becomes very poor due to suffering, ending their life might be merciful.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "According to the concept of stewardship, humans are responsible for protecting the environment.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Stewardship teaches that humans are caretakers of the earth on God's behalf and are therefore responsible for protecting and caring for it.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The Big Bang theory is a religious explanation for how the universe began.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The Big Bang is a scientific theory, not a religious one. Religious explanations for the origins of the universe include creation accounts found in holy texts.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Some religious groups believe that evolution conflicts with their creation accounts.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Some religious groups do see evolution as conflicting with their beliefs about creation. However, other religious groups accept both evolution and their religious faith.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Dominion means that humans have no responsibility for how they treat the natural world.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Although dominion gives humans authority over nature, this is debated in environmental ethics. Many argue that dominion comes with responsibility, not permission to harm the environment.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Animal rights debates are unrelated to religious views on creation.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Animal rights debates are linked to religious views on creation because religious teachings about how animals were created can influence beliefs about their moral value.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Abortion is a key ethical issue in religious studies.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Abortion is definitely a key ethical issue in religious studies because different religions and individuals have strong and contrasting moral views about it.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Natural selection is part of the theory of evolution.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Natural selection is the mechanism through which evolution occurs. It describes how species with advantageous traits are more likely to survive and pass on those traits.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The belief that all human life is sacred and has special value is called the ________ of life.",
+              "options": null,
+              "correct_answer": "sanctity",
+              "explanation": "Sanctity of life is a key principle used in arguments against abortion and euthanasia in many religions.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the deliberately ending of a life to relieve suffering.",
+              "options": null,
+              "correct_answer": "Euthanasia",
+              "explanation": "Euthanasia is a key ethical issue that raises questions about when it is right to deliberately end someone's life to stop their suffering.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Religious teachings about caring for the natural world are linked to ideas of ________ and creation.",
+              "options": null,
+              "correct_answer": "stewardship",
+              "explanation": "Stewardship is the idea that humans are caretakers of the earth on God's behalf and should protect the environment.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The book of Genesis describes humanity's ________ over the natural world.",
+              "options": null,
+              "correct_answer": "dominion",
+              "explanation": "Dominion is the concept that humans have authority over nature, though this is debated in terms of what responsibility comes with this authority.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ theory states that species change over time through natural selection.",
+              "options": null,
+              "correct_answer": "evolution",
+              "explanation": "Evolution is a scientific theory that explains how living things gradually change and develop new species over long periods of time.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is a scientific explanation for how the universe began from an extremely hot, dense point.",
+              "options": null,
+              "correct_answer": "Big Bang",
+              "explanation": "The Big Bang theory describes the rapid expansion and development of the universe from its beginning, approximately 13.8 billion years ago.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "How ________ or fulfilling a person's life is can be used as an argument in favour of euthanasia.",
+              "options": null,
+              "correct_answer": "good",
+              "explanation": "Quality of life refers to how good or fulfilling someone's life is. Arguments about poor quality of life are sometimes made in favour of euthanasia.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The debate over whether ________ deserve moral consideration is known as animal rights.",
+              "options": null,
+              "correct_answer": "animals",
+              "explanation": "Animal rights debates focus on whether animals deserve moral consideration and are linked to religious views about creation and the value of nature.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The deliberate ________ of a pregnancy is called abortion.",
+              "options": null,
+              "correct_answer": "termination",
+              "explanation": "Abortion is the deliberate ending of a pregnancy and is a significant ethical issue in religious studies with many different moral perspectives.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Humans acting as caretakers of the earth on God's behalf is the concept of __________.",
+              "options": null,
+              "correct_answer": "stewardship",
+              "explanation": "Stewardship emphasizes that humans have a responsibility to protect and care for the environment as representatives of God.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Sanctity of life",
+                  "match": "The belief that all human life is sacred and has special value"
+                },
+                {
+                  "term": "Stewardship",
+                  "match": "The idea that humans are caretakers of the earth on God's behalf"
+                },
+                {
+                  "term": "Evolution",
+                  "match": "The scientific theory that species change over time through natural selection"
+                },
+                {
+                  "term": "Quality of life",
+                  "match": "How good or fulfilling a person's life is"
+                },
+                {
+                  "term": "Dominion",
+                  "match": "The idea from Genesis that humans have authority over the natural world"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Theme D — Peace & Conflict",
+          "cards": [
+            {
+              "keyword": "just war theory",
+              "definition": "criteria that must be met for a war to be morally justified — e.g. just cause, last resort, proportional force",
+              "display_order": 1
+            },
+            {
+              "keyword": "pacifism",
+              "definition": "the belief that violence and war are never justified — held by Quakers and some other Christian groups",
+              "display_order": 2
+            },
+            {
+              "keyword": "holy war",
+              "definition": "a war fought for religious reasons or in the name of God — e.g. the Crusades; debated in both Christianity and Islam",
+              "display_order": 3
+            },
+            {
+              "keyword": "Jihad",
+              "definition": "an Arabic word meaning 'struggle' — greater Jihad is the inner spiritual struggle; lesser Jihad is physical defence of Islam",
+              "display_order": 4
+            },
+            {
+              "keyword": "forgiveness",
+              "definition": "the act of pardoning someone for a wrong done — a key teaching in both Christianity and Islam",
+              "display_order": 5
+            },
+            {
+              "keyword": "reconciliation",
+              "definition": "restoring a broken relationship after conflict — promoted by both Christian and Muslim teaching",
+              "display_order": 6
+            },
+            {
+              "keyword": "terrorism",
+              "definition": "using violence and fear against civilians to achieve political or ideological goals — condemned by mainstream Christianity and Islam",
+              "display_order": 7
+            },
+            {
+              "keyword": "nuclear weapons",
+              "definition": "weapons of mass destruction — most religious groups oppose their use due to indiscriminate killing",
+              "display_order": 8
+            },
+            {
+              "keyword": "weapons of mass destruction (WMD)",
+              "definition": "weapons capable of killing large numbers of people — chemical, biological, and nuclear weapons",
+              "display_order": 9
+            },
+            {
+              "keyword": "peacemaking",
+              "definition": "active efforts to resolve conflict and restore peace — both Christianity and Islam have teachings promoting this",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is just war theory?",
+              "options": [
+                "The belief that all wars are morally wrong",
+                "Criteria that must be met for a war to be morally justified, such as just cause and last resort",
+                "A type of weapon used in modern conflicts",
+                "The idea that religious wars are always justified"
+              ],
+              "correct_answer": "Criteria that must be met for a war to be morally justified, such as just cause and last resort",
+              "explanation": "Just war theory sets out specific conditions that must be met before a war can be considered morally acceptable, including having a good reason and trying other solutions first.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which religious group is known for holding pacifist beliefs?",
+              "options": [
+                "Roman Catholics",
+                "Quakers",
+                "Jehovah's Witnesses and some Christians",
+                "All Muslims"
+              ],
+              "correct_answer": "Quakers",
+              "explanation": "Quakers are a Christian group historically known for their pacifist stance, believing that violence and war are never justified.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'Jihad' mean in Arabic?",
+              "options": [
+                "Holy war against enemies",
+                "Religious violence",
+                "Struggle",
+                "Military attack"
+              ],
+              "correct_answer": "Struggle",
+              "explanation": "Jihad literally means 'struggle' in Arabic. It includes both greater Jihad (inner spiritual struggle) and lesser Jihad (physical defence of Islam).",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of a holy war?",
+              "options": [
+                "The Second World War",
+                "The Crusades",
+                "The Vietnam War",
+                "The Gulf War"
+              ],
+              "correct_answer": "The Crusades",
+              "explanation": "The Crusades were wars fought in the name of religion by Christians attempting to reclaim holy lands, making them a clear example of holy war.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is forgiveness in the context of peace and conflict?",
+              "options": [
+                "Pretending a wrong never happened",
+                "The act of pardoning someone for a wrong done",
+                "Forgetting about a conflict completely",
+                "Ignoring the person who caused harm"
+              ],
+              "correct_answer": "The act of pardoning someone for a wrong done",
+              "explanation": "Forgiveness is the deliberate act of pardoning someone and is a key teaching in both Christianity and Islam for resolving conflict.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does reconciliation mean?",
+              "options": [
+                "Punishing someone for their actions",
+                "Winning a conflict against an enemy",
+                "Restoring a broken relationship after conflict",
+                "Ignoring past disagreements"
+              ],
+              "correct_answer": "Restoring a broken relationship after conflict",
+              "explanation": "Reconciliation is about bringing people back together and healing the damage caused by conflict, and is promoted by both Christian and Muslim teaching.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is terrorism?",
+              "options": [
+                "Any military action by a government",
+                "Using violence and fear against civilians to achieve political or ideological goals",
+                "A type of traditional warfare",
+                "All forms of religious conflict"
+              ],
+              "correct_answer": "Using violence and fear against civilians to achieve political or ideological goals",
+              "explanation": "Terrorism specifically targets civilians using violence and fear to achieve political aims, and is condemned by mainstream Christianity and Islam.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why do most religious groups oppose nuclear weapons?",
+              "options": [
+                "They are too expensive",
+                "They are difficult to use",
+                "They cause indiscriminate killing of large numbers of people",
+                "They were invented recently"
+              ],
+              "correct_answer": "They cause indiscriminate killing of large numbers of people",
+              "explanation": "Nuclear weapons are weapons of mass destruction that kill indiscriminately, making it impossible to distinguish between combatants and civilians, which most religions oppose.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are weapons of mass destruction (WMD)?",
+              "options": [
+                "Guns and rifles used in modern armies",
+                "Weapons capable of killing large numbers of people, including chemical, biological, and nuclear weapons",
+                "Traditional swords and spears",
+                "Small explosives used in security operations"
+              ],
+              "correct_answer": "Weapons capable of killing large numbers of people, including chemical, biological, and nuclear weapons",
+              "explanation": "WMDs are defined as weapons that can kill vast numbers of people indiscriminately, and include nuclear, biological, and chemical weapons.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is peacemaking?",
+              "options": [
+                "Starting a new conflict",
+                "Active efforts to resolve conflict and restore peace",
+                "Avoiding all disagreements",
+                "Accepting that conflict is permanent"
+              ],
+              "correct_answer": "Active efforts to resolve conflict and restore peace",
+              "explanation": "Peacemaking involves actively working to end conflict and bring peace, and both Christianity and Islam have teachings that promote this approach.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Pacifism is the belief that violence and war are never justified.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "This is the core definition of pacifism, a belief held by groups like the Quakers and some other Christian communities.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Holy war is a concept found only in Christianity.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Holy war is a concept debated in both Christianity and Islam, not exclusive to either religion.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Greater Jihad refers to physical defence of Islam.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Greater Jihad is the inner spiritual struggle, while lesser Jihad refers to physical defence of Islam.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Both Christianity and Islam teach the importance of forgiveness.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Forgiveness is a key teaching in both Christian and Islamic religious traditions.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Mainstream Christianity and Islam support terrorism.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Both mainstream Christianity and Islam explicitly condemn terrorism and the use of violence against civilians.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Just war theory says that proportional force must be used in a justified war.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Proportional force is one of the key criteria in just war theory, meaning the response must match the level of threat.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Nuclear weapons are approved by all major world religions.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Most religious groups oppose nuclear weapons due to their ability to cause indiscriminate killing of large populations.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Reconciliation is about restoring broken relationships after conflict.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Reconciliation specifically means healing and restoring relationships damaged by conflict, and is promoted by both Christian and Muslim teaching.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Chemical and biological weapons are examples of weapons of mass destruction.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Both chemical and biological weapons are classified as WMDs because they can kill large numbers of people indiscriminately.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Peacemaking is the same as simply ignoring conflicts.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Peacemaking involves active efforts to resolve conflicts, not ignoring them, and is promoted by both Christian and Islamic teaching.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the belief that violence and war are never justified.",
+              "options": null,
+              "correct_answer": "Pacifism",
+              "explanation": "Pacifism is the core belief that rejects all forms of violence and warfare as morally wrong.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a war fought for religious reasons or in the name of God.",
+              "options": null,
+              "correct_answer": "holy war",
+              "explanation": "A holy war is specifically a conflict motivated by religious belief or fought in the name of God.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the inner spiritual struggle within Islam.",
+              "options": null,
+              "correct_answer": "greater Jihad",
+              "explanation": "Greater Jihad refers to the internal spiritual struggle to improve oneself and live according to Islamic principles.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the act of pardoning someone for a wrong done.",
+              "options": null,
+              "correct_answer": "Forgiveness",
+              "explanation": "Forgiveness is the deliberate act of pardoning and is emphasised in both Christianity and Islam.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Using violence and fear against civilians to achieve political goals is called ________.",
+              "options": null,
+              "correct_answer": "terrorism",
+              "explanation": "Terrorism is defined by its targeting of civilians using violence and fear to achieve political or ideological objectives.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are weapons capable of killing large numbers of people, including chemical, biological, and nuclear weapons.",
+              "options": null,
+              "correct_answer": "Weapons of mass destruction",
+              "explanation": "WMDs are defined by their ability to cause mass casualties and include nuclear, biological, and chemical weapons.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Just war theory requires that war should only be fought as a ________ when all other solutions have been tried.",
+              "options": null,
+              "correct_answer": "last resort",
+              "explanation": "Last resort is a key criterion in just war theory, meaning all peaceful alternatives must be exhausted first.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ refers to the physical defence of Islam against attack.",
+              "options": null,
+              "correct_answer": "lesser Jihad",
+              "explanation": "Lesser Jihad is the external struggle to defend Islam, as distinct from the inner spiritual struggle of greater Jihad.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the process of restoring a broken relationship after conflict.",
+              "options": null,
+              "correct_answer": "Reconciliation",
+              "explanation": "Reconciliation involves healing and rebuilding relationships damaged by conflict, promoted by both Christian and Muslim teachings.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ involves active efforts to resolve conflict and restore peace between people or nations.",
+              "options": null,
+              "correct_answer": "Peacemaking",
+              "explanation": "Peacemaking is the active process of working to end conflicts and establish peace, endorsed by both Christianity and Islam.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Just war theory",
+                  "match": "Criteria that must be met for a war to be morally justified"
+                },
+                {
+                  "term": "Pacifism",
+                  "match": "The belief that violence and war are never justified"
+                },
+                {
+                  "term": "Reconciliation",
+                  "match": "Restoring a broken relationship after conflict"
+                },
+                {
+                  "term": "Terrorism",
+                  "match": "Using violence and fear against civilians to achieve political goals"
+                },
+                {
+                  "term": "Nuclear weapons",
+                  "match": "Weapons of mass destruction opposed by most religious groups"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

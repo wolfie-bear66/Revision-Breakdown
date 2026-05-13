@@ -1,0 +1,1145 @@
+{
+  "subject": {
+    "name": "Media Studies",
+    "exam_board": "Eduqas",
+    "category": "Arts & Creative",
+    "colour": "#7c3aed",
+    "emoji": "📺",
+    "slug": "media-studies-eduqas"
+  },
+  "topics": [
+    {
+      "name": "Media Language & Representation",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Key Media Concepts",
+          "cards": [
+            {
+              "keyword": "media language",
+              "definition": "the codes and conventions used by media producers to communicate meaning — includes visual, technical, audio, and written codes",
+              "display_order": 1
+            },
+            {
+              "keyword": "representation",
+              "definition": "how people, places, events, and issues are portrayed in the media — involves selection and construction of images and narratives",
+              "display_order": 2
+            },
+            {
+              "keyword": "genre",
+              "definition": "a category of media product defined by shared conventions — e.g. horror film, tabloid newspaper, lifestyle magazine",
+              "display_order": 3
+            },
+            {
+              "keyword": "narrative",
+              "definition": "the way a story is structured and told — includes linear (chronological) and non-linear narratives",
+              "display_order": 4
+            },
+            {
+              "keyword": "ideology",
+              "definition": "a set of values and beliefs — media products often reflect and reinforce the dominant ideology of their producers",
+              "display_order": 5
+            },
+            {
+              "keyword": "stereotype",
+              "definition": "an oversimplified representation of a group of people — media stereotypes can reinforce or challenge social prejudices",
+              "display_order": 6
+            },
+            {
+              "keyword": "dominant reading",
+              "definition": "the interpretation of a media text that the producer intended — the preferred meaning",
+              "display_order": 7
+            },
+            {
+              "keyword": "oppositional reading",
+              "definition": "an interpretation of a media text that rejects the producer's intended meaning",
+              "display_order": 8
+            },
+            {
+              "keyword": "negotiated reading",
+              "definition": "an interpretation that partially accepts and partially rejects the producer's intended meaning",
+              "display_order": 9
+            },
+            {
+              "keyword": "Stuart Hall's encoding/decoding",
+              "definition": "the theory that producers encode meaning into media texts, but audiences decode them differently based on their own context",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does media language include?",
+              "options": [
+                "Only written words and text",
+                "Visual, technical, audio, and written codes used to communicate meaning",
+                "Just the camera angles used in films",
+                "Only the dialogue spoken by actors"
+              ],
+              "correct_answer": "Visual, technical, audio, and written codes used to communicate meaning",
+              "explanation": "Media language is a broad term that covers all the different ways media producers communicate meaning, including visuals like colour and images, technical elements like editing and sound, as well as written and spoken language.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is representation in media?",
+              "options": [
+                "The actual real-life events that happen",
+                "How people, places, events, and issues are portrayed in media products",
+                "The number of times something appears on television",
+                "The legal permission to use an image"
+              ],
+              "correct_answer": "How people, places, events, and issues are portrayed in media products",
+              "explanation": "Representation is about how media producers choose to show and portray people and events — it's a constructed version of reality, not reality itself, because choices are made about what to include and how to show it.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an example of a media genre?",
+              "options": [
+                "A documentary about penguins",
+                "Horror film",
+                "A video posted last Tuesday",
+                "An article written by a journalist"
+              ],
+              "correct_answer": "Horror film",
+              "explanation": "A genre is a category of media product with shared conventions — horror film is a recognised genre with typical features like scary music, dark lighting, and suspenseful plots.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a linear narrative?",
+              "options": [
+                "A story told in a straight line from beginning to end in time order",
+                "A story that only uses straight lines in the visuals",
+                "A story with no ending",
+                "A story told by multiple different people"
+              ],
+              "correct_answer": "A story told in a straight line from beginning to end in time order",
+              "explanation": "Linear narrative follows events in chronological order — it starts at the beginning and moves forward through time to the end, like most traditional stories do.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does ideology mean in media studies?",
+              "options": [
+                "A type of camera lens",
+                "A set of values and beliefs that media often reflect and reinforce",
+                "The name of a film production company",
+                "A specific editing technique used in videos"
+              ],
+              "correct_answer": "A set of values and beliefs that media often reflect and reinforce",
+              "explanation": "Ideology refers to the underlying values and beliefs in a media product — these often match the beliefs of the producer and can influence how audiences think about issues.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a stereotype in media?",
+              "options": [
+                "A type of sound recording equipment",
+                "An oversimplified representation of a group of people",
+                "A character that appears in every film",
+                "A special effect used in movies"
+              ],
+              "correct_answer": "An oversimplified representation of a group of people",
+              "explanation": "A stereotype is when a group of people is shown in a simplified, often exaggerated way — for example, showing all teenagers as rude or all older people as slow — rather than showing the variety of individuals within that group.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the dominant reading of a media text?",
+              "options": [
+                "The interpretation that most people choose to read",
+                "The interpretation the producer intended — the preferred meaning",
+                "The reading that appears at the beginning of a text",
+                "The meaning that is most difficult to understand"
+              ],
+              "correct_answer": "The interpretation the producer intended — the preferred meaning",
+              "explanation": "The dominant reading is what the media producer wanted you to understand and believe — it's the intended meaning built into the text through their choice of codes and conventions.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an oppositional reading?",
+              "options": [
+                "Reading a text from the back to the front",
+                "Reading a text that the producer disagrees with",
+                "Rejecting the producer's intended meaning and interpreting it differently",
+                "Reading only the parts you disagree with"
+              ],
+              "correct_answer": "Rejecting the producer's intended meaning and interpreting it differently",
+              "explanation": "An oppositional reading is when an audience interprets a media text in a way that goes against what the producer intended — they actively reject the preferred meaning.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a negotiated reading?",
+              "options": [
+                "A reading that two people agree to share",
+                "An interpretation that partially accepts and partially rejects the producer's intended meaning",
+                "A reading that happens during discussions about media",
+                "An interpretation that is completely wrong"
+              ],
+              "correct_answer": "An interpretation that partially accepts and partially rejects the producer's intended meaning",
+              "explanation": "A negotiated reading is when an audience accepts some of what the producer intended but also disagrees with other parts, creating their own personal interpretation based on their own beliefs and experiences.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does Stuart Hall's encoding/decoding theory suggest?",
+              "options": [
+                "Only producers understand the meaning of media texts",
+                "Audiences always interpret media exactly as producers intended",
+                "Producers encode meaning into texts, but audiences decode them differently based on their own context",
+                "Media texts have no meaning until they are watched"
+              ],
+              "correct_answer": "Producers encode meaning into texts, but audiences decode them differently based on their own context",
+              "explanation": "Hall's theory explains that producers put meaning (encode) into media texts, but different audiences interpret (decode) these texts in different ways based on their own knowledge, beliefs, and life experiences.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Media language only includes written words and dialogue.",
+              "correct_answer": "False",
+              "explanation": "Media language is much broader and includes visual codes (colours, images, camera angles), technical codes (editing, lighting, sound effects), and written codes — not just words and dialogue.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Representation in media always shows reality exactly as it is.",
+              "correct_answer": "False",
+              "explanation": "Representation is a constructed version of reality — media producers make choices about what to include, exclude, and how to portray people and events, so it's never an exact reflection of reality.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "All media products belong to a recognisable genre with shared conventions.",
+              "correct_answer": "True",
+              "explanation": "Every media product can be categorised into a genre — whether it's a film, TV show, magazine, or social media post — and each genre has typical conventions that audiences recognise and expect.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Non-linear narratives tell stories in chronological order from start to finish.",
+              "correct_answer": "False",
+              "explanation": "Non-linear narratives do not follow chronological order — they might jump around in time, use flashbacks, or tell events in a different sequence than when they actually happened.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Ideology in media refers to the values and beliefs that media products can reflect and reinforce.",
+              "correct_answer": "True",
+              "explanation": "Ideology is exactly about the values and beliefs presented in media — media products often reinforce the dominant ideology of their producers and society.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Stereotypes in media always accurately represent groups of people.",
+              "correct_answer": "False",
+              "explanation": "Stereotypes are oversimplified representations that ignore the variety within a group — they are not accurate because they reduce complex people to simple, often exaggerated characteristics.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The dominant reading is always the same as the oppositional reading.",
+              "correct_answer": "False",
+              "explanation": "The dominant reading is what the producer intended, while the oppositional reading rejects this intended meaning — they are opposite interpretations of the same text.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "A negotiated reading involves completely accepting the producer's intended meaning without any disagreement.",
+              "correct_answer": "False",
+              "explanation": "A negotiated reading partially accepts and partially rejects the producer's meaning — it's not complete acceptance, but a mix of agreement and disagreement based on the audience's own views.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Stuart Hall believed all audiences decode media texts in exactly the same way.",
+              "correct_answer": "False",
+              "explanation": "Hall's encoding/decoding theory shows that audiences decode media differently based on their own context, knowledge, and beliefs — so interpretations vary from person to person.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Different audience members can have different readings of the same media text.",
+              "correct_answer": "True",
+              "explanation": "Because audiences have different backgrounds, beliefs, and experiences, they naturally interpret media texts differently — this is a core idea in media studies about how meaning is not fixed.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The codes and conventions used by media producers to communicate meaning is called ________.",
+              "options": null,
+              "correct_answer": "media language",
+              "explanation": "Media language is the technical term for all the ways that producers create meaning in their texts — through visuals, sound, editing, and writing.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "When media shows how people, places, or events are portrayed, this is called ________.",
+              "options": null,
+              "correct_answer": "representation",
+              "explanation": "Representation describes how media portrays or depicts things — it's the media's version of reality, which is always constructed and selective.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A category of media product defined by shared conventions, like horror film or tabloid newspaper, is called a ________.",
+              "options": null,
+              "correct_answer": "genre",
+              "explanation": "Genre is the term for categories of media products that share common features and conventions that audiences recognise and expect.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The way a story is structured and told, including whether events happen in time order, is called the ________.",
+              "options": null,
+              "correct_answer": "narrative",
+              "explanation": "Narrative refers to how a story is told — whether it's linear (in time order) or non-linear (jumping around in time) — and the overall structure of the story.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A set of values and beliefs that media products often reflect and reinforce is called ________.",
+              "options": null,
+              "correct_answer": "ideology",
+              "explanation": "Ideology describes the underlying beliefs and values in a media product — these influence how the text is constructed and what messages it sends to audiences.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "An oversimplified representation of a group of people is called a ________.",
+              "options": null,
+              "correct_answer": "stereotype",
+              "explanation": "A stereotype is when a group is shown in a simplified, often exaggerated way that doesn't reflect the variety and complexity of real individuals in that group.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The interpretation of a media text that the producer intended is called the ________ reading.",
+              "options": null,
+              "correct_answer": "dominant",
+              "explanation": "The dominant reading is the preferred meaning that the producer built into their text through their choice of codes and conventions.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "An interpretation that rejects the producer's intended meaning is called an ________ reading.",
+              "options": null,
+              "correct_answer": "oppositional",
+              "explanation": "An oppositional reading is when an audience actively disagrees with and rejects what the producer intended the text to mean.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "An interpretation that partially accepts and partially rejects the producer's intended meaning is called a ________ reading.",
+              "options": null,
+              "correct_answer": "negotiated",
+              "explanation": "A negotiated reading shows an audience finding a middle ground — accepting some of the producer's meaning but disagreeing with other parts based on their own beliefs.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Stuart Hall's ________ theory explains that producers encode meaning into media texts, but audiences decode them differently based on their own context.",
+              "options": null,
+              "correct_answer": "encoding/decoding",
+              "explanation": "Hall's encoding/decoding theory is a key theory in media studies that explains how meaning is created by producers but interpreted differently by different audiences.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Genre",
+                  "match": "A category of media product defined by shared conventions"
+                },
+                {
+                  "term": "Stereotype",
+                  "match": "An oversimplified representation of a group of people"
+                },
+                {
+                  "term": "Narrative",
+                  "match": "The way a story is structured and told"
+                },
+                {
+                  "term": "Dominant reading",
+                  "match": "The interpretation of a media text that the producer intended"
+                },
+                {
+                  "term": "Ideology",
+                  "match": "A set of values and beliefs that media often reflect and reinforce"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Media Industries & Audiences",
+          "cards": [
+            {
+              "keyword": "media institution",
+              "definition": "the organisation responsible for producing a media product — e.g. BBC, News UK, Netflix",
+              "display_order": 1
+            },
+            {
+              "keyword": "public service broadcasting (PSB)",
+              "definition": "broadcasting funded to serve the public interest rather than purely for profit — e.g. the BBC, funded by the licence fee",
+              "display_order": 2
+            },
+            {
+              "keyword": "commercial media",
+              "definition": "media organisations that generate income through advertising, subscriptions, or sales — e.g. ITV, The Sun",
+              "display_order": 3
+            },
+            {
+              "keyword": "convergence",
+              "definition": "the merging of previously separate media technologies and platforms — e.g. smartphones combining phone, camera, TV, and internet",
+              "display_order": 4
+            },
+            {
+              "keyword": "vertical integration",
+              "definition": "when a media company owns different stages of production and distribution — e.g. a studio that also owns cinemas",
+              "display_order": 5
+            },
+            {
+              "keyword": "horizontal integration",
+              "definition": "when a media company acquires other companies at the same stage of production — e.g. buying competing studios",
+              "display_order": 6
+            },
+            {
+              "keyword": "audience demographics",
+              "definition": "measurable characteristics of an audience — e.g. age, gender, ethnicity, income. Used to target media products",
+              "display_order": 7
+            },
+            {
+              "keyword": "psychographics",
+              "definition": "audience classification based on attitudes, values, and lifestyle — used alongside demographics to understand media audiences",
+              "display_order": 8
+            },
+            {
+              "keyword": "user-generated content (UGC)",
+              "definition": "media content created by audiences rather than professional producers — e.g. YouTube videos, social media posts",
+              "display_order": 9
+            },
+            {
+              "keyword": "the digital revolution",
+              "definition": "the shift from analogue to digital media — transformed how media is produced, distributed, and consumed",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a media institution?",
+              "options": [
+                "A building where media is watched",
+                "The organisation responsible for producing a media product",
+                "A school that teaches about media",
+                "A government department that controls all media"
+              ],
+              "correct_answer": "The organisation responsible for producing a media product",
+              "explanation": "A media institution is any organisation that creates and produces media products, like the BBC, Netflix, or News UK.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an example of a public service broadcaster?",
+              "options": [
+                "The Sun newspaper",
+                "Netflix",
+                "The BBC",
+                "ITV"
+              ],
+              "correct_answer": "The BBC",
+              "explanation": "The BBC is a public service broadcaster funded by the licence fee to serve the public interest, rather than purely making profit.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do commercial media organisations make money?",
+              "options": [
+                "Through government grants only",
+                "By charging a licence fee to all viewers",
+                "Through advertising, subscriptions, or sales",
+                "By selling their equipment to other companies"
+              ],
+              "correct_answer": "Through advertising, subscriptions, or sales",
+              "explanation": "Commercial media like ITV and The Sun generate income from advertising, subscription fees, or direct sales to consumers.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does convergence mean in media?",
+              "options": [
+                "When two media companies stop working together",
+                "The merging of previously separate media technologies and platforms",
+                "When audiences stop watching traditional media",
+                "The process of making media more expensive"
+              ],
+              "correct_answer": "The merging of previously separate media technologies and platforms",
+              "explanation": "Convergence is when different media technologies combine into one device, like smartphones that function as phones, cameras, TVs, and internet devices.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is vertical integration in media?",
+              "options": [
+                "When a company buys competing businesses in the same industry",
+                "When a media company owns different stages of production and distribution",
+                "When a company moves its offices to a taller building",
+                "When audiences share content on social media"
+              ],
+              "correct_answer": "When a media company owns different stages of production and distribution",
+              "explanation": "Vertical integration means a company controls multiple stages, like owning both a film studio and the cinemas that show the films.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which scenario is an example of horizontal integration?",
+              "options": [
+                "A film studio builds a new cinema",
+                "A streaming service creates its own production company",
+                "One newspaper company buys a competing newspaper company",
+                "A TV channel starts selling merchandise"
+              ],
+              "correct_answer": "One newspaper company buys a competing newspaper company",
+              "explanation": "Horizontal integration is when a company acquires another company at the same stage of production, like one newspaper buying another newspaper.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are audience demographics?",
+              "options": [
+                "The opinions and beliefs of an audience",
+                "Measurable characteristics like age, gender, ethnicity, and income",
+                "How often people watch media",
+                "The devices people use to watch media"
+              ],
+              "correct_answer": "Measurable characteristics like age, gender, ethnicity, and income",
+              "explanation": "Demographics are factual, measurable characteristics of an audience that media companies use to target their products effectively.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is psychographics?",
+              "options": [
+                "The age and gender of an audience",
+                "Audience classification based on attitudes, values, and lifestyle",
+                "The number of people watching a show",
+                "The type of technology an audience uses"
+              ],
+              "correct_answer": "Audience classification based on attitudes, values, and lifestyle",
+              "explanation": "Psychographics describe what audiences think and value, used alongside demographics to get a complete picture of who watches media.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which is an example of user-generated content?",
+              "options": [
+                "A film made by a Hollywood studio",
+                "A news report made by professional journalists",
+                "A YouTube video made by an audience member",
+                "A TV drama produced by a major broadcaster"
+              ],
+              "correct_answer": "A YouTube video made by an audience member",
+              "explanation": "User-generated content is media created by audiences themselves, such as videos, social media posts, or blog entries, rather than by professional producers.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did the digital revolution change about media?",
+              "options": [
+                "It made media more expensive for consumers",
+                "It eliminated all traditional media outlets",
+                "How media is produced, distributed, and consumed",
+                "It made media less accessible to young people"
+              ],
+              "correct_answer": "How media is produced, distributed, and consumed",
+              "explanation": "The digital revolution transformed media by shifting from analogue to digital formats, changing production methods, distribution channels, and how audiences access content.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The BBC is a commercial media organisation that makes profit from advertising.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The BBC is a public service broadcaster funded by the licence fee, not a commercial organisation dependent on advertising revenue.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Convergence has allowed smartphones to combine phone, camera, and internet functions into one device.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Convergence is the merging of separate technologies, and smartphones are a perfect example of this combining multiple media functions.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Horizontal integration means a company owns both a film studio and the cinemas that show films.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "This describes vertical integration. Horizontal integration is when a company buys competing companies at the same stage, like owning multiple film studios.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Age and income are examples of audience demographics.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Demographics are measurable characteristics, and age and income are both factual, measurable attributes of an audience.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Psychographics and demographics measure exactly the same things about an audience.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Demographics measure factual characteristics like age and gender, while psychographics measure attitudes, values, and lifestyle preferences.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "User-generated content is always created by professional media producers.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "User-generated content is specifically created by audiences or non-professional creators, not by professional media producers.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The digital revolution has made it harder for people to access media content.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The digital revolution has actually made media more accessible through streaming services, online platforms, and digital devices that are widely available.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "ITV is an example of a commercial media organisation.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "ITV generates income through advertising and is not publicly funded like the BBC, making it a commercial media organisation.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Netflix is a media institution responsible for producing television content.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Netflix is a media institution because it is an organisation that produces and distributes media products (films and TV shows).",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Media institutions never change their ownership or business structure.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Media institutions regularly engage in vertical and horizontal integration, mergers, and acquisitions that change their ownership and structure.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the organisation responsible for producing a media product such as the BBC or Netflix.",
+              "options": null,
+              "correct_answer": "media institution",
+              "explanation": "A media institution is the company or organisation that creates and produces media content.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is broadcasting funded to serve the public interest, like the BBC funded by the licence fee.",
+              "options": null,
+              "correct_answer": "Public service broadcasting",
+              "explanation": "Public service broadcasting refers to media funded to serve the public rather than purely for profit.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ media organisations make money through advertising, subscriptions, or sales rather than public funding.",
+              "options": null,
+              "correct_answer": "Commercial",
+              "explanation": "Commercial media organisations generate income from revenue sources like advertising and subscriptions.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The merging of previously separate media technologies into one device, like a smartphone, is called ________.",
+              "options": null,
+              "correct_answer": "convergence",
+              "explanation": "Convergence describes how different media technologies combine into single, multi-functional devices.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ integration occurs when a media company owns different stages of production and distribution, like a studio owning cinemas.",
+              "options": null,
+              "correct_answer": "Vertical",
+              "explanation": "Vertical integration involves controlling multiple stages in the production and distribution process.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ integration happens when a media company buys competing companies at the same stage of production.",
+              "options": null,
+              "correct_answer": "Horizontal",
+              "explanation": "Horizontal integration is when companies acquire competitors operating at the same level of the industry.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Measurable audience characteristics like age, gender, and income are called audience ________.",
+              "options": null,
+              "correct_answer": "demographics",
+              "explanation": "Demographics are factual, measurable characteristics used to identify and target specific audience groups.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ classifies audiences based on their attitudes, values, and lifestyle rather than age or income.",
+              "options": null,
+              "correct_answer": "Psychographics",
+              "explanation": "Psychographics focus on what audiences think and value, complementing demographic data.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Videos created by audience members and shared on YouTube are an example of ________.",
+              "options": null,
+              "correct_answer": "user-generated content",
+              "explanation": "User-generated content refers to media created by audiences themselves rather than professional producers.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The shift from analogue to digital media, transforming production and distribution, is called the ________.",
+              "options": null,
+              "correct_answer": "digital revolution",
+              "explanation": "The digital revolution is the fundamental shift from analogue to digital media formats and technologies.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Convergence",
+                  "match": "When a company owns different stages of production and distribution"
+                },
+                {
+                  "term": "Vertical integration",
+                  "match": "The merging of previously separate media technologies into one device"
+                },
+                {
+                  "term": "Psychographics",
+                  "match": "Audience classification based on attitudes, values, and lifestyle"
+                },
+                {
+                  "term": "User-generated content",
+                  "match": "Media content created by audiences rather than professional producers"
+                },
+                {
+                  "term": "Public service broadcasting",
+                  "match": "Broadcasting funded to serve the public interest rather than for profit"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Media Products — Set Texts",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Analysing Media Texts",
+          "cards": [
+            {
+              "keyword": "mise-en-scène",
+              "definition": "everything visible in a film or TV frame — including setting, costume, lighting, props, and character positioning",
+              "display_order": 1
+            },
+            {
+              "keyword": "camera angle",
+              "definition": "the position of the camera relative to the subject — e.g. low angle (makes subject look powerful), high angle (makes subject look weak)",
+              "display_order": 2
+            },
+            {
+              "keyword": "close-up (CU)",
+              "definition": "a shot showing detail of a face or object — used to show emotion or draw attention to something significant",
+              "display_order": 3
+            },
+            {
+              "keyword": "editing",
+              "definition": "the process of selecting and joining shots together — techniques include cuts, fades, and match-on-action",
+              "display_order": 4
+            },
+            {
+              "keyword": "diegetic sound",
+              "definition": "sound that exists within the world of the media text — e.g. dialogue, footsteps, music playing on a radio in a scene",
+              "display_order": 5
+            },
+            {
+              "keyword": "non-diegetic sound",
+              "definition": "sound added to the media text that does not exist in the story world — e.g. a film score, voiceover narration",
+              "display_order": 6
+            },
+            {
+              "keyword": "anchorage",
+              "definition": "text that fixes the meaning of an image — a caption or headline that tells the audience how to interpret a visual",
+              "display_order": 7
+            },
+            {
+              "keyword": "connotation",
+              "definition": "the deeper meaning or association suggested by a word or image — beyond its literal meaning",
+              "display_order": 8
+            },
+            {
+              "keyword": "denotation",
+              "definition": "the literal, surface meaning of a word or image — what you can objectively see or describe",
+              "display_order": 9
+            },
+            {
+              "keyword": "semiotics",
+              "definition": "the study of signs and how they create meaning — a key theoretical framework in media studies (Roland Barthes)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does mise-en-scène refer to in film and TV?",
+              "options": [
+                "The process of editing shots together",
+                "Everything visible in a frame, including setting, costume, lighting, props, and character positioning",
+                "The sound that exists within the story world",
+                "How a camera moves during a shot"
+              ],
+              "correct_answer": "Everything visible in a frame, including setting, costume, lighting, props, and character positioning",
+              "explanation": "Mise-en-scène is a French term meaning 'putting on stage' and includes all visual elements the audience can see in a frame.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What effect does a low camera angle typically have on how we perceive a character?",
+              "options": [
+                "It makes them look weak and powerless",
+                "It makes them look powerful and dominant",
+                "It has no effect on perception",
+                "It makes them look sad and depressed"
+              ],
+              "correct_answer": "It makes them look powerful and dominant",
+              "explanation": "A low angle tilts the camera upward, forcing the audience to look up at the subject, which creates a sense of power and authority.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is the best use of a close-up shot?",
+              "options": [
+                "To show an entire landscape or setting",
+                "To show detail of a face or object and draw attention to emotion or significance",
+                "To establish the time of day in a scene",
+                "To show multiple characters talking together"
+              ],
+              "correct_answer": "To show detail of a face or object and draw attention to emotion or significance",
+              "explanation": "Close-ups zoom in on specific details, making them ideal for capturing facial expressions and emphasizing important objects or moments.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is editing in the context of media production?",
+              "options": [
+                "The lighting design of a scene",
+                "The costumes worn by actors",
+                "The process of selecting and joining shots together using techniques like cuts, fades, and match-on-action",
+                "The dialogue spoken by characters"
+              ],
+              "correct_answer": "The process of selecting and joining shots together using techniques like cuts, fades, and match-on-action",
+              "explanation": "Editing is the post-production process where separate shots are assembled and joined to create the final sequence, controlling pacing and flow.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an example of diegetic sound?",
+              "options": [
+                "A film score playing over a dramatic moment",
+                "A voiceover narrator explaining the plot",
+                "Dialogue between two characters in a scene",
+                "Text-to-speech commentary added to a documentary"
+              ],
+              "correct_answer": "Dialogue between two characters in a scene",
+              "explanation": "Diegetic sound exists within the world of the story, so characters can hear it. Dialogue between characters is part of their world.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is non-diegetic sound?",
+              "options": [
+                "Sound that characters in the scene can hear",
+                "Sound added to the media text that does not exist in the story world, such as a film score or voiceover narration",
+                "Background noise recorded on set",
+                "Music played from a speaker visible in the scene"
+              ],
+              "correct_answer": "Sound added to the media text that does not exist in the story world, such as a film score or voiceover narration",
+              "explanation": "Non-diegetic sound is added during post-production and characters cannot hear it; it's for the audience only.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does anchorage mean in media analysis?",
+              "options": [
+                "The main character of a story",
+                "Text that fixes the meaning of an image, such as a caption or headline",
+                "The editing technique that joins two shots",
+                "The background music in a film"
+              ],
+              "correct_answer": "Text that fixes the meaning of an image, such as a caption or headline",
+              "explanation": "Anchorage uses words to guide how audiences interpret an image, preventing multiple interpretations and anchoring it to one meaning.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is connotation?",
+              "options": [
+                "The literal, surface meaning of a word or image",
+                "The deeper meaning or association suggested by a word or image, beyond its literal meaning",
+                "A film technique used in editing",
+                "The setting where a scene takes place"
+              ],
+              "correct_answer": "The deeper meaning or association suggested by a word or image, beyond its literal meaning",
+              "explanation": "Connotation refers to what something suggests or implies emotionally, culturally, or symbolically, rather than what it literally shows.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which definition best describes denotation?",
+              "options": [
+                "The emotional response a viewer has to an image",
+                "The cultural or symbolic meaning of something",
+                "The literal, surface meaning of a word or image — what you can objectively see or describe",
+                "The technique of layering multiple images"
+              ],
+              "correct_answer": "The literal, surface meaning of a word or image — what you can objectively see or describe",
+              "explanation": "Denotation is the straightforward, factual meaning — if you see a red rose, the denotation is simply 'a red rose'.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is semiotics?",
+              "options": [
+                "The art of directing actors",
+                "The study of signs and how they create meaning — a key theoretical framework in media studies",
+                "The process of filming a scene",
+                "The arrangement of props in a set"
+              ],
+              "correct_answer": "The study of signs and how they create meaning — a key theoretical framework in media studies",
+              "explanation": "Semiotics, developed by theorists like Roland Barthes, examines how images, sounds, and words work as signs to communicate meaning to audiences.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "A high camera angle makes a character appear powerful and dominant.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "A high angle makes subjects look weak or vulnerable because the camera looks down at them. A low angle makes them look powerful.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Mise-en-scène includes the costume and props visible in a shot.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Mise-en-scène encompasses all visual elements in frame, including costume, props, lighting, setting, and character positioning.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Diegetic sound is sound that has been added to the final edit and does not exist in the story world.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Diegetic sound exists within the story world and characters can hear it. Non-diegetic sound is added and characters cannot hear it.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "A close-up shot is used to show a wide landscape or establishing shot.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Close-ups show detail of faces or objects. Establishing shots and wide shots show landscapes and overall settings.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Anchorage refers to the meaning created by camera movement.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Anchorage is when text (like captions or headlines) fixes the meaning of an image. Camera movement is a different technique.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Connotation and denotation mean the same thing in media analysis.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Denotation is the literal meaning; connotation is the deeper, suggested meaning. For example, a white dove denotes 'a bird' but connotes 'peace'.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Editing involves choosing and joining shots together.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Editing is the process of selecting shots and joining them together using techniques like cuts, fades, and match-on-action.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "A voiceover narration is an example of diegetic sound.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "A voiceover is added in post-production and characters cannot hear it, making it non-diegetic sound.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Roland Barthes was a key theorist in the study of semiotics.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Roland Barthes was an influential media theorist who developed key ideas about how signs and symbols create meaning.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Lighting is not considered part of mise-en-scène.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Lighting is a key element of mise-en-scène, along with setting, costume, props, and character positioning.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the position of the camera relative to the subject, and it affects how the audience perceives a character.",
+              "options": null,
+              "correct_answer": "camera angle",
+              "explanation": "Camera angle is a key compositional technique that influences whether a character appears powerful, weak, vulnerable, or threatening.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ shot is used to show detail of a face or object and draw attention to emotion or significance.",
+              "options": null,
+              "correct_answer": "close-up",
+              "explanation": "Close-up shots zoom in on specific details, making them ideal for capturing facial expressions and emphasizing important elements.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Sound that exists within the world of the media text, such as dialogue or footsteps, is called ________ sound.",
+              "options": null,
+              "correct_answer": "diegetic",
+              "explanation": "Diegetic sound is part of the story world and characters can hear it. It includes dialogue, footsteps, and music from sources visible in the scene.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A film score or voiceover narration added during post-production is an example of ________ sound.",
+              "options": null,
+              "correct_answer": "non-diegetic",
+              "explanation": "Non-diegetic sound is added to the final edit and does not exist in the story world; characters cannot hear it.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A caption or headline that fixes the meaning of an image is called ________.",
+              "options": null,
+              "correct_answer": "anchorage",
+              "explanation": "Anchorage uses text to guide audience interpretation and prevent ambiguity in how an image is understood.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The literal, surface meaning of a word or image is called its ________.",
+              "options": null,
+              "correct_answer": "denotation",
+              "explanation": "Denotation is the objective, factual meaning of something, as opposed to connotation, which is the deeper or emotional meaning.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The deeper meaning or association suggested by a word or image, beyond its literal meaning, is called ________.",
+              "options": null,
+              "correct_answer": "connotation",
+              "explanation": "Connotation refers to the cultural, emotional, or symbolic meanings that a sign carries beyond its basic definition.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The process of selecting and joining shots together using techniques like cuts and fades is called ________.",
+              "options": null,
+              "correct_answer": "editing",
+              "explanation": "Editing is a crucial post-production process that controls pacing, narrative flow, and the overall impact of a media text.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Everything visible in a film or TV frame — including setting, costume, lighting, props, and character positioning — is called ________.",
+              "options": null,
+              "correct_answer": "mise-en-scène",
+              "explanation": "Mise-en-scène is a French term that encompasses all visual elements arranged within a shot to create meaning.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the study of signs and how they create meaning, developed by theorists like Roland Barthes.",
+              "options": null,
+              "correct_answer": "Semiotics",
+              "explanation": "Semiotics is a theoretical framework that analyzes how images, words, and sounds function as signs to communicate with audiences.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Close-up",
+                  "match": "A shot showing detail of a face or object, used to show emotion or draw attention"
+                },
+                {
+                  "term": "Diegetic sound",
+                  "match": "Sound that exists within the story world, such as dialogue or footsteps"
+                },
+                {
+                  "term": "Connotation",
+                  "match": "The deeper meaning or association suggested by a word or image"
+                },
+                {
+                  "term": "Anchorage",
+                  "match": "Text that fixes the meaning of an image, such as a caption or headline"
+                },
+                {
+                  "term": "Editing",
+                  "match": "The process of selecting and joining shots together using cuts and fades"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

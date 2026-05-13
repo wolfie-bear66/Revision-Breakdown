@@ -1,0 +1,772 @@
+{
+  "subject": {
+    "name": "Health & Social Care",
+    "exam_board": "OCR",
+    "category": "Technology & Applied",
+    "colour": "#0891b2",
+    "emoji": "🏥",
+    "slug": "health-social-care-ocr"
+  },
+  "topics": [
+    {
+      "name": "Human Development & Health",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Life Stages & Development",
+          "cards": [
+            {
+              "keyword": "life stages",
+              "definition": "the recognised stages of human development — infancy (0–2), childhood (3–8), adolescence (9–18), early adulthood (19–45), middle adulthood (46–65), later adulthood (65+)",
+              "display_order": 1
+            },
+            {
+              "keyword": "PIES",
+              "definition": "an acronym for the four areas of human development — Physical, Intellectual, Emotional, and Social",
+              "display_order": 2
+            },
+            {
+              "keyword": "physical development",
+              "definition": "changes to the body over time — including growth, puberty, fine and gross motor skills, and physical decline in later life",
+              "display_order": 3
+            },
+            {
+              "keyword": "intellectual development",
+              "definition": "changes in thinking, memory, and problem-solving abilities — develops rapidly in childhood and may decline in later adulthood",
+              "display_order": 4
+            },
+            {
+              "keyword": "emotional development",
+              "definition": "the development of feelings, self-awareness, and the ability to manage emotions — includes forming attachments and identity",
+              "display_order": 5
+            },
+            {
+              "keyword": "social development",
+              "definition": "learning to interact with others and forming relationships — includes play, friendship, intimate relationships, and social roles",
+              "display_order": 6
+            },
+            {
+              "keyword": "puberty",
+              "definition": "the period of physical change where a child's body develops into an adult capable of reproduction — typically 9–16 years old",
+              "display_order": 7
+            },
+            {
+              "keyword": "self-concept",
+              "definition": "how a person sees themselves — includes self-image (how you see yourself) and self-esteem (how you value yourself)",
+              "display_order": 8
+            },
+            {
+              "keyword": "Erikson's stages",
+              "definition": "a theory of development proposing eight life-stage challenges — e.g. 'identity vs role confusion' in adolescence",
+              "display_order": 9
+            },
+            {
+              "keyword": "nature vs nurture",
+              "definition": "the debate over whether development is determined by genetics (nature) or environment and experience (nurture)",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of physical development?",
+              "options": [
+                "Learning to read and write",
+                "Growing taller and developing muscles",
+                "Making friends at school",
+                "Developing a sense of identity"
+              ],
+              "correct_answer": "Growing taller and developing muscles",
+              "explanation": "Physical development refers to changes in the body, such as growth and muscle development. The other options relate to intellectual, social, and emotional development.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does PIES stand for in human development?",
+              "options": [
+                "Physical, Intellectual, Emotional, Social",
+                "Personal, Individual, Educational, Social",
+                "Physical, Internal, Emotional, Spiritual",
+                "Psychological, Intellectual, Environmental, Social"
+              ],
+              "correct_answer": "Physical, Intellectual, Emotional, Social",
+              "explanation": "PIES is an acronym used in health and social care to describe the four main areas of human development.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which life stage typically includes ages 9–18?",
+              "options": [
+                "Childhood",
+                "Early adulthood",
+                "Adolescence",
+                "Middle adulthood"
+              ],
+              "correct_answer": "Adolescence",
+              "explanation": "Adolescence is the recognised life stage covering ages 9–18, when young people develop into adults.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is intellectual development?",
+              "options": [
+                "The ability to run and climb",
+                "Changes in thinking, memory, and problem-solving abilities",
+                "Learning to control emotions",
+                "Making new friendships"
+              ],
+              "correct_answer": "Changes in thinking, memory, and problem-solving abilities",
+              "explanation": "Intellectual development involves changes in how we think, learn, remember, and solve problems throughout our lives.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "During which age range does puberty typically occur?",
+              "options": [
+                "3–8 years old",
+                "9–16 years old",
+                "19–45 years old",
+                "46–65 years old"
+              ],
+              "correct_answer": "9–16 years old",
+              "explanation": "Puberty is the period of physical change typically occurring between 9–16 years old when the body develops the ability to reproduce.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is self-concept?",
+              "options": [
+                "Your ability to learn new skills",
+                "How a person sees themselves",
+                "Your physical fitness level",
+                "Your social group at school"
+              ],
+              "correct_answer": "How a person sees themselves",
+              "explanation": "Self-concept includes self-image (how you see yourself) and self-esteem (how you value yourself).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following best describes emotional development?",
+              "options": [
+                "Learning to run and jump",
+                "Becoming better at maths and science",
+                "Development of feelings, self-awareness, and the ability to manage emotions",
+                "Learning to drive a car"
+              ],
+              "correct_answer": "Development of feelings, self-awareness, and the ability to manage emotions",
+              "explanation": "Emotional development includes forming attachments, developing identity, and learning how to recognise and manage our feelings.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does social development involve?",
+              "options": [
+                "Physical growth and puberty",
+                "Learning to interact with others and forming relationships",
+                "Memorising facts and figures",
+                "Developing coordination and balance"
+              ],
+              "correct_answer": "Learning to interact with others and forming relationships",
+              "explanation": "Social development is about learning to interact with others, including play, friendship, intimate relationships, and understanding social roles.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "According to Erikson's theory, what is the main challenge during adolescence?",
+              "options": [
+                "Trust vs mistrust",
+                "Identity vs role confusion",
+                "Generativity vs stagnation",
+                "Integrity vs despair"
+              ],
+              "correct_answer": "Identity vs role confusion",
+              "explanation": "Erikson proposed that adolescents face the challenge of developing a sense of identity and understanding their role in society.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the nature vs nurture debate about?",
+              "options": [
+                "Whether people prefer cities or countryside",
+                "Whether development is determined by genetics or environment and experience",
+                "Whether children should play outdoors",
+                "Whether families should be large or small"
+              ],
+              "correct_answer": "Whether development is determined by genetics or environment and experience",
+              "explanation": "The nature vs nurture debate explores whether our development is mainly influenced by our genes (nature) or our environment and experiences (nurture).",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Infancy covers the ages 0–2 years old.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Infancy is the first recognised life stage, covering birth to 2 years of age.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Physical development only occurs during childhood.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Physical development occurs throughout the entire lifespan, including physical decline in later adulthood.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Self-esteem refers to how you value yourself.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Self-esteem is one part of self-concept and refers to how much you value or respect yourself.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Intellectual development reaches its peak in infancy and then stays the same throughout life.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Intellectual development develops rapidly during childhood and may decline in later adulthood, but it changes throughout life.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Middle adulthood typically covers ages 46–65.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Middle adulthood is the recognised life stage covering ages 46–65 years old.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Puberty is when a child's body develops into an adult capable of reproduction.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Puberty is the period of physical change where the body develops the ability to reproduce, typically between 9–16 years old.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Emotional development includes learning to form attachments and develop identity.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Forming attachments and developing a sense of identity are key parts of emotional development.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Later adulthood begins at age 55.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Later adulthood begins at age 65, not 55. Ages 46–65 is middle adulthood.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Gross motor skills are part of physical development.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Physical development includes both fine and gross motor skills, such as running, jumping, writing, and picking up small objects.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Environment and experience have no effect on human development according to the nature vs nurture debate.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The nurture side of the debate argues that environment and experience are very important in shaping development, not that they have no effect.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the period of physical change where a child's body develops into an adult capable of reproduction.",
+              "options": null,
+              "correct_answer": "Puberty",
+              "explanation": "Puberty is the key term that describes this period of major physical change, typically occurring between ages 9–16.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The four areas of human development are described by the acronym ________.",
+              "options": null,
+              "correct_answer": "PIES",
+              "explanation": "PIES stands for Physical, Intellectual, Emotional, and Social development.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ development refers to changes in thinking, memory, and problem-solving abilities.",
+              "options": null,
+              "correct_answer": "Intellectual",
+              "explanation": "Intellectual development involves how our thinking and cognitive abilities change throughout life.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The life stage of ________ covers ages 3–8 years old.",
+              "options": null,
+              "correct_answer": "childhood",
+              "explanation": "Childhood is the recognised life stage that follows infancy and covers ages 3–8.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ development involves learning to interact with others and forming relationships.",
+              "options": null,
+              "correct_answer": "Social",
+              "explanation": "Social development is about how we learn to relate to others through play, friendship, and understanding social roles.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is how a person sees themselves, including self-image and self-esteem.",
+              "options": null,
+              "correct_answer": "Self-concept",
+              "explanation": "Self-concept is the overall way someone perceives and values themselves.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ development includes forming attachments and developing a sense of identity.",
+              "options": null,
+              "correct_answer": "Emotional",
+              "explanation": "Emotional development is about how we develop feelings, self-awareness, and the ability to manage emotions, including forming attachments.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ vs nurture debate explores whether development is determined by genetics or environment.",
+              "options": null,
+              "correct_answer": "nature",
+              "explanation": "Nature refers to genetic factors, while nurture refers to environmental and experiential factors in development.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ development includes growth, puberty, fine and gross motor skills, and physical decline in later life.",
+              "options": null,
+              "correct_answer": "Physical",
+              "explanation": "Physical development encompasses all the bodily changes that occur throughout the lifespan.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ proposed a theory of development with eight life-stage challenges, including 'identity vs role confusion' in adolescence.",
+              "options": null,
+              "correct_answer": "Erikson",
+              "explanation": "Erik Erikson developed an influential theory of psychosocial development across the entire lifespan.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Self-image",
+                  "match": "How you see yourself"
+                },
+                {
+                  "term": "Attachment",
+                  "match": "A strong emotional bond formed with another person"
+                },
+                {
+                  "term": "Adolescence",
+                  "match": "The life stage covering ages 9–18"
+                },
+                {
+                  "term": "Fine motor skills",
+                  "match": "Small, precise movements such as writing or picking up objects"
+                },
+                {
+                  "term": "Self-esteem",
+                  "match": "How much you value yourself"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Health, Wellbeing & Services",
+          "cards": [
+            {
+              "keyword": "health (WHO definition)",
+              "definition": "a state of complete physical, mental, and social wellbeing — not merely the absence of disease",
+              "display_order": 1
+            },
+            {
+              "keyword": "holistic health",
+              "definition": "considering all aspects of a person's wellbeing — physical, emotional, social, and intellectual",
+              "display_order": 2
+            },
+            {
+              "keyword": "social care",
+              "definition": "support for people who need help with daily living — including elderly people, disabled people, and children in need",
+              "display_order": 3
+            },
+            {
+              "keyword": "primary healthcare",
+              "definition": "the first point of contact with the health service — e.g. GP, dentist, community nurse, pharmacist",
+              "display_order": 4
+            },
+            {
+              "keyword": "secondary healthcare",
+              "definition": "specialist services accessed via referral from primary care — e.g. hospital consultants, surgeons, specialist clinics",
+              "display_order": 5
+            },
+            {
+              "keyword": "informal care",
+              "definition": "unpaid care provided by family members, friends, or neighbours — the majority of care in the UK is informal",
+              "display_order": 6
+            },
+            {
+              "keyword": "formal care",
+              "definition": "paid, professional care provided by trained workers in registered settings — e.g. care homes, hospitals, nurseries",
+              "display_order": 7
+            },
+            {
+              "keyword": "person-centred care",
+              "definition": "an approach that treats individuals as whole people with their own needs and preferences — rather than focusing only on their condition",
+              "display_order": 8
+            },
+            {
+              "keyword": "care values / RESPECT",
+              "definition": "the values underpinning health and social care — including Respect, Empathy, Support, Partnership, Equality, Choice, Trust",
+              "display_order": 9
+            },
+            {
+              "keyword": "safeguarding",
+              "definition": "measures taken to protect vulnerable people from abuse, neglect, and harm — a legal duty for all care workers",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "According to the WHO definition, what is health?",
+              "options": [
+                "The absence of disease and illness",
+                "A state of complete physical, mental, and social wellbeing — not merely the absence of disease",
+                "Only physical fitness and strength",
+                "The ability to work without getting tired"
+              ],
+              "correct_answer": "A state of complete physical, mental, and social wellbeing — not merely the absence of disease",
+              "explanation": "The WHO definition includes physical, mental, and social wellbeing, not just the absence of disease. This broader definition recognizes that true health involves all aspects of a person's life.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of primary healthcare?",
+              "options": [
+                "Hospital surgery performed by a surgeon",
+                "A visit to your local GP",
+                "Treatment at a specialist cancer clinic",
+                "Emergency hospital admission"
+              ],
+              "correct_answer": "A visit to your local GP",
+              "explanation": "Primary healthcare is the first point of contact with the health service. A GP is a primary healthcare provider, whereas hospitals and specialist clinics are secondary healthcare.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'holistic health' mean?",
+              "options": [
+                "Treating only the physical symptoms of illness",
+                "Focusing solely on mental health problems",
+                "Considering all aspects of a person's wellbeing — physical, emotional, social, and intellectual",
+                "Using only natural remedies and medicines"
+              ],
+              "correct_answer": "Considering all aspects of a person's wellbeing — physical, emotional, social, and intellectual",
+              "explanation": "Holistic health takes a whole-person approach, looking at all dimensions of wellbeing rather than just one area. This ensures care addresses the complete needs of the individual.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which type of care involves being looked after by family members without payment?",
+              "options": [
+                "Formal care in a care home",
+                "Professional nursing care in a hospital",
+                "Informal care provided by family and friends",
+                "Care provided by a private care company"
+              ],
+              "correct_answer": "Informal care provided by family and friends",
+              "explanation": "Informal care is unpaid support from family, friends, or neighbours. It is the most common type of care in the UK. Formal care involves paid professional workers.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an example of formal care?",
+              "options": [
+                "A daughter helping her elderly mother with shopping",
+                "Friends visiting a sick neighbour",
+                "A child being looked after in a registered nursery",
+                "Family members caring for a relative at home"
+              ],
+              "correct_answer": "A child being looked after in a registered nursery",
+              "explanation": "Formal care is paid, professional care provided by trained workers in registered settings. A nursery is a formal care setting. Family and friends providing unpaid care would be informal care.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'social care' include?",
+              "options": [
+                "Only helping people with physical exercise",
+                "Support for people who need help with daily living — including elderly people, disabled people, and children in need",
+                "Only providing therapy and counselling",
+                "Only caring for people in hospitals"
+              ],
+              "correct_answer": "Support for people who need help with daily living — including elderly people, disabled people, and children in need",
+              "explanation": "Social care focuses on supporting people with daily living needs, helping them maintain independence and quality of life. It covers a wide range of vulnerable groups.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which healthcare service would you be referred to if your GP suspected you had a serious condition requiring specialist treatment?",
+              "options": [
+                "Primary healthcare only",
+                "Secondary healthcare through a specialist referral",
+                "Informal family care",
+                "Social care services"
+              ],
+              "correct_answer": "Secondary healthcare through a specialist referral",
+              "explanation": "Secondary healthcare includes specialist services that you access via referral from primary care, such as hospital consultants and specialist clinics. GPs refer patients to secondary care when needed.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'person-centred care'?",
+              "options": [
+                "Care that is only focused on treating the medical condition",
+                "Care that treats individuals as whole people with their own needs and preferences",
+                "Care that ignores what the patient wants",
+                "Care that is the same for every patient"
+              ],
+              "correct_answer": "Care that treats individuals as whole people with their own needs and preferences",
+              "explanation": "Person-centred care recognizes that every person is unique with different needs and preferences. It focuses on the individual as a whole person, not just their diagnosis.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is NOT one of the care values represented by RESPECT?",
+              "options": [
+                "Equality and Choice",
+                "Partnership and Trust",
+                "Respect and Empathy",
+                "Punishment and Control"
+              ],
+              "correct_answer": "Punishment and Control",
+              "explanation": "The care values RESPECT stand for: Respect, Empathy, Support, Partnership, Equality, Choice, and Trust. Punishment and control are not part of care values and go against person-centred care principles.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is safeguarding in health and social care?",
+              "options": [
+                "Measures taken to protect vulnerable people from abuse, neglect, and harm",
+                "A system for organizing appointments",
+                "Training staff to work faster",
+                "A way to make care more expensive"
+              ],
+              "correct_answer": "Measures taken to protect vulnerable people from abuse, neglect, and harm",
+              "explanation": "Safeguarding is a legal duty for all care workers to protect vulnerable people. It includes policies, procedures, and training to prevent abuse and harm.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "According to the WHO definition, health only means not being ill or injured.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The WHO definition includes physical, mental, and social wellbeing — it's much broader than just the absence of disease. Health is a positive state of complete wellbeing.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Holistic health considers all aspects of a person's wellbeing including physical, emotional, social, and intellectual needs.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Holistic health takes a whole-person approach, recognizing that all areas of wellbeing are interconnected and important for overall health.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Primary healthcare includes hospital consultants and specialist surgeons.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Primary healthcare is the first point of contact (GP, dentist, pharmacist) whereas specialist consultants and surgeons are secondary healthcare services accessed through referral.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Informal care is always provided by trained professional workers in registered settings.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Informal care is unpaid care provided by family, friends, or neighbours — not by professional workers. Professional care in registered settings is formal care.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Social care can include support for elderly people, disabled people, and children in need.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Social care focuses on supporting people who need help with daily living, which includes elderly people, disabled people, and vulnerable children.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The majority of care provided in the UK is formal care from professional workers.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The majority of care in the UK is informal care provided by family members and friends, not formal professional care.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Person-centred care means treating all patients in exactly the same way regardless of their individual needs.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Person-centred care recognizes that every individual has unique needs and preferences. It is tailored to each person, not one-size-fits-all.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Safeguarding is a legal duty for all health and social care workers.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Safeguarding is a mandatory legal responsibility for care workers to protect vulnerable people from abuse, neglect, and harm.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Trust and Respect are two of the care values represented in RESPECT.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "RESPECT stands for Respect, Empathy, Support, Partnership, Equality, Choice, and Trust — so both Respect and Trust are included in these care values.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "A pharmacist is an example of a secondary healthcare provider.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "A pharmacist is a primary healthcare provider — the first point of contact. Secondary healthcare includes specialist services accessed via referral, such as hospital consultants.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The WHO definition of health includes physical, mental, and ________ wellbeing.",
+              "options": null,
+              "correct_answer": "social",
+              "explanation": "The complete WHO definition states that health is a state of complete physical, mental, and social wellbeing — not merely the absence of disease.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ health means considering all aspects of a person's wellbeing — physical, emotional, social, and intellectual.",
+              "options": null,
+              "correct_answer": "Holistic",
+              "explanation": "Holistic health takes a whole-person approach, looking at all dimensions of an individual's wellbeing rather than just focusing on one area.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Your ________ is usually your first point of contact with the health service.",
+              "options": null,
+              "correct_answer": "GP",
+              "explanation": "A General Practitioner (GP) is the first point of contact with primary healthcare. From there, patients may be referred to secondary healthcare if needed.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Hospital consultants and specialist clinics are examples of ________ healthcare.",
+              "options": null,
+              "correct_answer": "secondary",
+              "explanation": "Secondary healthcare includes specialist services that people access via referral from primary care providers like GPs.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Unpaid care provided by family members and friends is called ________ care.",
+              "options": null,
+              "correct_answer": "informal",
+              "explanation": "Informal care is unpaid support provided by family, friends, or neighbours — it is the most common type of care in the UK.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Care provided by trained professional workers in registered settings such as care homes or hospitals is called ________ care.",
+              "options": null,
+              "correct_answer": "formal",
+              "explanation": "Formal care is paid, professional care provided by trained workers in regulated settings. Examples include care homes, hospitals, and nurseries.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ care is an approach that treats individuals as whole people with their own needs and preferences.",
+              "options": null,
+              "correct_answer": "Person-centred",
+              "explanation": "Person-centred care focuses on the individual as a whole person, recognizing their unique needs and preferences rather than treating everyone the same.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The care values are remembered by the acronym ________, which stands for Respect, Empathy, Support, Partnership, Equality, Choice, and Trust.",
+              "options": null,
+              "correct_answer": "RESPECT",
+              "explanation": "RESPECT is an acronym that helps care workers remember the seven key values that should guide their work with service users.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ care includes support for elderly people, disabled people, and children in need with their daily living needs.",
+              "options": null,
+              "correct_answer": "Social",
+              "explanation": "Social care focuses on supporting vulnerable people who need help with daily living activities and maintaining independence.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "All health and social care workers have a legal duty to practise ________ to protect vulnerable people from abuse, neglect, and harm.",
+              "options": null,
+              "correct_answer": "safeguarding",
+              "explanation": "Safeguarding is a mandatory legal responsibility that all care workers must follow to ensure vulnerable people are protected from harm.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Primary healthcare",
+                  "match": "Specialist services accessed via referral from primary care, such as hospital consultants"
+                },
+                {
+                  "term": "Informal care",
+                  "match": "Paid, professional care provided by trained workers in registered settings"
+                },
+                {
+                  "term": "Secondary healthcare",
+                  "match": "The first point of contact with the health service, such as a GP or dentist"
+                },
+                {
+                  "term": "Formal care",
+                  "match": "Unpaid care provided by family members, friends, or neighbours"
+                },
+                {
+                  "term": "Holistic health",
+                  "match": "Considering all aspects of a person's wellbeing — physical, emotional, social, and intellectual"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

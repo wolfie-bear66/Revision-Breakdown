@@ -1,0 +1,1135 @@
+{
+  "subject": {
+    "name": "Food Preparation & Nutrition",
+    "exam_board": "AQA",
+    "category": "Technology & Applied",
+    "colour": "#16a34a",
+    "emoji": "🍽️",
+    "slug": "food-nutrition-aqa"
+  },
+  "topics": [
+    {
+      "name": "Nutrition & Food Science",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Macronutrients",
+          "cards": [
+            {
+              "keyword": "macronutrients",
+              "definition": "nutrients needed in large amounts — carbohydrates, proteins, and fats (lipids)",
+              "display_order": 1
+            },
+            {
+              "keyword": "carbohydrates",
+              "definition": "the main source of energy — simple (sugars) or complex (starch). Found in bread, rice, pasta, fruit, and sugar",
+              "display_order": 2
+            },
+            {
+              "keyword": "protein",
+              "definition": "needed for growth, repair, and maintenance of the body — made of amino acids. Found in meat, fish, eggs, and pulses",
+              "display_order": 3
+            },
+            {
+              "keyword": "essential amino acids",
+              "definition": "amino acids the body cannot make — must be obtained from food. Found in complete proteins like meat and eggs",
+              "display_order": 4
+            },
+            {
+              "keyword": "HBV protein (High Biological Value)",
+              "definition": "protein containing all essential amino acids — found in animal sources: meat, fish, eggs, dairy",
+              "display_order": 5
+            },
+            {
+              "keyword": "LBV protein (Low Biological Value)",
+              "definition": "protein lacking one or more essential amino acids — found in plant sources: beans, lentils, cereals",
+              "display_order": 6
+            },
+            {
+              "keyword": "protein complementation",
+              "definition": "combining LBV proteins to provide all essential amino acids — e.g. beans on toast, rice and lentils",
+              "display_order": 7
+            },
+            {
+              "keyword": "saturated fat",
+              "definition": "fat found mainly in animal products — associated with raised cholesterol and increased risk of heart disease",
+              "display_order": 8
+            },
+            {
+              "keyword": "unsaturated fat",
+              "definition": "fat found mainly in plant oils and oily fish — associated with lower cholesterol. Includes monounsaturated and polyunsaturated",
+              "display_order": 9
+            },
+            {
+              "keyword": "dietary fibre (NSP)",
+              "definition": "non-starch polysaccharide found in plant foods — aids digestion, prevents constipation and reduces risk of bowel cancer",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What are macronutrients?",
+              "options": [
+                "Nutrients needed in small amounts for body functions",
+                "Nutrients needed in large amounts — carbohydrates, proteins, and fats",
+                "Vitamins and minerals found in fruit and vegetables",
+                "Substances that help build bones and teeth"
+              ],
+              "correct_answer": "Nutrients needed in large amounts — carbohydrates, proteins, and fats",
+              "explanation": "Macronutrients are the three main nutrients required in large quantities by the body: carbohydrates, proteins, and fats.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is the main source of energy in food?",
+              "options": [
+                "Protein",
+                "Carbohydrates",
+                "Vitamins",
+                "Minerals"
+              ],
+              "correct_answer": "Carbohydrates",
+              "explanation": "Carbohydrates are the primary macronutrient used by the body for energy and are found in foods like bread, rice, pasta, and fruit.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main role of protein in the body?",
+              "options": [
+                "To provide energy quickly",
+                "To absorb vitamins and minerals",
+                "For growth, repair, and maintenance of the body",
+                "To regulate body temperature"
+              ],
+              "correct_answer": "For growth, repair, and maintenance of the body",
+              "explanation": "Protein is essential for building and repairing body tissues, and it is made up of amino acids which the body uses for growth and maintenance.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which foods are good sources of protein?",
+              "options": [
+                "Rice, pasta, and potatoes",
+                "Apples, oranges, and bananas",
+                "Meat, fish, eggs, and pulses",
+                "Olive oil, butter, and cream"
+              ],
+              "correct_answer": "Meat, fish, eggs, and pulses",
+              "explanation": "Meat, fish, eggs, and pulses (beans and lentils) are all excellent sources of protein needed for body growth and repair.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are essential amino acids?",
+              "options": [
+                "Amino acids that are not important for health",
+                "Amino acids the body cannot make and must obtain from food",
+                "Amino acids found only in plant-based foods",
+                "Amino acids that provide energy to muscles"
+              ],
+              "correct_answer": "Amino acids the body cannot make and must obtain from food",
+              "explanation": "Essential amino acids are amino acids that the human body cannot produce on its own, so they must be obtained through diet from foods like meat and eggs.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which type of protein contains all essential amino acids?",
+              "options": [
+                "LBV protein from beans",
+                "HBV protein from animal sources like meat and eggs",
+                "Plant-based protein from cereals",
+                "Protein from lentils and pulses"
+              ],
+              "correct_answer": "HBV protein from animal sources like meat and eggs",
+              "explanation": "HBV (High Biological Value) proteins found in animal products such as meat, fish, eggs, and dairy contain all the essential amino acids needed by the body.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does LBV protein stand for?",
+              "options": [
+                "Low Body Value protein",
+                "Low Biological Value protein",
+                "Less Body Volume protein",
+                "Long-lasting Biological Value protein"
+              ],
+              "correct_answer": "Low Biological Value protein",
+              "explanation": "LBV stands for Low Biological Value and refers to proteins lacking one or more essential amino acids, commonly found in plant sources like beans and lentils.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is protein complementation?",
+              "options": [
+                "Eating only protein-rich foods at each meal",
+                "Combining LBV proteins to provide all essential amino acids together",
+                "Adding vitamins to plant-based foods",
+                "Cooking protein at high temperatures"
+              ],
+              "correct_answer": "Combining LBV proteins to provide all essential amino acids together",
+              "explanation": "Protein complementation involves combining plant-based LBV proteins (like beans on toast or rice and lentils) so that together they provide all essential amino acids.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which type of fat is mainly found in animal products?",
+              "options": [
+                "Unsaturated fat",
+                "Polyunsaturated fat",
+                "Saturated fat",
+                "Trans fat"
+              ],
+              "correct_answer": "Saturated fat",
+              "explanation": "Saturated fat is found mainly in animal products and is associated with raised cholesterol levels and increased risk of heart disease.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which foods are good sources of unsaturated fat?",
+              "options": [
+                "Butter, cream, and cheese",
+                "Red meat and fatty cuts of pork",
+                "Plant oils and oily fish",
+                "Eggs and full-fat milk"
+              ],
+              "correct_answer": "Plant oils and oily fish",
+              "explanation": "Unsaturated fats are found mainly in plant oils and oily fish and are associated with lower cholesterol levels compared to saturated fats.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Carbohydrates can be either simple sugars or complex starch.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Carbohydrates are divided into two types: simple carbohydrates (sugars) and complex carbohydrates (starch) found in foods like bread and rice.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Protein is made up of amino acids.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Protein is indeed composed of amino acids, which are linked together in different combinations to form various proteins.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The body can produce all essential amino acids on its own.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The body cannot produce essential amino acids, which is why they must be obtained from food sources.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "HBV proteins are found in animal sources like meat, fish, and eggs.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "HBV (High Biological Value) proteins are found in animal products and contain all essential amino acids needed by the body.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Beans and lentils are examples of HBV proteins.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Beans and lentils are plant-based LBV proteins that lack one or more essential amino acids, not HBV proteins.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Saturated fat is associated with lower cholesterol and reduced heart disease risk.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Saturated fat is associated with raised cholesterol and increased risk of heart disease, while unsaturated fat is better for heart health.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Unsaturated fats are found mainly in plant oils and oily fish.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Unsaturated fats are primarily found in plant oils and oily fish like salmon and mackerel, and are associated with better cholesterol levels.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Dietary fibre is found only in animal products.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Dietary fibre (NSP) is found in plant foods such as vegetables, fruits, and wholegrain products, not in animal products.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Dietary fibre helps prevent constipation and reduces the risk of bowel cancer.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Dietary fibre (NSP) aids digestion, prevents constipation, and is associated with reduced risk of bowel cancer.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Bread, rice, and pasta are good sources of carbohydrates.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Bread, rice, and pasta are all complex carbohydrates that provide the main source of energy for the body.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are nutrients needed in large amounts — carbohydrates, proteins, and fats.",
+              "options": null,
+              "correct_answer": "Macronutrients",
+              "explanation": "The three main macronutrients are carbohydrates, proteins, and fats, which are needed in large quantities by the body.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are the main source of energy in food, found in bread, rice, pasta, fruit, and sugar.",
+              "options": null,
+              "correct_answer": "Carbohydrates",
+              "explanation": "Carbohydrates are the primary macronutrient for energy and are available as simple sugars or complex starches.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are amino acids that the body cannot make and must be obtained from food.",
+              "options": null,
+              "correct_answer": "Essential amino acids",
+              "explanation": "Essential amino acids cannot be synthesised by the body and must come from dietary sources like meat and eggs.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ protein contains all essential amino acids and is found in animal sources like meat, fish, and eggs.",
+              "options": null,
+              "correct_answer": "HBV",
+              "explanation": "HBV (High Biological Value) protein found in animal products contains all the essential amino acids the body needs.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ protein lacks one or more essential amino acids and is found in plant sources like beans and lentils.",
+              "options": null,
+              "correct_answer": "LBV",
+              "explanation": "LBV (Low Biological Value) protein from plant sources does not contain all essential amino acids unless combined with other proteins.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ fat is found mainly in animal products and is associated with raised cholesterol and heart disease risk.",
+              "options": null,
+              "correct_answer": "Saturated",
+              "explanation": "Saturated fat, found in foods like butter and fatty meat, is linked to higher cholesterol and increased cardiovascular disease risk.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ fat is found mainly in plant oils and oily fish and is associated with lower cholesterol.",
+              "options": null,
+              "correct_answer": "Unsaturated",
+              "explanation": "Unsaturated fat from sources like olive oil and salmon is better for heart health and associated with lower cholesterol levels.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a non-starch polysaccharide found in plant foods that aids digestion and prevents constipation.",
+              "options": null,
+              "correct_answer": "Dietary fibre",
+              "explanation": "Dietary fibre (NSP) is found in plant-based foods and is essential for healthy digestion and reducing bowel cancer risk.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "An example of protein complementation is ________ on toast, which combines LBV proteins to provide all essential amino acids.",
+              "options": null,
+              "correct_answer": "beans",
+              "explanation": "Beans on toast combines the incomplete protein of beans with the incomplete protein of bread to create a complete amino acid profile.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ and rice is another example of protein complementation that provides all essential amino acids.",
+              "options": null,
+              "correct_answer": "Lentils",
+              "explanation": "Lentils and rice are often eaten together in many cuisines because each provides different amino acids, creating a complete protein when combined.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Macronutrients",
+                  "match": "Nutrients needed in large amounts — carbohydrates, proteins, and fats"
+                },
+                {
+                  "term": "HBV protein",
+                  "match": "Protein containing all essential amino acids, found in animal sources like meat and eggs"
+                },
+                {
+                  "term": "LBV protein",
+                  "match": "Protein lacking one or more essential amino acids, found in plant sources like beans and lentils"
+                },
+                {
+                  "term": "Saturated fat",
+                  "match": "Fat found mainly in animal products, associated with raised cholesterol and heart disease"
+                },
+                {
+                  "term": "Dietary fibre",
+                  "match": "Non-starch polysaccharide found in plant foods that aids digestion and prevents constipation"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Micronutrients & Dietary Needs",
+          "cards": [
+            {
+              "keyword": "micronutrients",
+              "definition": "nutrients needed in small amounts — vitamins and minerals",
+              "display_order": 1
+            },
+            {
+              "keyword": "vitamin C (ascorbic acid)",
+              "definition": "a water-soluble vitamin needed for healthy skin, immune function, and iron absorption — found in citrus fruit, peppers, and broccoli",
+              "display_order": 2
+            },
+            {
+              "keyword": "vitamin D",
+              "definition": "a fat-soluble vitamin needed for calcium absorption and healthy bones — made by the skin in sunlight; found in oily fish and eggs",
+              "display_order": 3
+            },
+            {
+              "keyword": "iron",
+              "definition": "a mineral needed to make haemoglobin in red blood cells — deficiency causes anaemia. Found in red meat, spinach, and fortified cereals",
+              "display_order": 4
+            },
+            {
+              "keyword": "calcium",
+              "definition": "a mineral needed for strong bones and teeth and muscle function — found in dairy products, leafy greens, and fortified plant milks",
+              "display_order": 5
+            },
+            {
+              "keyword": "water-soluble vitamins",
+              "definition": "vitamins B and C — dissolve in water and cannot be stored in the body. Must be eaten regularly; easily lost in cooking",
+              "display_order": 6
+            },
+            {
+              "keyword": "fat-soluble vitamins",
+              "definition": "vitamins A, D, E, and K — stored in the liver. Can accumulate to toxic levels if consumed in excess",
+              "display_order": 7
+            },
+            {
+              "keyword": "Eatwell Guide",
+              "definition": "a UK government guide showing the proportions of different food groups needed for a healthy, balanced diet",
+              "display_order": 8
+            },
+            {
+              "keyword": "dietary reference values (DRVs)",
+              "definition": "UK government guidelines for the amounts of energy and nutrients needed by different groups of people",
+              "display_order": 9
+            },
+            {
+              "keyword": "nutritional analysis",
+              "definition": "calculating the nutrient content of a dish or diet — used to evaluate whether it meets recommended intakes",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What are micronutrients?",
+              "options": [
+                "Nutrients needed in large amounts to provide energy",
+                "Nutrients needed in small amounts — vitamins and minerals",
+                "Nutrients that are only found in plant-based foods",
+                "Nutrients that must be cooked before eating"
+              ],
+              "correct_answer": "Nutrients needed in small amounts — vitamins and minerals",
+              "explanation": "Micronutrients are vitamins and minerals required in small quantities for various body functions, unlike macronutrients which are needed in larger amounts.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is a good source of vitamin C?",
+              "options": [
+                "Olive oil",
+                "Red meat",
+                "Peppers",
+                "Oily fish"
+              ],
+              "correct_answer": "Peppers",
+              "explanation": "Peppers are rich in vitamin C, along with citrus fruits and broccoli. The other options are sources of different nutrients.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main role of vitamin D in the body?",
+              "options": [
+                "To improve skin elasticity",
+                "To help the immune system fight infections",
+                "To help calcium absorption and maintain healthy bones",
+                "To make red blood cells carry oxygen"
+              ],
+              "correct_answer": "To help calcium absorption and maintain healthy bones",
+              "explanation": "Vitamin D is essential for calcium absorption and bone health. It is produced by the skin in sunlight and found in oily fish and eggs.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What deficiency disease is caused by a lack of iron?",
+              "options": [
+                "Scurvy",
+                "Rickets",
+                "Anaemia",
+                "Osteoporosis"
+              ],
+              "correct_answer": "Anaemia",
+              "explanation": "Iron deficiency causes anaemia because iron is needed to make haemoglobin in red blood cells. Without enough iron, the blood cannot carry oxygen effectively.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which food is the best source of calcium?",
+              "options": [
+                "Carrots",
+                "Dairy products",
+                "Chicken breast",
+                "Brown rice"
+              ],
+              "correct_answer": "Dairy products",
+              "explanation": "Dairy products like milk and cheese are excellent sources of calcium. Leafy greens and fortified plant milks also contain calcium.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a characteristic of water-soluble vitamins?",
+              "options": [
+                "They are stored in the liver for months",
+                "They dissolve in water and cannot be stored in the body",
+                "They are found only in animal products",
+                "They improve skin appearance immediately"
+              ],
+              "correct_answer": "They dissolve in water and cannot be stored in the body",
+              "explanation": "Water-soluble vitamins (B and C) dissolve in water and are not stored in the body, so they must be eaten regularly and are easily lost during cooking.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which vitamins are fat-soluble and can be stored in the body?",
+              "options": [
+                "Vitamins B and C",
+                "Vitamins A, D, E, and K",
+                "Only vitamin A",
+                "Only vitamins B12 and folate"
+              ],
+              "correct_answer": "Vitamins A, D, E, and K",
+              "explanation": "Fat-soluble vitamins A, D, E, and K are stored in the liver and can accumulate to toxic levels if consumed in excess.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Eatwell Guide used for?",
+              "options": [
+                "To list all foods that are unhealthy",
+                "To show the proportions of different food groups needed for a healthy, balanced diet",
+                "To calculate the exact calories needed by each person",
+                "To recommend vitamin supplements"
+              ],
+              "correct_answer": "To show the proportions of different food groups needed for a healthy, balanced diet",
+              "explanation": "The Eatwell Guide is a UK government tool that visually shows the recommended proportions of different food groups for a balanced diet.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do dietary reference values (DRVs) provide?",
+              "options": [
+                "A list of foods to avoid completely",
+                "Guidelines for the amounts of energy and nutrients needed by different groups of people",
+                "Information about the cost of different nutrients",
+                "Recommendations for how often to eat each food"
+              ],
+              "correct_answer": "Guidelines for the amounts of energy and nutrients needed by different groups of people",
+              "explanation": "DRVs are UK government guidelines that specify the recommended amounts of energy and nutrients for different age groups and genders.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is nutritional analysis used for?",
+              "options": [
+                "To decide which restaurant to visit",
+                "To calculate the nutrient content of a dish or diet and evaluate if it meets recommended intakes",
+                "To determine the cost of ingredients",
+                "To find recipes on the internet"
+              ],
+              "correct_answer": "To calculate the nutrient content of a dish or diet and evaluate if it meets recommended intakes",
+              "explanation": "Nutritional analysis involves calculating what nutrients are in food to check whether a meal or diet meets the recommended daily amounts.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Vitamin C is a fat-soluble vitamin that can be stored in the body for long periods.",
+              "correct_answer": "False",
+              "explanation": "Vitamin C is a water-soluble vitamin that cannot be stored in the body and must be eaten regularly.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The skin can produce vitamin D when exposed to sunlight.",
+              "correct_answer": "True",
+              "explanation": "Vitamin D is a fat-soluble vitamin that the skin produces naturally when exposed to sunlight, in addition to dietary sources.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Spinach is a good source of iron.",
+              "correct_answer": "True",
+              "explanation": "Spinach is indeed a good source of iron, along with red meat and fortified cereals.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Water-soluble vitamins are easily preserved during cooking and cannot be lost.",
+              "correct_answer": "False",
+              "explanation": "Water-soluble vitamins are easily lost during cooking because they dissolve in water, so care must be taken when preparing foods containing them.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Fat-soluble vitamins can accumulate to toxic levels if consumed in excess.",
+              "correct_answer": "True",
+              "explanation": "Because they are stored in the liver, fat-soluble vitamins (A, D, E, K) can build up to dangerous levels if too much is consumed.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Oily fish is a good source of vitamin D.",
+              "correct_answer": "True",
+              "explanation": "Oily fish like salmon and mackerel are excellent dietary sources of vitamin D.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Calcium is only found in dairy products and cannot be obtained from plant-based foods.",
+              "correct_answer": "False",
+              "explanation": "While dairy is a major source, calcium is also found in leafy greens and fortified plant milks.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Haemoglobin is a protein in red blood cells that carries oxygen, and iron is needed to make it.",
+              "correct_answer": "True",
+              "explanation": "Iron is essential for the production of haemoglobin, the protein in red blood cells responsible for oxygen transport.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The Eatwell Guide shows exact portion sizes for individual meals.",
+              "correct_answer": "False",
+              "explanation": "The Eatwell Guide shows the proportions of food groups needed for a healthy diet, but does not provide exact portion sizes for individual meals.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Broccoli contains vitamin C.",
+              "correct_answer": "True",
+              "explanation": "Broccoli is a good source of vitamin C, along with citrus fruits and peppers.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Vitamin C is important for healthy skin, immune function, and ________ absorption.",
+              "options": null,
+              "correct_answer": "iron",
+              "explanation": "Vitamin C aids in the absorption of iron, which is important for preventing anaemia and maintaining healthy blood.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are nutrients needed in small amounts, such as vitamins and minerals.",
+              "options": null,
+              "correct_answer": "Micronutrients",
+              "explanation": "Micronutrients include vitamins and minerals required by the body in small quantities for various essential functions.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Vitamin D is a ________-soluble vitamin that can be stored in the liver.",
+              "options": null,
+              "correct_answer": "fat",
+              "explanation": "Fat-soluble vitamins like vitamin D are stored in the liver, unlike water-soluble vitamins which are not stored.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A lack of iron in the diet can lead to a condition called ________.",
+              "options": null,
+              "correct_answer": "anaemia",
+              "explanation": "Anaemia is the deficiency disease caused by insufficient iron, which impairs the blood's ability to carry oxygen.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ and ________ are water-soluble vitamins that cannot be stored in the body.",
+              "options": null,
+              "correct_answer": "Vitamins B and C",
+              "explanation": "Vitamins B and C are water-soluble and must be regularly consumed as they are not stored and are easily lost in cooking.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is a UK government guide showing the proportions of different food groups for a healthy diet.",
+              "options": null,
+              "correct_answer": "Eatwell Guide",
+              "explanation": "The Eatwell Guide is a visual tool used in the UK to help people understand what a balanced diet should look like.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ (DRVs) are guidelines for the amounts of energy and nutrients needed by different groups.",
+              "options": null,
+              "correct_answer": "Dietary reference values",
+              "explanation": "DRVs provide specific recommendations for nutrient and energy intake tailored to different age groups and sexes.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a mineral found in leafy greens, dairy products, and fortified plant milks.",
+              "options": null,
+              "correct_answer": "Calcium",
+              "explanation": "Calcium is essential for strong bones, teeth, and muscle function, and is found in various food sources.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ analysis involves calculating the nutrient content of a dish to evaluate if it meets recommended intakes.",
+              "options": null,
+              "correct_answer": "Nutritional",
+              "explanation": "Nutritional analysis is a method used to assess whether foods and meals provide adequate nutrients for health.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Red meat, spinach, and fortified cereals are all good sources of ________.",
+              "options": null,
+              "correct_answer": "iron",
+              "explanation": "Iron is found in these foods and is essential for making haemoglobin in red blood cells to prevent anaemia.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Micronutrients",
+                  "match": "Nutrients needed in small amounts — vitamins and minerals"
+                },
+                {
+                  "term": "Fat-soluble vitamins",
+                  "match": "Vitamins A, D, E, and K that are stored in the liver and can accumulate to toxic levels"
+                },
+                {
+                  "term": "Calcium",
+                  "match": "A mineral needed for strong bones, teeth, and muscle function"
+                },
+                {
+                  "term": "Vitamin C",
+                  "match": "A water-soluble vitamin needed for healthy skin, immune function, and iron absorption"
+                },
+                {
+                  "term": "Dietary reference values",
+                  "match": "UK government guidelines for the amounts of energy and nutrients needed by different groups"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Food Science & Cooking",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Food Science & Safety",
+          "cards": [
+            {
+              "keyword": "denaturation",
+              "definition": "the irreversible change to the structure of a protein when heated — e.g. egg white solidifying when cooked",
+              "display_order": 1
+            },
+            {
+              "keyword": "coagulation",
+              "definition": "the setting of protein when heated — e.g. eggs setting, meat firming up when cooked",
+              "display_order": 2
+            },
+            {
+              "keyword": "gelatinisation",
+              "definition": "starch grains absorb water and swell when heated, thickening the mixture — e.g. in sauces and custards",
+              "display_order": 3
+            },
+            {
+              "keyword": "emulsification",
+              "definition": "the combining of two liquids that normally separate — an emulsifier holds oil and water together (e.g. lecithin in egg yolk for mayonnaise)",
+              "display_order": 4
+            },
+            {
+              "keyword": "caramelisation",
+              "definition": "the browning of sugar when heated to high temperatures — creates complex flavours",
+              "display_order": 5
+            },
+            {
+              "keyword": "Maillard reaction",
+              "definition": "a browning reaction between amino acids and sugars when heated — creates flavour and colour in bread crusts, roast meat, and toast",
+              "display_order": 6
+            },
+            {
+              "keyword": "food poisoning",
+              "definition": "illness caused by eating food contaminated with harmful bacteria — e.g. Salmonella, E. coli, Campylobacter",
+              "display_order": 7
+            },
+            {
+              "keyword": "danger zone",
+              "definition": "the temperature range 8°C–63°C in which bacteria multiply most rapidly — food should not be kept in this range",
+              "display_order": 8
+            },
+            {
+              "keyword": "cross-contamination",
+              "definition": "the transfer of bacteria from one food to another — e.g. using the same chopping board for raw meat and salad",
+              "display_order": 9
+            },
+            {
+              "keyword": "HACCP (Hazard Analysis Critical Control Points)",
+              "definition": "a food safety management system identifying and controlling risks at critical points in food production",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What happens to egg white when you cook an egg?",
+              "options": [
+                "It becomes liquid",
+                "It denatures and becomes solid",
+                "It changes colour but stays soft",
+                "It melts into oil"
+              ],
+              "correct_answer": "It denatures and becomes solid",
+              "explanation": "Denaturation is the irreversible change to protein structure when heated. Egg white contains protein that denatures during cooking, causing it to set and become solid.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which process describes what happens when meat firms up during cooking?",
+              "options": [
+                "Gelatinisation",
+                "Emulsification",
+                "Coagulation",
+                "Caramelisation"
+              ],
+              "correct_answer": "Coagulation",
+              "explanation": "Coagulation is the setting of protein when heated. When meat is cooked, its proteins coagulate and the meat becomes firmer.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main purpose of gelatinisation in cooking?",
+              "options": [
+                "To brown the surface of food",
+                "To thicken sauces and custards",
+                "To combine oil and water",
+                "To create complex flavours in sugar"
+              ],
+              "correct_answer": "To thicken sauces and custards",
+              "explanation": "Gelatinisation occurs when starch grains absorb water and swell when heated, which thickens the mixture. This is commonly used in sauces and custards.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which ingredient acts as an emulsifier in mayonnaise?",
+              "options": [
+                "Salt",
+                "Vinegar",
+                "Egg yolk",
+                "Mustard powder"
+              ],
+              "correct_answer": "Egg yolk",
+              "explanation": "Egg yolk contains lecithin, which is an emulsifier. It allows oil and water to combine in mayonnaise, which normally would separate.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which cooking process creates a brown colour on sugar at high temperatures?",
+              "options": [
+                "Gelatinisation",
+                "Maillard reaction",
+                "Caramelisation",
+                "Coagulation"
+              ],
+              "correct_answer": "Caramelisation",
+              "explanation": "Caramelisation is the browning of sugar when heated to high temperatures. This process creates complex flavours and a golden-brown colour.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What causes the brown colour on the crust of bread?",
+              "options": [
+                "Caramelisation of water",
+                "Gelatinisation of flour",
+                "Maillard reaction between amino acids and sugars",
+                "Coagulation of gluten"
+              ],
+              "correct_answer": "Maillard reaction between amino acids and sugars",
+              "explanation": "The Maillard reaction is a browning reaction between amino acids and sugars when heated. This creates the flavour and colour in bread crusts, roast meat, and toast.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an example of food poisoning bacteria?",
+              "options": [
+                "Lactobacillus",
+                "Salmonella",
+                "Saccharomyces",
+                "Penicillium"
+              ],
+              "correct_answer": "Salmonella",
+              "explanation": "Salmonella is a harmful bacterium that causes food poisoning. Other examples include E. coli and Campylobacter, which contaminate food and make people ill.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "At what temperature range do bacteria multiply most rapidly?",
+              "options": [
+                "0°C–8°C",
+                "8°C–63°C",
+                "63°C–75°C",
+                "Above 75°C"
+              ],
+              "correct_answer": "8°C–63°C",
+              "explanation": "The danger zone is the temperature range 8°C–63°C where bacteria multiply most rapidly. Food should not be kept in this range to prevent food poisoning.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is cross-contamination in food preparation?",
+              "options": [
+                "Cooking meat and vegetables together",
+                "Using too much salt in food",
+                "The transfer of bacteria from one food to another",
+                "Mixing different types of cuisine"
+              ],
+              "correct_answer": "The transfer of bacteria from one food to another",
+              "explanation": "Cross-contamination is the transfer of bacteria from one food to another, such as using the same chopping board for raw meat and salad without cleaning it first.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does HACCP stand for?",
+              "options": [
+                "Health And Cooking Control Plan",
+                "Hazard Analysis Critical Control Points",
+                "Hygiene And Contamination Control Procedure",
+                "Handling And Cooking Critical Points"
+              ],
+              "correct_answer": "Hazard Analysis Critical Control Points",
+              "explanation": "HACCP is a food safety management system that identifies and controls risks at critical points in food production. It helps prevent food poisoning and contamination.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Denaturation of protein is reversible when the food cools down.",
+              "correct_answer": "False",
+              "explanation": "Denaturation is an irreversible change to protein structure. Once an egg white is cooked and solidified, it cannot return to its original liquid state.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Starch grains swell and absorb water during gelatinisation.",
+              "correct_answer": "True",
+              "explanation": "During gelatinisation, starch grains absorb water and swell when heated, which thickens the mixture. This is a key process in making sauces and custards.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "An emulsifier can help oil and water mix together permanently.",
+              "correct_answer": "True",
+              "explanation": "An emulsifier like lecithin in egg yolk allows oil and water to combine and stay mixed together, which is essential for making mayonnaise and other emulsified sauces.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Caramelisation and the Maillard reaction are the same cooking process.",
+              "correct_answer": "False",
+              "explanation": "These are different processes. Caramelisation is the browning of sugar alone, while the Maillard reaction is a browning reaction between amino acids and sugars.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "E. coli is a bacterium that can cause food poisoning.",
+              "correct_answer": "True",
+              "explanation": "E. coli is a harmful bacterium that causes food poisoning. It can contaminate food through poor hygiene practices and cross-contamination.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Food kept at 5°C is in the danger zone for bacterial growth.",
+              "correct_answer": "False",
+              "explanation": "The danger zone is 8°C–63°C. At 5°C, food is below this range and bacteria multiply more slowly, making it safer for storage in a fridge.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Using the same chopping board for raw chicken and vegetables can cause cross-contamination.",
+              "correct_answer": "True",
+              "explanation": "Cross-contamination occurs when bacteria from raw meat transfer to other foods. Using separate chopping boards or thoroughly cleaning between uses prevents this.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "HACCP is only used in restaurants and not in home kitchens.",
+              "correct_answer": "False",
+              "explanation": "While HACCP is formally used in commercial food production, its principles of identifying and controlling food safety risks can and should be applied in home kitchens too.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Cooking meat to a high temperature is a critical control point in HACCP.",
+              "correct_answer": "True",
+              "explanation": "Cooking meat to the correct temperature is a critical control point because it kills harmful bacteria and prevents food poisoning.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The Maillard reaction only occurs on the surface of roasted meat.",
+              "correct_answer": "False",
+              "explanation": "While the Maillard reaction is most visible on the surface of roasted meat where browning occurs, it can happen throughout the food during cooking at high temperatures.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "When egg white is cooked, the protein undergoes ________ and becomes solid.",
+              "options": null,
+              "correct_answer": "denaturation",
+              "explanation": "Denaturation is the irreversible change to protein structure when heated, causing the egg white to set and solidify.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The process where starch grains swell and thicken a sauce is called ________.",
+              "options": null,
+              "correct_answer": "gelatinisation",
+              "explanation": "Gelatinisation is when starch grains absorb water and swell when heated, thickening mixtures like sauces and custards.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ is a substance that helps combine oil and water, such as lecithin in egg yolk.",
+              "options": null,
+              "correct_answer": "emulsifier",
+              "explanation": "An emulsifier holds oil and water together, allowing them to mix and stay combined, which is essential for making mayonnaise.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The browning reaction between amino acids and sugars during cooking is called the ________ reaction.",
+              "options": null,
+              "correct_answer": "Maillard",
+              "explanation": "The Maillard reaction is a browning reaction between amino acids and sugars that creates flavour and colour in bread crusts, roast meat, and toast.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Illness caused by eating food contaminated with harmful bacteria like Salmonella is called ________.",
+              "options": null,
+              "correct_answer": "food poisoning",
+              "explanation": "Food poisoning is an illness caused by eating food contaminated with harmful bacteria such as Salmonella, E. coli, or Campylobacter.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The temperature range 8°C–63°C is known as the ________ because bacteria multiply most rapidly in this range.",
+              "options": null,
+              "correct_answer": "danger zone",
+              "explanation": "The danger zone is the temperature range where bacteria multiply most rapidly, so food should not be kept in this range to prevent food poisoning.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Using the same unwashed chopping board for raw meat and salad can cause ________ of harmful bacteria.",
+              "options": null,
+              "correct_answer": "cross-contamination",
+              "explanation": "Cross-contamination is the transfer of bacteria from one food to another, which can be prevented by using separate chopping boards or cleaning thoroughly.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a food safety system that identifies and controls risks at critical points in food production.",
+              "options": null,
+              "correct_answer": "HACCP",
+              "explanation": "HACCP (Hazard Analysis Critical Control Points) is a management system used to prevent food poisoning by controlling risks throughout food production.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The browning of sugar at high temperatures, which creates complex flavours, is called ________.",
+              "options": null,
+              "correct_answer": "caramelisation",
+              "explanation": "Caramelisation is the browning of sugar when heated to high temperatures, creating complex flavours and a golden-brown colour.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The setting of protein when heated, such as eggs setting or meat firming up, is called ________.",
+              "options": null,
+              "correct_answer": "coagulation",
+              "explanation": "Coagulation is the setting of protein when heated, which causes changes in texture such as eggs setting or meat becoming firmer during cooking.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Denaturation",
+                  "match": "The irreversible change to protein structure when heated"
+                },
+                {
+                  "term": "Emulsification",
+                  "match": "The combining of two liquids that normally separate using an emulsifier"
+                },
+                {
+                  "term": "Danger zone",
+                  "match": "The temperature range 8°C–63°C where bacteria multiply most rapidly"
+                },
+                {
+                  "term": "Maillard reaction",
+                  "match": "A browning reaction between amino acids and sugars that creates flavour and colour"
+                },
+                {
+                  "term": "HACCP",
+                  "match": "A food safety management system for identifying and controlling risks"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

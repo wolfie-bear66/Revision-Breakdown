@@ -1,0 +1,1125 @@
+{
+  "subject": {
+    "name": "Drama",
+    "exam_board": "AQA",
+    "category": "Arts & Creative",
+    "colour": "#7c3aed",
+    "emoji": "🎭",
+    "slug": "drama-aqa"
+  },
+  "topics": [
+    {
+      "name": "Theatre Practitioners & Styles",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Key Theatre Practitioners",
+          "cards": [
+            {
+              "keyword": "Konstantin Stanislavski",
+              "definition": "Russian director who developed naturalistic acting — techniques include the 'magic if', emotional memory, and given circumstances",
+              "display_order": 1
+            },
+            {
+              "keyword": "Bertolt Brecht",
+              "definition": "German playwright and director who developed Epic Theatre — used alienation techniques to make audiences think critically",
+              "display_order": 2
+            },
+            {
+              "keyword": "Verfremdungseffekt (V-effect)",
+              "definition": "Brecht's alienation effect — techniques that remind audiences they are watching a play, preventing emotional absorption",
+              "display_order": 3
+            },
+            {
+              "keyword": "Epic Theatre",
+              "definition": "Brecht's style of theatre that uses narration, direct address, placards, and non-realistic techniques to provoke political thought",
+              "display_order": 4
+            },
+            {
+              "keyword": "naturalism",
+              "definition": "a style of theatre that recreates real life as accurately as possible — Stanislavski is its key practitioner",
+              "display_order": 5
+            },
+            {
+              "keyword": "physical theatre",
+              "definition": "a style emphasising the body as the primary means of expression — e.g. DV8 Physical Theatre, Frantic Assembly",
+              "display_order": 6
+            },
+            {
+              "keyword": "Frantic Assembly",
+              "definition": "a UK physical theatre company using ensemble physical work, set design, and a collaborative devising process",
+              "display_order": 7
+            },
+            {
+              "keyword": "Antonin Artaud",
+              "definition": "French theorist who developed the Theatre of Cruelty — aimed to assault the senses and create visceral, disturbing theatre",
+              "display_order": 8
+            },
+            {
+              "keyword": "Theatre of Cruelty",
+              "definition": "Artaud's theory that theatre should overwhelm the senses and break down barriers between performers and audience",
+              "display_order": 9
+            },
+            {
+              "keyword": "devised theatre",
+              "definition": "original theatre created collaboratively by a group, without a pre-existing script",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which Russian director developed the technique of 'emotional memory' in acting?",
+              "options": [
+                "Bertolt Brecht",
+                "Konstantin Stanislavski",
+                "Antonin Artaud",
+                "Peter Brook"
+              ],
+              "correct_answer": "Konstantin Stanislavski",
+              "explanation": "Stanislavski was a Russian director who created naturalistic acting techniques including emotional memory, where actors recall their own emotions to inform their performance.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Verfremdungseffekt also known as?",
+              "options": [
+                "The magic if",
+                "The alienation effect",
+                "Emotional memory",
+                "Physical expression"
+              ],
+              "correct_answer": "The alienation effect",
+              "explanation": "Verfremdungseffekt is a German term developed by Brecht that means alienation effect — it's a technique to distance audiences from the action so they think critically.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which theatre company is known for physical theatre work in the UK?",
+              "options": [
+                "The Royal Shakespeare Company",
+                "Frantic Assembly",
+                "The National Theatre",
+                "The Globe Theatre"
+              ],
+              "correct_answer": "Frantic Assembly",
+              "explanation": "Frantic Assembly is a UK-based physical theatre company that uses ensemble work, set design, and collaborative devising processes to create their performances.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What style of theatre did Antonin Artaud develop?",
+              "options": [
+                "Epic Theatre",
+                "Naturalism",
+                "Theatre of Cruelty",
+                "Comedy of Manners"
+              ],
+              "correct_answer": "Theatre of Cruelty",
+              "explanation": "Antonin Artaud was a French theorist who developed Theatre of Cruelty, which aimed to assault the senses and overwhelm audiences with a visceral experience.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which technique did Brecht use to remind audiences they were watching a play?",
+              "options": [
+                "Emotional memory",
+                "Alienation techniques",
+                "The magic if",
+                "Given circumstances"
+              ],
+              "correct_answer": "Alienation techniques",
+              "explanation": "Brecht used the Verfremdungseffekt (alienation effect) with techniques like placards and direct address to prevent audiences from being emotionally absorbed in the action.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is devised theatre?",
+              "options": [
+                "Theatre performed by professional actors only",
+                "Theatre based on a published script written by a famous playwright",
+                "Original theatre created collaboratively by a group without a pre-existing script",
+                "Theatre performed in a traditional proscenium arch stage"
+              ],
+              "correct_answer": "Original theatre created collaboratively by a group without a pre-existing script",
+              "explanation": "Devised theatre is created through collaboration and improvisation by a group of performers, rather than being based on an existing written script.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is NOT a technique used by Stanislavski?",
+              "options": [
+                "The magic if",
+                "Given circumstances",
+                "Direct address to the audience",
+                "Emotional memory"
+              ],
+              "correct_answer": "Direct address to the audience",
+              "explanation": "Direct address to the audience is a Brechtian technique used in Epic Theatre, not a Stanislavski technique. Stanislavski focused on realistic, naturalistic acting.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main goal of Epic Theatre?",
+              "options": [
+                "To entertain audiences with spectacular special effects",
+                "To provoke political thought and critical thinking",
+                "To recreate real life as accurately as possible",
+                "To overwhelm the senses with violence and shock"
+              ],
+              "correct_answer": "To provoke political thought and critical thinking",
+              "explanation": "Epic Theatre, developed by Brecht, uses non-realistic techniques and alienation effects to make audiences think critically about political and social issues rather than just be entertained.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Physical theatre is a style that emphasises:",
+              "options": [
+                "Dialogue and realistic conversation",
+                "The body as the primary means of expression",
+                "Traditional script-based performance",
+                "Emotional realism and naturalism"
+              ],
+              "correct_answer": "The body as the primary means of expression",
+              "explanation": "Physical theatre prioritises movement, gesture, and the body to communicate meaning to the audience, rather than relying heavily on spoken dialogue.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Naturalism as a theatre style aims to:",
+              "options": [
+                "Use alienation techniques and break the fourth wall",
+                "Assault the senses and create disturbing experiences",
+                "Recreate real life as accurately as possible",
+                "Emphasise physical movement over dialogue"
+              ],
+              "correct_answer": "Recreate real life as accurately as possible",
+              "explanation": "Naturalism is a theatre style that tries to represent real life on stage as faithfully as possible, and Stanislavski is its key practitioner.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Bertolt Brecht wanted audiences to become emotionally absorbed in his plays.",
+              "correct_answer": "False",
+              "explanation": "Brecht actually used alienation techniques to prevent emotional absorption, so audiences would think critically about the political message rather than just feel emotions.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The 'magic if' is a technique used by Stanislavski in naturalistic acting.",
+              "correct_answer": "True",
+              "explanation": "The 'magic if' is one of Stanislavski's key techniques where actors ask 'what if I were in this character's situation?' to inform their realistic performance.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Antonin Artaud wanted theatre to be gentle and calming for audiences.",
+              "correct_answer": "False",
+              "explanation": "Artaud's Theatre of Cruelty was designed to assault the senses and create visceral, disturbing experiences that would overwhelm and affect audiences intensely.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Epic Theatre uses placards and narration as alienation techniques.",
+              "correct_answer": "True",
+              "explanation": "Brecht's Epic Theatre uses various techniques like placards (signs with text), narration, and direct address to remind audiences they are watching a play.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Frantic Assembly is a devised theatre company.",
+              "correct_answer": "True",
+              "explanation": "Frantic Assembly uses a collaborative devising process to create their physical theatre work, rather than working from a pre-written script.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Stanislavski was a German theatre practitioner.",
+              "correct_answer": "False",
+              "explanation": "Stanislavski was Russian, not German. He developed naturalistic acting techniques that became fundamental to modern theatre practice.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Theatre of Cruelty aims to break down barriers between performers and audience.",
+              "correct_answer": "True",
+              "explanation": "Artaud's Theatre of Cruelty was designed to create an immersive experience where the boundaries between performers and audience were removed.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "DV8 Physical Theatre is an example of a physical theatre company.",
+              "correct_answer": "True",
+              "explanation": "DV8 Physical Theatre is mentioned in the flashcard as an example of a company that uses physical theatre as their primary means of storytelling.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Naturalism uses heightened, exaggerated acting styles.",
+              "correct_answer": "False",
+              "explanation": "Naturalism aims to recreate real life as accurately as possible, so it uses realistic, understated acting rather than heightened or exaggerated performances.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Brecht wanted audiences to think critically about the meaning of a play.",
+              "correct_answer": "True",
+              "explanation": "Brecht developed Epic Theatre and alienation techniques specifically to prevent emotional absorption and encourage audiences to think critically about political and social themes.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Konstantin Stanislavski developed a naturalistic style of acting that includes the technique of ________, where actors recall their own emotions to inform their performance.",
+              "options": null,
+              "correct_answer": "emotional memory",
+              "explanation": "Emotional memory is one of Stanislavski's key techniques where actors draw on their own past emotions to create authentic, naturalistic performances.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Bertolt Brecht's style of theatre is called ________ Theatre and uses techniques to prevent audiences from becoming emotionally absorbed.",
+              "options": null,
+              "correct_answer": "Epic",
+              "explanation": "Epic Theatre is Brecht's theatrical style that uses non-realistic techniques and alienation effects to make audiences think critically rather than just feel.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ effect is Brecht's alienation technique that reminds audiences they are watching a play rather than real life.",
+              "options": null,
+              "correct_answer": "Verfremdungseffekt",
+              "explanation": "Verfremdungseffekt (also called the alienation effect) is a German term for Brecht's technique of distancing the audience from emotional involvement in the play.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a theatre style that emphasises the body as the primary means of expression rather than dialogue.",
+              "options": null,
+              "correct_answer": "Physical theatre",
+              "explanation": "Physical theatre prioritises movement, gesture, and bodily expression as the main way to communicate with audiences, used by companies like Frantic Assembly.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Antonin Artaud developed ________ of Cruelty, a theory that theatre should overwhelm the senses and create visceral experiences.",
+              "options": null,
+              "correct_answer": "Theatre",
+              "explanation": "Theatre of Cruelty is Artaud's theory that theatre should assault and overwhelm the senses to create a powerful, disturbing impact on audiences.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ theatre is original theatre created collaboratively by a group of performers without using a pre-written script.",
+              "options": null,
+              "correct_answer": "Devised",
+              "explanation": "Devised theatre is created through collaboration and improvisation by performers, with companies like Frantic Assembly using this method in their creative process.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Stanislavski's technique called the 'magic ________' asks actors to imagine themselves in their character's situation.",
+              "options": null,
+              "correct_answer": "if",
+              "explanation": "The 'magic if' is a Stanislavski technique where actors ask themselves 'what if I were in this character's circumstances?' to create realistic performances.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________Theatre Company is a UK-based physical theatre group known for ensemble physical work and collaborative devising.",
+              "options": null,
+              "correct_answer": "Frantic Assembly",
+              "explanation": "Frantic Assembly is a contemporary UK physical theatre company that creates work through ensemble collaboration and innovative movement techniques.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a style of theatre that recreates real life on stage as accurately as possible, pioneered by Stanislavski.",
+              "options": null,
+              "correct_answer": "Naturalism",
+              "explanation": "Naturalism is a theatre style focused on realistic representation of life, using authentic dialogue, settings, and behaviour, developed by Stanislavski.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "In Stanislavski's acting method, ________ circumstances are the facts about a character's situation that inform their performance.",
+              "options": null,
+              "correct_answer": "given",
+              "explanation": "Given circumstances are the background facts and situation of a character in a play that actors use to understand and inform their realistic performances.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Verfremdungseffekt",
+                  "match": "Brecht's alienation effect that reminds audiences they are watching a play"
+                },
+                {
+                  "term": "Theatre of Cruelty",
+                  "match": "Artaud's theory that theatre should overwhelm the senses and break down barriers between performers and audience"
+                },
+                {
+                  "term": "Emotional memory",
+                  "match": "Stanislavski's technique where actors recall their own emotions to inform their performance"
+                },
+                {
+                  "term": "Physical theatre",
+                  "match": "A style emphasising the body as the primary means of expression used by companies like Frantic Assembly"
+                },
+                {
+                  "term": "Naturalism",
+                  "match": "A theatre style that recreates real life as accurately as possible, pioneered by Stanislavski"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Performance Skills & Terminology",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Acting & Physical Skills",
+          "cards": [
+            {
+              "keyword": "vocal skills",
+              "definition": "how an actor uses their voice — including pitch, pace, pause, volume, tone, and accent",
+              "display_order": 1
+            },
+            {
+              "keyword": "physical skills",
+              "definition": "how an actor uses their body — including gesture, posture, movement, facial expression, and eye contact",
+              "display_order": 2
+            },
+            {
+              "keyword": "characterisation",
+              "definition": "how an actor creates and communicates a believable character to an audience",
+              "display_order": 3
+            },
+            {
+              "keyword": "motivation",
+              "definition": "the reason a character says or does something — understanding motivation helps actors create believable performances",
+              "display_order": 4
+            },
+            {
+              "keyword": "status",
+              "definition": "the relative power or authority a character has — can be shown through body language, position, and voice",
+              "display_order": 5
+            },
+            {
+              "keyword": "subtext",
+              "definition": "the underlying meaning beneath the spoken words — what a character truly thinks or feels but doesn't say directly",
+              "display_order": 6
+            },
+            {
+              "keyword": "proxemics",
+              "definition": "the use of space and distance between performers to communicate relationships and meaning",
+              "display_order": 7
+            },
+            {
+              "keyword": "levels",
+              "definition": "the height at which performers stand or sit — used to show status and create visual interest",
+              "display_order": 8
+            },
+            {
+              "keyword": "freeze frame / tableau",
+              "definition": "a still image created by performers, frozen in position — used to highlight a key moment",
+              "display_order": 9
+            },
+            {
+              "keyword": "split scene",
+              "definition": "a staging technique showing two or more locations or time periods simultaneously",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is NOT an example of vocal skills?",
+              "options": [
+                "Pitch",
+                "Gesture",
+                "Pace",
+                "Tone"
+              ],
+              "correct_answer": "Gesture",
+              "explanation": "Gesture is a physical skill that uses the body, not the voice. Vocal skills are about how an actor uses their voice, including pitch, pace, tone, and volume.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'proxemics' refer to in drama?",
+              "options": [
+                "The actor's emotional state",
+                "The use of space and distance between performers",
+                "How loud an actor speaks",
+                "The facial expressions of a character"
+              ],
+              "correct_answer": "The use of space and distance between performers",
+              "explanation": "Proxemics is the deliberate use of space between performers on stage to show relationships and communicate meaning to the audience.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which skill involves how an actor uses their body on stage?",
+              "options": [
+                "Vocal skills",
+                "Subtext",
+                "Physical skills",
+                "Motivation"
+              ],
+              "correct_answer": "Physical skills",
+              "explanation": "Physical skills include gesture, posture, movement, facial expression, and eye contact — all ways an actor uses their body to create a character.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'status' show on stage?",
+              "options": [
+                "The character's age and background",
+                "The relative power or authority a character has",
+                "Whether the character is happy or sad",
+                "How fast the actor moves across the stage"
+              ],
+              "correct_answer": "The relative power or authority a character has",
+              "explanation": "Status is communicated through body language, position on stage, and voice. A high-status character might stand tall and speak loudly, while a low-status character might slouch and speak quietly.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which technique creates a still image frozen in position on stage?",
+              "options": [
+                "Split scene",
+                "Proxemics",
+                "Freeze frame",
+                "Status"
+              ],
+              "correct_answer": "Freeze frame",
+              "explanation": "A freeze frame (or tableau) is when all performers stop moving and hold a still position to highlight a key moment or emotion in the scene.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'characterisation' in drama?",
+              "options": [
+                "The costume and props used on stage",
+                "How an actor creates and communicates a believable character to an audience",
+                "The words written by the playwright",
+                "The lighting design of a production"
+              ],
+              "correct_answer": "How an actor creates and communicates a believable character to an audience",
+              "explanation": "Characterisation involves using vocal skills, physical skills, motivation, and other techniques to make a character believable and understandable to the audience.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'subtext' in a dramatic performance?",
+              "options": [
+                "The main plot of the play",
+                "The underlying meaning beneath the spoken words — what a character truly thinks or feels but doesn't say",
+                "The background information about the character",
+                "The stage directions written by the playwright"
+              ],
+              "correct_answer": "The underlying meaning beneath the spoken words — what a character truly thinks or feels but doesn't say",
+              "explanation": "Subtext is what a character is really thinking or feeling but not directly saying. An actor shows subtext through tone, facial expression, and body language.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of using 'levels' effectively on stage?",
+              "options": [
+                "An actor speaks in a quiet voice",
+                "A powerful king sits on a throne while servants stand below him",
+                "Two actors stand close together on stage",
+                "An actor moves quickly across the stage"
+              ],
+              "correct_answer": "A powerful king sits on a throne while servants stand below him",
+              "explanation": "Levels use height and positioning to show status and create visual interest. A character positioned higher on stage often appears more powerful or important.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'motivation' help an actor understand?",
+              "options": [
+                "How to memorise their lines",
+                "The reason a character says or does something",
+                "Where to stand on the stage",
+                "How to use the costume"
+              ],
+              "correct_answer": "The reason a character says or does something",
+              "explanation": "Understanding a character's motivation helps actors make believable choices and perform actions that make sense for the character in that moment.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which staging technique shows two or more locations at the same time?",
+              "options": [
+                "Tableau",
+                "Split scene",
+                "Proxemics",
+                "Levels"
+              ],
+              "correct_answer": "Split scene",
+              "explanation": "A split scene divides the stage to show different locations or time periods happening simultaneously, allowing the audience to see multiple stories at once.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Pause is an important part of vocal skills.",
+              "correct_answer": "True",
+              "explanation": "Pause is one of the key vocal techniques an actor can use to create emphasis, build tension, or show a character's emotions.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Posture is a type of vocal skill.",
+              "correct_answer": "False",
+              "explanation": "Posture is a physical skill because it involves how an actor uses their body. Vocal skills are about the voice, including pitch, pace, and tone.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "An actor can show status through their voice and body language.",
+              "correct_answer": "True",
+              "explanation": "Status is communicated in multiple ways — a high-status character might speak loudly and stand tall, while a low-status character might speak quietly and slouch.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Eye contact is not important in physical skills.",
+              "correct_answer": "False",
+              "explanation": "Eye contact is an essential physical skill that helps actors communicate with the audience and show relationships between characters.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Subtext is always obvious and clearly stated by the character.",
+              "correct_answer": "False",
+              "explanation": "Subtext is what a character thinks or feels but doesn't say directly. It must be shown through acting choices like tone, facial expression, and body language.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Freeze frames can be used to highlight important moments in a scene.",
+              "correct_answer": "True",
+              "explanation": "Freeze frames create a striking still image that draws the audience's attention to a key emotional or plot moment.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Proxemics means how an actor changes their accent.",
+              "correct_answer": "False",
+              "explanation": "Proxemics refers to the use of space and distance between performers. Accent is part of vocal skills.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "A character standing on a higher level is usually portrayed as more powerful.",
+              "correct_answer": "True",
+              "explanation": "Using levels is a way to show status — characters positioned higher on stage often appear to have more authority or importance.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Volume is an example of a physical skill.",
+              "correct_answer": "False",
+              "explanation": "Volume is part of vocal skills because it involves how an actor uses their voice. Physical skills involve using the body.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "A split scene can show different time periods at the same time on stage.",
+              "correct_answer": "True",
+              "explanation": "Split scenes allow multiple locations or time periods to be shown simultaneously, helping the audience understand different storylines at once.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is how an actor uses their voice, including pitch, pace, pause, volume, tone, and accent.",
+              "options": null,
+              "correct_answer": "Vocal skills",
+              "explanation": "This is the definition of vocal skills — all the techniques an actor uses to control and shape their voice for performance.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "An actor uses ________ to show relationships between characters and communicate meaning through space and distance.",
+              "options": null,
+              "correct_answer": "proxemics",
+              "explanation": "Proxemics is the deliberate use of space between performers to communicate relationships and create meaning for the audience.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the underlying meaning beneath the spoken words — what a character truly thinks or feels but doesn't say directly.",
+              "options": null,
+              "correct_answer": "Subtext",
+              "explanation": "Subtext is shown through an actor's tone, facial expression, and body language rather than directly stated in dialogue.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "An actor's ________ includes gesture, posture, movement, facial expression, and eye contact.",
+              "options": null,
+              "correct_answer": "physical skills",
+              "explanation": "Physical skills refer to all the ways an actor uses their body to communicate character and emotion to the audience.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of a character is the reason they say or do something in a scene.",
+              "options": null,
+              "correct_answer": "motivation",
+              "explanation": "Understanding a character's motivation helps actors make choices that are believable and true to the character.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is created when performers freeze in position to highlight a key moment in the drama.",
+              "options": null,
+              "correct_answer": "freeze frame",
+              "explanation": "Also called a tableau, a freeze frame is a powerful technique that draws attention to an important emotional or plot moment.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "An actor can show their character's ________ through body language, position on stage, and the way they speak.",
+              "options": null,
+              "correct_answer": "status",
+              "explanation": "Status shows the power or authority a character has, and skilled actors use multiple techniques to communicate this to the audience.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Using ________ on stage means positioning characters at different heights to show status and create visual interest.",
+              "options": null,
+              "correct_answer": "levels",
+              "explanation": "Levels are an important staging tool — characters positioned higher often appear more powerful or important.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is how an actor creates and communicates a believable character to an audience.",
+              "options": null,
+              "correct_answer": "Characterisation",
+              "explanation": "Characterisation involves using all acting skills — vocal, physical, motivation, and other techniques — to create a convincing character.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a staging technique that shows two or more locations or time periods at the same time.",
+              "options": null,
+              "correct_answer": "split scene",
+              "explanation": "Split scenes allow the audience to see different storylines or settings simultaneously, which can be very effective for showing parallels or contrasts.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Vocal skills",
+                  "match": "How an actor uses their voice, including pitch, pace, pause, volume, tone, and accent"
+                },
+                {
+                  "term": "Physical skills",
+                  "match": "How an actor uses their body, including gesture, posture, movement, facial expression, and eye contact"
+                },
+                {
+                  "term": "Proxemics",
+                  "match": "The use of space and distance between performers to communicate relationships and meaning"
+                },
+                {
+                  "term": "Subtext",
+                  "match": "The underlying meaning beneath the spoken words — what a character truly thinks or feels but doesn't say directly"
+                },
+                {
+                  "term": "Levels",
+                  "match": "The height at which performers stand or sit, used to show status and create visual interest"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Design & Production Elements",
+          "cards": [
+            {
+              "keyword": "set design",
+              "definition": "the physical environment created on stage — can be realistic or abstract, simple or elaborate",
+              "display_order": 1
+            },
+            {
+              "keyword": "costume design",
+              "definition": "clothing and accessories worn by performers — communicates character, period, status, and personality",
+              "display_order": 2
+            },
+            {
+              "keyword": "lighting design",
+              "definition": "the use of stage lighting to create mood, atmosphere, focus, and time of day",
+              "display_order": 3
+            },
+            {
+              "keyword": "sound design",
+              "definition": "the use of sound effects and music in performance — creates atmosphere and supports the action",
+              "display_order": 4
+            },
+            {
+              "keyword": "proscenium arch",
+              "definition": "a traditional stage configuration with a picture-frame opening — audience sits on one side facing the stage",
+              "display_order": 5
+            },
+            {
+              "keyword": "thrust stage",
+              "definition": "a stage that extends into the audience area — audience sits on three sides",
+              "display_order": 6
+            },
+            {
+              "keyword": "theatre in the round",
+              "definition": "a stage configuration where the audience surrounds the performance area on all sides",
+              "display_order": 7
+            },
+            {
+              "keyword": "traverse stage",
+              "definition": "a stage configuration with the audience on two opposite sides, and the performance area running between them",
+              "display_order": 8
+            },
+            {
+              "keyword": "site-specific theatre",
+              "definition": "performance created for and performed in a non-theatrical real-world location",
+              "display_order": 9
+            },
+            {
+              "keyword": "fourth wall",
+              "definition": "the imaginary barrier between performers and audience — breaking the fourth wall means directly addressing the audience",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is set design?",
+              "options": [
+                "The physical environment created on stage that can be realistic or abstract",
+                "The clothing worn by performers to show their character",
+                "The arrangement of lighting to create mood and atmosphere",
+                "The music and sound effects used during a performance"
+              ],
+              "correct_answer": "The physical environment created on stage that can be realistic or abstract",
+              "explanation": "Set design refers to the physical environment or scenery created on stage. It can range from simple to elaborate and from realistic to abstract depending on the production needs.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which stage configuration has the audience sitting on three sides?",
+              "options": [
+                "Proscenium arch",
+                "Thrust stage",
+                "Theatre in the round",
+                "Traverse stage"
+              ],
+              "correct_answer": "Thrust stage",
+              "explanation": "A thrust stage extends into the audience area with the audience sitting on three sides, creating a more intimate performance space than a proscenium arch.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does costume design communicate about a character?",
+              "options": [
+                "Only the actor's real personality",
+                "Character, period, status, and personality",
+                "Just the colour preferences of the designer",
+                "The budget of the theatre company"
+              ],
+              "correct_answer": "Character, period, status, and personality",
+              "explanation": "Costume design is an important tool for communicating information about a character including their social status, the time period, and aspects of their personality to the audience.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In theatre in the round, where is the audience positioned?",
+              "options": [
+                "On one side of the stage only",
+                "On three sides of the stage",
+                "On two opposite sides of the stage",
+                "Surrounding the performance area on all sides"
+              ],
+              "correct_answer": "Surrounding the performance area on all sides",
+              "explanation": "Theatre in the round places the audience completely around the performance area, creating an intimate and immersive experience for viewers.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the primary purpose of lighting design in a performance?",
+              "options": [
+                "To make the stage brighter so the audience can see better",
+                "To create mood, atmosphere, focus, and show time of day",
+                "To hide the actors when they are not performing",
+                "To replace the need for costume design"
+              ],
+              "correct_answer": "To create mood, atmosphere, focus, and show time of day",
+              "explanation": "Lighting design is used strategically to create emotional atmosphere, direct audience focus to specific areas, and indicate the time of day within the performance.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which stage type has a picture-frame opening and is considered traditional?",
+              "options": [
+                "Thrust stage",
+                "Theatre in the round",
+                "Proscenium arch",
+                "Traverse stage"
+              ],
+              "correct_answer": "Proscenium arch",
+              "explanation": "The proscenium arch is a traditional stage configuration that frames the performance like a picture, with the audience sitting on one side facing the stage.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is sound design used for in theatre?",
+              "options": [
+                "To make actors speak louder",
+                "To replace the need for actors",
+                "To create atmosphere and support the action through sound effects and music",
+                "To tell the audience what to think about the performance"
+              ],
+              "correct_answer": "To create atmosphere and support the action through sound effects and music",
+              "explanation": "Sound design uses music and sound effects strategically to enhance the atmosphere of the performance and support the dramatic action on stage.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which stage configuration has the audience on two opposite sides?",
+              "options": [
+                "Proscenium arch",
+                "Traverse stage",
+                "Theatre in the round",
+                "Thrust stage"
+              ],
+              "correct_answer": "Traverse stage",
+              "explanation": "A traverse stage has the audience positioned on two opposite sides with the performance area running between them, creating a long, narrow performance space.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is site-specific theatre?",
+              "options": [
+                "Theatre performed only in purpose-built theatres",
+                "Performance created for and performed in a non-theatrical real-world location",
+                "Theatre that only uses electronic lighting",
+                "A type of performance that never involves the audience"
+              ],
+              "correct_answer": "Performance created for and performed in a non-theatrical real-world location",
+              "explanation": "Site-specific theatre is performed in real-world locations such as warehouses, parks, or streets rather than in a traditional theatre building.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does breaking the fourth wall mean?",
+              "options": [
+                "Damaging the back wall of the stage set",
+                "Directly addressing the audience and breaking the imaginary barrier between performers and audience",
+                "Removing the proscenium arch from the theatre",
+                "Turning off the stage lighting"
+              ],
+              "correct_answer": "Directly addressing the audience and breaking the imaginary barrier between performers and audience",
+              "explanation": "The fourth wall is an imaginary barrier between performers and audience. Breaking it means actors directly communicate with or acknowledge the audience, making them aware of the theatrical performance.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Set design can only be realistic and cannot be abstract.",
+              "correct_answer": "False",
+              "explanation": "Set design can be either realistic or abstract depending on the style and needs of the production. Many modern productions use abstract or minimalist set designs.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "A proscenium arch stage has the audience sitting on one side facing the stage.",
+              "correct_answer": "True",
+              "explanation": "The proscenium arch is a traditional stage configuration where the audience sits on one side and views the stage through a picture-frame opening.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Costume design only shows what an actor looks like in real life.",
+              "correct_answer": "False",
+              "explanation": "Costume design communicates character, period, status, and personality, which may be very different from the actor's real life appearance.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Theatre in the round means the audience surrounds the performance area on all sides.",
+              "correct_answer": "True",
+              "explanation": "In theatre in the round, the audience sits all around the performance space, creating a complete 360-degree viewing experience.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Sound design cannot use music, only sound effects.",
+              "correct_answer": "False",
+              "explanation": "Sound design includes both music and sound effects that work together to create atmosphere and support the action of the performance.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "A thrust stage has the audience sitting on only one side of the performance area.",
+              "correct_answer": "False",
+              "explanation": "A thrust stage has the audience sitting on three sides because the stage extends into the audience area.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Site-specific theatre is performed in traditional theatre buildings.",
+              "correct_answer": "False",
+              "explanation": "Site-specific theatre is performed in non-theatrical real-world locations such as warehouses, streets, or parks, not in purpose-built theatres.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Lighting design can be used to show what time of day it is in a performance.",
+              "correct_answer": "True",
+              "explanation": "Lighting design is used to create the mood and atmosphere of a scene, including indicating whether it is day, night, sunrise, or sunset.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The fourth wall is a physical wall that separates actors from the audience.",
+              "correct_answer": "False",
+              "explanation": "The fourth wall is an imaginary barrier, not a physical one. It represents the convention that actors perform as if the audience is not there.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "A traverse stage has the audience on two opposite sides.",
+              "correct_answer": "True",
+              "explanation": "In a traverse stage configuration, the audience sits on two opposite sides with the performance area running between them.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The use of stage lighting to create mood, atmosphere, focus, and show time of day is called ________.",
+              "options": null,
+              "correct_answer": "lighting design",
+              "explanation": "Lighting design is the term used for the strategic use of stage lights to enhance the performance and communicate information to the audience.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ stage is a traditional stage configuration with a picture-frame opening.",
+              "options": null,
+              "correct_answer": "proscenium arch",
+              "explanation": "The proscenium arch is the traditional theatre stage type that frames the performance like a picture for the audience.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The clothing and accessories worn by performers to communicate character, period, status, and personality is known as ________.",
+              "options": null,
+              "correct_answer": "costume design",
+              "explanation": "Costume design is an important design element that communicates information about the characters to the audience through what they wear.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "In ________, the audience surrounds the performance area on all sides.",
+              "options": null,
+              "correct_answer": "theatre in the round",
+              "explanation": "Theatre in the round is a stage configuration that places the audience completely around the performance space for a fully immersive experience.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The physical environment created on stage that can be realistic or abstract is called ________.",
+              "options": null,
+              "correct_answer": "set design",
+              "explanation": "Set design refers to the scenery and physical environment created on stage to establish the location and mood of the performance.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ stage extends into the audience area with the audience sitting on three sides.",
+              "options": null,
+              "correct_answer": "thrust",
+              "explanation": "A thrust stage projects into the audience area, creating a more intimate performance space where audiences view from three sides.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The use of sound effects and music in performance to create atmosphere is called ________.",
+              "options": null,
+              "correct_answer": "sound design",
+              "explanation": "Sound design is the strategic use of audio elements including music and sound effects to enhance the theatrical performance.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ stage has the audience sitting on two opposite sides with the performance area running between them.",
+              "options": null,
+              "correct_answer": "traverse",
+              "explanation": "A traverse stage creates a long, narrow performance space with audiences on opposite ends facing each other.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ theatre is performance created for and performed in a non-theatrical real-world location.",
+              "options": null,
+              "correct_answer": "Site-specific",
+              "explanation": "Site-specific theatre takes place in real-world locations outside of traditional theatre buildings, using the space as part of the performance.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The imaginary barrier between performers and audience is called the ________.",
+              "options": null,
+              "correct_answer": "fourth wall",
+              "explanation": "The fourth wall is a theatrical convention representing the invisible boundary between the performance and the audience.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Set Design",
+                  "match": "The physical environment created on stage — can be realistic or abstract"
+                },
+                {
+                  "term": "Lighting Design",
+                  "match": "The use of stage lighting to create mood, atmosphere, focus, and time of day"
+                },
+                {
+                  "term": "Theatre in the Round",
+                  "match": "A stage configuration where the audience surrounds the performance area on all sides"
+                },
+                {
+                  "term": "Sound Design",
+                  "match": "The use of sound effects and music in performance — creates atmosphere and supports the action"
+                },
+                {
+                  "term": "Fourth Wall",
+                  "match": "The imaginary barrier between performers and audience"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1881 @@
+{
+  "subject": {
+    "name": "Business Studies",
+    "exam_board": "AQA",
+    "category": "Business & Technology",
+    "colour": "#b45309",
+    "emoji": "💼",
+    "slug": "business-studies-aqa"
+  },
+  "topics": [
+    {
+      "name": "Business in the Real World",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Starting a Business",
+          "cards": [
+            {
+              "keyword": "entrepreneur",
+              "definition": "a person who sets up and runs a business, taking on financial risk in the hope of making a profit",
+              "display_order": 1
+            },
+            {
+              "keyword": "enterprise",
+              "definition": "the skills and willingness to set up and run a business, or the business itself",
+              "display_order": 2
+            },
+            {
+              "keyword": "business plan",
+              "definition": "a written document outlining a business's goals, strategies, and financial forecasts",
+              "display_order": 3
+            },
+            {
+              "keyword": "sole trader",
+              "definition": "a business owned and run by one person who has unlimited liability for its debts",
+              "display_order": 4
+            },
+            {
+              "keyword": "partnership",
+              "definition": "a business owned by two or more people who share profits and liability",
+              "display_order": 5
+            },
+            {
+              "keyword": "limited company (Ltd)",
+              "definition": "a business where owners have limited liability — the business is a separate legal entity from its owners",
+              "display_order": 6
+            },
+            {
+              "keyword": "limited liability",
+              "definition": "owners are only responsible for business debts up to the amount they invested — personal assets are protected",
+              "display_order": 7
+            },
+            {
+              "keyword": "unlimited liability",
+              "definition": "owners are personally responsible for all business debts — personal assets can be used to pay them",
+              "display_order": 8
+            },
+            {
+              "keyword": "franchise",
+              "definition": "a business model where a franchisor licenses their brand and methods to a franchisee in exchange for fees",
+              "display_order": 9
+            },
+            {
+              "keyword": "social enterprise",
+              "definition": "a business that trades to achieve a social or environmental goal rather than purely for profit",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is an entrepreneur?",
+              "options": [
+                "A person who works for a large company",
+                "A person who sets up and runs a business, taking on financial risk in the hope of making a profit",
+                "Someone who only invests money in businesses",
+                "A government official who approves new businesses"
+              ],
+              "correct_answer": "A person who sets up and runs a business, taking on financial risk in the hope of making a profit",
+              "explanation": "An entrepreneur is someone who creates and operates their own business venture, accepting the financial risks involved. This is the key characteristic that defines an entrepreneur.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following best describes enterprise?",
+              "options": [
+                "A large multinational company",
+                "The skills and willingness to set up and run a business, or the business itself",
+                "A type of government organization",
+                "A factory that produces goods"
+              ],
+              "correct_answer": "The skills and willingness to set up and run a business, or the business itself",
+              "explanation": "Enterprise refers to both the entrepreneurial qualities (skills and willingness) and the actual business venture itself. It encompasses the mindset and action of starting a business.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main purpose of a business plan?",
+              "options": [
+                "To impress friends and family with business ideas",
+                "To outline a business's goals, strategies, and financial forecasts",
+                "To replace the need for a manager",
+                "To guarantee that a business will be successful"
+              ],
+              "correct_answer": "To outline a business's goals, strategies, and financial forecasts",
+              "explanation": "A business plan is a written document that sets out what the business aims to do, how it will do it, and what financial projections are expected. It serves as a roadmap for the business.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a sole trader?",
+              "options": [
+                "A person who only trades one type of product",
+                "A business owned and run by one person who has unlimited liability for its debts",
+                "Someone who sells shares in a business",
+                "A trader who works only during one season"
+              ],
+              "correct_answer": "A business owned and run by one person who has unlimited liability for its debts",
+              "explanation": "A sole trader is a one-person business where the owner has unlimited liability, meaning they are personally responsible for all business debts. Their personal assets are at risk.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In a partnership, how many people own the business?",
+              "options": [
+                "Exactly one person",
+                "Two or more people who share profits and liability",
+                "At least five people",
+                "Only people from the same family"
+              ],
+              "correct_answer": "Two or more people who share profits and liability",
+              "explanation": "A partnership is owned by two or more people who jointly own the business and share both the profits and liability. This distinguishes it from a sole trader business.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a key feature of a limited company (Ltd)?",
+              "options": [
+                "The owner has unlimited liability for debts",
+                "It can only have one owner",
+                "The business is a separate legal entity from its owners, and owners have limited liability",
+                "It must be owned by the government"
+              ],
+              "correct_answer": "The business is a separate legal entity from its owners, and owners have limited liability",
+              "explanation": "In a limited company, the business exists as its own legal entity, separate from the owners. This structure gives owners limited liability, protecting their personal assets.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which business structure protects owners' personal assets from business debts?",
+              "options": [
+                "Sole trader",
+                "Partnership with unlimited liability",
+                "Limited company with limited liability",
+                "All business structures protect personal assets equally"
+              ],
+              "correct_answer": "Limited company with limited liability",
+              "explanation": "Limited liability protects owners by restricting their responsibility for business debts to the amount they invested. Sole traders and some partnerships have unlimited liability, which exposes personal assets.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does unlimited liability mean?",
+              "options": [
+                "Owners can invest as much money as they want",
+                "Owners are personally responsible for all business debts and personal assets can be used to pay them",
+                "The business can borrow unlimited amounts from banks",
+                "Owners have no responsibility for business debts"
+              ],
+              "correct_answer": "Owners are personally responsible for all business debts and personal assets can be used to pay them",
+              "explanation": "Unlimited liability means that if the business cannot pay its debts, the owner's personal possessions and savings can be seized to settle those debts. This is a significant risk for business owners.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In a franchise agreement, what does the franchisor provide?",
+              "options": [
+                "Money to start the business",
+                "Their brand, methods, and support in exchange for fees",
+                "Employees to run the business",
+                "A guarantee that the business will make a profit"
+              ],
+              "correct_answer": "Their brand, methods, and support in exchange for fees",
+              "explanation": "A franchisor licenses their established brand name, business methods, and operational support to a franchisee. In return, the franchisee pays fees and agrees to follow the franchisor's guidelines.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the primary goal of a social enterprise?",
+              "options": [
+                "To make the maximum profit possible for shareholders",
+                "To provide entertainment to the community",
+                "To trade and achieve a social or environmental goal rather than purely for profit",
+                "To replace government services completely"
+              ],
+              "correct_answer": "To trade and achieve a social or environmental goal rather than purely for profit",
+              "explanation": "A social enterprise operates as a business but with a primary mission to solve social or environmental problems. While it still needs to be financially sustainable, profit is not its only or main objective.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "An entrepreneur always works alone and cannot employ other people.",
+              "correct_answer": "False",
+              "explanation": "Entrepreneurs can work alone as sole traders, or they can build teams and employ staff. Many successful entrepreneurs manage large organizations with many employees.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "A business plan is essential before starting a business because it outlines goals and financial forecasts.",
+              "correct_answer": "True",
+              "explanation": "A business plan provides a roadmap for the business, helps secure funding, and shows that the entrepreneur has thought through their ideas carefully. Most lenders and investors require one.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "A sole trader has limited liability for business debts.",
+              "correct_answer": "False",
+              "explanation": "A sole trader has unlimited liability, meaning they are personally responsible for all debts. Their personal assets, like their home or savings, can be taken to pay business debts.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "In a partnership, all partners must contribute equal amounts of money.",
+              "correct_answer": "False",
+              "explanation": "While partners share profits and liability, the amount each person invests and contributes can vary. Partnership agreements specify each partner's share and responsibilities.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "A limited company is a separate legal entity from its owners.",
+              "correct_answer": "True",
+              "explanation": "In a limited company structure, the business itself is recognized as a separate legal entity, which is why owners have limited liability. The company can own property, enter contracts, and be sued in its own name.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Franchisees own the brand and can change the business methods as they wish.",
+              "correct_answer": "False",
+              "explanation": "In a franchise, the franchisor retains ownership of the brand and requires franchisees to follow their established methods and standards. Franchisees operate under strict guidelines set by the franchisor.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Social enterprises do not need to make any profit to survive.",
+              "correct_answer": "False",
+              "explanation": "Social enterprises must still be financially viable and generate enough revenue to cover costs and continue operations. However, their primary focus is on their social or environmental mission rather than maximizing profit.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Enterprise can refer to both the skills needed to start a business and the business itself.",
+              "correct_answer": "True",
+              "explanation": "Enterprise is a flexible term that describes both the entrepreneurial qualities (the mindset and skills) and the actual business venture. It encompasses both the idea and its execution.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Limited liability means owners can only lose the money they invested in the business.",
+              "correct_answer": "True",
+              "explanation": "With limited liability, an owner's personal responsibility for debts is restricted to their investment amount. If the business owes £100,000 but an owner invested £10,000, they cannot lose more than that £10,000.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "A franchise is a good option for entrepreneurs who want to reduce business risk by using an established brand.",
+              "correct_answer": "True",
+              "explanation": "Franchises offer lower risk because the business model is proven, the brand is recognized, and the franchisor provides support. This makes franchising attractive to entrepreneurs who want less uncertainty.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A(n) ________ is a person who sets up and runs a business, taking on financial risk.",
+              "options": null,
+              "correct_answer": "entrepreneur",
+              "explanation": "This is the definition of an entrepreneur — someone who creates and operates their own business while accepting the financial risks involved.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A written document that outlines a business's goals, strategies, and financial forecasts is called a ________.",
+              "options": null,
+              "correct_answer": "business plan",
+              "explanation": "A business plan is the document that sets out the direction and financial expectations of a business. It is crucial for planning and securing funding.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is owned and run by one person and has unlimited liability for debts.",
+              "options": null,
+              "correct_answer": "sole trader",
+              "explanation": "A sole trader is a one-person business structure where the owner is personally responsible for all debts, putting personal assets at risk.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "In a ________, two or more people own the business and share profits and liability.",
+              "options": null,
+              "correct_answer": "partnership",
+              "explanation": "A partnership involves multiple owners who jointly own and operate the business together. They share both the profits and the financial responsibilities.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a business where owners have limited liability and the business is a separate legal entity.",
+              "options": null,
+              "correct_answer": "limited company",
+              "explanation": "A limited company (Ltd) is structured so that owners' liability is limited to their investment, and the business itself is a separate legal entity from its owners.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ means owners are only responsible for business debts up to the amount they invested.",
+              "options": null,
+              "correct_answer": "Limited liability",
+              "explanation": "Limited liability protects owners' personal assets by restricting their responsibility for debts. This is a key feature of limited companies and some partnerships.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a business model where a franchisor licenses their brand and methods to a franchisee for fees.",
+              "options": null,
+              "correct_answer": "franchise",
+              "explanation": "A franchise allows an entrepreneur to use an established brand and business system. The franchisee pays fees and follows the franchisor's guidelines.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a business that trades to achieve a social or environmental goal rather than purely for profit.",
+              "options": null,
+              "correct_answer": "social enterprise",
+              "explanation": "A social enterprise operates with a primary mission to address social or environmental issues. While it must be financially sustainable, profit is not its main objective.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ refers to the skills and willingness to set up and run a business.",
+              "options": null,
+              "correct_answer": "enterprise",
+              "explanation": "Enterprise describes both the mindset and abilities needed to create a business, as well as the business itself. It encompasses the entrepreneurial spirit.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ means owners are personally responsible for all business debts and their personal assets can be used to pay them.",
+              "options": null,
+              "correct_answer": "Unlimited liability",
+              "explanation": "Unlimited liability exposes owners' personal wealth to business debts. This is the case for sole traders and some partnerships, creating significant financial risk.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Sole trader",
+                  "match": "A business owned by one person with unlimited liability for debts"
+                },
+                {
+                  "term": "Limited company",
+                  "match": "A business where owners have limited liability and it is a separate legal entity"
+                },
+                {
+                  "term": "Social enterprise",
+                  "match": "A business that prioritizes social or environmental goals over profit"
+                },
+                {
+                  "term": "Franchise",
+                  "match": "A business model where a brand and methods are licensed to a franchisee for fees"
+                },
+                {
+                  "term": "Partnership",
+                  "match": "A business owned by two or more people who share profits and liability"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Business Aims & Objectives",
+          "cards": [
+            {
+              "keyword": "aim",
+              "definition": "a general long-term goal of a business — e.g. to be the market leader",
+              "display_order": 1
+            },
+            {
+              "keyword": "objective",
+              "definition": "a specific, measurable target a business sets to help achieve its aims — e.g. increase sales by 10% this year",
+              "display_order": 2
+            },
+            {
+              "keyword": "profit",
+              "definition": "the money left over after all costs have been deducted from revenue (Profit = Revenue − Costs)",
+              "display_order": 3
+            },
+            {
+              "keyword": "revenue / turnover",
+              "definition": "the total money a business receives from selling its goods or services (Revenue = Price × Quantity sold)",
+              "display_order": 4
+            },
+            {
+              "keyword": "market share",
+              "definition": "the percentage of total sales in a market that a business holds",
+              "display_order": 5
+            },
+            {
+              "keyword": "stakeholder",
+              "definition": "anyone who has an interest in or is affected by a business — e.g. owners, employees, customers, suppliers",
+              "display_order": 6
+            },
+            {
+              "keyword": "shareholder",
+              "definition": "a person who owns shares in a limited company and receives a share of profits as dividends",
+              "display_order": 7
+            },
+            {
+              "keyword": "dividend",
+              "definition": "a share of a company's profits paid to shareholders",
+              "display_order": 8
+            },
+            {
+              "keyword": "public sector",
+              "definition": "organisations owned and run by the government — e.g. NHS, state schools",
+              "display_order": 9
+            },
+            {
+              "keyword": "private sector",
+              "definition": "businesses owned by private individuals or investors, not the government",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is an aim?",
+              "options": [
+                "A specific, measurable target set for a short period",
+                "A general long-term goal of a business",
+                "The total money received from selling goods",
+                "Anyone who has an interest in the business"
+              ],
+              "correct_answer": "A general long-term goal of a business",
+              "explanation": "An aim is a long-term goal that guides the overall direction of a business, such as becoming the market leader.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an example of a business objective?",
+              "options": [
+                "To be the most trusted brand in the industry",
+                "Increase sales by 15% in the next year",
+                "To provide good customer service",
+                "To make a profit"
+              ],
+              "correct_answer": "Increase sales by 15% in the next year",
+              "explanation": "Objectives are specific and measurable targets, whereas aims are general long-term goals. Only 'increase sales by 15%' is specific and measurable.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How is profit calculated?",
+              "options": [
+                "Profit = Revenue + Costs",
+                "Profit = Revenue − Costs",
+                "Profit = Price × Quantity sold",
+                "Profit = Market share × Revenue"
+              ],
+              "correct_answer": "Profit = Revenue − Costs",
+              "explanation": "Profit is the money left over after all costs are subtracted from the total revenue a business receives.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is revenue?",
+              "options": [
+                "The money a business spends on production",
+                "The total money a business receives from selling goods or services",
+                "The money left after paying all costs",
+                "The amount of money paid to shareholders"
+              ],
+              "correct_answer": "The total money a business receives from selling goods or services",
+              "explanation": "Revenue (also called turnover) is calculated by multiplying the price of goods by the quantity sold.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A business has revenue of £50,000 and costs of £30,000. What is its profit?",
+              "options": [
+                "£80,000",
+                "£20,000",
+                "£30,000",
+                "£1,667"
+              ],
+              "correct_answer": "£20,000",
+              "explanation": "Using the formula Profit = Revenue − Costs, we get £50,000 − £30,000 = £20,000.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is market share?",
+              "options": [
+                "The price a business charges for its products",
+                "The number of products a business sells",
+                "The percentage of total sales in a market that a business holds",
+                "The profit a business makes each year"
+              ],
+              "correct_answer": "The percentage of total sales in a market that a business holds",
+              "explanation": "Market share shows how much of the total market a business controls, expressed as a percentage.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who is a stakeholder?",
+              "options": [
+                "Only the owner of a business",
+                "Anyone who has an interest in or is affected by a business",
+                "Only the employees of a business",
+                "Only the shareholders of a business"
+              ],
+              "correct_answer": "Anyone who has an interest in or is affected by a business",
+              "explanation": "Stakeholders include owners, employees, customers, suppliers, and anyone else affected by the business's activities.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a shareholder?",
+              "options": [
+                "A person who works for a limited company",
+                "A person who owns shares in a limited company",
+                "A person who supplies goods to a business",
+                "A person who manages a business"
+              ],
+              "correct_answer": "A person who owns shares in a limited company",
+              "explanation": "Shareholders own a portion of a limited company and have the right to receive dividends from profits.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a dividend?",
+              "options": [
+                "A type of business cost",
+                "A share of a company's profits paid to shareholders",
+                "The total revenue of a company",
+                "A long-term business goal"
+              ],
+              "correct_answer": "A share of a company's profits paid to shareholders",
+              "explanation": "Dividends reward shareholders for their investment in a company and are typically paid from the company's profits.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which sector is the NHS part of?",
+              "options": [
+                "Private sector",
+                "Public sector",
+                "Voluntary sector",
+                "Retail sector"
+              ],
+              "correct_answer": "Public sector",
+              "explanation": "The NHS is owned and run by the government, making it part of the public sector.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "An objective is a general long-term goal.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "An objective is a specific, measurable target. An aim is the general long-term goal.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Revenue is calculated by multiplying price by quantity sold.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The formula for revenue is Price × Quantity sold, which gives the total money received from sales.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Market share is the actual profit made by a business.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Market share is a percentage of total sales in a market. Profit is the money left after deducting costs from revenue.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Customers are stakeholders in a business.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Customers are affected by the business and have an interest in it, so they are stakeholders.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Only owners of a business can be shareholders.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Any person can be a shareholder if they own shares in a limited company, not just the original owner.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Private sector businesses are owned by the government.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Private sector businesses are owned by private individuals or investors, not the government.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "State schools are part of the public sector.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "State schools are owned and run by the government, making them part of the public sector.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "A dividend is the money a business spends on production.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "A dividend is a share of profits paid to shareholders. Money spent on production is a cost.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "An aim is always specific and measurable.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Aims are general long-term goals. Objectives are the specific, measurable targets.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Suppliers are stakeholders in a business.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Suppliers are affected by the business's decisions and have an interest in its success, so they are stakeholders.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a general long-term goal of a business.",
+              "options": null,
+              "correct_answer": "aim",
+              "explanation": "An aim provides the overall direction for a business and guides its strategy.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ is a specific, measurable target that helps a business achieve its aims.",
+              "options": null,
+              "correct_answer": "objective",
+              "explanation": "Objectives are concrete targets with measurable outcomes, like increasing sales by a certain percentage.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the total money a business receives from selling its goods or services.",
+              "options": null,
+              "correct_answer": "Revenue",
+              "explanation": "Revenue is also called turnover and is calculated by Price × Quantity sold.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the money left over after all costs have been deducted from revenue.",
+              "options": null,
+              "correct_answer": "Profit",
+              "explanation": "Profit shows how much money a business has made after paying for all its expenses.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is the percentage of total sales in a market that a business holds.",
+              "options": null,
+              "correct_answer": "market share",
+              "explanation": "Market share is used to measure how competitive a business is within its industry.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is anyone who has an interest in or is affected by a business.",
+              "options": null,
+              "correct_answer": "stakeholder",
+              "explanation": "Examples of stakeholders include owners, employees, customers, and suppliers.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a person who owns shares in a limited company.",
+              "options": null,
+              "correct_answer": "shareholder",
+              "explanation": "Shareholders invest money in a company and receive dividends from its profits.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a share of a company's profits paid to shareholders.",
+              "options": null,
+              "correct_answer": "dividend",
+              "explanation": "Dividends are a reward to shareholders for investing their money in the company.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ consists of organisations owned and run by the government.",
+              "options": null,
+              "correct_answer": "public sector",
+              "explanation": "The public sector includes services like the NHS and state schools that are government-owned.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ consists of businesses owned by private individuals or investors.",
+              "options": null,
+              "correct_answer": "private sector",
+              "explanation": "The private sector includes all businesses that are not owned by the government.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Aim",
+                  "match": "A general long-term goal of a business"
+                },
+                {
+                  "term": "Objective",
+                  "match": "A specific, measurable target a business sets"
+                },
+                {
+                  "term": "Stakeholder",
+                  "match": "Anyone who has an interest in or is affected by a business"
+                },
+                {
+                  "term": "Dividend",
+                  "match": "A share of a company's profits paid to shareholders"
+                },
+                {
+                  "term": "Market share",
+                  "match": "The percentage of total sales in a market that a business holds"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marketing",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "The Marketing Mix — 4Ps",
+          "cards": [
+            {
+              "keyword": "marketing mix (4Ps)",
+              "definition": "the combination of Product, Price, Place, and Promotion used by a business to sell its goods or services",
+              "display_order": 1
+            },
+            {
+              "keyword": "market research",
+              "definition": "gathering and analysing information about customers and markets to inform business decisions",
+              "display_order": 2
+            },
+            {
+              "keyword": "primary research",
+              "definition": "collecting new, first-hand data directly — e.g. surveys, interviews, focus groups",
+              "display_order": 3
+            },
+            {
+              "keyword": "secondary research",
+              "definition": "using existing data collected by others — e.g. industry reports, government statistics, competitor websites",
+              "display_order": 4
+            },
+            {
+              "keyword": "market segmentation",
+              "definition": "dividing a market into groups of customers with similar needs or characteristics",
+              "display_order": 5
+            },
+            {
+              "keyword": "target market",
+              "definition": "the specific group of customers a business aims its products and marketing at",
+              "display_order": 6
+            },
+            {
+              "keyword": "price skimming",
+              "definition": "setting a high price when a new product launches, then lowering it over time",
+              "display_order": 7
+            },
+            {
+              "keyword": "penetration pricing",
+              "definition": "setting a low price to attract customers quickly when entering a market",
+              "display_order": 8
+            },
+            {
+              "keyword": "competitive pricing",
+              "definition": "setting prices based on what competitors charge",
+              "display_order": 9
+            },
+            {
+              "keyword": "USP (Unique Selling Point)",
+              "definition": "the feature that makes a product different from and better than competitors — the reason customers choose it",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does the marketing mix (4Ps) help a business to do?",
+              "options": [
+                "Decide how much profit to make each year",
+                "Plan and sell its goods or services effectively",
+                "Choose which employees to hire",
+                "Reduce the cost of raw materials"
+              ],
+              "correct_answer": "Plan and sell its goods or services effectively",
+              "explanation": "The marketing mix is a strategic tool that combines Product, Price, Place, and Promotion to help businesses market their offerings successfully.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of primary research?",
+              "options": [
+                "Reading a government report about consumer spending",
+                "Looking at a competitor's website to check their prices",
+                "Conducting a survey with customers to ask about their preferences",
+                "Buying an industry report from a research company"
+              ],
+              "correct_answer": "Conducting a survey with customers to ask about their preferences",
+              "explanation": "Primary research involves collecting new, original data directly from people or sources. Surveys, interviews, and focus groups are all examples of primary research methods.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is market segmentation?",
+              "options": [
+                "Reducing the number of products a business sells",
+                "Dividing a market into groups of customers with similar needs or characteristics",
+                "Finding out how much competitors charge for their products",
+                "Advertising products on social media platforms"
+              ],
+              "correct_answer": "Dividing a market into groups of customers with similar needs or characteristics",
+              "explanation": "Market segmentation splits the overall market into smaller, more manageable groups so businesses can target specific customer types more effectively.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A business wants to enter a market quickly by attracting many customers with a low price. Which pricing strategy should it use?",
+              "options": [
+                "Price skimming",
+                "Penetration pricing",
+                "Competitive pricing",
+                "Premium pricing"
+              ],
+              "correct_answer": "Penetration pricing",
+              "explanation": "Penetration pricing sets a low initial price to gain market share and attract customers quickly. It is effective when entering a new market or launching a new product.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a USP (Unique Selling Point)?",
+              "options": [
+                "The total amount of money a business spends on advertising",
+                "The feature that makes a product different from and better than competitors",
+                "The location where a business chooses to sell its products",
+                "The group of employees responsible for marketing"
+              ],
+              "correct_answer": "The feature that makes a product different from and better than competitors",
+              "explanation": "A USP is what sets a product apart from rivals and gives customers a reason to choose it over alternatives. It could be better quality, lower price, unique design, or special features.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which research method uses existing data that has already been collected?",
+              "options": [
+                "Focus groups",
+                "Customer interviews",
+                "Secondary research",
+                "Questionnaires"
+              ],
+              "correct_answer": "Secondary research",
+              "explanation": "Secondary research uses existing data from sources like government statistics, industry reports, and competitor websites. It is cheaper and faster than collecting new data.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the target market?",
+              "options": [
+                "All people who have money to spend on products",
+                "The specific group of customers a business aims its products and marketing at",
+                "The number of sales a business wants to achieve each month",
+                "The countries where a business plans to sell its products"
+              ],
+              "correct_answer": "The specific group of customers a business aims its products and marketing at",
+              "explanation": "The target market is the defined group of customers most likely to buy a product. A business focuses its marketing efforts on this specific audience.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A smartphone company launches a new model at a high price, then gradually reduces it over the next 12 months. Which pricing strategy is this?",
+              "options": [
+                "Penetration pricing",
+                "Competitive pricing",
+                "Price skimming",
+                "Cost-plus pricing"
+              ],
+              "correct_answer": "Price skimming",
+              "explanation": "Price skimming starts with a high price to maximize profit from early adopters, then lowers it over time to attract more price-sensitive customers.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why might a business use market research before launching a new product?",
+              "options": [
+                "To guarantee the product will be successful",
+                "To gather information about customers and markets to inform business decisions",
+                "To decide how many employees the business needs",
+                "To find out what competitors will do in the future"
+              ],
+              "correct_answer": "To gather information about customers and markets to inform business decisions",
+              "explanation": "Market research helps businesses understand customer needs, preferences, and market trends before making decisions about new products, ensuring better chances of success.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Competitive pricing involves setting prices based on what?",
+              "options": [
+                "The production costs of the product",
+                "What competitors charge for similar products",
+                "The location where the product is sold",
+                "The age of the customers buying the product"
+              ],
+              "correct_answer": "What competitors charge for similar products",
+              "explanation": "Competitive pricing is a strategy where a business sets its prices at similar levels to competitors. This keeps the business competitive in the market.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Primary research is cheaper and faster than secondary research because it uses existing data.",
+              "correct_answer": "False",
+              "explanation": "This is backwards. Secondary research uses existing data and is cheaper and faster. Primary research involves collecting new data, which is more time-consuming and expensive.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Market segmentation helps businesses target their products to specific groups of customers.",
+              "correct_answer": "True",
+              "explanation": "By dividing the market into segments, businesses can tailor their products and marketing to meet the needs of specific customer groups more effectively.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Price skimming involves setting a low price when a new product launches.",
+              "correct_answer": "False",
+              "explanation": "Price skimming sets a high price initially to maximize early profits, then lowers it over time. Penetration pricing is the strategy that uses a low launch price.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The marketing mix (4Ps) includes Product, Price, Place, and Promotion.",
+              "correct_answer": "True",
+              "explanation": "These are the four elements of the marketing mix that businesses use to plan and sell their goods and services.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "A target market is every person in the country who might buy a product.",
+              "correct_answer": "False",
+              "explanation": "A target market is a specific, defined group of customers with similar characteristics or needs, not everyone in a country.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Secondary research uses data collected directly from customers through surveys.",
+              "correct_answer": "False",
+              "explanation": "Secondary research uses existing data from other sources. Data collected directly from customers through surveys is primary research.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "A USP gives customers a reason to choose one product over a competitor's product.",
+              "correct_answer": "True",
+              "explanation": "A Unique Selling Point is what makes a product different and better, which encourages customers to buy it instead of alternatives.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Penetration pricing is typically used to attract customers quickly when entering a market.",
+              "correct_answer": "True",
+              "explanation": "Penetration pricing sets a low price to gain market share and attract customers rapidly when launching a new product or entering a new market.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Market research is unnecessary if a business has many years of experience.",
+              "correct_answer": "False",
+              "explanation": "Even experienced businesses benefit from market research to understand changing customer needs and market trends.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Competitive pricing means always setting prices lower than competitors.",
+              "correct_answer": "False",
+              "explanation": "Competitive pricing means setting prices based on what competitors charge, which could be at similar levels, not necessarily lower than competitors.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the specific group of customers a business aims its products and marketing at.",
+              "options": null,
+              "correct_answer": "target market",
+              "explanation": "The target market is the defined audience that a business focuses its marketing efforts on.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ involves collecting new, first-hand data directly from customers through surveys and interviews.",
+              "options": null,
+              "correct_answer": "Primary research",
+              "explanation": "Primary research is collecting new data directly from sources, unlike secondary research which uses existing data.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A business uses ________ to divide its market into groups of customers with similar needs or characteristics.",
+              "options": null,
+              "correct_answer": "market segmentation",
+              "explanation": "Market segmentation helps businesses identify and target specific groups of customers more effectively.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the feature that makes a product different from and better than competitors' products.",
+              "options": null,
+              "correct_answer": "USP",
+              "explanation": "The Unique Selling Point (USP) gives customers a reason to choose one product over alternatives.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ involves setting a high price when a new product launches, then lowering it over time.",
+              "options": null,
+              "correct_answer": "Price skimming",
+              "explanation": "Price skimming maximizes profit from early adopters before reducing prices to attract more customers.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A business gathers and analyses information about customers and markets through ________.",
+              "options": null,
+              "correct_answer": "market research",
+              "explanation": "Market research helps businesses make informed decisions about their products, prices, and marketing strategies.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ uses existing data from government statistics, industry reports, and competitor websites.",
+              "options": null,
+              "correct_answer": "Secondary research",
+              "explanation": "Secondary research is cheaper and faster than primary research because it relies on data already collected by others.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ involves setting prices based on what competitors charge for similar products.",
+              "options": null,
+              "correct_answer": "Competitive pricing",
+              "explanation": "Competitive pricing keeps a business's prices in line with rivals to remain competitive in the market.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A business uses ________ to set a low price and attract customers quickly when entering a new market.",
+              "options": null,
+              "correct_answer": "penetration pricing",
+              "explanation": "Penetration pricing is an effective strategy for gaining market share and building a customer base quickly.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ combines Product, Price, Place, and Promotion to help a business sell its goods or services.",
+              "options": null,
+              "correct_answer": "marketing mix",
+              "explanation": "The marketing mix (4Ps) is a key framework businesses use to plan their marketing strategy.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Primary research",
+                  "match": "Collecting new, first-hand data directly from customers"
+                },
+                {
+                  "term": "Market segmentation",
+                  "match": "Dividing a market into groups of customers with similar needs"
+                },
+                {
+                  "term": "Price skimming",
+                  "match": "Setting a high price initially, then lowering it over time"
+                },
+                {
+                  "term": "Target market",
+                  "match": "The specific group of customers a business aims its marketing at"
+                },
+                {
+                  "term": "USP",
+                  "match": "The feature that makes a product different from competitors"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Finance",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Financial Terms & Calculations",
+          "cards": [
+            {
+              "keyword": "fixed costs",
+              "definition": "costs that stay the same regardless of how much a business produces — e.g. rent, insurance",
+              "display_order": 1
+            },
+            {
+              "keyword": "variable costs",
+              "definition": "costs that change with the level of output — e.g. raw materials, packaging",
+              "display_order": 2
+            },
+            {
+              "keyword": "total costs",
+              "definition": "all costs combined (Total Costs = Fixed Costs + Variable Costs)",
+              "display_order": 3
+            },
+            {
+              "keyword": "gross profit",
+              "definition": "revenue minus the cost of goods sold (Gross Profit = Revenue − Cost of Sales)",
+              "display_order": 4
+            },
+            {
+              "keyword": "net profit",
+              "definition": "gross profit minus all other expenses such as wages and rent",
+              "display_order": 5
+            },
+            {
+              "keyword": "break-even point",
+              "definition": "the level of output at which total revenue equals total costs — the business makes neither profit nor loss",
+              "display_order": 6
+            },
+            {
+              "keyword": "cash flow",
+              "definition": "the movement of money in and out of a business over a period of time",
+              "display_order": 7
+            },
+            {
+              "keyword": "cash flow forecast",
+              "definition": "a prediction of the money expected to come in and go out of a business over a future period",
+              "display_order": 8
+            },
+            {
+              "keyword": "overdraft",
+              "definition": "a short-term borrowing facility allowing a business to spend more than it has in its bank account",
+              "display_order": 9
+            },
+            {
+              "keyword": "loan",
+              "definition": "a fixed amount of money borrowed, usually from a bank, repaid with interest over an agreed period",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of a fixed cost?",
+              "options": [
+                "Raw materials used in production",
+                "Rent paid for the factory building",
+                "Packaging for finished products",
+                "Wages that increase with output"
+              ],
+              "correct_answer": "Rent paid for the factory building",
+              "explanation": "Rent is a fixed cost because it stays the same each month regardless of how many items the business produces. Raw materials and packaging change with output, and wages don't necessarily increase with output in all cases.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an example of a variable cost?",
+              "options": [
+                "Insurance for the building",
+                "Electricity bill for the office",
+                "Cost of raw materials",
+                "Manager's annual salary"
+              ],
+              "correct_answer": "Cost of raw materials",
+              "explanation": "Raw materials are a variable cost because the more products made, the more materials are needed. Insurance, electricity, and salaries are typically fixed or semi-fixed costs.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "If fixed costs are £5,000 and variable costs are £3,000, what are the total costs?",
+              "options": [
+                "£2,000",
+                "£8,000",
+                "£5,000",
+                "£15,000"
+              ],
+              "correct_answer": "£8,000",
+              "explanation": "Total Costs = Fixed Costs + Variable Costs. Therefore £5,000 + £3,000 = £8,000.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A business has revenue of £50,000 and the cost of goods sold is £20,000. What is the gross profit?",
+              "options": [
+                "£30,000",
+                "£20,000",
+                "£70,000",
+                "£25,000"
+              ],
+              "correct_answer": "£30,000",
+              "explanation": "Gross Profit = Revenue − Cost of Sales. So £50,000 − £20,000 = £30,000.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between gross profit and net profit?",
+              "options": [
+                "Net profit is always higher than gross profit",
+                "Gross profit doesn't include the cost of goods sold",
+                "Net profit is gross profit minus all other expenses like wages and rent",
+                "There is no difference, they are the same thing"
+              ],
+              "correct_answer": "Net profit is gross profit minus all other expenses like wages and rent",
+              "explanation": "Gross profit only accounts for the cost of goods sold, while net profit deducts all other business expenses from the gross profit, giving a true picture of overall profitability.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "At the break-even point, what is the relationship between total revenue and total costs?",
+              "options": [
+                "Total revenue is higher than total costs",
+                "Total revenue equals total costs",
+                "Total costs are higher than total revenue",
+                "There is no relationship between them"
+              ],
+              "correct_answer": "Total revenue equals total costs",
+              "explanation": "By definition, the break-even point is where total revenue equals total costs, meaning the business makes neither a profit nor a loss.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following best describes cash flow?",
+              "options": [
+                "The profit a business makes in a year",
+                "The money owed to suppliers",
+                "The movement of money in and out of a business over a period of time",
+                "The total value of all the business's assets"
+              ],
+              "correct_answer": "The movement of money in and out of a business over a period of time",
+              "explanation": "Cash flow tracks all the money coming into and going out of a business, which is different from profit. A business can be profitable but still have cash flow problems.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main purpose of a cash flow forecast?",
+              "options": [
+                "To calculate the annual profit",
+                "To predict money expected to come in and go out in the future",
+                "To record what actually happened to cash in the past",
+                "To determine fixed costs"
+              ],
+              "correct_answer": "To predict money expected to come in and go out in the future",
+              "explanation": "A cash flow forecast is a prediction tool that helps businesses plan ahead by estimating future cash movements, allowing them to identify potential cash shortages.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is a characteristic of an overdraft?",
+              "options": [
+                "It is a long-term loan with a fixed repayment schedule",
+                "It allows a business to spend more than it has in its bank account",
+                "It must be repaid within one week",
+                "It charges no interest"
+              ],
+              "correct_answer": "It allows a business to spend more than it has in its bank account",
+              "explanation": "An overdraft is a short-term borrowing facility that allows a business to go into a negative bank balance. It is flexible but typically more expensive than a loan.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How is a loan different from an overdraft?",
+              "options": [
+                "A loan is more expensive than an overdraft",
+                "A loan is a fixed amount borrowed and repaid over an agreed period with interest",
+                "An overdraft cannot be used for business purposes",
+                "A loan has no interest charges"
+              ],
+              "correct_answer": "A loan is a fixed amount borrowed and repaid over an agreed period with interest",
+              "explanation": "A loan provides a set amount of money upfront with a clear repayment schedule, while an overdraft is flexible short-term borrowing. Loans are typically cheaper for long-term borrowing.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Fixed costs remain the same regardless of how much a business produces.",
+              "correct_answer": "True",
+              "explanation": "This is the definition of fixed costs. Examples include rent and insurance, which do not change based on output levels.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Variable costs decrease when a business produces more items.",
+              "correct_answer": "False",
+              "explanation": "Variable costs actually increase when production increases because you need more materials, packaging, etc. They change in proportion to output.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Total costs are calculated by adding fixed costs and variable costs together.",
+              "correct_answer": "True",
+              "explanation": "This is the correct formula: Total Costs = Fixed Costs + Variable Costs.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Gross profit includes all of a business's expenses.",
+              "correct_answer": "False",
+              "explanation": "Gross profit only subtracts the cost of goods sold from revenue. Other expenses like wages and rent are subtracted to calculate net profit.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Net profit is always higher than gross profit.",
+              "correct_answer": "False",
+              "explanation": "Net profit is always lower than gross profit because you subtract additional expenses from gross profit to calculate net profit.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "At break-even, a business is making a loss.",
+              "correct_answer": "False",
+              "explanation": "At break-even, revenue equals costs, so the business makes neither a profit nor a loss. It's the point where profit becomes zero.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "A business with positive cash flow is always profitable.",
+              "correct_answer": "False",
+              "explanation": "Cash flow and profit are different. A business could have good cash flow but be making a loss, or vice versa. They measure different things.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "A cash flow forecast predicts future money movements rather than recording past events.",
+              "correct_answer": "True",
+              "explanation": "A cash flow forecast is forward-looking; it predicts what will happen in the future to help with planning and avoiding cash shortages.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "An overdraft is a permanent form of borrowing.",
+              "correct_answer": "False",
+              "explanation": "An overdraft is short-term borrowing that can be called back by the bank at any time. It is meant for short-term cash flow problems, not permanent financing.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Loans typically have a fixed repayment schedule agreed in advance.",
+              "correct_answer": "True",
+              "explanation": "A loan is a fixed amount of money with an agreed repayment period, making it more predictable for planning purposes than an overdraft.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Costs that stay the same regardless of output, such as rent and insurance, are called ________ costs.",
+              "options": null,
+              "correct_answer": "fixed",
+              "explanation": "Fixed costs do not change with the level of production, making them predictable and stable for budgeting purposes.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ costs change depending on how much a business produces, such as raw materials and packaging.",
+              "options": null,
+              "correct_answer": "variable",
+              "explanation": "Variable costs are directly proportional to output levels, increasing or decreasing as production changes.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ = Fixed Costs + Variable Costs",
+              "options": null,
+              "correct_answer": "Total costs",
+              "explanation": "This is the fundamental formula for calculating total costs in any business.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Gross Profit = ________ − Cost of Sales",
+              "options": null,
+              "correct_answer": "Revenue",
+              "explanation": "Revenue is the total money received from selling products or services, and subtracting the cost of goods sold gives gross profit.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Net Profit = Gross Profit − ________",
+              "options": null,
+              "correct_answer": "all other expenses",
+              "explanation": "After calculating gross profit, all remaining expenses such as wages, rent, and utilities are deducted to find net profit.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ point is reached when total revenue equals total costs.",
+              "options": null,
+              "correct_answer": "break-even",
+              "explanation": "At the break-even point, a business covers all its costs but makes no profit or loss.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the movement of money in and out of a business over a period of time.",
+              "options": null,
+              "correct_answer": "Cash flow",
+              "explanation": "Cash flow tracking helps businesses understand their liquidity and ability to pay bills and employees.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a prediction of the money expected to come in and go out of a business over a future period.",
+              "options": null,
+              "correct_answer": "cash flow forecast",
+              "explanation": "This planning tool helps businesses anticipate future cash needs and avoid unexpected shortages.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ is a short-term borrowing facility that allows a business to spend more money than it has in its bank account.",
+              "options": null,
+              "correct_answer": "overdraft",
+              "explanation": "Overdrafts provide flexible access to credit for short-term cash flow management.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a fixed amount of money borrowed, usually from a bank, and repaid with interest over an agreed period.",
+              "options": null,
+              "correct_answer": "loan",
+              "explanation": "Loans are formal borrowing arrangements with set terms, making them suitable for larger, longer-term financing needs.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Break-even point",
+                  "match": "The level of output where total revenue equals total costs"
+                },
+                {
+                  "term": "Net profit",
+                  "match": "Gross profit minus all other expenses like wages and rent"
+                },
+                {
+                  "term": "Overdraft",
+                  "match": "A short-term borrowing facility allowing a business to overspend its bank balance"
+                },
+                {
+                  "term": "Fixed costs",
+                  "match": "Costs that remain the same regardless of output level"
+                },
+                {
+                  "term": "Cash flow forecast",
+                  "match": "A prediction of money expected to come in and go out in the future"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Human Resources & Operations",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "People & Production",
+          "cards": [
+            {
+              "keyword": "organisational structure",
+              "definition": "the way a business arranges its employees and management — shown in an organisational chart",
+              "display_order": 1
+            },
+            {
+              "keyword": "hierarchy",
+              "definition": "the levels of authority in an organisation — decisions are made at the top and passed down",
+              "display_order": 2
+            },
+            {
+              "keyword": "span of control",
+              "definition": "the number of employees directly managed by one manager",
+              "display_order": 3
+            },
+            {
+              "keyword": "delegation",
+              "definition": "passing responsibility for tasks to employees at a lower level",
+              "display_order": 4
+            },
+            {
+              "keyword": "motivation",
+              "definition": "the reasons why employees work hard and stay committed — includes pay, recognition, and job satisfaction",
+              "display_order": 5
+            },
+            {
+              "keyword": "productivity",
+              "definition": "the output produced per worker in a given time period — a measure of efficiency",
+              "display_order": 6
+            },
+            {
+              "keyword": "recruitment",
+              "definition": "the process of finding and hiring new employees",
+              "display_order": 7
+            },
+            {
+              "keyword": "training",
+              "definition": "developing employees' skills and knowledge to improve performance",
+              "display_order": 8
+            },
+            {
+              "keyword": "quality control",
+              "definition": "checking products meet required standards — often done at the end of the production process",
+              "display_order": 9
+            },
+            {
+              "keyword": "lean production",
+              "definition": "an approach to production that aims to reduce waste and improve efficiency",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does an organisational chart show?",
+              "options": [
+                "How much money the business makes",
+                "The way a business arranges its employees and management",
+                "The products a business sells",
+                "The number of customers a business has"
+              ],
+              "correct_answer": "The way a business arranges its employees and management",
+              "explanation": "An organisational chart is a visual diagram that displays the structure of an organisation, showing how employees and managers are arranged.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In a hierarchical organisational structure, where are decisions typically made?",
+              "options": [
+                "By the lowest-level employees",
+                "By customers",
+                "At the top and passed down",
+                "By all employees equally"
+              ],
+              "correct_answer": "At the top and passed down",
+              "explanation": "In a hierarchy, authority flows from the top of the organisation downwards, with senior management making key decisions that are communicated to lower levels.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is span of control?",
+              "options": [
+                "The total number of employees in a business",
+                "The number of employees directly managed by one manager",
+                "The amount of money a manager controls",
+                "The time it takes to train an employee"
+              ],
+              "correct_answer": "The number of employees directly managed by one manager",
+              "explanation": "Span of control refers to how many direct reports a manager oversees — for example, a manager with 5 team members has a span of control of 5.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an example of delegation?",
+              "options": [
+                "A manager hiring a new employee",
+                "A manager giving a task to an employee and making them responsible for completing it",
+                "A manager deciding to close the business",
+                "A manager calculating the company's profits"
+              ],
+              "correct_answer": "A manager giving a task to an employee and making them responsible for completing it",
+              "explanation": "Delegation means passing responsibility for tasks to employees at a lower level in the organisation, allowing managers to focus on other work.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What factors can affect employee motivation?",
+              "options": [
+                "Only the colour of the office walls",
+                "Pay, recognition, and job satisfaction",
+                "The size of the building",
+                "The weather outside"
+              ],
+              "correct_answer": "Pay, recognition, and job satisfaction",
+              "explanation": "Motivation is driven by multiple factors including fair wages, being recognised for good work, and having satisfaction from the job itself.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How is productivity measured?",
+              "options": [
+                "By counting how many employees work there",
+                "By the output produced per worker in a given time period",
+                "By the age of the employees",
+                "By the cost of raw materials"
+              ],
+              "correct_answer": "By the output produced per worker in a given time period",
+              "explanation": "Productivity is an efficiency measure that shows how much output each worker produces within a set timeframe, such as per hour or per day.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main purpose of recruitment?",
+              "options": [
+                "To fire existing employees",
+                "To find and hire new employees",
+                "To train current staff",
+                "To reduce the company's spending"
+              ],
+              "correct_answer": "To find and hire new employees",
+              "explanation": "Recruitment is the HR process of attracting, identifying, and employing new workers to fill vacancies within the organisation.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why do businesses provide training to employees?",
+              "options": [
+                "To reduce employee wages",
+                "To develop their skills and knowledge and improve performance",
+                "To make employees leave",
+                "To increase the price of products"
+              ],
+              "correct_answer": "To develop their skills and knowledge and improve performance",
+              "explanation": "Training helps employees do their jobs better by improving their skills and knowledge, which benefits both the employee and the business.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "When does quality control typically happen in production?",
+              "options": [
+                "Before production starts",
+                "Only during the morning shift",
+                "At the end of the production process",
+                "Once a year"
+              ],
+              "correct_answer": "At the end of the production process",
+              "explanation": "Quality control involves checking that finished products meet required standards, making it an important final step before products are sold.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main goal of lean production?",
+              "options": [
+                "To make products more expensive",
+                "To hire more employees",
+                "To reduce waste and improve efficiency",
+                "To decrease product quality"
+              ],
+              "correct_answer": "To reduce waste and improve efficiency",
+              "explanation": "Lean production is a management approach focused on eliminating waste and streamlining processes to make production more efficient and cost-effective.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "An organisational structure shows the relationships between employees and their managers.",
+              "correct_answer": "True",
+              "explanation": "An organisational chart displays how employees and managers are connected, showing who reports to whom within the business structure.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "In a hierarchy, all employees have equal decision-making power.",
+              "correct_answer": "False",
+              "explanation": "In a hierarchical structure, decision-making power is concentrated at higher levels, with authority decreasing as you move down the organisation.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "A narrow span of control means a manager supervises many employees.",
+              "correct_answer": "False",
+              "explanation": "A narrow span of control means a manager supervises only a few employees, while a wide span means they supervise many employees.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Delegation can help develop employee skills and confidence.",
+              "correct_answer": "True",
+              "explanation": "When managers delegate tasks, employees gain experience, learn new skills, and develop confidence in their abilities.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Motivation has no impact on how hard employees work.",
+              "correct_answer": "False",
+              "explanation": "Motivation directly affects employee performance — motivated employees work harder, stay longer, and produce better quality work.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "High productivity means producing more output with fewer resources.",
+              "correct_answer": "True",
+              "explanation": "Productivity measures efficiency, so high productivity means getting more output from each worker, which is a sign of good efficiency.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Recruitment only involves hiring employees, not finding them.",
+              "correct_answer": "False",
+              "explanation": "Recruitment is the complete process of finding, attracting, and hiring new employees — it includes both searching for and selecting candidates.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Training is typically a one-time event that happens only when someone is hired.",
+              "correct_answer": "False",
+              "explanation": "Training is often ongoing throughout an employee's career to keep their skills up to date and help them progress in their role.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Quality control checks that products meet the required standards before they are sold.",
+              "correct_answer": "True",
+              "explanation": "Quality control is the process of inspecting products to ensure they meet established quality standards before reaching customers.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Lean production encourages wasteful processes to create more jobs.",
+              "correct_answer": "False",
+              "explanation": "Lean production actively works to eliminate waste and improve efficiency, not encourage wasteful practices.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ shows how a business organises its employees and management.",
+              "options": null,
+              "correct_answer": "organisational chart",
+              "explanation": "An organisational chart is a visual diagram that displays the structure and relationships within an organisation.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "In a ________, decisions are made at the top and communicated downwards.",
+              "options": null,
+              "correct_answer": "hierarchy",
+              "explanation": "A hierarchy is an organisational structure where authority flows from top to bottom, with senior management making key decisions.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of control is the number of employees directly managed by one manager.",
+              "options": null,
+              "correct_answer": "span",
+              "explanation": "Span of control refers to how many direct reports a manager has — a wider span means more employees to manage.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "When a manager gives a task to an employee and makes them responsible for it, this is called ________.",
+              "options": null,
+              "correct_answer": "delegation",
+              "explanation": "Delegation is the process of passing responsibility for tasks to employees at lower levels in the organisation.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the reasons why employees work hard and stay committed to the business.",
+              "options": null,
+              "correct_answer": "Motivation",
+              "explanation": "Motivation refers to the drive and commitment employees have towards their work, influenced by factors like pay and recognition.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the output produced per worker in a given time period and measures efficiency.",
+              "options": null,
+              "correct_answer": "Productivity",
+              "explanation": "Productivity is a key efficiency metric that shows how much each worker produces within a specific timeframe.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ process involves finding and hiring new employees to fill vacancies.",
+              "options": null,
+              "correct_answer": "recruitment",
+              "explanation": "Recruitment is the HR function responsible for attracting, identifying, and selecting new workers for the organisation.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ develops employees' skills and knowledge to help them perform better in their roles.",
+              "options": null,
+              "correct_answer": "Training",
+              "explanation": "Training is a key HR activity that improves employee capabilities and helps them succeed in their positions.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ involves checking that products meet required standards before they are sold to customers.",
+              "options": null,
+              "correct_answer": "Quality control",
+              "explanation": "Quality control is the process of inspecting products to ensure they meet established quality and safety standards.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ production is an approach that aims to reduce waste and improve efficiency in manufacturing.",
+              "options": null,
+              "correct_answer": "Lean",
+              "explanation": "Lean production is a management philosophy focused on eliminating waste and streamlining processes to increase efficiency.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Hierarchy",
+                  "match": "Levels of authority in an organisation where decisions are made at the top and passed down"
+                },
+                {
+                  "term": "Delegation",
+                  "match": "Passing responsibility for tasks to employees at a lower level"
+                },
+                {
+                  "term": "Productivity",
+                  "match": "The output produced per worker in a given time period"
+                },
+                {
+                  "term": "Lean production",
+                  "match": "An approach to production that aims to reduce waste and improve efficiency"
+                },
+                {
+                  "term": "Motivation",
+                  "match": "The reasons why employees work hard and stay committed, including pay and recognition"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

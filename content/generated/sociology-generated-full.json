@@ -1,0 +1,1901 @@
+{
+  "subject": {
+    "name": "Sociology",
+    "exam_board": "AQA",
+    "category": "Humanities",
+    "colour": "#0891b2",
+    "emoji": "👥",
+    "slug": "sociology-aqa"
+  },
+  "topics": [
+    {
+      "name": "Families",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Family Types & Structures",
+          "cards": [
+            {
+              "keyword": "nuclear family",
+              "definition": "a family consisting of two parents and their dependent children living together",
+              "display_order": 1
+            },
+            {
+              "keyword": "extended family",
+              "definition": "a family that includes relatives beyond the nuclear family — e.g. grandparents, aunts, uncles",
+              "display_order": 2
+            },
+            {
+              "keyword": "single-parent family",
+              "definition": "a family with one parent and dependent children — the most common alternative to the nuclear family in the UK",
+              "display_order": 3
+            },
+            {
+              "keyword": "reconstituted (blended) family",
+              "definition": "a family formed when two people with children from previous relationships live together",
+              "display_order": 4
+            },
+            {
+              "keyword": "same-sex family",
+              "definition": "a family with two parents of the same gender",
+              "display_order": 5
+            },
+            {
+              "keyword": "divorce",
+              "definition": "the legal ending of a marriage — divorce rates have risen since the Divorce Reform Act 1969",
+              "display_order": 6
+            },
+            {
+              "keyword": "cohabitation",
+              "definition": "living together as a couple without being married — increasingly common in the UK",
+              "display_order": 7
+            },
+            {
+              "keyword": "the New Right",
+              "definition": "a conservative political perspective that sees the traditional nuclear family as the ideal family structure",
+              "display_order": 8
+            },
+            {
+              "keyword": "feminism",
+              "definition": "a sociological perspective that focuses on gender inequality — argues the family often oppresses women",
+              "display_order": 9
+            },
+            {
+              "keyword": "domestic labour",
+              "definition": "unpaid work done in the home such as cooking, cleaning, and childcare — disproportionately done by women",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following best describes a nuclear family?",
+              "options": [
+                "Two parents and their dependent children living together",
+                "A family that includes grandparents, aunts, and uncles",
+                "A family with one parent and dependent children",
+                "A family formed when two people with children from previous relationships live together"
+              ],
+              "correct_answer": "Two parents and their dependent children living together",
+              "explanation": "A nuclear family is the basic family unit consisting of just parents and their children living in one household.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an extended family?",
+              "options": [
+                "A family with same-sex parents",
+                "A family that includes relatives beyond the nuclear family such as grandparents and aunts",
+                "A family formed when divorced parents remarry",
+                "Two people living together without being married"
+              ],
+              "correct_answer": "A family that includes relatives beyond the nuclear family such as grandparents and aunts",
+              "explanation": "An extended family goes beyond just parents and children to include other blood relatives living together or in close contact.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which family type consists of one parent and dependent children?",
+              "options": [
+                "Reconstituted family",
+                "Extended family",
+                "Single-parent family",
+                "Same-sex family"
+              ],
+              "correct_answer": "Single-parent family",
+              "explanation": "A single-parent family has only one parent raising the dependent children, and this is the most common alternative to the nuclear family in the UK.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a reconstituted family also known as?",
+              "options": [
+                "A blended family",
+                "A traditional family",
+                "An extended family",
+                "A cohabiting family"
+              ],
+              "correct_answer": "A blended family",
+              "explanation": "A reconstituted or blended family is formed when two people with children from previous relationships live together as a family unit.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an example of a same-sex family?",
+              "options": [
+                "A mother and father with two children",
+                "Two mothers and their adopted children",
+                "A single mother with one child",
+                "A grandmother, parents, and children living together"
+              ],
+              "correct_answer": "Two mothers and their adopted children",
+              "explanation": "A same-sex family has two parents of the same gender, such as two mothers or two fathers, raising children together.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "When did divorce rates start to rise significantly in the UK?",
+              "options": [
+                "After the Divorce Reform Act 1969",
+                "After World War II",
+                "In the 1950s",
+                "In the 1980s"
+              ],
+              "correct_answer": "After the Divorce Reform Act 1969",
+              "explanation": "The Divorce Reform Act 1969 made it easier to get divorced, which led to a significant increase in divorce rates in the UK.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does cohabitation mean?",
+              "options": [
+                "Being married with children",
+                "Living together as a couple without being married",
+                "Having an extended family living together",
+                "Being in a same-sex relationship"
+              ],
+              "correct_answer": "Living together as a couple without being married",
+              "explanation": "Cohabitation is when couples live together in a long-term relationship without getting married, which has become increasingly common in modern UK society.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do the New Right believe about family structure?",
+              "options": [
+                "All family types are equally valid",
+                "Extended families are superior to nuclear families",
+                "The traditional nuclear family is the ideal family structure",
+                "Single-parent families are the best for children"
+              ],
+              "correct_answer": "The traditional nuclear family is the ideal family structure",
+              "explanation": "The New Right is a conservative political perspective that values the traditional nuclear family as the best and most important family type.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does feminism argue about families?",
+              "options": [
+                "Families are always equal and fair",
+                "The family often oppresses women and focuses on gender inequality",
+                "Nuclear families are perfect",
+                "Women should not work outside the home"
+              ],
+              "correct_answer": "The family often oppresses women and focuses on gender inequality",
+              "explanation": "Feminism is a sociological perspective that highlights how families can perpetuate gender inequality and argue that women are often disadvantaged within family structures.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is domestic labour?",
+              "options": [
+                "Working in a factory",
+                "Unpaid work done in the home such as cooking, cleaning, and childcare",
+                "Working for the government",
+                "Paid employment outside the home"
+              ],
+              "correct_answer": "Unpaid work done in the home such as cooking, cleaning, and childcare",
+              "explanation": "Domestic labour refers to the unpaid household work like cooking, cleaning, and looking after children, which sociologists note is disproportionately done by women.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "A nuclear family always includes grandparents living in the same house.",
+              "correct_answer": "False",
+              "explanation": "A nuclear family consists only of two parents and their dependent children. If grandparents live with them, it would be an extended family.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Single-parent families are the most common alternative to nuclear families in the UK.",
+              "correct_answer": "True",
+              "explanation": "Single-parent families, where one parent raises dependent children, are indeed the most common alternative family type to the traditional nuclear family in modern UK society.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Reconstituted families are created when two unmarried people start dating.",
+              "correct_answer": "False",
+              "explanation": "Reconstituted families are specifically formed when two people with children from previous relationships live together, not just any dating couple.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Cohabitation has become increasingly common in the UK.",
+              "correct_answer": "True",
+              "explanation": "Cohabitation, where couples live together without being married, is becoming more and more common in modern UK society.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The New Right believes that all family types are equally good.",
+              "correct_answer": "False",
+              "explanation": "The New Right is a conservative perspective that specifically values the traditional nuclear family as superior to other family types.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Feminism focuses on how gender inequality affects family life.",
+              "correct_answer": "True",
+              "explanation": "Feminism is a sociological perspective that examines gender inequality and argues that families often perpetuate unequal power relations between men and women.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Domestic labour is always paid work.",
+              "correct_answer": "False",
+              "explanation": "Domestic labour is specifically unpaid work done in the home, such as cooking, cleaning, and childcare.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Same-sex families can only consist of two parents without children.",
+              "correct_answer": "False",
+              "explanation": "Same-sex families can include two parents of the same gender with dependent children, either adopted or from previous relationships.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The Divorce Reform Act 1969 made it harder to get divorced.",
+              "correct_answer": "False",
+              "explanation": "The Divorce Reform Act 1969 actually made it easier to obtain a divorce, which led to increased divorce rates in the UK.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Extended families include aunts and uncles as part of the household.",
+              "correct_answer": "True",
+              "explanation": "Extended families include relatives beyond the nuclear family such as grandparents, aunts, uncles, and cousins, often living together or in close contact.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ family consists of two parents and their dependent children living together.",
+              "options": null,
+              "correct_answer": "nuclear",
+              "explanation": "A nuclear family is the most basic family unit with just parents and children.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ family includes grandparents, aunts, and uncles as part of the family unit.",
+              "options": null,
+              "correct_answer": "extended",
+              "explanation": "Extended families go beyond the nuclear family to include other blood relatives.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ family has one parent and dependent children.",
+              "options": null,
+              "correct_answer": "single-parent",
+              "explanation": "Single-parent families consist of one adult raising children, whether due to divorce, death, or other circumstances.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ family is formed when two people with children from previous relationships live together.",
+              "options": null,
+              "correct_answer": "reconstituted",
+              "explanation": "Reconstituted families, also called blended families, are created when previously separated people with children form a new household.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Living together as a couple without being married is called ________.",
+              "options": null,
+              "correct_answer": "cohabitation",
+              "explanation": "Cohabitation is the term for unmarried couples living together in a long-term relationship.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is a conservative perspective that sees the traditional nuclear family as ideal.",
+              "options": null,
+              "correct_answer": "New Right",
+              "explanation": "The New Right is a political perspective that values traditional family structures and opposes alternative family types.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a sociological perspective that focuses on gender inequality in families.",
+              "options": null,
+              "correct_answer": "Feminism",
+              "explanation": "Feminism examines how gender inequalities are created and maintained within family structures.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ refers to unpaid work such as cooking, cleaning, and childcare done in the home.",
+              "options": null,
+              "correct_answer": "Domestic labour",
+              "explanation": "Domestic labour is the housework and care work performed in the home, typically done more by women.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ family consists of two parents of the same gender.",
+              "options": null,
+              "correct_answer": "same-sex",
+              "explanation": "Same-sex families have two parents of the same gender, either two mothers or two fathers.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Since the ________ 1969, divorce rates in the UK have increased significantly.",
+              "options": null,
+              "correct_answer": "Divorce Reform Act",
+              "explanation": "The Divorce Reform Act 1969 made divorce easier to obtain, resulting in higher divorce rates.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Cohabitation",
+                  "match": "Living together as a couple without being married"
+                },
+                {
+                  "term": "Domestic labour",
+                  "match": "Unpaid work done in the home such as cooking and childcare"
+                },
+                {
+                  "term": "Feminism",
+                  "match": "A perspective that focuses on gender inequality in families"
+                },
+                {
+                  "term": "The New Right",
+                  "match": "A conservative perspective that values the traditional nuclear family"
+                },
+                {
+                  "term": "Reconstituted family",
+                  "match": "A family formed when two people with children from previous relationships live together"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Changing Families & Sociological Views",
+          "cards": [
+            {
+              "keyword": "functionalism",
+              "definition": "a sociological perspective that sees society as a system where each part has a function — views the family as essential for stability",
+              "display_order": 1
+            },
+            {
+              "keyword": "Marxism",
+              "definition": "a sociological perspective based on the ideas of Karl Marx — argues society is shaped by economic inequality and class conflict",
+              "display_order": 2
+            },
+            {
+              "keyword": "primary socialisation",
+              "definition": "the first stage of learning society's norms and values — takes place mainly within the family",
+              "display_order": 3
+            },
+            {
+              "keyword": "secondary socialisation",
+              "definition": "learning norms and values from institutions outside the family — e.g. school, media, peer groups",
+              "display_order": 4
+            },
+            {
+              "keyword": "social norms",
+              "definition": "the unwritten rules about behaviour that are considered acceptable in society",
+              "display_order": 5
+            },
+            {
+              "keyword": "social values",
+              "definition": "the beliefs and principles shared by members of a society about what is important or desirable",
+              "display_order": 6
+            },
+            {
+              "keyword": "gender roles",
+              "definition": "the behaviours and expectations society associates with being male or female",
+              "display_order": 7
+            },
+            {
+              "keyword": "symmetrical family",
+              "definition": "Young and Willmott's idea that modern families have more equal sharing of domestic tasks between partners",
+              "display_order": 8
+            },
+            {
+              "keyword": "secularisation",
+              "definition": "the decline of religious influence in society — linked to declining rates of religious marriage",
+              "display_order": 9
+            },
+            {
+              "keyword": "demographic change",
+              "definition": "changes in the size and composition of a population — e.g. an ageing population, falling birth rates",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which sociological perspective views the family as essential for maintaining social stability?",
+              "options": [
+                "Marxism",
+                "Functionalism",
+                "Feminism",
+                "Postmodernism"
+              ],
+              "correct_answer": "Functionalism",
+              "explanation": "Functionalism sees society as a system where each part has a function, and the family is viewed as essential for stability and order.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which perspective argues that society is shaped by economic inequality and class conflict?",
+              "options": [
+                "Functionalism",
+                "Interactionism",
+                "Marxism",
+                "Symbolic interactionism"
+              ],
+              "correct_answer": "Marxism",
+              "explanation": "Marxism, based on Karl Marx's ideas, focuses on how economic systems create inequality and conflict within society.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "At what stage does primary socialisation mainly take place?",
+              "options": [
+                "In school",
+                "Within the family",
+                "Through peer groups",
+                "At university"
+              ],
+              "correct_answer": "Within the family",
+              "explanation": "Primary socialisation is the first stage of learning society's norms and values, and it takes place mainly within the family during childhood.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of secondary socialisation?",
+              "options": [
+                "A baby learning to speak from their parents",
+                "A child learning to share from siblings",
+                "A teenager learning values from their school",
+                "An infant learning to eat solid food"
+              ],
+              "correct_answer": "A teenager learning values from their school",
+              "explanation": "Secondary socialisation happens in institutions outside the family, such as schools, media, and peer groups.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are social norms?",
+              "options": [
+                "Laws written in government documents",
+                "Religious teachings from churches",
+                "Unwritten rules about behaviour that are considered acceptable in society",
+                "Mathematical equations used in science"
+              ],
+              "correct_answer": "Unwritten rules about behaviour that are considered acceptable in society",
+              "explanation": "Social norms are informal, unwritten expectations about how people should behave in different situations.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the difference between social norms and social values?",
+              "options": [
+                "They are exactly the same thing",
+                "Norms are rules for behaviour; values are beliefs about what is important or desirable",
+                "Values are rules for behaviour; norms are beliefs about what is important",
+                "Norms are only found in families; values are found everywhere"
+              ],
+              "correct_answer": "Norms are rules for behaviour; values are beliefs about what is important or desirable",
+              "explanation": "Social norms are practical unwritten rules about behaviour, while social values are the deeper beliefs and principles about what matters in society.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What term describes the behaviours and expectations society associates with being male or female?",
+              "options": [
+                "Sexual orientation",
+                "Gender roles",
+                "Gender identity",
+                "Sex differences"
+              ],
+              "correct_answer": "Gender roles",
+              "explanation": "Gender roles refer to the behaviours, responsibilities, and expectations that society associates with masculinity and femininity.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "According to Young and Willmott, what is a symmetrical family?",
+              "options": [
+                "A family with equal numbers of sons and daughters",
+                "A family where the mother and father have the same job",
+                "A modern family with more equal sharing of domestic tasks between partners",
+                "A family that is perfectly balanced in all ways"
+              ],
+              "correct_answer": "A modern family with more equal sharing of domestic tasks between partners",
+              "explanation": "Young and Willmott's symmetrical family model suggests that in modern times, couples share household and childcare responsibilities more equally.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does secularisation mean?",
+              "options": [
+                "An increase in religious worship",
+                "The decline of religious influence in society",
+                "The growth of religious schools",
+                "People becoming more spiritual"
+              ],
+              "correct_answer": "The decline of religious influence in society",
+              "explanation": "Secularisation refers to the decrease in the importance and influence of religion in society, which is linked to declining religious marriage ceremonies.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of demographic change?",
+              "options": [
+                "A change in people's fashion preferences",
+                "An increase in the number of people using social media",
+                "An ageing population with falling birth rates",
+                "A change in people's political beliefs"
+              ],
+              "correct_answer": "An ageing population with falling birth rates",
+              "explanation": "Demographic change refers to changes in the size and composition of a population, such as population ageing or declining birth rates.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Functionalism views the family as having an important role in maintaining social stability.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Functionalism sees society as a system where each part, including the family, has an essential function for keeping society stable.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Marxism focuses on the idea that economic inequality is not important in society.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Marxism actually argues that economic inequality and class conflict are central to understanding how society works.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Primary socialisation is the process of learning norms and values from institutions like schools and media.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Primary socialisation occurs mainly within the family; learning from schools and media is secondary socialisation.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Social norms are written down in law books and official documents.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Social norms are unwritten, informal rules about what is considered acceptable behaviour in society.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Gender roles are the same in every culture and society across the world.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Gender roles vary significantly between different cultures and societies, showing they are socially constructed rather than universal.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The symmetrical family model suggests that modern couples share domestic tasks and childcare more equally than in the past.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Young and Willmott's symmetrical family concept describes modern families as having a more equal division of domestic labour between partners.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Secularisation means that more people are getting married in religious ceremonies.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Secularisation is the decline of religious influence, so it is actually linked to declining rates of religious marriage ceremonies.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Demographic change includes changes in population size and composition.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Demographic change refers to shifts in the size and structure of a population, such as ageing populations or changes in birth rates.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Secondary socialisation only happens during childhood and teenage years.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Secondary socialisation can occur throughout life, as people continue to learn from institutions like workplaces and community groups.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Social values are the practical unwritten rules about how people should behave.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Social values are beliefs and principles about what is important or desirable; social norms are the unwritten rules about behaviour.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a sociological perspective that sees society as a system where each part has a function.",
+              "options": null,
+              "correct_answer": "Functionalism",
+              "explanation": "Functionalism views society and its institutions, including the family, as working together to maintain stability and order.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The first stage of learning society's norms and values is called ________ socialisation.",
+              "options": null,
+              "correct_answer": "primary",
+              "explanation": "Primary socialisation takes place mainly within the family and is where children first learn the norms and values of their society.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Learning norms and values from school, media, and peer groups is an example of ________ socialisation.",
+              "options": null,
+              "correct_answer": "secondary",
+              "explanation": "Secondary socialisation happens in institutions and social groups outside the family, such as schools and friendship groups.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The unwritten rules about what is considered acceptable behaviour in society are called social ________.",
+              "options": null,
+              "correct_answer": "norms",
+              "explanation": "Social norms are the informal, unwritten expectations about how people should behave in different social situations.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The beliefs and principles that a society values and considers important are called social ________.",
+              "options": null,
+              "correct_answer": "values",
+              "explanation": "Social values are the shared beliefs about what is important or desirable in a society, like honesty, family, and hard work.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The behaviours and expectations society associates with being male or female are called ________.",
+              "options": null,
+              "correct_answer": "gender roles",
+              "explanation": "Gender roles are the socially constructed expectations about how men and women should behave and what activities they should do.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Young and Willmott described a ________ family as one where partners share domestic tasks more equally.",
+              "options": null,
+              "correct_answer": "symmetrical",
+              "explanation": "The symmetrical family model describes modern families where household labour and childcare are more equally divided between partners.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of religious influence in society has led to a decline in religious marriage ceremonies.",
+              "options": null,
+              "correct_answer": "decline",
+              "explanation": "Secularisation is the decline of religious influence in society, which is reflected in fewer people choosing religious marriages.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Changes in the size and composition of a population, such as an ageing society, are examples of ________ change.",
+              "options": null,
+              "correct_answer": "demographic",
+              "explanation": "Demographic change refers to shifts in population structure, including changes in age distribution and birth rates.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The sociological perspective based on Karl Marx's ideas that focuses on economic inequality is called ________.",
+              "options": null,
+              "correct_answer": "Marxism",
+              "explanation": "Marxism analyses how economic systems create class conflict and inequality, shaping all aspects of society including the family.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Functionalism",
+                  "match": "A perspective that sees the family as essential for social stability"
+                },
+                {
+                  "term": "Primary socialisation",
+                  "match": "Learning society's norms and values mainly within the family"
+                },
+                {
+                  "term": "Social norms",
+                  "match": "Unwritten rules about acceptable behaviour in society"
+                },
+                {
+                  "term": "Gender roles",
+                  "match": "Behaviours and expectations society associates with being male or female"
+                },
+                {
+                  "term": "Secularisation",
+                  "match": "The decline of religious influence in society"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Education & Society",
+          "cards": [
+            {
+              "keyword": "meritocracy",
+              "definition": "the idea that success is based on ability and effort, not background or privilege",
+              "display_order": 1
+            },
+            {
+              "keyword": "social class",
+              "definition": "a system of social stratification based on economic factors such as income, wealth, and occupation",
+              "display_order": 2
+            },
+            {
+              "keyword": "cultural capital",
+              "definition": "Bourdieu's idea that middle-class children have knowledge, attitudes, and skills that give them an advantage in education",
+              "display_order": 3
+            },
+            {
+              "keyword": "material deprivation",
+              "definition": "lacking the physical resources needed to succeed in education — e.g. no quiet study space, poor diet, inability to afford equipment",
+              "display_order": 4
+            },
+            {
+              "keyword": "labelling theory",
+              "definition": "the idea that teachers label students based on their class, gender, or ethnicity — affecting their self-belief and achievement",
+              "display_order": 5
+            },
+            {
+              "keyword": "self-fulfilling prophecy",
+              "definition": "when a prediction comes true because people act on the label given to them — a key concept in education sociology",
+              "display_order": 6
+            },
+            {
+              "keyword": "streaming / setting",
+              "definition": "grouping students by perceived ability — can reinforce social class inequalities",
+              "display_order": 7
+            },
+            {
+              "keyword": "hidden curriculum",
+              "definition": "the informal lessons schools teach about norms, values, and behaviour — e.g. obedience to authority, punctuality",
+              "display_order": 8
+            },
+            {
+              "keyword": "gender gap in education",
+              "definition": "the difference in educational achievement between boys and girls — girls outperform boys in most subjects at GCSE",
+              "display_order": 9
+            },
+            {
+              "keyword": "ethnicity and achievement",
+              "definition": "differences in educational attainment between ethnic groups — Chinese and Indian students tend to outperform the national average in the UK",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does the term 'meritocracy' mean in education?",
+              "options": [
+                "Success is based on ability and effort, not background or privilege",
+                "Success is guaranteed to those from wealthy families",
+                "Success depends entirely on luck and chance",
+                "Success is only possible for students in private schools"
+              ],
+              "correct_answer": "Success is based on ability and effort, not background or privilege",
+              "explanation": "Meritocracy is the belief that anyone can succeed if they work hard enough, regardless of their social class or family background.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of material deprivation?",
+              "options": [
+                "A student's teacher giving them a negative label",
+                "A student not having a quiet space at home to study",
+                "A student being placed in a lower ability group at school",
+                "A student not understanding the hidden curriculum"
+              ],
+              "correct_answer": "A student not having a quiet space at home to study",
+              "explanation": "Material deprivation refers to lacking physical resources needed for success in education, such as study space, equipment, or nutritious food.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is cultural capital, according to Bourdieu?",
+              "options": [
+                "Money that middle-class families have saved for education",
+                "Knowledge, attitudes, and skills that give middle-class children an advantage in education",
+                "The curriculum taught in schools about different cultures",
+                "Government funding given to schools in wealthy areas"
+              ],
+              "correct_answer": "Knowledge, attitudes, and skills that give middle-class children an advantage in education",
+              "explanation": "Bourdieu argued that middle-class families pass on cultural advantages like language skills and familiarity with education that help their children succeed.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is labelling theory in education?",
+              "options": [
+                "The process of marking students' work in class",
+                "Teachers organizing students into groups by ability",
+                "The idea that teachers label students based on their class, gender, or ethnicity, affecting their achievement",
+                "The system of giving students grades and certificates"
+              ],
+              "correct_answer": "The idea that teachers label students based on their class, gender, or ethnicity, affecting their achievement",
+              "explanation": "Labelling theory suggests that when teachers form stereotypes or negative expectations about certain students, it can harm their confidence and performance.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does the hidden curriculum affect students?",
+              "options": [
+                "It teaches official subjects like English and Maths",
+                "It teaches informal lessons about norms, values, and behaviour such as obedience and punctuality",
+                "It is a secret part of the school syllabus that only teachers know about",
+                "It provides extra qualifications that appear on students' transcripts"
+              ],
+              "correct_answer": "It teaches informal lessons about norms, values, and behaviour such as obedience and punctuality",
+              "explanation": "The hidden curriculum includes the unwritten rules and values that schools teach, like respecting authority and arriving on time.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a self-fulfilling prophecy in education?",
+              "options": [
+                "A student predicting they will pass their exams",
+                "A teacher making a prediction about a student's future career",
+                "When a prediction comes true because people act on the label given to them",
+                "A student's parents expecting them to go to university"
+              ],
+              "correct_answer": "When a prediction comes true because people act on the label given to them",
+              "explanation": "A self-fulfilling prophecy occurs when a negative label (e.g., 'You're not good at maths') causes a student to believe it and then actually perform poorly.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which statement best describes the gender gap in education?",
+              "options": [
+                "Boys consistently outperform girls in all subjects at GCSE",
+                "Girls outperform boys in most subjects at GCSE",
+                "There is no difference in achievement between boys and girls",
+                "Only girls study subjects like English and History"
+              ],
+              "correct_answer": "Girls outperform boys in most subjects at GCSE",
+              "explanation": "Current education statistics show that girls achieve higher GCSE results than boys across most subjects in the UK.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What can streaming and setting do to students from lower social classes?",
+              "options": [
+                "It helps all students succeed equally",
+                "It can reinforce social class inequalities by placing working-class students in lower groups",
+                "It has no effect on students' educational outcomes",
+                "It guarantees that all students will pass their exams"
+              ],
+              "correct_answer": "It can reinforce social class inequalities by placing working-class students in lower groups",
+              "explanation": "Streaming and setting can create and maintain inequality because working-class students may be placed in lower ability groups and receive less challenging education.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "According to the flashcards, which ethnic groups tend to outperform the national average in UK education?",
+              "options": [
+                "All ethnic groups perform equally",
+                "Only British students outperform the national average",
+                "Chinese and Indian students tend to outperform the national average",
+                "No ethnic group outperforms the national average"
+              ],
+              "correct_answer": "Chinese and Indian students tend to outperform the national average",
+              "explanation": "Research shows that Chinese and Indian students in the UK tend to achieve higher results than the national average at GCSE.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is social class in the context of education?",
+              "options": [
+                "A school lesson about different types of societies",
+                "A ranking system used by teachers to group students",
+                "A system of social stratification based on economic factors such as income, wealth, and occupation",
+                "The most popular students in a school year group"
+              ],
+              "correct_answer": "A system of social stratification based on economic factors such as income, wealth, and occupation",
+              "explanation": "Social class divides society into groups based on money, property, and type of job, which affects educational opportunities and outcomes.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Meritocracy means that success in education is based purely on ability and effort, regardless of background.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "This is the definition of meritocracy — the belief that hard work and talent, not privilege, determine success.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Cultural capital only refers to money that families spend on education.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Cultural capital includes knowledge, skills, and attitudes — not just money. It refers to the cultural advantages middle-class families pass on to their children.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Material deprivation can include not having access to a computer or study materials at home.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Material deprivation means lacking the physical resources needed for education, such as equipment, study space, or technology.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Labelling theory suggests that teacher expectations have no impact on student achievement.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Labelling theory argues that teacher labels and expectations directly affect how students see themselves and how well they perform.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The hidden curriculum teaches students about obedience and punctuality.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The hidden curriculum is the informal teaching of values and behaviour like respecting authority and arriving on time.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "A self-fulfilling prophecy happens when a positive prediction about a student always comes true by chance.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "A self-fulfilling prophecy occurs when people act on a label or prediction (positive or negative), making it come true through their behaviour.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Streaming students by ability can reinforce social class inequalities in education.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Streaming can reinforce inequality because working-class students may be placed in lower groups and receive less challenging education.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Boys consistently outperform girls in most GCSE subjects in the UK.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The opposite is true — girls outperform boys in most subjects at GCSE according to current educational statistics.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Ethnicity has no impact on educational achievement in the UK.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Different ethnic groups have different levels of educational achievement. For example, Chinese and Indian students tend to outperform the national average.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Social class is determined only by how much money a person earns.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Social class is based on multiple economic factors including income, wealth, and occupation, not just salary alone.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Bourdieu's concept of ________ explains why middle-class children have advantages in education through knowledge and skills passed on by their families.",
+              "options": null,
+              "correct_answer": "cultural capital",
+              "explanation": "Cultural capital refers to the non-financial advantages that middle-class families provide to their children.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "When a teacher's negative expectation about a student causes them to underperform, this is called a ________.",
+              "options": null,
+              "correct_answer": "self-fulfilling prophecy",
+              "explanation": "A self-fulfilling prophecy is when a label or prediction causes behaviour that makes the prediction come true.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the informal curriculum that teaches students about obedience, punctuality, and other values.",
+              "options": null,
+              "correct_answer": "hidden curriculum",
+              "explanation": "The hidden curriculum includes unwritten lessons about norms and behaviour that schools teach alongside the formal curriculum.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ deprivation refers to lacking physical resources such as study space, equipment, or nutritious food needed for educational success.",
+              "options": null,
+              "correct_answer": "Material",
+              "explanation": "Material deprivation describes the lack of concrete, physical resources that students need to succeed in education.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The belief that success is based on ability and effort rather than background or privilege is called ________.",
+              "options": null,
+              "correct_answer": "meritocracy",
+              "explanation": "Meritocracy is the ideal that anyone can succeed through hard work and talent, regardless of their starting position.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ theory suggests that when teachers label students, it affects their self-belief and educational achievement.",
+              "options": null,
+              "correct_answer": "Labelling",
+              "explanation": "Labelling theory examines how teacher stereotypes and expectations influence student identity and performance.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Grouping students by perceived ability, known as ________ or setting, can reinforce social class inequalities.",
+              "options": null,
+              "correct_answer": "streaming",
+              "explanation": "Streaming divides students into groups based on ability, which can maintain and deepen educational inequalities between social classes.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "In the UK, there is a ________ in education, with girls outperforming boys in most subjects at GCSE.",
+              "options": null,
+              "correct_answer": "gender gap",
+              "explanation": "The gender gap in education refers to the measurable difference in achievement between boys and girls, with girls currently performing better.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ and ethnicity are key factors that can affect a student's educational opportunities and outcomes.",
+              "options": null,
+              "correct_answer": "Social class",
+              "explanation": "Social class divides society based on income, wealth, and occupation, and significantly influences educational achievement.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Research shows that ________ and Indian students tend to outperform the national average in UK education.",
+              "options": null,
+              "correct_answer": "Chinese",
+              "explanation": "Chinese and Indian ethnic groups demonstrate higher average achievement levels compared to the national average in UK schools.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Meritocracy",
+                  "match": "The belief that success is based on ability and effort, not background"
+                },
+                {
+                  "term": "Cultural capital",
+                  "match": "Middle-class knowledge and skills that give children an advantage in education"
+                },
+                {
+                  "term": "Hidden curriculum",
+                  "match": "Informal lessons about norms, values, and behaviour taught in schools"
+                },
+                {
+                  "term": "Self-fulfilling prophecy",
+                  "match": "When a prediction comes true because people act on a label given to them"
+                },
+                {
+                  "term": "Material deprivation",
+                  "match": "Lacking physical resources needed for educational success, such as study space or equipment"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crime & Deviance",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Crime, Deviance & Social Control",
+          "cards": [
+            {
+              "keyword": "crime",
+              "definition": "behaviour that breaks the law of society — defined by the state and can result in punishment",
+              "display_order": 1
+            },
+            {
+              "keyword": "deviance",
+              "definition": "behaviour that breaks social norms but is not necessarily illegal — e.g. unusual dress, rude behaviour",
+              "display_order": 2
+            },
+            {
+              "keyword": "social control",
+              "definition": "the methods used by society to encourage conformity and discourage rule-breaking — formal and informal",
+              "display_order": 3
+            },
+            {
+              "keyword": "formal social control",
+              "definition": "control enforced by official institutions — e.g. police, courts, prison",
+              "display_order": 4
+            },
+            {
+              "keyword": "informal social control",
+              "definition": "control through social pressure and disapproval — e.g. family, peer groups, religion",
+              "display_order": 5
+            },
+            {
+              "keyword": "strain theory (Merton)",
+              "definition": "the idea that crime occurs when people cannot achieve society's goals (e.g. wealth) through legitimate means",
+              "display_order": 6
+            },
+            {
+              "keyword": "subcultural theory",
+              "definition": "the idea that some groups develop alternative values that conflict with mainstream society — leading to delinquency",
+              "display_order": 7
+            },
+            {
+              "keyword": "official crime statistics",
+              "definition": "data on crime collected by police and the Home Office — critics argue they underrepresent the true level of crime",
+              "display_order": 8
+            },
+            {
+              "keyword": "victim surveys",
+              "definition": "surveys asking people about crimes committed against them — the Crime Survey for England and Wales is the main example",
+              "display_order": 9
+            },
+            {
+              "keyword": "white-collar crime",
+              "definition": "crimes committed by people in professional, high-status occupations — e.g. fraud, tax evasion",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the definition of crime?",
+              "options": [
+                "Behaviour that breaks social norms but is not necessarily illegal",
+                "Behaviour that breaks the law of society and can result in punishment",
+                "The methods used by society to encourage conformity",
+                "Unusual dress or rude behaviour that offends others"
+              ],
+              "correct_answer": "Behaviour that breaks the law of society and can result in punishment",
+              "explanation": "Crime is specifically defined as behaviour that breaks the law and can lead to formal punishment. This distinguishes it from deviance, which breaks social norms but may not be illegal.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of deviance but NOT crime?",
+              "options": [
+                "Robbery",
+                "Murder",
+                "Wearing unusual clothes",
+                "Burglary"
+              ],
+              "correct_answer": "Wearing unusual clothes",
+              "explanation": "Wearing unusual clothes breaks social norms (deviance) but is not illegal. The other options are all crimes because they break the law.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is social control?",
+              "options": [
+                "The punishment given by courts for breaking the law",
+                "The methods used by society to encourage conformity and discourage rule-breaking",
+                "Behaviour that breaks social norms",
+                "Crimes committed by professional people"
+              ],
+              "correct_answer": "The methods used by society to encourage conformity and discourage rule-breaking",
+              "explanation": "Social control refers to all the ways society encourages people to follow rules and norms, including both formal and informal methods.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which is an example of formal social control?",
+              "options": [
+                "Friends telling you that your behaviour is unacceptable",
+                "Your family disapproving of your choices",
+                "The police enforcing the law",
+                "Religious teachings about what is right and wrong"
+              ],
+              "correct_answer": "The police enforcing the law",
+              "explanation": "Formal social control is enforced by official institutions like the police, courts, and prisons. The other options are examples of informal social control through social pressure.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an example of informal social control?",
+              "options": [
+                "Prison sentences handed down by courts",
+                "Police stopping someone for speeding",
+                "Your peer group excluding you for breaking norms",
+                "Official fines issued by the government"
+              ],
+              "correct_answer": "Your peer group excluding you for breaking norms",
+              "explanation": "Informal social control works through social pressure and disapproval from groups like family and friends, rather than through official institutions.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "According to Merton's strain theory, why does crime occur?",
+              "options": [
+                "Because people have alternative subcultural values",
+                "Because society does not have enough police officers",
+                "Because people cannot achieve society's goals through legitimate means",
+                "Because official crime statistics are inaccurate"
+              ],
+              "correct_answer": "Because people cannot achieve society's goals through legitimate means",
+              "explanation": "Merton argued that crime happens when people want to achieve socially valued goals like wealth but cannot do so through legal methods, so they turn to crime.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does subcultural theory suggest?",
+              "options": [
+                "Some groups develop alternative values that conflict with mainstream society",
+                "Crime is always caused by poverty",
+                "Official crime statistics are completely accurate",
+                "White-collar criminals should not be punished"
+              ],
+              "correct_answer": "Some groups develop alternative values that conflict with mainstream society",
+              "explanation": "Subcultural theory explains that some groups may develop their own norms and values that differ from the wider society, which can lead to delinquency.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a key criticism of official crime statistics?",
+              "options": [
+                "They include too many white-collar crimes",
+                "They underrepresent the true level of crime",
+                "They are collected by victim surveys",
+                "They are based on strain theory"
+              ],
+              "correct_answer": "They underrepresent the true level of crime",
+              "explanation": "Official crime statistics collected by police and the Home Office only record crimes that are reported and recorded, missing many crimes that go unreported or unrecorded.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are victim surveys used for?",
+              "options": [
+                "To punish people who have committed crimes",
+                "To ask people about crimes committed against them",
+                "To train police officers",
+                "To determine sentences for criminals"
+              ],
+              "correct_answer": "To ask people about crimes committed against them",
+              "explanation": "Victim surveys ask people directly about crimes they have experienced, providing data that may not be recorded in official statistics.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of white-collar crime?",
+              "options": [
+                "Shoplifting from a supermarket",
+                "Mugging someone in the street",
+                "Tax evasion by a business owner",
+                "Vandalism of public property"
+              ],
+              "correct_answer": "Tax evasion by a business owner",
+              "explanation": "White-collar crime is committed by people in professional, high-status occupations and includes offences like fraud and tax evasion.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Deviance is always illegal.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Deviance breaks social norms but is not necessarily illegal. For example, unusual dress is deviant but not a crime. Crime, however, always breaks the law.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Formal social control is enforced by official institutions like the police and courts.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Formal social control is delivered through official systems and institutions that have the power to enforce rules and punish rule-breaking.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Family disapproval is an example of formal social control.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Family disapproval is informal social control because it works through social pressure and relationships rather than through official institutions.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "According to strain theory, crime can result from the gap between goals and legitimate means.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Merton's strain theory explains that when people want to achieve goals like wealth but cannot do so legally, they may turn to crime as an alternative means.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Subcultural theory suggests that all groups in society share the same values.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Subcultural theory states that some groups develop alternative values and norms that differ from mainstream society, not that everyone shares the same values.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The Crime Survey for England and Wales is an example of a victim survey.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The Crime Survey for England and Wales is the main victim survey used in the UK, asking people about crimes they have experienced.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Official crime statistics always show the complete and accurate picture of crime.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Official crime statistics are based only on reported and recorded crimes, so they underrepresent the true level of crime because many crimes go unreported.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "White-collar crime is committed by people in professional, high-status occupations.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "White-collar crime is specifically defined as crime committed by professionals such as business owners, accountants, and managers.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Peer groups can be a form of informal social control.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Peer groups use social pressure and disapproval to encourage conformity, making them an example of informal social control.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "All deviance is crime.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Not all deviance is crime. Deviance breaks social norms, but crime specifically breaks the law. Some deviance (like unusual fashion) is not illegal.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is behaviour that breaks the law of society and can result in punishment.",
+              "options": null,
+              "correct_answer": "Crime",
+              "explanation": "Crime is the key term defined as behaviour that breaks the law and can lead to formal punishment by the state.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is behaviour that breaks social norms but is not necessarily illegal.",
+              "options": null,
+              "correct_answer": "Deviance",
+              "explanation": "Deviance refers to behaviour that violates social norms, such as unusual dress or rudeness, without necessarily being a crime.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The methods used by society to encourage conformity and discourage rule-breaking are called ________.",
+              "options": null,
+              "correct_answer": "social control",
+              "explanation": "Social control encompasses all the ways society encourages people to follow rules, including both formal and informal methods.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Control enforced by official institutions such as police, courts, and prisons is called ________ social control.",
+              "options": null,
+              "correct_answer": "formal",
+              "explanation": "Formal social control is enforced by official state institutions that have legal authority to punish rule-breaking.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Control through social pressure and disapproval from family, peer groups, and religion is called ________ social control.",
+              "options": null,
+              "correct_answer": "informal",
+              "explanation": "Informal social control works through relationships and social groups rather than official institutions, using disapproval to encourage conformity.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Merton's ________ theory explains that crime occurs when people cannot achieve society's goals through legitimate means.",
+              "options": null,
+              "correct_answer": "strain",
+              "explanation": "Strain theory is Merton's theory that proposes crime happens when there is a gap between cultural goals and legitimate opportunities to achieve them.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ theory suggests that some groups develop alternative values that conflict with mainstream society.",
+              "options": null,
+              "correct_answer": "Subcultural",
+              "explanation": "Subcultural theory explains delinquency by showing how groups can develop norms and values different from wider society.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Data on crime collected by police and the Home Office is called ________ crime statistics.",
+              "options": null,
+              "correct_answer": "official",
+              "explanation": "Official crime statistics are collected by state institutions but are criticised for underrepresenting the true level of crime.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ for England and Wales is a survey that asks people about crimes committed against them.",
+              "options": null,
+              "correct_answer": "Crime Survey",
+              "explanation": "The Crime Survey for England and Wales is the main victim survey used to gather data on unreported crime.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Crimes committed by people in professional, high-status occupations, such as fraud and tax evasion, are known as ________-collar crime.",
+              "options": null,
+              "correct_answer": "white",
+              "explanation": "White-collar crime refers to offences committed by professionals and business people in positions of trust and authority.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Crime",
+                  "match": "Behaviour that breaks the law and can result in punishment"
+                },
+                {
+                  "term": "Informal social control",
+                  "match": "Control through social pressure from family, peers, and religion"
+                },
+                {
+                  "term": "Strain theory",
+                  "match": "Crime occurs when people cannot achieve goals through legitimate means"
+                },
+                {
+                  "term": "White-collar crime",
+                  "match": "Crimes committed by professionals such as fraud and tax evasion"
+                },
+                {
+                  "term": "Victim surveys",
+                  "match": "Surveys asking people about crimes committed against them"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research Methods",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Sociological Research Methods",
+          "cards": [
+            {
+              "keyword": "quantitative data",
+              "definition": "data in numerical form — e.g. statistics, percentages, graphs. Associated with positivism",
+              "display_order": 1
+            },
+            {
+              "keyword": "qualitative data",
+              "definition": "data in words, descriptions, or meanings — e.g. interview transcripts, observations. Associated with interpretivism",
+              "display_order": 2
+            },
+            {
+              "keyword": "questionnaire / survey",
+              "definition": "a set of written questions used to collect data from a large number of people",
+              "display_order": 3
+            },
+            {
+              "keyword": "structured interview",
+              "definition": "an interview where questions are fixed in advance — produces comparable data but limits depth of response",
+              "display_order": 4
+            },
+            {
+              "keyword": "unstructured interview",
+              "definition": "a free-flowing interview guided by the participant — produces rich, detailed data but harder to compare",
+              "display_order": 5
+            },
+            {
+              "keyword": "participant observation",
+              "definition": "the researcher joins a group and observes them from the inside — high validity but time-consuming and raises ethical issues",
+              "display_order": 6
+            },
+            {
+              "keyword": "reliability",
+              "definition": "the extent to which a study produces the same results if repeated — quantitative methods tend to have higher reliability",
+              "display_order": 7
+            },
+            {
+              "keyword": "validity",
+              "definition": "the extent to which research measures what it claims to measure — qualitative methods tend to have higher validity",
+              "display_order": 8
+            },
+            {
+              "keyword": "representativeness",
+              "definition": "how well a sample reflects the wider population — affects whether findings can be generalised",
+              "display_order": 9
+            },
+            {
+              "keyword": "ethics in research",
+              "definition": "the moral principles researchers must follow — including informed consent, confidentiality, and avoiding harm to participants",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What type of data is shown in a bar chart displaying crime statistics?",
+              "options": [
+                "Qualitative data",
+                "Quantitative data",
+                "Observational data",
+                "Interview data"
+              ],
+              "correct_answer": "Quantitative data",
+              "explanation": "A bar chart uses numbers and statistics to represent data, which is quantitative data. Quantitative data is numerical and often associated with positivism.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which method would produce qualitative data?",
+              "options": [
+                "A survey with 500 people",
+                "Counting the number of cars in a car park",
+                "Interview transcripts from teenagers about their social media use",
+                "Recording percentages of exam pass rates"
+              ],
+              "correct_answer": "Interview transcripts from teenagers about their social media use",
+              "explanation": "Interview transcripts contain words, descriptions, and meanings rather than numbers, making them qualitative data. This type of data is associated with interpretivism.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main advantage of using a questionnaire?",
+              "options": [
+                "It takes a long time to complete",
+                "It can collect data from a large number of people quickly",
+                "It produces very detailed personal information",
+                "It is difficult to analyse the results"
+              ],
+              "correct_answer": "It can collect data from a large number of people quickly",
+              "explanation": "Questionnaires are written sets of questions that can be distributed to many people efficiently, making them useful for collecting data from large samples.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which type of interview uses fixed questions prepared in advance?",
+              "options": [
+                "Unstructured interview",
+                "Observation interview",
+                "Structured interview",
+                "Focus group interview"
+              ],
+              "correct_answer": "Structured interview",
+              "explanation": "A structured interview has predetermined, fixed questions that are asked to each participant in the same way. This produces comparable data but limits the depth of responses.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a key disadvantage of unstructured interviews?",
+              "options": [
+                "They are too quick",
+                "They produce numerical data only",
+                "The results are harder to compare between participants",
+                "They require no training"
+              ],
+              "correct_answer": "The results are harder to compare between participants",
+              "explanation": "Unstructured interviews are flexible and free-flowing, which produces rich, detailed data. However, because each interview is different, comparing the results between participants is more difficult.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is participant observation?",
+              "options": [
+                "Watching people from a distance without them knowing",
+                "The researcher joins a group and observes them from the inside",
+                "Recording observations on a questionnaire",
+                "Interviewing participants about their observations"
+              ],
+              "correct_answer": "The researcher joins a group and observes them from the inside",
+              "explanation": "Participant observation involves the researcher becoming part of the group they are studying to understand their behaviour from an insider perspective. This produces high validity but is time-consuming.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why might participant observation raise ethical concerns?",
+              "options": [
+                "It is too cheap to conduct",
+                "Participants might not know they are being studied",
+                "It uses questionnaires",
+                "It always produces quantitative data"
+              ],
+              "correct_answer": "Participants might not know they are being studied",
+              "explanation": "Participant observation can raise ethical issues because the researcher may not reveal their role, meaning participants cannot give informed consent to being studied.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which statement best describes reliability?",
+              "options": [
+                "Whether the research measures what it claims to measure",
+                "Whether a study produces the same results if repeated",
+                "Whether the sample represents the wider population",
+                "Whether participants have agreed to take part"
+              ],
+              "correct_answer": "Whether a study produces the same results if repeated",
+              "explanation": "Reliability refers to consistency — if a study is repeated, reliable research should produce the same or very similar results. Quantitative methods typically have higher reliability.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does validity mean in research?",
+              "options": [
+                "Whether the sample is large enough",
+                "Whether the questions are easy to understand",
+                "The extent to which research measures what it claims to measure",
+                "Whether the researcher follows time limits"
+              ],
+              "correct_answer": "The extent to which research measures what it claims to measure",
+              "explanation": "Validity is about measuring what you intend to measure. Qualitative methods tend to have higher validity because they capture deeper meanings and authentic experiences.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is representativeness in research?",
+              "options": [
+                "The speed at which data is collected",
+                "How well a sample reflects the wider population",
+                "Whether the researcher is trustworthy",
+                "The cost of conducting the research"
+              ],
+              "correct_answer": "How well a sample reflects the wider population",
+              "explanation": "Representativeness means the sample accurately reflects the characteristics of the population being studied. Good representativeness allows findings to be generalised to the wider population.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Quantitative data is always associated with interpretivism.",
+              "correct_answer": "False",
+              "explanation": "Quantitative data (numerical data) is associated with positivism, not interpretivism. Qualitative data is associated with interpretivism.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "A questionnaire can collect data from a large number of people.",
+              "correct_answer": "True",
+              "explanation": "Questionnaires are written sets of questions that can be given to hundreds or thousands of people, making them efficient for large-scale data collection.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Structured interviews allow the researcher to follow up with unexpected answers.",
+              "correct_answer": "False",
+              "explanation": "Structured interviews use fixed questions prepared in advance, so researchers follow a set script and cannot easily deviate to explore unexpected answers. Unstructured interviews allow this flexibility.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Participant observation produces qualitative data.",
+              "correct_answer": "True",
+              "explanation": "Participant observation involves detailed descriptions and observations of behaviour and social interactions, which are typically recorded as qualitative data.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Reliability and validity mean the same thing in research.",
+              "correct_answer": "False",
+              "explanation": "Reliability is about consistency (producing the same results when repeated), while validity is about measuring what you claim to measure. They are different concepts.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Qualitative methods tend to have higher validity than quantitative methods.",
+              "correct_answer": "True",
+              "explanation": "Qualitative methods capture deeper meanings and authentic experiences, giving them higher validity. Quantitative methods tend to have higher reliability instead.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "A representative sample must contain at least 10,000 participants.",
+              "correct_answer": "False",
+              "explanation": "Representativeness is about whether the sample reflects the wider population, not about sample size. A smaller sample can be representative if selected properly.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Informed consent is an important ethical principle in research.",
+              "correct_answer": "True",
+              "explanation": "Informed consent means participants must be told about the study and agree to take part. This is a key ethical principle that researchers must follow.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Confidentiality means keeping participants' identities private in research.",
+              "correct_answer": "True",
+              "explanation": "Confidentiality protects participants by keeping their personal information and identities hidden in research reports. This is an important ethical requirement.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Interview data is always more reliable than questionnaire data.",
+              "correct_answer": "False",
+              "explanation": "Interviews produce qualitative data which tends to have higher validity but lower reliability. Questionnaires produce quantitative data with higher reliability. Neither is always better.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ data is presented in numerical form, such as statistics and percentages.",
+              "options": null,
+              "correct_answer": "Quantitative",
+              "explanation": "Quantitative data refers to data in numerical form that can be measured and counted, like statistics, percentages, and graphs.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Interview transcripts and observations are examples of ________ data.",
+              "options": null,
+              "correct_answer": "Qualitative",
+              "explanation": "Qualitative data is non-numerical data expressed in words, descriptions, and meanings, such as interview transcripts and observational notes.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a set of written questions used to collect data from many people.",
+              "options": null,
+              "correct_answer": "questionnaire",
+              "explanation": "A questionnaire is a research method that uses a written set of questions to gather data efficiently from large samples of people.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "In a ________ interview, the researcher follows a fixed set of predetermined questions.",
+              "options": null,
+              "correct_answer": "structured",
+              "explanation": "A structured interview uses fixed, pre-prepared questions that are asked in the same way to each participant, producing comparable but sometimes shallow data.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ interview is flexible and free-flowing, guided by the participant's responses.",
+              "options": null,
+              "correct_answer": "unstructured",
+              "explanation": "An unstructured interview lacks predetermined questions and is led by the participant, producing rich, detailed data but making comparison between participants difficult.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ observation involves the researcher joining a group and observing from the inside.",
+              "options": null,
+              "correct_answer": "Participant",
+              "explanation": "Participant observation is where the researcher becomes a member of the group being studied to observe their behaviour and interactions from an insider perspective.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the extent to which research produces the same results when repeated.",
+              "options": null,
+              "correct_answer": "Reliability",
+              "explanation": "Reliability refers to the consistency and repeatability of research findings. Quantitative methods typically have higher reliability than qualitative methods.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ measures whether research actually measures what it claims to measure.",
+              "options": null,
+              "correct_answer": "Validity",
+              "explanation": "Validity refers to whether research accurately measures the concept it intends to measure. Qualitative methods tend to have higher validity than quantitative methods.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ refers to how well a sample reflects the characteristics of the wider population.",
+              "options": null,
+              "correct_answer": "Representativeness",
+              "explanation": "Representativeness indicates whether a sample accurately reflects the wider population, which determines whether findings can be generalised to the whole population.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Researchers must follow ________ principles such as informed consent and confidentiality.",
+              "options": null,
+              "correct_answer": "ethics",
+              "explanation": "Ethics in research refers to the moral principles that guide researcher behaviour, including informed consent, confidentiality, avoiding harm, and treating participants fairly.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Quantitative data",
+                  "match": "Data in numerical form such as statistics and percentages"
+                },
+                {
+                  "term": "Validity",
+                  "match": "The extent to which research measures what it claims to measure"
+                },
+                {
+                  "term": "Participant observation",
+                  "match": "The researcher joins a group and observes them from the inside"
+                },
+                {
+                  "term": "Informed consent",
+                  "match": "Participants must be told about the study and agree to take part"
+                },
+                {
+                  "term": "Representativeness",
+                  "match": "How well a sample reflects the wider population"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1901 @@
+{
+  "subject": {
+    "name": "Geography",
+    "exam_board": "Edexcel",
+    "category": "Humanities",
+    "colour": "#15803d",
+    "emoji": "🌍",
+    "slug": "geography-edexcel"
+  },
+  "topics": [
+    {
+      "name": "Hazardous Earth",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Tectonic Hazards",
+          "cards": [
+            {
+              "keyword": "tectonic plates",
+              "definition": "large sections of the Earth's crust and upper mantle that move slowly on the mantle — their movement causes earthquakes and volcanoes",
+              "display_order": 1
+            },
+            {
+              "keyword": "constructive plate boundary",
+              "definition": "where two plates move apart — magma rises to fill the gap, creating new crust. E.g. Mid-Atlantic Ridge",
+              "display_order": 2
+            },
+            {
+              "keyword": "destructive plate boundary",
+              "definition": "where two plates move towards each other — the denser plate is forced under the other (subduction). Causes earthquakes and volcanoes",
+              "display_order": 3
+            },
+            {
+              "keyword": "conservative plate boundary",
+              "definition": "where two plates slide past each other horizontally — causes earthquakes but no volcanoes. E.g. San Andreas Fault",
+              "display_order": 4
+            },
+            {
+              "keyword": "subduction zone",
+              "definition": "the area where a denser oceanic plate is forced under a less dense continental plate — causes deep earthquakes and volcanic activity",
+              "display_order": 5
+            },
+            {
+              "keyword": "the Richter scale",
+              "definition": "a scale measuring the magnitude (energy) of an earthquake — each whole number increase represents 10 times more ground shaking",
+              "display_order": 6
+            },
+            {
+              "keyword": "primary effects (earthquake)",
+              "definition": "immediate direct impacts of an earthquake — e.g. buildings collapsing, infrastructure damaged, people killed or injured",
+              "display_order": 7
+            },
+            {
+              "keyword": "secondary effects (earthquake)",
+              "definition": "indirect impacts following an earthquake — e.g. fires from broken gas pipes, disease from contaminated water, economic disruption",
+              "display_order": 8
+            },
+            {
+              "keyword": "immediate responses",
+              "definition": "actions taken straight after a disaster — e.g. search and rescue, emergency medical care, providing food and shelter",
+              "display_order": 9
+            },
+            {
+              "keyword": "long-term responses",
+              "definition": "actions taken weeks, months, or years after a disaster — e.g. rebuilding infrastructure, improving building regulations",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What are tectonic plates?",
+              "options": [
+                "Large sections of the Earth's crust and upper mantle that move slowly on the mantle",
+                "Solid rock layers that never move or change",
+                "Areas where only volcanoes occur",
+                "Thin metal plates found deep underground"
+              ],
+              "correct_answer": "Large sections of the Earth's crust and upper mantle that move slowly on the mantle",
+              "explanation": "Tectonic plates are the major moving sections of the Earth's lithosphere, and their movement is responsible for creating earthquakes and volcanoes.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "At a constructive plate boundary, what happens to the two plates?",
+              "options": [
+                "They slide past each other horizontally",
+                "They move apart and magma rises to fill the gap",
+                "They move towards each other",
+                "They remain completely still"
+              ],
+              "correct_answer": "They move apart and magma rises to fill the gap",
+              "explanation": "At constructive boundaries, plates diverge (move away from each other), allowing magma to rise and create new oceanic crust, as seen at the Mid-Atlantic Ridge.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of a destructive plate boundary?",
+              "options": [
+                "San Andreas Fault",
+                "Mid-Atlantic Ridge",
+                "The boundary between the Nazca and South American plates",
+                "A location far from any plate boundary"
+              ],
+              "correct_answer": "The boundary between the Nazca and South American plates",
+              "explanation": "Destructive boundaries occur where plates move towards each other, causing subduction. The Nazca plate is forced under the South American plate, causing earthquakes and volcanic activity.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a conservative plate boundary?",
+              "options": [
+                "Where two plates move apart and create new crust",
+                "Where two plates move towards each other",
+                "Where two plates slide past each other horizontally, causing earthquakes but no volcanoes",
+                "Where plates remain stationary and never interact"
+              ],
+              "correct_answer": "Where two plates slide past each other horizontally, causing earthquakes but no volcanoes",
+              "explanation": "Conservative boundaries involve horizontal sliding motion, which creates friction and earthquakes. The San Andreas Fault is a famous example.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens in a subduction zone?",
+              "options": [
+                "A less dense oceanic plate is forced under a denser continental plate",
+                "A denser oceanic plate is forced under a less dense continental plate",
+                "Two continental plates slide past each other",
+                "Magma rises to create new crust"
+              ],
+              "correct_answer": "A denser oceanic plate is forced under a less dense continental plate",
+              "explanation": "In subduction zones, the denser oceanic plate sinks beneath the less dense continental plate, causing deep earthquakes and volcanic activity as the plate melts.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How does the Richter scale work?",
+              "options": [
+                "Each increase of one point means twice as much energy is released",
+                "Each whole number increase represents 10 times more ground shaking",
+                "It only measures earthquakes in Europe",
+                "It measures the temperature of the Earth's core"
+              ],
+              "correct_answer": "Each whole number increase represents 10 times more ground shaking",
+              "explanation": "The Richter scale is logarithmic, so a magnitude 6 earthquake is 10 times more powerful than a magnitude 5 earthquake in terms of ground motion.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is a primary effect of an earthquake?",
+              "options": [
+                "Disease spreading from contaminated water",
+                "Fires caused by broken gas pipes",
+                "Buildings collapsing and infrastructure being damaged",
+                "Long-term economic disruption to the region"
+              ],
+              "correct_answer": "Buildings collapsing and infrastructure being damaged",
+              "explanation": "Primary effects are the immediate, direct impacts that occur at the moment of the earthquake, including structural damage and casualties.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a secondary effect of an earthquake?",
+              "options": [
+                "People being killed or injured by falling debris",
+                "Roads and buildings being damaged by ground shaking",
+                "Disease spreading from contaminated water supplies",
+                "Immediate collapse of all nearby structures"
+              ],
+              "correct_answer": "Disease spreading from contaminated water supplies",
+              "explanation": "Secondary effects are indirect impacts that happen after the initial earthquake, such as disease outbreaks, fires, and economic problems.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which response takes place immediately after a disaster?",
+              "options": [
+                "Rebuilding infrastructure and improving building codes",
+                "Conducting geological surveys and research",
+                "Search and rescue operations and providing emergency medical care",
+                "Planting new trees and restoring the landscape"
+              ],
+              "correct_answer": "Search and rescue operations and providing emergency medical care",
+              "explanation": "Immediate responses happen in the first hours and days after a disaster to save lives and prevent further suffering.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an example of a long-term response to an earthquake?",
+              "options": [
+                "Setting up emergency shelters for survivors",
+                "Rebuilding infrastructure and improving building regulations",
+                "Providing first aid to injured people",
+                "Evacuating people from damaged buildings"
+              ],
+              "correct_answer": "Rebuilding infrastructure and improving building regulations",
+              "explanation": "Long-term responses occur weeks, months, or years after a disaster and focus on reconstruction and prevention of future damage.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Tectonic plates are stationary and never move.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Tectonic plates move slowly and continuously on the mantle, and this movement causes earthquakes and volcanoes.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The Mid-Atlantic Ridge is an example of a constructive plate boundary.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The Mid-Atlantic Ridge is where the North American and Eurasian plates move apart, allowing new oceanic crust to form.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Destructive plate boundaries cause both earthquakes and volcanoes.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "At destructive boundaries, plates collide and one is forced under the other (subduction), causing both seismic activity and volcanic eruptions.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Conservative plate boundaries produce volcanic activity.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Conservative boundaries involve horizontal sliding and create earthquakes, but no new magma is generated, so there are no volcanoes.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "A magnitude 7 earthquake on the Richter scale is 100 times more powerful than a magnitude 5 earthquake.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Each whole number increase on the Richter scale represents 10 times more energy, so a 2-point increase means 10 × 10 = 100 times more power.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Primary effects of earthquakes include fires from broken gas pipes.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Fires from broken gas pipes are secondary effects because they occur after the initial earthquake as a consequence of the damage.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Immediate responses to disasters include providing food and shelter to survivors.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Immediate responses are actions taken straight after a disaster to help people survive, including providing emergency shelter and food.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Subduction zones are areas where two plates move apart from each other.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Subduction zones are areas where one plate moves under another (they move towards each other), not apart.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Long-term responses to earthquakes happen within the first few days after the disaster.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Long-term responses occur weeks, months, or years after a disaster, not in the immediate aftermath.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The San Andreas Fault is an example of a conservative plate boundary.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The San Andreas Fault is where the Pacific and North American plates slide past each other horizontally, which defines a conservative boundary.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Tectonic plates are large sections of the Earth's ________ and upper mantle that move slowly on the mantle.",
+              "options": null,
+              "correct_answer": "crust",
+              "explanation": "The definition of tectonic plates includes both the crust and the upper mantle (lithosphere).",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "At a constructive plate boundary, ________ rises to fill the gap as two plates move apart.",
+              "options": null,
+              "correct_answer": "magma",
+              "explanation": "When plates separate at constructive boundaries, magma from the mantle rises to form new oceanic crust.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "At a destructive plate boundary, the denser plate is forced under the other plate in a process called ________.",
+              "options": null,
+              "correct_answer": "subduction",
+              "explanation": "Subduction is the process where a denser oceanic plate is forced beneath a less dense continental plate.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ scale measures the magnitude (energy) of an earthquake.",
+              "options": null,
+              "correct_answer": "Richter",
+              "explanation": "The Richter scale is the standard scale used to measure the magnitude and ground-shaking power of earthquakes.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ effects of earthquakes are immediate direct impacts such as buildings collapsing and infrastructure damage.",
+              "options": null,
+              "correct_answer": "Primary",
+              "explanation": "Primary effects occur at the moment of the earthquake and include direct physical damage from ground shaking.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Fires from broken gas pipes are examples of ________ effects of earthquakes.",
+              "options": null,
+              "correct_answer": "secondary",
+              "explanation": "Secondary effects are indirect impacts that follow the earthquake, such as fires resulting from infrastructure damage.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ responses to disasters include search and rescue operations and providing emergency medical care.",
+              "options": null,
+              "correct_answer": "Immediate",
+              "explanation": "Immediate responses are actions taken straight after a disaster to save lives and prevent further suffering.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ responses involve rebuilding infrastructure and improving building regulations weeks, months, or years after a disaster.",
+              "options": null,
+              "correct_answer": "Long-term",
+              "explanation": "Long-term responses focus on permanent reconstruction and prevention of future damage.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "At a conservative plate boundary, two plates slide past each other ________, causing earthquakes but no volcanoes.",
+              "options": null,
+              "correct_answer": "horizontally",
+              "explanation": "Conservative boundaries involve horizontal sliding motion, which creates friction and earthquakes without any volcanic activity.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is the area where a denser oceanic plate is forced under a less dense continental plate.",
+              "options": null,
+              "correct_answer": "subduction zone",
+              "explanation": "Subduction zones are regions where oceanic plates sink beneath continental plates, causing deep earthquakes and volcanic activity.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Constructive plate boundary",
+                  "match": "Where two plates move apart and magma rises to fill the gap, creating new crust"
+                },
+                {
+                  "term": "Destructive plate boundary",
+                  "match": "Where two plates move towards each other and the denser plate is forced under the other"
+                },
+                {
+                  "term": "Conservative plate boundary",
+                  "match": "Where two plates slide past each other horizontally, causing earthquakes but no volcanoes"
+                },
+                {
+                  "term": "Primary effects",
+                  "match": "Immediate direct impacts of an earthquake such as buildings collapsing and infrastructure damage"
+                },
+                {
+                  "term": "Secondary effects",
+                  "match": "Indirect impacts following an earthquake such as fires, disease, and economic disruption"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Tropical Storms & Climate",
+          "cards": [
+            {
+              "keyword": "tropical storm / hurricane / typhoon / cyclone",
+              "definition": "an intense low-pressure weather system that forms over warm tropical oceans — called hurricanes in the Atlantic, typhoons in the Pacific",
+              "display_order": 1
+            },
+            {
+              "keyword": "conditions for tropical storm formation",
+              "definition": "warm ocean water (above 27°C), warm moist air rising rapidly, low wind shear — the Coriolis effect gives them their spin",
+              "display_order": 2
+            },
+            {
+              "keyword": "the eye",
+              "definition": "the calm centre of a tropical storm — characterised by clear skies and low wind speeds",
+              "display_order": 3
+            },
+            {
+              "keyword": "storm surge",
+              "definition": "a rise in sea level caused by strong winds from a tropical storm — can cause severe coastal flooding",
+              "display_order": 4
+            },
+            {
+              "keyword": "climate change and tropical storms",
+              "definition": "warmer oceans due to climate change may increase the intensity of tropical storms — though the total number may not increase",
+              "display_order": 5
+            },
+            {
+              "keyword": "global atmospheric circulation",
+              "definition": "the large-scale movement of air around the Earth driven by the unequal heating of the Earth's surface — creates trade winds and jet streams",
+              "display_order": 6
+            },
+            {
+              "keyword": "the Coriolis effect",
+              "definition": "the deflection of moving air and water by the Earth's rotation — causes tropical storms to spin",
+              "display_order": 7
+            },
+            {
+              "keyword": "mitigation (climate change)",
+              "definition": "actions to reduce greenhouse gas emissions and slow climate change — e.g. renewable energy, energy efficiency",
+              "display_order": 8
+            },
+            {
+              "keyword": "adaptation (climate change)",
+              "definition": "adjusting to the effects of climate change — e.g. building sea defences, developing drought-resistant crops",
+              "display_order": 9
+            },
+            {
+              "keyword": "the enhanced greenhouse effect",
+              "definition": "the increase in global temperatures caused by rising levels of greenhouse gases from human activities",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a tropical storm called in the Atlantic Ocean?",
+              "options": [
+                "Typhoon",
+                "Hurricane",
+                "Cyclone",
+                "Tornado"
+              ],
+              "correct_answer": "Hurricane",
+              "explanation": "Tropical storms are called hurricanes in the Atlantic Ocean, typhoons in the Pacific, and cyclones in the Indian Ocean.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the minimum ocean temperature needed for tropical storms to form?",
+              "options": [
+                "Above 20°C",
+                "Above 27°C",
+                "Above 35°C",
+                "Above 15°C"
+              ],
+              "correct_answer": "Above 27°C",
+              "explanation": "Tropical storms need warm ocean water above 27°C to form and gain energy from the heat.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is NOT a condition needed for tropical storm formation?",
+              "options": [
+                "Warm moist air rising rapidly",
+                "High wind shear",
+                "Warm ocean water",
+                "The Coriolis effect"
+              ],
+              "correct_answer": "High wind shear",
+              "explanation": "Tropical storms need LOW wind shear to form, not high wind shear. High wind shear would tear the storm apart.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the eye of a tropical storm?",
+              "options": [
+                "The strongest part with the heaviest rainfall",
+                "The outer ring where wind speeds are highest",
+                "The calm centre with clear skies and low wind speeds",
+                "The area where storm surge occurs"
+              ],
+              "correct_answer": "The calm centre with clear skies and low wind speeds",
+              "explanation": "The eye is the calm, clear centre of a tropical storm surrounded by the most intense weather.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What causes storm surge?",
+              "options": [
+                "Heavy rainfall over several days",
+                "Strong winds pushing water towards the coast",
+                "Earthquakes beneath the ocean",
+                "Low atmospheric pressure alone"
+              ],
+              "correct_answer": "Strong winds pushing water towards the coast",
+              "explanation": "Storm surge is caused by strong winds from tropical storms pushing ocean water towards the coast, raising sea levels and causing flooding.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How might climate change affect tropical storms?",
+              "options": [
+                "It will reduce their intensity",
+                "It will increase their intensity due to warmer oceans",
+                "It will have no effect at all",
+                "It will make them move slower"
+              ],
+              "correct_answer": "It will increase their intensity due to warmer oceans",
+              "explanation": "Warmer oceans from climate change may provide more energy to tropical storms, making them more intense, though the total number may not increase.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is global atmospheric circulation?",
+              "options": [
+                "The movement of air only within one country",
+                "The large-scale movement of air around the Earth driven by unequal heating",
+                "The rotation of air inside a tropical storm",
+                "The daily wind patterns in cities"
+              ],
+              "correct_answer": "The large-scale movement of air around the Earth driven by unequal heating",
+              "explanation": "Global atmospheric circulation describes how air moves around the entire Earth due to the Sun heating different areas differently, creating trade winds and jet streams.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the Coriolis effect do to a tropical storm?",
+              "options": [
+                "It makes it move faster towards land",
+                "It gives it a spin and deflects moving air",
+                "It reduces the temperature of the storm",
+                "It stops the storm from forming"
+              ],
+              "correct_answer": "It gives it a spin and deflects moving air",
+              "explanation": "The Coriolis effect is caused by Earth's rotation and deflects moving air and water, which is essential for giving tropical storms their characteristic spin.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which is an example of mitigation for climate change?",
+              "options": [
+                "Building sea defences",
+                "Using renewable energy sources",
+                "Developing drought-resistant crops",
+                "Moving houses away from coasts"
+              ],
+              "correct_answer": "Using renewable energy sources",
+              "explanation": "Mitigation means reducing greenhouse gas emissions to slow climate change. Renewable energy is a mitigation strategy, while the others are adaptation strategies.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is adaptation to climate change?",
+              "options": [
+                "Stopping all greenhouse gas emissions immediately",
+                "Adjusting to the effects of climate change that are already happening",
+                "Moving the entire human population to colder regions",
+                "Preventing tropical storms from forming"
+              ],
+              "correct_answer": "Adjusting to the effects of climate change that are already happening",
+              "explanation": "Adaptation means adjusting to climate change impacts through actions like building sea defences or developing drought-resistant crops, rather than preventing climate change itself.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Tropical storms are called cyclones in the Atlantic Ocean.",
+              "correct_answer": "False",
+              "explanation": "Tropical storms are called hurricanes in the Atlantic Ocean. They are called cyclones in the Indian Ocean and typhoons in the Pacific Ocean.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The eye of a tropical storm is the calmest part with the lowest wind speeds.",
+              "correct_answer": "True",
+              "explanation": "The eye is the calm centre of a tropical storm, characterised by clear skies and low wind speeds, surrounded by the most intense weather.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "High wind shear helps tropical storms to form and become stronger.",
+              "correct_answer": "False",
+              "explanation": "Low wind shear is needed for tropical storms to form. High wind shear would tear the storm apart and prevent formation.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Climate change will definitely increase the total number of tropical storms worldwide.",
+              "correct_answer": "False",
+              "explanation": "While climate change may increase the intensity of tropical storms due to warmer oceans, the total number of storms may not necessarily increase.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Storm surge can cause severe coastal flooding during tropical storms.",
+              "correct_answer": "True",
+              "explanation": "Storm surge is a rise in sea level caused by strong winds, and it can cause severe flooding in coastal areas.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The Coriolis effect has no effect on the formation of tropical storms.",
+              "correct_answer": "False",
+              "explanation": "The Coriolis effect is essential for tropical storms, as it deflects moving air and water, causing the storm to spin.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Building sea defences is a form of mitigation for climate change.",
+              "correct_answer": "False",
+              "explanation": "Building sea defences is adaptation to climate change. Mitigation would be actions that reduce greenhouse gas emissions like using renewable energy.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Warm moist air rising rapidly is a necessary condition for tropical storm formation.",
+              "correct_answer": "True",
+              "explanation": "Warm moist air rising rapidly is one of the key conditions needed for tropical storms to develop and gain energy.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The enhanced greenhouse effect is caused entirely by natural processes.",
+              "correct_answer": "False",
+              "explanation": "The enhanced greenhouse effect is caused by increased greenhouse gas levels from human activities, not from natural processes alone.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Ocean water temperature affects whether tropical storms can form and gain energy.",
+              "correct_answer": "True",
+              "explanation": "Tropical storms need warm ocean water above 27°C to form. Warmer water provides more energy for storm development.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Tropical storms are called ________ in the Pacific Ocean.",
+              "options": null,
+              "correct_answer": "typhoons",
+              "explanation": "Tropical storms have different names depending on the ocean they form in: hurricanes in the Atlantic, typhoons in the Pacific, and cyclones in the Indian Ocean.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The minimum ocean temperature for tropical storm formation is above ________°C.",
+              "options": null,
+              "correct_answer": "27",
+              "explanation": "Tropical storms need warm ocean water above 27°C to develop and gain the energy they need to intensify.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the calm centre of a tropical storm with clear skies and low wind speeds.",
+              "options": null,
+              "correct_answer": "eye",
+              "explanation": "The eye is the distinctive calm centre found at the heart of every tropical storm.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A rise in sea level caused by strong winds from a tropical storm is called a ________.",
+              "options": null,
+              "correct_answer": "storm surge",
+              "explanation": "Storm surge is one of the most dangerous effects of tropical storms, pushing seawater inland and causing severe coastal flooding.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the deflection of moving air and water caused by Earth's rotation.",
+              "options": null,
+              "correct_answer": "Coriolis effect",
+              "explanation": "The Coriolis effect is essential for tropical storm formation, as it causes the spinning motion characteristic of these storms.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Using renewable energy and improving energy efficiency are examples of ________ to climate change.",
+              "options": null,
+              "correct_answer": "mitigation",
+              "explanation": "Mitigation involves reducing greenhouse gas emissions to slow climate change, whereas adaptation means adjusting to the effects already happening.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Building sea defences and developing drought-resistant crops are examples of ________ to climate change.",
+              "options": null,
+              "correct_answer": "adaptation",
+              "explanation": "Adaptation means adjusting to the effects of climate change that are already happening or expected to happen in the future.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The large-scale movement of air around the Earth driven by unequal heating is called ________.",
+              "options": null,
+              "correct_answer": "global atmospheric circulation",
+              "explanation": "Global atmospheric circulation creates the trade winds and jet streams that influence weather patterns and tropical storm formation.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the increase in global temperatures caused by rising levels of greenhouse gases from human activities.",
+              "options": null,
+              "correct_answer": "enhanced greenhouse effect",
+              "explanation": "The enhanced greenhouse effect describes how human activities have intensified the natural greenhouse effect, leading to global warming.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Warmer oceans due to climate change may increase the ________ of tropical storms, even if the total number stays the same.",
+              "options": null,
+              "correct_answer": "intensity",
+              "explanation": "Climate change provides more energy through warmer water, making individual storms more powerful and dangerous.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Hurricane",
+                  "match": "A tropical storm that forms over warm tropical oceans in the Atlantic Ocean"
+                },
+                {
+                  "term": "Storm surge",
+                  "match": "A rise in sea level caused by strong winds from a tropical storm"
+                },
+                {
+                  "term": "Mitigation",
+                  "match": "Actions to reduce greenhouse gas emissions and slow climate change"
+                },
+                {
+                  "term": "Adaptation",
+                  "match": "Adjusting to the effects of climate change, such as building sea defences"
+                },
+                {
+                  "term": "The eye",
+                  "match": "The calm centre of a tropical storm with clear skies and low wind speeds"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Development Dynamics",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Development & Inequality",
+          "cards": [
+            {
+              "keyword": "development",
+              "definition": "the process by which a country improves the economic and social wellbeing of its people",
+              "display_order": 1
+            },
+            {
+              "keyword": "GDP per capita",
+              "definition": "the total value of goods and services produced by a country divided by its population — a common measure of economic development",
+              "display_order": 2
+            },
+            {
+              "keyword": "HDI (Human Development Index)",
+              "definition": "a composite measure of development using life expectancy, education, and income per capita",
+              "display_order": 3
+            },
+            {
+              "keyword": "LIC (Low Income Country)",
+              "definition": "a country with a low GDP per capita — characterised by low life expectancy, poor healthcare, and limited education",
+              "display_order": 4
+            },
+            {
+              "keyword": "NEE (Newly Emerging Economy)",
+              "definition": "a country that has recently experienced rapid economic growth — e.g. India, Brazil, China",
+              "display_order": 5
+            },
+            {
+              "keyword": "the development gap",
+              "definition": "the difference in levels of development between rich and poor countries — remains large despite globalisation",
+              "display_order": 6
+            },
+            {
+              "keyword": "Rostow's model of development",
+              "definition": "a five-stage model suggesting all countries progress through the same stages from traditional society to high mass consumption",
+              "display_order": 7
+            },
+            {
+              "keyword": "aid",
+              "definition": "money, goods, or services given by one country to another — can be short-term emergency aid or long-term development aid",
+              "display_order": 8
+            },
+            {
+              "keyword": "trade vs aid debate",
+              "definition": "the argument over whether countries develop better through free trade or through receiving aid — most economists favour trade",
+              "display_order": 9
+            },
+            {
+              "keyword": "TNCs (Transnational Corporations)",
+              "definition": "large companies that operate in multiple countries — can bring investment and jobs to developing countries but may exploit cheap labour",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does GDP per capita measure?",
+              "options": [
+                "The total population of a country",
+                "The total value of goods and services produced by a country divided by its population",
+                "The amount of money a government spends on healthcare",
+                "The number of businesses operating in a country"
+              ],
+              "correct_answer": "The total value of goods and services produced by a country divided by its population",
+              "explanation": "GDP per capita is calculated by dividing a country's total economic output by the number of people living there, making it a key measure of economic development.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following best describes a Newly Emerging Economy (NEE)?",
+              "options": [
+                "A country that has just gained independence from colonial rule",
+                "A country that has recently experienced rapid economic growth, such as India or Brazil",
+                "A country with very high levels of poverty and disease",
+                "A country that trades only with its nearest neighbours"
+              ],
+              "correct_answer": "A country that has recently experienced rapid economic growth, such as India or Brazil",
+              "explanation": "NEEs are countries experiencing fast economic development and growth, with examples including India, Brazil, and China.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the Human Development Index (HDI)?",
+              "options": [
+                "A measure of only a country's income levels",
+                "A list of countries ranked by population size",
+                "A composite measure of development using life expectancy, education, and income per capita",
+                "A record of trade agreements between countries"
+              ],
+              "correct_answer": "A composite measure of development using life expectancy, education, and income per capita",
+              "explanation": "The HDI combines three key indicators—life expectancy, education, and income—to provide a more complete picture of development than GDP alone.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the development gap?",
+              "options": [
+                "The time it takes for a country to build new infrastructure",
+                "The difference in levels of development between rich and poor countries",
+                "The number of years between different generations",
+                "The space between cities in a developing country"
+              ],
+              "correct_answer": "The difference in levels of development between rich and poor countries",
+              "explanation": "The development gap refers to the inequality between wealthy and poor nations in terms of economic, social, and living standards.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "According to Rostow's model, how many stages of development do all countries progress through?",
+              "options": [
+                "Three stages",
+                "Four stages",
+                "Five stages",
+                "Seven stages"
+              ],
+              "correct_answer": "Five stages",
+              "explanation": "Rostow's model proposes that all countries follow the same five-stage pathway from traditional society to high mass consumption.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is aid in the context of international development?",
+              "options": [
+                "Money borrowed by poor countries that must be repaid with interest",
+                "Money, goods, or services given by one country to another",
+                "Profits made by companies investing in developing countries",
+                "Taxes collected by governments from multinational corporations"
+              ],
+              "correct_answer": "Money, goods, or services given by one country to another",
+              "explanation": "Aid is assistance provided by one country to another, either for emergency relief or long-term development purposes, without the expectation of repayment.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is a characteristic of a Low Income Country (LIC)?",
+              "options": [
+                "High life expectancy and excellent healthcare systems",
+                "Low GDP per capita with poor healthcare and limited education",
+                "Rapid economic growth and high levels of industrialisation",
+                "Large population and advanced technology sector"
+              ],
+              "correct_answer": "Low GDP per capita with poor healthcare and limited education",
+              "explanation": "LICs are defined by low GDP per capita and typically face challenges including limited healthcare, education, and other services.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In the trade vs aid debate, which approach do most economists favour for development?",
+              "options": [
+                "Emergency aid only",
+                "Long-term development aid",
+                "Free trade",
+                "No international involvement at all"
+              ],
+              "correct_answer": "Free trade",
+              "explanation": "Most economists argue that trade allows countries to become more self-sufficient and develop sustainably, rather than becoming dependent on aid.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a Transnational Corporation (TNC)?",
+              "options": [
+                "A government agency that regulates trade between countries",
+                "A small business that operates only within one country",
+                "A large company that operates in multiple countries",
+                "An international charity that provides humanitarian aid"
+              ],
+              "correct_answer": "A large company that operates in multiple countries",
+              "explanation": "TNCs are multinational corporations that have operations and offices in several different countries around the world.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is development?",
+              "options": [
+                "The construction of new buildings and infrastructure",
+                "The process by which a country improves the economic and social wellbeing of its people",
+                "The increase in a country's population",
+                "The expansion of a country's territory through conquest"
+              ],
+              "correct_answer": "The process by which a country improves the economic and social wellbeing of its people",
+              "explanation": "Development refers to improvements in both economic prosperity and social conditions, including healthcare, education, and living standards.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "GDP per capita is the best single measure of whether a country is developed.",
+              "correct_answer": "False",
+              "explanation": "While GDP per capita is important, it does not account for factors like life expectancy, education, and healthcare quality. The HDI is a more comprehensive measure.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The Human Development Index includes measures of income, education, and life expectancy.",
+              "correct_answer": "True",
+              "explanation": "The HDI is specifically designed to measure these three key dimensions of human development.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The development gap between rich and poor countries has decreased significantly due to globalisation.",
+              "correct_answer": "False",
+              "explanation": "Despite globalisation, the development gap remains large, with wealth and opportunities still heavily concentrated in developed nations.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Rostow's model suggests that all countries follow the same five-stage pathway of development.",
+              "correct_answer": "True",
+              "explanation": "Rostow's model proposes a universal sequence of development stages that all countries progress through.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Emergency aid is the same as long-term development aid.",
+              "correct_answer": "False",
+              "explanation": "Emergency aid provides immediate relief during disasters or crises, while development aid is designed to help countries build long-term sustainable economic growth.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "TNCs always exploit workers and cause harm to developing countries.",
+              "correct_answer": "False",
+              "explanation": "While some TNCs may exploit cheap labour, they can also bring investment, jobs, and skills to developing countries. The impacts are varied and complex.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "India is an example of a Newly Emerging Economy.",
+              "correct_answer": "True",
+              "explanation": "India is commonly cited as an NEE due to its rapid economic growth and development in recent decades.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "A Low Income Country typically has high life expectancy and good healthcare.",
+              "correct_answer": "False",
+              "explanation": "LICs are characterised by low life expectancy and poor healthcare systems, reflecting their limited economic resources.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Trade can help developing countries become more economically self-sufficient.",
+              "correct_answer": "True",
+              "explanation": "Trade allows countries to export goods and services, generate income, and develop their economies without becoming dependent on aid.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Development only refers to economic growth and not social improvements.",
+              "correct_answer": "False",
+              "explanation": "Development encompasses both economic prosperity and improvements in social wellbeing, including healthcare, education, and living standards.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ measures development using life expectancy, education, and income per capita.",
+              "options": null,
+              "correct_answer": "Human Development Index",
+              "explanation": "The HDI is a composite measure that combines three key indicators to assess a country's development level.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A country with a low GDP per capita is classified as a ________.",
+              "options": null,
+              "correct_answer": "Low Income Country",
+              "explanation": "LICs are defined by their low GDP per capita, which correlates with limited economic development.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the difference in levels of development between rich and poor countries.",
+              "options": null,
+              "correct_answer": "development gap",
+              "explanation": "The development gap refers to the inequality in economic and social development between wealthy and poor nations.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are large companies that operate in multiple countries and can bring investment to developing nations.",
+              "options": null,
+              "correct_answer": "Transnational Corporations",
+              "explanation": "TNCs are multinational companies whose operations span across multiple countries, influencing global economic development.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the process by which a country improves the economic and social wellbeing of its people.",
+              "options": null,
+              "correct_answer": "Development",
+              "explanation": "Development encompasses improvements in both economic prosperity and social conditions for a nation's population.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "India and Brazil are examples of ________, countries that have recently experienced rapid economic growth.",
+              "options": null,
+              "correct_answer": "Newly Emerging Economies",
+              "explanation": "NEEs are countries currently experiencing fast-paced economic development, with India and Brazil being prime examples.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "In Rostow's model, countries progress through ________ stages of development.",
+              "options": null,
+              "correct_answer": "five",
+              "explanation": "Rostow's model proposes that all countries follow the same five-stage pathway from traditional society to high mass consumption.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ can be short-term emergency aid or long-term development aid provided by one country to another.",
+              "options": null,
+              "correct_answer": "Aid",
+              "explanation": "Aid is financial or material assistance given by one country to another to support development or emergency relief.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Most economists favour ________ over aid as the best way for countries to achieve sustainable development.",
+              "options": null,
+              "correct_answer": "trade",
+              "explanation": "The trade vs aid debate generally favours trade because it promotes self-sufficiency and long-term economic independence.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ per capita is calculated by dividing a country's total economic output by its population.",
+              "options": null,
+              "correct_answer": "GDP",
+              "explanation": "GDP per capita is a key economic indicator that shows the average output per person in a country.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Development",
+                  "match": "The process by which a country improves the economic and social wellbeing of its people"
+                },
+                {
+                  "term": "NEE",
+                  "match": "A country that has recently experienced rapid economic growth, such as India or Brazil"
+                },
+                {
+                  "term": "HDI",
+                  "match": "A composite measure of development using life expectancy, education, and income per capita"
+                },
+                {
+                  "term": "Development gap",
+                  "match": "The difference in levels of development between rich and poor countries"
+                },
+                {
+                  "term": "TNC",
+                  "match": "A large company that operates in multiple countries"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UK in the 21st Century",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "UK Landscapes & Change",
+          "cards": [
+            {
+              "keyword": "deindustrialisation",
+              "definition": "the decline of manufacturing industries in the UK — particularly in the North of England, Wales, and Scotland from the 1970s onwards",
+              "display_order": 1
+            },
+            {
+              "keyword": "post-industrial economy",
+              "definition": "an economy dominated by service industries rather than manufacturing — the UK shifted to this from the late 20th century",
+              "display_order": 2
+            },
+            {
+              "keyword": "the North-South divide",
+              "definition": "the economic and social inequality between the generally wealthier South of England and the less prosperous North",
+              "display_order": 3
+            },
+            {
+              "keyword": "rural-urban migration",
+              "definition": "movement of people from the countryside to towns and cities — driven by better job prospects and services in urban areas",
+              "display_order": 4
+            },
+            {
+              "keyword": "counterurbanisation",
+              "definition": "movement of people from cities to rural areas — driven by improved transport links, remote working, and desire for better quality of life",
+              "display_order": 5
+            },
+            {
+              "keyword": "regeneration",
+              "definition": "investment to improve run-down urban areas — e.g. the regeneration of London's Docklands, Manchester city centre",
+              "display_order": 6
+            },
+            {
+              "keyword": "immigration and the UK",
+              "definition": "the UK has experienced significant immigration, particularly from Eastern Europe after 2004 — has increased diversity and filled labour shortages",
+              "display_order": 7
+            },
+            {
+              "keyword": "an ageing population",
+              "definition": "a population with a growing proportion of elderly people — a challenge for the UK's healthcare, pension, and social care systems",
+              "display_order": 8
+            },
+            {
+              "keyword": "cultural diversity",
+              "definition": "the presence of multiple ethnic, religious, and cultural groups within a society — a characteristic of many UK cities",
+              "display_order": 9
+            },
+            {
+              "keyword": "London as a global city",
+              "definition": "London is a world centre for finance, culture, and transport — attracts global investment and skilled workers but faces inequality and housing problems",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does deindustrialisation mean?",
+              "options": [
+                "The growth of new factories in rural areas",
+                "The decline of manufacturing industries in the UK from the 1970s onwards",
+                "The movement of people from cities to the countryside",
+                "The increase in service sector jobs in London"
+              ],
+              "correct_answer": "The decline of manufacturing industries in the UK from the 1970s onwards",
+              "explanation": "Deindustrialisation refers to the decline of manufacturing industries, particularly in the North of England, Wales, and Scotland. This was a major change in the UK economy during the late 20th century.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which regions of the UK were most affected by deindustrialisation?",
+              "options": [
+                "London, the South East, and the East Midlands",
+                "The North of England, Wales, and Scotland",
+                "Cornwall, Devon, and Somerset",
+                "The Midlands, East Anglia, and Kent"
+              ],
+              "correct_answer": "The North of England, Wales, and Scotland",
+              "explanation": "Deindustrialisation hit hardest in the North of England, Wales, and Scotland where manufacturing industries like coal mining, steel production, and textile manufacturing were dominant.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a post-industrial economy?",
+              "options": [
+                "An economy based entirely on agriculture and farming",
+                "An economy dominated by service industries rather than manufacturing",
+                "An economy that still relies heavily on factories and mills",
+                "An economy with no international trade or investment"
+              ],
+              "correct_answer": "An economy dominated by service industries rather than manufacturing",
+              "explanation": "A post-industrial economy is one where service industries (like finance, retail, healthcare, and education) are more important than manufacturing. The UK shifted to this type of economy from the late 20th century onwards.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the North-South divide?",
+              "options": [
+                "A geographical line dividing England into two halves",
+                "The economic and social inequality between the wealthier South and less prosperous North",
+                "A river that separates northern and southern regions",
+                "The difference in weather patterns between north and south"
+              ],
+              "correct_answer": "The economic and social inequality between the wealthier South and less prosperous North",
+              "explanation": "The North-South divide describes how the South of England (especially the South East around London) is generally wealthier and more prosperous than the North, which was hit hard by deindustrialisation.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What drives rural-urban migration?",
+              "options": [
+                "Poor weather in rural areas",
+                "Better job prospects and services in urban areas",
+                "The desire to live in smaller communities",
+                "Government policies that ban rural settlements"
+              ],
+              "correct_answer": "Better job prospects and services in urban areas",
+              "explanation": "Rural-urban migration occurs when people move from the countryside to towns and cities, primarily because cities offer better employment opportunities and more services like healthcare, education, and entertainment.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is counterurbanisation?",
+              "options": [
+                "The growth of cities and urban areas",
+                "Movement of people from cities to rural areas",
+                "The decline of rural villages",
+                "The building of new factories in towns"
+              ],
+              "correct_answer": "Movement of people from cities to rural areas",
+              "explanation": "Counterurbanisation is the opposite of rural-urban migration. It's when people move away from cities to rural areas, often driven by better transport links, remote working opportunities, and a desire for a better quality of life.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an example of urban regeneration in the UK?",
+              "options": [
+                "The expansion of farmland in the Cotswolds",
+                "The regeneration of London's Docklands and Manchester city centre",
+                "The closure of rural schools",
+                "The decline of seaside towns"
+              ],
+              "correct_answer": "The regeneration of London's Docklands and Manchester city centre",
+              "explanation": "Regeneration involves investing money to improve run-down urban areas. London's Docklands and Manchester city centre are famous examples where old, declining areas were transformed into modern, vibrant districts.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "When did significant immigration from Eastern Europe to the UK increase?",
+              "options": [
+                "In the 1950s after World War II",
+                "In the 1980s during the industrial boom",
+                "After 2004 when Eastern European countries joined the EU",
+                "In the 1990s during the tech boom"
+              ],
+              "correct_answer": "After 2004 when Eastern European countries joined the EU",
+              "explanation": "Immigration from Eastern Europe increased significantly after 2004 when countries like Poland, Czech Republic, and Hungary joined the European Union, allowing easier movement of workers to the UK.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an ageing population?",
+              "options": [
+                "A population where most people live in old buildings",
+                "A population with a growing proportion of elderly people",
+                "A population that has stopped growing entirely",
+                "A population living in historic rural villages"
+              ],
+              "correct_answer": "A population with a growing proportion of elderly people",
+              "explanation": "An ageing population means the proportion of elderly people in the UK is increasing. This creates challenges for healthcare, pensions, and social care systems as more people live longer.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is London described as a global city?",
+              "options": [
+                "Because it has the largest population in the UK",
+                "Because it is a world centre for finance, culture, and transport that attracts global investment",
+                "Because it is the oldest city in Britain",
+                "Because it has the most green spaces in the UK"
+              ],
+              "correct_answer": "Because it is a world centre for finance, culture, and transport that attracts global investment",
+              "explanation": "London is a global city because it is a major world centre for finance (banking and business), culture (arts and media), and transport (airports and connections). It attracts skilled workers and investment from around the world.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Deindustrialisation was equally spread across all regions of the UK.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Deindustrialisation affected different regions very differently. The North, Wales, and Scotland were hit much harder than the South, which contributed to the North-South divide.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "A post-industrial economy relies mainly on service industries like finance and retail.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Yes, post-industrial economies are dominated by service industries rather than manufacturing. The UK is a good example of a post-industrial economy.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The North-South divide shows that the North is generally wealthier than the South.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The North-South divide actually shows the opposite - the South, particularly around London and the South East, is generally wealthier than the North.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Rural-urban migration and counterurbanisation are opposite processes.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Rural-urban migration is movement from countryside to cities, while counterurbanisation is movement from cities to rural areas. They are indeed opposite processes.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Regeneration projects always involve demolishing old buildings and starting from scratch.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Regeneration can involve demolition but often includes renovating and reusing existing buildings. It's about investing to improve run-down areas, not necessarily destroying everything.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Immigration to the UK has increased diversity in many cities.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Yes, immigration, particularly from Eastern Europe and other regions, has increased cultural and ethnic diversity in many UK cities, making them more multicultural.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "An ageing population reduces the demand for healthcare and social care services.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "An ageing population increases demand for healthcare, pensions, and social care services because elderly people need more of these services.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "London faces no problems despite being a global city with global investment.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Although London attracts global investment and skilled workers, it faces significant challenges including inequality and a housing shortage.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Improved transport links have made counterurbanisation easier for some people.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Yes, better roads, railways, and other transport connections have made it easier for people to move to rural areas while still accessing urban employment and services.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Eastern European immigration to the UK decreased significantly after 2004.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Eastern European immigration actually increased after 2004 when these countries joined the EU, making it easier for their workers to move to the UK.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The decline of manufacturing industries in the UK from the 1970s onwards is called ________.",
+              "options": null,
+              "correct_answer": "deindustrialisation",
+              "explanation": "Deindustrialisation is the key term for the decline of manufacturing in the UK, particularly in the North, Wales, and Scotland.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "An economy dominated by service industries rather than manufacturing is called a ________ economy.",
+              "options": null,
+              "correct_answer": "post-industrial",
+              "explanation": "Post-industrial economy is the term for an economy where services like finance, retail, and healthcare are more important than manufacturing.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The economic inequality between the wealthier South and less prosperous North is called the ________ divide.",
+              "options": null,
+              "correct_answer": "North-South",
+              "explanation": "The North-South divide describes the economic and social differences between the generally wealthier South of England and the less prosperous North.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Movement of people from the countryside to cities is called ________ migration.",
+              "options": null,
+              "correct_answer": "rural-urban",
+              "explanation": "Rural-urban migration is when people move from rural areas to towns and cities, usually for better job prospects and services.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The movement of people from cities to rural areas is called ________.",
+              "options": null,
+              "correct_answer": "counterurbanisation",
+              "explanation": "Counterurbanisation is when people move away from cities to rural areas, often because of better transport links, remote working, and quality of life improvements.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Investment to improve run-down urban areas is called ________.",
+              "options": null,
+              "correct_answer": "regeneration",
+              "explanation": "Regeneration is the process of investing money and effort to improve old, declining urban areas and make them vibrant and attractive again.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The presence of multiple ethnic, religious, and cultural groups within a society is called ________.",
+              "options": null,
+              "correct_answer": "cultural diversity",
+              "explanation": "Cultural diversity describes the variety of different ethnic, religious, and cultural groups living together in a society, which is now a characteristic of many UK cities.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A population with a growing proportion of elderly people is called an ________ population.",
+              "options": null,
+              "correct_answer": "ageing",
+              "explanation": "An ageing population refers to a population structure where the proportion of elderly people is increasing, which creates challenges for health and social care.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "After ________, significant immigration from Eastern Europe to the UK increased.",
+              "options": null,
+              "correct_answer": "2004",
+              "explanation": "2004 was the year when many Eastern European countries joined the European Union, which made it easier for workers from those countries to move to the UK.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a world centre for finance, culture, and transport, attracting global investment and skilled workers.",
+              "options": null,
+              "correct_answer": "London",
+              "explanation": "London is recognised as a global city because of its importance for finance (banking and business), culture, and transport connections worldwide.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Deindustrialisation",
+                  "match": "The decline of manufacturing industries from the 1970s onwards"
+                },
+                {
+                  "term": "Post-industrial economy",
+                  "match": "An economy dominated by service industries rather than manufacturing"
+                },
+                {
+                  "term": "Counterurbanisation",
+                  "match": "Movement of people from cities to rural areas"
+                },
+                {
+                  "term": "Regeneration",
+                  "match": "Investment to improve run-down urban areas"
+                },
+                {
+                  "term": "Cultural diversity",
+                  "match": "The presence of multiple ethnic and cultural groups in a society"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "People & the Biosphere",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Biomes & Ecosystems",
+          "cards": [
+            {
+              "keyword": "biosphere",
+              "definition": "all the living organisms on Earth and the environments they live in",
+              "display_order": 1
+            },
+            {
+              "keyword": "biome",
+              "definition": "a large-scale ecosystem defined by its climate, vegetation, and wildlife — e.g. tropical rainforest, tundra, hot desert",
+              "display_order": 2
+            },
+            {
+              "keyword": "tropical rainforest biome",
+              "definition": "a biome near the equator with high rainfall and temperatures — characterised by high biodiversity and dense multi-layered vegetation",
+              "display_order": 3
+            },
+            {
+              "keyword": "hot desert biome",
+              "definition": "a biome with very low rainfall (under 250mm/year) and extreme temperatures — plants and animals have adapted to survive water scarcity",
+              "display_order": 4
+            },
+            {
+              "keyword": "tundra biome",
+              "definition": "a cold, treeless biome found in Arctic regions — characterised by permafrost, low biodiversity, and plants adapted to cold and drought",
+              "display_order": 5
+            },
+            {
+              "keyword": "ecosystem services",
+              "definition": "the benefits that ecosystems provide to humans — including clean water, oxygen, food, medicine, and climate regulation",
+              "display_order": 6
+            },
+            {
+              "keyword": "deforestation",
+              "definition": "the clearing of forests for agriculture, logging, or development — destroys habitats, reduces biodiversity, and releases carbon dioxide",
+              "display_order": 7
+            },
+            {
+              "keyword": "biodiversity",
+              "definition": "the variety of living organisms in an ecosystem — tropical rainforests have the highest biodiversity of any biome",
+              "display_order": 8
+            },
+            {
+              "keyword": "nutrient cycle",
+              "definition": "the continuous movement of nutrients through an ecosystem — e.g. carbon cycle, nitrogen cycle",
+              "display_order": 9
+            },
+            {
+              "keyword": "sustainable management",
+              "definition": "using natural resources in a way that meets current needs without preventing future generations from meeting their needs",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the biosphere?",
+              "options": [
+                "All the living organisms on Earth and the environments they live in",
+                "Only the plants found in forests around the world",
+                "The layer of atmosphere that protects Earth from the sun",
+                "All the water on Earth's surface"
+              ],
+              "correct_answer": "All the living organisms on Earth and the environments they live in",
+              "explanation": "The biosphere includes all living organisms and their environments. It is not limited to just plants or just one layer of the planet.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an example of a biome?",
+              "options": [
+                "A single tree in a park",
+                "Tropical rainforest",
+                "One pond in a garden",
+                "A city"
+              ],
+              "correct_answer": "Tropical rainforest",
+              "explanation": "A biome is a large-scale ecosystem defined by climate, vegetation, and wildlife. The tropical rainforest is a biome, while single trees, ponds, and cities are smaller ecosystems.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are the main characteristics of a tropical rainforest biome?",
+              "options": [
+                "Low rainfall and extreme temperatures",
+                "High rainfall, high temperatures, and high biodiversity",
+                "Very cold weather and treeless landscape",
+                "Permanent frozen ground and low plant diversity"
+              ],
+              "correct_answer": "High rainfall, high temperatures, and high biodiversity",
+              "explanation": "Tropical rainforests are located near the equator and receive high rainfall and temperatures, which supports the highest biodiversity of any biome.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How much rainfall does a hot desert biome typically receive per year?",
+              "options": [
+                "Over 1000mm",
+                "500-1000mm",
+                "Under 250mm",
+                "1500-2000mm"
+              ],
+              "correct_answer": "Under 250mm",
+              "explanation": "Hot deserts are defined by very low rainfall, under 250mm per year. This extreme dryness means plants and animals must be specially adapted to survive.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is permafrost?",
+              "options": [
+                "A type of permanent forest",
+                "Permanently frozen ground found in tundra regions",
+                "A weather pattern in tropical rainforests",
+                "A method of preserving soil nutrients"
+              ],
+              "correct_answer": "Permanently frozen ground found in tundra regions",
+              "explanation": "Permafrost is permanently frozen ground that is a key characteristic of the tundra biome in Arctic regions.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of an ecosystem service?",
+              "options": [
+                "Building a shopping center",
+                "Providing clean water",
+                "Creating a factory",
+                "Paving a road"
+              ],
+              "correct_answer": "Providing clean water",
+              "explanation": "Ecosystem services are benefits that ecosystems provide to humans, including clean water, oxygen, food, medicine, and climate regulation. The other options are human developments, not natural services.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is deforestation?",
+              "options": [
+                "The natural growth of new forests",
+                "The clearing of forests for agriculture, logging, or development",
+                "The scientific study of forests",
+                "The protection of forests from fire"
+              ],
+              "correct_answer": "The clearing of forests for agriculture, logging, or development",
+              "explanation": "Deforestation is the removal of forests, which destroys habitats, reduces biodiversity, and releases carbon dioxide into the atmosphere.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does biodiversity mean?",
+              "options": [
+                "The number of trees in a forest",
+                "The variety of living organisms in an ecosystem",
+                "The amount of rainfall in an area",
+                "The temperature range in a biome"
+              ],
+              "correct_answer": "The variety of living organisms in an ecosystem",
+              "explanation": "Biodiversity refers to the range of different species living in an ecosystem. Tropical rainforests have the highest biodiversity of any biome.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a nutrient cycle?",
+              "options": [
+                "A bicycle that moves nutrients",
+                "The continuous movement of nutrients through an ecosystem",
+                "A type of plant food used in farming",
+                "The seasonal change in plant growth"
+              ],
+              "correct_answer": "The continuous movement of nutrients through an ecosystem",
+              "explanation": "A nutrient cycle describes how elements like carbon and nitrogen move continuously between living organisms and the environment.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which definition best describes sustainable management?",
+              "options": [
+                "Using as many natural resources as possible",
+                "Protecting nature and preventing all human activity",
+                "Using natural resources to meet current needs without preventing future generations from meeting theirs",
+                "Building more factories and cities"
+              ],
+              "correct_answer": "Using natural resources to meet current needs without preventing future generations from meeting theirs",
+              "explanation": "Sustainable management balances human needs with environmental protection, ensuring resources are available for the future.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The tundra biome is found near the equator.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The tundra biome is found in Arctic regions at high latitudes, not near the equator. The tropical rainforest is found near the equator.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Tropical rainforests contain the highest biodiversity of any biome.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Tropical rainforests are home to more species of plants and animals than any other biome due to their warm, wet climate.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Deforestation has no effect on carbon dioxide levels in the atmosphere.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Deforestation releases stored carbon dioxide into the atmosphere and removes trees that absorb carbon dioxide, contributing to climate change.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Hot deserts receive more than 500mm of rainfall per year.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Hot deserts receive very low rainfall, under 250mm per year, which is what defines them as deserts.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Ecosystem services include benefits like clean water and oxygen production.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Ecosystem services are the benefits humans receive from ecosystems, and these include clean water, oxygen, food, medicine, and climate regulation.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "A biome is a small local ecosystem found in only one location.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "A biome is a large-scale ecosystem that covers wide areas with similar climate, vegetation, and wildlife. Multiple biomes exist across the world.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Plants and animals in hot deserts have adapted to survive with very little water.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Desert organisms have special adaptations like storing water, having thick skin, or deep roots to survive in extremely dry conditions.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The biosphere includes all living organisms and their environments.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The biosphere is defined as all living organisms on Earth and the environments in which they live.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Sustainable management means using all natural resources immediately without thinking about the future.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Sustainable management specifically involves using resources in a way that allows future generations to meet their needs, so it requires careful planning.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Nutrient cycles include the movement of carbon and nitrogen through ecosystems.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Examples of nutrient cycles are the carbon cycle and nitrogen cycle, which show how these elements move between organisms and the environment.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a large-scale ecosystem defined by its climate, vegetation, and wildlife.",
+              "options": null,
+              "correct_answer": "biome",
+              "explanation": "A biome is the correct term for a large ecosystem like a tropical rainforest or tundra.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ biome is found near the equator and has high rainfall and temperatures.",
+              "options": null,
+              "correct_answer": "tropical rainforest",
+              "explanation": "The tropical rainforest biome is located near the equator with the climate described.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Hot deserts receive less than ________ mm of rainfall per year.",
+              "options": null,
+              "correct_answer": "250",
+              "explanation": "Hot deserts are defined by receiving under 250mm of rainfall annually, making them very dry.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ biome is treeless and found in Arctic regions with permanently frozen ground.",
+              "options": null,
+              "correct_answer": "tundra",
+              "explanation": "The tundra is a cold, treeless biome in Arctic regions with permafrost.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The clearing of forests for agriculture and development is called ________.",
+              "options": null,
+              "correct_answer": "deforestation",
+              "explanation": "Deforestation is the term for removing forests, which damages habitats and biodiversity.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ refers to the variety of different living organisms in an ecosystem.",
+              "options": null,
+              "correct_answer": "Biodiversity",
+              "explanation": "Biodiversity describes the range of species present in an environment.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are the benefits that ecosystems provide to humans, such as clean water and oxygen.",
+              "options": null,
+              "correct_answer": "Ecosystem services",
+              "explanation": "Ecosystem services are the natural benefits humans receive from functioning ecosystems.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the continuous movement of nutrients like carbon and nitrogen through an ecosystem.",
+              "options": null,
+              "correct_answer": "nutrient cycle",
+              "explanation": "Nutrient cycles describe how elements move continuously between living things and the environment.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ management means using natural resources in a way that meets current needs without damaging the environment for future generations.",
+              "options": null,
+              "correct_answer": "Sustainable",
+              "explanation": "Sustainable management balances human needs with long-term environmental protection.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "All the living organisms on Earth and the environments they live in together make up the ________.",
+              "options": null,
+              "correct_answer": "biosphere",
+              "explanation": "The biosphere encompasses all life on Earth and their environments.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Tropical rainforest",
+                  "match": "A biome near the equator with high rainfall and temperatures and the highest biodiversity"
+                },
+                {
+                  "term": "Hot desert",
+                  "match": "A biome with very low rainfall under 250mm per year and extreme temperatures"
+                },
+                {
+                  "term": "Tundra",
+                  "match": "A cold, treeless biome in Arctic regions with permafrost and low biodiversity"
+                },
+                {
+                  "term": "Deforestation",
+                  "match": "The clearing of forests that destroys habitats and reduces biodiversity"
+                },
+                {
+                  "term": "Ecosystem services",
+                  "match": "Benefits ecosystems provide to humans including clean water, oxygen, and food"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

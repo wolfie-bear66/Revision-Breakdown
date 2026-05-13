@@ -1,0 +1,1518 @@
+{
+  "subject": {
+    "name": "Design & Technology",
+    "exam_board": "AQA",
+    "category": "Technology & Applied",
+    "colour": "#92400e",
+    "emoji": "🔧",
+    "slug": "design-technology-aqa"
+  },
+  "topics": [
+    {
+      "name": "Core Technical Principles — Materials",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Materials & Their Properties",
+          "cards": [
+            {
+              "keyword": "ferrous metals",
+              "definition": "metals that contain iron and are magnetic — e.g. steel, cast iron. They rust when exposed to water and oxygen",
+              "display_order": 1
+            },
+            {
+              "keyword": "non-ferrous metals",
+              "definition": "metals that do not contain iron — e.g. aluminium, copper, gold. They do not rust but may corrode",
+              "display_order": 2
+            },
+            {
+              "keyword": "alloy",
+              "definition": "a mixture of two or more metals — e.g. brass (copper + zinc), steel (iron + carbon)",
+              "display_order": 3
+            },
+            {
+              "keyword": "thermoplastic",
+              "definition": "a plastic that can be repeatedly softened by heating and reshaped — e.g. acrylic, PET, nylon",
+              "display_order": 4
+            },
+            {
+              "keyword": "thermosetting plastic",
+              "definition": "a plastic that sets permanently when heated and cannot be reshaped — e.g. epoxy resin, melamine",
+              "display_order": 5
+            },
+            {
+              "keyword": "hardwood",
+              "definition": "wood from deciduous (broad-leaved) trees — e.g. oak, mahogany. Generally harder and more expensive than softwood",
+              "display_order": 6
+            },
+            {
+              "keyword": "softwood",
+              "definition": "wood from coniferous (evergreen) trees — e.g. pine, spruce. Generally cheaper and grows faster than hardwood",
+              "display_order": 7
+            },
+            {
+              "keyword": "manufactured board",
+              "definition": "sheet materials made from wood fibres or veneers — e.g. MDF, plywood, chipboard",
+              "display_order": 8
+            },
+            {
+              "keyword": "composite material",
+              "definition": "a material made from two or more different materials combined — e.g. carbon fibre reinforced polymer (CFRP), fibreglass",
+              "display_order": 9
+            },
+            {
+              "keyword": "smart material",
+              "definition": "a material that changes its properties in response to external stimuli — e.g. shape memory alloy, thermochromic ink",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is a ferrous metal?",
+              "options": [
+                "Aluminium",
+                "Steel",
+                "Copper",
+                "Gold"
+              ],
+              "correct_answer": "Steel",
+              "explanation": "Steel is an alloy that contains iron, making it a ferrous metal. It is magnetic and will rust when exposed to water and oxygen.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main difference between hardwood and softwood?",
+              "options": [
+                "Hardwood comes from coniferous trees and softwood from deciduous trees",
+                "Hardwood is cheaper and grows faster than softwood",
+                "Hardwood comes from deciduous trees and is generally harder and more expensive",
+                "Softwood is always darker in colour than hardwood"
+              ],
+              "correct_answer": "Hardwood comes from deciduous trees and is generally harder and more expensive",
+              "explanation": "Hardwood comes from broad-leaved deciduous trees and is typically harder, denser, and more expensive than softwood, which comes from coniferous evergreen trees.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which material is a thermoplastic?",
+              "options": [
+                "Epoxy resin",
+                "Melamine",
+                "Acrylic",
+                "Bakelite"
+              ],
+              "correct_answer": "Acrylic",
+              "explanation": "Acrylic is a thermoplastic that can be repeatedly heated and reshaped. Epoxy resin and melamine are thermosetting plastics that cannot be reshaped once set.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an alloy?",
+              "options": [
+                "A pure metal element on the periodic table",
+                "A type of plastic material",
+                "A mixture of two or more metals",
+                "A material made from wood fibres"
+              ],
+              "correct_answer": "A mixture of two or more metals",
+              "explanation": "An alloy is created when two or more metals are combined together. Examples include brass (copper + zinc) and steel (iron + carbon).",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is a non-ferrous metal?",
+              "options": [
+                "Cast iron",
+                "Steel",
+                "Aluminium",
+                "Wrought iron"
+              ],
+              "correct_answer": "Aluminium",
+              "explanation": "Aluminium is a non-ferrous metal that does not contain iron. It does not rust but may corrode over time when exposed to certain environments.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a composite material?",
+              "options": [
+                "A metal that contains iron",
+                "A plastic that can be repeatedly reshaped",
+                "A material made from two or more different materials combined",
+                "Wood from coniferous trees"
+              ],
+              "correct_answer": "A material made from two or more different materials combined",
+              "explanation": "A composite material combines two or more different materials to create new properties. Examples include fibreglass and carbon fibre reinforced polymer (CFRP).",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an example of manufactured board?",
+              "options": [
+                "Oak",
+                "MDF",
+                "Spruce",
+                "Mahogany"
+              ],
+              "correct_answer": "MDF",
+              "explanation": "MDF (medium-density fibreboard) is a manufactured board made from compressed wood fibres. Oak, spruce, and mahogany are natural woods.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What defines a smart material?",
+              "options": [
+                "It is always more expensive than other materials",
+                "It changes its properties in response to external stimuli",
+                "It can only be used in electronic devices",
+                "It is a type of thermosetting plastic"
+              ],
+              "correct_answer": "It changes its properties in response to external stimuli",
+              "explanation": "Smart materials change their physical properties (like colour, shape, or stiffness) when exposed to external triggers such as heat, light, or stress. Examples include thermochromic ink and shape memory alloys.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why is softwood generally preferred for mass production?",
+              "options": [
+                "It is always stronger than hardwood",
+                "It is cheaper and grows faster than hardwood",
+                "It comes from deciduous trees",
+                "It cannot be used for any outdoor applications"
+              ],
+              "correct_answer": "It is cheaper and grows faster than hardwood",
+              "explanation": "Softwood comes from fast-growing coniferous trees and is more affordable than hardwood, making it ideal for large-scale manufacturing and cost-sensitive projects.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happens when a thermosetting plastic is heated?",
+              "options": [
+                "It softens and can be reshaped multiple times",
+                "It sets permanently and cannot be reshaped",
+                "It melts completely and cannot be used again",
+                "It changes colour but keeps its original shape"
+              ],
+              "correct_answer": "It sets permanently and cannot be reshaped",
+              "explanation": "Thermosetting plastics like epoxy resin and melamine harden permanently when heated. Once set, they cannot be softened or reshaped, unlike thermoplastics.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Ferrous metals are magnetic and will rust when exposed to water and oxygen.",
+              "correct_answer": "True",
+              "explanation": "Ferrous metals contain iron, which makes them magnetic and prone to rusting when in contact with moisture and oxygen.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Brass is a non-ferrous metal.",
+              "correct_answer": "False",
+              "explanation": "Brass is an alloy made from copper and zinc. Since it does not contain iron, it is a non-ferrous alloy that does not rust.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Thermoplastics can be repeatedly softened by heating and reshaped.",
+              "correct_answer": "True",
+              "explanation": "This is a defining characteristic of thermoplastics like acrylic, PET, and nylon — they can be melted and reshaped multiple times.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Hardwood is cheaper and grows faster than softwood.",
+              "correct_answer": "False",
+              "explanation": "Hardwood is generally more expensive and grows slower than softwood because it comes from slow-growing deciduous trees.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Copper is a ferrous metal that will rust easily.",
+              "correct_answer": "False",
+              "explanation": "Copper is a non-ferrous metal that does not contain iron and does not rust. It may corrode or develop a patina over time, but this is different from rusting.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Plywood is an example of a manufactured board.",
+              "correct_answer": "True",
+              "explanation": "Plywood is made from thin layers of wood veneers bonded together, making it a manufactured board material.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Fibreglass is a composite material.",
+              "correct_answer": "True",
+              "explanation": "Fibreglass combines glass fibres with a resin matrix, making it a composite material with properties different from either component alone.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Shape memory alloy is an example of a thermosetting plastic.",
+              "correct_answer": "False",
+              "explanation": "Shape memory alloy is a smart material made from metal, not a plastic. It is a metal alloy that changes shape in response to heat.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Steel is a non-ferrous metal because it does not contain iron.",
+              "correct_answer": "False",
+              "explanation": "Steel is a ferrous metal because it is an alloy containing iron and carbon. All ferrous metals contain iron.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Thermochromic ink is an example of a smart material.",
+              "correct_answer": "True",
+              "explanation": "Thermochromic ink changes colour in response to temperature changes, which is a characteristic property of smart materials.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Metals that do not contain iron and do not rust but may corrode are called ________.",
+              "options": null,
+              "correct_answer": "non-ferrous metals",
+              "explanation": "Non-ferrous metals such as aluminium, copper, and gold do not contain iron and therefore do not rust like ferrous metals do.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a mixture of two or more metals, such as brass or steel.",
+              "options": null,
+              "correct_answer": "alloy",
+              "explanation": "An alloy combines two or more metallic elements. Brass combines copper and zinc, while steel combines iron and carbon.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are plastics that can be repeatedly softened by heating and reshaped.",
+              "options": null,
+              "correct_answer": "Thermoplastics",
+              "explanation": "Thermoplastics like acrylic, PET, and nylon have this reversible property, unlike thermosetting plastics which set permanently.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Wood from deciduous (broad-leaved) trees is called ________ and is generally harder and more expensive than softwood.",
+              "options": null,
+              "correct_answer": "hardwood",
+              "explanation": "Hardwood comes from trees like oak and mahogany. It is denser and more costly than softwood from coniferous trees.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are sheet materials made from wood fibres or veneers, including examples like MDF and plywood.",
+              "options": null,
+              "correct_answer": "Manufactured boards",
+              "explanation": "Manufactured boards are engineered wood products created by combining wood fibres or thin wood layers to form sheet materials.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a plastic that sets permanently when heated and cannot be reshaped, such as epoxy resin.",
+              "options": null,
+              "correct_answer": "thermosetting plastic",
+              "explanation": "Thermosetting plastics undergo an irreversible chemical change when heated, unlike thermoplastics which can be melted and reformed repeatedly.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a non-ferrous metal commonly used in aviation and construction due to its light weight and corrosion resistance.",
+              "options": null,
+              "correct_answer": "Aluminium",
+              "explanation": "Aluminium is a popular non-ferrous metal because it is lightweight, does not rust, and can be easily formed into various shapes.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is made from two or more different materials combined together, such as carbon fibre reinforced polymer.",
+              "options": null,
+              "correct_answer": "composite material",
+              "explanation": "Composite materials combine the properties of different substances to create materials with enhanced characteristics for specific applications.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are materials that change their properties in response to external stimuli, such as heat or light.",
+              "options": null,
+              "correct_answer": "Smart materials",
+              "explanation": "Smart materials include shape memory alloys and thermochromic inks, which respond dynamically to environmental changes.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Wood from coniferous (evergreen) trees, such as pine and spruce, is called ________ and is generally cheaper than hardwood.",
+              "options": null,
+              "correct_answer": "softwood",
+              "explanation": "Softwood grows faster and is less dense than hardwood, making it more affordable for general construction and manufacturing purposes.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Ferrous metal",
+                  "match": "A metal containing iron that is magnetic and will rust"
+                },
+                {
+                  "term": "Thermosetting plastic",
+                  "match": "A plastic that sets permanently when heated and cannot be reshaped"
+                },
+                {
+                  "term": "Composite material",
+                  "match": "A material made from two or more different materials combined"
+                },
+                {
+                  "term": "Softwood",
+                  "match": "Wood from coniferous trees that is cheaper and grows faster than hardwood"
+                },
+                {
+                  "term": "Smart material",
+                  "match": "A material that changes its properties in response to external stimuli"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Material Properties & Processes",
+          "cards": [
+            {
+              "keyword": "tensile strength",
+              "definition": "the ability of a material to withstand being pulled apart (tension) without breaking",
+              "display_order": 1
+            },
+            {
+              "keyword": "compressive strength",
+              "definition": "the ability of a material to withstand being squashed (compression) without breaking",
+              "display_order": 2
+            },
+            {
+              "keyword": "hardness",
+              "definition": "the ability of a material to resist scratching, indentation, and wear",
+              "display_order": 3
+            },
+            {
+              "keyword": "toughness",
+              "definition": "the ability of a material to absorb impact without fracturing",
+              "display_order": 4
+            },
+            {
+              "keyword": "elasticity",
+              "definition": "the ability of a material to return to its original shape after being deformed",
+              "display_order": 5
+            },
+            {
+              "keyword": "plasticity",
+              "definition": "the ability of a material to be permanently deformed without breaking",
+              "display_order": 6
+            },
+            {
+              "keyword": "conductivity",
+              "definition": "the ability of a material to conduct heat or electricity — metals are good conductors; plastics and wood are insulators",
+              "display_order": 7
+            },
+            {
+              "keyword": "corrosion resistance",
+              "definition": "the ability of a material to resist damage from chemical reactions with the environment — e.g. stainless steel resists rust",
+              "display_order": 8
+            },
+            {
+              "keyword": "wasting",
+              "definition": "a manufacturing process that removes material to create a shape — e.g. cutting, drilling, turning on a lathe",
+              "display_order": 9
+            },
+            {
+              "keyword": "forming",
+              "definition": "a manufacturing process that shapes material without removing any — e.g. casting, forging, bending",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which material property describes the ability to resist scratching and wear?",
+              "options": [
+                "Elasticity",
+                "Hardness",
+                "Toughness",
+                "Plasticity"
+              ],
+              "correct_answer": "Hardness",
+              "explanation": "Hardness is the resistance to scratching, indentation, and wear. The other properties relate to deformation and recovery, not surface resistance.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A rubber band stretches when pulled and returns to its original shape. Which property does this demonstrate?",
+              "options": [
+                "Plasticity",
+                "Conductivity",
+                "Elasticity",
+                "Compressive strength"
+              ],
+              "correct_answer": "Elasticity",
+              "explanation": "Elasticity is the ability to return to original shape after deformation. Plasticity would be permanent deformation without breaking.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which manufacturing process removes material to shape an object?",
+              "options": [
+                "Casting",
+                "Forging",
+                "Wasting",
+                "Bending"
+              ],
+              "correct_answer": "Wasting",
+              "explanation": "Wasting is removing material through cutting, drilling, or turning. Forming processes like casting, forging, and bending shape without removing material.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Steel is melted and poured into a mould to cool and solidify. Which forming process is this?",
+              "options": [
+                "Turning",
+                "Casting",
+                "Drilling",
+                "Bending"
+              ],
+              "correct_answer": "Casting",
+              "explanation": "Casting involves pouring molten material into a mould where it cools. This is a forming process that shapes without removing material.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which property allows a material to be hammered or bent into a new shape permanently?",
+              "options": [
+                "Elasticity",
+                "Toughness",
+                "Plasticity",
+                "Hardness"
+              ],
+              "correct_answer": "Plasticity",
+              "explanation": "Plasticity is permanent deformation without breaking. Elasticity would return to original shape, not stay permanently deformed.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Copper is often used in electrical wiring. Why is this a good choice?",
+              "options": [
+                "It has high corrosion resistance",
+                "It is very hard and tough",
+                "It has good electrical conductivity",
+                "It cannot be deformed"
+              ],
+              "correct_answer": "It has good electrical conductivity",
+              "explanation": "Copper conducts electricity well, making it ideal for wiring. Conductivity is the ability to transmit heat or electricity through a material.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A rope can be pulled without snapping immediately. Which property does this show?",
+              "options": [
+                "Compressive strength",
+                "Tensile strength",
+                "Hardness",
+                "Conductivity"
+              ],
+              "correct_answer": "Tensile strength",
+              "explanation": "Tensile strength is the ability to withstand being pulled apart without breaking. A rope must have good tensile strength to be useful.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Stainless steel is used for kitchen cutlery because it resists rust. Which property is this?",
+              "options": [
+                "Elasticity",
+                "Hardness",
+                "Corrosion resistance",
+                "Plasticity"
+              ],
+              "correct_answer": "Corrosion resistance",
+              "explanation": "Corrosion resistance is the ability to resist chemical damage from the environment, such as rust. Stainless steel has excellent corrosion resistance.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which process would you use to create a hole in a metal sheet?",
+              "options": [
+                "Casting",
+                "Forging",
+                "Drilling",
+                "Bending"
+              ],
+              "correct_answer": "Drilling",
+              "explanation": "Drilling is a wasting process that removes material to create a hole. Casting and forging are forming processes; bending changes shape without removing material.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "A ball is dropped onto a plastic material and it cracks immediately. Which property does this material lack?",
+              "options": [
+                "Elasticity",
+                "Toughness",
+                "Plasticity",
+                "Hardness"
+              ],
+              "correct_answer": "Toughness",
+              "explanation": "Toughness is the ability to absorb impact without fracturing. A material that cracks easily lacks toughness.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Tensile strength is the ability of a material to resist being squashed.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Tensile strength is resistance to being pulled apart (tension). Compressive strength is resistance to being squashed.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Metals are good conductors of heat and electricity.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Metals have excellent conductivity for both heat and electricity. This is why copper and aluminium are widely used for wiring and heating.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Plasticity means a material will return to its original shape after being deformed.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Plasticity is permanent deformation without breaking. Elasticity is the ability to return to original shape.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Casting is an example of a forming process.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Casting shapes material without removing it—molten material is poured into a mould. Forming processes do not remove material.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Wood is a good conductor of electricity.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Wood is an insulator, not a conductor. It resists the flow of electricity, which is why it is safe to use for handles on tools.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Toughness is the same as hardness.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Toughness is resistance to impact fracturing, while hardness is resistance to scratching and wear. They are different properties.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Turning on a lathe is an example of a wasting process.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Turning removes material to shape an object, making it a wasting process. Material is cut away from the rotating workpiece.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Stainless steel has poor corrosion resistance.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Stainless steel has excellent corrosion resistance and resists rust, which is why it is used for kitchen cutlery and outdoor equipment.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Forging is a forming process that shapes material by heating and hammering.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Forging shapes metal without removing material—it is heated and hammered into shape. This is a forming process.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Compressive strength is important for materials used in bridges and buildings.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Compressive strength resists squashing forces. Materials in buildings must support weight and compression, so this property is crucial.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ability of a material to withstand being pulled apart without breaking is called ________.",
+              "options": null,
+              "correct_answer": "tensile strength",
+              "explanation": "Tensile strength is the resistance to tension or pulling forces.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "__________ is the ability of a material to absorb impact without fracturing.",
+              "options": null,
+              "correct_answer": "Toughness",
+              "explanation": "Toughness allows materials to withstand shock or impact loads without breaking.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A manufacturing process that removes material to create a shape is called ________.",
+              "options": null,
+              "correct_answer": "wasting",
+              "explanation": "Wasting includes processes like cutting, drilling, and turning that remove unwanted material.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Plastics and wood are examples of __________ because they do not easily conduct heat or electricity.",
+              "options": null,
+              "correct_answer": "insulators",
+              "explanation": "Insulators resist the flow of heat and electricity, unlike conductors such as metals.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ability of a material to be permanently deformed without breaking is called ________.",
+              "options": null,
+              "correct_answer": "plasticity",
+              "explanation": "Plasticity allows materials like clay and soft metals to be shaped and remain in that shape.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "__________ is the ability of a material to return to its original shape after being deformed.",
+              "options": null,
+              "correct_answer": "Elasticity",
+              "explanation": "Elasticity is the property that allows rubber bands and springs to bounce back to their original form.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Bending, casting, and forging are examples of __________ processes that shape material without removing it.",
+              "options": null,
+              "correct_answer": "forming",
+              "explanation": "Forming processes reshape material by casting, forging, or bending without wasting or removing any material.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "__________ is the ability of a material to resist scratching, indentation, and wear.",
+              "options": null,
+              "correct_answer": "Hardness",
+              "explanation": "Hard materials resist damage to their surface from scratching or abrasion.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "__________ is the ability of a material to withstand being squashed without breaking.",
+              "options": null,
+              "correct_answer": "Compressive strength",
+              "explanation": "Compressive strength is needed for materials that support weight and resist crushing forces.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Stainless steel is used for cutlery because of its excellent __________ which prevents rust.",
+              "options": null,
+              "correct_answer": "corrosion resistance",
+              "explanation": "Corrosion resistance protects materials from chemical reactions that cause rust and decay.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Conductivity",
+                  "match": "The ability of a material to conduct heat or electricity"
+                },
+                {
+                  "term": "Wasting",
+                  "match": "A manufacturing process that removes material to create a shape"
+                },
+                {
+                  "term": "Elasticity",
+                  "match": "The ability of a material to return to its original shape after being deformed"
+                },
+                {
+                  "term": "Corrosion resistance",
+                  "match": "The ability of a material to resist damage from chemical reactions with the environment"
+                },
+                {
+                  "term": "Forming",
+                  "match": "A manufacturing process that shapes material without removing any"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "New & Emerging Technologies",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Technology & Society",
+          "cards": [
+            {
+              "keyword": "Industry 4.0",
+              "definition": "the fourth industrial revolution — automation, AI, and digital technology transforming manufacturing",
+              "display_order": 1
+            },
+            {
+              "keyword": "CAD (Computer-Aided Design)",
+              "definition": "using computer software to create and test 2D or 3D designs before manufacturing",
+              "display_order": 2
+            },
+            {
+              "keyword": "CAM (Computer-Aided Manufacture)",
+              "definition": "using computer-controlled machines to manufacture products from digital design files",
+              "display_order": 3
+            },
+            {
+              "keyword": "additive manufacturing / 3D printing",
+              "definition": "building up a product layer by layer from a digital design — no material is wasted",
+              "display_order": 4
+            },
+            {
+              "keyword": "virtual reality (VR)",
+              "definition": "a simulated digital environment — used in product design to test how a product looks and feels before it is made",
+              "display_order": 5
+            },
+            {
+              "keyword": "automation / robotics",
+              "definition": "using machines and robots to perform repetitive manufacturing tasks — increases speed and consistency",
+              "display_order": 6
+            },
+            {
+              "keyword": "sustainable design",
+              "definition": "designing products to minimise environmental impact — considering materials, energy, lifespan, and disposal",
+              "display_order": 7
+            },
+            {
+              "keyword": "circular economy",
+              "definition": "an approach to production where materials are reused, repaired, or recycled rather than discarded",
+              "display_order": 8
+            },
+            {
+              "keyword": "planned obsolescence",
+              "definition": "deliberately designing products with a limited lifespan so consumers replace them — criticised for environmental waste",
+              "display_order": 9
+            },
+            {
+              "keyword": "fair trade",
+              "definition": "a system ensuring producers in developing countries receive fair wages and safe working conditions",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does Industry 4.0 refer to?",
+              "options": [
+                "The fourth stage of human evolution",
+                "The fourth industrial revolution involving automation, AI, and digital technology in manufacturing",
+                "A factory that produces four different types of products",
+                "The fourth version of computer software"
+              ],
+              "correct_answer": "The fourth industrial revolution involving automation, AI, and digital technology in manufacturing",
+              "explanation": "Industry 4.0 is the name given to the fourth industrial revolution, which combines automation, AI, and digital technologies to transform how products are manufactured.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which technology allows designers to create and test 2D or 3D designs on a computer before manufacturing?",
+              "options": [
+                "CAM",
+                "3D printing",
+                "CAD",
+                "VR headsets"
+              ],
+              "correct_answer": "CAD",
+              "explanation": "CAD (Computer-Aided Design) is software that lets designers create and test designs digitally before they are manufactured, saving time and money.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main advantage of additive manufacturing compared to traditional manufacturing?",
+              "options": [
+                "It produces stronger products",
+                "It builds products layer by layer with minimal material waste",
+                "It is always cheaper than other methods",
+                "It can only be used for plastic products"
+              ],
+              "correct_answer": "It builds products layer by layer with minimal material waste",
+              "explanation": "Additive manufacturing (3D printing) builds products layer by layer from a digital design, which means very little material is wasted compared to subtractive methods.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is CAM used for in manufacturing?",
+              "options": [
+                "Taking photographs of products",
+                "Using computer-controlled machines to manufacture products from digital design files",
+                "Creating advertising campaigns",
+                "Storing product data in the cloud"
+              ],
+              "correct_answer": "Using computer-controlled machines to manufacture products from digital design files",
+              "explanation": "CAM (Computer-Aided Manufacture) uses computer-controlled machines to automatically manufacture products, increasing speed and accuracy.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which technology creates a simulated digital environment to test how a product will look and feel?",
+              "options": [
+                "Augmented reality",
+                "Virtual reality",
+                "Robotic testing",
+                "Digital printing"
+              ],
+              "correct_answer": "Virtual reality",
+              "explanation": "Virtual reality (VR) creates a simulated digital environment that allows designers to test products before they are manufactured, helping catch design problems early.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the purpose of using automation and robotics in manufacturing?",
+              "options": [
+                "To make products more expensive",
+                "To create jobs for more workers",
+                "To increase speed and consistency while performing repetitive tasks",
+                "To replace all human workers permanently"
+              ],
+              "correct_answer": "To increase speed and consistency while performing repetitive tasks",
+              "explanation": "Automation and robotics perform repetitive manufacturing tasks faster and more consistently than humans, improving efficiency and product quality.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does sustainable design focus on?",
+              "options": [
+                "Making the most expensive products possible",
+                "Designing products to minimise environmental impact through materials, energy, lifespan, and disposal",
+                "Using only plastic materials",
+                "Making products that are impossible to recycle"
+              ],
+              "correct_answer": "Designing products to minimise environmental impact through materials, energy, lifespan, and disposal",
+              "explanation": "Sustainable design considers the entire lifecycle of a product to reduce its environmental impact, from material selection to how it is disposed of.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the circular economy approach?",
+              "options": [
+                "A method of circular marketing strategies",
+                "Where materials are reused, repaired, or recycled rather than thrown away",
+                "A way of arranging factories in a circle",
+                "A system where only new products are sold"
+              ],
+              "correct_answer": "Where materials are reused, repaired, or recycled rather than thrown away",
+              "explanation": "The circular economy aims to keep materials in use for as long as possible through reuse, repair, and recycling, rather than following the traditional 'take-make-waste' model.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is planned obsolescence?",
+              "options": [
+                "A law that prevents product manufacturing",
+                "Deliberately designing products with a limited lifespan so consumers replace them",
+                "A method of recycling old products",
+                "A way to improve product quality"
+              ],
+              "correct_answer": "Deliberately designing products with a limited lifespan so consumers replace them",
+              "explanation": "Planned obsolescence is when products are intentionally designed to have a short lifespan, forcing consumers to buy replacements frequently. This is criticised for creating environmental waste.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the fair trade system ensure?",
+              "options": [
+                "All products cost the same price",
+                "Producers in developing countries receive fair wages and safe working conditions",
+                "Only wealthy countries can buy products",
+                "All manufacturing is automated"
+              ],
+              "correct_answer": "Producers in developing countries receive fair wages and safe working conditions",
+              "explanation": "Fair trade ensures that workers in developing countries are paid fairly and work in safe conditions, promoting ethical manufacturing practices.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "CAD software allows designers to test designs on a computer before manufacturing begins.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "CAD enables designers to create, visualise, and test designs digitally, which saves time and money before physical production.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "3D printing is a subtractive manufacturing method that removes material from a solid block.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "3D printing is additive manufacturing because it builds products layer by layer, adding material rather than removing it.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Automation in manufacturing can increase both speed and consistency of product production.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Robots and automated machines can perform repetitive tasks faster and more consistently than humans, improving efficiency and quality.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Virtual reality can only be used for entertainment purposes and not for product design.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "VR is used in product design to test how products look and feel before they are manufactured, helping designers identify and fix problems early.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Sustainable design considers the environmental impact of a product throughout its entire lifecycle.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Sustainable design examines materials, energy use, product lifespan, and disposal methods to minimise environmental impact.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The circular economy encourages throwing away products after one use.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The circular economy promotes reusing, repairing, and recycling materials rather than discarding them, keeping products in use as long as possible.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Planned obsolescence can contribute to environmental waste by encouraging frequent product replacement.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Designing products to have a short lifespan forces consumers to replace them regularly, creating unnecessary waste and environmental damage.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Fair trade systems only benefit companies and have no impact on workers' lives.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Fair trade ensures producers receive fair wages and work in safe conditions, directly improving the lives of workers in developing countries.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Industry 4.0 involves the use of automation, AI, and digital technology in manufacturing.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Industry 4.0 is the fourth industrial revolution that combines these technologies to transform modern manufacturing processes.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "CAM and CAD are the same technology used for the same purpose in manufacturing.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "CAD is used to design products on a computer, while CAM uses computer-controlled machines to manufacture products from digital files. They work together but serve different purposes.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a manufacturing process that builds products layer by layer from a digital design with minimal material waste.",
+              "options": null,
+              "correct_answer": "Additive manufacturing",
+              "explanation": "Additive manufacturing, also known as 3D printing, adds material layer by layer rather than removing it, making it very efficient with resources.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ allows designers to create 2D and 3D designs on a computer before manufacturing begins.",
+              "options": null,
+              "correct_answer": "CAD",
+              "explanation": "CAD (Computer-Aided Design) software enables designers to visualise and test products digitally, saving time and resources.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ uses computer-controlled machines to automatically manufacture products from digital design files.",
+              "options": null,
+              "correct_answer": "CAM",
+              "explanation": "CAM (Computer-Aided Manufacture) automates the manufacturing process, increasing speed, accuracy, and consistency.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a simulated digital environment used in product design to test how a product looks and feels before it is made.",
+              "options": null,
+              "correct_answer": "Virtual reality",
+              "explanation": "Virtual reality allows designers to immerse themselves in a digital environment to test and refine product designs before manufacturing.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ involves designing products to minimise environmental impact through careful consideration of materials, energy, lifespan, and disposal.",
+              "options": null,
+              "correct_answer": "Sustainable design",
+              "explanation": "Sustainable design takes a holistic approach to reduce a product's environmental footprint across its entire lifecycle.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is an economic approach where materials are reused, repaired, or recycled rather than discarded.",
+              "options": null,
+              "correct_answer": "circular economy",
+              "explanation": "The circular economy aims to keep materials in continuous use, reducing waste and environmental impact.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is when products are deliberately designed with a limited lifespan to encourage consumers to replace them frequently.",
+              "options": null,
+              "correct_answer": "Planned obsolescence",
+              "explanation": "This practice is criticised for creating unnecessary waste and encouraging wasteful consumption patterns.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a system that ensures producers in developing countries receive fair wages and work in safe conditions.",
+              "options": null,
+              "correct_answer": "Fair trade",
+              "explanation": "Fair trade promotes ethical manufacturing practices and supports workers in developing countries.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ and robotics are used in manufacturing to perform repetitive tasks quickly and consistently.",
+              "options": null,
+              "correct_answer": "Automation",
+              "explanation": "Automation improves manufacturing efficiency and product quality by removing human error from repetitive processes.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the fourth industrial revolution that combines automation, AI, and digital technology in manufacturing.",
+              "options": null,
+              "correct_answer": "Industry 4.0",
+              "explanation": "Industry 4.0 represents the current transformation in manufacturing through advanced digital and automated technologies.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "CAD",
+                  "match": "Computer software used to create and test designs before manufacturing"
+                },
+                {
+                  "term": "Circular economy",
+                  "match": "An economic system where materials are reused, repaired, or recycled"
+                },
+                {
+                  "term": "Virtual reality",
+                  "match": "A simulated digital environment used to test product design"
+                },
+                {
+                  "term": "Planned obsolescence",
+                  "match": "Deliberately designing products with a limited lifespan"
+                },
+                {
+                  "term": "Fair trade",
+                  "match": "A system ensuring fair wages and safe working conditions for producers"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Designing & Making Principles",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Design Processes & Communication",
+          "cards": [
+            {
+              "keyword": "design brief",
+              "definition": "a short statement outlining what a product needs to do and the context it will be used in",
+              "display_order": 1
+            },
+            {
+              "keyword": "design specification",
+              "definition": "a detailed list of criteria a product must meet — e.g. size, cost, materials, safety requirements",
+              "display_order": 2
+            },
+            {
+              "keyword": "iterative design",
+              "definition": "a design process involving repeated cycles of designing, testing, and improving a prototype",
+              "display_order": 3
+            },
+            {
+              "keyword": "prototype",
+              "definition": "a working model of a product used to test ideas and identify improvements before full production",
+              "display_order": 4
+            },
+            {
+              "keyword": "ergonomics",
+              "definition": "designing products to fit the human body and how people use them — maximising comfort, safety, and efficiency",
+              "display_order": 5
+            },
+            {
+              "keyword": "anthropometrics",
+              "definition": "the study of human body measurements — used to ensure products fit a range of users",
+              "display_order": 6
+            },
+            {
+              "keyword": "tolerance",
+              "definition": "the acceptable range of variation in a product's dimensions — essential in engineering and manufacturing",
+              "display_order": 7
+            },
+            {
+              "keyword": "quality control (QC)",
+              "definition": "checking products against a specification at various stages of production to identify and reject faulty items",
+              "display_order": 8
+            },
+            {
+              "keyword": "batch production",
+              "definition": "making a set quantity of a product at one time — flexible but requires retooling between batches",
+              "display_order": 9
+            },
+            {
+              "keyword": "mass production",
+              "definition": "continuously manufacturing large quantities of identical products — efficient but inflexible",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a design brief?",
+              "options": [
+                "A detailed list of all the measurements a product must have",
+                "A short statement outlining what a product needs to do and the context it will be used in",
+                "A working model of a product used for testing",
+                "A document that checks products meet the specification"
+              ],
+              "correct_answer": "A short statement outlining what a product needs to do and the context it will be used in",
+              "explanation": "A design brief is a starting point that outlines the purpose and context of a product in simple terms. It is shorter and less detailed than a design specification.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is part of a design specification?",
+              "options": [
+                "The company's annual profit target",
+                "Size, cost, materials, and safety requirements",
+                "The designer's personal preferences",
+                "A list of all previous products made by the company"
+              ],
+              "correct_answer": "Size, cost, materials, and safety requirements",
+              "explanation": "A design specification contains detailed criteria that a product must meet, including dimensions, budget, material choices, and safety standards.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is iterative design?",
+              "options": [
+                "Making a product only once without any changes",
+                "A design process involving repeated cycles of designing, testing, and improving a prototype",
+                "Using the same design for every product made",
+                "Copying designs from other companies"
+              ],
+              "correct_answer": "A design process involving repeated cycles of designing, testing, and improving a prototype",
+              "explanation": "Iterative design is about learning from testing and making improvements in cycles until the product meets the specification. Each cycle refines the design based on what was learned.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main purpose of a prototype?",
+              "options": [
+                "To be sold to customers immediately",
+                "To replace the final product completely",
+                "To test ideas and identify improvements before full production",
+                "To show investors how much the company will earn"
+              ],
+              "correct_answer": "To test ideas and identify improvements before full production",
+              "explanation": "A prototype is a working model that allows designers and manufacturers to test if ideas work and find problems before making the real product.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does ergonomics focus on?",
+              "options": [
+                "The cost of materials used in products",
+                "Designing products to fit the human body and how people use them for comfort, safety, and efficiency",
+                "How to advertise products to customers",
+                "The colour and style of a product"
+              ],
+              "correct_answer": "Designing products to fit the human body and how people use them for comfort, safety, and efficiency",
+              "explanation": "Ergonomics ensures products are comfortable and safe to use by considering how the human body interacts with them.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Anthropometrics is used to:",
+              "options": [
+                "Advertise products on social media",
+                "Calculate the production cost of a product",
+                "Ensure products fit a range of users by studying human body measurements",
+                "Decide what colour a product should be"
+              ],
+              "correct_answer": "Ensure products fit a range of users by studying human body measurements",
+              "explanation": "Anthropometrics involves measuring the human body so that products can be designed to fit different people of varying sizes and proportions.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In manufacturing, what does tolerance mean?",
+              "options": [
+                "How long workers can take for breaks",
+                "The acceptable range of variation in a product's dimensions",
+                "How many products are rejected each day",
+                "The time it takes to make one product"
+              ],
+              "correct_answer": "The acceptable range of variation in a product's dimensions",
+              "explanation": "Tolerance specifies how much a dimension can vary while still being acceptable. For example, a hole might need to be 10mm ±0.5mm in diameter.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is quality control?",
+              "options": [
+                "Training workers to be faster at their jobs",
+                "Checking products against a specification at various stages of production to identify faulty items",
+                "Decorating products to make them look better",
+                "Increasing the price of products"
+              ],
+              "correct_answer": "Checking products against a specification at various stages of production to identify faulty items",
+              "explanation": "Quality control involves testing and inspecting products throughout manufacturing to ensure they meet the design specification and rejecting any that don't.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which production method makes a set quantity of a product at one time before retooling?",
+              "options": [
+                "Job production",
+                "Batch production",
+                "Mass production",
+                "Custom production"
+              ],
+              "correct_answer": "Batch production",
+              "explanation": "Batch production involves making a specific quantity of identical products, then stopping to change the machinery if a different product needs to be made.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main characteristic of mass production?",
+              "options": [
+                "It is flexible and can quickly change to make different products",
+                "It continuously manufactures large quantities of identical products efficiently",
+                "It is used only for custom-made products",
+                "It requires frequent changes to the machinery"
+              ],
+              "correct_answer": "It continuously manufactures large quantities of identical products efficiently",
+              "explanation": "Mass production is efficient because machinery runs continuously making the same product repeatedly, but it is not flexible if you need to change the design.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "A design brief is more detailed than a design specification.",
+              "correct_answer": "False",
+              "explanation": "A design brief is short and outlines the basic purpose, while a design specification is detailed and lists all the criteria the product must meet.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Iterative design means testing and improving a product through repeated cycles.",
+              "correct_answer": "True",
+              "explanation": "Iterative design is a cyclical process where designers test, learn from failures, and improve the design multiple times before final production.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "A prototype is always the final version of a product that is sold to customers.",
+              "correct_answer": "False",
+              "explanation": "A prototype is a test model used to identify improvements before full production. It is not the final product.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Ergonomics ensures a product is safe and comfortable for people to use.",
+              "correct_answer": "True",
+              "explanation": "Ergonomics considers how products fit and are used by humans, focusing on comfort, safety, and efficiency.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Anthropometrics studies the colours and materials of products.",
+              "correct_answer": "False",
+              "explanation": "Anthropometrics specifically studies human body measurements to ensure products fit different users, not colours or materials.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Tolerance allows for small variations in product dimensions while still being acceptable.",
+              "correct_answer": "True",
+              "explanation": "Tolerance defines an acceptable range of variation for measurements. No two manufactured products are exactly identical, so tolerance is essential.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Quality control happens only at the very end of production.",
+              "correct_answer": "False",
+              "explanation": "Quality control checks products at various stages throughout production, not just at the end, to catch problems early.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Batch production requires retooling between different batches of products.",
+              "correct_answer": "True",
+              "explanation": "Batch production involves stopping and changing machinery when switching from one product or batch to another.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Mass production is very flexible and can easily change to make different products.",
+              "correct_answer": "False",
+              "explanation": "Mass production is efficient for large quantities of identical products but is inflexible because changing the product requires stopping the entire production line.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "A design specification contains the acceptable safety requirements and materials for a product.",
+              "correct_answer": "True",
+              "explanation": "A design specification is a detailed list of all criteria a product must meet, including safety requirements, materials, size, and cost.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a short statement that outlines what a product needs to do and the context it will be used in.",
+              "options": null,
+              "correct_answer": "design brief",
+              "explanation": "This is the definition of a design brief, which is the starting point for any design project.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a detailed list of criteria a product must meet, such as size, cost, materials, and safety requirements.",
+              "options": null,
+              "correct_answer": "design specification",
+              "explanation": "The design specification provides detailed requirements that the final product must achieve.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a design process involving repeated cycles of designing, testing, and improving a prototype.",
+              "options": null,
+              "correct_answer": "Iterative design",
+              "explanation": "This describes the iterative approach where designers continuously improve their work based on testing feedback.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a working model of a product used to test ideas and identify improvements before full production.",
+              "options": null,
+              "correct_answer": "prototype",
+              "explanation": "Prototypes allow designers and manufacturers to test their ideas in a real working form before committing to full production.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the design approach of fitting products to the human body and how people use them to maximize comfort and safety.",
+              "options": null,
+              "correct_answer": "Ergonomics",
+              "explanation": "Ergonomics ensures products are designed with human use and comfort in mind.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the study of human body measurements used to ensure products fit a range of different users.",
+              "options": null,
+              "correct_answer": "Anthropometrics",
+              "explanation": "This field measures human bodies so products can be designed to accommodate people of different sizes.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "In manufacturing, ________ refers to the acceptable range of variation in a product's dimensions.",
+              "options": null,
+              "correct_answer": "tolerance",
+              "explanation": "Tolerance allows for small unavoidable variations in manufactured products while keeping them functional and safe.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the process of checking products against a specification at various stages of production to identify faulty items.",
+              "options": null,
+              "correct_answer": "Quality control",
+              "explanation": "This ensures products meet standards throughout manufacturing, not just at the end.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is a production method that makes a set quantity of a product at one time and requires retooling between batches.",
+              "options": null,
+              "correct_answer": "Batch production",
+              "explanation": "This method balances flexibility with efficiency by making sets of products rather than one at a time or millions continuously.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ continuously manufactures large quantities of identical products in an efficient but inflexible way.",
+              "options": null,
+              "correct_answer": "Mass production",
+              "explanation": "This is used for high-volume products like cars or phones where the same design is made over and over.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Prototype",
+                  "match": "A working model used to test ideas and identify improvements before full production"
+                },
+                {
+                  "term": "Tolerance",
+                  "match": "The acceptable range of variation in a product's dimensions during manufacturing"
+                },
+                {
+                  "term": "Ergonomics",
+                  "match": "Designing products to fit the human body and maximize comfort, safety, and efficiency"
+                },
+                {
+                  "term": "Quality control",
+                  "match": "Checking products against a specification at various stages to identify faulty items"
+                },
+                {
+                  "term": "Batch production",
+                  "match": "Making a set quantity of a product at one time before retooling for the next batch"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

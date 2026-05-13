@@ -1,0 +1,752 @@
+{
+  "subject": {
+    "name": "Design & Technology",
+    "exam_board": "Eduqas",
+    "category": "Technology & Applied",
+    "colour": "#92400e",
+    "emoji": "🔧",
+    "slug": "design-technology-eduqas"
+  },
+  "topics": [
+    {
+      "name": "Designing & Making — Eduqas",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Eduqas D&T Core Concepts",
+          "cards": [
+            {
+              "keyword": "design context",
+              "definition": "the situation or problem that a designer is responding to — Eduqas NEA starts with a design context issued by the board",
+              "display_order": 1
+            },
+            {
+              "keyword": "NEA (Non-Examined Assessment)",
+              "definition": "the Eduqas D&T coursework component — worth 50% of the GCSE. Students design and make a product in response to a brief",
+              "display_order": 2
+            },
+            {
+              "keyword": "iterative design process",
+              "definition": "a cycle of designing, making, testing, and improving — used throughout the NEA",
+              "display_order": 3
+            },
+            {
+              "keyword": "user needs",
+              "definition": "the requirements of the intended user — research into user needs informs the design specification",
+              "display_order": 4
+            },
+            {
+              "keyword": "primary research",
+              "definition": "first-hand data gathered directly — e.g. questionnaires, interviews, observations of users",
+              "display_order": 5
+            },
+            {
+              "keyword": "secondary research",
+              "definition": "existing data gathered by others — e.g. websites, books, existing products (analysis)",
+              "display_order": 6
+            },
+            {
+              "keyword": "design specification",
+              "definition": "a detailed list of criteria the final product must meet — based on research findings",
+              "display_order": 7
+            },
+            {
+              "keyword": "prototype / model",
+              "definition": "a physical model used to test and evaluate a design idea — helps identify improvements before final making",
+              "display_order": 8
+            },
+            {
+              "keyword": "evaluation against specification",
+              "definition": "testing the final product against each point in the design specification — identifies how well it meets user needs",
+              "display_order": 9
+            },
+            {
+              "keyword": "systems thinking",
+              "definition": "understanding a product as a system with inputs, processes, and outputs — used in electronic and mechanical design",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is a design context?",
+              "options": [
+                "The situation or problem that a designer is responding to",
+                "The materials used to make a product",
+                "The tools available in a workshop",
+                "The cost of making a product"
+              ],
+              "correct_answer": "The situation or problem that a designer is responding to",
+              "explanation": "A design context is the starting point for design work — it describes the problem or situation the designer needs to solve. In Eduqas NEA, the board issues the design context that students must respond to.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does NEA stand for in Eduqas D&T?",
+              "options": [
+                "National Educational Assessment",
+                "Non-Examined Assessment",
+                "New Engineering Approach",
+                "Needs and Evaluation Analysis"
+              ],
+              "correct_answer": "Non-Examined Assessment",
+              "explanation": "NEA is the coursework component of Eduqas D&T GCSE, worth 50% of the total grade. Students design and make a product in response to a brief set by the exam board.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an example of primary research?",
+              "options": [
+                "Reading about a product on a website",
+                "Asking questions to real users in a questionnaire",
+                "Looking at a competitor's product in a shop",
+                "Watching a video about design on YouTube"
+              ],
+              "correct_answer": "Asking questions to real users in a questionnaire",
+              "explanation": "Primary research is first-hand data you gather directly from sources. A questionnaire completed by real users is direct data collection. Reading websites or watching videos is secondary research because you're using data others have already gathered.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a design specification?",
+              "options": [
+                "A list of all the materials you will use",
+                "A detailed list of criteria the final product must meet",
+                "A drawing of how the product will look",
+                "The budget for making the product"
+              ],
+              "correct_answer": "A detailed list of criteria the final product must meet",
+              "explanation": "A design specification outlines all the requirements your final product must achieve. It is based on your research into user needs and guides your design and making decisions.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is an iterative design process?",
+              "options": [
+                "Making the product only once without any changes",
+                "Asking customers what they want before you start",
+                "A cycle of designing, making, testing, and improving",
+                "Writing a detailed plan at the very beginning"
+              ],
+              "correct_answer": "A cycle of designing, making, testing, and improving",
+              "explanation": "Iterative design means you repeat the cycle of design, make, test, and improve several times. This helps you identify problems early and refine your product throughout the NEA process.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What are user needs?",
+              "options": [
+                "The materials the designer prefers to use",
+                "The requirements of the intended user",
+                "The time it takes to make a product",
+                "The selling price of the final product"
+              ],
+              "correct_answer": "The requirements of the intended user",
+              "explanation": "User needs are what the person using your product actually requires it to do or be like. Understanding user needs through research helps you create a design specification that will satisfy them.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is an example of secondary research?",
+              "options": [
+                "Interviewing teenagers about their preferences",
+                "Taking photographs of how people use a product",
+                "Visiting a shop to observe customers",
+                "Reading existing information about similar products on websites"
+              ],
+              "correct_answer": "Reading existing information about similar products on websites",
+              "explanation": "Secondary research uses data that others have already gathered and published. Reading websites, books, or analysing existing products are all forms of secondary research because you're not collecting the data yourself.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the purpose of making a prototype?",
+              "options": [
+                "To show the client what the product will cost",
+                "To test and evaluate a design idea and identify improvements",
+                "To use the exact same materials as the final product",
+                "To prove that the design is perfect before making it"
+              ],
+              "correct_answer": "To test and evaluate a design idea and identify improvements",
+              "explanation": "A prototype is a physical model that helps you test your ideas in a real, practical way. It allows you to spot problems and make changes before you commit to final making, saving time and materials.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is systems thinking in design?",
+              "options": [
+                "Using a computer system to design your product",
+                "Understanding a product as having inputs, processes, and outputs",
+                "Writing a system of rules for making",
+                "Planning the order in which you will make parts"
+              ],
+              "correct_answer": "Understanding a product as having inputs, processes, and outputs",
+              "explanation": "Systems thinking means viewing your product as a complete system where inputs go in, a process happens, and outputs come out. This is particularly useful for understanding electronic and mechanical designs.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does evaluation against specification involve?",
+              "options": [
+                "Asking your friends if they like the product",
+                "Testing the final product against each point in the design specification",
+                "Checking that you used the correct tools",
+                "Counting how many hours you spent making"
+              ],
+              "correct_answer": "Testing the final product against each point in the design specification",
+              "explanation": "Evaluation against specification is a structured comparison between what you planned to achieve and what your final product actually does. It shows how well your product meets the user needs you identified at the start.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The Eduqas NEA is worth 25% of the total GCSE grade.",
+              "correct_answer": "False",
+              "explanation": "The NEA is worth 50% of the GCSE grade, not 25%. It is a very important component of your D&T assessment.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Primary research involves gathering first-hand data directly from sources.",
+              "correct_answer": "True",
+              "explanation": "Primary research is data you collect yourself, such as through questionnaires, interviews, or observations. This is first-hand, original data.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "A design specification is created before any research is carried out.",
+              "correct_answer": "False",
+              "explanation": "A design specification is created after research into user needs. It should be based on what you have learned from your primary and secondary research.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Secondary research means you gather data by interviewing users yourself.",
+              "correct_answer": "False",
+              "explanation": "Secondary research uses existing data gathered by others, not data you collect yourself. Interviewing users yourself would be primary research.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Testing a prototype can help identify improvements before final making.",
+              "correct_answer": "True",
+              "explanation": "Prototypes are designed to be tested so you can find problems early and make changes. This saves time and materials compared to discovering problems after final making.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "An iterative design process only involves designing and making, not testing or improving.",
+              "correct_answer": "False",
+              "explanation": "An iterative design process is a continuous cycle of designing, making, testing, and improving. Testing and improving are essential parts of this cycle.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Systems thinking is mainly used for understanding how to use design software.",
+              "correct_answer": "False",
+              "explanation": "Systems thinking is about understanding a product as a system with inputs, processes, and outputs. It is particularly useful for electronic and mechanical designs, not about using software.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "User needs should be researched before creating a design specification.",
+              "correct_answer": "True",
+              "explanation": "Your design specification should be based on research into user needs. Understanding what users require helps you write a specification that will satisfy them.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The design context in Eduqas NEA is always created by the student.",
+              "correct_answer": "False",
+              "explanation": "The design context is issued by the Eduqas exam board. Students then respond to this context by carrying out their own design and making work.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Evaluation against specification compares your final product to your original design plans.",
+              "correct_answer": "True",
+              "explanation": "This type of evaluation checks how well your finished product meets each criterion in your design specification, showing whether you have achieved your original goals.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Eduqas D&T coursework component is called the ________ and is worth 50% of the GCSE.",
+              "options": null,
+              "correct_answer": "NEA",
+              "explanation": "NEA stands for Non-Examined Assessment and is the main coursework element of the Eduqas D&T GCSE.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ research involves gathering data directly from real users through questionnaires or interviews.",
+              "options": null,
+              "correct_answer": "Primary",
+              "explanation": "Primary research is first-hand data collection that you do yourself, unlike secondary research which uses existing sources.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a physical model used to test and evaluate a design idea before final making.",
+              "options": null,
+              "correct_answer": "prototype",
+              "explanation": "Prototypes help designers identify problems and improvements early in the design process through practical testing.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ outlines all the requirements that your final product must meet.",
+              "options": null,
+              "correct_answer": "design specification",
+              "explanation": "A design specification is based on your research and serves as a guide for your design and making decisions.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ thinking involves understanding a product as a system with inputs, processes, and outputs.",
+              "options": null,
+              "correct_answer": "Systems",
+              "explanation": "Systems thinking helps designers understand how all parts of a product work together, especially in electronic and mechanical designs.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ research uses existing data that has already been gathered by others, such as websites or books.",
+              "options": null,
+              "correct_answer": "Secondary",
+              "explanation": "Secondary research involves analysing information from sources like the internet, books, and existing products rather than collecting original data.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is the situation or problem that a designer is responding to in their work.",
+              "options": null,
+              "correct_answer": "design context",
+              "explanation": "The design context provides the background and reason for the design task — in Eduqas NEA, it is issued by the exam board.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ are the specific needs and requirements of the person who will use the product.",
+              "options": null,
+              "correct_answer": "user needs",
+              "explanation": "Understanding user needs through research ensures your final product will actually satisfy the people who will use it.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ design process involves repeating a cycle of designing, making, testing, and improving.",
+              "options": null,
+              "correct_answer": "iterative",
+              "explanation": "Iteration means doing something multiple times with refinements — this approach helps improve designs throughout the NEA.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ against specification means testing your final product to see how well it meets each planned criterion.",
+              "options": null,
+              "correct_answer": "Evaluation",
+              "explanation": "This type of evaluation directly compares your finished product against the specifications you created during the planning stage.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Design context",
+                  "match": "The situation or problem that a designer is responding to"
+                },
+                {
+                  "term": "User needs",
+                  "match": "The requirements of the intended user"
+                },
+                {
+                  "term": "Prototype",
+                  "match": "A physical model used to test and evaluate a design idea"
+                },
+                {
+                  "term": "Iterative design process",
+                  "match": "A cycle of designing, making, testing, and improving"
+                },
+                {
+                  "term": "Systems thinking",
+                  "match": "Understanding a product as having inputs, processes, and outputs"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Eduqas — Materials & Sustainability",
+          "cards": [
+            {
+              "keyword": "lifecycle assessment (LCA)",
+              "definition": "evaluating the environmental impact of a product from raw material extraction to end of life — used to justify sustainable design decisions",
+              "display_order": 1
+            },
+            {
+              "keyword": "planned obsolescence",
+              "definition": "designing products to have a limited lifespan so consumers replace them — criticised for creating unnecessary waste",
+              "display_order": 2
+            },
+            {
+              "keyword": "sustainability",
+              "definition": "designing and making in ways that meet current needs without damaging the ability of future generations to meet their needs",
+              "display_order": 3
+            },
+            {
+              "keyword": "the 6Rs",
+              "definition": "a framework for sustainable design: Rethink, Refuse, Reduce, Reuse, Repair, Recycle",
+              "display_order": 4
+            },
+            {
+              "keyword": "finite resources",
+              "definition": "materials that will eventually run out — e.g. oil, metals, hardwoods. Designers should minimise their use",
+              "display_order": 5
+            },
+            {
+              "keyword": "renewable resources",
+              "definition": "materials that can be replenished naturally — e.g. timber from managed forests, plant-based plastics",
+              "display_order": 6
+            },
+            {
+              "keyword": "fair trade",
+              "definition": "ensuring producers in developing countries receive fair wages and safe conditions — an ethical consideration in material sourcing",
+              "display_order": 7
+            },
+            {
+              "keyword": "carbon footprint",
+              "definition": "the total greenhouse gas emissions caused by a product or activity — reducing carbon footprint is a key sustainability goal",
+              "display_order": 8
+            },
+            {
+              "keyword": "upcycling",
+              "definition": "creatively reusing waste materials to create products of higher value — a sustainable making strategy",
+              "display_order": 9
+            },
+            {
+              "keyword": "Design for Disassembly",
+              "definition": "designing products so components can be easily separated at end of life for recycling or reuse",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does LCA stand for?",
+              "options": [
+                "Lifecycle Assessment",
+                "Long-term Carbon Analysis",
+                "Local Composition Audit",
+                "Life-stage Cost Allowance"
+              ],
+              "correct_answer": "Lifecycle Assessment",
+              "explanation": "LCA (Lifecycle Assessment) evaluates the environmental impact of a product from raw material extraction through to end of life, helping designers make sustainable choices.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of a finite resource?",
+              "options": [
+                "Timber from managed forests",
+                "Oil",
+                "Plant-based plastics",
+                "Bamboo"
+              ],
+              "correct_answer": "Oil",
+              "explanation": "Oil is a finite resource that will eventually run out because it takes millions of years to form and we are using it faster than it can be replenished.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is planned obsolescence?",
+              "options": [
+                "Designing products to last as long as possible",
+                "Using only renewable materials in products",
+                "Designing products to have a limited lifespan so consumers replace them",
+                "Making products that are easy to recycle"
+              ],
+              "correct_answer": "Designing products to have a limited lifespan so consumers replace them",
+              "explanation": "Planned obsolescence is when designers intentionally make products fail or become unfashionable so people buy new ones, which is criticised for creating unnecessary waste.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the 6Rs means buying less of something in the first place?",
+              "options": [
+                "Refuse",
+                "Reduce",
+                "Reuse",
+                "Rethink"
+              ],
+              "correct_answer": "Reduce",
+              "explanation": "Reduce means using less material or buying less, which is one of the key strategies in the 6Rs framework for sustainable design.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is upcycling?",
+              "options": [
+                "Breaking down products into raw materials",
+                "Throwing away old materials responsibly",
+                "Creatively reusing waste materials to create products of higher value",
+                "Designing products that cannot be recycled"
+              ],
+              "correct_answer": "Creatively reusing waste materials to create products of higher value",
+              "explanation": "Upcycling transforms waste materials into new products that have greater value or function, making it a sustainable making strategy.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does fair trade ensure?",
+              "options": [
+                "Products are made using only renewable materials",
+                "Producers in developing countries receive fair wages and safe conditions",
+                "All products are recycled at the end of life",
+                "Companies reduce their carbon emissions by 50%"
+              ],
+              "correct_answer": "Producers in developing countries receive fair wages and safe conditions",
+              "explanation": "Fair trade is an ethical consideration in material sourcing that guarantees workers are paid fairly and have safe working conditions.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which is an example of a renewable resource?",
+              "options": [
+                "Copper ore",
+                "Natural gas",
+                "Timber from managed forests",
+                "Rare earth metals"
+              ],
+              "correct_answer": "Timber from managed forests",
+              "explanation": "Timber from managed forests is renewable because new trees can be planted and grown to replace those that are harvested.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main purpose of Design for Disassembly?",
+              "options": [
+                "To make products cheaper to manufacture",
+                "To allow components to be easily separated at end of life for recycling or reuse",
+                "To prevent customers from repairing their products",
+                "To reduce the weight of products during transport"
+              ],
+              "correct_answer": "To allow components to be easily separated at end of life for recycling or reuse",
+              "explanation": "Design for Disassembly is a sustainability strategy that makes it easier to take products apart so materials can be recycled or components reused.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is carbon footprint?",
+              "options": [
+                "The physical size of a product when packaged",
+                "The total greenhouse gas emissions caused by a product or activity",
+                "The number of kilometres a product travels during manufacture",
+                "The amount of plastic packaging used for a product"
+              ],
+              "correct_answer": "The total greenhouse gas emissions caused by a product or activity",
+              "explanation": "Carbon footprint measures the total greenhouse gas emissions linked to a product, and reducing it is a key goal in sustainable design.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does sustainability mean in design?",
+              "options": [
+                "Making products as cheaply as possible",
+                "Using only the most expensive materials available",
+                "Designing and making in ways that meet current needs without damaging the ability of future generations to meet their needs",
+                "Making all products identical to reduce variety"
+              ],
+              "correct_answer": "Designing and making in ways that meet current needs without damaging the ability of future generations to meet their needs",
+              "explanation": "Sustainability balances meeting today's needs with protecting the environment and resources for future generations.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Planned obsolescence is a good example of sustainable design practice.",
+              "correct_answer": "False",
+              "explanation": "Planned obsolescence is criticised for creating unnecessary waste and is the opposite of sustainable design, which aims to extend product life.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Finite resources will eventually run out if we continue to use them at current rates.",
+              "correct_answer": "True",
+              "explanation": "Finite resources like oil and metals cannot be replenished naturally on a human timescale, so they will eventually be exhausted.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Renewable resources can never be used unsustainably.",
+              "correct_answer": "False",
+              "explanation": "Even renewable resources like timber can be used unsustainably if trees are cut down faster than they can be replanted and grow back.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Lifecycle Assessment only considers the manufacturing stage of a product.",
+              "correct_answer": "False",
+              "explanation": "LCA evaluates environmental impact from raw material extraction through to end of life, including manufacturing, use, and disposal.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Fair trade focuses on environmental protection only.",
+              "correct_answer": "False",
+              "explanation": "Fair trade ensures both fair wages and safe working conditions for producers, making it an ethical consideration for both people and the environment.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Upcycling always produces products with less value than the original materials.",
+              "correct_answer": "False",
+              "explanation": "Upcycling specifically creates products of higher value from waste materials through creative reuse.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The 6Rs framework includes Recycle as one of its main strategies.",
+              "correct_answer": "True",
+              "explanation": "The 6Rs are Rethink, Refuse, Reduce, Reuse, Repair, and Recycle, with Recycle being the last option after reducing and reusing.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Design for Disassembly makes it more difficult to repair products.",
+              "correct_answer": "False",
+              "explanation": "Design for Disassembly actually makes it easier to access and replace components, which supports both repair and recycling.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Carbon footprint reduction is a key goal in sustainable design.",
+              "correct_answer": "True",
+              "explanation": "Reducing carbon footprint by minimising greenhouse gas emissions is a central aim of sustainable design practice.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Plant-based plastics are considered renewable resources.",
+              "correct_answer": "True",
+              "explanation": "Plant-based plastics come from crops that can be regrown and replanted, making them renewable rather than derived from finite fossil fuels.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is an evaluation of the environmental impact of a product from raw material extraction to end of life.",
+              "options": null,
+              "correct_answer": "lifecycle assessment",
+              "explanation": "LCA (lifecycle assessment) is the term used to describe this comprehensive environmental evaluation method.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Designers should minimise their use of ________ resources such as oil and metals because they will eventually run out.",
+              "options": null,
+              "correct_answer": "finite",
+              "explanation": "Finite resources are those that cannot be naturally replenished and are being depleted faster than they form.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ ensures producers in developing countries receive fair wages and safe working conditions.",
+              "options": null,
+              "correct_answer": "Fair trade",
+              "explanation": "Fair trade is an ethical practice that protects workers and supports sustainable sourcing of materials.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The practice of ________ involves creatively reusing waste materials to create products of higher value.",
+              "options": null,
+              "correct_answer": "upcycling",
+              "explanation": "Upcycling is a sustainable making strategy that transforms waste into valuable new products.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is designing products to have a limited lifespan so consumers replace them, which is criticised for creating unnecessary waste.",
+              "options": null,
+              "correct_answer": "Planned obsolescence",
+              "explanation": "Planned obsolescence is an unsustainable practice that contradicts the principles of sustainable design.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ framework for sustainable design includes Rethink, Refuse, Reduce, Reuse, Repair, and Recycle.",
+              "options": null,
+              "correct_answer": "6Rs",
+              "explanation": "The 6Rs provide a practical hierarchy of sustainable design strategies, with Recycle being the last resort.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A product's ________ measures the total greenhouse gas emissions caused by its production, use, and disposal.",
+              "options": null,
+              "correct_answer": "carbon footprint",
+              "explanation": "Carbon footprint is a key metric in assessing and reducing the environmental impact of products.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ resources such as timber from managed forests can be replenished naturally over time.",
+              "options": null,
+              "correct_answer": "Renewable",
+              "explanation": "Renewable resources can be sustainably harvested if managed properly to allow regrowth and replenishment.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ for Disassembly is a design strategy that allows components to be easily separated at end of life for recycling or reuse.",
+              "options": null,
+              "correct_answer": "Design",
+              "explanation": "Design for Disassembly is a key sustainable design principle that facilitates the circular economy.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ means designing and making in ways that meet current needs without damaging the ability of future generations to meet their needs.",
+              "options": null,
+              "correct_answer": "Sustainability",
+              "explanation": "Sustainability is the overarching principle that guides all ethical and environmentally responsible design decisions.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Lifecycle Assessment",
+                  "match": "Evaluating environmental impact from raw material extraction to end of life"
+                },
+                {
+                  "term": "Planned Obsolescence",
+                  "match": "Designing products with a limited lifespan to force replacement"
+                },
+                {
+                  "term": "Upcycling",
+                  "match": "Creatively reusing waste materials to create higher value products"
+                },
+                {
+                  "term": "Fair Trade",
+                  "match": "Ensuring producers receive fair wages and safe working conditions"
+                },
+                {
+                  "term": "Design for Disassembly",
+                  "match": "Designing products so components can be easily separated for recycling or reuse"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

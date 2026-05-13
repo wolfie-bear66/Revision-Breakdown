@@ -1,0 +1,385 @@
+{
+  "subject": {
+    "name": "Maths",
+    "exam_board": "Edexcel",
+    "category": "Maths",
+    "colour": "#1d4ed8",
+    "emoji": "📐",
+    "slug": "maths-edexcel"
+  },
+  "topics": [
+    {
+      "name": "Edexcel-Specific Topics & Formula Sheet",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 2,
+          "block_name": "Higher Tier — Edexcel Topics",
+          "cards": [
+            {
+              "keyword": "iteration",
+              "definition": "a method of solving equations by repeatedly substituting values into a formula to get closer to the solution",
+              "display_order": 1
+            },
+            {
+              "keyword": "function notation f(x)",
+              "definition": "a way of writing a rule: f(x) = 2x + 1 means the function f applied to x gives 2x + 1",
+              "display_order": 2
+            },
+            {
+              "keyword": "composite function fg(x)",
+              "definition": "applying one function then another: fg(x) means apply g first, then f to the result",
+              "display_order": 3
+            },
+            {
+              "keyword": "inverse function f⁻¹(x)",
+              "definition": "the function that reverses f — if f(3) = 7 then f⁻¹(7) = 3",
+              "display_order": 4
+            },
+            {
+              "keyword": "proof",
+              "definition": "a logical argument showing a statement must always be true — used in Edexcel Higher. Must use algebra, not just examples",
+              "display_order": 5
+            },
+            {
+              "keyword": "algebraic fraction",
+              "definition": "a fraction with algebraic expressions in the numerator and/or denominator — can be simplified, added, subtracted, multiplied",
+              "display_order": 6
+            },
+            {
+              "keyword": "completing the square",
+              "definition": "rewriting a quadratic in the form (x + p)² + q — used to find the vertex of a parabola or solve quadratics",
+              "display_order": 7
+            },
+            {
+              "keyword": "vectors",
+              "definition": "quantities with both magnitude and direction — represented as column vectors or with letters. Used to describe translations and geometric proofs",
+              "display_order": 8
+            },
+            {
+              "keyword": "conditional probability",
+              "definition": "the probability of an event given that another event has already occurred — used with tree diagrams and two-way tables",
+              "display_order": 9
+            },
+            {
+              "keyword": "Venn diagrams",
+              "definition": "diagrams using overlapping circles to show relationships between sets — used in probability questions on the Edexcel paper",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is iteration used for in mathematics?",
+              "options": [
+                "Drawing graphs on squared paper",
+                "Solving equations by repeatedly substituting values into a formula",
+                "Finding the area of a triangle",
+                "Factorising quadratic expressions"
+              ],
+              "correct_answer": "Solving equations by repeatedly substituting values into a formula",
+              "explanation": "Iteration is a numerical method where you use a formula repeatedly, each time getting closer to the solution of an equation.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "If f(x) = 3x + 2, what does f(5) equal?",
+              "options": [
+                "17",
+                "15",
+                "10",
+                "25"
+              ],
+              "correct_answer": "17",
+              "explanation": "f(5) means substitute x = 5 into the function: f(5) = 3(5) + 2 = 15 + 2 = 17.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the notation fg(x) mean?",
+              "options": [
+                "Multiply function f by function g",
+                "Apply function g first, then apply function f to the result",
+                "Apply function f first, then apply function g to the result",
+                "Find the average of f and g"
+              ],
+              "correct_answer": "Apply function g first, then apply function f to the result",
+              "explanation": "In composite function notation fg(x), you always work from the right: apply g to x first, then apply f to that result.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "If f(4) = 10, which statement about the inverse function is correct?",
+              "options": [
+                "f⁻¹(10) = 4",
+                "f⁻¹(4) = 10",
+                "f⁻¹(10) = 40",
+                "f⁻¹(4) = 0.4"
+              ],
+              "correct_answer": "f⁻¹(10) = 4",
+              "explanation": "The inverse function reverses the action of the original function. If f(4) = 10, then f⁻¹(10) = 4.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What must you use to write a valid mathematical proof at Higher Tier?",
+              "options": [
+                "Only numerical examples",
+                "Algebra and logical reasoning, not just examples",
+                "Only diagrams and pictures",
+                "Calculator workings"
+              ],
+              "correct_answer": "Algebra and logical reasoning, not just examples",
+              "explanation": "A proof must show something is always true using general algebraic steps, not just by showing it works for a few numbers.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which expression is an algebraic fraction?",
+              "options": [
+                "3/4 + 5/6",
+                "(x + 2)/(x - 1)",
+                "7/2",
+                "1/3 × 1/5"
+              ],
+              "correct_answer": "(x + 2)/(x - 1)",
+              "explanation": "An algebraic fraction has variables (like x) in the numerator and/or denominator. The other options are numerical fractions.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What form does completing the square produce?",
+              "options": [
+                "(x + p) + q",
+                "(x + p)² + q",
+                "(x + p)(x + q)",
+                "x² + (p + q)x"
+              ],
+              "correct_answer": "(x + p)² + q",
+              "explanation": "Completing the square rewrites a quadratic as (x + p)² + q, which makes it easy to find the vertex or solve the equation.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is a vector quantity?",
+              "options": [
+                "A translation of 5 units to the right and 3 units up",
+                "The distance from London to Manchester",
+                "The speed of a car",
+                "The height of a building"
+              ],
+              "correct_answer": "A translation of 5 units to the right and 3 units up",
+              "explanation": "Vectors have both magnitude and direction. A translation describes movement in a specific direction, making it a vector.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is conditional probability?",
+              "options": [
+                "The probability of rolling a dice",
+                "The probability of an event given that another event has already occurred",
+                "The probability that something never happens",
+                "The probability of getting heads when flipping a coin"
+              ],
+              "correct_answer": "The probability of an event given that another event has already occurred",
+              "explanation": "Conditional probability is written as P(A|B) and means the probability of A happening when we know B has already happened.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the main purpose of a Venn diagram in probability?",
+              "options": [
+                "To show how to solve quadratic equations",
+                "To display the relationships between different sets",
+                "To prove that parallel lines never meet",
+                "To calculate the gradient of a line"
+              ],
+              "correct_answer": "To display the relationships between different sets",
+              "explanation": "Venn diagrams use overlapping circles to show which elements belong to different sets and their overlaps, useful for probability questions.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Iteration always gives an exact answer to an equation.",
+              "correct_answer": "False",
+              "explanation": "Iteration is a numerical approximation method. It gets closer to the answer with each step but usually gives an approximate answer, not an exact one.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "If g(x) = x + 3 and f(x) = 2x, then fg(5) means apply f first and then g.",
+              "correct_answer": "False",
+              "explanation": "In composite function notation fg(x), you apply g first (the function on the right), then apply f to the result.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The inverse of a function always exists for every function.",
+              "correct_answer": "False",
+              "explanation": "Not all functions have inverses. A function must be one-to-one (each input maps to exactly one output and vice versa) to have an inverse.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "A proof using only numerical examples is acceptable in a GCSE Higher Tier examination.",
+              "correct_answer": "False",
+              "explanation": "Proofs at Higher Tier must use algebra and logical reasoning to show something is always true, not just examples.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "You can simplify the algebraic fraction (2x + 4)/(x + 2) by cancelling the x terms.",
+              "correct_answer": "False",
+              "explanation": "You cannot cancel individual x terms. You must first factorise: (2x + 4)/(x + 2) = 2(x + 2)/(x + 2) = 2. Only then can you cancel.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Completing the square can be used to find the turning point of a parabola.",
+              "correct_answer": "True",
+              "explanation": "When you complete the square to get (x + p)² + q, the turning point (vertex) is at (-p, q).",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "A vector has magnitude and direction, while a scalar has only magnitude.",
+              "correct_answer": "True",
+              "explanation": "This is the key difference between vectors and scalars. Velocity (with direction) is a vector; speed (magnitude only) is a scalar.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "If two events are independent, the conditional probability P(A|B) equals P(A).",
+              "correct_answer": "True",
+              "explanation": "For independent events, knowing that B happened doesn't change the probability of A, so P(A|B) = P(A).",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "A Venn diagram can only show two overlapping sets.",
+              "correct_answer": "False",
+              "explanation": "Venn diagrams can show two, three, or more overlapping sets, depending on how many sets you need to represent.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "In function notation, f(x) = 2x + 1 means that the rule 'multiply by 2 and add 1' is applied to the input x.",
+              "correct_answer": "True",
+              "explanation": "Function notation describes a rule: f(x) = 2x + 1 means whatever you input as x gets multiplied by 2 and then 1 is added.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ is a method of solving equations by repeatedly substituting values into a formula to get closer to the solution.",
+              "options": null,
+              "correct_answer": "iteration",
+              "explanation": "Iteration is the numerical technique used to find approximate solutions by repeatedly applying a formula.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "If f(x) = x² and g(x) = x + 3, then ________ (x) means apply g first, then apply f to the result.",
+              "options": null,
+              "correct_answer": "fg",
+              "explanation": "The composite function fg(x) applies g first, then f. This is the standard notation for composing two functions.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ function reverses the action of the original function; if f(2) = 5, then f⁻¹(5) = 2.",
+              "options": null,
+              "correct_answer": "inverse",
+              "explanation": "The inverse function f⁻¹(x) undoes what f(x) does, swapping inputs and outputs.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A mathematical ________ is a logical argument using algebra that shows a statement must always be true.",
+              "options": null,
+              "correct_answer": "proof",
+              "explanation": "Proofs use general algebraic reasoning to establish that something is always true, not just for specific examples.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "An ________ fraction is a fraction with variables in the numerator or denominator, such as (x + 2)/(3x - 1).",
+              "options": null,
+              "correct_answer": "algebraic",
+              "explanation": "Algebraic fractions contain letter terms and can be simplified, added, subtracted, or multiplied like numerical fractions.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "When you complete the square on the quadratic x² + 6x + 5, you rewrite it in the form (x + p)² + q, which is (x + ________)² - 4.",
+              "options": null,
+              "correct_answer": "3",
+              "explanation": "Completing the square for x² + 6x + 5 gives (x + 3)² - 4. The number p is half the coefficient of x.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is a quantity that has both magnitude and direction, often represented as a column vector.",
+              "options": null,
+              "correct_answer": "vector",
+              "explanation": "Vectors are used to describe translations and displacements because they show both how far and in which direction.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The probability of an event given that another event has already occurred is called ________ probability.",
+              "options": null,
+              "correct_answer": "conditional",
+              "explanation": "Conditional probability is written as P(A|B) and is used when one event's occurrence affects the probability of another.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ diagram uses overlapping circles to show relationships between sets and is useful for solving probability problems.",
+              "options": null,
+              "correct_answer": "Venn",
+              "explanation": "Venn diagrams visually represent set relationships and help calculate probabilities involving multiple events.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "In ________ notation, the expression f(x) = 3x + 2 means the function f applied to x gives the result 3x + 2.",
+              "options": null,
+              "correct_answer": "function",
+              "explanation": "Function notation is a concise way to write and communicate mathematical rules and their inputs and outputs.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Iteration",
+                  "match": "A method of solving equations by repeatedly substituting values into a formula"
+                },
+                {
+                  "term": "Composite function fg(x)",
+                  "match": "Applying one function then another (g first, then f)"
+                },
+                {
+                  "term": "Inverse function f⁻¹(x)",
+                  "match": "The function that reverses the action of the original function"
+                },
+                {
+                  "term": "Completing the square",
+                  "match": "Rewriting a quadratic in the form (x + p)² + q"
+                },
+                {
+                  "term": "Conditional probability",
+                  "match": "The probability of an event given that another event has already occurred"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

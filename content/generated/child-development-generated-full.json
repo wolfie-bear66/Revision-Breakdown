@@ -1,0 +1,385 @@
+{
+  "subject": {
+    "name": "Child Development",
+    "exam_board": "AQA",
+    "category": "Technology & Applied",
+    "colour": "#16a34a",
+    "emoji": "👶",
+    "slug": "child-development-aqa"
+  },
+  "topics": [
+    {
+      "name": "Development & Care of Children",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Child Development Birth–5 Years",
+          "cards": [
+            {
+              "keyword": "gross motor skills",
+              "definition": "large body movements using the major muscle groups — e.g. walking, running, jumping, climbing",
+              "display_order": 1
+            },
+            {
+              "keyword": "fine motor skills",
+              "definition": "small, precise movements using the hands and fingers — e.g. holding a pencil, buttoning clothes, using scissors",
+              "display_order": 2
+            },
+            {
+              "keyword": "developmental milestones",
+              "definition": "typical skills or abilities expected at certain ages — used to monitor whether a child is developing normally",
+              "display_order": 3
+            },
+            {
+              "keyword": "language development",
+              "definition": "the development of communication skills — from cooing and babbling in infancy to complex speech and reading",
+              "display_order": 4
+            },
+            {
+              "keyword": "play (types)",
+              "definition": "how children learn and develop — solitary play (alone), parallel play (alongside), cooperative play (together with shared rules)",
+              "display_order": 5
+            },
+            {
+              "keyword": "cognitive development",
+              "definition": "the development of thinking, memory, and problem-solving — Piaget's theory describes stages from birth to adolescence",
+              "display_order": 6
+            },
+            {
+              "keyword": "bonding / attachment",
+              "definition": "the close emotional relationship between a child and carer — essential for emotional security and healthy development",
+              "display_order": 7
+            },
+            {
+              "keyword": "immunisation",
+              "definition": "vaccinating children against infectious diseases — the UK childhood immunisation schedule protects against diseases including MMR",
+              "display_order": 8
+            },
+            {
+              "keyword": "weaning",
+              "definition": "the process of introducing solid foods alongside milk from around 6 months — gradually replacing milk as the main source of nutrition",
+              "display_order": 9
+            },
+            {
+              "keyword": "child poverty",
+              "definition": "growing up in a household with insufficient income — impacts physical health, development, and educational outcomes",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is an example of a gross motor skill?",
+              "options": [
+                "Holding a pencil",
+                "Running across a playground",
+                "Buttoning a coat",
+                "Using scissors to cut paper"
+              ],
+              "correct_answer": "Running across a playground",
+              "explanation": "Running is a large body movement that uses major muscle groups, making it a gross motor skill. The other options are all fine motor skills requiring small, precise hand movements.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a fine motor skill?",
+              "options": [
+                "Learning to walk",
+                "Jumping on a trampoline",
+                "Picking up small objects with fingers and thumbs",
+                "Climbing a climbing frame"
+              ],
+              "correct_answer": "Picking up small objects with fingers and thumbs",
+              "explanation": "Fine motor skills involve small, precise movements using the hands and fingers. Picking up small objects requires coordination and control of the fingers and thumb.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Developmental milestones are used to:",
+              "options": [
+                "Determine a child's intelligence level",
+                "Monitor whether a child is developing normally",
+                "Decide what school a child should attend",
+                "Measure how tall a child will grow"
+              ],
+              "correct_answer": "Monitor whether a child is developing normally",
+              "explanation": "Developmental milestones are typical skills or abilities expected at certain ages and are used to track if a child's development is progressing as expected.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which stage of language development comes first?",
+              "options": [
+                "Speaking in sentences",
+                "Reading books",
+                "Cooing and babbling",
+                "Writing words"
+              ],
+              "correct_answer": "Cooing and babbling",
+              "explanation": "Language development starts with cooing and babbling in infancy, before progressing to complex speech and eventually reading. This is the earliest stage of communication.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What type of play involves children playing together with shared rules?",
+              "options": [
+                "Solitary play",
+                "Parallel play",
+                "Cooperative play",
+                "Imaginative play"
+              ],
+              "correct_answer": "Cooperative play",
+              "explanation": "Cooperative play is when children play together with shared rules and goals, such as playing a team sport or building something together as a group.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Cognitive development involves the development of:",
+              "options": [
+                "Physical strength and coordination",
+                "Thinking, memory, and problem-solving",
+                "Emotional feelings and relationships",
+                "Speech and language only"
+              ],
+              "correct_answer": "Thinking, memory, and problem-solving",
+              "explanation": "Cognitive development is the development of mental processes including thinking, memory, and problem-solving abilities, as described in Piaget's theory of development.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Bonding and attachment between a child and carer is important because it:",
+              "options": [
+                "Helps the child learn to read",
+                "Provides emotional security and supports healthy development",
+                "Prevents the child from getting physically ill",
+                "Teaches the child good manners"
+              ],
+              "correct_answer": "Provides emotional security and supports healthy development",
+              "explanation": "A strong bond or attachment between a child and carer gives the child emotional security and is essential for their healthy overall development.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "The UK childhood immunisation schedule protects children against several diseases. Which of these is included?",
+              "options": [
+                "Hay fever",
+                "Colour blindness",
+                "MMR",
+                "Asthma"
+              ],
+              "correct_answer": "MMR",
+              "explanation": "MMR (Measles, Mumps, Rubella) is one of the key vaccines given as part of the UK childhood immunisation schedule to protect against these infectious diseases.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "At what age is weaning typically started?",
+              "options": [
+                "2 months",
+                "Around 6 months",
+                "12 months",
+                "2 years"
+              ],
+              "correct_answer": "Around 6 months",
+              "explanation": "Weaning, the process of introducing solid foods alongside milk, typically begins at around 6 months of age as the baby's digestive system develops and milk alone is no longer sufficient.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Child poverty can impact:",
+              "options": [
+                "Only a child's ability to attend parties",
+                "Physical health, development, and educational outcomes",
+                "Just how much pocket money a child receives",
+                "A child's eye colour and height"
+              ],
+              "correct_answer": "Physical health, development, and educational outcomes",
+              "explanation": "Child poverty affects multiple aspects of development including physical health, overall development, and the ability to achieve good educational outcomes due to insufficient household income.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Gross motor skills involve small, precise movements such as holding a pencil.",
+              "correct_answer": "False",
+              "explanation": "Gross motor skills involve large body movements using major muscle groups. Holding a pencil is a fine motor skill.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Developmental milestones can be used to check if a child is developing at an expected rate.",
+              "correct_answer": "True",
+              "explanation": "Developmental milestones are typical skills expected at certain ages and are specifically used to monitor and assess whether a child's development is progressing normally.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "A baby learns to read before they learn to babble.",
+              "correct_answer": "False",
+              "explanation": "Language development starts with cooing and babbling in infancy, which happens long before a child can learn to read.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Solitary play is when children play alone without other children.",
+              "correct_answer": "True",
+              "explanation": "Solitary play is one type of play where a child plays by themselves, which is a normal and important part of early childhood development.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Piaget's theory describes stages of cognitive development from birth to adolescence.",
+              "correct_answer": "True",
+              "explanation": "Piaget's theory of cognitive development does indeed describe different stages of thinking and development that progress from birth through to adolescence.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Attachment between a child and carer is not important for healthy development.",
+              "correct_answer": "False",
+              "explanation": "Attachment and bonding are essential for emotional security and are crucial for a child's healthy physical, emotional, and social development.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Immunisation protects children by vaccinating them against infectious diseases.",
+              "correct_answer": "True",
+              "explanation": "Immunisation works by vaccinating children to build immunity against serious infectious diseases and is a key part of preventative healthcare.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Weaning should begin at around 2 months of age.",
+              "correct_answer": "False",
+              "explanation": "Weaning typically begins at around 6 months when a baby's digestive system is developed enough to handle solid foods alongside milk.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Child poverty can negatively affect a child's physical health.",
+              "correct_answer": "True",
+              "explanation": "Growing up in poverty with insufficient household income can impact physical health, limiting access to nutritious food and healthcare.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Fine motor skills include activities like jumping and running.",
+              "correct_answer": "False",
+              "explanation": "Jumping and running are gross motor skills involving large body movements. Fine motor skills involve small, precise hand and finger movements.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are large body movements using major muscle groups such as walking, running, and climbing.",
+              "options": null,
+              "correct_answer": "Gross motor skills",
+              "explanation": "The definition provided directly describes gross motor skills, which involve large movements of the body.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ is a schedule that protects UK children against infectious diseases including MMR.",
+              "options": null,
+              "correct_answer": "childhood immunisation schedule",
+              "explanation": "The UK childhood immunisation schedule is the official programme that outlines which vaccinations children receive and when.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the process of introducing solid foods alongside milk from around 6 months of age.",
+              "options": null,
+              "correct_answer": "Weaning",
+              "explanation": "Weaning is the specific term for gradually introducing solid foods to a baby while still providing breast milk or formula.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Small, precise movements using the hands and fingers, such as holding a pencil, are called ________ skills.",
+              "options": null,
+              "correct_answer": "fine motor",
+              "explanation": "Fine motor skills specifically involve small, coordinated movements of the hands and fingers for tasks requiring precision.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ development is the development of communication skills from cooing and babbling through to reading.",
+              "options": null,
+              "correct_answer": "Language",
+              "explanation": "Language development encompasses all the stages of learning to communicate, starting from birth with cooing and babbling.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ are typical skills or abilities expected at certain ages and are used to monitor if a child is developing normally.",
+              "options": null,
+              "correct_answer": "Developmental milestones",
+              "explanation": "Developmental milestones are benchmarks that show what skills children typically have at different ages, helping to identify if development is on track.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The close emotional relationship between a child and carer is called ________ or attachment.",
+              "options": null,
+              "correct_answer": "bonding",
+              "explanation": "Bonding describes the formation of a strong emotional connection between a child and their carer, which is essential for development.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is when children play together with shared rules, such as playing a team sport.",
+              "options": null,
+              "correct_answer": "Cooperative play",
+              "explanation": "Cooperative play involves children working together with agreed-upon rules and goals, as opposed to playing alone or alongside each other.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ development describes how children develop thinking, memory, and problem-solving skills.",
+              "options": null,
+              "correct_answer": "Cognitive",
+              "explanation": "Cognitive development focuses on the growth of mental processes and thinking abilities, as outlined in Piaget's theory of development stages.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Growing up in a household with insufficient income is called ________ and can impact health and education.",
+              "options": null,
+              "correct_answer": "child poverty",
+              "explanation": "Child poverty refers to children living in families without adequate income to meet basic needs, which affects their development and opportunities.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Gross motor skills",
+                  "match": "Large body movements using major muscle groups like walking and running"
+                },
+                {
+                  "term": "Fine motor skills",
+                  "match": "Small, precise movements using hands and fingers like holding a pencil"
+                },
+                {
+                  "term": "Bonding and attachment",
+                  "match": "The close emotional relationship between a child and carer that provides security"
+                },
+                {
+                  "term": "Cognitive development",
+                  "match": "The development of thinking, memory, and problem-solving abilities"
+                },
+                {
+                  "term": "Language development",
+                  "match": "The development of communication skills from cooing to reading"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

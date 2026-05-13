@@ -1,0 +1,3002 @@
+{
+  "subject": {
+    "name": "History",
+    "exam_board": "Edexcel",
+    "category": "Humanities",
+    "colour": "#92400e",
+    "emoji": "📜",
+    "slug": "history-edexcel"
+  },
+  "topics": [
+    {
+      "name": "Medicine Through Time, c1250–present",
+      "display_order": 1,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Medieval Medicine c1250–c1500",
+          "cards": [
+            {
+              "keyword": "miasma theory",
+              "definition": "the belief that disease was caused by bad air or smells from rotting matter — the dominant medical theory in medieval times",
+              "display_order": 1
+            },
+            {
+              "keyword": "four humours",
+              "definition": "the ancient Greek theory that the body contained four fluids (blood, phlegm, yellow bile, black bile) — illness occurred when they were unbalanced",
+              "display_order": 2
+            },
+            {
+              "keyword": "Galen",
+              "definition": "a Roman physician whose ideas dominated medicine for over 1000 years — he supported the four humours and made anatomical discoveries",
+              "display_order": 3
+            },
+            {
+              "keyword": "the Church and medicine",
+              "definition": "the Church controlled medical education in the Middle Ages — it supported Galen's ideas and believed illness was God's punishment for sin",
+              "display_order": 4
+            },
+            {
+              "keyword": "bloodletting",
+              "definition": "a common medieval treatment to restore the balance of humours — blood was removed by cutting a vein or applying leeches",
+              "display_order": 5
+            },
+            {
+              "keyword": "the Black Death (1348)",
+              "definition": "a devastating plague that killed about a third of England's population — medieval doctors had no effective treatments",
+              "display_order": 6
+            },
+            {
+              "keyword": "flagellants",
+              "definition": "people who whipped themselves publicly to show repentance to God — a response to the Black Death based on religious belief",
+              "display_order": 7
+            },
+            {
+              "keyword": "apothecary",
+              "definition": "a person who prepared and sold herbal medicines and remedies in medieval times — a precursor to the pharmacist",
+              "display_order": 8
+            },
+            {
+              "keyword": "physician",
+              "definition": "a trained doctor in medieval times — educated at university in the ideas of Galen and Hippocrates",
+              "display_order": 9
+            },
+            {
+              "keyword": "supernatural explanations",
+              "definition": "beliefs that illness was caused by God, evil spirits, or sin — led to treatments such as prayer, pilgrimage, and exorcism",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What did medieval doctors believe caused disease according to miasma theory?",
+              "options": [
+                "An imbalance of the four humours",
+                "Bad air or smells from rotting matter",
+                "Evil spirits entering the body",
+                "Punishment from God for sinfulness"
+              ],
+              "correct_answer": "Bad air or smells from rotting matter",
+              "explanation": "Miasma theory was the dominant medieval belief that disease came from bad air or miasmas rising from decaying matter, not from other causes.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "According to the four humours theory, what were the four fluids in the human body?",
+              "options": [
+                "Water, oil, blood, and vinegar",
+                "Blood, phlegm, yellow bile, and black bile",
+                "Sweat, tears, saliva, and urine",
+                "Mercury, sulfur, salt, and acid"
+              ],
+              "correct_answer": "Blood, phlegm, yellow bile, and black bile",
+              "explanation": "The four humours theory, originating from ancient Greece, identified these four specific fluids that needed to be balanced for good health.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which ancient Roman physician's ideas dominated European medicine for over 1000 years?",
+              "options": [
+                "Hippocrates",
+                "Galen",
+                "Avicenna",
+                "Paracelsus"
+              ],
+              "correct_answer": "Galen",
+              "explanation": "Galen was a Roman physician whose theories, particularly about the four humours and anatomy, remained unchallenged for more than a millennium.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What role did the Church play in medieval medicine?",
+              "options": [
+                "It banned all medical treatments and training",
+                "It had no influence on medical practice or education",
+                "It controlled medical education and supported Galen's ideas",
+                "It only allowed supernatural treatments and prayer"
+              ],
+              "correct_answer": "It controlled medical education and supported Galen's ideas",
+              "explanation": "The Church controlled universities where doctors were trained and promoted Galen's theories, while also believing illness was God's punishment.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was bloodletting used for in medieval medicine?",
+              "options": [
+                "To cure infections by removing pus",
+                "To restore the balance of humours",
+                "To reduce fevers by cooling the blood",
+                "To cleanse the body of poisons"
+              ],
+              "correct_answer": "To restore the balance of humours",
+              "explanation": "Bloodletting was believed to remove excess blood and restore humoral balance, and was done by cutting veins or applying leeches.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In what year did the Black Death devastate England?",
+              "options": [
+                "1325",
+                "1348",
+                "1375",
+                "1400"
+              ],
+              "correct_answer": "1348",
+              "explanation": "The Black Death arrived in 1348 and killed approximately one-third of England's population, overwhelming medieval doctors with its severity.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What were flagellants?",
+              "options": [
+                "Doctors who used whips to treat patients",
+                "Church officials who punished the sick",
+                "People who whipped themselves publicly to show repentance to God",
+                "Soldiers who fought disease during the Black Death"
+              ],
+              "correct_answer": "People who whipped themselves publicly to show repentance to God",
+              "explanation": "Flagellants were a religious response to the Black Death, believing that self-punishment would appease God and end the plague.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the main role of an apothecary in medieval times?",
+              "options": [
+                "To perform surgical operations and bloodletting",
+                "To teach medicine at universities",
+                "To prepare and sell herbal medicines and remedies",
+                "To interpret religious texts about illness"
+              ],
+              "correct_answer": "To prepare and sell herbal medicines and remedies",
+              "explanation": "Apothecaries were skilled in creating herbal remedies and were the closest medieval equivalent to modern pharmacists.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Where did medieval physicians typically receive their education?",
+              "options": [
+                "Through apprenticeships with apothecaries",
+                "By training in hospitals and clinics",
+                "At university in the ideas of Galen and Hippocrates",
+                "Through trial and error treating patients"
+              ],
+              "correct_answer": "At university in the ideas of Galen and Hippocrates",
+              "explanation": "Medieval physicians were university-educated, where they learned the classical theories of Galen and Hippocrates that were supported by the Church.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What supernatural explanations for illness led to treatments like prayer and pilgrimage?",
+              "options": [
+                "The belief that fresh air would cure disease",
+                "The belief that herbs contained magical powers",
+                "The belief that illness was caused by God, evil spirits, or sin",
+                "The belief that the four humours needed rebalancing"
+              ],
+              "correct_answer": "The belief that illness was caused by God, evil spirits, or sin",
+              "explanation": "Medieval people believed illness could be caused by God's punishment, evil spirits, or personal sin, leading to religious treatments.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Miasma theory suggested that disease came from the imbalance of four body fluids.",
+              "correct_answer": "False",
+              "explanation": "Miasma theory was about bad air or smells; the four humours theory was the separate idea about body fluids being unbalanced.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Medieval physicians believed that balancing the four humours was important for good health.",
+              "correct_answer": "True",
+              "explanation": "The four humours theory was the dominant medical framework in medieval times, and doctors tried to balance these fluids through various treatments.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Galen's medical ideas only lasted about 200 years after his death.",
+              "correct_answer": "False",
+              "explanation": "Galen's ideas dominated medicine for over 1000 years, making him one of the most influential figures in medical history.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The Church supported the teaching of Galen's ideas in medieval universities.",
+              "correct_answer": "True",
+              "explanation": "The Church controlled medieval universities and promoted Galen's theories as part of the standard medical curriculum.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Bloodletting was never used as a medical treatment in medieval times.",
+              "correct_answer": "False",
+              "explanation": "Bloodletting was actually a very common medieval treatment believed to restore the balance of humours.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Medieval doctors had very effective treatments for the Black Death.",
+              "correct_answer": "False",
+              "explanation": "Medieval doctors had no effective treatments for the Black Death, which killed about one-third of England's population.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Flagellants were medical professionals who treated Black Death patients.",
+              "correct_answer": "False",
+              "explanation": "Flagellants were ordinary people who whipped themselves for religious reasons, not medical professionals.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "An apothecary was a trained physician who had studied at university.",
+              "correct_answer": "False",
+              "explanation": "Apothecaries prepared herbal remedies and were separate from physicians, who were university-educated doctors.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Medieval people believed that prayer and pilgrimage could cure diseases caused by sin.",
+              "correct_answer": "True",
+              "explanation": "Because medieval society believed illness could be punishment from God, religious treatments like prayer and pilgrimage were common.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The four humours theory originated in medieval Europe.",
+              "correct_answer": "False",
+              "explanation": "The four humours theory came from ancient Greece, not medieval Europe, but was adopted and used throughout the Middle Ages.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The dominant medieval belief that disease was caused by bad air or smells is called ________ theory.",
+              "options": null,
+              "correct_answer": "miasma",
+              "explanation": "Miasma theory was the prevailing medical explanation for disease during medieval times.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "Medieval doctors removed blood using a technique called ________ to try to restore humoral balance.",
+              "options": null,
+              "correct_answer": "bloodletting",
+              "explanation": "Bloodletting was a standard treatment in medieval medicine, performed by cutting veins or using leeches.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The devastating plague that killed about one-third of England's population was called the ________ Death.",
+              "options": null,
+              "correct_answer": "Black",
+              "explanation": "The Black Death was the catastrophic plague of 1348 that medieval doctors could not effectively treat.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "A person who prepared and sold herbal medicines in medieval times was called an ________.",
+              "options": null,
+              "correct_answer": "apothecary",
+              "explanation": "Apothecaries were the medieval equivalent of modern pharmacists, creating herbal remedies for patients.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ was a Roman physician whose medical ideas remained dominant for over 1000 years.",
+              "options": null,
+              "correct_answer": "Galen",
+              "explanation": "Galen's theories about the four humours and anatomy shaped European medicine for more than a millennium.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ controlled medical education in the Middle Ages and supported Galen's ideas.",
+              "options": null,
+              "correct_answer": "Church",
+              "explanation": "The Church ran medieval universities and promoted classical medical theories as part of its educational system.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Medieval people believed the body contained ________ fluids that needed to be kept in balance.",
+              "options": null,
+              "correct_answer": "four",
+              "explanation": "The four humours theory identified blood, phlegm, yellow bile, and black bile as the body's essential fluids.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "People who whipped themselves publicly during the Black Death as an act of religious repentance were called ________.",
+              "options": null,
+              "correct_answer": "flagellants",
+              "explanation": "Flagellants emerged as a religious response to the Black Death, believing self-punishment would appease God.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ was a trained doctor in medieval times who had studied Galen and Hippocrates at university.",
+              "options": null,
+              "correct_answer": "physician",
+              "explanation": "Medieval physicians were university-educated doctors who learned classical medical theories supported by the Church.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Medieval people sometimes believed that illness was caused by ________, evil spirits, or sin.",
+              "options": null,
+              "correct_answer": "God",
+              "explanation": "Supernatural explanations for illness included the belief that God sent sickness as punishment for wrongdoing.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Four humours",
+                  "match": "The ancient Greek theory that the body contained four fluids that needed to be balanced"
+                },
+                {
+                  "term": "Miasma theory",
+                  "match": "The belief that disease was caused by bad air or smells from rotting matter"
+                },
+                {
+                  "term": "Bloodletting",
+                  "match": "A common medieval treatment to restore humoral balance by removing blood from the body"
+                },
+                {
+                  "term": "Apothecary",
+                  "match": "A person who prepared and sold herbal medicines and remedies in medieval times"
+                },
+                {
+                  "term": "Black Death",
+                  "match": "A devastating plague in 1348 that killed about one-third of England's population"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Renaissance Medicine c1500–c1700",
+          "cards": [
+            {
+              "keyword": "Andreas Vesalius",
+              "definition": "a 16th-century Flemish anatomist who challenged Galen by dissecting human bodies — published 'The Fabric of the Human Body' (1543)",
+              "display_order": 1
+            },
+            {
+              "keyword": "William Harvey",
+              "definition": "an English physician who proved that blood circulates around the body pumped by the heart — published in 1628",
+              "display_order": 2
+            },
+            {
+              "keyword": "the printing press",
+              "definition": "invented c1450 — allowed new medical ideas to spread rapidly across Europe, challenging old ideas like Galen's",
+              "display_order": 3
+            },
+            {
+              "keyword": "dissection",
+              "definition": "cutting open a dead body to study its anatomy — became more accepted during the Renaissance, helping to correct Galen's errors",
+              "display_order": 4
+            },
+            {
+              "keyword": "ambroise Paré",
+              "definition": "a French surgeon who developed new treatments for wounds — replaced boiling oil with a soothing ointment and invented artificial limbs",
+              "display_order": 5
+            },
+            {
+              "keyword": "Thomas Sydenham",
+              "definition": "a 17th-century English physician who emphasised observation and clinical experience over ancient theories",
+              "display_order": 6
+            },
+            {
+              "keyword": "the Great Plague 1665",
+              "definition": "the last major outbreak of bubonic plague in England — responses still relied on old methods as germ theory had not yet been developed",
+              "display_order": 7
+            },
+            {
+              "keyword": "plague doctor",
+              "definition": "a physician hired during plague outbreaks — wore a beak-shaped mask filled with herbs believed to protect against miasma",
+              "display_order": 8
+            },
+            {
+              "keyword": "the Royal Society (1660)",
+              "definition": "a scientific organisation founded in London to promote scientific investigation — encouraged new ideas and challenged old ones",
+              "display_order": 9
+            },
+            {
+              "keyword": "continuity in medicine",
+              "definition": "despite new discoveries, many people still relied on traditional remedies and the Church's influence remained strong into the 17th century",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Who was Andreas Vesalius?",
+              "options": [
+                "An English physician who discovered blood circulation",
+                "A 16th-century Flemish anatomist who challenged Galen by dissecting human bodies",
+                "A French surgeon who invented artificial limbs",
+                "A plague doctor who wore a beak-shaped mask"
+              ],
+              "correct_answer": "A 16th-century Flemish anatomist who challenged Galen by dissecting human bodies",
+              "explanation": "Andreas Vesalius was a Flemish anatomist who published 'The Fabric of the Human Body' in 1543 and challenged Galen's ideas through human dissection.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did William Harvey discover?",
+              "options": [
+                "How to treat wounds with soothing ointment",
+                "That the heart pumps blood around the body in circulation",
+                "How to prevent the plague using herbs",
+                "That miasma causes disease"
+              ],
+              "correct_answer": "That the heart pumps blood around the body in circulation",
+              "explanation": "William Harvey proved in 1628 that blood circulates around the body pumped by the heart, which was a major breakthrough in understanding how the body works.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "When was the printing press invented?",
+              "options": [
+                "Around 1350",
+                "Around 1450",
+                "Around 1550",
+                "Around 1650"
+              ],
+              "correct_answer": "Around 1450",
+              "explanation": "The printing press was invented around 1450 and allowed medical ideas to spread rapidly across Europe, challenging old theories like Galen's.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the main benefit of the printing press for medicine?",
+              "options": [
+                "It could cure diseases like the plague",
+                "It allowed doctors to perform surgery more safely",
+                "It allowed new medical ideas to spread rapidly across Europe",
+                "It helped doctors understand miasma theory"
+              ],
+              "correct_answer": "It allowed new medical ideas to spread rapidly across Europe",
+              "explanation": "The printing press enabled the rapid spread of new medical discoveries and challenged old ideas, including those of Galen that had dominated for centuries.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who was Ambroise Paré?",
+              "options": [
+                "A Flemish anatomist who dissected bodies",
+                "An English physician who emphasised observation",
+                "A French surgeon who developed new wound treatments",
+                "A scientist who founded the Royal Society"
+              ],
+              "correct_answer": "A French surgeon who developed new wound treatments",
+              "explanation": "Ambroise Paré was a French surgeon who replaced boiling oil with soothing ointment for treating wounds and invented artificial limbs.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did Ambroise Paré replace to treat wounds?",
+              "options": [
+                "Herbal remedies with honey",
+                "Boiling oil with soothing ointment",
+                "Soothing ointment with prayer",
+                "Traditional methods with bloodletting"
+              ],
+              "correct_answer": "Boiling oil with soothing ointment",
+              "explanation": "Ambroise Paré developed new treatments for wounds by replacing the painful boiling oil method with a more soothing ointment, improving patient care.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was Thomas Sydenham known for emphasising?",
+              "options": [
+                "Ancient Greek theories about medicine",
+                "The importance of bloodletting",
+                "Observation and clinical experience over ancient theories",
+                "The use of herbs to prevent miasma"
+              ],
+              "correct_answer": "Observation and clinical experience over ancient theories",
+              "explanation": "Thomas Sydenham was a 17th-century English physician who emphasised practical observation and clinical experience rather than relying only on ancient medical theories.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "When did the Great Plague occur in England?",
+              "options": [
+                "1565",
+                "1605",
+                "1665",
+                "1705"
+              ],
+              "correct_answer": "1665",
+              "explanation": "The Great Plague occurred in 1665 and was the last major outbreak of bubonic plague in England; responses still relied on old methods as germ theory had not been developed.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did a plague doctor wear?",
+              "options": [
+                "A leather apron to protect from blood",
+                "A beak-shaped mask filled with herbs to protect against miasma",
+                "Heavy gloves to avoid touching patients",
+                "A full body suit made of wax"
+              ],
+              "correct_answer": "A beak-shaped mask filled with herbs to protect against miasma",
+              "explanation": "Plague doctors wore distinctive beak-shaped masks filled with herbs, which they believed protected them against miasma (bad air) that was thought to cause plague.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the Royal Society founded to do?",
+              "options": [
+                "Train new plague doctors",
+                "Promote scientific investigation and challenge old ideas",
+                "Develop new surgical instruments",
+                "Spread miasma theory across Europe"
+              ],
+              "correct_answer": "Promote scientific investigation and challenge old ideas",
+              "explanation": "The Royal Society was founded in London in 1660 to promote scientific investigation and encourage new ideas that challenged old medical theories.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Andreas Vesalius published 'The Fabric of the Human Body' in 1543.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Vesalius did publish this major anatomical work in 1543, which helped challenge Galen's ideas through detailed studies of human anatomy.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "William Harvey published his discoveries about blood circulation in 1600.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "William Harvey published his work on blood circulation in 1628, not 1600.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Dissection became more accepted during the Renaissance period.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "During the Renaissance, dissection of human bodies became more accepted and helped correct many of Galen's errors about anatomy.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Ambroise Paré invented the stethoscope.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Ambroise Paré was known for developing new wound treatments and inventing artificial limbs, not the stethoscope.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "During the Great Plague in 1665, germ theory was already well understood.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Germ theory had not been developed during the Great Plague in 1665, so responses still relied on old methods and theories like miasma.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The Royal Society was founded in 1660.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The Royal Society was indeed founded in London in 1660 to promote scientific investigation.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Thomas Sydenham lived in the 16th century.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Thomas Sydenham was a 17th-century English physician, not a 16th-century one.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The Church's influence on medicine had completely disappeared by the 17th century.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Despite new discoveries, the Church's influence remained strong into the 17th century, showing continuity in traditional approaches to medicine.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Plague doctors believed herbs in their masks would protect them from miasma.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Plague doctors filled their beak-shaped masks with herbs because they believed miasma (bad air) caused plague and that herbs would protect them.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Andreas Vesalius agreed completely with all of Galen's theories.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Vesalius challenged Galen's ideas through human dissection and discovered that many of Galen's teachings were incorrect.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Andreas Vesalius published his famous work 'The ________ of the Human Body' in 1543.",
+              "options": null,
+              "correct_answer": "Fabric",
+              "explanation": "The full title of Vesalius's groundbreaking anatomical work is 'The Fabric of the Human Body', published in 1543.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "William Harvey proved that blood ________ around the body, pumped by the heart.",
+              "options": null,
+              "correct_answer": "circulates",
+              "explanation": "Harvey's discovery showed that blood circulates continuously around the body in a circular pattern, pumped by the heart.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The printing press was invented around ________.",
+              "options": null,
+              "correct_answer": "1450",
+              "explanation": "The printing press was invented around 1450 and revolutionised the spread of medical knowledge across Europe.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the practice of cutting open a dead body to study its anatomy.",
+              "options": null,
+              "correct_answer": "Dissection",
+              "explanation": "Dissection became more accepted during the Renaissance and was crucial in correcting errors made by ancient physicians like Galen.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Ambroise Paré replaced boiling oil with a ________ ointment to treat wounds.",
+              "options": null,
+              "correct_answer": "soothing",
+              "explanation": "Paré developed a more humane approach to wound treatment by replacing the painful boiling oil method with a soothing ointment.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Thomas Sydenham emphasised ________ and clinical experience over ancient theories.",
+              "options": null,
+              "correct_answer": "observation",
+              "explanation": "Sydenham's approach marked a shift towards empirical observation and practical experience rather than relying solely on ancient medical texts.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Great Plague in ________ was the last major outbreak of bubonic plague in England.",
+              "options": null,
+              "correct_answer": "1665",
+              "explanation": "The Great Plague of 1665 was a significant outbreak in England where old methods were still used because germ theory had not been developed.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "Plague doctors wore a beak-shaped mask filled with ________ to protect against miasma.",
+              "options": null,
+              "correct_answer": "herbs",
+              "explanation": "The distinctive masks of plague doctors contained herbs, which they believed would protect them from the bad air (miasma) thought to cause plague.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Society was founded in 1660 to promote scientific investigation.",
+              "options": null,
+              "correct_answer": "Royal",
+              "explanation": "The Royal Society, established in London in 1660, played an important role in encouraging new scientific ideas and challenging traditional beliefs.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "Despite new discoveries in the Renaissance, many people still relied on ________ remedies and the Church's influence remained strong.",
+              "options": null,
+              "correct_answer": "traditional",
+              "explanation": "This reflects the idea of continuity in medicine—even as new ideas emerged, old practices persisted and the Church continued to influence medical beliefs.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Andreas Vesalius",
+                  "match": "Flemish anatomist who challenged Galen by dissecting human bodies and published 'The Fabric of the Human Body' in 1543"
+                },
+                {
+                  "term": "William Harvey",
+                  "match": "English physician who proved that blood circulates around the body pumped by the heart, published in 1628"
+                },
+                {
+                  "term": "Ambroise Paré",
+                  "match": "French surgeon who developed new wound treatments, replaced boiling oil with soothing ointment and invented artificial limbs"
+                },
+                {
+                  "term": "Thomas Sydenham",
+                  "match": "17th-century English physician who emphasised observation and clinical experience over ancient theories"
+                },
+                {
+                  "term": "The Royal Society",
+                  "match": "Scientific organisation founded in London in 1660 to promote scientific investigation and challenge old ideas"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 3,
+          "block_name": "Industrial & Modern Medicine c1700–present",
+          "cards": [
+            {
+              "keyword": "Edward Jenner",
+              "definition": "an English physician who developed the smallpox vaccination in 1796 — noticed that milkmaids who caught cowpox did not get smallpox",
+              "display_order": 1
+            },
+            {
+              "keyword": "Louis Pasteur",
+              "definition": "a French scientist who developed germ theory in the 1860s — proved that microorganisms cause disease, not miasma",
+              "display_order": 2
+            },
+            {
+              "keyword": "Robert Koch",
+              "definition": "a German scientist who identified specific bacteria that caused diseases — linked specific germs to specific illnesses including tuberculosis (1882)",
+              "display_order": 3
+            },
+            {
+              "keyword": "germ theory",
+              "definition": "the theory that microorganisms (germs) cause disease — developed by Pasteur and proved by Koch, revolutionising medicine",
+              "display_order": 4
+            },
+            {
+              "keyword": "Joseph Lister",
+              "definition": "a British surgeon who introduced antiseptic surgery in 1867 — used carbolic acid spray to kill germs during operations",
+              "display_order": 5
+            },
+            {
+              "keyword": "Florence Nightingale",
+              "definition": "a British nurse who improved hospital conditions during the Crimean War — her reforms dramatically reduced death rates",
+              "display_order": 6
+            },
+            {
+              "keyword": "Alexander Fleming",
+              "definition": "Scottish scientist who discovered penicillin in 1928 — noticed mould killing bacteria on a petri dish",
+              "display_order": 7
+            },
+            {
+              "keyword": "penicillin",
+              "definition": "the first antibiotic, discovered by Fleming — developed into a usable drug by Florey and Chain in the 1940s",
+              "display_order": 8
+            },
+            {
+              "keyword": "the NHS (1948)",
+              "definition": "the National Health Service — established in Britain to provide free healthcare for all at the point of need",
+              "display_order": 9
+            },
+            {
+              "keyword": "genetic medicine",
+              "definition": "modern medicine using knowledge of DNA and genes to understand, diagnose, and treat disease — e.g. gene therapy, personalised medicine",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What did Edward Jenner notice about milkmaids that led to the development of vaccination?",
+              "options": [
+                "They developed immunity to tuberculosis",
+                "They did not get smallpox even though they caught cowpox",
+                "They were naturally resistant to all diseases",
+                "They recovered faster from smallpox than other people"
+              ],
+              "correct_answer": "They did not get smallpox even though they caught cowpox",
+              "explanation": "Jenner observed that milkmaids exposed to cowpox seemed protected from smallpox, which led him to develop the first vaccination in 1796.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who developed germ theory in the 1860s?",
+              "options": [
+                "Robert Koch",
+                "Joseph Lister",
+                "Louis Pasteur",
+                "Alexander Fleming"
+              ],
+              "correct_answer": "Louis Pasteur",
+              "explanation": "Louis Pasteur, a French scientist, developed germ theory by proving that microorganisms cause disease, challenging the miasma theory.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What disease did Robert Koch identify a specific bacterium for in 1882?",
+              "options": [
+                "Cholera",
+                "Tuberculosis",
+                "Smallpox",
+                "Measles"
+              ],
+              "correct_answer": "Tuberculosis",
+              "explanation": "Robert Koch identified the specific bacterium that caused tuberculosis, proving that particular germs cause particular diseases.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did Joseph Lister use to kill germs during operations in 1867?",
+              "options": [
+                "Boiling water",
+                "Alcohol",
+                "Carbolic acid spray",
+                "Hydrogen peroxide"
+              ],
+              "correct_answer": "Carbolic acid spray",
+              "explanation": "Lister introduced antiseptic surgery by spraying carbolic acid during operations to kill bacteria and prevent infection.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which war did Florence Nightingale serve as a nurse in, where she improved hospital conditions?",
+              "options": [
+                "World War One",
+                "The Boer War",
+                "The Crimean War",
+                "The American Civil War"
+              ],
+              "correct_answer": "The Crimean War",
+              "explanation": "Florence Nightingale worked as a nurse during the Crimean War and made reforms to hospital conditions that significantly reduced death rates.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did Alexander Fleming discover in 1928?",
+              "options": [
+                "A new type of antiseptic",
+                "Penicillin",
+                "A vaccine for tuberculosis",
+                "The cause of cholera"
+              ],
+              "correct_answer": "Penicillin",
+              "explanation": "Alexander Fleming discovered penicillin when he noticed mould on a petri dish killing bacteria, leading to the first antibiotic.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who developed penicillin into a usable drug in the 1940s?",
+              "options": [
+                "Joseph Lister and Florence Nightingale",
+                "Florey and Chain",
+                "Edward Jenner and Robert Koch",
+                "Louis Pasteur and Alexander Fleming"
+              ],
+              "correct_answer": "Florey and Chain",
+              "explanation": "Although Fleming discovered penicillin, scientists Florey and Chain developed it into a practical medicine that could be used to treat patients.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "When was the NHS (National Health Service) established in Britain?",
+              "options": [
+                "1867",
+                "1928",
+                "1948",
+                "1960"
+              ],
+              "correct_answer": "1948",
+              "explanation": "The NHS was established in 1948 to provide free healthcare for all British people at the point of need.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is genetic medicine?",
+              "options": [
+                "The use of plants to cure diseases",
+                "Medicine based on understanding DNA and genes to diagnose and treat disease",
+                "The practice of surgery in hospitals",
+                "The study of how diseases spread between families"
+              ],
+              "correct_answer": "Medicine based on understanding DNA and genes to diagnose and treat disease",
+              "explanation": "Genetic medicine uses knowledge of DNA and genes, including techniques like gene therapy and personalised medicine, to understand and treat diseases.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What theory did germ theory replace?",
+              "options": [
+                "The theory of witchcraft",
+                "The miasma theory",
+                "The vaccination theory",
+                "The antiseptic theory"
+              ],
+              "correct_answer": "The miasma theory",
+              "explanation": "Germ theory, developed by Pasteur and proved by Koch, replaced the miasma theory which incorrectly believed bad air caused disease.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Edward Jenner discovered penicillin.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Edward Jenner developed the smallpox vaccination in 1796. Penicillin was discovered much later by Alexander Fleming in 1928.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Louis Pasteur proved that microorganisms cause disease.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Louis Pasteur developed germ theory and proved that microorganisms, not miasma, are responsible for causing disease.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Robert Koch was an English surgeon.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Robert Koch was a German scientist who identified specific bacteria that caused particular diseases, including tuberculosis.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Joseph Lister used antiseptic surgery to reduce infections during operations.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Lister introduced antiseptic surgery in 1867, using carbolic acid spray to kill germs and prevent infections during surgical procedures.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Florence Nightingale worked as a nurse during World War One.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Florence Nightingale served as a nurse during the Crimean War in the 1850s, not World War One which occurred in the early 1900s.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Alexander Fleming discovered penicillin by accident.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Fleming discovered penicillin in 1928 when he noticed mould on a petri dish killing bacteria, which was an accidental discovery.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Penicillin was the first antibiotic drug.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Penicillin, discovered by Fleming and developed by Florey and Chain, was the first antibiotic drug used to treat bacterial infections.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The NHS was established to provide free healthcare only for wealthy people.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The NHS was established in 1948 to provide free healthcare for all British people at the point of need, not just the wealthy.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Genetic medicine includes personalised medicine based on individual DNA.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Genetic medicine uses knowledge of DNA and genes to provide personalised treatment tailored to individual patients.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Germ theory was accepted by all doctors immediately when it was proposed.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Although germ theory revolutionised medicine, it took time for doctors to accept it as many still believed in miasma theory.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "________  developed the first smallpox vaccination in 1796 after observing milkmaids who had caught cowpox.",
+              "options": null,
+              "correct_answer": "Edward Jenner",
+              "explanation": "Jenner noticed that milkmaids exposed to cowpox were protected from smallpox, leading him to develop the first vaccination.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The theory that ________ cause disease was developed by Louis Pasteur in the 1860s.",
+              "options": null,
+              "correct_answer": "microorganisms",
+              "explanation": "Pasteur's germ theory proved that microorganisms (germs) are the cause of disease, not bad air (miasma).",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Robert Koch linked specific ________ to specific illnesses, including identifying the bacterium that caused tuberculosis in 1882.",
+              "options": null,
+              "correct_answer": "germs",
+              "explanation": "Koch proved that particular bacteria cause particular diseases, providing scientific evidence for germ theory.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Joseph Lister introduced ________ surgery in 1867 using carbolic acid spray to kill germs during operations.",
+              "options": null,
+              "correct_answer": "antiseptic",
+              "explanation": "Lister's antiseptic surgery dramatically reduced infections and death rates by using carbolic acid to eliminate bacteria.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "Florence Nightingale improved ________ conditions during the Crimean War, which significantly reduced death rates.",
+              "options": null,
+              "correct_answer": "hospital",
+              "explanation": "Nightingale's reforms to hospital sanitation and organisation saved many lives during the Crimean War.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "Alexander Fleming discovered ________ in 1928 when he noticed mould killing bacteria on a petri dish.",
+              "options": null,
+              "correct_answer": "penicillin",
+              "explanation": "This accidental discovery by Fleming led to the development of the first antibiotic drug.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "Scientists Florey and Chain developed Fleming's discovery into a usable ________ in the 1940s.",
+              "options": null,
+              "correct_answer": "drug",
+              "explanation": "Although Fleming discovered penicillin, Florey and Chain worked to develop it into a practical medicine for treating patients.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was established in Britain in 1948 to provide free healthcare for all at the point of need.",
+              "options": null,
+              "correct_answer": "NHS",
+              "explanation": "The National Health Service (NHS) was created to ensure that all British people had access to free medical care.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ medicine uses knowledge of DNA and genes to understand, diagnose, and treat disease through techniques like gene therapy.",
+              "options": null,
+              "correct_answer": "Genetic",
+              "explanation": "Genetic medicine is a modern approach that uses understanding of genes and DNA to develop targeted treatments for individual patients.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ theory, which believed bad air caused disease, was replaced by germ theory developed by Pasteur.",
+              "options": null,
+              "correct_answer": "miasma",
+              "explanation": "The miasma theory was incorrect and was superseded by the scientific germ theory that identified microorganisms as the cause of disease.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Edward Jenner",
+                  "match": "English physician who developed the smallpox vaccination in 1796"
+                },
+                {
+                  "term": "Joseph Lister",
+                  "match": "British surgeon who introduced antiseptic surgery using carbolic acid spray in 1867"
+                },
+                {
+                  "term": "Alexander Fleming",
+                  "match": "Scottish scientist who discovered penicillin in 1928 when mould killed bacteria"
+                },
+                {
+                  "term": "Louis Pasteur",
+                  "match": "French scientist who developed germ theory in the 1860s, proving microorganisms cause disease"
+                },
+                {
+                  "term": "Florence Nightingale",
+                  "match": "British nurse who improved hospital conditions during the Crimean War and reduced death rates"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The American West, c1835–c1895",
+      "display_order": 2,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "The Plains Indians",
+          "cards": [
+            {
+              "keyword": "the Plains Indians",
+              "definition": "Native American peoples who lived on the Great Plains — including the Sioux, Cheyenne, and Comanche",
+              "display_order": 1
+            },
+            {
+              "keyword": "the buffalo",
+              "definition": "central to Plains Indian life — provided food, clothing, shelter, tools, and had spiritual significance",
+              "display_order": 2
+            },
+            {
+              "keyword": "tipi",
+              "definition": "a cone-shaped portable home used by Plains Indians — designed to be quickly assembled and moved as tribes followed the buffalo",
+              "display_order": 3
+            },
+            {
+              "keyword": "nomadic lifestyle",
+              "definition": "moving from place to place following the buffalo herds — central to the Plains Indian way of life",
+              "display_order": 4
+            },
+            {
+              "keyword": "the Great Spirit",
+              "definition": "the supreme spiritual being in many Plains Indian belief systems — the land was seen as sacred and not owned by individuals",
+              "display_order": 5
+            },
+            {
+              "keyword": "the warrior",
+              "definition": "a high-status role in Plains Indian society — warriors gained respect through acts of bravery called 'counting coup'",
+              "display_order": 6
+            },
+            {
+              "keyword": "counting coup",
+              "definition": "touching an enemy in battle rather than killing them — the bravest act a Plains Indian warrior could perform",
+              "display_order": 7
+            },
+            {
+              "keyword": "the Indian Removal Act 1830",
+              "definition": "a US law forcing Native Americans east of the Mississippi to relocate west to 'Indian Territory'",
+              "display_order": 8
+            },
+            {
+              "keyword": "the Fort Laramie Treaty 1851",
+              "definition": "a treaty between the US government and Plains tribes defining tribal territories and promising annuities in exchange for safe passage",
+              "display_order": 9
+            },
+            {
+              "keyword": "reservation",
+              "definition": "land set aside by the US government for Native Americans to live on — conditions were often poor and traditional ways of life were restricted",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "Which Native American peoples lived on the Great Plains?",
+              "options": [
+                "The Sioux, Cheyenne, and Comanche",
+                "The Cherokee, Creek, and Seminole",
+                "The Navajo, Apache, and Pueblo",
+                "The Iroquois, Mohawk, and Delaware"
+              ],
+              "correct_answer": "The Sioux, Cheyenne, and Comanche",
+              "explanation": "The Plains Indians included tribes such as the Sioux, Cheyenne, and Comanche who lived on the Great Plains of North America.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the main purpose of the buffalo to Plains Indians?",
+              "options": [
+                "It was used only for hunting sport and entertainment",
+                "It provided food, clothing, shelter, tools, and had spiritual significance",
+                "It was kept as a status symbol for wealthy tribes",
+                "It was primarily used for transportation across long distances"
+              ],
+              "correct_answer": "It provided food, clothing, shelter, tools, and had spiritual significance",
+              "explanation": "The buffalo was absolutely central to Plains Indian life, providing almost everything they needed to survive and having deep spiritual meaning.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a tipi?",
+              "options": [
+                "A permanent stone structure built for winter shelter",
+                "A boat used for crossing rivers and lakes",
+                "A cone-shaped portable home designed to be quickly assembled and moved",
+                "A underground dwelling dug into the ground for protection"
+              ],
+              "correct_answer": "A cone-shaped portable home designed to be quickly assembled and moved",
+              "explanation": "A tipi was a cone-shaped tent that could be quickly built and taken down, perfect for a nomadic people who followed the buffalo herds.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why did Plains Indians follow a nomadic lifestyle?",
+              "options": [
+                "Because they were forced to move by the US government",
+                "Because they enjoyed travelling and exploring new lands",
+                "To follow the buffalo herds on which their survival depended",
+                "Because they were unable to build permanent settlements"
+              ],
+              "correct_answer": "To follow the buffalo herds on which their survival depended",
+              "explanation": "The nomadic lifestyle was central to Plains Indian survival, as they moved with the buffalo herds that provided them with food and other necessities.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the Great Spirit in Plains Indian belief?",
+              "options": [
+                "A warrior who had defeated many enemies",
+                "The supreme spiritual being and the land was seen as sacred",
+                "A buffalo that had magical powers",
+                "A chief who had united all the tribes together"
+              ],
+              "correct_answer": "The supreme spiritual being and the land was seen as sacred",
+              "explanation": "The Great Spirit was the supreme spiritual being in many Plains Indian belief systems, and the land itself was considered sacred and not to be owned by individuals.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the status of warriors in Plains Indian society?",
+              "options": [
+                "They had low status and were not respected",
+                "They were only important during times of war",
+                "They had high status and gained respect through acts of bravery",
+                "They were mainly responsible for hunting buffalo"
+              ],
+              "correct_answer": "They had high status and gained respect through acts of bravery",
+              "explanation": "Warriors held a high-status role in Plains Indian society and earned respect through acts of bravery, particularly through a practice called 'counting coup'.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did 'counting coup' mean?",
+              "options": [
+                "Killing as many enemies as possible in battle",
+                "Stealing horses from enemy tribes",
+                "Touching an enemy in battle rather than killing them",
+                "Collecting scalps as trophies of war"
+              ],
+              "correct_answer": "Touching an enemy in battle rather than killing them",
+              "explanation": "Counting coup was the bravest act a Plains Indian warrior could perform—it was considered more courageous to touch an enemy and escape than to kill them.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the Indian Removal Act of 1830?",
+              "options": [
+                "A treaty that protected Native American rights to their ancestral lands",
+                "A law that allowed Native Americans to trade freely with European settlers",
+                "A US law forcing Native Americans east of the Mississippi to relocate west to Indian Territory",
+                "An agreement to provide more supplies and food to Plains tribes"
+              ],
+              "correct_answer": "A US law forcing Native Americans east of the Mississippi to relocate west to Indian Territory",
+              "explanation": "The Indian Removal Act of 1830 was a controversial US law that forced thousands of Native Americans to leave their homes and move westward to designated 'Indian Territory'.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did the Fort Laramie Treaty of 1851 do?",
+              "options": [
+                "It promised to end all conflicts between the US and Native Americans",
+                "It defined tribal territories and promised annuities in exchange for safe passage",
+                "It gave the US government permission to build railroads across all Native American lands",
+                "It forced all Plains Indians to move to reservations immediately"
+              ],
+              "correct_answer": "It defined tribal territories and promised annuities in exchange for safe passage",
+              "explanation": "The Fort Laramie Treaty of 1851 attempted to establish peace by defining which tribes could use which territories and promising them annual payments in exchange for allowing safe passage through their lands.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a reservation?",
+              "options": [
+                "A place where settlers could reserve land for farming",
+                "Land set aside by the US government for Native Americans to live on, though conditions were often poor",
+                "A military fort built to protect American settlers",
+                "An area of land that Native Americans could hunt on freely without any restrictions"
+              ],
+              "correct_answer": "Land set aside by the US government for Native Americans to live on, though conditions were often poor",
+              "explanation": "Reservations were areas of land designated by the US government for Native Americans, but they were often small, poor quality, and restricted their traditional ways of life.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The buffalo was the most important resource to Plains Indian survival.",
+              "correct_answer": "True",
+              "explanation": "The buffalo provided food, clothing, shelter, tools, and had spiritual significance—it was absolutely central to Plains Indian life.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Plains Indians built large permanent stone houses.",
+              "correct_answer": "False",
+              "explanation": "Plains Indians lived in tipis, which were portable cone-shaped homes designed to be moved quickly as they followed the buffalo herds.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The Great Spirit was seen by Plains Indians as owning and controlling the land.",
+              "correct_answer": "False",
+              "explanation": "The Great Spirit was the supreme spiritual being, and the land was seen as sacred but not owned by individuals—this was a key difference from European beliefs about land ownership.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Killing an enemy in battle was considered more courageous than counting coup.",
+              "correct_answer": "False",
+              "explanation": "Counting coup, which involved touching an enemy in battle rather than killing them, was actually the bravest act a Plains Indian warrior could perform.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The Indian Removal Act of 1830 gave Native Americans money and supplies to help them move.",
+              "correct_answer": "False",
+              "explanation": "The Indian Removal Act forced Native Americans to relocate, but it did not provide adequate compensation or support for the difficult journey westward.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "The Fort Laramie Treaty of 1851 created the first reservations for Plains Indians.",
+              "correct_answer": "False",
+              "explanation": "The Fort Laramie Treaty defined tribal territories and promised annual payments, but reservations were created later as a result of further conflicts and broken treaties.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "Warriors were highly respected members of Plains Indian society.",
+              "correct_answer": "True",
+              "explanation": "Warriors held high status in Plains Indian society and earned respect through acts of bravery, particularly counting coup.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Reservations provided Plains Indians with excellent living conditions and freedom to continue their traditional ways of life.",
+              "correct_answer": "False",
+              "explanation": "Reservations had poor conditions and restricted traditional ways of life, confining Native Americans to small areas of often poor-quality land.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The nomadic lifestyle of Plains Indians was directly connected to the movement of buffalo herds.",
+              "correct_answer": "True",
+              "explanation": "Plains Indians followed a nomadic lifestyle by moving from place to place with the buffalo herds, which were central to their survival.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The Sioux and Comanche were examples of Plains Indian tribes.",
+              "correct_answer": "True",
+              "explanation": "The Sioux, Cheyenne, and Comanche were all major Plains Indian tribes who lived on the Great Plains.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "Plains Indians lived in cone-shaped portable homes called ________.",
+              "options": null,
+              "correct_answer": "tipis",
+              "explanation": "A tipi was the traditional portable home used by Plains Indians, designed to be quickly assembled and moved as tribes followed buffalo herds.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was central to Plains Indian life, providing food, clothing, and spiritual significance.",
+              "options": null,
+              "correct_answer": "buffalo",
+              "explanation": "The buffalo was the most important resource to Plains Indian survival and way of life.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Plains Indians followed a ________ lifestyle, moving from place to place with the buffalo herds.",
+              "options": null,
+              "correct_answer": "nomadic",
+              "explanation": "Nomadic means moving from place to place, which was the key feature of Plains Indian life as they followed the buffalo.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was the supreme spiritual being in many Plains Indian belief systems.",
+              "options": null,
+              "correct_answer": "Great Spirit",
+              "explanation": "The Great Spirit was central to Plains Indian spirituality and their belief that the land was sacred.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________  was the practice of touching an enemy in battle rather than killing them, and was the bravest act a warrior could perform.",
+              "options": null,
+              "correct_answer": "Counting coup",
+              "explanation": "Counting coup was a key practice in Plains Indian warfare that showed great bravery and courage.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of 1830 was a US law that forced Native Americans to relocate west to Indian Territory.",
+              "options": null,
+              "correct_answer": "Indian Removal Act",
+              "explanation": "This controversial law forced thousands of Native Americans from the eastern United States to move westward.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Fort Laramie Treaty of 1851 promised Plains tribes ________ in exchange for safe passage through their territories.",
+              "options": null,
+              "correct_answer": "annuities",
+              "explanation": "Annuities were annual payments promised to Plains tribes under the Fort Laramie Treaty, though these payments were often inadequate or unpaid.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ is land set aside by the US government for Native Americans to live on.",
+              "options": null,
+              "correct_answer": "reservation",
+              "explanation": "Reservations were designated areas where the US government confined Native American tribes, restricting their traditional ways of life.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "Warriors in Plains Indian society gained respect through acts of bravery called ________.",
+              "options": null,
+              "correct_answer": "counting coup",
+              "explanation": "Counting coup was the highest form of bravery in Plains Indian warrior culture.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The land was considered ________ by Plains Indians and was not believed to be owned by individuals.",
+              "options": null,
+              "correct_answer": "sacred",
+              "explanation": "This spiritual belief about the land was central to Plains Indian culture and contrasted sharply with European ideas about land ownership.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Tipi",
+                  "match": "A cone-shaped portable home used by Plains Indians"
+                },
+                {
+                  "term": "Counting Coup",
+                  "match": "Touching an enemy in battle rather than killing them"
+                },
+                {
+                  "term": "Reservation",
+                  "match": "Land set aside by the US government for Native Americans"
+                },
+                {
+                  "term": "Fort Laramie Treaty 1851",
+                  "match": "A treaty defining tribal territories and promising annuities"
+                },
+                {
+                  "term": "Indian Removal Act 1830",
+                  "match": "A US law forcing Native Americans to relocate westward"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Conflict & Settlement of the West",
+          "cards": [
+            {
+              "keyword": "Manifest Destiny",
+              "definition": "the 19th-century American belief that the US was destined to expand westward across the continent",
+              "display_order": 1
+            },
+            {
+              "keyword": "the Homestead Act 1862",
+              "definition": "a US law granting settlers 160 acres of land if they farmed it for five years — encouraged mass migration westward",
+              "display_order": 2
+            },
+            {
+              "keyword": "homesteader",
+              "definition": "a settler who claimed land under the Homestead Act — faced many challenges including drought, isolation, and conflict with cattle ranchers",
+              "display_order": 3
+            },
+            {
+              "keyword": "the transcontinental railroad",
+              "definition": "a railway line connecting the east and west coasts of the USA — completed in 1869, accelerating westward settlement",
+              "display_order": 4
+            },
+            {
+              "keyword": "the cattle industry",
+              "definition": "ranching and cattle drives were central to the economy of the West — cowboys drove herds from Texas to railheads in Kansas",
+              "display_order": 5
+            },
+            {
+              "keyword": "the Long Drive",
+              "definition": "the practice of driving cattle herds hundreds of miles north to railheads — e.g. the Chisholm Trail from Texas to Kansas",
+              "display_order": 6
+            },
+            {
+              "keyword": "the Battle of Little Bighorn 1876",
+              "definition": "a major Native American victory where Sioux and Cheyenne warriors defeated US forces led by General Custer",
+              "display_order": 7
+            },
+            {
+              "keyword": "the Dawes Act 1887",
+              "definition": "a US law that divided reservation land into individual plots for Native Americans — aimed to destroy tribal culture and encourage assimilation",
+              "display_order": 8
+            },
+            {
+              "keyword": "the Wounded Knee Massacre 1890",
+              "definition": "the killing of around 250 Sioux by US troops — effectively the end of Native American resistance on the Plains",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Ghost Dance",
+              "definition": "a spiritual movement among Plains Indians in the late 1880s — US authorities feared it would lead to uprising, contributing to Wounded Knee",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What did Americans mean by 'Manifest Destiny' in the 19th century?",
+              "options": [
+                "The belief that the US was destined to expand westward across the continent",
+                "A religious movement that rejected westward expansion",
+                "A law passed by Congress in 1862",
+                "The name of a famous cattle trail"
+              ],
+              "correct_answer": "The belief that the US was destined to expand westward across the continent",
+              "explanation": "Manifest Destiny was the widely held 19th-century American belief that expansion westward was justified and inevitable.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How much land could a settler claim under the Homestead Act 1862?",
+              "options": [
+                "100 acres",
+                "160 acres",
+                "250 acres",
+                "320 acres"
+              ],
+              "correct_answer": "160 acres",
+              "explanation": "The Homestead Act granted settlers 160 acres of land if they farmed it for five years, which encouraged mass migration westward.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the main challenge for homesteaders settling in the West?",
+              "options": [
+                "They had to pay very high taxes to the government",
+                "They faced drought, isolation, and conflict with cattle ranchers",
+                "They were not allowed to own firearms",
+                "They had to return to the East every winter"
+              ],
+              "correct_answer": "They faced drought, isolation, and conflict with cattle ranchers",
+              "explanation": "Homesteaders faced many difficulties including severe weather conditions, loneliness, and disputes with cattle ranchers over land use.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In what year was the transcontinental railroad completed?",
+              "options": [
+                "1862",
+                "1869",
+                "1876",
+                "1887"
+              ],
+              "correct_answer": "1869",
+              "explanation": "The transcontinental railroad was completed in 1869, which connected the east and west coasts and accelerated westward settlement.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these was a major effect of the transcontinental railroad?",
+              "options": [
+                "It stopped westward expansion completely",
+                "It accelerated westward settlement and connected the coasts",
+                "It made cattle ranching illegal",
+                "It prevented the Homestead Act from being used"
+              ],
+              "correct_answer": "It accelerated westward settlement and connected the coasts",
+              "explanation": "The railroad made it easier and faster for settlers to reach the West and for goods to be transported, speeding up westward expansion.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What were cowboys mainly responsible for during the Long Drive?",
+              "options": [
+                "Building railroads across the West",
+                "Driving cattle herds hundreds of miles north to railheads",
+                "Protecting settlers from Native Americans",
+                "Operating the transcontinental railroad"
+              ],
+              "correct_answer": "Driving cattle herds hundreds of miles north to railheads",
+              "explanation": "Cowboys drove large herds of cattle from Texas northward to railheads in Kansas and other locations, such as along the Chisholm Trail.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which Native American tribes achieved a major victory at the Battle of Little Bighorn in 1876?",
+              "options": [
+                "Apache and Comanche",
+                "Sioux and Cheyenne",
+                "Navajo and Ute",
+                "Blackfoot and Crow"
+              ],
+              "correct_answer": "Sioux and Cheyenne",
+              "explanation": "The Battle of Little Bighorn was a major Native American victory where Sioux and Cheyenne warriors defeated US forces led by General Custer.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the main aim of the Dawes Act 1887?",
+              "options": [
+                "To protect Native American reservations from settlers",
+                "To divide reservation land into individual plots and encourage assimilation",
+                "To provide guns and ammunition to Native Americans",
+                "To stop the cattle industry from expanding westward"
+              ],
+              "correct_answer": "To divide reservation land into individual plots and encourage assimilation",
+              "explanation": "The Dawes Act divided tribal reservation land into individual plots for Native Americans, aimed at destroying tribal culture and forcing assimilation into American society.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What event at Wounded Knee in 1890 effectively marked the end of Native American resistance on the Plains?",
+              "options": [
+                "A peaceful treaty agreement",
+                "A successful Native American uprising",
+                "The killing of around 250 Sioux by US troops",
+                "The discovery of gold on reservation land"
+              ],
+              "correct_answer": "The killing of around 250 Sioux by US troops",
+              "explanation": "The Wounded Knee Massacre in 1890, where US troops killed approximately 250 Sioux, effectively ended organized Native American resistance on the Plains.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Why did US authorities worry about the Ghost Dance movement in the late 1880s?",
+              "options": [
+                "They thought it was a religious movement that opposed westward expansion",
+                "They feared it would lead to an uprising",
+                "They believed it would stop the cattle industry",
+                "They worried it would prevent railroad construction"
+              ],
+              "correct_answer": "They feared it would lead to an uprising",
+              "explanation": "US authorities feared the Ghost Dance spiritual movement would inspire Native Americans to rebel, and this fear contributed to the events at Wounded Knee.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The Homestead Act of 1862 required settlers to farm their land for three years.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The Homestead Act required settlers to farm their land for five years, not three, to claim ownership.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The transcontinental railroad was completed before the Homestead Act was passed.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The Homestead Act was passed in 1862, while the transcontinental railroad was completed in 1869, so the Act came first.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "General Custer won the Battle of Little Bighorn in 1876.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "General Custer was defeated at Little Bighorn; the Sioux and Cheyenne won this major battle.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The Chisholm Trail was a route used to drive cattle from Texas to Kansas.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The Chisholm Trail was indeed a major cattle trail used during the Long Drive to move herds from Texas northward to railheads.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The Dawes Act aimed to preserve Native American tribal culture and traditions.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The Dawes Act was designed to destroy tribal culture by dividing reservation land and forcing assimilation into American society.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Homesteaders faced conflicts with cattle ranchers over the use of land.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Homesteaders who farmed the land often came into conflict with cattle ranchers who wanted open range for their herds.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The Ghost Dance was a political movement demanding voting rights for Native Americans.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The Ghost Dance was a spiritual movement among Plains Indians in the late 1880s, not a political movement seeking voting rights.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The Wounded Knee Massacre occurred in 1890.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The Wounded Knee Massacre took place in 1890 when US troops killed around 250 Sioux, marking the end of major Native American resistance.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Manifest Destiny was a law passed by Congress.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Manifest Destiny was a belief or ideology, not a law; it was the widespread American conviction that westward expansion was justified and inevitable.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The cattle industry played a central role in the economy of the American West.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Ranching and cattle drives were indeed central to the western economy, with cowboys driving herds to railheads for sale.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was an 1862 law that granted settlers 160 acres of land if they farmed it for five years.",
+              "options": null,
+              "correct_answer": "Homestead Act",
+              "explanation": "The Homestead Act of 1862 was the key legislation that encouraged westward migration by offering free land to settlers.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ was a settler who claimed land under the Homestead Act and faced challenges like drought and isolation.",
+              "options": null,
+              "correct_answer": "homesteader",
+              "explanation": "Homesteaders were the settlers who took advantage of the Homestead Act to claim and farm western land, facing many hardships.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ connected the east and west coasts of the USA and was completed in 1869.",
+              "options": null,
+              "correct_answer": "transcontinental railroad",
+              "explanation": "The transcontinental railroad, completed in 1869, was a major achievement that accelerated westward settlement and economic development.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was the practice of driving cattle herds hundreds of miles north to railheads in Kansas.",
+              "options": null,
+              "correct_answer": "Long Drive",
+              "explanation": "The Long Drive was the major cattle-driving operation that moved herds from Texas northward to railroad terminals.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was a famous cattle trail that ran from Texas to Kansas during the era of the Long Drive.",
+              "options": null,
+              "correct_answer": "Chisholm Trail",
+              "explanation": "The Chisholm Trail was one of the most important routes used to drive cattle herds north from Texas to railheads.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "In 1876, the ________ was a major Native American victory where Sioux and Cheyenne warriors defeated US forces led by General Custer.",
+              "options": null,
+              "correct_answer": "Battle of Little Bighorn",
+              "explanation": "The Battle of Little Bighorn in 1876 was a significant victory for Native Americans and a defeat for the US Army.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ of 1887 divided reservation land into individual plots for Native Americans and aimed to destroy tribal culture.",
+              "options": null,
+              "correct_answer": "Dawes Act",
+              "explanation": "The Dawes Act was designed to break up tribal lands and force Native Americans to adopt individual farming and American ways.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was a spiritual movement among Plains Indians in the late 1880s that concerned US authorities.",
+              "options": null,
+              "correct_answer": "Ghost Dance",
+              "explanation": "The Ghost Dance was a religious revival movement among Plains Native Americans that led to fears of uprising.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ in 1890 saw the killing of around 250 Sioux by US troops, effectively ending major Native American resistance.",
+              "options": null,
+              "correct_answer": "Wounded Knee Massacre",
+              "explanation": "The Wounded Knee Massacre marked a tragic end to Native American armed resistance on the Great Plains.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ was the 19th-century American belief that the US was destined to expand westward across the continent.",
+              "options": null,
+              "correct_answer": "Manifest Destiny",
+              "explanation": "Manifest Destiny was the widespread ideology that justified and drove westward expansion during the 1800s.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Homestead Act 1862",
+                  "match": "A law granting settlers 160 acres of land if they farmed it for five years"
+                },
+                {
+                  "term": "The Long Drive",
+                  "match": "The practice of driving cattle herds hundreds of miles north to railheads"
+                },
+                {
+                  "term": "Battle of Little Bighorn 1876",
+                  "match": "A major Native American victory where Sioux and Cheyenne defeated General Custer"
+                },
+                {
+                  "term": "Dawes Act 1887",
+                  "match": "A law that divided reservation land into individual plots to encourage assimilation"
+                },
+                {
+                  "term": "Wounded Knee Massacre 1890",
+                  "match": "The killing of around 250 Sioux by US troops, ending major Native American resistance"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weimar & Nazi Germany, 1918–1939",
+      "display_order": 3,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "The Weimar Republic",
+          "cards": [
+            {
+              "keyword": "the Weimar Republic",
+              "definition": "the democratic government of Germany established in 1919 after World War One — plagued by political and economic instability",
+              "display_order": 1
+            },
+            {
+              "keyword": "the Treaty of Versailles 1919",
+              "definition": "the peace settlement ending WW1 — Germany lost territory, had its military restricted, and had to pay reparations; blamed for Germany's problems",
+              "display_order": 2
+            },
+            {
+              "keyword": "the 'stab in the back' myth",
+              "definition": "the false belief that Germany had not been defeated militarily but betrayed by politicians and Jews — used by the Nazis to gain support",
+              "display_order": 3
+            },
+            {
+              "keyword": "hyperinflation 1923",
+              "definition": "extreme inflation in Germany making money almost worthless — caused by the government printing money to pay reparations and the French occupation of the Ruhr",
+              "display_order": 4
+            },
+            {
+              "keyword": "the Munich Putsch 1923",
+              "definition": "Hitler's failed attempt to seize power in Munich — he was imprisoned but the trial gave him a national platform",
+              "display_order": 5
+            },
+            {
+              "keyword": "the Golden Twenties (1924–29)",
+              "definition": "a period of relative stability and cultural flourishing in Weimar Germany — ended by the Wall Street Crash of 1929",
+              "display_order": 6
+            },
+            {
+              "keyword": "proportional representation",
+              "definition": "the Weimar voting system giving parties seats in proportion to votes — led to many small parties and unstable coalition governments",
+              "display_order": 7
+            },
+            {
+              "keyword": "Article 48",
+              "definition": "a clause in the Weimar constitution allowing the president to rule by emergency decree — used increasingly by Hindenburg from 1930",
+              "display_order": 8
+            },
+            {
+              "keyword": "the Great Depression (1929)",
+              "definition": "a global economic crisis following the Wall Street Crash — led to mass unemployment in Germany and boosted support for extremist parties",
+              "display_order": 9
+            },
+            {
+              "keyword": "coalition government",
+              "definition": "a government formed by two or more parties — the Weimar Republic had many unstable coalitions that collapsed under pressure",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What was the Weimar Republic?",
+              "options": [
+                "A military dictatorship that ruled Germany after WW1",
+                "The democratic government of Germany established in 1919 after World War One",
+                "A communist government that took control in 1920",
+                "An alliance between Germany and other European countries"
+              ],
+              "correct_answer": "The democratic government of Germany established in 1919 after World War One",
+              "explanation": "The Weimar Republic was the democratic system set up in 1919, though it faced many problems including political and economic instability.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which peace treaty ended World War One and affected Germany?",
+              "options": [
+                "The Treaty of Paris 1920",
+                "The Treaty of Berlin 1918",
+                "The Treaty of Versailles 1919",
+                "The Treaty of Munich 1922"
+              ],
+              "correct_answer": "The Treaty of Versailles 1919",
+              "explanation": "The Treaty of Versailles was the peace settlement that forced Germany to lose territory, restrict its military, and pay reparations. Germans blamed it for their problems.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the 'stab in the back' myth?",
+              "options": [
+                "A true story about German generals being betrayed by soldiers",
+                "The false belief that Germany had not been defeated militarily but betrayed by politicians and Jews",
+                "A historical account of spies working during WW1",
+                "A description of how the French invaded Germany after 1919"
+              ],
+              "correct_answer": "The false belief that Germany had not been defeated militarily but betrayed by politicians and Jews",
+              "explanation": "This was a false myth that blamed politicians and Jewish people for Germany's defeat, rather than accepting military defeat. The Nazis used this myth to gain support.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What happened to German money during hyperinflation in 1923?",
+              "options": [
+                "It became much more valuable than before",
+                "It became almost worthless",
+                "It was replaced by British currency",
+                "It increased in value by 50 percent"
+              ],
+              "correct_answer": "It became almost worthless",
+              "explanation": "Hyperinflation in 1923 made German money almost worthless. This was caused by the government printing money to pay reparations and the French occupation of the Ruhr.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the Munich Putsch?",
+              "options": [
+                "A successful Nazi takeover of Germany",
+                "A peaceful protest by unemployed workers",
+                "Hitler's failed attempt to seize power in Munich in 1923",
+                "A French invasion of the German Ruhr region"
+              ],
+              "correct_answer": "Hitler's failed attempt to seize power in Munich in 1923",
+              "explanation": "The Munich Putsch was Hitler's unsuccessful attempt to take power in 1923. Although it failed, the trial that followed gave Hitler a national platform to spread his ideas.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What years are known as the Golden Twenties in Weimar Germany?",
+              "options": [
+                "1918-1923",
+                "1924-1929",
+                "1930-1935",
+                "1929-1933"
+              ],
+              "correct_answer": "1924-1929",
+              "explanation": "The Golden Twenties (1924-1929) was a period of relative stability and cultural flourishing in Weimar Germany, which ended with the Wall Street Crash of 1929.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What problem did proportional representation create in Weimar Germany?",
+              "options": [
+                "It gave too much power to the military",
+                "It led to many small parties and unstable coalition governments",
+                "It prevented ordinary people from voting",
+                "It allowed the president to make all decisions"
+              ],
+              "correct_answer": "It led to many small parties and unstable coalition governments",
+              "explanation": "Proportional representation gave parties seats in proportion to votes, which meant many small parties were elected. This made it difficult to form stable governments.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was Article 48 of the Weimar constitution?",
+              "options": [
+                "A law preventing women from voting",
+                "A clause allowing the president to rule by emergency decree",
+                "A ban on all political parties",
+                "A rule that gave all power to the chancellor"
+              ],
+              "correct_answer": "A clause allowing the president to rule by emergency decree",
+              "explanation": "Article 48 allowed the president to rule by emergency decree during crises. President Hindenburg used this increasingly from 1930, which weakened the republic.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What economic event followed the Wall Street Crash in 1929?",
+              "options": [
+                "A period of economic growth across Europe",
+                "The Great Depression",
+                "Hyperinflation returned to Germany",
+                "Germany's economy became the strongest in Europe"
+              ],
+              "correct_answer": "The Great Depression",
+              "explanation": "The Great Depression was a global economic crisis following the Wall Street Crash. It led to mass unemployment in Germany and boosted support for extremist parties like the Nazis.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a coalition government?",
+              "options": [
+                "A government led by the military",
+                "A government formed by two or more parties working together",
+                "A government controlled by one very powerful party",
+                "A government that makes decisions by public vote"
+              ],
+              "correct_answer": "A government formed by two or more parties working together",
+              "explanation": "A coalition government is formed when two or more parties combine to form a government. The Weimar Republic had many unstable coalitions that collapsed under pressure.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The Treaty of Versailles forced Germany to pay reparations and lose territory.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The Treaty of Versailles required Germany to pay large reparations and give up territory. Many Germans blamed this treaty for their country's problems.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "Hyperinflation in 1923 made German money more valuable.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Hyperinflation made German money almost worthless, not more valuable. People needed wheelbarrows of cash to buy basic goods.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "The Munich Putsch in 1923 was a successful takeover of Germany by Hitler.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The Munich Putsch failed. However, the trial that followed gave Hitler publicity and allowed him to spread his ideas nationally.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The Golden Twenties ended because of the Wall Street Crash in 1929.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The Wall Street Crash in 1929 ended the period of stability and prosperity known as the Golden Twenties (1924-1929).",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Proportional representation helped create strong, stable governments in Weimar Germany.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Proportional representation created the opposite effect—it led to many small parties and unstable coalition governments that often collapsed.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Article 48 allowed the president to rule by emergency decree without parliament's approval.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "Article 48 gave the president emergency powers to rule by decree, which was increasingly used by Hindenburg from 1930 onwards.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The Great Depression reduced support for extremist parties in Germany.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The Great Depression actually boosted support for extremist parties like the Nazis, as people looked for radical solutions to unemployment and poverty.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "The 'stab in the back' myth was based on facts about Germany's defeat in WW1.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "The 'stab in the back' myth was false. Germany was genuinely defeated militarily, but the myth blamed politicians and Jews instead.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Coalition governments in Weimar were generally very stable and long-lasting.",
+              "options": null,
+              "correct_answer": "False",
+              "explanation": "Coalition governments in the Weimar Republic were unstable and often collapsed under pressure due to disagreements between parties.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The Weimar Republic faced problems from both economic crises and political instability.",
+              "options": null,
+              "correct_answer": "True",
+              "explanation": "The Weimar Republic was plagued by both economic problems (like hyperinflation and the Great Depression) and political instability (weak coalitions and extremist threats).",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was the peace settlement that ended WW1 and forced Germany to pay reparations.",
+              "options": null,
+              "correct_answer": "Treaty of Versailles",
+              "explanation": "The Treaty of Versailles (1919) was the peace treaty that ended World War One and placed harsh conditions on Germany.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The false myth that Germany was betrayed by politicians and Jews rather than defeated militarily is called the '________ in the back' myth.",
+              "options": null,
+              "correct_answer": "stab",
+              "explanation": "The 'stab in the back' myth blamed Germany's defeat on betrayal rather than military loss, and was used by the Nazis for propaganda.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "In 1923, Germany experienced ________ when extreme inflation made money almost worthless.",
+              "options": null,
+              "correct_answer": "hyperinflation",
+              "explanation": "Hyperinflation in 1923 caused the value of German money to collapse, making it almost worthless.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "Hitler's failed attempt to seize power in 1923 was called the ________ Putsch.",
+              "options": null,
+              "correct_answer": "Munich",
+              "explanation": "The Munich Putsch was Hitler's unsuccessful attempt to take over the government in Munich in 1923.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The period of relative stability and cultural flourishing from 1924-1929 is known as the ________ Twenties.",
+              "options": null,
+              "correct_answer": "Golden",
+              "explanation": "The Golden Twenties refers to the period of relative prosperity and cultural development in Weimar Germany between 1924 and 1929.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The voting system that gives parties seats in proportion to votes is called ________.",
+              "options": null,
+              "correct_answer": "proportional representation",
+              "explanation": "Proportional representation was the Weimar voting system that resulted in many small parties being elected to parliament.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ 48 was a clause in the Weimar constitution allowing the president to rule by emergency decree.",
+              "options": null,
+              "correct_answer": "Article",
+              "explanation": "Article 48 gave the president emergency powers that were increasingly used by President Hindenburg from 1930.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The global economic crisis that followed the Wall Street Crash of 1929 is called the ________ Depression.",
+              "options": null,
+              "correct_answer": "Great",
+              "explanation": "The Great Depression was the severe worldwide economic crisis that began in 1929 and led to mass unemployment in Germany.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ government is formed when two or more political parties work together to run the country.",
+              "options": null,
+              "correct_answer": "coalition",
+              "explanation": "Coalition governments combine parties, but in Weimar Germany they were unstable and frequently collapsed.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was established in 1919 as Germany's democratic government after World War One.",
+              "options": null,
+              "correct_answer": "Weimar Republic",
+              "explanation": "The Weimar Republic was the name given to Germany's democratic system established in 1919, though it faced many challenges.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "The Treaty of Versailles",
+                  "match": "Peace settlement ending WW1 that forced Germany to pay reparations and lose territory"
+                },
+                {
+                  "term": "Hyperinflation 1923",
+                  "match": "Extreme inflation that made German money almost worthless"
+                },
+                {
+                  "term": "The Golden Twenties",
+                  "match": "Period of relative stability and cultural flourishing from 1924-1929"
+                },
+                {
+                  "term": "Article 48",
+                  "match": "Constitutional clause allowing the president to rule by emergency decree"
+                },
+                {
+                  "term": "The Great Depression",
+                  "match": "Global economic crisis after 1929 that led to mass unemployment in Germany"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        },
+        {
+          "block_number": 2,
+          "block_name": "Nazi Germany",
+          "cards": [
+            {
+              "keyword": "the Nazi Party (NSDAP)",
+              "definition": "the National Socialist German Workers' Party — led by Hitler, it came to power in 1933 promising to restore German greatness",
+              "display_order": 1
+            },
+            {
+              "keyword": "propaganda",
+              "definition": "information spread to promote a particular viewpoint — the Nazis used propaganda extensively through Goebbels' Ministry of Propaganda",
+              "display_order": 2
+            },
+            {
+              "keyword": "the Reichstag Fire 1933",
+              "definition": "the burning of the German parliament building — blamed on communists, used by Hitler to pass the Reichstag Fire Decree suspending civil liberties",
+              "display_order": 3
+            },
+            {
+              "keyword": "the Enabling Act 1933",
+              "definition": "a law giving Hitler the power to pass laws without the Reichstag — effectively ended democracy in Germany",
+              "display_order": 4
+            },
+            {
+              "keyword": "totalitarian state",
+              "definition": "a state where the government controls all aspects of public and private life — the Nazi state used terror, propaganda, and censorship",
+              "display_order": 5
+            },
+            {
+              "keyword": "the Gestapo",
+              "definition": "the Nazi secret police — used terror and informants to identify and eliminate political opponents",
+              "display_order": 6
+            },
+            {
+              "keyword": "the SS (Schutzstaffel)",
+              "definition": "the elite Nazi paramilitary organisation — responsible for running concentration camps and enforcing racial policies",
+              "display_order": 7
+            },
+            {
+              "keyword": "the Nuremberg Laws 1935",
+              "definition": "laws that stripped German Jews of citizenship and banned marriage between Jews and non-Jews",
+              "display_order": 8
+            },
+            {
+              "keyword": "Kristallnacht 1938",
+              "definition": "'Night of Broken Glass' — a coordinated nationwide attack on Jewish businesses, synagogues, and homes",
+              "display_order": 9
+            },
+            {
+              "keyword": "the Hitler Youth / League of German Girls",
+              "definition": "Nazi youth organisations designed to indoctrinate young Germans with Nazi ideology, loyalty to Hitler, and prepare boys for military service",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does NSDAP stand for?",
+              "options": [
+                "National Socialist German Workers' Party",
+                "National Security Democratic Armed Party",
+                "Nazi State Defence and Police",
+                "Northern Socialist German Workers' Party"
+              ],
+              "correct_answer": "National Socialist German Workers' Party",
+              "explanation": "NSDAP is the full name of the Nazi Party, which was led by Hitler and came to power in 1933.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who was in charge of the Nazi Ministry of Propaganda?",
+              "options": [
+                "Hermann Göring",
+                "Joseph Goebbels",
+                "Heinrich Himmler",
+                "Rudolf Hess"
+              ],
+              "correct_answer": "Joseph Goebbels",
+              "explanation": "Goebbels ran the Ministry of Propaganda and was responsible for spreading Nazi propaganda through various media channels.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What event in 1933 did Hitler blame on communists to justify suspending civil liberties?",
+              "options": [
+                "The Munich Putsch",
+                "The Reichstag Fire",
+                "The Kapp Putsch",
+                "The November Revolution"
+              ],
+              "correct_answer": "The Reichstag Fire",
+              "explanation": "The Reichstag Fire in 1933 was blamed on communists by Hitler, who used it as justification to pass the Reichstag Fire Decree.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did the Enabling Act of 1933 allow Hitler to do?",
+              "options": [
+                "Pass laws without the approval of the Reichstag",
+                "Arrest all communist members of parliament",
+                "Create the Gestapo secret police",
+                "Ban all political parties except the Nazi Party"
+              ],
+              "correct_answer": "Pass laws without the approval of the Reichstag",
+              "explanation": "The Enabling Act gave Hitler the power to pass laws without Reichstag approval, effectively ending democracy in Germany.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is a totalitarian state?",
+              "options": [
+                "A state where only the military has power",
+                "A state where the government controls all aspects of public and private life",
+                "A state where there are no laws or rules",
+                "A state where local governments have more power than the central government"
+              ],
+              "correct_answer": "A state where the government controls all aspects of public and private life",
+              "explanation": "A totalitarian state uses terror, propaganda, and censorship to control everything in society, which is exactly what Nazi Germany became.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which organisation was the Nazi secret police?",
+              "options": [
+                "The SS",
+                "The Gestapo",
+                "The Hitler Youth",
+                "The SA"
+              ],
+              "correct_answer": "The Gestapo",
+              "explanation": "The Gestapo was the Nazi secret police that used terror, informants, and surveillance to identify and eliminate political opponents.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who ran the concentration camps in Nazi Germany?",
+              "options": [
+                "The Gestapo",
+                "The Wehrmacht",
+                "The SS",
+                "The Hitler Youth"
+              ],
+              "correct_answer": "The SS",
+              "explanation": "The SS (Schutzstaffel) was the elite Nazi paramilitary organisation responsible for running concentration camps and enforcing racial policies.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did the Nuremberg Laws of 1935 do?",
+              "options": [
+                "Created the Hitler Youth organisation",
+                "Established the Gestapo",
+                "Stripped German Jews of citizenship and banned marriage between Jews and non-Jews",
+                "Allowed women to vote in elections"
+              ],
+              "correct_answer": "Stripped German Jews of citizenship and banned marriage between Jews and non-Jews",
+              "explanation": "The Nuremberg Laws were racist laws that removed citizenship rights from Jews and prevented them from marrying non-Jews.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was Kristallnacht in 1938?",
+              "options": [
+                "A celebration of Hitler's birthday",
+                "A speech given by Hitler about racial purity",
+                "A nationwide attack on Jewish businesses, synagogues, and homes",
+                "The creation of the Hitler Youth movement"
+              ],
+              "correct_answer": "A nationwide attack on Jewish businesses, synagogues, and homes",
+              "explanation": "Kristallnacht, meaning 'Night of Broken Glass', was a coordinated violent attack on Jewish properties across Germany in 1938.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was the main purpose of the Hitler Youth and League of German Girls?",
+              "options": [
+                "To provide sports and entertainment for young people",
+                "To indoctrinate young Germans with Nazi ideology and prepare boys for military service",
+                "To teach traditional German history and culture",
+                "To select the most intelligent students for university"
+              ],
+              "correct_answer": "To indoctrinate young Germans with Nazi ideology and prepare boys for military service",
+              "explanation": "These youth organisations were designed to spread Nazi beliefs and loyalty to Hitler, and to prepare boys for future military service.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "The Nazi Party came to power in Germany in 1933.",
+              "correct_answer": "True",
+              "explanation": "Hitler and the Nazi Party took control of Germany in 1933, with Hitler becoming Chancellor in January of that year.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The Gestapo was a military organisation responsible for fighting in World War II.",
+              "correct_answer": "False",
+              "explanation": "The Gestapo was the secret police, not a military organisation. They were focused on internal security, surveillance, and terror.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Propaganda was used extensively by the Nazis to control public opinion.",
+              "correct_answer": "True",
+              "explanation": "The Nazis, through Goebbels' Ministry of Propaganda, used newspapers, radio, films, and posters to spread their message and control what people thought.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "The Enabling Act of 1933 strengthened the power of the Reichstag in Germany.",
+              "correct_answer": "False",
+              "explanation": "The Enabling Act actually removed the power of the Reichstag by allowing Hitler to pass laws without their approval, effectively ending democracy.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "The SS was responsible for running concentration camps in Nazi Germany.",
+              "correct_answer": "True",
+              "explanation": "The SS (Schutzstaffel) was the elite paramilitary organisation that operated the concentration camps and enforced Nazi racial policies.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Kristallnacht happened in 1935.",
+              "correct_answer": "False",
+              "explanation": "Kristallnacht occurred in 1938, not 1935. The Nuremberg Laws were passed in 1935.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The Reichstag Fire Decree suspended civil liberties in Germany.",
+              "correct_answer": "True",
+              "explanation": "After the Reichstag Fire in 1933, Hitler used it as an excuse to pass the Reichstag Fire Decree, which removed citizens' civil rights.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "A totalitarian state allows people complete freedom to express their political opinions.",
+              "correct_answer": "False",
+              "explanation": "A totalitarian state controls all aspects of life including what people can say and think. There is no freedom of expression in a totalitarian system.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "The Hitler Youth organisations trained young boys for potential military service.",
+              "correct_answer": "True",
+              "explanation": "The Hitler Youth and similar organisations were designed to prepare German boys for future military service while teaching them Nazi ideology.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "The Nuremberg Laws allowed Jews to marry non-Jews in Germany.",
+              "correct_answer": "False",
+              "explanation": "The Nuremberg Laws specifically banned marriage between Jews and non-Jews as part of Nazi racial policies.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was the Nazi secret police that used terror and informants to eliminate political opponents.",
+              "correct_answer": "Gestapo",
+              "explanation": "The Gestapo was a feared secret police force that used informants, surveillance, and violence to control the population.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Fire in 1933 was blamed on communists and used to justify the suspension of civil liberties.",
+              "correct_answer": "Reichstag",
+              "explanation": "The burning of the Reichstag (parliament building) in 1933 was used by Hitler as an excuse to pass emergency laws.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "Joseph Goebbels was in charge of the Nazi ________ of Propaganda.",
+              "correct_answer": "Ministry",
+              "explanation": "Goebbels led the Ministry of Propaganda, which controlled all media and information in Nazi Germany.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Act of 1933 allowed Hitler to pass laws without the Reichstag's approval.",
+              "correct_answer": "Enabling",
+              "explanation": "The Enabling Act gave Hitler emergency powers to make laws without needing parliament's permission, effectively ending democracy.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was an elite Nazi paramilitary organisation responsible for running concentration camps.",
+              "correct_answer": "SS",
+              "explanation": "The SS (Schutzstaffel) was the elite Nazi paramilitary force that carried out the regime's most violent policies.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ Laws of 1935 stripped German Jews of citizenship and banned marriage between Jews and non-Jews.",
+              "correct_answer": "Nuremberg",
+              "explanation": "These laws were named after the city of Nuremberg and were part of Nazi Germany's systematic discrimination against Jewish people.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ was a coordinated nationwide attack on Jewish businesses, synagogues, and homes in 1938.",
+              "correct_answer": "Kristallnacht",
+              "explanation": "Kristallnacht, meaning 'Night of Broken Glass', was a violent pogrom that marked an escalation in Nazi persecution of Jews.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "A ________ state is one where the government controls all aspects of public and private life.",
+              "correct_answer": "totalitarian",
+              "explanation": "Nazi Germany became a totalitarian state where the government controlled everything from media to religion to family life.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ and the League of German Girls were Nazi youth organisations designed to indoctrinate young Germans.",
+              "correct_answer": "Hitler Youth",
+              "explanation": "These organisations aimed to raise a generation of loyal Nazis by controlling education, activities, and ideology from a young age.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "The Nazi Party, or ________, came to power in 1933 under the leadership of Adolf Hitler.",
+              "correct_answer": "NSDAP",
+              "explanation": "NSDAP stands for National Socialist German Workers' Party, the official name of the Nazi Party.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "The Gestapo",
+                  "match": "Nazi secret police that used terror and informants"
+                },
+                {
+                  "term": "The SS",
+                  "match": "Elite Nazi paramilitary organisation that ran concentration camps"
+                },
+                {
+                  "term": "Kristallnacht",
+                  "match": "Coordinated nationwide attack on Jewish businesses and homes in 1938"
+                },
+                {
+                  "term": "The Enabling Act",
+                  "match": "Law that allowed Hitler to pass laws without Reichstag approval"
+                },
+                {
+                  "term": "The Nuremberg Laws",
+                  "match": "Laws that stripped Jews of citizenship and banned Jewish-non-Jewish marriages"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crime & Punishment in Britain, c1000–present",
+      "display_order": 4,
+      "blocks": [
+        {
+          "block_number": 1,
+          "block_name": "Crime & Punishment Through Time",
+          "cards": [
+            {
+              "keyword": "deterrence",
+              "definition": "the idea that harsh punishments will discourage people from committing crimes",
+              "display_order": 1
+            },
+            {
+              "keyword": "retribution",
+              "definition": "punishment as revenge — making the offender suffer in proportion to the harm they caused",
+              "display_order": 2
+            },
+            {
+              "keyword": "rehabilitation",
+              "definition": "punishment aimed at reforming the offender so they do not reoffend",
+              "display_order": 3
+            },
+            {
+              "keyword": "trial by ordeal",
+              "definition": "a medieval method of establishing guilt — the accused faced a physical test (e.g. holding hot iron) and God's judgement determined innocence",
+              "display_order": 4
+            },
+            {
+              "keyword": "the Bloody Code",
+              "definition": "the system of over 200 capital offences in 18th-century England — hanging was the punishment for crimes including theft",
+              "display_order": 5
+            },
+            {
+              "keyword": "transportation",
+              "definition": "the punishment of sending convicted criminals to British colonies — mainly to Australia from 1788",
+              "display_order": 6
+            },
+            {
+              "keyword": "Robert Peel",
+              "definition": "Home Secretary who established the Metropolitan Police in 1829 — the first professional police force in Britain",
+              "display_order": 7
+            },
+            {
+              "keyword": "Elizabeth Fry",
+              "definition": "a 19th-century prison reformer who campaigned for humane conditions in prisons, especially for women",
+              "display_order": 8
+            },
+            {
+              "keyword": "conscientious objectors",
+              "definition": "people who refused military service in WW1 on moral or religious grounds — treated as criminals by the state",
+              "display_order": 9
+            },
+            {
+              "keyword": "the death penalty (abolition 1969)",
+              "definition": "capital punishment was abolished in Britain for murder in 1969 — reflects changing attitudes towards rehabilitation over retribution",
+              "display_order": 10
+            }
+          ],
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What does the term 'deterrence' mean in the context of punishment?",
+              "options": [
+                "Punishment aimed at reforming the offender",
+                "The idea that harsh punishments will discourage people from committing crimes",
+                "Punishment as revenge for the harm caused",
+                "A method of establishing guilt in medieval times"
+              ],
+              "correct_answer": "The idea that harsh punishments will discourage people from committing crimes",
+              "explanation": "Deterrence is based on the belief that fear of harsh punishment will stop people from breaking the law. It was a key principle behind punishments like the Bloody Code.",
+              "display_order": 1
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following best describes 'retribution' as a purpose of punishment?",
+              "options": [
+                "Making the offender work to pay back society",
+                "Punishment as revenge — making the offender suffer in proportion to the harm they caused",
+                "Reforming the offender so they don't commit crimes again",
+                "Determining guilt through a physical test"
+              ],
+              "correct_answer": "Punishment as revenge — making the offender suffer in proportion to the harm they caused",
+              "explanation": "Retribution is about making offenders pay for their crimes through suffering. It reflects the idea of 'an eye for an eye' rather than trying to change their behaviour.",
+              "display_order": 2
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is 'rehabilitation' in the context of crime and punishment?",
+              "options": [
+                "Sending criminals to colonies overseas",
+                "Punishment aimed at reforming the offender so they do not reoffend",
+                "A harsh system with over 200 capital offences",
+                "Establishing guilt through physical tests"
+              ],
+              "correct_answer": "Punishment aimed at reforming the offender so they do not reoffend",
+              "explanation": "Rehabilitation focuses on changing offenders and helping them become law-abiding citizens. This approach became more popular in the 19th century and reflects modern thinking about punishment.",
+              "display_order": 3
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which medieval method of establishing guilt involved the accused facing a physical test?",
+              "options": [
+                "Trial by jury",
+                "Trial by ordeal",
+                "Transportation",
+                "The Bloody Code"
+              ],
+              "correct_answer": "Trial by ordeal",
+              "explanation": "Trial by ordeal was used in medieval times and involved tests like holding hot iron. It was believed that God would protect the innocent from harm.",
+              "display_order": 4
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What was 'the Bloody Code' in 18th-century England?",
+              "options": [
+                "A code of laws protecting prisoners' rights",
+                "A system of over 200 capital offences where hanging was the punishment for crimes including theft",
+                "The rules for trial by ordeal",
+                "A guide for prison reformers"
+              ],
+              "correct_answer": "A system of over 200 capital offences where hanging was the punishment for crimes including theft",
+              "explanation": "The Bloody Code was extremely harsh — it meant that even minor crimes like stealing could result in the death penalty. It was meant to deter crime through fear.",
+              "display_order": 5
+            },
+            {
+              "type": "multiple_choice",
+              "question": "From which year were convicted criminals transported to Australia as a punishment?",
+              "options": [
+                "1769",
+                "1799",
+                "1788",
+                "1829"
+              ],
+              "correct_answer": "1788",
+              "explanation": "Transportation to Australia began in 1788 as a punishment for convicted criminals. It was used as an alternative to hanging and to populate the new colony.",
+              "display_order": 6
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who established the Metropolitan Police in 1829?",
+              "options": [
+                "Elizabeth Fry",
+                "Robert Peel",
+                "William Wilberforce",
+                "John Howard"
+              ],
+              "correct_answer": "Robert Peel",
+              "explanation": "Robert Peel was Home Secretary and created the Metropolitan Police in 1829. This was Britain's first professional police force and transformed law enforcement.",
+              "display_order": 7
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What did Elizabeth Fry campaign for in the 19th century?",
+              "options": [
+                "The abolition of transportation",
+                "Humane conditions in prisons, especially for women",
+                "The end of trial by ordeal",
+                "The creation of the police force"
+              ],
+              "correct_answer": "Humane conditions in prisons, especially for women",
+              "explanation": "Elizabeth Fry was a prison reformer who fought for better treatment of prisoners. She believed in rehabilitation and was particularly concerned about conditions for female prisoners.",
+              "display_order": 8
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What were 'conscientious objectors' in World War 1?",
+              "options": [
+                "Soldiers who disobeyed orders in battle",
+                "People who refused military service on moral or religious grounds and were treated as criminals by the state",
+                "Prisoners who were transported to Australia",
+                "Prison reformers who opposed capital punishment"
+              ],
+              "correct_answer": "People who refused military service on moral or religious grounds and were treated as criminals by the state",
+              "explanation": "Conscientious objectors refused to fight in WW1 because it went against their beliefs. The government treated them as criminals, showing how laws punish people based on their convictions.",
+              "display_order": 9
+            },
+            {
+              "type": "multiple_choice",
+              "question": "In which year was capital punishment (the death penalty) abolished in Britain for murder?",
+              "options": [
+                "1829",
+                "1900",
+                "1969",
+                "1988"
+              ],
+              "correct_answer": "1969",
+              "explanation": "The death penalty was abolished in Britain in 1969 for murder. This change reflects a shift from retribution towards rehabilitation as the purpose of punishment.",
+              "display_order": 10
+            },
+            {
+              "type": "true_false",
+              "question": "Trial by ordeal was a fair and reliable way to determine guilt because it used scientific evidence.",
+              "correct_answer": "False",
+              "explanation": "Trial by ordeal was not based on evidence at all — it relied on the belief that God would protect the innocent. It was a superstitious practice, not a fair legal process.",
+              "display_order": 11
+            },
+            {
+              "type": "true_false",
+              "question": "The Bloody Code made theft a capital offence punishable by hanging.",
+              "correct_answer": "True",
+              "explanation": "The Bloody Code in 18th-century England had over 200 capital offences, and theft was one of them. This shows how extreme and harsh the punishment system was.",
+              "display_order": 12
+            },
+            {
+              "type": "true_false",
+              "question": "Transportation to Australia ended in the 1700s because the colony no longer needed prisoners.",
+              "correct_answer": "False",
+              "explanation": "Transportation continued beyond the 1700s and remained an important punishment throughout the 1800s. It wasn't simply about populating Australia but also about punishment and removing criminals from Britain.",
+              "display_order": 13
+            },
+            {
+              "type": "true_false",
+              "question": "Robert Peel's Metropolitan Police was the first professional police force in Britain.",
+              "correct_answer": "True",
+              "explanation": "The Metropolitan Police, established by Robert Peel in 1829, was Britain's first professional police force. Before this, law enforcement relied on local watchmen and amateur constables.",
+              "display_order": 14
+            },
+            {
+              "type": "true_false",
+              "question": "Elizabeth Fry believed in harsh punishments as a way to deter crime.",
+              "correct_answer": "False",
+              "explanation": "Elizabeth Fry was a reformer who believed in humane treatment and rehabilitation, not harsh punishment. She opposed the cruel conditions of prisons and advocated for better treatment.",
+              "display_order": 15
+            },
+            {
+              "type": "true_false",
+              "question": "Conscientious objectors in WW1 were imprisoned because they refused to fight on moral or religious grounds.",
+              "correct_answer": "True",
+              "explanation": "Conscientious objectors were treated as criminals during WW1 and many were imprisoned for refusing military service. This shows how the law can punish people for their beliefs.",
+              "display_order": 16
+            },
+            {
+              "type": "true_false",
+              "question": "The abolition of capital punishment in 1969 shows that society has moved away from the idea of rehabilitation.",
+              "correct_answer": "False",
+              "explanation": "The opposite is true — abolishing capital punishment reflects a shift TOWARDS rehabilitation and away from retribution. It shows society no longer believes execution is the right punishment.",
+              "display_order": 17
+            },
+            {
+              "type": "true_false",
+              "question": "Deterrence as a punishment aim means making the offender feel sorry for what they did.",
+              "correct_answer": "False",
+              "explanation": "Deterrence is about fear of punishment stopping people from committing crimes, not about making them feel remorse. It's focused on preventing crime through harsh consequences, not reforming the person.",
+              "display_order": 18
+            },
+            {
+              "type": "true_false",
+              "question": "Retribution is based on the principle that punishment should be proportional to the harm caused.",
+              "correct_answer": "True",
+              "explanation": "Retribution is about making the punishment fit the crime. It's the idea of 'an eye for an eye' — the offender should suffer in proportion to the suffering they caused.",
+              "display_order": 19
+            },
+            {
+              "type": "true_false",
+              "question": "Transportation as a punishment was abandoned in Britain by the early 1800s.",
+              "correct_answer": "False",
+              "explanation": "Transportation continued to be used well into the 19th century and remained an important punishment for many decades after 1800. It wasn't abandoned until later.",
+              "display_order": 20
+            },
+            {
+              "type": "fill_blank",
+              "question": "The purpose of punishment called ________ aims to reform the offender so they do not commit crimes again.",
+              "options": null,
+              "correct_answer": "rehabilitation",
+              "explanation": "Rehabilitation is the modern approach to punishment focused on changing offenders' behaviour and helping them become law-abiding citizens.",
+              "display_order": 21
+            },
+            {
+              "type": "fill_blank",
+              "question": "In medieval times, ________ was used to determine guilt — the accused faced a physical test and God's judgement decided if they were innocent.",
+              "options": null,
+              "correct_answer": "trial by ordeal",
+              "explanation": "Trial by ordeal was a superstitious medieval practice based on religious belief rather than evidence or logic.",
+              "display_order": 22
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ was a harsh 18th-century English system with over 200 capital offences, where hanging was the punishment for even minor crimes like theft.",
+              "options": null,
+              "correct_answer": "Bloody Code",
+              "explanation": "The Bloody Code shows how extreme and harsh punishment could be in the past, with execution used as a deterrent for many different crimes.",
+              "display_order": 23
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ was the punishment of sending convicted criminals to British colonies, mainly to Australia from 1788.",
+              "options": null,
+              "correct_answer": "Transportation",
+              "explanation": "Transportation served multiple purposes — it removed criminals from Britain, populated the new Australian colony, and provided hard labour.",
+              "display_order": 24
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ established the Metropolitan Police in 1829, creating Britain's first professional police force.",
+              "options": null,
+              "correct_answer": "Robert Peel",
+              "explanation": "Robert Peel's creation of the Metropolitan Police was a major development in law enforcement and crime prevention in Britain.",
+              "display_order": 25
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ was a 19th-century prison reformer who campaigned for humane conditions in prisons, especially for women.",
+              "options": null,
+              "correct_answer": "Elizabeth Fry",
+              "explanation": "Elizabeth Fry's work showed that attitudes towards punishment were changing, with a focus on humanitarian reform rather than just harsh treatment.",
+              "display_order": 26
+            },
+            {
+              "type": "fill_blank",
+              "question": "________are people who refused military service in WW1 on moral or religious grounds and were treated as criminals by the state.",
+              "options": null,
+              "correct_answer": "Conscientious objectors",
+              "explanation": "Conscientious objectors show how laws can treat people as criminals for following their beliefs, raising questions about justice and fairness.",
+              "display_order": 27
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ________ in Britain was abolished in 1969, reflecting changing attitudes towards rehabilitation over retribution.",
+              "options": null,
+              "correct_answer": "death penalty",
+              "explanation": "The abolition of capital punishment represents a major shift in how society views the purpose of punishment.",
+              "display_order": 28
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is the idea that harsh punishments will discourage people from committing crimes.",
+              "options": null,
+              "correct_answer": "Deterrence",
+              "explanation": "Deterrence was the thinking behind the Bloody Code — making punishments so harsh that fear would prevent crime.",
+              "display_order": 29
+            },
+            {
+              "type": "fill_blank",
+              "question": "________ is punishment as revenge — making the offender suffer in proportion to the harm they caused.",
+              "options": null,
+              "correct_answer": "Retribution",
+              "explanation": "Retribution reflects the 'eye for an eye' principle and was a common justification for harsh punishments historically.",
+              "display_order": 30
+            },
+            {
+              "type": "match_up",
+              "question": "Match each term to its correct description.",
+              "options": [
+                {
+                  "term": "Deterrence",
+                  "match": "The idea that harsh punishments will discourage people from committing crimes"
+                },
+                {
+                  "term": "Trial by ordeal",
+                  "match": "A medieval method where the accused faced a physical test and God's judgement determined innocence"
+                },
+                {
+                  "term": "Transportation",
+                  "match": "The punishment of sending convicted criminals to British colonies, mainly to Australia from 1788"
+                },
+                {
+                  "term": "Robert Peel",
+                  "match": "Home Secretary who established the Metropolitan Police in 1829"
+                },
+                {
+                  "term": "Rehabilitation",
+                  "match": "Punishment aimed at reforming the offender so they do not reoffend"
+                }
+              ],
+              "correct_answer": null,
+              "explanation": null,
+              "display_order": 31
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
