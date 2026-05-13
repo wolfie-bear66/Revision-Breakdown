@@ -2,6 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { SubjectProgressRing } from '@/components/ui/SubjectProgressRing';
 import { cn } from '@/lib/utils';
 
 interface SubjectCardProps {
@@ -49,24 +50,7 @@ export function SubjectCard({
       </CardHeader>
 
       <CardContent className="flex flex-col items-center gap-3 pt-2 pb-2">
-        {/* Session count ring */}
-        <div
-          className="relative flex items-center justify-center"
-          aria-label={`${session_count} sessions completed, ${completed_blocks} of ${total_blocks} blocks done`}
-        >
-          <svg width="80" height="80" viewBox="0 0 80 80">
-            <circle
-              cx="40"
-              cy="40"
-              r="32"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="8"
-              className={session_count > 0 ? 'text-primary' : 'text-muted/30'}
-            />
-          </svg>
-          <span className="absolute text-sm font-semibold tabular-nums">{session_count}</span>
-        </div>
+        <SubjectProgressRing completed={session_count} subjectName={subject_name} />
 
         <p className="text-xs text-muted-foreground text-center">
           {completed_blocks} / {total_blocks} blocks done
