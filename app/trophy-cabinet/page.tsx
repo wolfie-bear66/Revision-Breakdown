@@ -169,7 +169,7 @@ export default async function TrophyCabinetPage() {
                 </p>
 
                 {/* Badge image */}
-                <div className="relative flex items-center justify-center" style={{ width: '80%', aspectRatio: '1 / 1' }}>
+                <div className="relative flex items-center justify-center overflow-hidden" style={{ width: '80%', aspectRatio: '1 / 1' }}>
                   <Image
                     src={`/badges/${filename}`}
                     alt={`${subject_name} badge`}
@@ -179,7 +179,7 @@ export default async function TrophyCabinetPage() {
                     style={
                       isEarned
                         ? { filter: 'drop-shadow(0 0 16px rgba(245,166,35,0.7))' }
-                        : { filter: 'grayscale(100%) opacity(40%)' }
+                        : { filter: 'grayscale(100%) opacity(35%) blur(3px)' }
                     }
                   />
                   {!isEarned && (
