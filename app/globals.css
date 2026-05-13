@@ -66,3 +66,66 @@
     transform: scale(1);
   }
 }
+
+/* ── THEME TOKENS ── */
+[data-theme="dark"] {
+  --bg: #0e0e0e;
+  --surface: #1a1a1a;
+  --surface2: #242424;
+  --border: #333333;
+  --text: #f0f0ec;
+  --muted: #888880;
+  --heading: #f0f0ec;
+  --mint: #3dd9a4;
+  --amber: #f5a623;
+}
+
+[data-theme="light"] {
+  --bg: #f4f4f0;
+  --surface: #ffffff;
+  --surface2: #ebebeb;
+  --border: #d8d8d0;
+  --text: #1a1a18;
+  --muted: #6b6b60;
+  --heading: #1a1a18;
+  --mint: #3dd9a4;
+  --amber: #f5a623;
+}
+
+[data-theme="reading"] {
+  --bg: #fdf6e3;
+  --surface: #faefd4;
+  --surface2: #e8dfc8;
+  --border: #c8b896;
+  --text: #111111;
+  --muted: #444444;
+  --heading: #111111;
+  --mint: #2a7a5a;
+  --amber: #7a5a1a;
+}
+
+/* ── REVEAL ANIMATIONS (landing page) ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── SCROLLING QUOTES ── */
+@keyframes scroll-quotes {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* ── THEME-AWARE LINK ── */
+.theme-link {
+  color: var(--muted);
+  transition: color 0.2s;
+}
+.theme-link:hover {
+  color: var(--text);
+}

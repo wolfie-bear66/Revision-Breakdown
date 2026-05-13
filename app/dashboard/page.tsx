@@ -8,6 +8,7 @@ import { buttonVariants } from '@/components/ui/button';
 import { BookOpen, Trophy } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { FREE_SUBJECT_IDS } from '@/lib/free-topics';
+import { ThemeSwitcher } from '@/components/ThemeSwitcher';
 
 export default async function DashboardPage() {
   const supabase = await createClient();
@@ -77,7 +78,8 @@ export default async function DashboardPage() {
             )}
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 flex-wrap">
+            <ThemeSwitcher />
             <Link
               href="/trophy-cabinet"
               className={cn(buttonVariants({ variant: 'outline' }), 'gap-2')}

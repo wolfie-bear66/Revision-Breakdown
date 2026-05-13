@@ -68,7 +68,7 @@ export default async function TrophyCabinetPage() {
   if (fetchError) {
     return (
       <main
-        style={{ background: '#0e0e0e', minHeight: '100vh' }}
+        style={{ background: 'var(--bg)', minHeight: '100vh' }}
         className="flex items-center justify-center p-8"
       >
         <p style={{ color: '#f87171' }} className="text-center text-sm">
@@ -81,15 +81,15 @@ export default async function TrophyCabinetPage() {
   if (subjects.length === 0) {
     return (
       <main
-        style={{ background: '#0e0e0e', minHeight: '100vh', color: '#fff' }}
+        style={{ background: 'var(--bg)', minHeight: '100vh', color: 'var(--text)' }}
         className="flex flex-col items-center justify-center gap-4 p-8 text-center"
       >
-        <p style={{ color: '#888' }} className="text-sm">
+        <p style={{ color: 'var(--muted)' }} className="text-sm">
           No subjects enrolled yet. Head to your dashboard to get started.
         </p>
         <Link
           href="/dashboard"
-          style={{ background: '#3dd9a4', color: '#000' }}
+          style={{ background: 'var(--mint)', color: '#000' }}
           className="rounded-lg px-5 py-2 text-sm font-semibold"
         >
           Go to Dashboard
@@ -113,14 +113,13 @@ export default async function TrophyCabinetPage() {
   });
 
   return (
-    <main style={{ background: '#0e0e0e', minHeight: '100vh', color: '#fff' }} className="px-4 py-10 sm:px-6">
+    <main style={{ background: 'var(--bg)', minHeight: '100vh', color: 'var(--text)' }} className="px-4 py-10 sm:px-6">
       <div className="mx-auto max-w-5xl">
 
         {/* Back nav */}
         <Link
           href="/dashboard"
-          style={{ color: '#888' }}
-          className="mb-8 flex w-fit items-center gap-1 text-sm transition-colors hover:text-white"
+          className="theme-link mb-8 flex w-fit items-center gap-1 text-sm"
         >
           <ArrowLeft className="h-4 w-4" />
           Dashboard
@@ -129,10 +128,10 @@ export default async function TrophyCabinetPage() {
         {/* Header */}
         <div className="mb-8">
           <h1 className="mb-1 text-3xl font-bold tracking-tight">Trophy Cabinet</h1>
-          <p style={{ color: '#888' }} className="mb-3 text-sm">
+          <p style={{ color: 'var(--muted)' }} className="mb-3 text-sm">
             Earn a badge by completing every block in a subject
           </p>
-          <span style={{ color: '#3dd9a4' }} className="text-sm font-semibold">
+          <span style={{ color: 'var(--mint)' }} className="text-sm font-semibold">
             {earnedSet.size} / {badgeSubjects.length} badges earned
           </span>
         </div>
@@ -146,8 +145,8 @@ export default async function TrophyCabinetPage() {
               <div
                 key={subject_id}
                 style={{
-                  background: isEarned ? '#242424' : '#1a1a1a',
-                  border: '1px solid #333333',
+                  background: isEarned ? 'var(--surface2)' : 'var(--surface)',
+                  border: '1px solid var(--border)',
                   borderRadius: '12px',
                   padding: '16px',
                   display: 'flex',
@@ -162,7 +161,7 @@ export default async function TrophyCabinetPage() {
               >
                 {/* Subject name */}
                 <p
-                  style={{ color: '#e0e0e0' }}
+                  style={{ color: 'var(--text)' }}
                   className="w-full text-center text-xs font-bold leading-tight"
                 >
                   {subject_name}
@@ -184,7 +183,7 @@ export default async function TrophyCabinetPage() {
                   />
                   {!isEarned && (
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <Lock style={{ color: '#888', width: 24, height: 24 }} />
+                      <Lock style={{ color: 'var(--muted)', width: 24, height: 24 }} />
                     </div>
                   )}
                 </div>
@@ -194,7 +193,7 @@ export default async function TrophyCabinetPage() {
                   <span
                     style={{
                       background: 'rgba(61,217,164,0.15)',
-                      color: '#3dd9a4',
+                      color: 'var(--mint)',
                       borderRadius: '9999px',
                       padding: '2px 12px',
                     }}
@@ -203,7 +202,7 @@ export default async function TrophyCabinetPage() {
                     Earned
                   </span>
                 ) : (
-                  <p style={{ color: '#666' }} className="text-center text-xs">
+                  <p style={{ color: 'var(--muted)' }} className="text-center text-xs">
                     Complete all blocks to unlock
                   </p>
                 )}
