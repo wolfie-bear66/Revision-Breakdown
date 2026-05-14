@@ -8,6 +8,8 @@ export const FREE_TOPIC_IDS = new Set([
   'f24456bd-60a0-4eb5-9243-5fb3fe6331a0', // Computer Science — Systems Architecture
   '2f89226b-2a7c-42b6-80f7-937bce050251', // Business Studies — Business in the Real World
   '480cb1c4-76f6-41c8-8fb3-0c3e54573e90', // PE — Applied Anatomy & Physiology
+  'e8d0e7de-a56e-4ade-9c08-5f95c7d9c1c2', // Chemistry (Combined) AQA — Atomic Structure & the Periodic Table
+  '64003556-e5cf-4328-99c0-6224adfc9471', // Chemistry (Separate) AQA — Atomic Structure & the Periodic Table
 ]);
 
 export const FREE_SUBJECT_IDS = new Set([
@@ -17,4 +19,6 @@ export const FREE_SUBJECT_IDS = new Set([
   '32f9f399-0a0e-4e8a-b2c6-19ba538493a2', // Computer Science
   'b75f5a42-e078-485d-b910-2ccea6a8ff09', // Business Studies
   '3735e027-1de9-4ae7-a53b-4907ef0f6482', // Physical Education
+  '64b717d4-d8c6-4fb7-bb53-b03f3c39a483', // Chemistry (Combined) AQA
+  '9e03ae6f-b528-42f8-86c3-ffa9a75addd9', // Chemistry (Separate) AQA
 ]);

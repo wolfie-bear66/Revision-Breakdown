@@ -8,6 +8,8 @@ const FREE_SUBJECTS = [
   { subjectId: '32f9f399-0a0e-4e8a-b2c6-19ba538493a2', name: 'Computer Science', topicId: 'f24456bd-60a0-4eb5-9243-5fb3fe6331a0', topicName: 'Systems Architecture' },
   { subjectId: 'b75f5a42-e078-485d-b910-2ccea6a8ff09', name: 'Business Studies', topicId: '2f89226b-2a7c-42b6-80f7-937bce050251', topicName: 'Business in the Real World' },
   { subjectId: '3735e027-1de9-4ae7-a53b-4907ef0f6482', name: 'Physical Education', topicId: '480cb1c4-76f6-41c8-8fb3-0c3e54573e90', topicName: 'Applied Anatomy & Physiology' },
+  { subjectId: '64b717d4-d8c6-4fb7-bb53-b03f3c39a483', name: 'Chemistry (Combined)', topicId: 'e8d0e7de-a56e-4ade-9c08-5f95c7d9c1c2', topicName: 'Atomic Structure & the Periodic Table' },
+  { subjectId: '9e03ae6f-b528-42f8-86c3-ffa9a75addd9', name: 'Chemistry (Separate)', topicId: '64003556-e5cf-4328-99c0-6224adfc9471', topicName: 'Atomic Structure & the Periodic Table' },
 ];
 
 const FREE_TOPIC_IDS = FREE_SUBJECTS.map((s) => s.topicId);
