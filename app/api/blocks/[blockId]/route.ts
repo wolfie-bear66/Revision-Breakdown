@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@/utils/supabase/server';
+import { FREE_TOPIC_IDS } from '@/lib/free-topics';
 
 export async function GET(
   _request: NextRequest,
@@ -24,7 +25,6 @@ export async function GET(
         topics(
           id,
           name,
-          is_free,
           subjects(id, name)
         ),
         cards(id, keyword, definition),
@@ -54,9 +54,9 @@ export async function GET(
     );
   }
 
-  // 3. Gate: allow if the topic is free OR the user has an active subscription
+  // 3. Gate: allow if the topic is in the free list OR the user has an active subscription
   const subscriptionActive = userData?.subscription_status === 'active';
-  if (!topic.is_free && !subscriptionActive) {
+  if (!FREE_TOPIC_IDS.has(topic.id) && !subscriptionActive) {
     return NextResponse.json({ error: 'locked' }, { status: 403 });
   }
 

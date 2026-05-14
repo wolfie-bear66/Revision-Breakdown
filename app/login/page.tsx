@@ -91,6 +91,9 @@ export default function LoginPage() {
   return (
     <main className="flex min-h-screen items-center justify-center p-4">
       <div className="w-full max-w-sm space-y-4">
+        <Link href="/" className="flex items-center gap-1.5 text-sm text-gray-400 hover:text-gray-600 transition-colors self-start">
+          ← Revision Breakdown
+        </Link>
 
         {/* Parent / email login */}
         <Card>
