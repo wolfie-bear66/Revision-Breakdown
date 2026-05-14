@@ -14,7 +14,7 @@ interface Question {
 
 interface MCQQuizProps {
   blockId: string;
-  sessionId: string;
+  sessionId: string | null;
   questions: Question[];
   subjectId: string | null;
 }
@@ -138,14 +138,16 @@ export function MCQQuiz({ blockId, sessionId, questions, subjectId }: MCQQuizPro
       setWrongQuestions((prev) => [...prev, question]);
     }
 
-    const supabase = createClient();
-    await supabase.from('card_attempts').insert({
-      session_id: sessionId,
-      question_id: question.id,
-      correct,
-      score: correct ? 1 : 0,
-      answered_at: new Date().toISOString(),
-    });
+    if (sessionId) {
+      const supabase = createClient();
+      await supabase.from('card_attempts').insert({
+        session_id: sessionId,
+        question_id: question.id,
+        correct,
+        score: correct ? 1 : 0,
+        answered_at: new Date().toISOString(),
+      });
+    }
 
     setCorrectCount((prev) => prev + (correct ? 1 : 0));
     setSubmitting(false);
@@ -155,15 +157,17 @@ export function MCQQuiz({ blockId, sessionId, questions, subjectId }: MCQQuizPro
     const nextIndex = index + 1;
 
     if (nextIndex >= total) {
-      const supabase = createClient();
-      await supabase
-        .from('sessions')
-        .update({
-          completed_at: new Date().toISOString(),
-          score: correctCount,
-          total,
-        })
-        .eq('id', sessionId);
+      if (sessionId) {
+        const supabase = createClient();
+        await supabase
+          .from('sessions')
+          .update({
+            completed_at: new Date().toISOString(),
+            score: correctCount,
+            total,
+          })
+          .eq('id', sessionId);
+      }
 
       setFinalScore({ correct: correctCount, total });
       setGameOver(true);
