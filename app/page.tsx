@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { ThemeSwitcher } from '@/components/ThemeSwitcher';
 
 const S: Record<string, React.CSSProperties> = {
@@ -36,7 +36,33 @@ const MODE_PILLS = [
   { label: 'Match-Up',      bg: '#D4537E' },
 ];
 
+const STEPS = [
+  {
+    num: '1',
+    heading: 'Parent pays once — £5, no subscription',
+    body: 'Checkout takes 60 seconds. You receive a student login code by email. No student data is ever collected or stored.',
+  },
+  {
+    num: '2',
+    heading: 'Student picks their subjects & exam board',
+    body: '28 subjects across AQA, Edexcel, OCR and Eduqas. Combined and separate science included. Your exam board, your topics.',
+  },
+  {
+    num: '3',
+    heading: 'Revise in 5 modes — 15 minutes is enough',
+    body: 'Flashcards, multiple choice, true/false, fill in the blank, and match-up. Every question reads itself aloud.',
+  },
+  {
+    num: '4',
+    heading: 'Watch progress build — earn badges for every subject',
+    body: 'Colour rings fill as you answer more questions. Complete every block and earn the subject badge. Parents can check in any time.',
+  },
+];
+
 export default function LandingPage() {
+  const [activeStep, setActiveStep] = useState(0);
+
+  // Reveal animations
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => entries.forEach((e) => { if (e.isIntersecting) e.target.classList.add('revealed'); }),
@@ -45,6 +71,27 @@ export default function LandingPage() {
     document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
     return () => observer.disconnect();
   }, []);
+
+  // Active step tracker for desktop sticky list
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            const idx = parseInt(e.target.getAttribute('data-step') ?? '0', 10);
+            setActiveStep(idx);
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+    document.querySelectorAll('.step-panel').forEach((el) => observer.observe(el));
+    return () => observer.disconnect();
+  }, []);
+
+  function scrollToStep(idx: number) {
+    document.getElementById(`step-panel-${idx}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
 
   return (
     <div style={{ ...S.bg, ...font, minHeight: '100vh', overflowX: 'hidden', lineHeight: 1.6 }}>
@@ -57,7 +104,13 @@ export default function LandingPage() {
         padding: '0 24px',
       }}>
         <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
-          <div style={{ width: 40, height: 40, borderRadius: 8, ...S.surface2, flexShrink: 0 }} />
+          <Image
+            src="/RB_Logo_No_Background.png"
+            alt="Revision Breakdown"
+            width={40}
+            height={40}
+            style={{ borderRadius: '8px', objectFit: 'cover' }}
+          />
           <span style={{ fontSize: 17, fontWeight: 700, ...S.text }}>
             Revision <span style={S.amber}>Breakdown</span>
           </span>
@@ -128,14 +181,14 @@ export default function LandingPage() {
               <p style={{ fontSize: 13, ...S.muted }}>No account. No subscription. Try free, pay £5 once.</p>
             </div>
 
-            {/* Screenshot column — hidden on mobile via CSS class */}
+            {/* Trophy image — desktop only */}
             <div className="hero-image-col" style={{ display: 'none' }}>
               <Image
-                src="/landing/dashboard.png"
-                alt="Revision Breakdown dashboard screenshot"
+                src="/landing/trophy.png"
+                alt="Revision Breakdown trophy"
                 width={520}
-                height={400}
-                style={{ borderRadius: 12, objectFit: 'contain', width: '100%', height: 'auto' }}
+                height={480}
+                style={{ borderRadius: 16, objectFit: 'contain', width: '100%', height: 'auto' }}
               />
             </div>
           </div>
@@ -170,7 +223,7 @@ export default function LandingPage() {
 
       {/* ── HOW IT WORKS ── */}
       <section style={{ ...S.bg, padding: '80px 24px' }}>
-        <div style={{ maxWidth: 960, margin: '0 auto' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto' }}>
           <div className="reveal" style={{ marginBottom: 56, textAlign: 'center' }}>
             <p style={{ fontSize: 12, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', ...S.amber, marginBottom: 12 }}>
               How it works
@@ -183,158 +236,247 @@ export default function LandingPage() {
             </p>
           </div>
 
-          {/* Step 1 */}
-          <div className="reveal step-row" style={{ display: 'grid', gap: 40, alignItems: 'center', marginBottom: 64 }}>
-            <div>
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: 20 }}>
-                <div style={{
-                  width: 52, height: 52, borderRadius: '50%', flexShrink: 0,
-                  background: 'var(--mint)', color: '#0e0e0e',
-                  fontSize: 18, fontWeight: 700,
-                  display: 'flex', alignItems: 'center', justifyContent: 'center',
-                }}>1</div>
-                <div>
-                  <h3 style={{ fontSize: 18, fontWeight: 700, ...S.heading, marginBottom: 8 }}>
-                    Parent pays once — £5, no subscription
-                  </h3>
-                  <p style={{ ...S.muted, lineHeight: 1.7 }}>
-                    Checkout takes 60 seconds. You receive a student login code by email. No student data is ever collected or stored.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <div style={{
-                ...S.surface, border: '1px solid var(--border)',
-                borderRadius: 12, padding: 24, textAlign: 'center', maxWidth: 260,
-              }}>
-                <p style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', ...S.muted, marginBottom: 8 }}>
-                  YOUR CODE
-                </p>
-                <p style={{ fontSize: '1.4rem', fontWeight: 700, color: 'var(--mint)', letterSpacing: '0.08em', marginBottom: 8 }}>
-                  RB-4821-KXQT
-                </p>
-                <p style={{ fontSize: 12, ...S.muted }}>Share with your child</p>
-              </div>
-            </div>
-          </div>
+          {/* ── DESKTOP: sticky left + scrolling right ── */}
+          <div className="hiw-desktop-grid">
 
-          {/* Step 2 */}
-          <div className="reveal step-row" style={{ display: 'grid', gap: 40, alignItems: 'center', marginBottom: 64 }}>
-            <div>
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: 20 }}>
-                <div style={{
-                  width: 52, height: 52, borderRadius: '50%', flexShrink: 0,
-                  background: 'var(--mint)', color: '#0e0e0e',
-                  fontSize: 18, fontWeight: 700,
-                  display: 'flex', alignItems: 'center', justifyContent: 'center',
-                }}>2</div>
-                <div>
-                  <h3 style={{ fontSize: 18, fontWeight: 700, ...S.heading, marginBottom: 8 }}>
-                    Student picks their subjects &amp; exam board
-                  </h3>
-                  <p style={{ ...S.muted, lineHeight: 1.7 }}>
-                    28 subjects across AQA, Edexcel, OCR and Eduqas. Combined and separate science included. Your exam board, your topics.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <Image
-                src="/landing/topics.png"
-                alt="Topic selection screenshot"
-                width={480}
-                height={400}
-                style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
-              />
-            </div>
-          </div>
-
-          {/* Step 3 */}
-          <div className="reveal step-row" style={{ display: 'grid', gap: 40, alignItems: 'center', marginBottom: 64 }}>
-            <div>
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: 20 }}>
-                <div style={{
-                  width: 52, height: 52, borderRadius: '50%', flexShrink: 0,
-                  background: 'var(--mint)', color: '#0e0e0e',
-                  fontSize: 18, fontWeight: 700,
-                  display: 'flex', alignItems: 'center', justifyContent: 'center',
-                }}>3</div>
-                <div>
-                  <h3 style={{ fontSize: 18, fontWeight: 700, ...S.heading, marginBottom: 8 }}>
-                    Revise in 5 modes — 15 minutes is enough
-                  </h3>
-                  <p style={{ ...S.muted, lineHeight: 1.7, marginBottom: 16 }}>
-                    Flashcards, multiple choice, true/false, fill in the blank, and match-up. Every question reads itself aloud.
-                  </p>
-                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-                    {MODE_PILLS.map(({ label, bg }) => (
-                      <span key={label} style={{
-                        background: bg, color: '#fff',
-                        fontSize: 12, fontWeight: 700,
-                        padding: '4px 12px', borderRadius: 99,
-                      }}>
-                        {label}
-                      </span>
-                    ))}
+            {/* Left column: sticky step list */}
+            <div style={{ position: 'sticky', top: 80, alignSelf: 'start' }}>
+              {STEPS.map((step, idx) => (
+                <div
+                  key={idx}
+                  onClick={() => scrollToStep(idx)}
+                  style={{
+                    padding: '28px 0',
+                    borderBottom: '1px solid var(--border)',
+                    cursor: 'pointer',
+                    display: 'flex', alignItems: 'flex-start', gap: 20,
+                  }}
+                >
+                  <div style={{
+                    width: 52, height: 52, borderRadius: '50%', flexShrink: 0,
+                    background: activeStep === idx ? 'var(--mint)' : 'var(--surface2)',
+                    color: activeStep === idx ? '#0e0e0e' : 'var(--text)',
+                    fontSize: 18, fontWeight: 700,
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    transition: 'background 0.3s, color 0.3s',
+                  }}>
+                    {step.num}
+                  </div>
+                  <div>
+                    <h3 style={{
+                      fontSize: 18, fontWeight: 700, marginBottom: 8,
+                      color: activeStep === idx ? 'var(--mint)' : 'var(--heading)',
+                      transition: 'color 0.3s',
+                    }}>
+                      {step.heading}
+                    </h3>
+                    <p style={{ ...S.muted, lineHeight: 1.7 }}>{step.body}</p>
+                    {idx === 2 && (
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16 }}>
+                        {MODE_PILLS.map(({ label, bg }) => (
+                          <span key={label} style={{
+                            background: bg, color: '#fff',
+                            fontSize: 12, fontWeight: 700,
+                            padding: '4px 12px', borderRadius: 99,
+                          }}>
+                            {label}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </div>
-              </div>
+              ))}
             </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 12, alignItems: 'center' }}>
-              <Image
-                src="/landing/flashcard.png"
-                alt="Flashcard mode screenshot"
-                width={380}
-                height={280}
-                style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
-              />
-              <Image
-                src="/landing/mcq.png"
-                alt="Multiple choice mode screenshot"
-                width={380}
-                height={320}
-                style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
-              />
+
+            {/* Right column: scrolling image panels */}
+            <div>
+              {/* Panel 1 — code card */}
+              <div
+                id="step-panel-0"
+                data-step="0"
+                className="step-panel"
+                style={{ minHeight: 500, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 40 }}
+              >
+                <div style={{
+                  ...S.surface, border: '1px solid var(--border)',
+                  borderRadius: 12, padding: 24, textAlign: 'center', maxWidth: 340, width: '100%',
+                }}>
+                  <p style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', ...S.muted, marginBottom: 8 }}>
+                    YOUR CODE
+                  </p>
+                  <p style={{ fontSize: '1.4rem', fontWeight: 700, color: 'var(--mint)', letterSpacing: '0.08em', marginBottom: 8 }}>
+                    RB-4821-KXQT
+                  </p>
+                  <p style={{ fontSize: 12, ...S.muted }}>Share with your child</p>
+                </div>
+              </div>
+
+              {/* Panel 2 — topics.png */}
+              <div
+                id="step-panel-1"
+                data-step="1"
+                className="step-panel"
+                style={{ minHeight: 500, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 40 }}
+              >
+                <Image
+                  src="/landing/topics.png"
+                  alt="Topic selection screenshot"
+                  width={540}
+                  height={460}
+                  style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
+                />
+              </div>
+
+              {/* Panel 3 — flashcard.png + matchup.png */}
+              <div
+                id="step-panel-2"
+                data-step="2"
+                className="step-panel"
+                style={{ minHeight: 500, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 40, gap: 16 }}
+              >
+                <Image
+                  src="/landing/flashcard.png"
+                  alt="Flashcard mode screenshot"
+                  width={460}
+                  height={340}
+                  style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
+                />
+                <Image
+                  src="/landing/matchup.png"
+                  alt="Match-up mode screenshot"
+                  width={460}
+                  height={380}
+                  style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
+                />
+              </div>
+
+              {/* Panel 4 — rings.png + parent.png */}
+              {/* Note: replace rings.png with dashboard.png once that file is added to public/landing/ */}
+              <div
+                id="step-panel-3"
+                data-step="3"
+                className="step-panel"
+                style={{ minHeight: 500, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 40, gap: 16 }}
+              >
+                <Image
+                  src="/landing/rings.png"
+                  alt="Progress dashboard screenshot"
+                  width={480}
+                  height={360}
+                  style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
+                />
+                <Image
+                  src="/landing/parent.png"
+                  alt="Parent dashboard screenshot"
+                  width={480}
+                  height={400}
+                  style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
+                />
+              </div>
             </div>
           </div>
 
-          {/* Step 4 */}
-          <div className="reveal step-row" style={{ display: 'grid', gap: 40, alignItems: 'center' }}>
-            <div>
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: 20 }}>
-                <div style={{
-                  width: 52, height: 52, borderRadius: '50%', flexShrink: 0,
-                  background: 'var(--mint)', color: '#0e0e0e',
-                  fontSize: 18, fontWeight: 700,
-                  display: 'flex', alignItems: 'center', justifyContent: 'center',
-                }}>4</div>
-                <div>
-                  <h3 style={{ fontSize: 18, fontWeight: 700, ...S.heading, marginBottom: 8 }}>
-                    Watch progress build — earn badges for every subject
-                  </h3>
-                  <p style={{ ...S.muted, lineHeight: 1.7 }}>
-                    Colour rings fill as you answer more questions. Complete every block in a subject and earn the subject badge. Parents can check progress too.
-                  </p>
+          {/* ── MOBILE: stacked steps ── */}
+          <div className="hiw-mobile-list">
+            {STEPS.map((step, idx) => (
+              <div key={idx} style={{ marginBottom: idx < 3 ? 48 : 0 }}>
+
+                {/* Step header */}
+                <div style={{ display: 'flex', alignItems: 'flex-start', gap: 20, marginBottom: 24 }}>
+                  <div style={{
+                    width: 52, height: 52, borderRadius: '50%', flexShrink: 0,
+                    background: 'var(--mint)', color: '#0e0e0e',
+                    fontSize: 18, fontWeight: 700,
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  }}>
+                    {step.num}
+                  </div>
+                  <div>
+                    <h3 style={{ fontSize: 18, fontWeight: 700, ...S.heading, marginBottom: 8 }}>
+                      {step.heading}
+                    </h3>
+                    <p style={{ ...S.muted, lineHeight: 1.7 }}>{step.body}</p>
+                    {idx === 2 && (
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16 }}>
+                        {MODE_PILLS.map(({ label, bg }) => (
+                          <span key={label} style={{
+                            background: bg, color: '#fff',
+                            fontSize: 12, fontWeight: 700,
+                            padding: '4px 12px', borderRadius: 99,
+                          }}>
+                            {label}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 </div>
+
+                {/* Step visual */}
+                {idx === 0 && (
+                  <div style={{ display: 'flex', justifyContent: 'center' }}>
+                    <div style={{
+                      ...S.surface, border: '1px solid var(--border)',
+                      borderRadius: 12, padding: 24, textAlign: 'center', maxWidth: 300, width: '100%',
+                    }}>
+                      <p style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', ...S.muted, marginBottom: 8 }}>
+                        YOUR CODE
+                      </p>
+                      <p style={{ fontSize: '1.4rem', fontWeight: 700, color: 'var(--mint)', letterSpacing: '0.08em', marginBottom: 8 }}>
+                        RB-4821-KXQT
+                      </p>
+                      <p style={{ fontSize: 12, ...S.muted }}>Share with your child</p>
+                    </div>
+                  </div>
+                )}
+                {idx === 1 && (
+                  <Image
+                    src="/landing/topics.png"
+                    alt="Topic selection screenshot"
+                    width={540}
+                    height={460}
+                    style={{ borderRadius: 12, objectFit: 'contain', width: '100%', height: 'auto' }}
+                  />
+                )}
+                {idx === 2 && (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                    <Image
+                      src="/landing/flashcard.png"
+                      alt="Flashcard mode screenshot"
+                      width={460}
+                      height={340}
+                      style={{ borderRadius: 12, objectFit: 'contain', width: '100%', height: 'auto' }}
+                    />
+                    <Image
+                      src="/landing/matchup.png"
+                      alt="Match-up mode screenshot"
+                      width={460}
+                      height={380}
+                      style={{ borderRadius: 12, objectFit: 'contain', width: '100%', height: 'auto' }}
+                    />
+                  </div>
+                )}
+                {idx === 3 && (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                    <Image
+                      src="/landing/rings.png"
+                      alt="Progress dashboard screenshot"
+                      width={480}
+                      height={360}
+                      style={{ borderRadius: 12, objectFit: 'contain', width: '100%', height: 'auto' }}
+                    />
+                    <Image
+                      src="/landing/parent.png"
+                      alt="Parent dashboard screenshot"
+                      width={480}
+                      height={400}
+                      style={{ borderRadius: 12, objectFit: 'contain', width: '100%', height: 'auto' }}
+                    />
+                  </div>
+                )}
               </div>
-            </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 12, alignItems: 'center' }}>
-              <Image
-                src="/landing/matchup.png"
-                alt="Match-up mode screenshot"
-                width={380}
-                height={320}
-                style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
-              />
-              <Image
-                src="/landing/rings.png"
-                alt="Dashboard progress rings screenshot"
-                width={480}
-                height={360}
-                style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
-              />
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -505,24 +647,41 @@ export default function LandingPage() {
         <span style={{ fontSize: 12, ...S.muted }}>© 2025 Revision Breakdown</span>
       </footer>
 
-      {/* Responsive + hover CSS */}
+      {/* Responsive + animation CSS */}
       <style>{`
         .hero-grid { grid-template-columns: 1fr; }
-        .step-row  { grid-template-columns: 1fr; }
         .pricing-grid { grid-template-columns: 1fr 1fr; }
+        .hiw-desktop-grid { display: none; }
+        .hiw-mobile-list { display: block; }
+
         @media (min-width: 768px) {
           .hero-grid { grid-template-columns: 1fr 1fr; }
           .hero-grid > div:first-child { text-align: left; margin: 0; }
           .hero-grid > div:first-child p { margin-left: 0; }
           .hero-grid > div:first-child div[style*="justify-content: center"] { justify-content: flex-start; }
           .hero-image-col { display: block !important; }
-          .step-row { grid-template-columns: 1fr 1fr; }
+          .hiw-desktop-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            align-items: start;
+          }
+          .hiw-mobile-list { display: none; }
         }
+
         @media (max-width: 600px) {
           .pricing-grid { grid-template-columns: 1fr !important; }
         }
+
         .quotes-track:hover { animation-play-state: paused; }
-        .quotes-section [data-theme="reading"] & { background: var(--surface2); }
+
+        @keyframes scroll-quotes {
+          from { transform: translateX(0); }
+          to   { transform: translateX(-50%); }
+        }
+
+        .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease, transform 0.5s ease; }
+        .reveal.revealed { opacity: 1; transform: translateY(0); }
       `}</style>
     </div>
   );

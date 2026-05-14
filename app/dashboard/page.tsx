@@ -1,5 +1,6 @@
 import { redirect } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { createClient } from '@/utils/supabase/server';
 import { SubjectCard } from './SubjectCard';
 import { SignOutButton } from './SignOutButton';
@@ -55,6 +56,15 @@ export default async function DashboardPage() {
         {/* Header row */}
         <div className="mb-8 flex items-start justify-between gap-4">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
+            <Link href="/" className="shrink-0">
+              <Image
+                src="/RB_Logo_No_Background.png"
+                alt="Revision Breakdown"
+                width={40}
+                height={40}
+                style={{ borderRadius: '8px', objectFit: 'cover' }}
+              />
+            </Link>
             <h1 className="text-3xl font-bold tracking-tight">Your Subjects</h1>
 
             {continueBlockId ? (
