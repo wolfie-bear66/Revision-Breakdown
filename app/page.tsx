@@ -358,7 +358,7 @@ export default function LandingPage() {
                   ref={(el) => { stepRefs.current[3] = el; }}
                   style={{ minHeight: '500px', display: 'flex', flexDirection: 'column', gap: '24px', alignItems: 'center', justifyContent: 'center', padding: '40px 0' }}
                 >
-                  <Image src="/landing/rings.png" alt="Progress dashboard" width={520} height={380} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+                  <Image src="/landing/dashboard.png" alt="Progress dashboard" width={520} height={380} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
                   <Image src="/landing/parent.png" alt="Parent dashboard — see your child's progress" width={520} height={400} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
                 </div>
               </div>
@@ -410,7 +410,7 @@ export default function LandingPage() {
                 /* NOTE: replace rings.png with dashboard.png once that file is added to public/landing/ */
                 visual: (
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginTop: '20px' }}>
-                    <Image src="/landing/rings.png" alt="Dashboard" width={480} height={360} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+                    <Image src="/landing/dashboard.png" alt="Dashboard" width={480} height={360} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
                     <Image src="/landing/parent.png" alt="Parent dashboard — see your child's progress" width={520} height={400} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
                   </div>
                 ) as React.ReactNode,
@@ -626,6 +626,14 @@ export default function LandingPage() {
 
         .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease, transform 0.5s ease; }
         .reveal.revealed { opacity: 1; transform: translateY(0); }
+
+        .how-desktop { display: none; }
+        .how-mobile { display: block; }
+
+        @media (min-width: 768px) {
+          .how-desktop { display: block; }
+          .how-mobile { display: none; }
+        }
       `}</style>
     </div>
   );
