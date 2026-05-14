@@ -129,3 +129,11 @@
 .theme-link:hover {
   color: var(--text);
 }
+
+.how-desktop { display: none; }
+.how-mobile { display: block; }
+
+@media (min-width: 768px) {
+  .how-desktop { display: block; }
+  .how-mobile { display: none; }
+}

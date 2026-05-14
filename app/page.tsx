@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { ThemeSwitcher } from '@/components/ThemeSwitcher';
 
 const S: Record<string, React.CSSProperties> = {
@@ -61,6 +61,7 @@ const STEPS = [
 
 export default function LandingPage() {
   const [activeStep, setActiveStep] = useState(0);
+  const stepRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   // Reveal animations
   useEffect(() => {
@@ -72,7 +73,7 @@ export default function LandingPage() {
     return () => observer.disconnect();
   }, []);
 
-  // Active step tracker for desktop sticky list
+  // Legacy step observer (kept for compatibility — no-ops when .step-panel elements are absent)
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -87,6 +88,25 @@ export default function LandingPage() {
     );
     document.querySelectorAll('.step-panel').forEach((el) => observer.observe(el));
     return () => observer.disconnect();
+  }, []);
+
+  // Ref-based active step tracker for desktop sticky list
+  useEffect(() => {
+    const observers: IntersectionObserver[] = [];
+    stepRefs.current.forEach((ref, index) => {
+      if (!ref) return;
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) setActiveStep(index);
+          });
+        },
+        { threshold: 0.4, rootMargin: '-10% 0px -40% 0px' }
+      );
+      observer.observe(ref);
+      observers.push(observer);
+    });
+    return () => observers.forEach((o) => o.disconnect());
   }, []);
 
   function scrollToStep(idx: number) {
@@ -185,10 +205,10 @@ export default function LandingPage() {
             <div className="hero-image-col" style={{ display: 'none' }}>
               <Image
                 src="/landing/trophy.png"
-                alt="Revision Breakdown trophy"
+                alt="Trophy Cabinet — earn badges for every subject"
                 width={520}
                 height={480}
-                style={{ borderRadius: 16, objectFit: 'contain', width: '100%', height: 'auto' }}
+                style={{ width: '100%', height: 'auto', objectFit: 'contain', borderRadius: '16px' }}
               />
             </div>
           </div>
@@ -222,262 +242,195 @@ export default function LandingPage() {
       </div>
 
       {/* ── HOW IT WORKS ── */}
-      <section style={{ ...S.bg, padding: '80px 24px' }}>
-        <div style={{ maxWidth: 1100, margin: '0 auto' }}>
-          <div className="reveal" style={{ marginBottom: 56, textAlign: 'center' }}>
-            <p style={{ fontSize: 12, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', ...S.amber, marginBottom: 12 }}>
-              How it works
-            </p>
-            <h2 style={{ fontSize: 'clamp(1.6rem, 3.5vw, 2.2rem)', fontWeight: 700, ...S.heading, marginBottom: 12 }}>
-              Four steps. Zero faff.
-            </h2>
-            <p style={{ fontSize: '1rem', ...S.muted, maxWidth: 520, margin: '0 auto' }}>
-              Parent pays once. Student gets a login code. Pick subjects. Start revising.
-            </p>
-          </div>
+      <section style={{ padding: '80px 0', background: 'var(--bg)' }}>
+        <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 24px' }}>
 
-          {/* ── DESKTOP: sticky left + scrolling right ── */}
-          <div className="hiw-desktop-grid">
+          {/* Section header */}
+          <p style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--amber)', marginBottom: '8px' }}>How it works</p>
+          <h2 style={{ fontSize: 'clamp(1.6rem, 3.5vw, 2.2rem)', fontWeight: 700, color: 'var(--heading)', marginBottom: '12px', letterSpacing: '-0.01em' }}>Four steps. Zero faff.</h2>
+          <p style={{ fontSize: '1rem', color: 'var(--muted)', marginBottom: '56px', maxWidth: '520px' }}>Parent pays once. Student gets a login code. Pick subjects. Start revising.</p>
 
-            {/* Left column: sticky step list */}
-            <div style={{ position: 'sticky', top: 80, alignSelf: 'start' }}>
-              {STEPS.map((step, idx) => (
-                <div
-                  key={idx}
-                  onClick={() => scrollToStep(idx)}
-                  style={{
-                    padding: '28px 0',
-                    borderBottom: '1px solid var(--border)',
-                    cursor: 'pointer',
-                    display: 'flex', alignItems: 'flex-start', gap: 20,
-                  }}
-                >
-                  <div style={{
-                    width: 52, height: 52, borderRadius: '50%', flexShrink: 0,
-                    background: activeStep === idx ? 'var(--mint)' : 'var(--surface2)',
-                    color: activeStep === idx ? '#0e0e0e' : 'var(--text)',
-                    fontSize: 18, fontWeight: 700,
-                    display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    transition: 'background 0.3s, color 0.3s',
-                  }}>
-                    {step.num}
-                  </div>
-                  <div>
-                    <h3 style={{
-                      fontSize: 18, fontWeight: 700, marginBottom: 8,
-                      color: activeStep === idx ? 'var(--mint)' : 'var(--heading)',
-                      transition: 'color 0.3s',
-                    }}>
-                      {step.heading}
-                    </h3>
-                    <p style={{ ...S.muted, lineHeight: 1.7 }}>{step.body}</p>
-                    {idx === 2 && (
-                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16 }}>
-                        {MODE_PILLS.map(({ label, bg }) => (
-                          <span key={label} style={{
-                            background: bg, color: '#fff',
-                            fontSize: 12, fontWeight: 700,
-                            padding: '4px 12px', borderRadius: 99,
-                          }}>
-                            {label}
-                          </span>
+          {/* DESKTOP: two-column sticky layout — hidden on mobile */}
+          <div className="how-desktop">
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 64px', alignItems: 'start' }}>
+
+              {/* LEFT: sticky step list */}
+              <div style={{ position: 'sticky', top: '88px', alignSelf: 'start' }}>
+                {[
+                  {
+                    heading: 'Parent pays once — £5, no subscription',
+                    body: 'Checkout takes 60 seconds. You receive a student login code by email. No student data is ever collected or stored.',
+                    extra: null as React.ReactNode,
+                  },
+                  {
+                    heading: 'Student picks their subjects & exam board',
+                    body: '28 subjects across AQA, Edexcel, OCR and Eduqas. Combined and separate science included. Your exam board, your topics.',
+                    extra: null as React.ReactNode,
+                  },
+                  {
+                    heading: 'Revise in 5 modes — 15 minutes is enough',
+                    body: 'Flashcards, multiple choice, true/false, fill in the blank, and match-up. Every question reads itself aloud.',
+                    extra: (
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginTop: '12px' }}>
+                        {[['Flashcards','#378ADD'],['MCQ','#7F77DD'],['True/False','#1D9E75'],['Fill in Blank','#D85A30'],['Match-Up','#D4537E']].map(([label, bg]) => (
+                          <span key={label} style={{ background: bg, color: 'white', fontSize: '12px', fontWeight: 700, padding: '4px 12px', borderRadius: '99px' }}>{label}</span>
                         ))}
                       </div>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Right column: scrolling image panels */}
-            <div>
-              {/* Panel 1 — code card */}
-              <div
-                id="step-panel-0"
-                data-step="0"
-                className="step-panel"
-                style={{ minHeight: 500, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 40 }}
-              >
-                <div style={{
-                  ...S.surface, border: '1px solid var(--border)',
-                  borderRadius: 12, padding: 24, textAlign: 'center', maxWidth: 340, width: '100%',
-                }}>
-                  <p style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', ...S.muted, marginBottom: 8 }}>
-                    YOUR CODE
-                  </p>
-                  <p style={{ fontSize: '1.4rem', fontWeight: 700, color: 'var(--mint)', letterSpacing: '0.08em', marginBottom: 8 }}>
-                    RB-4821-KXQT
-                  </p>
-                  <p style={{ fontSize: 12, ...S.muted }}>Share with your child</p>
-                </div>
-              </div>
-
-              {/* Panel 2 — topics.png */}
-              <div
-                id="step-panel-1"
-                data-step="1"
-                className="step-panel"
-                style={{ minHeight: 500, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 40 }}
-              >
-                <Image
-                  src="/landing/topics.png"
-                  alt="Topic selection screenshot"
-                  width={540}
-                  height={460}
-                  style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
-                />
-              </div>
-
-              {/* Panel 3 — flashcard.png + matchup.png */}
-              <div
-                id="step-panel-2"
-                data-step="2"
-                className="step-panel"
-                style={{ minHeight: 500, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 40, gap: 16 }}
-              >
-                <Image
-                  src="/landing/flashcard.png"
-                  alt="Flashcard mode screenshot"
-                  width={460}
-                  height={340}
-                  style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
-                />
-                <Image
-                  src="/landing/matchup.png"
-                  alt="Match-up mode screenshot"
-                  width={460}
-                  height={380}
-                  style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
-                />
-              </div>
-
-              {/* Panel 4 — rings.png + parent.png */}
-              {/* Note: replace rings.png with dashboard.png once that file is added to public/landing/ */}
-              <div
-                id="step-panel-3"
-                data-step="3"
-                className="step-panel"
-                style={{ minHeight: 500, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 40, gap: 16 }}
-              >
-                <Image
-                  src="/landing/rings.png"
-                  alt="Progress dashboard screenshot"
-                  width={480}
-                  height={360}
-                  style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
-                />
-                <Image
-                  src="/landing/parent.png"
-                  alt="Parent dashboard screenshot"
-                  width={480}
-                  height={400}
-                  style={{ borderRadius: 12, objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* ── MOBILE: stacked steps ── */}
-          <div className="hiw-mobile-list">
-            {STEPS.map((step, idx) => (
-              <div key={idx} style={{ marginBottom: idx < 3 ? 48 : 0 }}>
-
-                {/* Step header */}
-                <div style={{ display: 'flex', alignItems: 'flex-start', gap: 20, marginBottom: 24 }}>
-                  <div style={{
-                    width: 52, height: 52, borderRadius: '50%', flexShrink: 0,
-                    background: 'var(--mint)', color: '#0e0e0e',
-                    fontSize: 18, fontWeight: 700,
-                    display: 'flex', alignItems: 'center', justifyContent: 'center',
-                  }}>
-                    {step.num}
-                  </div>
-                  <div>
-                    <h3 style={{ fontSize: 18, fontWeight: 700, ...S.heading, marginBottom: 8 }}>
-                      {step.heading}
-                    </h3>
-                    <p style={{ ...S.muted, lineHeight: 1.7 }}>{step.body}</p>
-                    {idx === 2 && (
-                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 16 }}>
-                        {MODE_PILLS.map(({ label, bg }) => (
-                          <span key={label} style={{
-                            background: bg, color: '#fff',
-                            fontSize: 12, fontWeight: 700,
-                            padding: '4px 12px', borderRadius: 99,
-                          }}>
-                            {label}
-                          </span>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                </div>
-
-                {/* Step visual */}
-                {idx === 0 && (
-                  <div style={{ display: 'flex', justifyContent: 'center' }}>
+                    ) as React.ReactNode,
+                  },
+                  {
+                    heading: 'Watch progress build — earn badges for every subject',
+                    body: 'Colour rings fill as you answer more questions. Complete every block and earn the subject badge. Parents can check in any time.',
+                    extra: null as React.ReactNode,
+                  },
+                ].map((step, i) => (
+                  <div
+                    key={i}
+                    onClick={() => stepRefs.current[i]?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+                    style={{
+                      display: 'flex',
+                      gap: '20px',
+                      padding: '28px 0',
+                      borderBottom: '1px solid var(--border)',
+                      cursor: 'pointer',
+                      opacity: activeStep === i ? 1 : 0.45,
+                      transition: 'opacity 0.3s ease',
+                    }}
+                  >
                     <div style={{
-                      ...S.surface, border: '1px solid var(--border)',
-                      borderRadius: 12, padding: 24, textAlign: 'center', maxWidth: 300, width: '100%',
-                    }}>
-                      <p style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', ...S.muted, marginBottom: 8 }}>
-                        YOUR CODE
-                      </p>
-                      <p style={{ fontSize: '1.4rem', fontWeight: 700, color: 'var(--mint)', letterSpacing: '0.08em', marginBottom: 8 }}>
-                        RB-4821-KXQT
-                      </p>
-                      <p style={{ fontSize: 12, ...S.muted }}>Share with your child</p>
+                      width: '44px', height: '44px', borderRadius: '50%', flexShrink: 0,
+                      background: activeStep === i ? 'var(--mint)' : 'var(--surface2)',
+                      color: activeStep === i ? '#0e0e0e' : 'var(--muted)',
+                      display: 'flex', alignItems: 'center', justifyContent: 'center',
+                      fontWeight: 700, fontSize: '18px',
+                      transition: 'background 0.3s ease, color 0.3s ease',
+                    }}>{i + 1}</div>
+                    <div style={{ flex: 1 }}>
+                      <h3 style={{
+                        fontSize: '17px', fontWeight: 700, marginBottom: '8px',
+                        color: activeStep === i ? 'var(--mint)' : 'var(--heading)',
+                        transition: 'color 0.3s ease',
+                      }}>{step.heading}</h3>
+                      <p style={{ fontSize: '15px', color: 'var(--muted)', lineHeight: 1.7 }}>{step.body}</p>
+                      {step.extra}
                     </div>
                   </div>
-                )}
-                {idx === 1 && (
-                  <Image
-                    src="/landing/topics.png"
-                    alt="Topic selection screenshot"
-                    width={540}
-                    height={460}
-                    style={{ borderRadius: 12, objectFit: 'contain', width: '100%', height: 'auto' }}
-                  />
-                )}
-                {idx === 2 && (
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                    <Image
-                      src="/landing/flashcard.png"
-                      alt="Flashcard mode screenshot"
-                      width={460}
-                      height={340}
-                      style={{ borderRadius: 12, objectFit: 'contain', width: '100%', height: 'auto' }}
-                    />
-                    <Image
-                      src="/landing/matchup.png"
-                      alt="Match-up mode screenshot"
-                      width={460}
-                      height={380}
-                      style={{ borderRadius: 12, objectFit: 'contain', width: '100%', height: 'auto' }}
-                    />
+                ))}
+              </div>
+
+              {/* RIGHT: scrolling image panels */}
+              <div>
+                {/* Panel 0 — code card */}
+                <div
+                  ref={(el) => { stepRefs.current[0] = el; }}
+                  style={{ minHeight: '500px', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '40px 0' }}
+                >
+                  <div style={{
+                    background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '16px',
+                    padding: '40px 48px', textAlign: 'center', maxWidth: '320px', width: '100%',
+                  }}>
+                    <p style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--muted)', marginBottom: '16px' }}>Your code</p>
+                    <p style={{ fontSize: '2rem', fontWeight: 700, color: 'var(--mint)', letterSpacing: '0.08em', marginBottom: '16px' }}>RB-4821-KXQT</p>
+                    <p style={{ fontSize: '14px', color: 'var(--muted)' }}>Share with your child</p>
                   </div>
-                )}
-                {idx === 3 && (
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                    <Image
-                      src="/landing/rings.png"
-                      alt="Progress dashboard screenshot"
-                      width={480}
-                      height={360}
-                      style={{ borderRadius: 12, objectFit: 'contain', width: '100%', height: 'auto' }}
-                    />
-                    <Image
-                      src="/landing/parent.png"
-                      alt="Parent dashboard screenshot"
-                      width={480}
-                      height={400}
-                      style={{ borderRadius: 12, objectFit: 'contain', width: '100%', height: 'auto' }}
-                    />
+                </div>
+
+                {/* Panel 1 — topics */}
+                <div
+                  ref={(el) => { stepRefs.current[1] = el; }}
+                  style={{ minHeight: '500px', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '40px 0' }}
+                >
+                  <Image src="/landing/topics.png" alt="Subject topics and exam boards" width={520} height={460} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+                </div>
+
+                {/* Panel 2 — flashcard + matchup */}
+                <div
+                  ref={(el) => { stepRefs.current[2] = el; }}
+                  style={{ minHeight: '500px', display: 'flex', flexDirection: 'column', gap: '24px', alignItems: 'center', justifyContent: 'center', padding: '40px 0' }}
+                >
+                  <Image src="/landing/flashcard.png" alt="Flashcard question" width={520} height={360} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+                  <Image src="/landing/matchup.png" alt="Match-up question" width={520} height={360} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+                </div>
+
+                {/* Panel 3 — dashboard + parent */}
+                {/* NOTE: replace /landing/rings.png with /landing/dashboard.png once that file is added to public/landing/ */}
+                <div
+                  ref={(el) => { stepRefs.current[3] = el; }}
+                  style={{ minHeight: '500px', display: 'flex', flexDirection: 'column', gap: '24px', alignItems: 'center', justifyContent: 'center', padding: '40px 0' }}
+                >
+                  <Image src="/landing/rings.png" alt="Progress dashboard" width={520} height={380} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+                  <Image src="/landing/parent.png" alt="Parent dashboard" width={520} height={400} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          {/* MOBILE: stacked layout — hidden on desktop */}
+          <div className="how-mobile">
+            {[
+              {
+                heading: 'Parent pays once — £5, no subscription',
+                body: 'Checkout takes 60 seconds. You receive a student login code by email. No student data is ever collected or stored.',
+                visual: (
+                  <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '16px', padding: '32px', textAlign: 'center', margin: '20px 0 0' }}>
+                    <p style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--muted)', marginBottom: '12px' }}>Your code</p>
+                    <p style={{ fontSize: '1.6rem', fontWeight: 700, color: 'var(--mint)', letterSpacing: '0.08em', marginBottom: '12px' }}>RB-4821-KXQT</p>
+                    <p style={{ fontSize: '13px', color: 'var(--muted)' }}>Share with your child</p>
                   </div>
-                )}
+                ) as React.ReactNode,
+                extra: null as React.ReactNode,
+              },
+              {
+                heading: 'Student picks their subjects & exam board',
+                body: '28 subjects across AQA, Edexcel, OCR and Eduqas. Combined and separate science included.',
+                visual: <Image src="/landing/topics.png" alt="Topics" width={480} height={420} style={{ width: '100%', height: 'auto', borderRadius: '12px', marginTop: '20px' }} /> as React.ReactNode,
+                extra: null as React.ReactNode,
+              },
+              {
+                heading: 'Revise in 5 modes — 15 minutes is enough',
+                body: 'Flashcards, multiple choice, true/false, fill in the blank, and match-up. Every question reads itself aloud.',
+                visual: (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginTop: '20px' }}>
+                    <Image src="/landing/flashcard.png" alt="Flashcard" width={480} height={340} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+                    <Image src="/landing/matchup.png" alt="Match-up" width={480} height={340} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+                  </div>
+                ) as React.ReactNode,
+                extra: (
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginTop: '12px' }}>
+                    {[['Flashcards','#378ADD'],['MCQ','#7F77DD'],['True/False','#1D9E75'],['Fill in Blank','#D85A30'],['Match-Up','#D4537E']].map(([label, bg]) => (
+                      <span key={label} style={{ background: bg, color: 'white', fontSize: '12px', fontWeight: 700, padding: '4px 12px', borderRadius: '99px' }}>{label}</span>
+                    ))}
+                  </div>
+                ) as React.ReactNode,
+              },
+              {
+                heading: 'Watch progress build — earn badges for every subject',
+                body: 'Colour rings fill as you answer more questions. Complete every block and earn the subject badge.',
+                /* NOTE: replace rings.png with dashboard.png once that file is added to public/landing/ */
+                visual: (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginTop: '20px' }}>
+                    <Image src="/landing/rings.png" alt="Dashboard" width={480} height={360} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+                    <Image src="/landing/parent.png" alt="Parent view" width={480} height={380} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+                  </div>
+                ) as React.ReactNode,
+                extra: null as React.ReactNode,
+              },
+            ].map((step, i) => (
+              <div key={i} style={{ marginBottom: '48px' }}>
+                <div style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
+                  <div style={{ width: '44px', height: '44px', borderRadius: '50%', background: 'var(--mint)', color: '#0e0e0e', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: '18px', flexShrink: 0 }}>{i + 1}</div>
+                  <div style={{ flex: 1 }}>
+                    <h3 style={{ fontSize: '17px', fontWeight: 700, color: 'var(--heading)', marginBottom: '8px' }}>{step.heading}</h3>
+                    <p style={{ fontSize: '15px', color: 'var(--muted)', lineHeight: 1.7 }}>{step.body}</p>
+                    {step.extra}
+                  </div>
+                </div>
+                {step.visual}
               </div>
             ))}
           </div>
+
         </div>
       </section>
 
@@ -651,8 +604,6 @@ export default function LandingPage() {
       <style>{`
         .hero-grid { grid-template-columns: 1fr; }
         .pricing-grid { grid-template-columns: 1fr 1fr; }
-        .hiw-desktop-grid { display: none; }
-        .hiw-mobile-list { display: block; }
 
         @media (min-width: 768px) {
           .hero-grid { grid-template-columns: 1fr 1fr; }
@@ -660,13 +611,6 @@ export default function LandingPage() {
           .hero-grid > div:first-child p { margin-left: 0; }
           .hero-grid > div:first-child div[style*="justify-content: center"] { justify-content: flex-start; }
           .hero-image-col { display: block !important; }
-          .hiw-desktop-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0;
-            align-items: start;
-          }
-          .hiw-mobile-list { display: none; }
         }
 
         @media (max-width: 600px) {
