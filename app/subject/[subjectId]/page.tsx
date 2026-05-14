@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { createClient } from '@/utils/supabase/server';
 import { TopicAccordion, type Topic } from './TopicAccordion';
 import { ArrowLeft } from 'lucide-react';
-import { FREE_TOPIC_IDS } from '@/lib/free-topics';
 
 interface PageProps {
   params: Promise<{ subjectId: string }>;
@@ -40,6 +39,7 @@ export default async function SubjectPage({ params }: PageProps) {
 
   // Build topics list — empty if the user isn't enrolled
   let topics: Topic[] = [];
+  let freeTopicIds = new Set<string>();
 
   if (user && userSubject) {
     // 1. Enrolled topic IDs for this subject
@@ -55,7 +55,7 @@ export default async function SubjectPage({ params }: PageProps) {
       const [{ data: topicRows }, { data: blockRows }] = await Promise.all([
         supabase
           .from('topics')
-          .select('id, name')
+          .select('id, name, is_free')
           .in('id', topicIds)
           .order('name'),
         supabase
@@ -79,6 +79,7 @@ export default async function SubjectPage({ params }: PageProps) {
         : { data: [] };
 
       const completedBlockIds = new Set((completedSessions ?? []).map((s) => s.block_id));
+      freeTopicIds = new Set((topicRows ?? []).filter((t) => t.is_free).map((t) => t.id));
 
       // 4. Assemble into Topic[]
       topics = (topicRows ?? []).map((t) => ({
@@ -116,7 +117,7 @@ export default async function SubjectPage({ params }: PageProps) {
         </div>
 
         {/* Topics */}
-        <TopicAccordion topics={topics} isFree={isFree} freeTopicIds={FREE_TOPIC_IDS} />
+        <TopicAccordion topics={topics} isFree={isFree} freeTopicIds={freeTopicIds} />
       </div>
     </main>
   );

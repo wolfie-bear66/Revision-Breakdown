@@ -17,12 +17,12 @@ export default async function MCQPage({ params }: PageProps) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user) redirect('/login');
+  if (!user) redirect('/upgrade');
 
   const result = await fetchBlockData(blockId);
 
   if (!result.ok) {
-    if (result.status === 401) redirect('/login');
+    if (result.status === 401) redirect('/upgrade');
     if (result.status === 403 && result.locked) redirect('/upgrade');
     redirect('/dashboard');
   }

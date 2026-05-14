@@ -2,11 +2,12 @@ import Link from 'next/link';
 import { createClient } from '@/utils/supabase/server';
 
 const FREE_SUBJECTS = [
-  { subjectId: '15232b38-e5ee-4b12-a5ae-c2427daa81fc', name: 'Maths', topicId: '22d99733-055f-41ee-b022-4fe4d5863953', topicName: 'Number' },
   { subjectId: '813b5fdc-8020-4978-81f2-e9d498bed54f', name: 'English Language', topicId: 'f4289169-82b1-41c1-8b6d-cc8f61e9aaa8', topicName: 'Reading — Fiction & Literary Non-Fiction' },
-  { subjectId: '83bd5f93-be55-4ed6-8208-2007897e1b44', name: 'Biology', topicId: '8a9b7e5d-c3b7-4493-91f1-c8ff10cb0b72', topicName: 'Cell Biology' },
-  { subjectId: 'abf947ff-1638-4e14-bb7b-b319e4eb7675', name: 'Geography', topicId: '50bda264-e8cb-4d44-bb0c-d03c56b11338', topicName: 'Natural Hazards' },
-  { subjectId: 'db3d132d-bcc3-40c0-9c8a-2f8aceb450aa', name: 'Music', topicId: '01620aaa-38d7-454b-8d1a-d82a64d2e13e', topicName: 'Musical Elements & Concepts' },
+  { subjectId: '1f37d924-d678-46ec-b3a4-5d973455e0eb', name: 'English Literature', topicId: '59283ba2-7862-4daf-a6d4-a3cf694132f5', topicName: 'An Inspector Calls' },
+  { subjectId: '9694cb29-cfb2-4b9d-b517-ce230936152e', name: 'History', topicId: '01503f0a-cb23-4fe7-a865-9d68bd683262', topicName: 'Medicine Through Time' },
+  { subjectId: '32f9f399-0a0e-4e8a-b2c6-19ba538493a2', name: 'Computer Science', topicId: 'f24456bd-60a0-4eb5-9243-5fb3fe6331a0', topicName: 'Systems Architecture' },
+  { subjectId: 'b75f5a42-e078-485d-b910-2ccea6a8ff09', name: 'Business Studies', topicId: '2f89226b-2a7c-42b6-80f7-937bce050251', topicName: 'Business in the Real World' },
+  { subjectId: '3735e027-1de9-4ae7-a53b-4907ef0f6482', name: 'Physical Education', topicId: '480cb1c4-76f6-41c8-8fb3-0c3e54573e90', topicName: 'Applied Anatomy & Physiology' },
 ];
 
 const FREE_TOPIC_IDS = FREE_SUBJECTS.map((s) => s.topicId);

@@ -48,7 +48,7 @@ export default async function TrophyCabinetPage() {
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user) redirect('/login');
+  if (!user) redirect('/upgrade');
 
   let subjects: SubjectProgress[] = [];
   let fetchError = false;

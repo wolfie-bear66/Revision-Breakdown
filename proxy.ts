@@ -80,7 +80,7 @@ export async function proxy(request: NextRequest) {
 
   // Protected routes: must be logged in
   if (!user) {
-    return NextResponse.redirect(new URL('/login', request.url))
+    return NextResponse.redirect(new URL('/upgrade', request.url))
   }
 
   // Role-based routing

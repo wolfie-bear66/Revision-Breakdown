@@ -1,15 +1,20 @@
+// Superseded: free-topic gating now reads from the `is_free` column on the
+// `topics` (and `subjects`) database tables. These hardcoded sets are kept
+// only as a fallback reference and are no longer consulted at runtime.
 export const FREE_TOPIC_IDS = new Set([
-  '8a9b7e5d-c3b7-4493-91f1-c8ff10cb0b72', // Biology (Combined) AQA — Cell Biology
   'f4289169-82b1-41c1-8b6d-cc8f61e9aaa8', // English Language AQA — Reading: Fiction & Literary Non-Fiction
-  '50bda264-e8cb-4d44-bb0c-d03c56b11338', // Geography AQA — Natural Hazards
-  '22d99733-055f-41ee-b022-4fe4d5863953', // Maths AQA — Number
-  '01620aaa-38d7-454b-8d1a-d82a64d2e13e', // Music Eduqas — Musical Elements & Concepts
+  '59283ba2-7862-4daf-a6d4-a3cf694132f5', // English Literature AQA — An Inspector Calls
+  '01503f0a-cb23-4fe7-a865-9d68bd683262', // History AQA — Medicine Through Time
+  'f24456bd-60a0-4eb5-9243-5fb3fe6331a0', // Computer Science — Systems Architecture
+  '2f89226b-2a7c-42b6-80f7-937bce050251', // Business Studies — Business in the Real World
+  '480cb1c4-76f6-41c8-8fb3-0c3e54573e90', // PE — Applied Anatomy & Physiology
 ]);
 
 export const FREE_SUBJECT_IDS = new Set([
-  '83bd5f93-be55-4ed6-8208-2007897e1b44', // Biology (Combined) AQA
   '813b5fdc-8020-4978-81f2-e9d498bed54f', // English Language AQA
-  'abf947ff-1638-4e14-bb7b-b319e4eb7675', // Geography AQA
-  '15232b38-e5ee-4b12-a5ae-c2427daa81fc', // Maths AQA
-  'db3d132d-bcc3-40c0-9c8a-2f8aceb450aa', // Music Eduqas
+  '1f37d924-d678-46ec-b3a4-5d973455e0eb', // English Literature AQA
+  '9694cb29-cfb2-4b9d-b517-ce230936152e', // History AQA
+  '32f9f399-0a0e-4e8a-b2c6-19ba538493a2', // Computer Science
+  'b75f5a42-e078-485d-b910-2ccea6a8ff09', // Business Studies
+  '3735e027-1de9-4ae7-a53b-4907ef0f6482', // Physical Education
 ]);

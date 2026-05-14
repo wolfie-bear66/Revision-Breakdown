@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@/utils/supabase/server';
-import { FREE_TOPIC_IDS } from '@/lib/free-topics';
 
 export async function GET(
   _request: NextRequest,
@@ -14,23 +13,29 @@ export async function GET(
     data: { user },
   } = await supabase.auth.getUser();
 
-  // 2. Fetch block with topic → subject, cards, and questions in one round-trip
-  const { data: block, error: blockError } = await supabase
-    .from('blocks')
-    .select(`
-      id,
-      block_name,
-      block_number,
-      topics(
+  // 2. Fetch block and (if signed in) subscription status in parallel
+  const [{ data: block, error: blockError }, { data: userData }] = await Promise.all([
+    supabase
+      .from('blocks')
+      .select(`
         id,
-        name,
-        subjects(id, name)
-      ),
-      cards(id, keyword, definition),
-      questions(id, type, question, options, correct_answer, explanation, display_order)
-    `)
-    .eq('id', blockId)
-    .single();
+        block_name,
+        block_number,
+        topics(
+          id,
+          name,
+          is_free,
+          subjects(id, name)
+        ),
+        cards(id, keyword, definition),
+        questions(id, type, question, options, correct_answer, explanation, display_order)
+      `)
+      .eq('id', blockId)
+      .single(),
+    user
+      ? supabase.from('users').select('subscription_status').eq('id', user.id).single()
+      : Promise.resolve({ data: null, error: null }),
+  ]);
 
   if (blockError || !block) {
     return NextResponse.json(
@@ -49,8 +54,9 @@ export async function GET(
     );
   }
 
-  // 3. Auth gate — non-free topics require a signed-in user
-  if (!FREE_TOPIC_IDS.has(topic.id) && !user) {
+  // 3. Gate: allow if the topic is free OR the user has an active subscription
+  const subscriptionActive = userData?.subscription_status === 'active';
+  if (!topic.is_free && !subscriptionActive) {
     return NextResponse.json({ error: 'locked' }, { status: 403 });
   }
 

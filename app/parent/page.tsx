@@ -37,7 +37,7 @@ export default async function ParentPage() {
   const supabase = await createClient()
 
   const { data: { user } } = await supabase.auth.getUser()
-  if (!user) redirect('/login')
+  if (!user) redirect('/upgrade')
 
   const { data: userRow } = await supabase
     .from('users')

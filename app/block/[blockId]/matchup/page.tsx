@@ -20,7 +20,7 @@ export default async function MatchUpPage({ params }: PageProps) {
   const result = await fetchBlockData(blockId);
 
   if (!result.ok) {
-    if (result.status === 401) redirect('/login');
+    if (result.status === 401) redirect('/upgrade');
     if (result.status === 403 && result.locked) redirect('/upgrade');
     redirect('/dashboard');
   }

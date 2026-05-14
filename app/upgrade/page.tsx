@@ -30,6 +30,9 @@ export default function UpgradePage() {
   return (
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4 py-16">
       <div className="w-full max-w-md flex flex-col gap-8">
+        <a href="/" className="flex items-center gap-1.5 text-sm text-gray-400 hover:text-gray-600 transition-colors self-start">
+          ← Revision Breakdown
+        </a>
 
         <div className="text-center">
           <h1 className="text-3xl font-bold text-gray-900">Unlock Revision Breakdown</h1>
