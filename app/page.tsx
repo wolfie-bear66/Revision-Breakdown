@@ -359,7 +359,7 @@ export default function LandingPage() {
                   style={{ minHeight: '500px', display: 'flex', flexDirection: 'column', gap: '24px', alignItems: 'center', justifyContent: 'center', padding: '40px 0' }}
                 >
                   <Image src="/landing/rings.png" alt="Progress dashboard" width={520} height={380} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
-                  <Image src="/landing/parent.png" alt="Parent dashboard" width={520} height={400} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+                  <Image src="/landing/parent.png" alt="Parent dashboard — see your child's progress" width={520} height={400} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
                 </div>
               </div>
 
@@ -411,7 +411,7 @@ export default function LandingPage() {
                 visual: (
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginTop: '20px' }}>
                     <Image src="/landing/rings.png" alt="Dashboard" width={480} height={360} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
-                    <Image src="/landing/parent.png" alt="Parent view" width={480} height={380} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+                    <Image src="/landing/parent.png" alt="Parent dashboard — see your child's progress" width={520} height={400} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
                   </div>
                 ) as React.ReactNode,
                 extra: null as React.ReactNode,
