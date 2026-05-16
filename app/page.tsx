@@ -208,7 +208,7 @@ export default function LandingPage() {
           <p style={{ fontSize: '1rem', color: 'var(--muted)', marginBottom: '48px', maxWidth: '520px' }}>Parent pays once. Student gets a login code. Pick subjects. Start revising.</p>
 
           {/* 2x2 GRID — steps 1 to 4 */}
-          <div style={{
+          <div className="how-grid" style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(2, 1fr)',
             gap: '24px',
@@ -291,7 +291,7 @@ export default function LandingPage() {
           </div>
 
           {/* FULL-WIDTH ROW — parent dashboard bonus point */}
-          <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '16px', overflow: 'hidden', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 0 }}>
+          <div className="how-parent-row" style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '16px', overflow: 'hidden', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 0 }}>
             <div style={{ padding: '40px 40px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
               <div style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
                 <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: 'var(--amber)', color: '#0e0e0e', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
@@ -304,19 +304,25 @@ export default function LandingPage() {
                 </div>
               </div>
             </div>
-            <div style={{ borderLeft: '1px solid var(--border)', overflow: 'hidden' }}>
+            <div className="how-parent-image" style={{ borderLeft: '1px solid var(--border)', overflow: 'hidden' }}>
               <Image src="/landing/parent.png" alt="Parent dashboard showing student progress" width={560} height={400} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top', display: 'block' }} />
             </div>
           </div>
 
           {/* MOBILE: stacked layout */}
           <style>{`
-            @media (max-width: 768px) {
-              .how-grid { grid-template-columns: 1fr !important; }
-              .how-parent-row { grid-template-columns: 1fr !important; }
-              .how-parent-row .how-parent-image { display: none; }
-            }
-          `}</style>
+  @media (max-width: 768px) {
+    .how-grid {
+      grid-template-columns: 1fr !important;
+    }
+    .how-parent-row {
+      grid-template-columns: 1fr !important;
+    }
+    .how-parent-image {
+      display: none !important;
+    }
+  }
+`}</style>
 
         </div>
       </section>
