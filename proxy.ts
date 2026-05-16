@@ -20,6 +20,11 @@ const PUBLIC_ROUTES = new Set([
   '/api/blocks',
   '/block',
   '/reset-password',
+  '/about',
+  '/contact',
+  '/terms',
+  '/privacy',
+  '/refund',
 ])
 
 function isPublic(pathname: string): boolean {
