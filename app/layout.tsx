@@ -4,6 +4,7 @@ import { Geist, Atkinson_Hyperlegible } from 'next/font/google';
 import { cn } from '@/lib/utils';
 import { Providers } from './providers';
 import { Analytics } from '@vercel/analytics/react';
+import CookieBanner from '@/components/CookieBanner';
 
 const geist = Geist({ subsets: ['latin'], variable: '--font-sans' });
 const atkinson = Atkinson_Hyperlegible({
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <Providers>{children}</Providers>
         <Analytics />
+        <CookieBanner />
       </body>
     </html>
   );
