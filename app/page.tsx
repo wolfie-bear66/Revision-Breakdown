@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect } from 'react';
 import { ThemeSwitcher } from '@/components/ThemeSwitcher';
 
 const S: Record<string, React.CSSProperties> = {
@@ -60,9 +60,6 @@ const STEPS = [
 ];
 
 export default function LandingPage() {
-  const [activeStep, setActiveStep] = useState(0);
-  const stepRefs = useRef<(HTMLDivElement | null)[]>([]);
-
   // Reveal animations
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -72,46 +69,6 @@ export default function LandingPage() {
     document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
     return () => observer.disconnect();
   }, []);
-
-  // Legacy step observer (kept for compatibility — no-ops when .step-panel elements are absent)
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((e) => {
-          if (e.isIntersecting) {
-            const idx = parseInt(e.target.getAttribute('data-step') ?? '0', 10);
-            setActiveStep(idx);
-          }
-        });
-      },
-      { threshold: 0.5 }
-    );
-    document.querySelectorAll('.step-panel').forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
-  }, []);
-
-  // Ref-based active step tracker for desktop sticky list
-  useEffect(() => {
-    const observers: IntersectionObserver[] = [];
-    stepRefs.current.forEach((ref, index) => {
-      if (!ref) return;
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) setActiveStep(index);
-          });
-        },
-        { threshold: 0.4, rootMargin: '-10% 0px -40% 0px' }
-      );
-      observer.observe(ref);
-      observers.push(observer);
-    });
-    return () => observers.forEach((o) => o.disconnect());
-  }, []);
-
-  function scrollToStep(idx: number) {
-    document.getElementById(`step-panel-${idx}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  }
 
   return (
     <div style={{ ...S.bg, ...font, minHeight: '100vh', overflowX: 'hidden', lineHeight: 1.6 }}>
@@ -248,188 +205,118 @@ export default function LandingPage() {
           {/* Section header */}
           <p style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--amber)', marginBottom: '8px' }}>How it works</p>
           <h2 style={{ fontSize: 'clamp(1.6rem, 3.5vw, 2.2rem)', fontWeight: 700, color: 'var(--heading)', marginBottom: '12px', letterSpacing: '-0.01em' }}>Four steps. Zero faff.</h2>
-          <p style={{ fontSize: '1rem', color: 'var(--muted)', marginBottom: '56px', maxWidth: '520px' }}>Parent pays once. Student gets a login code. Pick subjects. Start revising.</p>
+          <p style={{ fontSize: '1rem', color: 'var(--muted)', marginBottom: '48px', maxWidth: '520px' }}>Parent pays once. Student gets a login code. Pick subjects. Start revising.</p>
 
-          {/* DESKTOP: two-column sticky layout — hidden on mobile */}
-          <div className="how-desktop">
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0 64px', alignItems: 'start' }}>
+          {/* 2x2 GRID — steps 1 to 4 */}
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(2, 1fr)',
+            gap: '24px',
+            marginBottom: '24px',
+          }}>
 
-              {/* LEFT: sticky step list */}
-              <div style={{ position: 'sticky', top: '88px', alignSelf: 'start' }}>
-                {[
-                  {
-                    heading: 'Parent pays once — £5, no subscription',
-                    body: 'Checkout takes 60 seconds. You receive a student login code by email. No student data is ever collected or stored.',
-                    extra: null as React.ReactNode,
-                  },
-                  {
-                    heading: 'Student picks their subjects & exam board',
-                    body: '28 subjects across AQA, Edexcel, OCR and Eduqas. Combined and separate science included. Your exam board, your topics.',
-                    extra: null as React.ReactNode,
-                  },
-                  {
-                    heading: 'Revise in 5 modes — 15 minutes is enough',
-                    body: 'Flashcards, multiple choice, true/false, fill in the blank, and match-up. Every question reads itself aloud.',
-                    extra: (
-                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginTop: '12px' }}>
-                        {[['Flashcards','#378ADD'],['MCQ','#7F77DD'],['True/False','#1D9E75'],['Fill in Blank','#D85A30'],['Match-Up','#D4537E']].map(([label, bg]) => (
-                          <span key={label} style={{ background: bg, color: 'white', fontSize: '12px', fontWeight: 700, padding: '4px 12px', borderRadius: '99px' }}>{label}</span>
-                        ))}
-                      </div>
-                    ) as React.ReactNode,
-                  },
-                  {
-                    heading: 'Watch progress build — earn badges for every subject',
-                    body: 'Colour rings fill as you answer more questions. Complete every block and earn the subject badge. Parents can check in any time.',
-                    extra: null as React.ReactNode,
-                  },
-                ].map((step, i) => (
-                  <div
-                    key={i}
-                    onClick={() => stepRefs.current[i]?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
-                    style={{
-                      display: 'flex',
-                      gap: '20px',
-                      padding: '28px 0',
-                      borderBottom: '1px solid var(--border)',
-                      cursor: 'pointer',
-                      opacity: activeStep === i ? 1 : 0.45,
-                      transition: 'opacity 0.3s ease',
-                    }}
-                  >
-                    <div style={{
-                      width: '44px', height: '44px', borderRadius: '50%', flexShrink: 0,
-                      background: activeStep === i ? 'var(--mint)' : 'var(--surface2)',
-                      color: activeStep === i ? '#0e0e0e' : 'var(--muted)',
-                      display: 'flex', alignItems: 'center', justifyContent: 'center',
-                      fontWeight: 700, fontSize: '18px',
-                      transition: 'background 0.3s ease, color 0.3s ease',
-                    }}>{i + 1}</div>
-                    <div style={{ flex: 1 }}>
-                      <h3 style={{
-                        fontSize: '17px', fontWeight: 700, marginBottom: '8px',
-                        color: activeStep === i ? 'var(--mint)' : 'var(--heading)',
-                        transition: 'color 0.3s ease',
-                      }}>{step.heading}</h3>
-                      <p style={{ fontSize: '15px', color: 'var(--muted)', lineHeight: 1.7 }}>{step.body}</p>
-                      {step.extra}
+            {/* Step 1 — code card */}
+            <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '16px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+              <div style={{ padding: '28px 28px 20px' }}>
+                <div style={{ display: 'flex', gap: '16px', alignItems: 'flex-start', marginBottom: '16px' }}>
+                  <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: 'var(--mint)', color: '#0e0e0e', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: '17px', flexShrink: 0 }}>1</div>
+                  <div>
+                    <h3 style={{ fontSize: '16px', fontWeight: 700, color: 'var(--heading)', marginBottom: '6px' }}>Parent pays once — £5, no subscription</h3>
+                    <p style={{ fontSize: '14px', color: 'var(--muted)', lineHeight: 1.6 }}>Checkout takes 60 seconds. You receive a student login code by email. No student data is ever collected or stored.</p>
+                  </div>
+                </div>
+              </div>
+              <div style={{ background: 'var(--surface2)', borderTop: '1px solid var(--border)', padding: '28px', display: 'flex', alignItems: 'center', justifyContent: 'center', flex: 1 }}>
+                <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '12px', padding: '28px 36px', textAlign: 'center', width: '100%', maxWidth: '280px' }}>
+                  <p style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--muted)', marginBottom: '12px' }}>Your code</p>
+                  <p style={{ fontSize: '1.8rem', fontWeight: 700, color: 'var(--mint)', letterSpacing: '0.08em', marginBottom: '12px' }}>RB-4821-KXQT</p>
+                  <p style={{ fontSize: '13px', color: 'var(--muted)' }}>Share with your child</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Step 2 — topics */}
+            <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '16px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+              <div style={{ padding: '28px 28px 20px' }}>
+                <div style={{ display: 'flex', gap: '16px', alignItems: 'flex-start', marginBottom: '16px' }}>
+                  <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: 'var(--mint)', color: '#0e0e0e', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: '17px', flexShrink: 0 }}>2</div>
+                  <div>
+                    <h3 style={{ fontSize: '16px', fontWeight: 700, color: 'var(--heading)', marginBottom: '6px' }}>Student picks their subjects &amp; exam board</h3>
+                    <p style={{ fontSize: '14px', color: 'var(--muted)', lineHeight: 1.6 }}>28 subjects across AQA, Edexcel, OCR and Eduqas. Combined and separate science included. Your exam board, your topics.</p>
+                  </div>
+                </div>
+              </div>
+              <div style={{ borderTop: '1px solid var(--border)', overflow: 'hidden', flex: 1 }}>
+                <Image src="/landing/topics.png" alt="Subject topics and exam boards" width={560} height={400} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top', display: 'block' }} />
+              </div>
+            </div>
+
+            {/* Step 3 — flashcard */}
+            <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '16px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+              <div style={{ padding: '28px 28px 20px' }}>
+                <div style={{ display: 'flex', gap: '16px', alignItems: 'flex-start', marginBottom: '16px' }}>
+                  <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: 'var(--mint)', color: '#0e0e0e', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: '17px', flexShrink: 0 }}>3</div>
+                  <div>
+                    <h3 style={{ fontSize: '16px', fontWeight: 700, color: 'var(--heading)', marginBottom: '6px' }}>Revise in 5 modes — 15 minutes is enough</h3>
+                    <p style={{ fontSize: '14px', color: 'var(--muted)', lineHeight: 1.6 }}>Flashcards, multiple choice, true/false, fill in the blank, and match-up. Every question reads itself aloud.</p>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '10px' }}>
+                      {[['Flashcards','#378ADD'],['MCQ','#7F77DD'],['True/False','#1D9E75'],['Fill in Blank','#D85A30'],['Match-Up','#D4537E']].map(([label, bg]) => (
+                        <span key={label} style={{ background: bg, color: 'white', fontSize: '11px', fontWeight: 700, padding: '3px 10px', borderRadius: '99px' }}>{label}</span>
+                      ))}
                     </div>
                   </div>
-                ))}
+                </div>
               </div>
+              <div style={{ borderTop: '1px solid var(--border)', overflow: 'hidden', flex: 1 }}>
+                <Image src="/landing/flashcard.png" alt="Flashcard question" width={560} height={400} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top', display: 'block' }} />
+              </div>
+            </div>
 
-              {/* RIGHT: scrolling image panels */}
-              <div>
-                {/* Panel 0 — code card */}
-                <div
-                  ref={(el) => { stepRefs.current[0] = el; }}
-                  style={{ minHeight: '500px', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '40px 0' }}
-                >
-                  <div style={{
-                    background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '16px',
-                    padding: '40px 48px', textAlign: 'center', maxWidth: '320px', width: '100%',
-                  }}>
-                    <p style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--muted)', marginBottom: '16px' }}>Your code</p>
-                    <p style={{ fontSize: '2rem', fontWeight: 700, color: 'var(--mint)', letterSpacing: '0.08em', marginBottom: '16px' }}>RB-4821-KXQT</p>
-                    <p style={{ fontSize: '14px', color: 'var(--muted)' }}>Share with your child</p>
+            {/* Step 4 — dashboard */}
+            <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '16px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+              <div style={{ padding: '28px 28px 20px' }}>
+                <div style={{ display: 'flex', gap: '16px', alignItems: 'flex-start', marginBottom: '16px' }}>
+                  <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: 'var(--mint)', color: '#0e0e0e', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: '17px', flexShrink: 0 }}>4</div>
+                  <div>
+                    <h3 style={{ fontSize: '16px', fontWeight: 700, color: 'var(--heading)', marginBottom: '6px' }}>Watch progress build — earn badges for every subject</h3>
+                    <p style={{ fontSize: '14px', color: 'var(--muted)', lineHeight: 1.6 }}>Colour rings fill as you answer more questions. Complete every block and earn the subject badge.</p>
                   </div>
                 </div>
+              </div>
+              <div style={{ borderTop: '1px solid var(--border)', overflow: 'hidden', flex: 1 }}>
+                <Image src="/landing/dashboard.png" alt="Progress dashboard" width={560} height={400} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top', display: 'block' }} />
+              </div>
+            </div>
 
-                {/* Panel 1 — topics */}
-                <div
-                  ref={(el) => { stepRefs.current[1] = el; }}
-                  style={{ minHeight: '500px', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '40px 0' }}
-                >
-                  <Image src="/landing/topics.png" alt="Subject topics and exam boards" width={520} height={460} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+          </div>
+
+          {/* FULL-WIDTH ROW — parent dashboard bonus point */}
+          <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '16px', overflow: 'hidden', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 0 }}>
+            <div style={{ padding: '40px 40px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+              <div style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
+                <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: 'var(--amber)', color: '#0e0e0e', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                 </div>
-
-                {/* Panel 2 — flashcard + matchup */}
-                <div
-                  ref={(el) => { stepRefs.current[2] = el; }}
-                  style={{ minHeight: '500px', display: 'flex', flexDirection: 'column', gap: '24px', alignItems: 'center', justifyContent: 'center', padding: '40px 0' }}
-                >
-                  <Image src="/landing/flashcard.png" alt="Flashcard question" width={520} height={360} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
-                  <Image src="/landing/matchup.png" alt="Match-up question" width={520} height={360} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
-                </div>
-
-                {/* Panel 3 — dashboard + parent */}
-                {/* NOTE: replace /landing/rings.png with /landing/dashboard.png once that file is added to public/landing/ */}
-                <div
-                  ref={(el) => { stepRefs.current[3] = el; }}
-                  style={{ minHeight: '500px', display: 'flex', flexDirection: 'column', gap: '24px', alignItems: 'center', justifyContent: 'center', padding: '40px 0' }}
-                >
-                  <Image src="/landing/dashboard.png" alt="Progress dashboard" width={520} height={380} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
-                  <Image src="/landing/parent.png" alt="Parent dashboard — see your child's progress" width={520} height={400} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
+                <div>
+                  <p style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--amber)', marginBottom: '6px' }}>For parents</p>
+                  <h3 style={{ fontSize: '18px', fontWeight: 700, color: 'var(--heading)', marginBottom: '10px' }}>Check in on your child&apos;s progress any time</h3>
+                  <p style={{ fontSize: '14px', color: 'var(--muted)', lineHeight: 1.7 }}>Your parent dashboard shows exactly which subjects and topics your child has worked through, how they&apos;re scoring, and where the gaps are. No nagging needed.</p>
                 </div>
               </div>
-
+            </div>
+            <div style={{ borderLeft: '1px solid var(--border)', overflow: 'hidden' }}>
+              <Image src="/landing/parent.png" alt="Parent dashboard showing student progress" width={560} height={400} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top', display: 'block' }} />
             </div>
           </div>
 
-          {/* MOBILE: stacked layout — hidden on desktop */}
-          <div className="how-mobile">
-            {[
-              {
-                heading: 'Parent pays once — £5, no subscription',
-                body: 'Checkout takes 60 seconds. You receive a student login code by email. No student data is ever collected or stored.',
-                visual: (
-                  <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '16px', padding: '32px', textAlign: 'center', margin: '20px 0 0' }}>
-                    <p style={{ fontSize: '11px', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--muted)', marginBottom: '12px' }}>Your code</p>
-                    <p style={{ fontSize: '1.6rem', fontWeight: 700, color: 'var(--mint)', letterSpacing: '0.08em', marginBottom: '12px' }}>RB-4821-KXQT</p>
-                    <p style={{ fontSize: '13px', color: 'var(--muted)' }}>Share with your child</p>
-                  </div>
-                ) as React.ReactNode,
-                extra: null as React.ReactNode,
-              },
-              {
-                heading: 'Student picks their subjects & exam board',
-                body: '28 subjects across AQA, Edexcel, OCR and Eduqas. Combined and separate science included.',
-                visual: <Image src="/landing/topics.png" alt="Topics" width={480} height={420} style={{ width: '100%', height: 'auto', borderRadius: '12px', marginTop: '20px' }} /> as React.ReactNode,
-                extra: null as React.ReactNode,
-              },
-              {
-                heading: 'Revise in 5 modes — 15 minutes is enough',
-                body: 'Flashcards, multiple choice, true/false, fill in the blank, and match-up. Every question reads itself aloud.',
-                visual: (
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginTop: '20px' }}>
-                    <Image src="/landing/flashcard.png" alt="Flashcard" width={480} height={340} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
-                    <Image src="/landing/matchup.png" alt="Match-up" width={480} height={340} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
-                  </div>
-                ) as React.ReactNode,
-                extra: (
-                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginTop: '12px' }}>
-                    {[['Flashcards','#378ADD'],['MCQ','#7F77DD'],['True/False','#1D9E75'],['Fill in Blank','#D85A30'],['Match-Up','#D4537E']].map(([label, bg]) => (
-                      <span key={label} style={{ background: bg, color: 'white', fontSize: '12px', fontWeight: 700, padding: '4px 12px', borderRadius: '99px' }}>{label}</span>
-                    ))}
-                  </div>
-                ) as React.ReactNode,
-              },
-              {
-                heading: 'Watch progress build — earn badges for every subject',
-                body: 'Colour rings fill as you answer more questions. Complete every block and earn the subject badge.',
-                /* NOTE: replace rings.png with dashboard.png once that file is added to public/landing/ */
-                visual: (
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginTop: '20px' }}>
-                    <Image src="/landing/dashboard.png" alt="Dashboard" width={480} height={360} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
-                    <Image src="/landing/parent.png" alt="Parent dashboard — see your child's progress" width={520} height={400} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
-                  </div>
-                ) as React.ReactNode,
-                extra: null as React.ReactNode,
-              },
-            ].map((step, i) => (
-              <div key={i} style={{ marginBottom: '48px' }}>
-                <div style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
-                  <div style={{ width: '44px', height: '44px', borderRadius: '50%', background: 'var(--mint)', color: '#0e0e0e', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 700, fontSize: '18px', flexShrink: 0 }}>{i + 1}</div>
-                  <div style={{ flex: 1 }}>
-                    <h3 style={{ fontSize: '17px', fontWeight: 700, color: 'var(--heading)', marginBottom: '8px' }}>{step.heading}</h3>
-                    <p style={{ fontSize: '15px', color: 'var(--muted)', lineHeight: 1.7 }}>{step.body}</p>
-                    {step.extra}
-                  </div>
-                </div>
-                {step.visual}
-              </div>
-            ))}
-          </div>
+          {/* MOBILE: stacked layout */}
+          <style>{`
+            @media (max-width: 768px) {
+              .how-grid { grid-template-columns: 1fr !important; }
+              .how-parent-row { grid-template-columns: 1fr !important; }
+              .how-parent-row .how-parent-image { display: none; }
+            }
+          `}</style>
 
         </div>
       </section>
